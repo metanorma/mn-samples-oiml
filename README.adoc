@@ -1,0 +1,81 @@
+= OIML Metanorma Documents
+
+These documents belong to the Organisation Internationale de Métrologie Légale /
+International Organization of Legal Metrology (OIML).
+
+This repository contains the OIML R060 recommendation and its parts.
+
+== Structure
+
+`sources/`::
+Source of the documents.
+
+`sources/r060/`::
+OIML R060: Metrological regulation for load cells
+
+`sources/r060/collection.yaml`::
+Metanorma collection of all OIML R060 parts.
+
+`sources/r060/1/`::
+Part 1: Metrological and technical requirements
+
+`sources/r060/2/`::
+Part 2: Metrological controls and performance tests
+
+`sources/r060/3/`::
+Part 3: Test report format
+
+`sources/r060/annex/`::
+Annexes
+
+`reference-docs/`::
+Reference documents.
+
+`_site/`::
+(automatically generated after compilation) published documents.
+
+
+== Usage (general)
+
+=== Quick start
+
+The easy way if you install locally:
+
+[source,sh]
+----
+git clone https://github.com/metanorma/mn-samples-oiml/
+bundle
+bundle exec metanorma sources/r060/collection.yaml
+# => sources/r060/collection.{html,pdf,xml}
+----
+
+=== Installing Metanorma
+
+See https://www.metanorma.org
+
+=== Building a single document
+
+[source,sh]
+----
+bundle exec metanorma sources/r060/1/document.adoc
+----
+
+This command outputs the built document at:
+
+* `sources/{document-dir}/document.{html,pdf,xml}`
+
+=== Building the full site
+
+[source,sh]
+----
+bundle exec metanorma site generate
+----
+
+This command creates `_site/`. The HTML entry point is at `_site/index.html`.
+
+== License and copyright
+
+Content: Organisation Internationale de Métrologie Légale / International
+Organization of Legal Metrology (OIML).
+
+Code and others: Ribose.
