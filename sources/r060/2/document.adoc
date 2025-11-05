@@ -1,0 +1,26 @@
+= Metrological regulation for load cells
+:docnumber: 60-2
+:partnumber: 2
+:edition: 2
+:revdate: 2021-10-01
+:copyright-year: 2021
+:language: en
+:title-main-en: Metrological regulation for load cells
+:title-part-en: Metrological and technical requirements
+:title-main-fr: Réglementation métrologique des cellules de pesée
+:title-part-fr: Exigences métrologiques et techniques
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 9
+:technical-committee: Instruments for measuring mass and density
+:mn-document-class: iso
+:mn-output-extensions: html
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-metrological-controls.adoc[]
+
+include::sections/02-type-evaluation.adoc[]
