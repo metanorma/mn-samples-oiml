@@ -1,0 +1,177 @@
+
+[[annex-c]]
+[appendix,obligation="informative"]
+== OIML certificate for load cells
+
+This Annex is provided as an example of supplemental information that may be included
+in the OIML certificate and is intended to complement the information found in <<annex-b>>.
+
+[[sec-C.1]]
+=== Certificate history
+
+[cols="3",options="header,unnumbered"]
+|===
+| Certificate version | Date | Essential changes
+
+| Rev. 0 | DD MM YYYY | Certificate first issued
+|===
+
+[[sec-C.2]]
+=== Technical data
+
+The metrological characteristics of the load cells type xxx are listed in <<table-C2>>.
+Further technical data are listed in the data sheet of the manufacturer (see the
+section "6 Data sheet and dimensions" in this Annex).
+
+[[table-C2]]
+.Essential data
+[cols="a,a,a"]
+|===
+| Accuracy class | | C
+
+| Maximum number of load cell intervals stem:[n_{"LC"}] | | stem:[3000]
+
+| Rated output | stem:["unitsml(mV/V)"] | 2
+
+| Maximum capacity stem:[E_{"max"}] | stem:["unitsml(kg)"] | 150 / 200 / 250 / 300 / 500 / 750
+
+| Minimum load cell verification interval | stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] | stem:["unitsml(kg)"] | stem:[E_{"max"} // 15000]
+
+| Minimum dead load output return | stem:["DR" = 1//2 (E_{"max"} - E_{"min"})// Z] | stem:["unitsml(kg)"] | stem:[1//2 (E_{"max"} - E_{"min"}) // 5000]
+
+|===
+
+Dead load: xxx stem:[% cdot E_{"max"}]; Safe overload: xxx stem:[% cdot E_{"max"}]; Input impedance: xxx stem:["unitsml(Ohm)"]
+
+[[sec-C.3]] 
+=== Tests
+
+The determination of the measurement error, the stability of the dead load output,
+repeatability and creep in the temperature range of stem:[-10 "unitsml(degC)"] to
+stem:[+40 "unitsml(degC)"] as well as the tests of barometric pressure effects and
+the determination of the effects of damp heat steady state have been performed according
+to OIML R 60 as shown in <<table-C2>> on the load cell denominated in the test report
+with the reference No. xxx, dated xxx.
+
+[[table-C3]]
+.Tests performed
+[cols="a,a,a,a",options="header"]
+|===
+| Test | R 60 | Tested samples | Result
+
+| Temperature test and repeatability at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.3.2; 5.4; R 60-2, 2.10.1 | stem:[150 "unitsml(kg)"] | +++
+| Temp. effect on minimum dead load output at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.6.1.3; R 60-2, 2.10.1.16 | stem:[150 "unitsml(kg)"] | +++
+| Creep test at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.5.1; R 60-2, 2.10.2 | stem:[150 "unitsml(kg)"] | +++
+| Minimum dead load output return at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.5.2; R 60-2, 2.10.3 | stem:[150 "unitsml(kg)"] | +++
+| Barometric pressure effects at ambient temperature | R 60-1, 5.6.2; R 60-2, 2.10.4 | stem:[150 "unitsml(kg)"] | +++
+| Damp heat test, static, marked SH | R 60-1, 5.6.3.2; R 60-2, 2.10.6 | stem:[150 "unitsml(kg)"] | +++
+|===
+
+[[sec-C.4]]
+=== Description of the load cell
+
+====
+The load cells (LC) of the series xxx are double bending beam load cells. They are
+made of aluminium, and the strain gauge application is hermetically sealed. Further
+essential characteristics are given in the data sheet (see the section "6 Data sheet
+and dimensions" in this Annex).
+
+++[Include a picture/diagram of the load cell]++
+
+Figure 1 - Load cell type xxx
+
+The complete type designation is indicated as follows in the example on the name plate:
+
+++[Include a picture/diagram of the name plate]++
+
+Figure 2 - Name plate
+====
+
+[[sec-C.5]]
+=== Documentation
+
+====
+* Test Report No. xxx; C3; stem:[Y = "xxx"]; stem:[Z = "xxx"]; stem:[E_{"max"} = "xxx" "unitsml(kg)"]; SN: xxx
+
+* Datasheet No. Xxx
+
+* Technical Drawing No. Xxx
+====
+
+[[sec-C.6]]
+=== Further information
+
+The manufacturing process, material and sealing (i.e., environmental protection)
+of the produced load cells shall be in accordance with the tested patterns; essential
+changes shall be identified and communicated to the issuing authority and are only
+allowed with the permission of the issuing authority based on the impact of those
+changes on the certification process.
+
+Sufficient information shall be included to describe the patent design.
+
+The typical errors related to linearity, hysteresis and temperature coefficient as
+indicated in the data sheet point out possible single errors of a pattern; however,
+the overall error of each pattern is determined by the maximum permissible error
+according OIML R 60-1, 5.3.2.
+
+The technical data, the dimensions of the load cell and the principle of load transmission
+are given in section 6 of this Annex, "Data sheet and dimensions", and shall be complied with.
+
+[[sec-C.7]]
+=== Data sheet and dimensions
+
+Specifications of the load cell family
+
+[cols="a,a,a,a",options="noheader,unnumbered"]
+|===
+2+| Accuracy class according to OIML R 60 |                  | C
+| Rated output                            |                  | stem:["unitsml(mV/V)"]  | stem:[2.0 pm 0.2]
+| Maximum capacity                        | stem:[E_{"max"}] | stem:["unitsml(kg)"]    | 150 / 200 / 250 / 300 / 500 / 750
+| Max. number of load cell intervals      | stem:[n_{"LC"}]  |                         | stem:[3000]
+| Min. load cell verification interval    | stem:[v_{"min"}] | stem:["unitsml(kg)"]    | stem:[E_{"max"} // 15000]
+| Minimum dead load output return (MDLOR) | DR               | stem:["unitsml(kg)"]    | stem:[1//2 cdot E_{"max"} // 5000]
+| Minimum dead load                       |                  | stem:[% cdot E_{"max"}] | 0
+| Safe load limit                         |                  | stem:[% cdot E_{"max"}] | 150
+| Ultimate load                           |                  | stem:[% cdot E_{"max"}] | 300
+| Excitation voltage, recommended         | stem:[U_{"EXE"}] | V                       | 10-12 DC
+| Excitation voltage, maximum             |                  | stem:["unitsml(V)"]     | 15 DC
+| Input resistance                        | stem:[R_{"LC"}]  | stem:["unitsml(Ohm)"]   | stem:[404 pm 10]
+| Output resistance                       | stem:[R_{"out"}] | stem:["unitsml(Ohm)"]   | stem:[350 pm 3]
+| Insulation resistance                   | RISO             | stem:["unitsml(MOhm)"]  | stem:[=> 2000]
+| Compensated temperature range           | stem:[T]         | stem:["unitsml(degC)"]  | stem:[-10...+40]
+| Load cell material                      |                  |                         | Aluminium
+| Cable length                            | stem:[L]         | stem:["unitsml(m)"]     | 2
+| Coating                                 |                  |                         | Silicone rubber
+|===
+
+[[sec-C.8]]
+=== Wiring
+
+The load cell is provided with a shielded 4- or 6-wire cable. The cable length is
+indicated in the accompanying document. The shield will be connected or not connected
+to the load cell according to the customer's preference.
+
+[%unnumbered]
+image::figure-un1.png[] 
+
+[[sec-C.9]]
+=== Connections
+
+[cols="a,a,a",options="header,unnumbered"]
+|===
+| Connections | 4-wire | 6-wire
+
+| Excitation + | red    | red
+| Excitation - | black  | black
+| Signal +     | green  | green
+| Signal -     | white  | white
+| Sense +      | -      | blue
+| Sense -      | -      | yellow
+| Shield       | purple | purple
+| Cable length | 2 m    |
+|===
+
+[[sec-C.10]]
+=== Dimensions
+
+++[Include a picture/diagram of the load cell dimensions]++

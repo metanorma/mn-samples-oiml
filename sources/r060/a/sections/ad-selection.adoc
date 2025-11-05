@@ -1,0 +1,1163 @@
+
+[[annex-d]]
+[appendix,obligation="informative"]
+== Selection of load cell(s) for testing - a practical example
+
+=== {blank}
+
+This Annex describes a practical example showing the complete procedure for the selection
+of test samples out of a load cell family.
+
+=== {blank}
+
+Assume a family consisting of three groups of load cells, differing in class, maximum
+number of load cell verification intervals, stem:[n_{"LC"}], and maximum capacities,
+stem:[E_{"max"}]. The capacities, stem:[E_{"max"}], overlap between the groups according
+to the following example:
+
+Group 1::
++
+--
+Class C, stem:[n_{"LC"} = 6000], stem:[Y = 18000], stem:[Z = 6000]
+
+stem:[E_{"max"}]:stem:[50 "unitsml(kg)"],stem:[100 "unitsml(kg)"], stem:[300 "unitsml(kg)"]
+ and  stem:[500 "unitsml(kg)"]
+--
+
+Group 2::
++
+--
+Class C, stem:[n_{"LC"} = 3000], stem:[Y = 12000], stem:[Z = 4000]
+
+stem:[E_{"max"}]: stem:[100 "unitsml(kg)"], stem:[300 "unitsml(kg)"], stem:[500 "unitsml(kg)"],
+stem:[5000 "unitsml(kg)"], stem:[10 "unitsml(t)"], stem:[30 "unitsml(t)"] and stem:[50 "unitsml(t)"]
+--
+
+Group 3::
++
+--
+Class B, stem:[n_{"LC"} = 10000], stem:[Y = 25000], stem:[Z = 10000]
+
+stem:[E_{"max"}]: stem:[500 "unitsml(kg)"], stem:[1000 "unitsml(kg)"] and stem:[4000 "unitsml(kg)"]
+--
+
+[[sec-D.2.1]]
+==== Summarise and sort the load cells with respect to stem:[E_{"max"}] and accuracy as follows:
+
+[cols="a,a,a,a,a,a,a,a,a,a,a,a",options="noheader,unnumbered"]
+|===
+| Class
+
+stem:[n_{"LC"}]
+
+Group
+
+| stem:[Y]
+
+&#x200c;
+
+stem:[Z]
+
+3+^| ++<---++ lowest
+
+&#x200c;
+
+&#x200c;
+
+2+| stem:[E_{"max"}, "unitsml(kg)"]
+
+&#x200c;
+
+stem:[v_{"min"}, "unitsml(kg)"]
+
+5+^| ++--->++ highest
+
+&#x200c;
+
+&#x200c;
+
+| C3
+
+stem:[3000]
+
+stem:[2]
+
+| stem:[12000]
+
+&#x200c;
+
+stem:[4000]
+
+|
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0083]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.025]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.042]
+
+| |
+
+| stem:[5000]
+
+&#x200c;
+
+stem:[0.42]
+
+| stem:[10000]
+
+&#x200c;
+
+stem:[0.83]
+
+| stem:[30000]
+
+&#x200c;
+
+stem:[2.5]
+
+| stem:[50000]
+
+&#x200c;
+
+stem:[4.17]
+
+| C6
+
+stem:[6000]
+
+stem:[1]
+
+| stem:[18000]
+
+&#x200c;
+
+stem:[6000]
+
+| stem:[50]
+
+&#x200c;
+
+stem:[0.0028]
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0055]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.0167]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.028]
+
+| | | | | |
+
+| B10
+
+stem:[10000]
+
+stem:[3]
+
+| stem:[25000]
+
+&#x200c;
+
+stem:[10000]
+
+| | | 
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.020]
+
+| stem:[1000]
+
+&#x200c;
+
+stem:[0.040]
+
+| stem:[4000]
+
+&#x200c;
+
+stem:[0.16]
+
+| | | |
+|===
+
+[[sec-D.2.2]]
+==== Identify the smallest capacity load cells in each group to be tested, according to R 60-2, 2.4:
+
+[cols="a,a,a,a,a,a,a,a,a,a,a,a",options="noheader,unnumbered"]
+|===
+| Class
+
+stem:[n_{"LC"}]
+
+Group
+
+| stem:[Y]
+
+&#x200c;
+
+stem:[Z]
+
+3+| ++<---++ lowest
+
+&#x200c;
+
+&#x200c;
+
+2+| stem:[E_{"max"}, "unitsml(kg)"]
+
+&#x200c;
+
+stem:[v_{"min"}, "unitsml(kg)"]
+
+5+| ++--->++ highest
+
+&#x200c;
+
+&#x200c;
+
+| C3
+
+stem:[3000]
+
+stem:[2]
+
+| stem:[12000]
+
+&#x200c;
+
+stem:[4000]
+
+|
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0083]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.025]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.042]
+
+| |
+
+| stem:[5000]
+
+&#x200c;
+
+stem:[0.42]
+
+| stem:[10000]
+
+&#x200c;
+
+stem:[0.83]
+
+| stem:[30000]
+
+&#x200c;
+
+stem:[2.5]
+| stem:[50000]
+
+&#x200c;
+
+stem:[4.17]
+
+| C6
+
+stem:[6000]
+
+1
+
+| stem:[18000]
+
+&#x200c;
+
+stem:[6000]
+
+| 50
+
+&#x200c;
+
+stem:[0.028]
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0055]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.0167]
+| stem:[500]
+
+&#x200c;
+
+stem:[0.0028]
+
+| | | | | |
+
+| B10
+
+stem:[10000]
+
+stem:[3]
+
+| stem:[25000]
+
+&#x200c;
+
+stem:[10000]
+
+| | |
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.020]
+
+| stem:[1000]
+
+&#x200c;
+
+stem:[0.040]
+
+| stem:[4000]
+
+&#x200c;
+
+stem:[0.16]
+
+| | | |
+
+|===
+
+In this example, select and identify:
+
+*C6 - 50 kg* (full evaluation test required)
+
+*B10 - 500 kg* (full evaluation test required)
+
+Although load cell C3 - 100 kg is the smallest capacity in its group, its capacity
+falls within the range of other selected load cells having better metrological characteristics.
+Therefore, it is not selected.
+
+[[sec-D.2.3]] 
+==== {blank}
+
+Begin with the group with the best metrological characteristics (in this example, B10)
+and in accordance with R 60-2, 2.4.2, select the next largest capacity between 5
+and 10 times that of the nearest smaller capacity load cell which has been selected.
+When no capacity meets this criterion, the selected load cell shall be that having
+the smallest capacity exceeding 10 times that of the nearest smaller capacity load
+cell which has been selected. Continue this process until all load cell capacities
+in the group have been considered.
+
+[cols="a,a,a,a,a,a,a,a,a,a,a,a",options="noheader,unnumbered"]
+|===
+| Class
+
+stem:[n_{"LC"}]
+
+Group
+
+| Y
+
+&#x200c;
+
+stem:[Z]
+
+3+| ++<---++ lowest
+
+&#x200c;
+
+&#x200c;
+
+2+| stem:[E_{"max"}, "unitsml(kg)"]
+
+&#x200c;
+
+stem:[v_{"min"}, "unitsml(kg)"]
+
+5+| ++--->++ highest
+
+&#x200c;
+
+&#x200c;
+
+| C3
+
+stem:[3000]
+
+stem:[2]
+
+| stem:[12000]
+
+&#x200c;
+
+stem:[4000]
+
+|
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0083]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.025]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.042]
+
+| |
+
+| stem:[5000]
+
+&#x200c;
+
+stem:[0.42]
+
+| stem:[10000]
+
+&#x200c;
+
+stem:[0.83]
+
+| stem:[30000]
+
+&#x200c;
+
+stem:[2.5]
+| stem:[50000]
+
+&#x200c;
+
+stem:[4.17]
+
+| C6
+
+stem:[6000]
+
+1
+
+| stem:[18000]
+
+&#x200c;
+
+stem:[6000]
+
+| stem:[50]
+
+&#x200c;
+
+stem:[0.0028]
+
+| stem:[100]
+
+&#x200c;
+
+| stem:[0.0055]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.0167]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.028]
+
+| B10
+
+stem:[10000]
+
+stem:[3]
+
+| stem:[25000]
+
+&#x200c;
+
+stem:[10000]
+
+| | |
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.020]
+
+| stem:[1000]
+
+&#x200c;
+
+stem:[0.040]
+
+| stem:[4000]
+
+&#x200c;
+
+stem:[0.16]
+
+| | | |
+|===
+
+In this example, select and identify:
+
+*B10 - stem:[4000 "unitsml(kg)"]* (full evaluation test required)
+
+[[sec-D.2.4]]
+==== {blank}
+
+Move to the group with the next best characteristics (in this example, C6) and, in
+accordance with R 60-2, 2.4.2 select the next largest capacity between 5 and 10 times
+that of the nearest smaller capacity load cell which has been selected. When no capacity
+meets this criterion, the selected load cell shall be that having the smallest capacity
+exceeding 10 times that of the nearest smaller capacity load cell which has been
+selected. Continue this process until all load cell capacities in the group have
+been considered.
+
+[cols="a,a,a,a,a,a,a,a,a,a,a,a",options="noheader,unnumbered"]
+|===
+| Class
+
+stem:[n_{"LC"}]
+
+Group
+
+| stem:[Y]
+
+&#x200c;
+
+stem:[Z]
+
+3+| ++<---++ lowest
+
+&#x200c;
+
+&#x200c;
+
+2+| stem:[E_{"max"}, "unitsml(kg)"]
+
+&#x200c;
+
+stem:[v_{"min"}, "unitsml(kg)"]
+
+5+| ++--->++ highest
+
+&#x200c;
+
+&#x200c;
+
+| C3
+
+stem:[3000]
+
+stem:[2]
+
+| stem:[12000]
+
+&#x200c;
+
+stem:[4000]
+
+|
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0083]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.025]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.042]
+
+| |
+
+| stem:[5000]
+
+&#x200c;
+
+stem:[0.42]
+
+| stem:[10000]
+
+&#x200c;
+
+stem:[0.83]
+
+| stem:[30000]
+
+&#x200c;
+
+stem:[2.5]
+
+| stem:[50000]
+
+&#x200c;
+
+stem:[4.17]
+
+| C6
+
+stem:[6000]
+
+1
+
+| stem:[18000]
+
+&#x200c;
+
+stem:[6000]
+
+| stem:[50]
+
+&#x200c;
+
+stem:[0.0028]
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0055]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.0167]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.028]
+
+| | | | | |
+
+| B10
+
+stem:[10000]
+
+stem:[3]
+
+| stem:[25000]
+
+&#x200c;
+
+stem:[10000]
+
+| | |
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.020]
+
+| stem:[1000]
+
+&#x200c;
+
+stem:[0.040]
+
+| stem:[4000]
+
+&#x200c;
+
+stem:[0.16]
+
+| | | |
+
+|===
+
+In this example, *there is no change* to the load cells selected. The capacities
+of the load cells C6 - stem:[300 "unitsml(kg)"] and C6 - stem:[500 "unitsml(kg)"]
+exceed the capacity of the load cell C6 - stem:[50 "unitsml(kg)"] by greater than
+5 times but not greater than 10 times. However, a stem:[500 "unitsml(kg)"] load cell
+of better metrological characteristics (from group B10) has already been selected.
+Therefore, in order to minimise the number of load cells to be tested according to
+R 60-2, 2.3.1, neither cell is selected.
+
+[[sec-D.2.5]]
+==== {blank}
+
+Again, and repeating this process until all groups have been considered, move to
+the group with the next best characteristics (in this example, C3) and in accordance
+with R 60-2, 2.4.4, select the next largest capacity between 5 and 10 times that
+of the nearest smaller capacity load cell which has been selected. When no capacity
+meets this criterion, the selected load cell shall be that having the smallest capacity
+exceeding 10 times that of the nearest smaller capacity load cell which has been
+selected. Continue this process until all load cell capacities in the group and all
+groups have been considered.
+
+[cols="a,a,a,a,a,a,a,a,a,a,a,a",options="noheader,unnumbered"]
+|===
+| Class
+
+stem:[n_{"LC"}]
+
+Group
+
+| stem:[Y]
+
+&#x200c;
+
+stem:[Z]
+
+3+| ++<---++ lowest
+
+&#x200c;
+
+&#x200c;
+
+2+| stem:[E_{"max"}, "unitsml(kg)"]
+
+&#x200c;
+
+stem:[v_{"min"}, "unitsml(kg)"]
+
+5+| ++--->++ highest
+
+&#x200c;
+
+&#x200c;
+
+| C3
+
+stem:[3000]
+
+2
+
+| stem:[12000]
+
+&#x200c;
+
+stem:[4000]
+
+|
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0083]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.025]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.042]
+
+| |
+
+| stem:[5000]
+
+&#x200c;
+
+stem:[0.42]
+
+| stem:[10000]
+
+&#x200c;
+
+stem:[0.83]
+
+| stem:[30000]
+
+&#x200c;
+
+stem:[2.5]
+
+| stem:[50000]
+
+&#x200c;
+
+stem:[4.17]
+
+| C6
+
+stem:[6000]
+
+stem:[1]
+
+| stem:[18000]
+
+&#x200c;
+
+stem:[6000]
+
+| stem:[50]
+
+&#x200c;
+
+stem:[0.0028]
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0055]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.0167]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.028]
+
+| | | | | |
+
+| B10
+
+stem:[10000]
+
+stem:[3]
+
+| stem:[25000]
+
+&#x200c;
+
+stem:[10000]
+
+| | |
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.020]
+
+| stem:[1000]
+
+&#x200c;
+
+stem:[0.040]
+
+| stem:[4000]
+
+&#x200c;
+
+stem:[0.16]
+
+| | | |
+
+|===
+
+In this example, select and identify:
+
+*C3 - stem:[30000 "unitsml(kg)"]* (full evaluation test required) Proceeding from
+smallest to largest capacity, the only capacity of load cell which is greater than
+5 times the capacity of an already selected load cell but less than 10 times that
+capacity is the C3 - stem:[30000 "unitsml(kg)"] load cell. Since the capacity of
+the C3 - stem:[50000 "unitsml(kg)"] load cell does not exceed 5 times the capacity
+of the next smaller selected load cell, which is C3 - stem:[30000 "unitsml(kg)"],
+according to R 60-2, 2.4.3 it is presumed to comply the requirements of this Recommendation.
+
+==== {blank}
+
+After completing steps <<sec-D.2.2;to!sec-D.2.5>> and identifying the load cells,
+compare load cells of the same capacity from different groups. Identify the load
+cells with the highest accuracy class and highest stem:[n_{"LC"}] in each group
+(see shaded portion of table below). For those load cells of the same capacity but
+from different groups, identify only the one with the highest accuracy class and
+stem:[n_{"LC"}] and lowest stem:[v_{"min"}].
+
+[cols="a,a,a,a,a,a,a,a,a,a,a,a",options="unnumbered"]
+|===
+| Class
+
+stem:[n_{"LC"}]
+
+Group
+
+| Y
+&#x200c;
+
+Z
+
+3+| ++<---++ lowest
+
+&#x200c;
+
+&#x200c;
+
+2+| stem:[E_{"max"}, "unitsml(kg)"]
+
+&#x200c;
+
+stem:[v_{"min"}, "unitsml(kg)"]
+
+5+| ++--->++ highest
+
+&#x200c;
+
+&#x200c;
+
+| C3
+
+stem:[3000]
+
+stem:[2]
+
+| stem:[12000]
+
+&#x200c;
+
+stem:[4000]
+
+|
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0083]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.025]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.042]
+| |
+
+| stem:[5000]
+
+&#x200c;
+
+stem:[0.42]
+
+| stem:[10000]
+
+&#x200c;
+
+stem:[0.83]
+
+| stem:[30000]
+
+&#x200c;
+
+stem:[2.5]
+
+| stem:[50000]
+
+&#x200c;
+
+stem:[4.17]
+
+| C6
+
+stem:[6000]
+
+stem:[1]
+
+| stem:[18000]
+
+&#x200c;
+
+stem:[6000]
+
+| stem:[50]
+
+&#x200c;
+
+stem:[0.0028]
+
+| stem:[100]
+
+&#x200c;
+
+stem:[0.0055]
+
+| stem:[300]
+
+&#x200c;
+
+stem:[0.0167]
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.028]
+
+| | | | | |
+
+| B10
+
+stem:[10000]
+
+stem:[3]
+
+| stem:[25000]
+
+&#x200c;
+
+stem:[10000]
+
+| | |
+
+| stem:[500]
+
+&#x200c;
+
+stem:[0.020]
+
+| stem:[1000]
+
+&#x200c;
+
+stem:[0.040]
+
+| stem:[4000]
+
+&#x200c;
+
+stem:[0.16]
+
+| | | |
+|===
+
+Inspect the values of stem:[v_{"min"}], stem:[Y], and stem:[Z] for all cells of the
+same capacity.
+
+If any load cell of the same capacity has a lower stem:[v_{"min"}] or higher stem:[Y]
+than the identified load cell, that load cell (or load cells) is also liable for
+partial evaluation testing, specifically the conduct of additional temperature effect
+on minimum dead load, stem:[E_{"min"}] and barometric pressure effect tests.
+
+If any load cell of the same capacity has a higher stem:[Y] than the selected load
+cell, that load cell (or load cells) is also liable for partial evaluation testing,
+specifically the conduct of additional creep and DR tests.
+
+In this example, the *load cells identified above also have the best characteristics
+of lowest stem:[v_{"min"}], highest stem:[Y] and highest stem:[Z].* This is normally
+the case, but not always.
+
+[[sec-D.2.7]]
+==== {blank}
+
+If applicable, select the load cell for humidity testing in accordance with
+R 60-2, 2.4.5, that being the load cell with the most severe characteristics, for
+example the greatest value of stem:[n_{"LC"}] or the lowest value of stem:[v_{"min"}].
+
+In this example, the load cell with the greatest value of stem:[n_{"LC"}] or the
+lowest value of stem:[v_{"min"}] is the same load cell, therefore select:
+
+*B10 - stem:[500 "unitsml(kg)"]* (humidity test required)
+
+NOTE: The other B10 load cells also possess the same qualifications and are possible
+choices. The stem:[500 "unitsml(kg)"] load cell was chosen because it is the smallest
+of the applicable B10 capacities. Although the C6 - stem:[50 "unitsml(kg)"] load
+cell has the lowest stem:[v_{"min"}] of stem:[0.0028], the B10 load cells have the
+highest stem:[n_{"LC"}], highest accuracy class, and the highest stem:[Y] and stem:[Z].
+
+[[sec-D.2.8]]
+==== {blank}
+
+If applicable, select the load cell for the additional tests to be performed on digital
+load cells in accordance with R 60-2, 2.4.6, that being the load cell with the most
+severe characteristics, for example the greatest value of stem:[n_{"max"}] or the
+lowest value of stem:[v_{"min"}].
+
+2+h| *D.2.9* Summarising, the load cells selected for test are:
+
+[cols="2",options="header",options="header,unnumbered"]
+|===
+| _Summary_ | _Selected cells_
+
+| Load cells requiring full evaluation test
+| C6 - stem:[50 "unitsml(kg)"]
+
+B10 - stem:[500 "unitsml(kg)"]
+
+B10 - stem:[4000 "unitsml(kg)"]
+
+C3 - stem:[30000 "unitsml(kg)"]
+
+| Load cells requiring partial evaluation test | None
+
+| Load cell to be tested for humidity | B10 - stem:[500 "unitsml(kg)"]
+
+| Digital load cells for additional tests | None
+
+|===
+
+In this example, no load cell in the family is equipped with electronics.
