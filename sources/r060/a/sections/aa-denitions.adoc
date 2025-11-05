@@ -1,0 +1,119 @@
+
+[[annex-a]]
+[appendix]
+== Definitions from other applicable international publications
+
+[[sec-A.1]]
+=== Definitions from OIML D 11 [4]
+
+[[sec-A.1.1]]
+==== electronic measuring instrument (OIML D 11, 3.1)
+
+instrument intended to measure an electrical or non-electrical quantity using electronic
+means and/or equipped with electronic devices
+
+[[sec-A.1.2]]
+==== module (OIML D11, 3.2)
+
+device performing a specific function or functions and (usually) manufactured and
+constructed such that it can be separately evaluated according to prescribed metrological
+and technical performance requirements
+
+[[sec-A.1.3]]
+==== device (OIML D 11, 3.3)
+
+identifiable instrument or part of an instrument or of a family of instruments that
+performs a specific function or functions
+
+[[sec-A.1.4]]
+==== checking facility (OIML D11, 3.19)
+
+facility incorporated in a measuring instrument which enables significant faults
+to be detected and acted upon
+
+[[sec-A.1.5]]
+==== automatic checking facility (OIML D 11, 3.19.1)
+
+checking facility that operates without the intervention of an operator
+
+[[sec-A.1.6]]
+==== permanent automatic checking facility (type P) (OIML D 11, 3.19.1.1)
+
+automatic checking facility that operates at each measurement cycle
+
+[[sec-A.1.7]]
+==== intermittent automatic checking facility (type I) (OIML D 11, 3.19.1.2)
+
+automatic checking facility that operates at certain time intervals or per fixed
+number of measurement cycles
+
+[[sec-A.1.8]]
+==== non-automatic checking facility (type N) (OIML D 11, 3.19.2)
+
+checking facility that requires the intervention of an operator
+
+[[sec-A.1.9]]
+==== durability protection facility (OIML D 11, 3.20)
+
+facility incorporated in a measuring instrument that enables significant durability
+errors to be detected and acted upon
+
+[[sec-A.1.10]]
+==== test (OIML D 11, 3.21)
+
+series of operations intended to verify the compliance of the equipment under test
+(EUT) with specified requirements
+
+[[sec-A.1.11]]
+==== test procedure (OIML D 11, 3.21.1)
+
+detailed description of the test operations
+
+[[sec-A.1.12]]
+==== performance test (OIML D 11, 3.21.4)
+
+test intended to verify whether the EUT is able to accomplish its intended functions
+
+[[sec-A.1.13]]
+==== mains power (OIML D 11, 3.22)
+
+primary external source of electrical power for an instrument, including all sub-assemblies.
+(Examples: public or local power grid (AC or DC) or external generator)
+
+[[sec-A.1.14]]
+==== power converter (power supply device) (OIML D 11, 3.23)
+
+sub-assembly converting the voltage from the mains power to a voltage suitable for
+other sub-assemblies
+
+[[sec-A.1.15]]
+==== auxiliary battery (OIML D 11, 3.25)
+
+battery that is
+
+* mounted in, or connected to, an instrument that can be powered by the mains power
+as well, and
+
+* capable of supplying power to the complete instrument for a reasonable period of time
+
+[[sec-A.1.16]]
+==== back-up battery (OIML D 11, 3.26)
+
+battery that is intended to maintain power supply for specific functions of an instrument
+in the absence of the primary power supply that includes both mains power & auxiliary
+battery
+
+[example]
+To preserve stored data
+
+[[sec-A.2]]
+=== Definitions from OIML R 76 [1]
+
+[[sec-A.2.1]]
+==== weighing module (OIML R 76-1, T.2.2.7)
+
+part of the weighing instrument that comprises all mechanical and electronic devices
+(i.e. load receptor, load-transmitting device, load cell, and analogue data processing
+device or digital data processing device) but not having the means to display the
+weighing result. It may optionally have devices for further processing (digital)
+data and operating the instrument

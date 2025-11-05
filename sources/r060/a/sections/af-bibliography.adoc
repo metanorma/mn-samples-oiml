@@ -1,0 +1,62 @@
+
+[[annex-f]]
+[bibliography]
+== Bibliography
+
+* [[[OIML_R_76_2006,OIML R 76:2006]]] _Non-automatic weighing instruments_
+
+* [[[OIML_V_2_200_2012,OIML V 2-200:2012]]] _International Vocabulary of Metrology - Basic and General Concepts and Associated Terms (VIM)_
+
+* [[[OIML_V_2_2013,OIML V 2:2013]]] _International Vocabulary of Terms in Legal Metrology (VIML)_
+
+* [[[OIML_D_9_2004,OIML D 9:2004]]] _Principles of metrological supervision_
+
+* [[[OIML_D_11_2008,OIML D 11:2008]]] _General requirements for electronic measuring instruments_
+
+* [[[OIML_B_18_2028,OIML B 18:2018]]] _Framework for the OIML Certification System (OIML-CS)_
+
+* [[[OIML_G_1_100_2008,OIML G 1-100:2008]]] _Guide to the Expression of Uncertainty in Measurement, BIPM, IEC, _IFCC, ISO, IUPAC, IUPAP, OIML_
+
+* [[[OIML_D_31_2008,OIML D 31:2008]]] _General requirements for software controlled measuring instruments_
+
+* [[[ISO_8601_2004,ISO 8601:2004]]] _Data elements and interchange formats - Information interchange - Representation of dates and times_
+
+* [[[IEC_60068_2_30_2005,IEC 60068-2-30-2005]]] IEC Publication 60068-2-30:2005 _Environmental testing - Part 2-30: Tests - Test Db: Damp heat, cyclic (12 h + 12 h cycle)_
+
+* [[[IEC_60068_3_4_2001,IEC 60068-3-4:2001]]] IEC Publication 60068-3-4:2001 _Environmental testing - Part 3-4: Supporting documentation and guidance - Damp heat tests_
+
+* [[[IEC_60068_2_78_2012,IEC 60068-2-78:2012]]] IEC Publication 60068-2-78:2012 RLV _Environmental testing - Part 2-78: Tests - Test Cab: Damp heat, steady state_
+
+* [[[IEC_61000_2_1_1990,IEC 61000-2-1:1990]]] _IEC Publication 61000-2-1:1990 Electromagnetic compatibility (EMC) - Part 2: Environment - Section 1: Description of the environment - Electromagnetic environment for low-frequency conducted disturbances and signalling in public power supply systems_
+
+* [[[IEC_61000_4_1,IEC 61000-4-1]]] IEC Publication 61000-4-1, 2006-10
+
+* [[[IEC_61000_4_29,IEC 61000-4-29]]] IEC Publication 61000-4-29, 2000-08
+
+* [[[IEC_61000_4_11,IEC 61000-4-11]]] IEC Publication 61000-4-11, 2004-03
+
+* [[[IEC_61000_6_1,IEC 61000-6-1]]] IEC Publication 61000-6-1, 2005-03
+
+* [[[IEC_61000_6_2,IEC 61000-6-2]]] IEC Publication 61000-6-2, 2005-01
+
+* [[[IEC_61000_4_4_2012,IEC 61000-4-4:2012]]] IEC Publication 61000-4-4:2012 RLV _Electromagnetic compatibility (EMC) - Part 4-4: Testing and measurement techniques - Electrical fast transient/burst immunity test_
+
+* [[[IEC_61000_4_5_2014,IEC 61000-4-5:2014]]] IEC Publication 61000-4-5:2014 + AMD:2017 CSV _Electromagnetic compatibility (EMC) - Part 4-5: Testing and measurement techniques - Surge immunity test_
+
+* [[[IEC_61000_4_2_2008,IEC 61000-4-2:2008]]] IEC Publication 61000-4-2:2008 _Electromagnetic compatibility (EMC) - Part 4-2: Testing and measurement techniques - Electrostatic discharge immunity test_
+
+* [[[IEC_61000_4_3,IEC 61000-4-3]]] IEC Publication 61000-4-3, 2010-04
+
+* [[[IEC_61000_4_6_2013,IEC 61000-4-6:2013]]] IEC Publication 61000-4-6:2013 _Electromagnetic compatibility (EMC) - Part 4-6: Testing and measurement techniques - Immunity to conducted disturbances, induced by radio-frequency fields_
+
+* [[[OIML_R_50_2014,OIML R 50:2014]]] OIML R 50:2014 _Continuous totalizing automatic weighing instruments (belt weighers)_
+
+* [[[OIML_R_51_2006,OIML R 51:2006]]] _Automatic catchweighing instruments_
+
+* [[[OIML_R_61_2017,OIML R 61:2017]]] _Automatic gravimetric filling instruments_
+
+* [[[OIML_R_106,OIML R 106]]] _Automatic rail-weighbridges_
+
+* [[[OIML R 107:2007 OIML R 107:2007]]]_Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers)_
+
+* [[[OIML_CS,OIML-CS]]]Procedural Document PD-05 (Edition 2) _Processing an OIML Type Evaluation Report and OIML Certificate_

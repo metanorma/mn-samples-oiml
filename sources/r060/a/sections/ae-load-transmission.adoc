@@ -1,0 +1,130 @@
+
+[[annex-e]]
+[appendix,obligation="informative"]
+== Load transmission to the load cell
+
+This Annex is taken from the WELMEC 2.4 (European cooperation in legal metrology)
+Guide for Load Cells (Issue 2, published in August, 2001). With permission from WELMEC,
+the following portion of that Guide is reprinted here to provide guidelines for load
+cell evaluators, during load cell performance evaluations. Recognising the critical
+role that load cell receptors and load transmission devices play in accurate measurements,
+this Annex is intended to provide information regarding the effect of load transmission
+and recommendations for test design and procedure. The annex is informational and
+not to be considered required practice.
+
+For some types of load cells, the kind of load transmission to the load cell has
+an influence on the measurements and therefore on the test results.
+
+In this Annex the standard load transmission devices are listed.
+
+The manufacturer should define whether the load cell works with all standard load
+transmission devices for the type of load cell or with selected standard load transmission
+devices or with a load cell specific load transmission devices.
+
+This information may be considered for the load cell tests and may be marked on the
+certificate.
+
+*Standard load transmission devices*
+
+<<table-e1;and!table-e2>> identify different types of LCs, (compression, tension, ...)
+and typical load cell mounting devices suitable for them. The symbols below classify
+the mobility between one point of contact on the load cell and its counterpart on
+the load receptor or mounting base.
+
+[cols="a,a",options="header,unnumbered"]
+|===
+| Symbol | Description
+
+|
+image::figure-u1.svg[]
+| Movement possible normal to load axis
+
+NOTE: allows for temperature dilatation
+
+|
+image::figure-u2.svg[]
+
+| Movement possible normal to load axis, with reversing force (spring-back effect)
+
+NOTE: allows for temperature dilatation, also used for damping of lateral shock
+
+|
+image::figure-u3.svg[]
+
+| Inclination possible
+
+NOTE: allows for tilt of load cell or deflection of load receptor, no movement normal
+to load axis possible
+
+|
+image::figure-u4.svg[]
+
+| Indicates auto-centring effect of the complete mounting assembly of one load cell
+|===
+
+Remarks on the standard load transmission devices presented in <<table-e1;and!table-e2>>:
+
+All combinations of load cell and transmitting device shown in <<table-e1;and!table-e2>>
+can also be utilised in a completely reversed manner.
+
+The load transmission device is independent of the encapsulation, potting or housing
+which are shown in the examples.
+
+. Compression LCs (<<table-e1>>, upper part)
+
+** The load transmissions 1 to 8 are presented for canister type LCs. Instead, all
+load transmissions may be constructed for S-type or ring type load cells.
+
+** 6a shows a pendulum construction build as a complete unit.
+
+** 6b and 6c show external pendulum rocker pins combined with ring-type LCs.
+
+** The bearings for all compression load cells may be installed either below or above
+the LC.
+
+. Tension LCs (<<table-e1>>, lower part)
+
+** The load transmissions 1 and 2 are presented for canister type LCs. Alternatively,
+both load transmissions may be used for S-type LCs.
+
+. Beam LCs (<<table-e2>>, upper part)
+
+** The drawings present double bending and shear beams, as well as plastic potted
+and encapsulated constructions; all these constructions may be combined with either
+of the load transmissions 1 to 10.
+
+** The direction of loading, which is given by the manufacturer, has to be observed.
+
+. Single point LCs (<<table-e2>>, middle part)
+
+** The load transmissions 1 to 10 for the beam LCs may be applied to all single point LCs.
+
+** The direction of loading, which is given by the manufacturer, has to be observed.
+
+. Double bending beam LCs (<<table-e2>>, lower part)
+
+** The table shows examples of common constructions. Variations are possible provided
+the constructions allow enough horizontal flexibility between both ends.
+
+** The direction of loading, provided by the manufacturer, has to be observed.
+
+The single bending beams had been exempted for general acceptance, because very small
+displacements of the "force transducing point" may lead to a change of span and linearity.
+
+[[table-e1]]
+.Schematic drawings for compression and tension LCs
+[cols="a"]
+|===
+|
+[%unnumbered]
+image::figure-e1.png[]
+|===
+
+[[table-e2]]
+[cols="a"]
+.Schematic drawings for beam LCs
+|===
+|
+[%unnumbered]
+image::figure-e2.png[]
+|===

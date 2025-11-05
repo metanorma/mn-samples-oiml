@@ -1,0 +1,73 @@
+
+[[annex-b]]
+[appendix]
+== OIML certificate for load cells - Content of the certificate
+
+The OIML certificate template that can be downloaded from the "Documentation" section
+of the OIML Certification System (OIML-CS) part of the OIML website shall be supplemented
+with the following additional information:
+
+[cols="a,a,a,a,a",options="unnumbered,header"]
+|===
+| _Model designation_ | | | |
+| Maximum capacity, stem:[E_{"max"}] | | | |
+| Accuracy class | | | |
+| Maximum number of load cell | | | |
+| verification intervals, stem:[n_{"LC"}] | | | |
+| Minimum load cell verification | | | |
+| interval, stem:[v_{"min"}] | | | |
+| Apportioning factor, stem:[p_{"LC"}] | | | |
+|===
+
+Additional characteristics and identification, as applicable according to
+R 60-1, 3.4.2 and 5.1.5, may be included in the certificate or on additional pages
+if necessary, in the format below:
+
+[cols="a,a,a,a,a",options="unnumbered,header"]
+|===
+| _Model designation_ | | | |
+| (Additional characteristics, per R 60-1, 3.4.2 and 5.1.5) | | | |
+| | | | |
+|===
+
+Special conditions:
+
+[[sec-B.1]]
+=== Contents of any additional pages to the certificate (Informative)
+
+*Name and type of the load cell:*
+
+[[sec-B.2]]
+=== Technical data
+
+The essential technical data for OIML certificates are listed on the certificate
+(at the request of the manufacturer). Alternatively, in the case of limited space
+on the certificate, the following information may be provided on additional pages
+to the certificate:
+
+[[table-B.1]]
+.Technical data
+[cols="a,a,a,a,a,a,a",options="header"]
+|===
+| Model designation | Designation | Example | | | | Units
+
+| Classification | | C4 | | | |
+| Additional markings | | - | | | |
+| Maximum number of load cell verification intervals | stem:[n_{"LC"}] | stem:[4000] | | | |
+| Maximum capacity | stem:[E_{"max"}] | stem:[30000] | | | | stem:["unitsml(kg)"]
+| Minimum dead load, relative | stem:[E_{"min"} // E_{"max"}] | 0 | | | | %
+| Relative stem:[v_{"min"}] (ratio to minimum load cell verification interval) | stem:[Y = (E_{"max"} - E_{"min"}) // (v_{"min"})] | stem:[24000] | | | |
+| Relative DR (ratio to minimum dead load output return) | stem:[Z = (E_{"max"} - E_{"min"})// (2 xx DR)] | stem:[7500] | | | |
+| Rated output
+footnote:note1[For load cells with digital output this refers to the number of counts for stem:[E_{"max"}].]
+| | 2.5 | | | | stem:["unitsml(mV/V)"]
+footnote:note1[For load cells with digital output this refers to the number of counts for stem:[E_{"max"}].]
+| Maximum excitation voltage | | 30 | | | | stem:["unitsml(V)"]
+| Input impedance (for strain gauge load cells) | stem:[R_{"LC"}] | stem:[4000] | | | | stem:["unitsml(Ohm)"] 
+| Temperature rating | | -- 10/+ 40 | | | | stem:["unitsml(degC)"]
+| Safe overload, relative | stem:[E_{"lim"} // E_{"max"}] | 150 | | | | %
+| Cable length | | 3 | | | | stem:["unitsml(m)"]
+| Additional characteristics per R 60-1, 3.4.2 and 5.1.5
+footnote:[For load cells with digital output this is not required.]
+| | - | | | |
+|===
