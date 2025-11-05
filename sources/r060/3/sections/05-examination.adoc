@@ -1,0 +1,2781 @@
+
+[[sec-5]]
+== Examination
+
+_(To be completed by the Evaluating Authority)_
+
+[[sec-5.1]]
+=== Marking requirements (R 60-1, 6.2)
+
+==== Mandatory markings on the load cell (R 60-1, 6.2.1)
+
+[cols="4",options="header,unnumbered",headerrows=2]
+|===
+.2+| R 60-1 reference .2+| Information 2+| Fulfils requirements
+| Yes | No
+
+^| 6.2.1 | Name or trademark of manufacturer | |
+^| 6.2.1 | Manufacturer's own designation or load cell model | |
+^| 6.2.1 | Serial number | |
+^| 6.2.1 | Maximum capacity, stem:[E_{"max"}] footnote:[In units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | |
+^| 6.2.1 | Year of production | |
+^| 6.2.1 | Type approval mark (if applicable) | |
+|===
+
+==== Mandatory markings on the load cell or an accompanying document
+
+(R 60-1, 6.2.2)
+
+[cols="6",options="header,unnumbered",headerrows=2]
+|===
+.2+| R 60-1 reference .2+| Mandatory information .2+| On load cell .2+| In document 2+| Fulfils requirements
+| Yes | No
+
+^| 6.2.4.1 | Accuracy classes and their symbols | | | |
+^| 6.2.4.5 | Maximum number of load cell verification intervals, stem:[n_{"LC"}] | | | |
+^| 6.2.4.2 | Loading designation (if necessary) | | | |
+^| 6.2.4.3 | Working temperature designation | | | |
+^| 6.2.4.4 | Humidity symbol "NH" | | | |
+^| 6.2.4.4 | Humidity symbol "SH" | | | |
+^| 6.2.2 | Minimum dead load, stem:[E_{"min"}] | | | |
+^| 6.2.2 | Safe load limit, stem:[E_{"lim"}] | | | |
+^| 5.1.3, 6.2.2 | Minimum load cell verification interval (stem:[v_{"min"}]) | | | |
+^| 6.2.2 | Other pertinent conditions | | | |
+^| 3.7.2, 5.3.2 | Apportionment factor, stem:[p_{"LC"}] (if not equal to 0.7) | | | |
+^| 5.1.6 | Standard classification | | | |
+^| 5.1.7 | Multiple classifications | | | |
+|===
+
+==== Non-mandatory, additional information (R 60-1, 6.2.3)
+
+[cols="6",options="header,unnumbered",headerrows=2]
+|===
+.2+| R 60-1 reference .2+| Mandatory information .2+| On load cell .2+| In document 2+| Fulfils requirements
+| Yes | No
+
+^| 5.6.3.1 | Humidity symbol "CH" | | | |
+^| 3.5.15 | Relative stem:[v_{"min"}, Y] | | | |
+^| 3.5.14 | Relative stem:["DR", Z] | | | |
+|===
+
+[[sec-5.2]]
+=== Suitability for testing (R 60-2, 2.3, 2.4)
+
+[cols="a,a,a,a",options="noheader,unnumbered"]
+|===
+| Date: | Observer: 2+| Serial number:
+
+2+| 2+| Fulfils requirements
+2+| | Yes | No
+
+| | | |
+| | | |
+| | | |
+
+4+| Remarks
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+4+| Passed &#x2610; Yes &#x2610; No
+|===
+
+==== Software (if present) (R 60-1, 6.1)
+
+[cols="a,a,a",options="noheader,unnumbered"]
+|===
+| Date: | Observer: | Serial number:
+
+| Version of software: 2+| Identification code:
+3+|
+| | Yes | No
+| Software protected by sealing | |
+| Automatic change of identification code | |
+| Fixed version number | |
+
+3+| Remarks:
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+3+| Passed &#x2610; Yes &#x2610; No
+|===
+
+[[sec-5.4]]
+=== Documentation for type approval (R 60-2, 2.5)
+
+[cols="a,a,a,a",options="header,unnumbered"]
+|===
+| | Yes | No | Remarks
+
+| a) Description of the general principle of measurement (R 60-2, 2.5, a) | | |
+| b) List and characteristics of essential components + details | | |
+| c) Mechanical drawings (R 60-2, 2.5, b) | | |
+| d) Electric/electronic diagrams (R 60-2, 2.5, c) | | |
+| e) Installation requirements (R 60-2, 2.5, d) | | |
+| f) Sealing plan | | |
+| g) Panel layout | | |
+| h) General information of the software (R 60-2, 2.5, g) | | | For details, see R 60-1, 6.1 
+| i) Operating instructions (R 60-2, 2.5, e) | | |
+| j) Information supporting the manufacturer's assumption of compliance (R 60-2, 2.5, f) | | |
+
+4+| Other relevant information pertaining to identification of the instrument, diagrams,
+results of previous tests, etc.: (attach photograph(s) and/or outline-drawing(s)
+here if available):
+
+&#x200c;
+
+&#x200c;
+
+4+| Remarks:
+
+&#x200c;
+
+&#x200c;
+
+3+| Passed | &#x2610; Yes &#x2610; No
+|===
+
+[[sec-6]]
+== Performance tests
+
+[[sec-6.1]]
+=== Results of the performance tests
+
+[cols="8",options="header,unnumbered"]
+|===
+| Clause R 60-1/2 | Performance tests | Temperature in stem:["unitsml(degC)"] | report page No.  | Maximum error in v | Passed | Failed | Remark
+
+| R 60-1, 5.3 / R 60-2, 2.10.1
+| Load cell errors (stem:[E_L]) (see R 60-3, 2.1.2)
+| | | | | |
+
+| R 60-1, 5.4 / R 60-2, 2.10.1
+| Repeatability errors (stem:[E_R]) (see R 60-3, 2.1.3)
+| | | | | |
+
+| R 60-1, 5.5.1 / R 60-2, 2.10.2
+| Creep (stem:[C_C(t)]) (see R 60-3, 2.1.5)
+| | | | | |
+
+| R 60-1, 5.5.1 / R 60-2, 2.10.2
+| Creep (stem:[C_C(30-20)]) (see R 60-3, 2.1.5.2)
+| | | | | |
+
+.4+| R 60-1, 5.5.2 / R 60-2, 2.10.3
+.4+| Minimum dead load output return (stem:[C_{"DR"}]) (see R 60-3, 2.1.5.4)
+| | | | |
+| _(See <<note_6.1-1>>)_ +
+stem:["DR" =]
+| | | | |
+| _(See <<note_6.1-1>>)_ +
+stem:["DR" =]
+| | | | |
+| _(See <<note_6.1-1>>)_ +
+stem:["DR" =]
+| | | | |
+| _(See <<note_6.1-1>>)_ +
+stem:["DR" =]
+
+| R 60-1, 5.6.3.1 / R 60-2, 2.10.5
+| Humidity effects (stem:[CH_{"min"}]) +
+(CH or no mark) +
+(see R 60-3, 2.1.7.1)
+| | | | | |
+
+| R 60-1, 5.6.3.1 / R 60-2, 2.10.5
+| Humidity effects (stem:[CH_{"max"}]) +
+(CH or no mark) +
+(see R 60-3, 2.1.7)
+| | | | | |
+
+| R 60-1, 5.6.3.2 / R 60-2, 2.10.6
+| Humidity effects (SH) +
+(see R 60-3, 2.1.8)
+| | | | | |
+
+| R 60-1, 5.6.1.3 / R 60-2, 2.10.1
+| Temperature effects on +
+minimum dead load output +
+(stem:[C_M]) +
+(see R 60-3, 2.1.4)
+| | | _(See <<note_6.1-2>>)_ | | |
+
+| R 60-1, 5.6.2 / R 60-2, 2.10.4
+| Barometric pressure +
+effects (stem:[C_P (v_{"min"})]) +
+(see R 60-3, 2.1.6)
+| | | _(See <<note_6.1-2>>)_ | | |
+
+|===
+
+[[note_6.1-1]]
+NOTE: DR is the minimum dead load output return in units of
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) and determined according to
+R 60-3, 2.1.5.8
+
+[[note_6.1-2]]
+NOTE: Maximum error in unit stem:[v_{"min"}]
+
+Remarks:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Results of the Performance tests for digital load cells
+
+[cols="8",options="header,unnumbered"]
+|===
+| Clause R 60-1/2 | Performance tests | Temperature in stem:["unitsml(degC)"] | report page No.  | Maximum error in v | Passed | Failed | Remark
+
+| R 60-1, 5.7.2.1 / R 60-2, 2.10.7.3
+| Warm-up time +
+(see R 60-3, 2.2.1)
+| | | | | |
+
+| R 60-1, 5.7.2 / R 60-2, 2.10.7.4
+| Power voltage variations +
+(see R 60-3, 2.2.2)
+| | | | | |
+
+| R 60-1, 5.7.2.5 / R 60-2, 2.10.7.5
+| Short time power reductions +
+(see R 60-3, 2.2.3)
+| | | | | |
+
+| R 60-1, 5.7.2.5 / R 60-2, 2.10.7.6
+| Bursts (electrical fast transients) +
+(see R 60-3, 2.2.4)
+| | | | | |
+
+| R 60-1, 5.7.2.5 / R 60-2, 2.10.7.7
+| Surge (see R 60-3, 2.2.5)
+| | | | | |
+
+| R 60-1, 5.7.2.5 / R 60-2, 2.10.7.8
+| Electrostatic discharge +
+(see R 60-3, 2.2.6)
+| | | | | |
+
+| R 60-1, 5.7.2.5 / R 60-2, 2.10.7.9
+| Electromagnetic susceptibility +
+(see R 60-3, 2.2.7)
+| | | | | |
+
+| R 60-1, 5.7.2.5 / R 60-2, 2.10.7.10
+| Immunity to conducted electromagnetic fields +
+(see R 60-3, 2.2.8)
+| | | | | |
+
+| R 60-1, 5.7.2.6 / R 60-2, 2.10.7.11
+| Span stability +
+(see R 60-3, 2.2.9)
+| | | | | |
+|===
+
+Remarks:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+[[sec-6.2]]
+=== Initial tests and general notes concerning performance tests
+
+_(To be completed or under the responsibility of the Evaluating Authority)_
+
+==== Units
+
+Unit (e.g. counts, digits, g, kg, t) in which the measurement result is displayed.
+
+[cols="3",options="header,unnumbered"]
+|===
+| R 60-2 reference | Test procedure | Unit
+
+^| 2.10.1 | Measurement error, repeatability error and temperature effect on minimum dead load output |
+^| 2.10.2 | Determination of creep error                                |
+^| 2.10.3 | Minimum dead load output return (DR)                        |
+^| 2.10.4 | Barometric pressure effects (Atmospheric pressure)          |
+^| 2.10.5 | Humidity effects for load cells marked with CH or no marked |
+^| 2.10.6 | Humidity effects for load cells marked SH                   |
+^| 2.10.7 | Additional tests for analogue-active cells                  |
+|===
+
+==== Measurement range (R 60-1, 5.2, 5.5.2)
+
+[cols="a,a,a,a,a,a",options="header,unnumbered",headerrows=2]
+|===
+| | | | 2+| Fulfils requirements
+| Test procedure +
+(R 60-2 reference)
+| stem:[D_{"max"}] | stem:[D_{"min"}]
+| Conversion factor, stem:[f ["indication" // v]] +
+(see R 60-3, 2.1.2.4)
+| Yes | No
+
+^| 2.10.1 | | | | |
+^| 2.10.2 | | | | |
+^| 2.10.3 | | | | |
+^| 2.10.4 | | | | |
+^| 2.10.5 | | | | |
+^| 2.10.6 | | | | |
+^| 2.10.7 | | | | |
+
+2+| Passed 2+| &#x2610;Yes 2+| &#x2610;No
+|===
+
+==== Conditions
+
+(see R 60-2, 2.8.1)
+
+(To ensure that these requirements are met, the calculations should be carried out
+using lower stem:[n] values than the stem:[n_{"LC"}] specified. The calculations
+made do not include the application of 2.8.1).
+
+Check that
+
+[stem%unnumbered]
+++++
+v_{"min"} <= {D_{"max"} - D_{"min"}} / n
+++++
+
+It should be sufficient to carry out the calculations with stem:[n = n_{"LC"}],
+stem:[n_{"max"} - 500] and stem:[n = n_{"LC"} - 1000] if applicable.
+
+[cols="10",options="header,unnumbered",headerrows=3]
+|===
+.3+| Test procedure (R 60-2 reference)
+.3+| stem:[D_{"min"}]
+.3+| stem:[D_{"max"}]
+.3+| stem:[n_{"LC"}]
+6+| Is the requirement stem:[v_{"min"} <= {D_{"max"} - D_{"min"}} / n] fulfilled with
+2+| stem:[n_{"LC"}]
+2+| stem:[n_{"LC"} - 500]
+2+| stem:[n_{"LC"} - 1000]
+| Yes | No | Yes | No | Yes | No
+
+^| 2.10.1 | | .7+| | | | | | |
+^| 2.10.2 | | | | | | | |
+^| 2.10.3 | | | | | | | |
+^| 2.10.4 | | | | | | | |
+^| 2.10.5 | | | | | | | |
+^| 2.10.6 | | | | | | | |
+^| 2.10.7 | | | | | | | |
+|===
+
+Passed &#x2610; Yes &#x2610; No
+
+==== Input impedance
+
+Measure the input impedance and compare the result with the input impedance in
+OIML R 60-3, 4.5.
+
+[[form-6.3]]
+=== Load test data (Load cell error stem:[E_L]) 3 runs
+
+Ref.: R 60-2, 2.10.1.1 to 2.10.1.11. Complete one sheet for each test temperature,
+one for each humidity (SH) test in 2.10.6, and when applicable, one for each electronics
+power voltage in 2.10.7.4.
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Electronics power voltage (when applicable): input:text[]
+--
+
+[[table-6.3]]
+.(3 runs)
+[cols="9",options="header",headerrows=2]
+|===
+.2+| Test load +
+(units)
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(counts)
+.2+| Repeatability error +
+(counts)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+
+^| 0 | | | | | | | |
+| | | | | | | | |
+^| 0 | | | | | | | |
+| | | | | | | | |
+^| 0 | | | | | | | |
+| | | | | | | | |
+^| 0 | | | | | | | |
+^| 0 | | | | | | >| ++*++ |
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+| | | | | | | | | 
+|===
+
+[NOTE]
+====
+. ++*++ = Average initial minimum test load indication.
+
+. Absolute (not relative) time shall be recorded.
+====
+
+[%landscape]
+<<<
+
+[[sec-6.4]]
+=== Load test data (Load cell error stem:[E_L]) 5 runs
+
+R 60-2, 2.10.1.1 to 2.10.1.11. Complete one sheet for each test temperature, one
+for each humidity (SH) test in 2.10.6, and when applicable, one for each electronics
+power voltage in 2.10.7.4.
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Electronics power voltage (when applicable): input:text[]
+--
+
+[[table-6.4]]
+.(5 runs)
+[cols="13",options="header",headerrows=2]
+|===
+| Test load (units)
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+| Average indication (counts) | Repeatability error (counts)
+
+| | Indication +
+(counts)
+| Time +
+(hh mm ss)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+| |
+
+^| 0 | | | | | | | | | | | |
+| | | | | | | | | | | | |
+^| 0 | | | | | | | | | | | |
+| | | | | | | | | | | | |
+^| 0 | | | | | | | | | | | |
+| | | | | | | | | | | | |
+^| 0 | | | | | | | | | | | |
+^| 0 | | | | | | | | | | >| ++*++ |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+|===
+
+[NOTE]
+====
+. ++*++ = Average initial minimum test load indication.
+
+. Absolute (not relative) time shall be recorded.
+====
+
+[%portrait]
+<<<
+
+=== Load cell errors (stem:[E_L]) calculation
+
+R 60-1, 5.3.1 +
+R 60-2, 2.10.1.12 to 2.10.1.14 +
+R 60-3, 2.1.2.2
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+75 % test load (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]): input:text[]
+
+Reference indication at 75 % test load: input:text[]
+--
+
+[[table-6.5]]
+[cols="11",options="header",headerrows=2]
+|===
+.2+| Test load (units)
+.2+| Reference indication (counts)
+2+| . . . . stem:["unitsml(degC)"] (stem:[20 "unitsml(degC)"]) 2+| . . . . stem:["unitsml(degC)"] (stem:[T_1 "unitsml(degC)"]) 2+| . . . . stem:["unitsml(degC)"] (stem:[T_2 "unitsml(degC)"]) 2+| . . . . stem:["unitsml(degC)"] (stem:[20 "unitsml(degC)"])
+.2+| MPE +
+(stem:[v])
+
+| Indications (counts)
+| Error (stem:[E_L]) (stem:[v])
+| Indication (counts)
+| Error (stem:[E_L]) (stem:[v])
+| Indication (counts)
+| Error (stem:[E_L]) (stem:[v])
+| Indication (counts)
+| Error (stem:[E_L]) (stem:[v])
+
+| 0 | 0 | 0 | | 0 | | 0 | | 0 | |
+
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+|===
+
+[form]
+--
+Minimum test load, stem:[D_{"min"}]: input:text[] PASS: input:checkbox[] FAIL: input:checkbox[]
+--
+
+[NOTE]
+====
+. Load/reference indications: if a 75 % load point was not obtained, a straight line
+interpolation between the adjacent higher and lower load point indications is used
+(see R 60-1, 5.3.1 and calculation procedures in R 60-3, 2.1.2.2).
+
+. Error, stem:[E_{"L"}]: the difference between the test indication and the reference
+indication divided by the conversion factor, stem:[f].
+
+. Test load values are values above minimum test load, stem:[D_{"min"}].
+====
+
+===  Repeatability errors (stem:[E_R]) calculation
+
+R 60-1, 5.4 +
+R 60-2, 2.10.1.15 +
+R 60-3, 2.1.3
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+--
+
+[[table-6.6]]
+[cols="a,a,a,a,a,a,a,a,a,a",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit)
+2+| ....stem:["unitsml(degC)"] (stem:[20"unitsml(degC)"]) 2+| ....stem:["unitsml(degC)"] (stem:[T_1"unitsml(degC)"]) 2+| ....stem:["unitsml(degC)"] (stem:[T_2"unitsml(degC)"]) 2+| ....stem:["unitsml(degC)"] (stem:[20"unitsml(degC)"])
+.2+| MPE (stem:[v])
+| Repeatability error (counts) | Repeatability error stem:[v] | Repeatability error (counts) | Repeatability error stem:[v] | Repeatability error (counts) | Repeatability error stem:[v] | Repeatability error (counts) | Repeatability error stem:[v]
+
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+[form]
+--
+PASS: input:checkbox[] FAIL: input:checkbox[]
+--
+
+[NOTE]
+====
+Error, stem:[E_R]: the maximum difference between the three test indications divided
+by the conversion factor, stem:[f] (classes C and D) or the maximum difference between
+the five test indications divided by the conversion factor, stem:[f]
+(classes A and B).
+====
+
+[[sec-6.7]]
+=== Temperature effects on minimum dead load output (MDLO)
+
+R 60-1, 5.5.2 +
+R 60-2, 2.10.1.16 +
+R 60-3, 2.1.4
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+--
+
+[[table-6.7]]
+[cols="5",options="header"]
+|===
+| Temprature +
+(stem:["unitsml(degC)"])
+| Indication +
+(&nbsp; &nbsp; &nbsp;)
+| Change +
+(stem:[v])
+| Change +
+(stem:[v_{"min}] / . . . stem:["unitsml(degC)"])
+| mpc +
+(stem:[v_{"min"}] / . . . stem:["unitsml(degC)"])
+
+| | | | |
+| | | | ^| stem:[p_{"LC"}]
+| | | | ^| stem:[p_{"LC"}]
+| | | | ^| stem:[p_{"LC"}]
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+[NOTE]
+====
+. MDLO: minimum dead load output.
+
+. Indication: the average initial minimum test load indication obtained from <<table-6.3>>.
+
+. The maximum permissible change (mpc) allowed is: (stem:[v_{"min"} // 5 "unitsml(degC)"])
+for classes B, C, and D; (stem:[v_{"min"} // 2 "unitsml(degC)"]) for class A.
+
+. Change, stem:[C_{"M"}] (stem:[v]): the difference between the observed indications,
+and the indications at the prior temperature, divided by the conversion factor, stem:[f].
+====
+
+=== Creep (stem:[C_C]) and DR (stem:[C_{"DR"}])
+
+R 60-1, 5.5.1, 5.5.2 +
+R 60-2, 2.10.2, 2.10.3. Complete one sheet for each test temperature.
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+--
+
+[[table-6.8]]
+[cols="a,a,a,a,a,a,a,a,a,a,a,a,a,a",options="header",headerrows=4]
+|===
+7+| Creep 7+| DR
+.2+| Test load 2+| Original .2+| Barom. Press. 2+| Change of .2+| mpc .2+| Test load 2+| Original .2+| Barom. Press. 2+| Change of .2+| mpc
+| Indication | Time | Indication | Time | Indication | Time | Indication | Time
+
+| | counts | hh:mm:ss | stem:["unitsml(kPa)"] | stem:[v] | mm:ss | stem:[v] | | counts | hh:mm:ss | stem:["unitsml(kPa)"] | stem:[v] | mm:ss | stem:[v]
+
+| stem:[D_{"min"}] | | | | | | | | | | | | |
+
+| stem:[D_{"max"}] | | | | | | | | | | | | |
+
+| | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | 
+
+| (++*++) | | | | | | | stem:[D_{"max"}] | | | | | |
+
+| stem:[D_{"min"}] | | | | | | | | | | | | |
+| | | | | | | | | | | | | | 
+| | | | | | | | | | | | | | 
+
+| | | | | | | | (++***++) | | | | | |
+
+| stem:[D_{"max"}] | | | | | | | stem:[D_{"min"}] | | | | | |
+
+| (++**++) | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+|===
+
+[form]
+--
+[cols="2",options="noheader,unnumbered"]
+|===
+| DR (stem:[v]): input:text[] | 30 minute creep: PASS: input:checkbox[] FAIL: input:checkbox[]
+
+| actual time (s): input:text[] | 20 - 30 minute creep difference (stem:[< 0.15*"MPE"]):
+PASS: input:checkbox[]  FAIL: input:checkbox[]
+
+| specified time (s): input:text[] | DR < 0.5 stem:[v]:  PASS: input:checkbox[]
+FAIL: input:checkbox[]
+
+| MPE for DR (stem:[v]): input:text[] | DR within manuf. Specified DR requirements:
+PASS: input:checkbox[] FAIL: input:checkbox[]
+|===
+--
+
+[NOTE]
+====
+. Change (stem:[v]) for creep: the observed indication minus the initial "load" indication
+(++**++) divided by the conversion factor, stem:[f].
+
+. Determine the difference between the reading obtained at 20 minutes and the reading
+obtained at 30 minutes (see 5.5.1).
+
+. Change (stem:[v]) for DR: the initial indication (++***++) minus the initial
+"no load" indication (++*++) divided by the conversion factor, stem:[f].
+
+. Absolute (not relative) time shall be recorded.
+====
+
+[[sec-6.9]]
+=== Barometric pressure effects (stem:[C_P])
+
+R 60-1, 5.6.2 +
+R 60-2, 2.7.3.8, 2.10.4 +
+R 60-3, 2.1.6
+
+Complete one sheet for each test temperature.
+
+[form]
+--
+include::../templates/form-4.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+--
+
+[[table-6.9]]
+[cols="6",options="header"]
+|===
+| Pressure +
+(stem:["unitsml(kPa)"])
+| Indication +
+(counts)
+| Time +
+hh:mm
+| Change +
+(stem:[v])
+| Change +
+(stem:[v_{"min}] / stem:["unitsml(kPa)"])
+| mpc +
+(stem:[v_{"min"}] / stem:["unitsml(kPa)"])
+
+| | | | 0 | 0 | 0
+| | | |   |   | 1
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+[[sec-6.10]]
+=== Humidity effects
+
+==== Humidity effects (CH or no mark)
+
+R 60-1, 5.6.3 +
+60-2, 2.7.3.9, 2.10.5 +
+R 60-3, 2.1.7
+
+===== Form 6.10.1.(a): Humidity effects summary (CH or no mark)
+
+[form]
+--
+include::../templates/form-4.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+--
+
+[[table-6.10.1-a]]
+[cols="7",options="header",headerrows=2]
+|===
+.2+| Test load +
+(g, kg, or t)
+2+| Before humidity test 2+| After humidity test .2+| Change (stem:[v]) .2+| mpc (stem:[v])
+
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+| Indication +
+(counts)
+| Time +
+(hh mm ss)
+
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+5+| Average indication at stem:[D_{"min"}] (¤) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+stem:[C_{"Hmin"} =] ← stem:[< 4 % n_{"LC"}] | |
+
+5+| Average indication at stem:[D_{"max"}] (‡) | |
+
+5+| Average difference (*) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stem:[C_{"Hmax"} =]
+| | 1
+|===
+
+(¤) Indications at minimum test load
+
+Change (¤), stem:[C_{"Hmin"}]: PASS: &#x2610; FAIL: &#x2610;
+
+(‡) Indications at maximum test load <<note_3>>
+
+(++*++) Average, see R 60-1, 5.6.3 and R 60-3, 2.1.7
+
+Change (++*++), stem:[C_{"Hmax"}]: PASS: &#x2610; FAIL: &#x2610;
+
+[NOTE]
+====
+. This test is not necessary if the load cell is marked NH or SH.
+
+. Change (stem:[v]): the difference between the indication after and before humidity
+exposure divided by the conversion factor, stem:[f].
+
+. [[note_3]]Use five test runs for Class A and B; use 3 test runs for Class C and D.
+
+. Absolute (not relative) time shall be recorded.
+
+. For family certification this test is not necessary, if a pattern with a smaller
+capacity and the same or better metrological characteristics has passed this test.
+====
+
+==== Form 6.10.1.(b): Load test data (stem:[E_L]) - 3 runs
+
+R 60-2, 2.10.1.1-2.10.1.11. Complete this form if the measurement error is determined
+*[underline]#before#* the humidity test (CH) is carried out (not mandatory)
+
+[form]
+--
+include::../templates/form-4.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Electronics power voltage (when applicable): input:text[]
+--
+
+[[table-6.10.1-b]]
+.3 runs
+[cols="9",options="header",headerrows=2]
+|===
+.2+| Test load +
+(unit)
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication counts .2+| Repeatability error counts
+
+| Indication +
+counts
+| Time +
+hh:mm:ss
+| Indication +
+counts
+| Time +
+hh:mm:ss
+| Indication +
+counts
+| Time hh:mm:ss
+
+| | | 6.7+|
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | | | | | | | |
+9+>| ++*++
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+[NOTE]
+====
+++*++ Average initial minimum test load indication
+
+Absolute (not relative) time shall be recorded
+====
+
+===== Form 6.10.1.(c): Load test data (stem:[E_L]) - 3 runs
+
+R 60-2, 2.10.1.1-2.10.1.11. Complete this form if the measurement error is determined
+*[underline]#after#* the humidity test (CH) is carried out (not mandatory)
+
+[form]
+--
+include::../templates/form-4.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Electronics power voltage (when applicable): input:text[]
+--
+
+[[table-6.10.1-c]]
+.(3 runs)
+[cols="9",options="header",headerrows=2]
+|===
+.2+| Test load (unit) 2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 .2+| Average indication counts .2+| Repeatability error counts
+| Indication +
+counts
+| Time +
+hh:mm:ss
+| Indication +
+counts
+| Time +
+hh:mm:ss
+| Indication +
+counts
+| Time +
+hh:mm:ss
+
+| | | 6.7+|
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+9+>| ++*++
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+[NOTE]
+====
+++*++ Average initial minimum test load indication
+
+Absolute (not relative) time shall be recorded
+====
+
+[%landscape]
+<<<
+
+==== Form 6.10.1.(d): Load test data (stem:[E_L]) - 5 runs
+
+R 60-2, 2.10.1.1-2.10.1.11. Complete this form if the measurement error is determined
+*[underline]#before#* the humidity test (CH) is carried out (not mandatory)
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Electronics power voltage (when applicable): input:text[]
+--
+
+.Table 6.10.1.(d) 5 runs
+[cols="13",options="header",headerrows=2]
+|===
+.2+| Test load (unit) 2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5 .2+| Average indication counts .2+| Repeatability error counts
+| Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss
+
+| | | | 9.7+|
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+13+>| ++*++
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+|===
+
+NOTE: ++*++ Average initial minimum test load indication
+
+==== Form 6.10.1.(e):Load test data (stem:[E_L]) - 5 runs
+
+R 60-2, 2.10.1.1-2.10.1.11. Complete this form if the measurement error is determined
+*[underline]#after#* the humidity test (CH) is carried out (not mandatory)
+
+[form]
+--
+include::../templates/form-4.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Electronics power voltage (when applicable): input:text[]
+--
+
+[[table-6.10.1-e]]
+.5 runs
+[cols="13",options="",headerrows=2]
+|===
+.2+| Test load (unit) 2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5 .2+| Average indication counts .2+| Repeatability error counts
+| Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss | Indication counts | Time hh:mm:ss
+
+| | | 10.7+|
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+13+>| ++*++
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+|===
+NOTE: ++*++ Average initial minimum test load indication
+
+[%portrait]
+<<<
+
+==== Humidity effects (SH)
+
+===== Form 6.10.2 Humidity effects (SH) summary
+
+R 60-1, 5.6.3.2 +
+R 60-2, 2.7.3.9, 2.10.6 +
+R 60-3, 2.1.8
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-7.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Page of load test before humidity test: input:text[]
+
+Page of load test during humidity test: input:text[]
+
+Page of load test after humidity test: input:text[]
+--
+
+For summary of SH-humidity load test errors: use form 6.3 (3 runs) or 6.4 (5 runs)
+as appropriate to record individual teat results.
+
+[[table-6.10.2]]
+[cols="9",options="header",headerrows=2]
+|===
+.2+| Test load stem:["unitsml(kg)"] .2+| Reference indication (counts)
+2+| …. stem:["unitsml(degC)"] (stem:[20 "unitsml(degC)"]) …. % (50 %) RH 2+| …. stem:["unitsml(degC)"] (High) …. % (85 %) RH 2+| …. stem:["unitsml(degC)"] (stem:[20 "unitsml(degC)"]) …. % (50 %) RH
+.2+| MPE stem:[v]
+
+| Indication (counts) | Error (stem:[E_{"L"}]) stem:[v] | Indication (counts) | Error (stem:[E_{"L"}]) stem:[v] | Indication (counts) | Error (stem:[E_{"L"}]) stem:[v]
+
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+[form]
+--
+PASS: input:checkbox[] FAIL: input:checkbox[]
+--
+
+[NOTE]
+====
+. Load/reference indications: if at 75 % load point was not obtained, a straight
+line interpolation between the adjacent higher and lower load point indication is
+used.
+
+. Error, stem:[E_{"L"}]: the difference between the test reference and the reference
+indication divided by the conversion factor, stem:[f].
+
+. Test load values are values above minimum test load, stem:[D_{"min"}].
+
+. Conditioning period: the time period for exercising the load cell.
+
+. For family certification this test is not necessary, if a pattern with a smaller
+capacity and the same or better metrological characteristics has passed this test.
+====
+
+[[sec-6.11]]
+=== Warm-up time
+
+==== Form 6.11 Warm-up time
+
+R 60-1, 3.5.17 +
+R 60-2, 2.10.7.3 +
+R 60-3, 2.2.1
+
+[form]
+--
+include::../templates/form-4.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Conversion factor, stem:[f]: input:text[] counts/stem:[v]
+
+Duration of disconnection before test: input:text[]
+--
+
+[cols="11",options="header",headerrows=2]
+|===
+2.2+| 2+| Initial run 2+| After 5 min.  2+| After 15 min.  2+| After 30 min.  .2+| mpc stem:[v_{"min"}]
+| Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss
+
+|        | stem:[D_{"min"}] | | | | | | | | |
+|        | stem:[D_{"max"}] | | | | | | | | |
+| Span   | Counts           | | | | | | | | |
+| Span   | stem:[v_{"min"}] | | | | | | | | |
+| Change | stem:[v_{"min"}] | | | | | | | | |
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+[NOTE]
+====
+. Absolute (not relative) time shall be recorded.
+
+. Span: the result of subtraction of the indication at minimum test load from the
+indication at maximum test load. All span errors (error at maximum test load minus
+the error at minimum test load) shall be within the maximum permissible error during
+the 30 minute test.
+
+. The change of span must not exceed stem:[v_{"min"}].
+
+. Change: the difference between the span and the initial run span.
+
+. Maximum permissible change, mpc: the absolute value of the maximum permissible
+error for the maximum test load applied.
+
+. Exercises have to be run before disconnection.
+====
+
+[[sec-6.12]]
+=== Power voltage variation
+
+==== Form 6.12 Power voltage variation
+
+R 60-1, 5.7.2.2, 5.7.2.3, 5.7.2.4 +
+R 60-2, 2.10.7.4 +
+R 60-3, 2.2.2
+
+[form]
+--
+include::../templates/form-4.adoc[]
+
+include::../templates/form-6.adoc[]
+
+Conversion factor, stem:[f]: input:text[] counts/stem:[v]
+
+Main voltage: input:text[]
+
+AC: input:checkbox[] DC: input:checkbox[]
+--
+
+[[table-6.12-a]]
+[cols="3",headerrows=2]
+|===
+.2+| Test load
+(units)
+2+| Preloads
+| Indication (counts) | Time hh:mm:ss
+
+^| stem:[D_{"min"}] | |
+^| stem:[D_{"max"}] | |
+^| stem:[D_{"min"}] | |
+^| stem:[D_{"max"}] | |
+^| stem:[D_{"min"}] | |
+^| stem:[D_{"max"}] | |
+|===
+
+[NOTE]
+====
+. Reference indications: if at 75 % load point was not obtained, a straight line
+interpolation between the adjacent higher and lower indication is used (see 2.8.2
+in R 60-2 and calculation procedures in R 60-3, 2.1.2)
+
+. Error: the difference between the test indication and the reference indication
+divided by the conversion factor, stem:[f].
+
+. The change of span must not exceed stem:[v_{"min"}].
+
+. When a voltage range is marked, use the average value as the reference value and
+determine upper and lower values of applied voltage according to R 60-2, 2.10.7.4.
+
+. Upper limit not applicable to battery powered load cells
+
+. At lower limit, battery powered load cells shall function and be within MPE, or
+cease to function
+====
+
+[cols="9*^",options="header,unnumbered",headerrows=2]
+|===
+2.2+| 2+| Initial run with main voltage 2+| lower limit main voltage - 15 % 2+| upper limit +10 %
+.2+| mpc +
+stem:[v_{"min"}]
+| Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss 
+
+.2+|                  | stem:[D_{"min"}] | | | | | | .4+|
+   | stem:[D_{"max"}] |                  | | | | |
+   | Span             | Counts           | | | | | |
+   | Span             | stem:[v_{"min"}] | | | | | |
+   | Change           | stem:[v_{"min"}] | | | | | | |
+|===
+
+[align=right]
+PASS: &#x2610; FAIL:&#x2610;
+
+[[sec-6.13]]
+=== Short time power reductions
+
+==== Form 6.13 Short time power reductions
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.5 +
+R 60-3, 2.2.3
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-5.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+
+Reference voltage range: input:text[] V
+--
+
+[[table-6.13]]
+[cols="9*^",options="header",headerrows=3]
+|===
+.3+| Test load (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) 4+| Disturbance 4+| Result
+.2+| Amplitude (%) .2+| Duration (cycles) .2+| Number of disturbances .2+| Repetition interval (stem:[v])
+.2+| Indication +
+(&nbsp; &nbsp;)
+.2+| Difference +
+(&nbsp; &nbsp;)
+2+| Significant fault stem:[> v_{"min"}]
+| No | Yes (remarks)
+
+5+| Without disturbance | | | |
+| | 0 | 0.5 | 10 | | | | |
+| | 50 | 1 | 10 | | | | |
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+Equipment used (supply sketch if necessary):
+
+Remarks:
+
+NOTE: In the case of a voltage range, use the average value as the reference value.
+
+[[sec-6.14]]
+=== Bursts (electrical fast transients)
+
+==== Form 6.14.1 Bursts (electrical fast transients) - power supply lines
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.6 +
+R 60-3, 2.2.4
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-5.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+--
+
+[[table-6.14.1]]
+.Power supply lines: test voltage = 2 kV; duration of test = 1 minute at each polarity
+[cols="9*^.^",options="header",headerrows=3]
+|===
+.3+| Test load (g, kg, or t) 3+| Connection .3+| Polarity 4+| Result
+.2+| L to ground .2+| N to ground .2+| PE to ground
+.2+| Indication +
+(&nbsp; &nbsp; &nbsp;)
+.2+| Difference +
+(stem:[v])
+2+| Significant fault stem:[> v_{"min"}]
+| No | Yes (remarks)
+
+.9+|
+4+^| without disturbance | | | |
+| x | | | pos | | | |
+|   | | | neg | | | |
+
+4+^| without disturbance | | | |
+| | x | | pos | | | |
+| |   | | neg | | | |
+
+4+^| without disturbance | | | |
+| | | x | pos | | | |
+| | |   | neg | | | |
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+L = phase, N = neutral, PE = protective earth 
+
+Equipment used (supply sketch if necessary)
+
+==== Form 6.14.2 Bursts (electrical fast transients) - I/O circuits and communications lines
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.6 +
+R 60-3, 2.2.4
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-5.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+--
+
+[[table-6.14.2]]
+[cols="7",options="header",headerrows=3]
+|===
+.3+| Test load (g, kg, or t) .3+| Cable interface .3+| Polarity 4+| Result
+
+.2+| Indication +
+(&nbsp; &nbsp;)
+
+.2+| Difference +
+(stem:[v])
+
+2+| Significant fault stem:[> v_{"min"}]
+| No | Yes (remarks)
+
+.3+| 2+^| without disturbance | | | |
+.2+| | pos | | | |
+| neg | | | |
+
+.3+| 2+^| without disturbance | | | |
+.2+| | pos | | | |
+| neg | | | |
+
+.3+| 2+^| without disturbance | | | |
+.2+| | pos | | | |
+| neg | | | |
+
+.3+| 2+^| without disturbance | | | |
+.2+| | pos | | | |
+| neg | | | |
+
+.3+| 2+^| without disturbance | | | |
+.2+| | pos | | | |
+| neg | | | |
+
+.3+| 2+^| without disturbance | | | |
+.2+| | pos | | | |
+| neg | | | |
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+Equipment used (supply sketch if necessary)
+
+Remarks:
+
+NOTE: Explain or make a sketch indicating where the clamp is located on the cable:
+if necessary use additional page(s).
+
+[[sec-6.15]]
+=== Surges
+
+==== Form 6.15 Surges
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.7 +
+R 60-3, 2.2.5
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+--
+
+[[table-6.15]]
+[cols="a,a,a,a,a,a,a,a",options="noheader"]
+|===
+.11+| *OIML* +
+*R 60-2,* +
+*.........*
+
+*[unit]* +
+*&#x2610;[g];* +
+*&#x2610;[kg];* +
+*&#x2610;[t];*
+
+5+^| Test conditions surges on signal, data and control lines
+2+| Observer's name:
+
+.4+| Output gained
+.2+| &#x2610;
+3+| using actual loads 2+|
+3+| Test load: 2+| Line to line 1 kV
+
+.2+| &#x2610;
+3+| simulating loading 2+| Line to earth 2 kV
+3+| using: 2+|
+
+2+| Cable: 3+| 2+| &#x2610; Symmetrical line
+
+2+| Date: | | Start | Stop 2+| &#x2610; Unsymmetrical line
+
+2+| Time: | | | 2+| Specimen:
+
+3+| Ambient temperature | stem:["unitsml(degC)"] | stem:["unitsml(degC)"] 2+| stem:[f]
+
+3+| Relative humidity | % | % 2+| stem:[D_{"min"}] [unit]
+
+3+| Barometric Pressure | stem:["unitsml(kPa)"] | stem:["unitsml(kPa)"] 2+| stem:[D_{"max"}] [unit]
+
+.2+|
+2+| Cycle phase | *Initial* 2+| *During exposure* 2+| *After*
+2+| Load | 2+| 2+|
+
+.2+| Time
+2+| Start | 2+| 2+|
+2+| Stop | 2+| 2+|
+
+.2+| Quantity +
+++[unit]++
+
+2+| reference | 2+| 2+|
+2+| indicated | 2+| 2+|
+
+| Error [stem:[v_{"min"}]] 2+| | 2+| 2+| 
+
+3+| relative error [%] stem:[E_{"ii"}] | 2+| 2+|
+
+| MPE [%] 2+| 5+|
+
+| 2+| Pass | &#x2610; 2+| 2+| &#x2610;
+| 2+| Fail | &#x2610; 2+| 2+| &#x2610;
+
+8+| *Observed faults after exposure*
+
+3+| Fault limit [%] 5+| ++.............++
+
+3+| Line to line (N/A for balanced) | Fault/Deviation 2+| Significant 2+| Acts on fault
+
+^| ↑ &#x2587; 2+^| ↓ &#x2587; | ^| Yes ^| No ^| Yes ^| No
+
+^| *3x* 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+^| *3x* | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+
+3+| Line to earth | | | | |
+
+^| *3x* 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+^| *3x* | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+
+8+| Observations
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+| Result 3+| | Pass | &#x2610; | Fail | &#x2610;
+
+|===
+
+[[sec-6.16]]
+=== Electrostatic discharge
+
+==== Form 6.16.1 Electrostatic discharge - direct application
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.8 +
+R 60-3, 2.2.6
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-5.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+
+input:checkbox[] Contact discharges
+
+input:checkbox[] Paint penetration
+
+input:checkbox[] Air discharges
+
+Polarity (see <<note-6.16-2>>):
+
+input:checkbox[] Positive
+
+input:checkbox[] Negative
+--
+
+[[table-6.16.1]]
+[cols="8*^",options="header",headerrows=3]
+|===
+.3+| Test load (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) 3+| 4+| Result
+
+.2+| Test voltage +
+(stem:["unitsml(kV)"])
+.2+| No. of discharges +
+stem:[>= 10]
+.2+| Repetition interval +
+(stem:[s])
+.2+| Indication +
+(&nbsp; &nbsp;)
+.2+| Difference +
+(stem:[v])
+2+| Significant fault stem:[> v_{"min"}]
+
+| No | Yes (remarks)
+
+.5+|
+3+^| without disturbance | | | |
+| 2 | | | | | |
+| 4 | | | | | |
+| 6 | | | | | |
+| 8 (air discharges) | | | | | |
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+Remarks:
+
+NOTE: If the load cell fails, the test point at which this occurs shall be recorded.
+
+[[note-6.16-2]]
+NOTE: IEC Publication 61000-4-2 Ed 2.0 (2008-12) Consolidated edition specifies that
+the test be conducted with the most sensitive polarity.
+
+==== Form 6.16.2 Electrostatic discharge - indirect application
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.8 +
+R 60-3, 2.2.6
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-5.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+
+Polarity (see <<note-6.16.2-2>>):
+
+input:checkbox[] Positive
+
+input:checkbox[] Negative
+--
+
+[[table-6.16.2.1]]
+.Horizontal coupling plane
+[cols="8",options="header",headerrows=3]
+|===
+.3+| Test load (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) 3+| 4+| Result
+
+.2+| Test voltage +
+(stem:["unitsml(kV)"])
+
+.2+| No. of discharges +
+stem:[>= 10]
+
+.2+| Repetition interval +
+(stem:[s])
+
+.2+| Indication +
+(&nbsp; &nbsp;)
+
+.2+| Difference +
+(stem:[v])
+
+2+| Significant fault stem:[> v_{"min"}]
+| No | Yes (remarks)
+
+.4+|
+3+^| without disturbance | | | |
+^| 2 | | | | | |
+^| 4 | | | | | |
+^| 6 | | | | | |
+|===
+
+[[table-6.16.2.2]]
+.Vertical coupling plane
+[cols="8",options="header",headerrows=3]
+|===
+.3+| Test load (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) 3+| 4+| Result
+
+.2+| Test voltage +
+(stem:["unitsml(kV)"])
+
+.2+| No. of discharges +
+stem:[>= 10]
+
+.2+| Repetition interval +
+(stem:[s])
+
+.2+| Indication +
+(&nbsp; &nbsp;)
+
+.2+| Difference +
+(stem:[v])
+
+2+| Significant fault stem:[> v_{"min"}]
+| No | Yes (remarks)
+
+.4+|
+3+^| without disturbance | | | |
+^| 2 | | | | | |
+^| 4 | | | | | |
+^| 6 | | | | | |
+
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+Remarks:
+
+NOTE: If the load cell fails, the test point at which this occurs shall be recorded.
+
+[[note-6.16.2-2]]
+NOTE: IEC Publication 61000-4-2 Ed. 2.0 (2008-12). Consolidated edition specifies
+that the test be conducted with the most sensitive polarity.
+
+==== Form 6.16.3 Electronic discharge (continued) - specification of test points
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.8 +
+R 60-3, 2.2.6
+
+Specify test points utilised on load cell and test equipment used, e.g. by photos
+or sketches.
+
+. Direct application
++
+--
+Contact discharges:
+
+Air discharges:
+--
+
+. Indirect application
+
+[[sec-6.17]]
+=== Electromagnetic susceptibility
+
+==== Form 6.17.1 Electromagnetic susceptibility
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.9 +
+R 60-3, 2.2.7
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-5.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+
+Rate of sweep: input:text[]
+
+Test load: input:text[]
+
+Test load material: input:text[]
+--
+
+[[table-6.17]]
+[cols="8",options="header",headerrows=3]
+|===
+4+| Disturbance 4+| Result
+
+.2+| Antenna .2+| Frequency range (MHz) .2+| Polarisation .2+| Facing load cell
+
+.2+| Indication +
+(&nbsp; &nbsp;)
+
+.2+| Difference +
+(stem:[v])
+
+2+| Significant fault stem:[> v_{"min"}]
+| No | Yes (remarks)
+
+4+^| without disturbance | | | |
+
+.8+|
+.4+| .4+^.^| Vertical | Front | | | |
+^| Right | | | |
+^| Left  | | | |
+^| Rear  | | | |
+
+.4+| .4+^.^| Horizontal | Front | | | |
+^| Right | | | |
+^| Left  | | | |
+^| Rear  | | | |
+|===
+
+[align=right]
+PASS: &#x2610; FAIL: &#x2610;
+
+Frequency range: stem:[80 "unitsml(MHz)"] footnote:[The lower limit of frequency
+of electromagnetic field is 26 MHz for load cells without power lines or I/O ports,
+and for which the test for conducted electromagnetic field (R 60-2, 2.10.7.10) is
+not applicable.] to stem:[3000 "unitsml(MHz)"]
+
+Field strength: stem:[10 "unitsml(V/m)"]
+
+Modulation: 80 % AM, stem:[1 "unitsml(kHz)"] sine wave
+
+Remarks:
+
+NOTE: If the load cell fails, the test point at which this occurs shall be recorded.
+
+==== Form 6.17.2 Electromagnetic susceptibility (continued) - description of the test setup
+
+Describe the setup of the test and equipment, e.g. by photos or sketches:
+
+<<<
+
+[[sec-6.18]]
+=== Immunity to conducted electromagnetic fields
+
+==== Form 6.18 Immunity to conducted electromagnetic fields
+
+R 60-1, 5.7.2.5 +
+R 60-2, 2.10.7.10 +
+R 60-3, 2.2.8
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+include::../templates/form-5.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+
+Rate of sweep: input:text[]
+
+Test load: input:text[]
+
+Test load material: input:text[]
+--
+
+[[table-6.18]]
+[cols="a,a,a,a,a,a,a,a",options="noheader"]
+|===
+.11+|
+*OIML* +
+*R 60-2,* +
+*........*
+
+*[unit]* +
+&#x2610; [g]; +
+&#x2610; [kg]; +
+&#x2610; [t]
+
+5+^.^| test conditions rf current injection 2+| Observer's name:
+
+.4+^.^| output gained
+.2+^.^| &#x2610; 
+3+| using actual loads 2+|
+3+| Test load: 2+| stem:[f_{"l"} = quad quad quad "unitsml(MHz)"]
+
+.2+^.^| &#x2610; 3+| simulating loading 2+| stem:[f_{"h"} = quad quad quad "unitsml(MHz)"]
+3+| using: 2+| RF voltage stem:[v_{"emf"}]
+
+2+| Cable exposed 3+| 2+| Modulation % AM
+
+2+| Date: | | Start | Stop 2+| Dwell time stem:["unitsml(s)"]
+
+2+| Time: | | | 2+| Specimen:
+
+3+| Ambient temperature | stem:["unitsml(degC)"] | stem:["unitsml(degC)"] 2+| stem:[f]
+
+3+| Relative humidity | % | % 2+| stem:[D_{"min"}] [unit]
+
+3+| Barometric pressure | stem:["unitsml(kPa)"] | stem:["unitsml(kPa)"] 2+| stem:[D_{"max"}] [unit]
+
+.2+| *Frequency cycle* 2+| Cycle phase ^| *Initial* 2+^| *During exposure* 2+^| *After*
+
+2+| Load | 2+| 2+|
+
+.2+| Time 2+| Start | 2+| 2+|
+2+| Stop | 2+| 2+|
+
+.2+| Quantity [unit] 2+| reference | 2+| 2+|
+2+| indicated | 2+| 2+|
+
+| Error [stem:[v_{"min"}]] 2+| | 2+| 2+|
+
+3+| relative error [%] stem:[E] | 2+| 2+|
+
+| MPE [%] 2+| 5+|
+
+| 2+| Pass ^| &#x2610; 2+| 2+^| &#x2610;
+| 2+| Fail ^| &#x2610; 2+| 2+^| &#x2610;
+
+8+| *Observed faults during exposure*
+
+3+| Fault limit [%] 5+| ++................++
+
+| Frequency 2+| ^| Fault/Deviation 2+^| Significant 2+^| Acts on fault
+
+| MHz 2+| | ^| Yes ^| No ^| Yes ^| No
+
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+| 2+| | ^| &#x2610; ^| &#x2610; ^| &#x2610; ^| &#x2610;
+
+8+| Observations
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+| Result 3+| | Pass | &#x2610; | Fail | &#x2610;
+|===
+
+[%landscape]
+<<<
+
+[[sec-6.19]]
+=== Span stability
+
+==== Form 6.19.1 (3 runs) Span stability - measurement data for classes C and D
+
+R 60-1, 5.7.2.6 +
+R 60-2, 2.10.7.11 +
+R 60-3, 2.2.9
+
+[form]
+--
+include::../templates/form-3.adoc[]
+
+Conversion factor, stem:[f]: input:text[]
+
+Minimum test load, stem:[D_{"min"}]: input:text[]
+
+Maximum test load, stem:[D_{"max"}]: input:text[]
+--
+
+[NOTE]
+====
+. Span is the result of subtracting the average indication at minimum test load from
+the average indication at maximum test load.
+
+. Absolute (not relative) time shall be recorded.
+====
+
+<<<
+
+*Measurement no. 1:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+*Measurement no. 2:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+*Measurement no. 3:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+*Measurement no. 4:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+*Measurement no. 5:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+*Measurement no. 6:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+*Measurement no. 7:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+*Measurement no. 8:*
+
+[cols="8",options="header,unnumbered",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| Indication +
+(&nbsp; &nbsp;)
+
+| Time
+
+| | | | | | | |
+| | | | | | | |
+6+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+==== Form 6.19.2 (5 runs) Span stability measurement data for class B
+
+R 60-1, 5.7.2.6 +
+R 60-2, 2.10.7.11 +
+R 60-3, 2.2.9
+
+[NOTE]
+====
+. Span is the result of subtracting the average indication at minimum test load from
+the average indication at maximum test load.
+
+. Absolute (not relative) time shall be recorded.
+====
+
+[[table-6.19.2]]
+.Measurement no. 1 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+.Measurement no. 2 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+.Measurement no. 3 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+.Measurement no. 4 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+.Measurement no. 5 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+.Measurement no. 6 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+.Measurement no. 7 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+<<<
+
+.Measurement no. 8 (5 runs)
+[cols="12",options="header",headerrows=2]
+|===
+.2+| Test load (unit) +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+2+| Run no. 1 2+| Run no. 2 2+| Run no. 3 2+| Run no. 4 2+| Run no. 5
+.2+| Average indication +
+(&nbsp; &nbsp;)
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| indication +
+(&nbsp; &nbsp;)
+| Time
+
+| | | | | | | | | | | |
+| | | | | | | | | | | |
+10+| | span |
+|===
+
+Evaluator: ++____________________++ Remarks:
+
+[form]
+--
+include::../templates/form-5.adoc[]
+--
+
+==== Form 6.19.3 Span stability - summary of test results
+
+R 60-1, 5.7.2.6 +
+R 60-2, 2.10.7.11 +
+R 60-3, 2.2.9
+
+[form]
+--
+include::../templates/form-3.adoc[]
+--
+
+.Table 6.19.3
+[cols="5*^.^",options="header",headerrows=2]
+|===
+.2+| Measurement no.  2+| Span
+.2+| Variation +
+(stem:[v_{"min"}])
+.2+| Maximum allowable variation (stem:[v_{"min"}])
+| (&nbsp; &nbsp; &nbsp;) | (stem:[v_{"min"}])
+
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
+| 6 | | | |
+| 7 | | | |
+| 8 | | | |
+
+|===
+
+[align=center]
+PASS: &#x2610; FAIL: &#x2610;
+
+Remarks:

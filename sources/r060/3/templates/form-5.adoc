@@ -1,0 +1,10 @@
+
+Date: input:text[]
+
+Time: input:text[]
+
+Temperature: input:text[] stem:["unitsml(degC)"]
+
+Relative humidity: input:text[] %
+
+Barometric pressure: input:text[] stem:["unitsml(kPa)"]

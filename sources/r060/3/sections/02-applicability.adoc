@@ -1,0 +1,665 @@
+
+[[sec-2]]
+== Applicability of this Report Format
+
+In the framework of OIML B 18 _Framework for the OIML Certification System (OIML-CS)_
+[6] applicable to load cells in conformity with OIML R 60-1 and R 60-2, use of this
+Report Format is mandatory, in French and/or in English with translation into the
+national languages of the countries issuing such certificates, if appropriate.
+
+Implementation of this Report Format is informative with regard to the implementation
+of OIML R 60-1 and R 60-2 in national regulations.
+
+[[sec-2.1]]
+=== Calculation procedures
+
+==== {blank}
+
+In order to facilitate a comparison of the reports established in English and in
+French, the same abbreviations (those of the English language) are used in both versions;
+the meanings of these abbreviations are given whenever appropriate.
+
+In testing and evaluating load cells for type evaluation, it is recognised that the
+test apparatus and practices used by the various laboratories will be different.
+OIML R 60 allows for these variations and still provides a method for testing, recording
+and calculating results that are readily understandable by other knowledgeable parties
+reviewing the data.
+
+In order to achieve this ease of comparability it is necessary that those persons
+conducting the tests use a common system for recording data and calculating results.
+
+Thus, it is essential that the calculation procedures below be reviewed and followed
+closely in the completion of this test report.
+
+[[sec-2.1.2]]
+==== Load cell errors (stem:[E_L =] Error Load test)
+
+===== {blank}
+
+Complete a <<table-6.3>> for each test temperature, calculate the averages and record
+in the right-hand column. When five runs are necessary, use <<table-6.4>>.
+
+===== {blank}
+
+Determine the conversion factor, stem:[f], which is the number of indicated units
+per load cell verification interval, stem:[v], and is used to convert all
+"indicated units" to "stem:[v]". It is determined from the test data averages of
+the increasing load tests at the initial stem:[20 "unitsml(degC)] nominal test temperature.
+
+===== {blank}
+
+If a test load corresponding to 75 % of the measuring range for the load cell under
+test (i.e. stem:[2250] divisions for a stem:[3000] division cell, which is stem:[D_{"min"}]
+plus 75 % of the difference between stem:[D_{"max"}] and stem:[D_{"min"}]) is not
+included in the test loads used in <<table-6.3>>, interpolate between the adjacent
+upper and lower values of the averages of all three test runs and record in <<table-6.5>>
+(see R 60-2, 2.8.2).
+
+[[sec-2.1.2.4]]
+===== {blank}
+
+Calculate the difference between the average indication on the increasing load test
+runs at 75 % of the difference between stem:[D_{"max"}] and stem:[D_{"min"}] and
+the indication at stem:[D_{"min"}]. Divide the result (to five significant figures)
+by the number of verification intervals (75 % of stem:[n]) for that load to obtain
+the conversion factor, stem:[f], and record in the tables that follow.
+
+[stem%unnumbered]
+++++
+f = {"average indication at" quad 0.75 cdot (D_{"max"} - D_{"min"}) -
+"indication at" quad D_{"min"}} / {0.75 cdot n}
+++++
+
+The units of conversion factor, stem:[f], are indicated units (e.g. digits or counts)
+per load cell verification interval, stem:[v].
+
+===== {blank}
+
+Enter the average test indications of the tests at the temperatures following the
+initial test at a nominal stem:[20 "unitsml(degC)] in <<table-6.5>>. In recording
+this data, indicate a "no test load" indication (at stem:[D_{"min"}]) as "0".
+This may require subtracting the "no load indication at stem:[D_{"min"}]" from the
+"test load indication" so that the first entry in the column is "0". These "0's"
+have been preprinted on the form to clarify that a dead load condition is recorded
+as "0".
+
+===== {blank}
+
+Calculate the reference indication, stem:[R_{"i"}], by converting the net test load,
+in mass units, to indicated units (e.g. counts or digits), by multiplying by the
+conversion factor, stem:[f], for each test load and recording in the 2nd column in
+<<table-6.5>>.
+
+[stem%unnumbered]
+++++
+R_i = {("test load" quad i - D_{"min"})} / {(D_{"max"} - D_{"min"})} cdot n cdot f
+++++
+
+===== {blank}
+
+In <<table-6.5>> calculate the difference between the average test indication and
+the reference indication for each test load at each test temperature and divide the
+result by the conversion factor, stem:[f], to obtain the error, stem:[E_{"L"}], for
+each test load in terms of stem:[v].
+
+[stem%unnumbered]
+++++
+E_L = ("average test indication for test load" quad i - "reference indication" quad R_i) // f
+++++
+
+===== {blank}
+
+Compare stem:[E_{"L"}] with the corresponding MPE for each test load.
+
+==== Repeatability error (stem:[E_R] in terms of verification interval, stem:[v])
+
+===== {blank}
+
+Enter data in <<table-6.6>>.
+
+===== {blank}
+
+Calculate the maximum difference between the test indications on <<form-6.3,Form 6.3>>
+and divide it by stem:[f] to obtain the repeatability error, stem:[E_{"R"}], in terms
+of the load cell verification interval, stem:[v].
+
+[stem%unnumbered]
+++++
+E_R = ("maximum indication of the test load" - "minimum indication") // f
+++++
+
+===== {blank}
+
+Compare stem:[E_{"R"}] with the absolute value of the corresponding MPE for each
+test load.
+
+==== Temperature effects on minimum dead load output (MDLO) (stem:[C_M =] Change MDLO)
+
+===== {blank}
+
+Enter in <<table-6.7>> the average indication for the initial minimum test load,
+stem:[D_{"min"}], for each test temperature from <<table-6.3>>.
+
+===== {blank}
+
+Calculate the difference between the average test indications for each temperature
+stem:[T_{"i"}] in sequence and divide the result by the conversion factor, stem:[f],
+to obtain the change in terms of the load cell verification interval, stem:[v].
+
+[stem%unnumbered]
+++++
+C_{"M"} = ("average test indication at" quad T_2 - "average indication at" quad T_1) // f
+++++
+
+===== {blank}
+
+Divide stem:[C_{"M"}] by (stem:[T_2 - T_1]) and multiply the result by a factor
+stem:[T_{"f"} = 5] for class B, C, and D load cells or stem:[T_{"f"} = 2] for class
+A load cells. This gives the change in stem:[v] per stem:[5 "unitsml(degC)"] for
+class B, C, and D load cells or in stem:[v] per stem:[2 "unitsml(degC)"] for class
+A load cells.
+
+===== {blank}
+
+Multiply the result by stem:[[(D_{"max"} - D_{"min"}) // n // v_{"min"}]] to give
+the final result stem:[C_{"M"}( v_{"min"})] in units of stem:[v_{"min"}] per
+stem:[5 "unitsml(degC)"] for class B, C, and D load cells, or in units of stem:[v_{"min"}]
+per stem:[2 "unitsml(degC)"] for class A load cells. stem:[C_{"M"}(v_{"min"})] must
+not exceed stem:[p_{"LC"}].
+
+[stem%unnumbered]
+++++
+bb(C_M(v_{"min"}) = | {C_M cdot T_f}/{(T_2 - T_1)} xx {(D_{"max"} - D_{"min"})} / {n cdot v_{"min"}} |)
+++++
+
+[stem%unnumbered]
+++++
+C_M(v_{"min"}) <= p_{LC}
+++++
+
+==== Creep magnitude stem:[C_C(t)] and minimum dead load output return (stem:[C_{"DR"}])
+
+(stem:[C_C(t) =] Creep, expressed in terms of the load cell verification interval, stem:[v])
+
+(stem:[C_DR = DR], expressed in terms of the load cell verification interval, stem:[v])
+
+Remark: Contrary to the minimum dead load output return stem:[DR] in terms of mass
+the minimum dead load output stem:[C_DR] is expressed in terms of the verification
+interval, stem:[v].
+
+From the test indications recorded in <<table-6.8>>, calculate the difference between
+the initial indication obtained at the minimum creep test load after the stabilisation
+period and any indication obtained over the 30 minute test period with the maximum
+creep test load of 90 % to 100 % of stem:[E_{"max"}] and divide by the conversion
+factor, stem:[f].
+
+[stem%unnumbered]
+++++
+C_C (t) = ("indication" - "initial indication") // f
+++++
+
+Remark: If the minimum creep test load or the maximum creep test load differ from
+stem:[D_{"min"}] or stem:[D_{"max"}] according to <<sec-2.1.2>> "Load cell errors
+stem:[E_{"L"}]" the conversion factor, stem:[f], must be recalculated with the minimum
+and maximum creep test loads (see <<sec-2.1.2.4>>).
+
+===== {blank}
+
+stem:[C_{"C"}(t)] must not exceed 0.7 times the absolute value of the MPE for the
+maximum creep test load at any time stem:[t] over the 30 minute creep test period.
+
+===== {blank}
+
+Calculate the difference between the test indications obtained at stem:[t = 20] minutes
+and stem:[t = 30] minutes after the initial indication at stem:[t = t_0] and divide
+by stem:[f] to obtain the creep error, stem:[C_{"C"} (30 - 20)], in terms of the
+load cell verification interval, stem:[v].
+
+[stem%unnumbered]
+++++
+C_{"C"} (30 - 20) = ("indication at time" quad t = 30 quad "minutes" - "indication at time" quad t = 20 quad "minutes") // f
+++++
+
+===== {blank}
+
+stem:[C_C (30 - 20)] shall not exceed 0.15 times the absolute value of the MPE for
+the applied load.
+
+===== {blank}
+
+Calculate the difference between the initial indication obtained at the minimum creep
+test load after the stabilisation period (stem:[t_0 = 0 "unitsml(min)"]) and the
+indication at the minimum creep test load after the creep test and after a time interval
+for stabilisation (stem:[t > 30 "unitsml(min)"]) and divide the result by conversion
+factor, stem:[f], to obtain the minimum dead load output return, stem:[C_{"DR"}],
+in terms of stem:[v].
+
+[stem%unnumbered]
+++++
+C_{"DR"} = ("minimum test load indication"2 - "minimum test load indication"1) // f
+++++
+
+===== {blank}
+
+If the time intervals specified in R 60-2, Table 1 have been met, stem:[C_{"DR"}]
+must not exceed 0.5 stem:[v].
+
+===== {blank}
+
+If the actual time is between 100 % and 150 % of the specified time in
+R 60-2, Table 1, then the following applies:
+
+[stem%unnumbered]
+++++
+C_{"DR"} <=  0.5 (1 - (x - 1)) v
+++++
+
+[align=center]
+with
+
+[align=center]
+stem:[x =] actual time/specified time
+
+===== {blank}
+
+Whereas stem:[C_{"DR"}] expresses the minimum dead load output return in terms of
+stem:[v], the value of stem:[DR] as used in OIML R 76 [1] is expressed in units of
+mass (stem:["unitsml(g)"], stem:["unitsml(kg)"] or stem:["unitsml(t)"]).
+
+===== {blank}
+
+Calculate the minimum dead load output return, stem:[DR], expressed in units of mass
+(stem:["unitsml(g)"], stem:["unitsml(kg)"] or stem:["unitsml(t)"]) as follows:
+stem:[DR_ = (E_{"max"} - E_{"min"}) C_{"DR"} // n_{"LC"}]
+
+===== {blank}
+
+Regardless of the value declared by the manufacturer for the apportionment factor,
+stem:[p_{"LC"}], the MPE for creep shall be determined from R 60-1, Table 4 using
+the apportionment factor, stem:[p_{"LC"} = 0.7] (see R 60-1, 5.5.1).
+
+==== Barometric pressure effects footnote:[This test may not be necessary depending on the design of the load cell.] (stem:[C_P =] Change due to barometric pressure)
+
+===== {blank}
+
+From the test indications recorded in R 60-3, <<table-6.9>>, calculate the difference
+between the indications for each pressure and divide the result by conversion factor,
+stem:[f], to obtain the change, stem:[C_{"P"}], in terms of stem:[v].
+
+[stem%unnumbered]
+++++
+C_P = ("indication at " P_2 - "indication at " P_1) // f
+++++
+
+===== {blank}
+
+Divide stem:[C_{"P"}] by (stem:[P_2 - P_1]) to determine the change due to barometric
+pressure in terms of stem:[v] per kilopascal (stem:["unitsml(kPa)"]).
+
+===== {blank}
+
+Multiply the result by [stem:[(E_{"max"} - E_{"min"}) // n_{"LC"}] to obtain the
+result in units of mass (g, kg, or t) per stem:["unitsml(kPa)"] (as stated by the
+manufacturer). The result must not exceed stem:[v_{"min"}].
+
+[stem%unnumbered]
+++++
+C_P(v) = C_P/{(P_2 - P_1)} cdot {(E_{"max"} - E_{"min"})}/n_{"max"} <= v_min
+++++
+
+==== Humidity effects footnote:[This test is not necessary if the load cell is marked NH or SH.] (CH or no mark)
+
+(stem:[C_{"Hmin"} =] Change in terms of stem:[v] due to Humidity effect on the indication
+of the minimum test load stem:[D_{"min"}])
+
+(stem:[C_{"Hmax"} =] Change due to Humidity effect on the indication of the maximum
+test load stem:[D_{"max"}])
+
+Remark: If the minimum or maximum test load used for this test differ from the minimum
+test load stem:[D_{"min"}] or maximum test load stem:[D_{"max"}] according to
+R 60-3, 2.1.2 "Load cell errors stem:[E_{"L"}]" the conversion factor, stem:[f],
+must be recalculated with the minimum and maximum test loads of this test
+(see R 60-3, 2.1.2.4).
+
+===== {blank}
+
+From the test indications recorded in R 60-3, Table 6.10.1, calculate the difference
+between the initial indications for the minimum test load, stem:[D_{"min"}], before
+and after the damp heat test and divide the result by conversion factor, stem:[f],
+to obtain the change, stem:[C_{"Hmin"}], in terms of verification interval, stem:[v]
+(see R 60-1, 5.6.3.1).
+
+[stem%unnumbered]
+++++
+C_{"Hmin"} = [("indication at " D_{"min"})_{"after"} - ("indication at " D_{"min"} )_{"before"}] // f
+++++
+
+[stem%unnumbered]
+++++
+C_{"Hmin"} " must not exceed 0.04 " cdot n.
+++++
+
+===== {blank}
+
+Calculate the average indications stem:[bar I{D_{"max"}}] and stem:[bar I{D_{"min"}]
+at stem:[D_{"min"}] (see R 60-2, 2.10.5) for the required number of test indications,
+before and after the damp heat test. Subtract stem:[bar I{D_{"min"] from
+stem:[bar I{D_{"max"}}] for the tests before and after damp heat test and then calculate
+the difference between the results. Divide the result by the conversion factor, stem:[f],
+to obtain the change, stem:[C_{"Hmax"}] in terms of stem:[v].
+
+[stem%unnumbered]
+++++
+C_{"Hmax"} = {[(bar I{D_{"max"}} - bar I{D_{"min"}})_{"after"} - (bar I{D_{"max"}} -
+bar I{D_{"min"}})_{"before"}]} / f
+++++
+
+===== {blank}
+
+stem:[C_{"Hmax"}] must not exceed the MPE (see R 60-1, Table 4 in 5.3.2).
+
+==== Humidity effects footnote:[This test is not necessary if the load cell is marked NH or CH or has no humidity marking.] (SH)
+
+Report load test errors at different temperatures and humidity conditions using
+R 60-3, Forms 6.3, then indicate the results in R 60-3, Table 6.10.2 utilising the
+procedure contained within "load cell errors" procedure, R 60-3, 2.1.2, in a manner
+similar to that used for the preparation of R 60-3, Table 6.5.
+
+[[sec-2.2]]
+=== Additional tests for digital load cells
+
+==== Warm-up time
+
+===== {blank}
+
+Enter data on R 60-3, Form 6.11 (Warm-up time).
+
+===== {blank}
+
+Span is the result of subtraction of the indication at the minimum test load, stem:[D_{"min"}],
+from the indication at the maximum test load, stem:[D_{"max"}].
+
+===== {blank}
+
+Change is the difference between the span and the initial run span.
+
+==== Power voltage variations
+
+===== {blank}
+
+Enter data on R 60-3, Form 6.12.
+
+===== {blank}
+
+Perform load tests and record results utilising R 60-3, Form 6.12.
+
+===== {blank}
+
+Calculate reference indications in accordance with the "load cell errors" procedure,
+R 60-3, 2.1.2.
+
+===== {blank}
+
+Indicate results on R 60-3, Form 6.12.
+
+==== Short-time power reductions
+
+===== {blank}
+
+Enter data on R 60-3, Form 6.13.
+
+===== {blank}
+
+Calculate the difference, which is:
+
+[stem%unnumbered]
+++++
+"difference" = {("indication with disturbance, in units" - "indication without disturbance, in units")} / {"conversion factor", f}
+++++
+
+===== {blank}
+
+Indicate results on R 60-3, Form 6.13.
+
+==== Bursts (electrical fast transients)
+
+===== {blank}
+
+Enter data on R 60-3, Forms 6.14.1 and 6.14.2.
+
+===== {blank}
+
+Indicate results on R 60-3, Forms 6.14.1 and 6.14.2.
+
+==== Surge
+
+===== {blank}
+
+Enter data on R 60-3, Forms 6.15
+
+[stem%unnumbered]
+++++
+"difference" = {("indication with disturbance, in units" - "indication without disturbance, in units")} / {"conversion factor, " f}
+++++
+
+===== {blank}
+
+Indicate results on R 60-3, Forms 6.15
+
+==== Electrostatic discharge
+
+===== {blank}
+
+Enter data on R 60-3, Forms 6.16.1, 6.16.2 and 6.16.3.
+
+===== {blank}
+
+Calculate the difference, which is:
+
+[stem%unnumbered]
+++++
+"difference" = {("indication with disturbance, in units" - "indication without disturbance, in units")} / {"conversion factor", f}
+++++
+
+===== {blank}
+
+Indicate results on R 60-3, Forms 6.16.1, 6.16.2.1, and 6.16.2.2.
+
+===== {blank}
+
+Provide test point information on Form 6.16.3.
+
+==== Electromagnetic susceptibility
+
+===== {blank}
+
+Enter data on R 60-3, Form 6.17.1.
+
+===== {blank}
+
+Calculate the difference, which is:
+
+[stem%unnumbered]
+++++
+"difference" = {("indication with disturbance, in units" - "indication without disturbance, in units")} / {"conversion factor", f}
+++++
+
+===== {blank}
+
+Indicate results on R 60-3, Form 6.17.1.
+
+===== {blank}
+
+Provide test set-up information on R 60-3, Form 6.17.2.
+
+==== Immunity to conducted electromagnetic fields
+
+===== {blank}
+
+Enter data on R 60-3, Form 6.18.
+
+===== {blank}
+
+Calculate the difference, which is:
+
+[stem%unnumbered]
+++++
+"difference" = {("indication with disturbance, in units" - "indication without disturbance, in units")} / {"conversion factor", f}
+++++
+
+===== {blank}
+
+Indicate results on R 60-3, Form 6.18.
+
+===== {blank}
+
+Provide test setup information on R 60-3, Form 6.18.
+
+==== Span stability
+
+===== {blank}
+
+Enter data on R 60-3, Forms 6.19.1 (3 runs) to 6.19.2 (5 runs).
+
+===== {blank}
+
+Calculate averages and record on R 60-3, Forms 6.19.1 (3 runs) to 6.19.2 (5 runs).
+
+===== {blank}
+
+Indicate results on R 60-3, Form 6.19.3
+
+[[sec-2.3]]
+=== General notes
+
+==== {blank}
+
+Absolute (not relative) time shall be recorded.
+
+NOTE: For example, Figure 1 below gives a sample plot depicting the combined errors
+versus applied load.
+
+==== {blank}
+
+When reporting values for individual test data, the data should be truncated to two
+significant digits to the right of the decimal place and reported in load cell verification
+intervals, stem:[v].
+
+.Example of an error envelope
+image::figure-1.png[]
+
+=== Formula signs and list of symbols
+
+[cols="3",options="header,unnumbered"]
+|===
+| Symbol | Description | Reference
+
+| stem:[C_C(t)] | creep magnitude, expressed in terms of stem:[v] at time stem:[t] obtained over the 30 minutes creep test. | 2.1.5
+
+| stem:[C_C(30 - 20)] | difference between output at stem:[t = 30] minutes and at stem:[t = 20] minutes during creep test. | 2.1.5.2
+
+| stem:[C_{"DR"}] | minimum dead load output return, expressed in terms of stem:[v] | 2.1.5
+
+| stem:[C_{"Hmax"}] | humidity effect on maximum test load output, expressed in terms of stem:[v] | 2.1.7
+
+| stem:[C_{"Hmin"}] | humidity effect on minimum test load output, expressed in terms of stem:[v] | 2.1.7
+
+| stem:[C_{"M"}] | temperature effect on minimum dead load output, expressed in terms of stem:[v]. | 2.1.4
+
+| stem:[C_{"M"}(v_{"min"})] | temperature effect on minimum dead load output, expressed in terms of  stem:[v_{"min"}] per stem:[5 "unitsml(degC)"] for class B, C and D or per stem:[2 "unitsml(degC)"] for class A. | 2.1.4
+
+| stem:[C_{"P"}] | barometric pressure effect, expressed in terms of stem:[v] | 2.1.6
+
+| stem:[C_{"P"}(v_{"min"})] | barometric pressure effect, expressed in terms of mass (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) per stem:["unitsml(kPa)"]. | 2.1.6
+
+| stem:[D_{"max"}] | maximum test load | R 60-1, 3.5.6
+
+| stem:[D_{"min"}] | minimum test load | R 60-1, 3.5.12
+
+| stem:[DR] | minimum dead load output return, expressed in mass units (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) | R 60-1, 3.5.10
+
+| stem:[E_{"L"}] | load cell error, expressed in terms of stem:[v] | 2.1.2
+
+| stem:[E_{"max"}] | maximum capacity of the load cell | R 60-1, 3.5.5
+
+| stem:[E_{"min"}] | minimum dead load of the load cell | R 60-1, 3.5.9
+
+| stem:[E_{"R"}] | repeatability error, expressed in terms of stem:[v] | 2.1.3
+
+| stem:[f] | conversion factor, number of indicated units per verification interval, stem:[v] | 2.1.2.4
+
+| MPE | maximum permissible error | R 60-1, 3.7.10
+
+| stem:[n] | number of load cell verification intervals into which the load cell measuring range is divided | R 60-1 3.5.13
+
+| stem:[n_{"LC"}] | maximum number of load cell verification intervals | R 60-1, 3.5.8
+
+| stem:[p_{"LC"}] | apportionment factor | R 60-1, 3.7.2
+
+| stem:[R_{"i"}] | reference indication (net test load), expressed in indication units | 2.1.2.6
+
+| stem:[t_0] | time stem:[t_0 = 0 "unitsml(min)"] when the initial indication at minimum test load is measured | 2.1.5
+
+| stem:[t] | time over the 30 minute creep test period after the initial indication (stem:[t_0 = 0 "unitsml(min)"]) at minimum test load | 2.1.5
+
+| stem:[T_1, T_2] | temperature1, temperature2 | 2.1.4.2
+
+| stem:[v] | load cell verification interval | R 60-1, 3.5.4
+
+| stem:[v_{"min"}] | minimum load cell verification interval | R 60-1, 3.5.11
+
+| stem:[Y] | relative stem:[v_{"min"}], stem:[Y = (E_{"max"} - E_{"min"}) // v_{"min"}] | R 60-1, 3.5.15,
+
+| stem:[Z] | relative DR, stem:[Z = (E_{"max"} - E_{"min"}) // (2 xx DR)] | R 60-1, 3.5.14
+|===
+
+=== Summary of formulae contained within calculation procedures
+
+[cols="2",options="header,unnumbered"]
+|===
+| Symbol | Formula 
+
+| stem:[C_{"C"}] | stem:[C_C = ("indication" - "initial indication") // f]
+
+| stem:[C_{"C"}(30 - 20)]
+| stem:[C_{"C"}(30 - 20) = ("test indication at 30 minutes" - "test indication at 20 minutes") // f]
+
+| stem:[C_{"DR"}]
+| stem:[C_{"DR"} = ("minimum test load indication2" - "minimum test load indication1") // f]
+
+| stem:[C_{"Hmin"}]
+| stem:[C_{"Hmin"} = [("indication at" quad D_{"min"})_{"after"} - ("indication at" quad D_{"min"})_{"before"}] // f]
+
+| stem:[C_{"Hmax"}]
+| stem:[C_{"Hmax"} = [("indication at" quad D_{"max"} - "indication at" quad D_{"min"})_{"after"} - ("indication at" quad D_{"max"} - "indication"]
+
+| stem:[C_{"M"}]
+| stem:[C_{"M"} = ("average test indication at" quad T_2 - "average indication at" quad T_1) // f]
+
+| stem:[C_{"P"}]
+| stem:[C_{"P"} = ("indication at" quad P_2 - "indication at" quad P_1) // f]
+
+| DR
+| stem:[DR = (E_{"max"} - E_{"min"}) xx C_{"DR"} // n_{"LC"}]
+
+| stem:[E_{"L"}]
+| stem:[E_{"L"} = ("average test indication" - "reference indication") // f]
+
+| stem:[E_{"R"}]
+| stem:[E_{"R"} = ("maximum indication" - "minimum indication") // f]
+
+| stem:[f]
+| stem:[f = "average indication at " 0.75 cdot (D_{"max"} - D_{"min"}) - "indication at " D_{"min"} // 0.75 cdot n]
+
+++[++see <<note-2.5-2>>]
+
+| stem:[R_{"i"}]
+| stem:[R_{"i"} = [("test load" - D_{"min"}) // (D_{"max"} - D_{"min"})\] xx n xx f]
+|===
+
+NOTE: Observe extreme caution by referring to calculation procedure for correct application
+of these formulae.
+
+[[note-2.5-2]]
+NOTE: Use with initial stem:[20 "unitsml(degC)"] ascending load run only.
+Refer to R 60-2, 2.8.2.

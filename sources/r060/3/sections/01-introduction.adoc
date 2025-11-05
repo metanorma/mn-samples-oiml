@@ -1,0 +1,35 @@
+
+[[sec-1]]
+== Introduction
+
+[[sec-1.1]]
+=== {blank}
+
+This Report Format applies to any kind of load cell (independent of its technology).
+It presents a standardised format for the results of the various tests and examinations,
+described in OIML R 60-2, to which a type of load cell shall be submitted for the
+purpose of its approval based on this OIML Recommendation.
+
+[[sec-1.2]]
+=== {blank}
+
+It is recommended that all metrology services or laboratories evaluating and/or testing
+types of load cells according to OIML R 60-1, or to national or regional regulations
+based on this Recommendation, use this Report Format, directly or after translation
+into a language other than English or French. In the case of a translation, it is
+highly recommended to leave the structure and the numbers of the clauses unchanged:
+in this case, most of the content is also understandable for those who cannot read
+the language of the translation.
+
+[[sec-1.3]]
+=== {blank}
+
+Some of the tests may have to be repeated several times and reported using several
+identical sheets; therefore, report pages must be numbered in the space provided
+at the top of each page, completed by the indication of the total number of pages.
+
+[[sec-1.4]]
+=== {blank}
+
+In the practical application of the Report Format, in addition to a cover page by
+the Issuing Authority, as a minimum, clauses A-F (as necessary) shall be included.
