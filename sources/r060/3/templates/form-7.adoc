@@ -1,0 +1,11 @@
+
+[cols=">5,^20,^20,5a",options="unnumbered"]
+|===
+|                              | At start | At end |
+| Date:                        |          |        |
+| Conditioning period:         |          |        |
+| Reference temperature:       |          |        | stem:["unitsml(degC)"]
+| High temperature:            |          |        | stem:["unitsml(degC)"]
+| Reference relative humidity: |          |        | %
+| High relative humidity:      |          |        | %
+|===

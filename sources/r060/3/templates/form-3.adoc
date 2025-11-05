@@ -1,0 +1,19 @@
+Application no.: input:text[]
+
+Load cell model: input:text[]
+
+Serial no.: input:text[]
+
+stem:[E_{"max"}]: input:text[]
+
+stem:[n_{"LC"}]: input:text[]
+
+stem:[v_{"min"}]: input:text[]
+
+stem:[p_{"LC"}]: input:text[] DR: input:text[]
+
+Force-generating system: input:text[]
+
+Indicating instrument: input:text[]
+
+Evaluator: input:text[]

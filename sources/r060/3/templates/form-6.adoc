@@ -1,0 +1,10 @@
+
+[cols=">5,^20,^20,5a",options="unnumbered"]
+|===
+|                        | At start | At end |
+| Date:                  |          |        |
+| Temperature:           |          |        | stem:["unitsml(degC)"]
+| Relative humidity:     |          |        | %
+| Barometric pressure:   |          |        | stem:["unitsml(kPa)"]
+| Indicator temperature: |          |        | stem:["unitsml(degC)"]
+|===

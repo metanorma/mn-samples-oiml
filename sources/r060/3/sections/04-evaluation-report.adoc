@@ -1,0 +1,921 @@
+
+[[sec-4]]
+== The Evaluation Report
+
+_Cover page by the Issuing Authority_
+
+<<<
+
+[[sec-4.1]]
+=== Authority responsible for this Report
+
+[cols="5,20",options="unnumbered"]
+|===
+| Name                        |
+| Address                     |
+| Report number               |
+| Application number          |
+| Period of tests             |
+| Date of issuing this Report |
+| Name and signature of the   |
+| responsible person          |
+| Stamp(s) (if applicable)    |
+|===
+
+[[sec-4.2]]
+=== Synopsis of the results of the examination and tests
+
+[cols="a,a,a",options="unnumbered"]
+|===
+| The load cell under test fulfils *[underline]#ALL#* the applicable requirements according to OIML R 60-1 | Yes | No
+3+| Remarks:
+
+&#x200c;
+
+&#x200c;
+|===
+
+[[sec-4.3]]
+=== Summary of the results of the examination and tests
+
+EDITOR: To be completed by the Issuing Authority
+
+==== Examinations
+
+For details, refer to the tests as indicated in the last column.
+
+[cols="4",options="unnumbered"]
+|===
+| General requirements | Passed | Failed | Details in R 60
+
+| Documentation                                         | | | R 60-2, 2.5
+| Inscription and presentation of load cell information | | | R 60-1, 6.2
+|===
+
+==== Performance tests (Refer to R 60-2, 2.10)
+
+For details, refer to the tests as indicated in the last column.
+
+Tests performed at (stem:[20 "unitsml(degC)"] / stem:[X_1 "unitsml(degC)"] / stem:[X_2 "unitsml(degC)"] / stem:[20 "unitsml(degC)"]):
+
+[cols="4",options="unnumbered"]
+|===
+| Test procedure | Passed | Failed | Details in R 60
+
+| Maximum permissible measurement errors                | | | R 60-1, 5.3 / R 60-2, 2.10.1
+| Repeatability error                                   | | | R 60-1, 5.4 / R 60-2, 2.10.1
+| Temperature effect on minimum dead load output return | | | R 60-1, 5.6.1.3 / R 60-2, 2.10.1
+| Creep test                                            | | | R 60-1, 5.5.1 / R 60-2, 2.10.2
+| Minimum dead load output return (DR)                  | | | R 60-1, 5.5.2 / R 60-2, 2.10.3
+| Barometric pressure effects at ambient temperature    | | | R 60-1, 5.6.2 / R 60-2, 2.10.4
+| Humidity effects (CH, SH)                             | | | R 60-1, 5.6.3 / R 60-2, 2.10.5 / 2.10.6
+|===
+
+Additional tests performed for digital load cells:
+
+[cols="4",options="unnumbered"]
+|===
+| Test procedure | Passed | Failed | Details in R 60
+
+| Warm-up time                                 | | | R 60-1, 5.7.2.1 / R 60-2, 2.10.7.3
+| Power voltage variations                     | | | R 60-1, 5.7.2.2 / 5.7.2.3 / 5.7.2.4 / R 60-2, 2.10.7.4
+| Short-time power reductions                  | | | R 60-1, 5.7.2.5 / R 60-2, 2.10.7.5
+| Bursts (electrical fast transients)          | | | R 60-1, 5.7.2.5 / R 60-2, 2.10.7.6
+| Surge                                        | | | R 60-1, 5.7.2.5 / R 60-2, 2.10.7.7
+| Electrostatic discharge                      | | | R 60-1, 5.7.2.5 / R 60-2, 2.10.7.8
+| Electromagnetic susceptibility               | | | R 60-1, 5.7.2.5 / R 60-2, 2.10.7.9
+| Immunity to conducted electromagnetic fields | | | R 60-1, 5.7.2.5 / R 60-2, 2.10.7.10
+| Span stability                               | | | R 60-1, 5.7.2.6 / R 60-2, 2.10.7.11
+| Software                                     | | | R 60-1, 6.1
+|===
+
+[[sec-4.4]]
+=== General information regarding the evaluation process
+
+==== Manufacturer of the specimen
+
+[cols="5,20",options="unnumbered"]
+|===
+| Company             |
+| Address             |
+| Contact information |
+|===
+
+==== Applicant
+
+[cols="a,a,a",options="unnumbered"]
+|===
+| Company 2+|
+| Representative (name, telephone) 2+|
+| Address 2+|
+| Contact information 2+|
+| Reference 2+|
+| Date of application 2+|
+| Application number 2+|
+| Applicant authorised by the manufacturer (documented) | &#x2610; Yes | &#x2610; No
+| Statement that no concurrent application for OIML type evaluation has been made
+to any other OIML Issuing Authority (see Procedural Document PD-05 [29], 4.1.2 b)
+| &#x2610; Yes | &#x2610; No
+3+| Remarks:
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+|===
+
+==== Testing laboratories involved in the tests
+
+_(This table has to be completed for each test laboratory)_
+
+[cols="a,a,a,a",options="unnumbered"]
+|===
+| Name 3+|
+| Address 3+|
+| Application number 3+|
+| Tests by this laboratory 3+|
+| Date/period of tests 3+|
+| Name(s) of test engineer(s) 3+|
+| Accredited by | | Number: | Expires (date):
+| Accreditation includes R 60 | &#x2610; Yes | Edition: &#x2610; | &#x2610; No
+| Details of relevant peer assessment or assessment by other means 3+|
+| In case tests have been performed at locations other than the address of this laboratory, give details here 3+|
+| Name of the responsible person 3+|
+| Date of signature 3+|
+| Stamp (if applicable) and signature of the responsible person 3+|
+4+| Remarks:
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+|===
+
+[[sec-4.5]]
+=== General information concerning the load cell type
+
+_(as provided by the manufacturer prior to the evaluation)_
+
+[cols="5,15",options="unnumbered"]
+|===
+| Manufacturer's name/trade mark                              |
+| Manufacturer's type designation (or load cell model number) |
+|===
+
+[cols="<,^,^",options="header,unnumbered"]
+|===
+| | Unit | Range
+
+| Accuracy classes | |
+| Maximum number of verification intervals, stem:[n_{"LC"}] | |
+| Maximum capacity, stem:[E_{"max"}] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum capacity, stem:[E_{"min"}] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum load cell verification interval, stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum dead load output return, stem:[DR = 1//2 (E_{"max"} - E_{"min"})//Z] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Rated output | (stem:["unitsml(mV/V)"] or counts) |
+| Input impedance | stem:["unitsml(Ohm)"] |
+|===
+
+[[sec-4.6]]
+=== Accessories, supplied with the test pattern by the applicant
+
+[cols="2",options="header,unnumbered"]
+|===
+| Accessory | Remarks and specifications
+
+| Analogue data processing device (see OIML R 76 [1], T.2.2.3) |
+| Cables                                                       |
+| Load cell mounting hardware                                  |
+| Load introduction elements                                   |
+| Main power supply                                            |
+| Battery (type, voltage)                                      |
+| Indicator (see OIML R 76 [1], T.2.2.2)                       |
+| Data printer                                                 |
+| Other accessories:                                           |
+|===
+
+Further remarks concerning accessories:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+[[sec-4.7]]
+=== Selection of sample(s) tested
+
+==== Definition of the test pattern (supplied by the applicant for this test report)
+
+This test report is issued for the following load cell:
+
+[cols="^a,^a,^a,^a,^a,^a",options="noheader,unnumbered"]
+|===
+.2+h| Model designation .2+h| Serial number h| Maximum capacity h| Maximum number of load cell intervals h| Minimum load cell verification interval h| Minimum dead load output return
+
+| stem:[E_{"max"}] +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+| stem:[n_{"LC"}]
+| stem:[v_{"min"}] +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+| DR (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+
+| | | | | |
+|===
+
+==== Justification of the selection of the test sample(s)
+
+(refer to R 60-2, 2.3, 2.4 and Annex D):
+
+[cols="4",options="header,unnumbered"]
+|===
+| Model designation | Serial number | Justification / Remark | Test Report No. _(if available)_
+
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+[[sec-4.8]]
+=== Adjustments and modifications made to the samples during the testing:
+
+Justification of the selection of the test sample(s) (refer to R 60-2, 2.3):
+
+[cols="4",options="header,unnumbered"]
+|===
+| Model designation | Serial number | Adjustments and modifications made to the samples
+| Test Report No. +
+_(if available)_
+
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+Further information concerning adjustments:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+[[sec-4.9]]
+=== Additional information concerning the type
+
+==== General information of the load cell under test (specified by the manufacturer)
+
+[cols="3",options="noheader,unnumbered"]
+|===
+| Manufacturer's name/trade mark 2+|
+| Manufacturer's type designation (or load cell model number) 2+|
+| Serial number 2+|
+| Load cell construction (e.g. S-type, ring type, bending beam) 2+|
+| Load cell material 2+|
+| Sealing of strain gauge application (e.g. hermetically, potted) 2+|
+| Digital load cell (Yes / no) 2+|
+| Accuracy classes 2+|
+| Maximum number of verification intervals, stem:[n_{"LC"}] 2+|
+| Maximum capacity, stem:[E_{"max"}] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum capacity, stem:[E_{"min"}] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum load cell verification interval, stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum dead load output return, stem:["DR" = 1/2 (E_{"max"} - E_{"min"})//Z] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Rated output ^| (stem:["unitsml(mV/V)"] or counts) |
+| Input impedance footnote:[mandatory for strain gauge load cells] ^| stem:["unitsml(Ohm)"] |
+| Cable connection footnote:[mandatory for strain gauge load cells] | ^| 4-wire / 6-wire
+| Cable length footnote:[mandatory for strain gauge load cells with 4-wire connection] ^| stem:["unitsml(m)"] |
+|===
+
+Additional information concerning the type (connection equipment, interfaces, etc.):
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Additional information for the performance tests
+
+(Refer to R 60-1, 6.2.2, 6.2.3, and 6.2.4)
+
+[cols="2",options="noheader,unnumbered"]
+|===
+2+| Accuracy class &#x2610; A &#x2610; B &#x2610; C &#x2610; D
+2+| Working temperature (if other than stem:[-10 "unitsml(degC)"] to stem:[+40 "unitsml(degC)"]): Upper++_____++ stem:["unitsml(degC)"], Lower++_____++ stem:["unitsml(degC)"]
+2+| Humidity symbol &#x2610; NH &#x2610; SH &#x2610; CH or no marking
+2+| Loading designation: (refer to R 60-1, 6.2.4.2)
+
+Tension  Compression  Universal  Beam (shear)  Beam (bending)
+| Minimum dead load as: stem:[E_{"min"} =] |
+| Safe load limit as: stem:[E_{"lim"} =] |
+| Excitation voltage: &#x2610; AC &#x2610; DC |
+| Value of the apportionment factor, stem:[p_{"LC"}], if not equal to 0.7 |
+|===
+
+==== Additional information of the test pattern for digital load cells
+
+[cols="5,10",options="noheader,unnumbered"]
+|===
+| Power voltage: &#x2610; AC &#x2610; DC |
+| Interfaces: |
+| Output signal: |
+| Software identification: |
+| Value of the apportionment factor, stem:[p_{"LC"}], if not equal to 0.7 |
+|===
+
+==== Relevant photographs taken during the examinations and tests
+
+[cols"a",options="noheader,unnumbered"]
+|===
+|
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+|===
+
+==== Documentation supplied with the test pattern by the applicant
+
+[cols="3",options="header,unnumbered"]
+|===
+| Name of the document | Content | Version No. / date of issue
+
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+==== Inscriptions and presentations of load cell information
+
+(according to manufacturer statement, refer to R 60-1, 6.2)
+
+[cols="5*^",options="header,unnumbered"]
+|===
+| R 60-1 reference | Information | On the load cell | Accompanying document | In the data sheet
+
+| 6.2.1 / 6.2.2   | Name or trademark of manufacturer                                   | | |
+| 6.2.1 / 6.2.2   | Manufacturer's own designation or load cell model                   | | |
+| 6.2.1           | Serial number                                                       | | | _Not applicable_
+| 6.2.1           | Year of production                                                  | | | _Not applicable_
+| 6.2.2 / 6.2.4.1 | Accuracy class(es) and their symbols                                | | |
+| 6.2.4.5         | Maximum number of load cell verification intervals, stem:[n_{"LC"}] | | |
+| 6.2.2 / 6.2.4.2 | Type of load                                                        | | |
+| 6.2.2 / 6.2.4.3 | Working temperature designation                                     | | |
+| 6.2.2 / 6.2.4.4 | Humidity symbol "NH"                                                | | |
+| 6.2.2 / 6.2.4.4 | Humidity symbol "SH"                                                | | |
+| 6.2.2 / 6.2.4.4 | No humidity symbol or "CH"                                          | | |
+| 6.2.2 | Minimum dead load, stem:[E_{"min"}] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.1 / 6.2.2 | Maximum capacity, stem:[E_{"max"}] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.2 | Safe load limit, stem:[E_{"lim"}] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.2 | Minimum load cell verification interval (stem:[v_{"min"}]) footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.3, a | Relative stem:[v_{"min"}] (stem:[Y]) | | |
+| 6.2.3, b | Minimum dead load output return DR footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.3, b | Relative DR (stem:[Z]) | | |
+| 6.2.2, l | Rated output | | |
+| 6.2.2, l | Excitation voltage | | |
+| 6.2.2, l | Input impedance | | |
+| 6.2.2, l | Cable connection footnote:[e.g. 4-wire / 6-wire cable] | | |
+| 6.2.2, l | Cable length footnote:[mandatory for strain gauge load cells with 4-wire connection] | | |
+| 6.2.2, k | Apportionment factor, stem:[p_{"LC"}] (if not equal to 0.7) | | |
+| 6.2.2, l 6.2.3, c | Further information | | |
+|===
+
+Further load cell information given by the manufacturer:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Various designs within the model range:
+
+[cols="6",options="header,unnumbered",headerrows=2]
+|===
+.2+| Model designation
+| Maximum capacity | Minimum dead load | Maximum number of load cell intervals | Minimum load cell verification interval | Minimum dead load output return
+
+| stem:[E_{"max"}] +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+| stem:[E_{"min"}] +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+| stem:[n_{"LC"}]
+| stem:[v_{"min"}] +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+| DR (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+|===
+
+==== Relevant photographs / documentation of the model range:
+
+[cols"a",options="noheader,unnumbered"]
+|===
+|
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+|===
+
+==== Definition of load cell families / construction
+
+(This table is to be completed by the manufacturer for each load cell family within the model range)
+
+[cols="4",options="header,unnumbered"]
+|===
+| Type / Model designation | Specification | OIML R 60-1 | Remark
+
+.13+|
+| Application of load | 3.2.1 | _(e.g. tension / compression)_
+| Load cell construction | 3.3 | _(e.g. bending beam)_
+| Material or combination of materials | 3.4.2 |
+| Shape | 3.4.2 | See R 60-2, 6.2.1
+| Design of measuring technique | 3.3.1 | (e.g. strain gauge bonded to metal)
+| Sealing of strain gauges | 3.4.2 |
+| Mounting method | Annex E |
+| Load transmission | Annex E | See R 60-3, 4.9.1
+| Output rating | 3.4.2 |
+| Supply voltage | 3.4.2 |
+| Input impedance | 3.4.2 |
+| Cable connection | 3.4.2 |
+| Cable length footnote:[mandatory for strain gauge load cells with 4-wire connection] | 3.4.2 |
+|===
+
+Further remarks concerning the definition of load cell families / construction _(see table above)_
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Load cell dimensions within the load cell family
+
+[cols="a",options="noheader,unnumbered"]
+|===
+| Pictures / Drawings of the load cell dimensions of the load cell family
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+|===
+
+==== Recommended load transmissions of the manufacturer
+
+[cols="a",options="noheader,unnumbered"]
+|===
+| Pictures / Drawings of the recommended load transmissions
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+
+&#x200c;
+|===
+
+==== Results of previous tests that were taken into account
+
+[cols="4",options="header,unnumbered"]
+|===
+| Model designation | Serial number | Justification / Remark | Test Report No.  _(if available)_
+
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+ 
+
+[[sec-4.10]]
+=== Information concerning the test equipment used for the tests
+
+(including details of simulations and the way uncertainties are taken into account,
+including the level of "risk." For instance, 95 % or stem:[k = 2])
+
+The following tables have to be completed for each individual piece of test equipment
+used for the tests.
+
+[underline]#General information:#
+
+For each of the following pieces of test equipment, indicate for which of the following
+test procedures the test equipment is used:
+
+[cols="2",options="header,unnumbered"]
+|===
+| R 60 reference | Test procedure
+
+| R 60-2, 2.10.1 | Measurement error, repeatability error and temperature effect on minimum dead load output
+| R 60-2, 2.10.2 | Determination of creep error
+| R 60-2, 2.10.3 | Minimum dead load output return (DR)
+| R 60-2, 2.10.4 | Barometric pressure effects (atmospheric pressure)
+| R 60-2, 2.10.5 | Humidity effects for load cells marked with CH or no marked
+| R 60-2, 2.10.6 | Humidity effects for load cells marked SH
+| R 60-2, 2.10.7 | Additional tests for digital load cells
+|===
+
+====
+A piece of test equipment is used for determination of the measurement error
+(R 60-2, 2.10.1), the creep error (R 60-2, 2.10.2), the minimum dead load output
+return (R 60-2, 2.10.3) and humidity effect marked with SH (R 60-2, 2.10.6):
+
+include::../templates/form-1.adoc[]
+====
+
+==== Force generating system (if a force generating system or force generating machine is used)
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Designation                     | |
+| Type                            | |
+| Manufacturer                    | |
+| Identification number           | |
+| Load range                      | |
+| Load steps                      | |
+| Unit                            | |
+| Preload                         | |
+| Rel. uncertainty (stem:[k = 2]) | |
+| Last calibration                | |
+| Certificate No. / report No.    | |
+| Recalibration interval          | |
+|===
+
+The force generating system is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+Remarks / picture of the force generating system:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Weights
+
+(if the load cell is tested manually with weights)
+
+[cols="6",options="header,unnumbered"]
+|===
+| Number / identification
+| Weight +
+(stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
+| Class footnote:[according to OIML R 111] / rel. uncertainty (stem:[k = 2]) | Last calibration | Recalibration interval | Certificate No. / report No.
+
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+|===
+
+The weights are used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+Remarks / picture of the weights:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Temperature chamber (without humidity control)
+
+[cols="3",options="header,unnumbered"]
+|===
+| ^| Description ^| Remark
+
+| Designation                                       | |
+| Type                                              | |
+| Manufacturer                                      | |
+| Identification number                             | |
+| Height stem:[xx] width stem:[xx] length dimension | |
+| Temperature range                                 | |
+| Temperature stability                             | |
+| Humidity range                                    | |
+| Humidity stability                                | |
+| Rel. uncertainty (stem:[k = 2])                   | |
+| Last calibration                                  | |
+| Certificate No. / report No.                      | |
+| Recalibration interval                            | |
+|===
+
+The climate chamber is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+Remarks / picture of the temperature chamber:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Climate chamber (with temperature and humidity control)
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Designation                                       | |
+| Type                                              | |
+| Manufacturer                                      | |
+| Identification number                             | |
+| height stem:[xx] width stem:[xx] length dimension | |
+| Temperature range                                 | |
+| Temperature stability                             | |
+| Humidity range                                    | |
+| Humidity stability                                | |
+| Rel. uncertainty (stem:[k = 2])                   | |
+| Last calibration                                  | |
+| Certificate No. / report No.                      | |
+| Recalibration interval                            | |
+|===
+
+The climate chamber is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+Remarks / picture of the climate chamber:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Indicator / Indicating instrument
+
+(for testing analogue load cells)
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Designation | |
+| Type | |
+| Manufacturer | |
+| Identification / Serial number | |
+| Measurement range | |
+| Rel. uncertainty (stem:[k = 2]) | |
+| Last calibration | |
+| Certificate No. / report No. | |
+| Recalibration interval | |
+|===
+
+Settings of the indicator / indicating instrument used for the tests
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Measurement range | |
+| Supply voltage (AC/DC) | |
+| Filter settings | |
+| Cable connections | |
+|===
+
+The indicator / indicating instrument is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+Remarks / picture of the indicator / indicating instrument:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Terminal / Digital data processing device
+
+(for testing digital load cells)
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Designation | |
+| Type | |
+| Manufacturer | |
+| Identification / Serial number | |
+| Measurement range | |
+| Last calibration | |
+| Certificate No. / report No. | |
+| Recalibration interval | |
+|===
+
+Settings of the indicator / indicating instrument used for the tests
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Measurement range | |
+| Supply voltage (AC/DC) | |
+| Filter settings | |
+| Cable connections | |
+|===
+
+The terminal / digital data processing device is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+Remarks / picture of the terminal / digital data processing device:
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+==== Barometric pressure meter
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Type | |
+| Manufacturer | |
+| Identification / Serial number | |
+| Measurement range | |
+| Rel. uncertainty (stem:[k = 2]) | |
+| Last calibration | |
+| Certificate No. / report No. | |
+| Recalibration interval | |
+|===
+
+The barometric pressure meter is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+==== Thermometer
+
+include::../templates/form-2.adoc[]
+
+The thermometer is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+==== Moisture analyser
+
+include::../templates/form-2.adoc[]
+
+The moisture analyser is used for the following test procedures
+
+include::../templates/form-1.adoc[]
+
+==== Additional test equipment
+
+(e.g. burst generator for testing of digital load cells)
+
+[cols="3",options="header,unnumbered"]
+|===
+| | Description | Remark
+
+| Test equipment | |
+| Type | |
+| Manufacturer | |
+| Identification / Serial number | |
+| Measurement range | |
+| Rel. uncertainty (stem:[k = 2]) | |
+| Last calibration | |
+| Certificate No. / report No. | |
+| Recalibration interval | |
+|===
+
+The equipment is used for the following test procedures:
+
+include::../templates/form-1.adoc[]
+
+==== Remarks (settings, pictures, further information)
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++
+
+++____________________________________________________________________________________++

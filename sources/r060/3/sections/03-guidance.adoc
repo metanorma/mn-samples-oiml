@@ -1,0 +1,15 @@
+
+[[sec-3]]
+== Guidance for the application of this Test Report Format
+
+In case a prescribed test is not relevant for the type of instrument to be tested,
+the reason why the test is omitted shall be clearly stated in the field "Remarks"
+(for instance surge tests on signal lines shorter than 30 m, tests related to AC
+mains supply in case of an instrument only powered by batteries, or partial testing
+after modification of a previously tested type).
+
+The number of the report and the page numbers shall be completed in the heading.
+
+Page 1 of this Report Format may be replaced by a cover page by the Issuing Authority.
+
+Enter "NA" or "/" for "the test is not applicable".
