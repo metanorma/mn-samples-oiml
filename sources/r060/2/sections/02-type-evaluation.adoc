@@ -1,0 +1,1532 @@
+
+[[sec-2]]
+== Type evaluation
+
+[[sec-2.1]]
+=== Scope
+
+This section provides test procedures for type evaluation testing of load cells.
+
+Wherever possible, test procedures have been established to apply as broadly as possible
+to all load cells within the scope of OIML R 60.
+
+The procedures apply to the testing of load cells only. No attempt has been made
+to cover testing of complete systems that include load cells.
+
+[[sec-2.2]]
+=== Test requirements
+
+Test procedures for the type evaluation of load cells are provided in <<sec-2.10>>
+and the Test Report Format is provided in OIML R 60-3. Initial and subsequent verification
+of load cells independent of the measuring system in which they are used is normally
+considered inappropriate if the complete system performance is verified by other means.
+
+[[sec-2.3]]
+=== Selection of specimens for evaluation
+
+Type evaluation shall be carried out on at least one specimen, which represents the
+type. The evaluation shall consist of the examination and tests specified in <<sec-2.10>>.
+
+In case the applicant wants to have several versions or measuring ranges approved,
+the issuing authority decides which version(s) and range(s) shall be supplied.
+
+If a specimen does not pass a specific test as a result of the design of the type
+and therefore has to be modified, the applicant shall carry out this modification
+to all the specimens supplied for test. If the modification has been applied to all
+sub-types of the family which have the common design defect that required modification,
+it is then required that the other specimens that have been submitted shall be re-tested.
+Depending on the modification this may involve a repeat of the specific test or a
+complete re-test.
+
+If during the evaluation the specimen experiences malfunction or breakage that necessitates
+a repair in order to complete the test, the applicant shall verify whether this repair
+concerns an incident or whether a modification will need be made to the design.
+In the latter case the modification shall be applied to all specimens supplied for
+the test and the applicable documentation shall be updated accordingly.
+
+If the issuing authority has reason to believe that a modification or repair could
+cause a different outcome for test result(s) than the result(s) which was observed
+prior to any modification, these tests shall be repeated. The reason for repeating
+a test shall be given within the scope of the test report.
+
+[[sec-2.3.1]]
+==== Number of load cells to be tested
+
+The selection of load cells to be tested shall be such that the number of load cells
+to be tested is minimised (see practical example in Annex D).
+
+[[sec-2.4]]
+=== Selection of load cells within a family
+
+In order to accelerate the test procedure, the test laboratory may carry out different
+tests simultaneously on different units. In this case, the issuing authority decides
+which version or measuring range will be subjected to a specific test.
+
+All accuracy and influence tests, including a span stability test for digital load
+cells, shall be performed on the same unit. Disturbance tests on digital load cells
+may be (simultaneously) carried out on not more than two additional load cells.
+
+Where a family composed of one or more groups of load cells of various capacities
+and characteristics is presented for type evaluation, the following provisions shall apply.
+
+When classifying load cells on the basis of the shape design, additional consideration
+should be given to design criteria such as the geometrical characteristics of the
+areas of the load cell created during fabrication. Examples of strain gauge-type
+load cells with identical outer dimensions but different geometries are shown below.
+
+[[fig-1]]
+.Examples of strain gauge-type load cell design shapes
+
+[NOTE]
+====
+. difference of geometry in the area of thin places (i.e. round or oval drilling)
+
+. difference of geometry in the area of fixing/load introduction (i.e. groove, base, offset)
+
+. difference of geometry in the inner of fixing/load introduction (i.e. drilling, thread, dropping)
+====
+
+[[sec-2.4.1]]
+==== Load cells of the same capacity belonging to different groups
+
+Where load cells of the same family and same capacity belong to different groups,
+the selection of a load cell for testing requires a choice between characteristics
+of the load cells. In this case, the load cell requiring the most onerous tests shall
+be selected. This selection will result in the load cell with the most stringent
+metrological characteristics being tested.
+
+[[sec-2.4.2]]
+==== Load cells with a capacity in between the capacities tested
+
+Load cells of the same family with a capacity in between the capacities tested, as
+well as those above the largest capacity tested, but not over 5 times the largest
+capacity tested, may be included in the certificate and are deemed to fulfil the
+requirements of this Recommendation. This is under the provision that along with
+the change of capacity there is no change of measurement principle or material used
+in the construction of the load cell (e.g. from bending beam to shear beam or stainless
+steel replacing aluminium).
+
+[[sec-2.4.3]]
+==== Smallest capacity load cell from the group
+
+For any family, the smallest capacity load cell from the group with the best characteristics
+shall be selected for testing. For any group, the smallest capacity load cell in
+the group shall always be selected for test unless that capacity falls within the
+range of allowed capacities of selected load cells having better metrological characteristics
+according to the requirements of <<sec-2.4.1;and!sec-2.4.2>>.
+
+[[sec-2.4.4]]
+==== Ratio of largest capacity to the nearest smaller capacity
+
+When the ratio of the largest capacity load cell in each group to the nearest smaller
+capacity having been selected for test is greater than 5, then another load cell
+shall be selected. The selected load cell shall have a capacity between 5 and 10
+times that of the nearest smaller capacity load cell which has been selected. When
+no capacity meets this criterion, the selected load cell shall be that having the
+smallest capacity exceeding 10 times that of the nearest smaller capacity load cell
+which has been selected.
+
+[[sec-2.4.5]]
+==== Humidity test
+
+If more than one load cell of a family has been submitted for testing, only one load
+cell shall be tested for humidity when applicable.
+
+[[sec-2.4.6]]
+==== Selection of analogue-active and digital load cells
+
+For analogue-active load cells (R 60-1, 3.1.3.2) with active electronics that do
+not differ between load cells and family and for digital load cells (R 60-1, 3.1.3.3)
+with an additional digital converter that does not differ between load cells and
+family all applicable tests shall be performed on the load cell with the minimum,
+__μV/v__min as input for the analogue to digital converter (same principle as OIML
+R 76 _Non-automatic weighing instruments_ [1], Annex C, Table 12).
+
+Notwithstanding this requirement, the criteria for assignment of a load cell to a
+family and the selection of test specimens found in <<sec-2.4.1;to!sec-2.4.5>> shall
+be observed.
+
+[[sec-2.5]]
+=== Documentation
+
+The documentation submitted with the application for type evaluation shall include:
+
+. a description of its general principle of measurement;
+
+. mechanical drawings (including documents on the load transmission(s) as per Annex E);
+
+. electric/electronic diagrams;
+
+. installation requirements (physical and electrical) if appropriate;
+
+. operating instructions that shall be provided to the user if appropriate;
+
+. documents or other evidence to support and demonstrate the manufacturer's belief
+that the design and characteristics of the load cell will comply with the requirements
+of this Recommendation; and
+
+. documentation relative to software if appropriate.
+
+If the test laboratory deems this necessary, it can require more detailed documentation;
+either to be able to study the quality of the instrument, or to be able to fully
+define the approved type, or both.
+
+If the manufacturer does not prescribe a specific load transmission, it will be the
+responsibility of the test laboratory to decide what kind of load transmission is
+to be used for testing (also see Annex E).
+
+[[sec-2.6]]
+=== Examinations
+
+Examinations and testing of load cells are intended to verify compliance with the
+requirements of R 60-1.
+
+The load cell shall be given a visual inspection to obtain a general appraisal of
+its design and construction and the documentation shall be studied.
+
+In particular, the following aspects shall be examined:
+
+. accuracy classes and their symbols (R 60-1, 5.1.1 and 6.2.4.1);
+
+. maximum number of load cell verification intervals (R 60-1, 5.1.2 and 6.2.4.5);
+
+. load cell measuring ranges (R 60-1, 3.5.2);
+
+. apportioning of errors (R 60-1, 5.3.2 and 3.7.2);
+
+. construction of load cells (R 60-1, 3.3);
+
+. software (R 60-1, 6.1) (if applicable);
+
+. inscriptions and presentation of load cell information (R 60-1, 6.2); and
+
+. installation instructions/recommendations.
+
+[[sec-2.7]]
+=== Performance tests
+
+[[sec-2.7.1]]
+==== Purpose
+
+The following test procedures for the quantitative determination of load cell performance
+characteristics are established to ensure uniform type evaluation.
+
+[[sec-2.7.2]]
+==== Test equipment
+
+The basic equipment for type evaluation tests consists of a force-generating system
+and a suitable indicating instrument, which measures the output of the load cell
+(see <<sec-1.2>>).
+
+[[sec-2.7.3]]
+==== General considerations for environmental and test conditions
+
+[[sec-2.7.3.1]]
+===== Environmental conditions
+
+Tests shall be performed under stable environmental conditions. The ambient temperature
+is deemed to be stable when the difference between extreme temperatures noted during
+the test does not exceed one fifth of the temperature range of the load cell under
+test, without being greater than stem:[2 "unitsml(degC)"].
+
+Conditions involving electrical power supplies, electromagnetic fields and radio
+frequency fields are to be measured/controlled when the load cell is being evaluated
+against the effects of these influences, and must also be considered when there is
+a potential for these types of conditions to impart effects on other tests.
+
+===== Acceleration of gravity
+
+The mass standards used to generate the force applied during testing shall be corrected,
+if necessary, for the site of testing and the value of the gravity constant, stem:[g],
+at the test site shall be recorded with the test results. The value of the mass standards
+used to generate the force shall be traceable to the appropriate national or international
+standard of mass.
+
+[[sec-2.7.3.3]]
+===== Loading conditions
+
+Particular attention shall be paid to loading conditions to prevent the introduction
+of errors not inherent to the load cell. Factors such as surface roughness, flatness,
+corrosion, scratches, eccentricity, etc., should be taken into consideration. Loading
+conditions shall be in accordance with the specifications of the load cell manufacturer.
+The loads shall be applied and removed along the sensitive axis of the load cell
+without introducing shock to the load cell.
+
+Since the aim of this test is not to measure the influence on the metrological performances
+of mounting/dismounting the load cell on/from the force-generating system, the installation
+of the load cell in the force-generating system shall be done with particular care.
+In addition, the installation shall be done with consideration given to the intended
+use of the load cell and the load transmission. The effect on the metrological performance
+caused by mounting/dismounting the load cell on/from the force-generating system
+should be negligible in order to establish the magnitude of the test parameter.
+If possible, the load cell should not be dismounted from the force-generation system
+during the entire period of the test.
+
+===== Measuring range limits
+
+With consideration given to the capability of the force-generating system, the minimum
+load, stem:[D_{"min"}], shall be as near as possible to but not less than the minimum
+dead load, stem:[E_{"min"}], and shall not be higher than a value equal to 10 % of
+stem:[E_{"max"}]. The maximum load, stem:[D_{"max"}], shall be not less than 90 %
+of stem:[E_{"max"}], nor shall it be greater than stem:[E_{"max"}] (refer to R 60-1, Figure 3).
+
+===== Reference standards
+
+All standards and measuring instruments used for the tests shall be traceable to
+national or international standards.
+
+===== Stabilisation period
+
+A stabilisation period for the load cell under test and the indicating instrument
+shall be provided, as recommended by the manufacturers of the equipment used.
+
+===== Temperature conditions
+
+It is important to allow sufficient time for temperature stabilisation of the load
+cell to be achieved. Particular attention shall be paid to this requirement for large
+load cells. The loading system shall be of a design which will not introduce significant
+thermal gradients within the load cell. The load cell and its connecting means
+(cables, tubes, etc.) which are integral or contiguous shall be at the same test
+temperature. The indicating instrument shall be maintained at room temperature.
+The temperature effect on auxiliary connecting means shall be considered in determining
+the results.
+
+[[sec-2.7.3.8]]
+===== Barometric pressure effects
+
+Where changes in barometric pressure may significantly affect the load cell output,
+such changes shall be considered.
+
+===== Humidity effects
+
+When a load cell is marked with the symbol CH or is not marked with a humidity symbol,
+it shall be subjected to the humidity test, as specified in 2.10.5.
+
+When a load cell is marked with the symbol SH, it shall be subjected to the humidity test,
+as specified in <<sec-2.10.6>>.
+
+Load cells marked with the symbol NH shall not be subjected to the humidity tests
+as described in <<sec-2.10.5;and!sec-2.10.6>>.
+
+[[sec-2.7.3.10]]
+===== Indicating instrument checking
+
+Some indicating instruments are provided with a convenient means for checking the
+indicating instrument itself. When such features are provided, they shall be utilised
+frequently to ensure that the indicating instrument is within the accuracy required
+by the test being performed. Periodic checks on the calibration status of the indicating
+instrument shall be performed.
+
+===== Other conditions
+
+Other conditions specified by the manufacturer such as input/output voltage,
+electrical sensitivity, input impedance of the indicator, etc. shall be taken into
+consideration during the test(s).
+
+===== Time and date format
+
+All time and date points shall be recorded such that the data can later be presented in test reports in
+absolute, not relative, units of local time and date. The date shall be recorded in the ISO 8601
+_Data elements and interchange formats - Information interchange - Representation of dates and times_ [9]
+(Representation of dates and times) format of ccyy-mm-dd.
+
+NOTE: "cc" may be omitted in cases where there is no possible confusion as to the century.
+
+[[sec-2.8]]
+=== Rules concerning the determination of errors
+
+[[sec-2.8.1]]
+==== Conditions
+
+The limits of error shown in Table 4 in OIML R 60-1 shall apply to all load cell
+measuring ranges complying with the following conditions:
+
+[stem%unnumbered]
+++++
+n <= n_{"LC"}
+++++
+
+[stem%unnumbered]
+++++
+v => v_{"min"}
+++++
+
+[[sec-2.8.2]]
+==== Limits of error
+
+The limits of error shown in Table 4 in OIML R 60-1 shall refer to the error envelope
+defined in R 60-1, 2.2 and R 60-1, 5.3.2 which is referenced to the straight line
+that passes through the minimum load output and the load cell output for a load of
+75 % of the measuring range taken on ascending load at stem:[20 "unitsml(degC)"].
+This is based upon the initial stem:[20 "unitsml(degC)"] load test. See OIML R 60-3
+_Test report format for type evaluation_.
+
+[[sec-2.8.3]]
+==== Initial readings
+
+During the conduct of the tests, the initial reading shall be taken at a time interval
+after the initiation of loading or unloading, whichever is applicable, as specified
+in <<table-1>>.
+
+[[table-1]]
+.Combined loading and stabilisation times to be achieved prior to reading
+[cols="a,a,a,a,a",options="header",headerrows=2]
+|===
+2+| Change in load 3+| Time allowed for loading and stabilisation
+| Greater than | Up to and including | Classes C and D | Class B | Class A
+
+| stem:[0 "unitsml(kg)"]      | stem:[10 "unitsml(kg)"]     | 10 seconds | 15 seconds | 20 seconds
+| stem:[10 "unitsml(kg)"]     | stem:[100 "unitsml(kg)"]    | 20 seconds | 30 seconds | 40 seconds
+| stem:[100 "unitsml(kg)"]    | stem:[1000 "unitsml(kg)"]   | 30 seconds | 45 seconds | 60 seconds
+| stem:[1000 "unitsml(kg)"]   | stem:[10000 "unitsml(kg)"]  | 40 seconds | 60 seconds | 80 seconds
+| stem:[10000 "unitsml(kg)"]  | stem:[100000 "unitsml(kg)"] | 50 seconds | 75 seconds | 100 seconds
+| stem:[100000 "unitsml(kg)"] |                             | 60 seconds | 90 seconds | 120 seconds
+|===
+
+===== Loading/unloading times
+
+The loading or unloading times shall be approximately half the time specified in
+<<table-1>>. The remaining time shall be utilised for stabilisation. The tests shall
+be conducted under constant conditions. The loading or unloading time and the stabilising
+time shall be recorded in the test report in absolute, not relative values.
+
+===== Adherence to loading/unloading times
+
+When the specified loading or unloading times cannot be achieved, the applicant for
+evaluation should be consulted and the following shall apply:
+
+. In the case of the minimum dead load output return test, the time may be increased
+from 100 % to a limit of 150 % of the specified time provided that the permissible
+variation of the result is proportionally reduced from 100 % to 50 % of the allowable
+difference between the initial reading of the minimum load output upon unloading
+and the reading before loading.
+
+For example:
+
+. A change in load of 10 kg for class C and D load cells, loading (or unloading)
+time (approximately 5 s) is increased to 7.5 s (150 % of 5 s), MPE is reduced to
+50 %; or
+
+. A change in load of 1500 kg for class C and D load cells, loading (or unloading)
+time (approximately 20 s) is increased to 25 s (125 % of 20 s), MPE is reduced to
+75 %.
+
+. In all cases, the actual times shall be recorded in the Test report.
+
+[[sec-2.9]]
+=== Variation of results under reference conditions
+
+[[sec-2.9.1]]
+==== Creep
+
+A load of stem:[D_{"max"}] shall be applied as specified in <<sec-2.10.2.1;to!sec-2.10.2.7>>,
+at which time an initial reading shall be taken. The variation between the initial
+reading and subsequent readings of the load stem:[D_{"max"}], taken as specified
+in <<sec-2.10.2.8>>, shall comply with the limits specified in R 60-1, 5.5.1.
+
+[[sec-2.9.2]]
+==== Minimum dead load output return
+
+The difference between an initial reading at a load of stem:[D_{"min"}] (as specified
+in <<sec-2.10.3.1;to!sec-2.10.3.6>>) and a subsequent reading also of stem:[D_{"min"}]
+(taken after the application of a load of stem:[D_{"max"}] as specified in <<sec-2.10.3.7;to!sec-2.10.3.10>>)
+shall not exceed the value in specified in R 60-1, 5.5.2.
+
+[[sec-2.10]]
+=== Test procedures
+
+Each of the tests below is presented as a "stand alone" individual test. However,
+for the efficient conduct of the load cell tests, it is acceptable that the increasing
+and decreasing load, creep, repeatability, and minimum dead load output return tests
+can be conducted concurrently at the given test temperature before changing to the
+next test temperature (see <<sec-2.11>>, <<fig-2;and!fig-3>>). The barometric pressure
+and the humidity tests are conducted individually following completion of the above tests.
+
+[[sec-2.10.1]]
+==== Determination of measurement error, repeatability error and temperature effect on minimum dead load output
+
+This test is applied to verify compliance with the provisions in R 60-1, 5.3, 5.4,
+and R 60-1, 5.6.1.3.
+
+[[sec-2.10.1.1]]
+===== Check test conditions
+
+Refer to the test conditions in <<sec-2.7.3>> to ensure that proper consideration
+has been given to those conditions, prior to performing the following tests.
+
+===== Insert load cell
+
+Insert the load cell into the force-generating system, load to the minimum test load,
+stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+
+[[sec-2.10.1.3]]
+===== Preload load cell
+
+Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
+three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+application. Wait 5 minutes before commencing with further tests.
+
+===== Check indicating instrument
+
+Check the indicating instrument according to <<sec-2.7.3.10>>.
+
+===== Monitor load cell
+
+Monitor the minimum test load output until stable.
+
+===== Record indication
+
+Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+
+[[sec-2.10.1.7]]
+===== Test load points
+
+All test load points in a loading and unloading sequence shall be spaced at approximately
+equal time intervals. The readings shall be taken at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+[[sec-2.10.1.8]]
+===== Apply loads
+
+Apply increasing loads up to the maximum test load, stem:[D_{"max"}]. There shall
+be at least five increasing load points, which shall include values at or near those
+at which the maximum permissible error changes, as listed in Table 4 in R 60-1, 5.3.2.
+
+===== Record indications
+
+Record the indicating instrument indications at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+===== Decrease test loads
+
+Decrease the test loads to the minimum test load, stem:[D_{"min"}], using the same
+load points as described in <<sec-2.10.1.8>>.
+
+[[sec-2.10.1.11]]
+===== Record indications
+
+Record the indicating instrument indications at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+[[sec-2.10.1.12]]
+===== Repeat procedures for different accuracy classes
+
+Repeat the operations described in <<sec-2.10.1.7;to!sec-2.10.1.11>> four more times
+for accuracy classes A and B or two more times for accuracy classes C and D.
+
+===== Repeat procedures for different temperatures
+
+Repeat the operations described in <<sec-2.10.1.3;to!sec-2.10.1.12>>, first at the
+higher temperature, then at the lower temperature, in accordance with R 60-1, 5.6.1;
+then perform the operations in <<sec-2.10.1.3;to!sec-2.10.1.12>> at stem:[20 "unitsml(degC)"]
+(stem:[pm 2 "unitsml(degC)"]).
+
+===== Determine magnitude of measurement error
+
+The magnitude of the measurement error shall be determined based on the average of
+the results of the tests conducted at each temperature level and compared with the
+maximum permissible measurement errors in R 60-1, 5.3.2 (see Table 4 in OIML R 60-1).
+
+===== Determine repeatability error
+
+From the resulting data, the repeatability error may be determined and compared with
+the limits specified in R 60-1, 5.4.
+
+===== Determine temperature effect on minimum dead load output
+
+From the resulting data, the temperature effect on minimum dead load output may be
+determined and compared with the limits specified in R 60-1, 5.6.1.3.
+
+[[sec-2.10.2]]
+==== Determination of creep error.
+
+This test is applied to verify compliance with the provisions in R 60-1, 5.5.1.
+
+[[sec-2.10.2.1]]
+===== Check test conditions
+
+Refer to the test conditions in <<sec-2.7.3>> to ensure that proper consideration
+has been given to those conditions prior to performing the following tests.
+
+[[sec-2.10.2.3]]
+===== Insert load cell
+
+Insert the load cell into the force-generating system, load to the minimum test load,
+stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+
+===== Preload load cell
+
+Preload the load cell by applying the maximum test load, stem:[D_{"max"}], three
+times, returning to the minimum test load, stem:[D_{"min"}], after each load application.
+Wait one hour.
+
+===== Check indicating instrument
+
+Check the indicating instrument according to <<sec-2.7.3.10>>.
+
+===== Monitor load cell
+
+Monitor the minimum test load output until stable.
+
+===== Record indication
+
+Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+
+[[sec-2.10.2.7]]
+===== Apply load
+
+Apply a constant maximum test load, stem:[D_{"max"}] (between 90 % and 100 % of stem:[E_{"max"}]).
+
+[[sec-2.10.2.8]]
+===== Record indications
+
+Record the initial indicating instrument indication at the time intervals specified
+in <<table-1>> in <<sec-2.8.3>>. Continue to record periodically thereafter, at recorded
+time intervals over a 30-minute period, ensuring that a reading is taken at 20 minutes.
+
+===== Repeat procedures for different temperatures
+
+Repeat the operations described in <<sec-2.10.2.3;to!sec-2.10.2.8>>, first at the
+higher temperature, then at the lower temperature, in accordance with R 60-1, 5.6.1.
+
+===== Determine creep error
+
+With the resulting data, and taking into account the effect of barometric pressure
+changes according to <<sec-2.7.3.8>>, the magnitude of the creep error can be determined
+and compared with the permissible variation specified in R 60-1, 5.5.1.
+
+[[sec-2.10.3]]
+==== Determination of minimum dead load output return (DR)
+
+This test is applied to verify compliance with the provisions in R 60-1, 5.5.2.
+
+[[sec-2.10.3.1]]
+===== Check test conditions
+
+Refer to the test conditions in <<sec-2.7.3>> to ensure that proper consideration
+has been given to those conditions prior to performing the following test.
+
+===== Insert load cell
+
+Insert the load cell into the force-generating system, load to the minimum test load,
+stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+
+[[sec-2.10.3.3]]
+===== Preload load cell
+
+Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
+three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+application. Wait one hour before commencing any further tests.
+
+===== Check indicating instrument
+
+Check the indicating instrument according to <<sec-2.7.3.10>>.
+
+===== Monitor load cell
+
+Monitor the minimum test load output until stable.
+
+[[sec-2.10.3.6]]
+===== Record indication
+
+Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+
+[[sec-2.10.3.7]]
+===== Apply load
+
+Apply a constant maximum test load, stem:[D_{"max"}] (between 90 % and 100 % of stem:[E_{"max"}]).
+
+[[sec-2.10.3.10]]
+===== Record indications
+
+Record the initial indicating instrument indication at time intervals as near as
+possible to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals
+shall be recorded. Record the time at which the load is fully applied and maintain
+the load for a 30-minute period.
+
+===== Record data
+
+Record the time of initiation of unloading and return to the minimum test load, stem:[D_{"min"}].
+
+===== Record indication
+
+Record the indicating instrument indication at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+===== Repeat procedures for different temperatures
+
+Repeat the operations described in <<sec-2.10.3.3;to!sec-2.10.3.10>>, first at the
+higher temperature, then at the lower temperature in accordance with R 60-1, 5.6.1.
+
+===== Determine minimum dead load output return (DR)
+
+With the resulting data, the magnitude of the minimum dead load output return (DR)
+can be determined and compared with the permissible variation specified in 2.9.2.
+
+[[sec-2.10.4]]
+==== Determination of barometric pressure effects (atmospheric pressure)
+This test is applied to verify compliance with the provisions in R 60-1, 5.6.2.
+
+===== Check test conditions
+
+Refer to the test conditions in <<sec-2.7.3>> to ensure that proper consideration
+has been given to those conditions prior to performing the following test.
+
+===== Insert load cell
+
+At room temperature, insert the unloaded load cell into the pressure chamber at atmospheric pressure.
+
+===== Check indicating instrument
+
+Check the indicating instrument according to <<sec-2.7.3.10>>.
+
+===== Monitor load cell
+
+Monitor the output until stable.
+
+===== Record indication
+
+Record the indicating instrument indication.
+
+===== Change barometric pressure
+
+Change the barometric pressure by a minimum of stem:[1 "unitsml(kPa)"] greater than
+atmospheric pressure and record the indicating instrument indication.
+
+===== Determine barometric pressure error
+
+With the resulting data, the magnitude of the barometric pressure influence can be
+determined and compared with the limits specified in R 60-1, 5.6.2.
+
+[[sec-2.10.5]]
+==== Determination of humidity effects for load cells marked CH or not marked
+
+This test is applied to verify compliance with the provisions in R 60-1, 5.6.3.1.
+
+[[sec-2.10.5.1]]
+===== Check test conditions
+
+Refer to the test conditions in <<sec-2.7.3>> to ensure that proper consideration
+has been given to those conditions prior to performing the following test.
+
+===== Insert load cell
+
+Insert the load cell into the force-generating system, load to the minimum test load,
+stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+
+===== Preload load cell
+
+Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
+three times, returning to the minimum test load, stem:[D_{"min"}], after each application.
+Wait 5 minutes before commencing any further tests.
+
+===== Check indicating instrument
+
+Check the indicating instrument according to <<sec-2.7.3.10>>.
+
+===== Monitor load cell
+
+Monitor the minimum test load output until stable.
+
+===== Record indication
+
+Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+
+[[sec-2.10.5.7]]
+===== Apply load
+
+Apply a maximum test load, stem:[D_{"max"}].
+
+===== Record indications
+
+Record the initial indicating instrument indication at time intervals as near as
+possible to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals
+shall be recorded.
+
+===== Remove load
+
+Remove the test load to the minimum test load, stem:[D_{"min"}].
+
+[[sec-2.10.5.10]]
+===== Record indication
+
+Record the indicating instrument indication at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+[[sec-2.10.5.11]]
+===== Repeat procedures for different accuracy classes
+
+Repeat the operations described in <<sec-2.10.5.7;to!sec-2.10.5.10>> four more times
+for accuracy classes A and B or two more times for accuracy classes C and D.
+
+===== Conduct damp heat, cyclic test (CH)
+
+This test is conducted to verify compliance with the provisions in R 60-1, 5.6.3.1
+under conditions of high humidity combined with cyclic temperature changes
+
+Applicable standards:
+
+IEC 60068-2-30 [10]: _Environmental testing – Part 2: Tests_
+
+Test Db and guidance: Damp heat cyclic (12 + 12-hour) cycle
+
+IEC 60068-3-4 [11]: _Environmental testing - Part 2: Tests. Guidance for damp heat tests_
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method | Exposure to damp heat with cyclic temperature variation
+
+| Test conditions
+| The relative humidity is between 80 % and 96 % and the temperature is varied from
+stem:[25 "unitsml(degC)"] to stem:[40 "unitsml(degC)"], in accordance with the specified
+cycle.
+
+| Preconditioning of load cell
+| Load cell placed in the chamber with the output connection external to the chamber,
+and switched off.
+
+Use variant 2 of IEC 60068-2-30 Ed. 3.0 (2005-08) when lowering the temperature.
+
+| Initial measurements | Made according to <<sec-2.10.5.1;to!sec-2.10.5.11>>
+
+| Test procedure in brief
+| This test consists of exposure to 12 temperature cycles of 24-hour duration each.
+
+Condensation is expected to occur on the load cell during the temperature rise.
+
+The 24 h cycle comprises:
+
+* temperature rise during 3 hours,
+
+* temperature maintained at upper value until 12 hours from the start of the cycle,
+
+* temperature lowered to lower temperature level within a period of 3 to 6 hours,
+the declination (rate of fall) during the first hour and a half being such that the
+lower temperature level would be reached in a 3 hour period,
+
+* temperature maintained at the lower level until the 24 h period is completed.
+
+The stabilising period before and recovery period after the cyclic exposure shall
+be such that the temperature of all parts of the load cell is within stem:[3 "unitsml(degC)"]
+of its final value.
+
+Recovery conditions and final measurements: According to <<sec-2.10.5.13;to!sec-2.10.5.15>>.
+|===
+
+[[sec-2.10.5.13]]
+===== Remove load cell from chamber
+
+Remove the load cell from the humidity chamber, carefully remove surface moisture,
+and maintain the load cell at standard atmospheric conditions for a period sufficient
+to attain temperature stability (normally 1 to 2 hours).
+
+===== Repeat test procedures
+
+Repeat <<sec-2.10.5.1;to!sec-2.10.5.11>> ensuring that the minimum test load, stem:[D_{"min"}],
+and the maximum test load, stem:[D_{"max"}], applied are the same as previously used.
+
+[[sec-2.10.5.15]]
+===== Determine the magnitude of humidity-induced variations
+
+The difference between the average of the reading of the minimum load output and
+of the maximum output attributed to cyclic changes in humidity as determined using
+test procedures in <<sec-2.10.5>> shall not exceed the limits specified in R 60-1, 5.6.3.1.
+
+The difference between the average of the reading of the maximum load, stem:[D_{"max"}],
+attributed to cyclic changes in humidity as determined using test procedures in <<sec-2.10.5>>
+shall not exceed the limits specified in R 60-1, 5.6.3.1.
+
+[[sec-2.10.6]]
+==== Determination of humidity effects for load cells marked SH
+
+This test is applied to verify compliance with the provisions in R 60-1, 5.6.3.2.
+
+===== Check test conditions
+
+Refer to the test conditions in <<sec-2.7.3>> to ensure that proper consideration
+has been given to those conditions prior to performing the following tests.
+
+===== Insert load cell
+
+Insert the load cell into the force-generating system, load to the minimum test load,
+stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+
+===== Preload load cell
+
+Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
+three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+application. Wait 5 minutes before commencing any further tests.
+
+===== Check indicating instrument
+
+Check the indicating instrument according to <<sec-2.7.3.10>>.
+
+===== Monitor load cell
+
+Monitor the minimum test load output until stable.
+
+===== Record indication
+
+Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+
+===== Test load points
+
+All test load points in a loading and unloading sequence shall be spaced at approximately
+equal time intervals. The readings shall be taken at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+[[sec-2.10.6.8]]
+===== Apply loads
+
+Apply increasing loads up to the maximum test load, stem:[D_{"max"_x}]. There shall
+be at least five increasing load points which shall include loads approximating to
+the highest values in the applicable steps of maximum permissible measurement errors,
+as listed in Table 4 in R 60-1, 5.3.2.
+
+===== Record indications
+
+Record the indicating instrument indications at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+===== Decrease load
+
+Decrease the test load to the minimum test load, stem:[D_{"min"}], using the same
+load points as described in <<sec-2.10.6.8>>.
+
+===== Conduct damp heat, steady state test
+
+This test is conducted to verify compliance with the provisions in R 60-1, 5.6.1
+or R 60-1, 5.6.3 under conditions of high humidity and constant temperature.
+
+Applicable standards:
+
+IEC 60068-2-78: _Environmental testing -- Part 2: Tests. Test Ca: Damp heat, steady state,_
+
+_Environmental testing - Part 2: Tests._ Test Cb: Damp heat, steady state, primarily for equipment [12].
+
+IEC 60068-3-4: _Environmental testing -- Part 2: Tests. Guidance for damp heat tests_ [11].
+
+===== Recording indications
+
+Record the indicating instrument indications at time intervals as near as possible
+to those specified in <<table-1>> in <<sec-2.8.3>>. These two time intervals shall
+be recorded.
+
+===== Determine the magnitude of humidity-induced variations
+
+With the resulting data, the magnitude of humidity-induced variations can be determined
+and compared with the limits specified in R 60-1, 5.6.3.2.
+
+[[sec-2.10.7]]
+==== Additional test for analogue-active load cells (disturbances)
+
+These tests are applied to verify compliance with the provisions in R 60-1, 5.7.2.5,
+and R 60-1, 5.7.2.6.
+
+===== Performance and stability tests
+
+An analogue-active load cell shall pass the performance and stability tests according
+to <<sec-2.10.7.2;to!sec-2.10.7.11>> for the tests given in R 60-1, Table 5.
+
+[[sec-2.10.7.2]]
+===== Evaluation of error for digital load cells
+
+For load cells possessing a digital output interval greater than stem:[0.20 v],
+the changeover points are to be used in the evaluation of errors, prior to rounding
+as follows. At a certain load, stem:[L], the digital output value, stem:[I], is noted.
+Additional loads, for example stem:[0.1 v], are successively added until the output
+of the load cell is increased unambiguously by one digital output increment
+(stem:[I + v]). The additional amount of load, stem:[Delta L], added to the load
+cell gives the digital output value prior to rounding, stem:[P], by using the following
+formula:
+
+[stem%unnumbered]
+++++
+P = I + 1//2 v - Delta L
+++++
+
+where:
+
+stem:[I =] the indication or digital output value;
+
+stem:[v =] the load cell verification interval; and
+
+stem:[Delta L =] additional load added to the load cell.
+
+The error, stem:[E], prior to rounding is:
+
+[stem%unnumbered]
+++++
+E = P - L = I + 1/2 v - Delta L - L
+++++
+
+and the corrected error, stem:[E_c], prior to rounding is:
+
+[stem%unnumbered]
+++++
+E_C = E - E_0 <= MPE
+++++
+
+where stem:[E_0] is the error calculated at the minimum test load, stem:[D_{"min"}].
+
+===== Warm-up time
+
+Test procedure in brief:
+
+Stabilise the load cell at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"])
+and disconnect from any electrical supply for a period of at least 8 hours prior
+to the test.
+
+Insert the load cell into the force-generating system.
+
+Preload the load cell by applying a maximum test load, stem:[D_{"max"}], then, returning
+to the minimum test load, stem:[D_{"min"}], three times.
+
+Allow the load cell to rest for 5 minutes. Connect the load cell to the power supply
+and switch on.
+
+Record data:
+
+As soon as a measurement result can be obtained, record the minimum test load output
+and the maximum test load, stem:[D_{"max"}], applied.
+
+Loading and unloading:
+
+The maximum test load output shall be determined at time intervals as close as possible
+to those specified in <<table-1>> in <<sec-2.8.3>> and recorded and the load should
+be returned to the minimum test load, stem:[D_{"min"}]. These measurements shall
+be repeated after 5, 15 and 30 minutes.
+
+For load cells of class A, the provisions of the operating manual for the time following
+connection to electrical supply shall be observed.
+
+===== Power voltage variations
+
+This test is applied to verify compliance with R 60-1, 5.7.2.2, R 60-1, 5.7.2.3,
+and R 60-1, 5.7.2.4 under conditions of variations in voltage to the load cell's
+power supply.
+
+Applicable standards:
+
+For load cells powered by AC mains: IEC/TR3 61000-2-1 [13], IEC 61000-4-1 (set-up) [14]
+
+For load cells powered by DC mains: IEC 61000-4-29 [15], IEC 61000-4-1 (set-up) [14]
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method
+| Subject load cell to variations of power supply voltage
+
+| Test conditions
+| In accordance with <<sec-2.7.3.1>> Environmental conditions
+
+| Preconditioning of load cell
+| Stabilise load cell under constant environmental conditions
+
+| Test level
+| Mains power voltage variations:
+
+- upper voltage limit (stem:[V + 10 %]);
+- lower voltage limit (stem:[V - 15 %])
+
+Battery power voltage variations:
+
+- upper voltage limit (not applicable);
+- lower power voltage: (specified by the manufacturer, below stem:["unitsml(V)"])
+
+The voltage, (stem:["unitsml(V)"]) is the value specified by the manufacturer. If a
+range of reference mains power voltage (stem:[V_{"min"}, V_{"max"}]) is specified,
+then the test shall be performed at an upper voltage limit of stem:[V_{"max"}] and
+a lower voltage limit of stem:[V_{"min"}].
+
+| Test procedure in brief
+| This test consists of subjecting the load cell to variations of power voltage.
+
+A load test is performed in accordance with <<sec-2.10.1.1;to!sec-2.10.1.12>> at
+stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"], with the load cell powered
+at reference voltage. The test is repeated with the load cell powered at the upper
+limit and at the lower limit of power voltage.
+|===
+
+
+===== Short-time power reductions (see R 60-1, 5.7.2.5 Disturbances)
+
+This test is conducted to verify compliance with R 60-1, 5.7.2.2, R 60-1, 5.7.2.3,
+and R 60-1, 5.7.2.4 under conditions of short-time power reductions
+
+Applicable standards:
+
+For load cells powered by DC mains: IEC 61000-4-29 [15]; IEC 61000-4-1 [14]
+
+For load cells powered by AC mains; IEC 61000-4-11 [16]; IEC 61000-6-1 [17]; IEC 61000-6-2 [18]
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method
+| Expose load cell to specified short-timer power reductions
+| Test conditions
+| In accordance with <<sec-2.7.3.1>> Environmental conditions
+
+| Preconditioning of load cell
+| Stabilise load cell under constant environmental conditions
+
+| Test load
+| The test shall be performed with no load or with one small test load (10 v).
+
+| Test level
+|
+[cols="3",options="header,unnumbered"]
+!===
+! Test               ! Reduction to: ! Duration/number of cycles
+
+! Test a             ! 0 %           ! 0.5
+! Test b             ! 0 %           ! 1
+! Test c             ! 40 %          ! 10
+! Test d             ! 70 %          ! 25
+! Test e             ! 80 %          ! 250
+! Short interruption ! 0 %           ! 250
+!===
+
+| Test procedure in brief
+| A test generator capable of reducing the amplitude of one or more
+half cycles (at zero crossings) of the AC mains voltage shall be used.
+The test generator shall be adjusted before connecting to the load cell.
+The load cell shall be exposed to short interruptions of power. The
+mains voltage reductions shall be repeated ten times at intervals of at
+least 10 seconds.
+|===
+
+
+
+===== Bursts (electrical fast transients) (see R 60-1, 5.7.2.5 Disturbances)
+
+This test is conducted to verify compliance with the provisions in R 60-1, 5.7.2.5
+during conditions where electrical bursts are superimposed on the mains voltage.
+
+Applicable standards:
+
+IEC 61000-4-4 [19]: No. 5 (Test 2+| severity), No. 6 (Test instrumentation),
+No. 7 (Test set-up), No. 8 (Test procedure).
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method | Introducing transients on the mains power lines
+| Test conditions | In accordance with <<sec-2.7.3.1>> Environmental conditions
+| Preconditioning of load cell | Stabilise load cell under constant environmental conditions
+| Test level
+| Level 3 in accordance with referenced standard: IEC 61000-4-4 No.5
+
+Open circuit output test voltage for:
+
+* power supply lines: stem:[2 "unitsml(kV)"];
+* I/O signal, data, and control lines: stem:[1 "unitsml(kV)"].
+
+| Test load
+| The test shall be performed with no load or with one small test load
+.2+| (10 v).
+
+| Test procedure in brief
+| This test consists of exposing the load cell to specified bursts of voltage spikes.
+
+A burst generator as defined in the referred standard [IEC 61000-4-4 Ed 3.0 (2012-04)]
+shall be used. The characteristics of the generator shall be verified before connecting
+the EUT.
+
+The test shall be applied separately to:
+
+. power supply lines;
+. I/O circuits and communication lines, if any.
+|===
+
+===== Surge (see R 60-1, 5.7.2.5 Disturbances)
+
+This test is conducted to verify compliance with the provisions in R 60-1, 5.7.2.5
+during conditions where electrical surges are superimposed on the mains voltage and
+I/O and communication ports.
+
+Applicable standards:
+
+IEC 61000-4-5 [20]
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method
+| Exposing the load cell(s) to electrical surges on the mains power lines or on signal,
+data and control lines
+
+| Test conditions
+| In accordance with <<sec-2.7.3.1>> Environmental conditions
+
+| Preconditioning of load cell
+| Stabilise load cell under constant environmental conditions
+
+| Test level
+| Level 3
+
+Amplitude (peak value) Power supply lines: stem:[1 "unitsml(kV)"] (line to line)
+and stem:[2 "unitsml(kV)"] (line to earth)
+
+| Test load
+| The test shall be performed with no load or with one small test load (stem:[10 v]).
+
+| Test procedure in brief
+| This test is only applicable in those cases where, based on typical situations
+of installation, the risk of a significant influence of surges can be expected.
+This is especially relevant in cases of outdoor installations and/or indoor
+installations connected to long signal lines (lines longer than 10 m or those lines
+partially or fully installed outside the buildings regardless of their length).
+
+This test shall be conducted unless there is justification provided regarding the
+specific details of the intended use and installation which would render this test
+unnecessary. The justification for not conducting this test shall be noted in the
+test report.
+
+The test is applicable to power lines, communication lines (internet, dial up modem, etc.),
+and other lines for control, data or signal mentioned above (lines to temperature
+sensors, gas or liquid flow sensors, etc.).
+
+The test consists of exposing the load cell to surges for which the rise time, pulse
+width, peak values of the output voltage/current on high/low impedance load and minimum
+time interval between two successive pulses are defined in the referenced standard.
+The characteristics of the generator shall be adjusted before connecting the load cell.
+
+The test shall be applied to power supply lines, communication lines (internet, dial-up
+modem, etc.), and other lines for control, data or signal mentioned above (lines
+to temperature sensors, gas or liquid flow sensors, etc.).
+
+On AC mains supply lines at least 3 positive and 3 negative surges shall be applied
+synchronously with AC supply voltage in angles 0°, 90°, 180° and 270°. On any other
+kind of power supply, at least three positive and three negative surges shall be
+applied.
+
+| Notes
+| Both positive and negative polarity of the surges shall be applied. The duration
+of the test shall not be less than one minute for each amplitude and polarity.
+
+The injection network on the mains shall contain blocking filters to prevent the
+surge energy being dissipated in the mains.
+|===
+
+===== Electrostatic discharge (see R 60-1, 5.7.2.5 Disturbances)
+
+This test is conducted to verify compliance with the provisions in R 60-1, 5.7.2.5
+in case of direct exposure to electrostatic discharges or such discharges in the
+neighbourhood of the load cell.
+
+Applicable standard:
+
+IEC 61000-4-2 [21]: No. 6 (test generator), No. 7 (set-up), No. 8 (test procedure).
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method
+| Exposure to electrostatic discharge (ESD)
+
+| Test conditions
+| In accordance with <<sec-2.7.3.1>> Environmental conditions
+
+| Preconditioning of the load cell
+| Stabilise the load cell under constant environmental conditions
+
+| Test procedure in brief
+| The test comprises exposure of the load cell to electrical discharges.
+
+An ESD generator as defined in the referred standard shall be used and the test set-up
+shall comply with the dimensions, materials used and conditions as specified in the
+referred standard. Before starting the tests, the performance of the generator shall
+be verified.
+
+At least 10 discharges per preselected discharge location shall be applied. The time
+interval between successive discharges shall be at least 10 seconds.
+
+This test includes the paint penetration method, if appropriate;
+
+For direct discharges, the air discharge shall be used where the contact discharge
+method cannot be applied.
+
+Contact discharge is the preferred test method. Air discharge is far less defined
+and reproducible and therefore shall be used only where contact discharge cannot
+be applied.
+
+Direct application:
+
+In the contact discharge mode to be carried out on conductive surfaces, the electrode
+shall be in contact with the EUT before activation of the discharge. In such case
+the discharge spark occurs in the vacuum relays of the contact discharge tip.
+
+On insulated surfaces only the air discharge mode can be applied. The load cell is
+approached by the charged electrode until a spark discharge occurs
+
+Indirect application:
+
+The discharges are applied in the contact mode only on coupling planes mounted in
+the vicinity of the load cell.
+
+For load cells not equipped with a ground terminal, the load cell shall be fully
+discharged between discharges.
+
+| Test severity
+| Level 3 (in accordance with IEC 61000-4 -2 (2008-12) Ed 2.0 Consolidated edition,
+No. 5). DC voltage up to and including stem:[6 "unitsml(kV)"] for contact discharges
+and stem:[8 "unitsml(kV)"] for air discharges.
+
+| Test load
+| The test shall be performed with no load or with one small test load (stem:[10 v])
+|===
+
+===== Exposure to radiated RF electromagnetic fields (see R 60-1, 5.7.2.5 Disturbances)
+
+This test is conducted to verify compliance with the provisions in R 60-1, 5.7.2.5
+under conditions of exposure to electromagnetic fields.
+
+Applicable standard:
+
+IEC 61000-4-3 [22]: No. 6 (test generator), No. 7 (test set-up), No. 8 (test procedure)
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method
+| Exposure to specified electromagnetic fields
+
+| Test conditions
+| In accordance with <<sec-2.7.3.1>> Environmental conditions
+
+| Preconditioning of the load cell
+| Stabilise the load cell under constant environmental conditions.
+
+| Test procedure in brief
+| The load cell is exposed to electromagnetic fields with the required field strength
+and the field uniformity as defined in the referred standard.
+
+The level of field strength specified refers to the field generated by the unmodulated
+carrier wave.
+
+The load cell shall be exposed to the modulated wave field. The frequency sweep shall
+be made only pausing to adjust the RF signal level or to switch RF-generators, amplifiers
+and antennas if necessary. Where the frequency range is swept incrementally, the
+step size shall not exceed 1 % of the preceding frequency value.
+
+The dwell time of the amplitude modulated carrier at each frequency shall not be
+less than the time necessary for the load cell to be exercised and to respond, but
+shall in no case be less than 0.5 s.
+
+Adequate EM fields can be generated in facilities of different type and set-up the
+use of which is limited by the dimensions of the load cell and the frequency range
+of the facility.
+
+| Test load
+| The test shall be performed with no load or with one small test load (stem:[10 " v"]).
+
+| Test levels
+| Level 3:
+
+Frequency range: stem:[80 "unitsml(MHz)"]
+footnote:[Frequency range used in conventional testing shall be stem:[80 "unitsml(MHz)"]
+to stem:[3000 "unitsml(MHz)"], for load cells with power lines or I/O ports.
+The lower limit of frequency of electromagnetic field is stem:[26 "unitsml(MHz)"]
+for load cells without power lines or I/O ports, and for which the test for conducted
+electromagnetic field (<<sec-2.10.7.10>>) is inapplicable.]
+
+to stem:[3000 "unitsml(MHz)"];
+
+Field strength: stem:[10 "unitsml(V/m)"];
+
+Modulation: 80 % AM, stem:[1 "unitsml(kHz)"] sine wave.
+
+// | Notes
+// | * Frequency range used in conventional testing shall be 80 MHZ to 3 000 MHZ, for load cells with power lines or I/O ports. The lower limit of frequency of electromagnetic field is 26 MHz for load cells without power lines or I/O ports, and for which the test for conducted electromagnetic field (2.10.7.10) is inapplicable.
+|===
+
+[[sec-2.10.7.10]]
+===== Exposure to conducted (common mode) currents generated by RF EM fields (see R 60-1, 5.7.2.5 Disturbances)
+
+This test is conducted to verify compliance with the provisions in R 60-1, 5.7.2.5
+while exposed to electromagnetic fields
+
+Applicable standard: IEC 61000-4-6 [23]
+
+[cols="a,a",options="noheader,unnumbered"]
+|===
+| Test method
+| Exposure of the load cell to disturbances induced by radiated radio-frequency fields.
+
+| Test conditions
+| In accordance with <<sec-2.7.3.1>> Environmental conditions
+
+| Preconditioning of the load cell
+| Stabilise the load cell under constant environmental conditions.
+
+| Test procedure in brief
+| A RF EM current, simulating the influence of EM fields shall be coupled or injected
+into the power ports and I/O ports of the load cell using coupling/decoupling devices
+as defined in the referred standard.
+
+The characteristics of the test equipment consisting of an RF generator,
+
+(de-)coupling devices, attenuators, etc. shall be verified before connecting the
+load cell.
+
+| Test load
+| The test shall be performed with no load or with one small test load (stem:[10 v]).
+
+| Test level index
+| Level 3 (in accordance with the referred standard)
+
+Frequency range: stem:[0.15 "unitsml(MHz)"]--stem:[80 "unitsml(MHz)"]
+
+RF amplitude (stem:[50 "unitsml(Ohm)"]): stem:[10 "unitsml(V)"](emf)
+
+Modulation: 80 % AM, stem:[1 "unitsml(kHz)"], sine wave
+
+| Notes
+| This test is not applicable for load cells without mains power supply or other
+input port.
+|===
+
+[[sec-2.10.7.11]]
+===== Span stability (see R 60-1, 5.7.2.6) (not applicable to class A load cells)
+
+Test procedure in brief:
+
+The test consists in observing the variations of the output of the load cell under
+reasonably constant (stem:[pm 2 "unitsml(degC)"]) conditions (e.g. in a normal laboratory
+environment) at various intervals before, during and after the load cell has been
+subjected to performance tests. The performance tests shall include (as a minimum)
+the temperature test. The damp heat test shall be performed when applicable but may
+be performed after a series of span stability tests if the conduct of that test during
+the span stability test imposes an increased risk that the principles expressed under
+<<sec-2.7.3.3>>. would be compromised. This may be a greater concern when conducting
+tests on higher capacity load cells.
+
+The load cell shall be disconnected from the mains power supply, or battery supply
+where fitted, two times for at least 8 hours during the period of test. The number
+of disconnections may be increased if the manufacturer specifies so or at the discretion
+of the approval authority in the absence of any such consideration.
+
+For the conduct of this test, the manufacturer's operating instructions shall be
+considered.
+
+The load cell shall be stabilised at sufficiently constant ambient conditions after
+switch-on for at least 5 hours, but at least 16 hours after any temperature or humidity
+tests have been performed.
+
+Test duration:
+
+28 days or the period necessary for the performance tests to be carried out, whichever
+is shorter, for temperature and humidity tests.
+
+The duration may be increased to 40 days for CH marked load cells only.
+
+Time between measurements:
+
+Between 1/2 day (12 hours) and 10 days (240 hours) for SH marked load cells, and
+14 days for CH marked load cells, with an even distribution of the measurements over
+the total duration of the test.
+
+Test loads:
+
+A minimum test load, stem:[D_{"min"}]; the same test load shall be used throughout
+the test.
+
+A maximum test load, stem:[D_{"max"}]; the same test load shall be used throughout
+the test.
+
+Number of measurements: At least 8.
+
+Test sequence:
+
+Identical test equipment and test loads shall be used throughout the test.
+
+Stabilise all factors at sufficiently constant ambient conditions.
+
+Each set of measurements shall consist of the following:
+
+. preload the load cell by applying the maximum test load, stem:[D_{"max"}],
+three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+application;
+
+. stabilise the load cell at the minimum test load, stem:[D_{"min"}];
+
+. read the minimum test load output and apply the maximum test load, stem:[D_{"max"}].
+Read the maximum test load output at time intervals as near as possible to those
+specified in <<table-1>> in <<sec-2.8.3>>, and return to the minimum test load, stem:[D_{"min"}].
+Repeat this four more times for accuracy class B or two more times for accuracy classes
+C and D;
+
+. determine the span measurement result, which is the difference in output between
+the mean max-imum test load outputs and the mean minimum test load outputs. Compare
+subsequent results with the initial span measurement result and determine the error.
+
+Record the following data:
+
+. date and time (absolute, not relative);
+. temperature;
+. barometric pressure;
+. relative humidity;
+. test load values;
+. load cell outputs;
+. errors.
+
+Apply all necessary corrections resulting from variations in temperature, pressure,
+etc. between the various measurements.
+
+Allow for full recovery of the load cell before any other tests are performed.
+
+Where differences of results indicate a trend of more than half the allowable variation
+specified above, the test shall be continued until the trend comes to rest or reverses
+itself, or until the error exceeds the maximum allowable variation.
+
+[[sec-2.11]]
+=== Test sequence
+
+[[sec-2.11.1]]
+==== Test sequence for test temperatures
+
+The recommended test sequence for each test temperature when all tests are carried
+out in the same force-generating system is shown in <<fig-2>>.
+
+[[fig-2]]
+.Recommended test sequence for each test temperature when all tests are carried out in the same force-generating system
+image::figure-2.svg[]
+
+[[sec-2.11.2]]
+==== Test sequence for minimum dead load output return
+
+The recommended test sequence for each test temperature for the minimum dead load
+output return (DR) and creep tests when carried out in a force-generating system
+different to that used for the load tests is shown in <<fig-3>>.
+
+[[fig-3]]
+.Recommended test sequence for each test temperature for the minimum dead load output return (DR) and creep tests when carried out in a machine different from that used for the load tests
+image::figure-3.svg[]
+
+[[sec-2.12]]
+=== OIML certificate
+
+[[sec-2.12.1]]
+==== Preparation of certificate
+
+The OIML certificate shall be prepared according to the rules contained within
+OIML B 18 _Framework for the OIML Certification System (OIML-CS)_ [6] and OIML-CS
+Procedural DocumentPD-05 [29]. The certificate template (which may be downloaded
+from the "Documentation" section under the OIML-CS part of the OIML website) shall
+be supplemented with the information as specified in Annex B. In addition,
+Annex C provides an example of the supplemental information that may be included
+in the OIML certificate and is included in this Recommendation to complement the
+template.
+
+[[sec-2.12.2]]
+==== Reference of values on certificate
+
+Regardless of the evaluation result of any load cell in a load cell family, the certificate
+to be issued should not provide for any characteristics or values which are beyond
+those that the manufacturer has requested and for which the manufacturer intends
+to guarantee, for example, by expressing the relevant characteristics and values
+in its data sheet.
