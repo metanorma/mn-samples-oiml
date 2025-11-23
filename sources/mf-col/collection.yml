@@ -1,0 +1,31 @@
+directives:
+  - documents-inline
+bibdata:
+  title:
+    - language: en
+      content: "Rice documents"
+  type: collection
+  docid:
+    type: ISO
+    id: MDI-XXX
+  copyright:
+    owner:
+      name: International Organization for Standardization
+      abbreviation: ISO
+    from: 2025
+format:
+  - presentation
+  - html
+  - pdf
+  - doc
+  - rxl
+
+output_folder: collection-output
+manifest:
+  level: document
+  title: Document
+  docref:
+    - fileref: document1.adoc
+      identifier: doc1
+    - fileref: document2.adoc
+      identifier: doc2

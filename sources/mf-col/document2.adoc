@@ -1,0 +1,66 @@
+= Rice model 2
+:docnumber: 17301
+:partnumber: 1
+:edition: 3
+:revdate: 2023-02-01
+:copyright-year: 2023
+:language: en
+:title-intro-en: Cereals and pulses
+:title-main-en: Specifications and test methods
+:title-part-en: Rice
+:title-intro-fr: Céréales et légumineuses
+:title-main-fr: Spécification et méthodes d'essai
+:title-part-fr: Riz
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 34
+:secretariat: SAC
+:technical-committee: Food products
+:subcommittee-number: 4
+:subcommittee: Cereals and pulses
+:workgroup-type: WG
+:workgroup-number: 4
+:workgroup: Amylose in rice
+:library-ics: 67.060
+:mn-document-class: iso
+:mn-output-extensions: xml,html,doc,html_alt,pdf,rxl
+:local-cache-only:
+:presentation-metadata-render-document-annotations: true
+
+
+== Foreword
+
+ISO (the International Organization for Standardization) is a worldwide
+federation of national standards bodies (ISO member bodies). The work of
+preparing International Standards is normally carried out through ISO technical
+committees. Each member body interested in a subject for which a technical
+committee has been established has the right to be represented on that
+committee. International organizations, governmental and non-governmental, in
+liaison with ISO, also take part in the work. ISO collaborates closely with the
+International Electrotechnical Commission (IEC) on all matters of
+electrotechnical standardization.
+
+[[intro]]
+== Introduction
+
+This document was developed in response to worldwide demand for minimum
+specifications for rice traded internationally, since most commercial bulks of
+grain, which have not been screened or aspirated, contain a proportion of other
+grains, weed seeds, chaff, straw, stones, sand, etc. The vegetable materials can
+have physical and biological properties which differ from those of the main
+constituent and can therefore affect the storage behaviour.
+
+
+[[specific_contents]]
+== Cross references
+
+[[example-1]]
+====
+THis is an example within the document 2
+====
+
+[bibliography]
+== Bibliography
+
+* [[[document1,repo:(current-metanorma-collection/doc1)]]]
