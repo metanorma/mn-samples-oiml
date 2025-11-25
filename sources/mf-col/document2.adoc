@@ -52,7 +52,7 @@ have physical and biological properties which differ from those of the main
 constituent and can therefore affect the storage behaviour.
 
 
-[[specific_contents]]
+[[xrefs]]
 == Cross references
 
 [[example-1]]

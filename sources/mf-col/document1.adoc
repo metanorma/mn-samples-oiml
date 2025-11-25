@@ -59,7 +59,7 @@ constituent and can therefore affect the storage behaviour.
 THis is an example within the document 1
 ====
 
-And this is a reference to document 2: <<document2,anchor=example-1>>.
+Reference to Section 1: <<document2,anchor=xrefs>>
 
 
 [bibliography]
