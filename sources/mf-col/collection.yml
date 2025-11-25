@@ -21,6 +21,7 @@ format:
   - rxl
 
 output_folder: collection-output
+coverpage: coverpage.html
 manifest:
   level: document
   title: Document
