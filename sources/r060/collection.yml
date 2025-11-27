@@ -1,0 +1,38 @@
+directives:
+  - documents-inline
+bibdata:
+  title:
+    type: title-main
+    language: en
+    content: "Metrological regulation for load cells"
+  type: collection
+  docid:
+    type: OIML
+    id: OIML R 60
+  edition: 2021
+  copyright:
+    owner:
+      name: International Organization of Legal Metrology
+      abbreviation: OIML
+    from: 2025
+format:
+  - presentation
+  - html
+  - pdf
+  - doc
+  - rxl
+
+output_folder: collection-output
+coverpage: coverpage.html
+manifest:
+  level: document
+  title: Documents
+  docref:
+    - fileref: 1/document.adoc
+      identifier: R060-1
+    - fileref: 2/document.adoc
+      identifier: R060-2
+    - fileref: 3/document.adoc
+      identifier: R060-3
+    - fileref: a/document.adoc
+      identifier: R060 Annex A
