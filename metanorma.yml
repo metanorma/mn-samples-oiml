@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/r060/collection.yml
+
+  collection:
+    organization: "OIML - International Organization of Legal Metrology"
+    name: "Metrological regulation for load cells"
