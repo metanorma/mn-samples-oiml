@@ -5,6 +5,10 @@ International Organization of Legal Metrology (OIML).
 
 This repository contains the OIML R060 recommendation and its parts.
 
+Published components are available here:
+
+* https://metanorma.github.io/mn-samples-oiml/[OIML R 60 - Metrological regulation for load cells (Edition 2021)]
+
 == Structure
 
 `sources/`::
