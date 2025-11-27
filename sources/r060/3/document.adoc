@@ -17,7 +17,7 @@
 :technical-committee: Instruments for measuring mass and density
 :toclevels-pdf: 2
 :mn-document-class: oiml
-:mn-output-extensions: html
+:mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:
 
