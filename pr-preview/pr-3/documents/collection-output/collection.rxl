@@ -1,0 +1,14 @@
+<bibitem id="OIMLR60" type="collection" schema-version="v1.2.9">
+  <title type="title-main" format="text/plain" language="en">Metrological regulation for load cells</title>
+  <docidentifier type="OIML" primary="true">OIML R 60</docidentifier>
+  <edition>2021</edition>
+  <copyright>
+    <from>2025</from>
+    <owner>
+      <organization>
+        <name>International Organization of Legal Metrology</name>
+        <abbreviation>OIML</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+</bibitem>

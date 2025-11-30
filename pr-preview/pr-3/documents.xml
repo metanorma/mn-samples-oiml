@@ -1,0 +1,19 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>Metrological regulation for load cells</title><contributor><role type='author'/><organization><name>OIML - International Organization of Legal Metrology</name></organization></contributor><relation type='partOf'><bibdata type="collection" schema-version="v1.2.9">
+  <title type="title-main" format="text/plain" language="en">Metrological regulation for load cells</title>
+  <uri type="xml">./documents/collection-output/collection.xml</uri>
+  <uri type="pdf">./documents/collection-output/collection.pdf</uri>
+  <uri type="doc">./documents/collection-output/collection.doc</uri>
+  <uri type="rxl">./documents/collection-output/collection.rxl</uri>
+  <docidentifier type="OIML" primary="true">OIML R 60</docidentifier>
+  <edition>2021</edition>
+  <copyright>
+    <from>2025</from>
+    <owner>
+      <organization>
+        <name>International Organization of Legal Metrology</name>
+        <abbreviation>OIML</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+</bibdata></relation>
+</relaton-collection>
