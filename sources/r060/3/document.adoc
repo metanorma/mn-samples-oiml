@@ -1,5 +1,5 @@
 = Metrological regulation for load cells
-:docnumber: 60-3
+:docnumber: 60
 :partnumber: 3
 :edition: 2
 :revdate: 2021-10-01
