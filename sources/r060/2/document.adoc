@@ -15,6 +15,7 @@
 :docsubstage: 60
 :technical-committee-number: 9
 :technical-committee: Instruments for measuring mass and density
+:toclevels-pdf: 2
 :mn-document-class: oiml
 :mn-output-extensions: html
 :imagesdir: images
