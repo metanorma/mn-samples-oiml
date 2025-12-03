@@ -14,7 +14,7 @@
 :docsubstage: 60
 :technical-committee-number: 9
 :technical-committee: Instruments for measuring mass and density
-:mn-document-class: iso
+:mn-document-class: oiml
 :mn-output-extensions: html
 :imagesdir: images
 :local-cache-only:
