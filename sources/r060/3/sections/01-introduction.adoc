@@ -1,5 +1,6 @@
 
 [[sec-1]]
+[heading=clause]
 == Introduction
 
 [[sec-1.1]]

@@ -1,4 +1,5 @@
 
+[heading=clause]
 == Introduction
 
 Load cells comprise a distinct element or module within other complex instruments;
