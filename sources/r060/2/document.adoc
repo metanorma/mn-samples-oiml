@@ -7,9 +7,9 @@
 :copyright-year: 2021
 :language: en
 :title-main-en: Metrological regulation for load cells
-:title-part-en: Metrological and technical requirements
+:title-part-en: Metrological controls and performance tests
 :title-main-fr: Réglementation métrologique des cellules de pesée
-:title-part-fr: Exigences métrologiques et techniques
+:title-part-fr: Contrôles métrologiques et essais de performance
 :doctype: international-recommendation
 :docstage: 60
 :docsubstage: 60
