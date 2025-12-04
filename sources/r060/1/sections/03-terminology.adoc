@@ -1,4 +1,6 @@
 
+<<<
+
 == Terminology (Terms and definitions)
 
 The terms most frequently used in the load cell field and their definitions are given
@@ -125,6 +127,7 @@ and results in the issuance of the type approval certificate
 
 === Categories of load cells
 
+[heading="terms and definitions"]
 ==== Application of load
 
 ===== compression loading
@@ -135,6 +138,7 @@ applying a compressive force to the load receptor of a load cell
 
 applying a tension force to the load receptor of a load cell
 
+[heading="terms and definitions"]
 === Construction of load cells (see sections 1 and 2.1)
 
 ==== strain gauge
@@ -143,6 +147,7 @@ analogue resistive element that is attached to a load cell structure and that ch
 resistance depending on the deformation of the load cell structure when compression
 or tension forces are applied to the load cell
 
+[heading="terms and definitions"]
 === Metrological characteristics of a load cell
 
 ==== humidity symbol
@@ -176,6 +181,7 @@ temperature rating, etc.).
 NOTE: The examples provided are not intended to be limiting.
 
 [[sec-3.5]]
+[heading="terms and definitions"]
 === Range, capacity and output terms
 
 ==== load cell interval
@@ -299,6 +305,7 @@ The following statements apply: (see also R 60-2, 2.7.3.4)
 
 . stem:[E_{"min"} <= D_{"min"} <= (0.1 E_{"max"})], and stem:[(0.9 E_{"max"}) <= D_{"max"} <= E_{"max"}]
 
+[heading="terms and definitions"]
 === Measurement and error terms
 
 ==== creep
@@ -419,6 +426,7 @@ change in sensitivity due to a change in ambient temperature
 
 mark applied to a measuring instrument certifying its conformity to the approved type
 
+[heading="terms and definitions"]
 === Influences and reference conditions
 
 ==== disturbance [VIML 5.19]
