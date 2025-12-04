@@ -78,7 +78,7 @@ An example illustrating the six parts of the load cell classification is shown i
 .Complete load cell classification
 image::figure-4.svg[]
 
-Accuracy class designation
+// ? Accuracy class designation
 
 [[sec-5.1.6]]
 ==== Standard classification
@@ -150,8 +150,8 @@ the expressions contained in the left column of <<table-4>>. The apportioning fa
 stem:[p_{"LC"}] shall be chosen and declared (if other than 0.7) by the manufacturer
 and shall be in the range of 0.3 to 0.8: (stem:[0.3 <= p_{"LC"} <= 0.8])
 footnote:[Associated with apportionment of error provisions contained within OIML
-R 76-1, 3.5.1 and 3.10.2.1 [1]; R 50-1, 2.2.33.2.2 [24]; R 51-1, 5.2.3.4 [25];
-R 61-1, 5.2.3.3 [26]; R 106-1, 5.1.3.2 [27]; or R 107-1, 5.1.4.1 [28], when load
+R 76-1, 3.5.1 and 3.10.2.1 [1\]; R 50-1, 2.2.33.2.2 [24\]; R 51-1, 5.2.3.4 [25\];
+R 61-1, 5.2.3.3 [26\]; R 106-1, 5.1.3.2 [27\]; or R 107-1, 5.1.4.1 [28\], when load
 cell is applied to such instruments.], where "m" is the value (expressed in mass)
 representing the force introduced by the load applied.
 
@@ -271,9 +271,9 @@ Load cells for which particular limits of working temperature are specified shal
 satisfy, within those ranges, the conditions defined in <<sec-5.3.2>>. The span of
 these ranges shall be at least:
 
-stem:[5 "unitsml(degC)"] for load cells of class A; +
-stem:[15 "unitsml(degC)"] for load cells of class B; +
-stem:[30 "unitsml(degC)"] for load cells of classes C and D.
+[css text-indent:12.5mm]#stem:[5 "unitsml(degC)"] for load cells of class A;# +
+[css text-indent:12.5mm]#stem:[15 "unitsml(degC)"] for load cells of class B;# +
+[css text-indent:12.5mm]#stem:[30 "unitsml(degC)"] for load cells of classes C and D.#
 
 ===== Temperature effect on minimum dead load output
 
@@ -282,8 +282,8 @@ in <<sec-5.6.1.1>> or <<sec-5.6.1.2>>, shall not vary by an amount greater than 
 apportioning factor, stem:[p_{"LC"}], times the minimum load cell verification interval,
 stem:[v_{"min"}], for any change in ambient temperature of:
 
-stem:[2 "unitsml(degC)"] for load cells of class A; +
-stem:[5 "unitsml(degC)"] for load cells of class B, C and D.
+[css text-indent:12.5mm]#stem:[2 "unitsml(degC)"] for load cells of class A;# +
+[css text-indent:12.5mm]#stem:[5 "unitsml(degC)"] for load cells of class B, C and D.#
 
 ==== Barometric pressure
 
@@ -418,13 +418,13 @@ the load cell output due to a disturbance and the load cell output without distu
 
 [[table-5]]
 .Influence factors and disturbances
-[cols="4", options="header"]
+[cols="<,^,^.^,^", options="header"]
 |===
 | Test | Subclause R 60-2, 2.10 test procedure | stem:[p_{"LC"}]
 footnote:[stem:[p_{"LC"} = 0.7] shall be used for analogue-active load cells during influence factors tests.]
 | Characteristic under test
 
-| Warm-up time | 2.10.7.3 +9| 1.0 | Influence factor
+| Warm-up time | 2.10.7.3 .9+| 1.0 | Influence factor
 | Power voltage variations                     | 2.10.7.4  | Influence factor
 | Short-time power reductions                  | 2.10.7.5  | Disturbance
 | Bursts (electrical fast transients)          | 2.10.7.6  | Disturbance
