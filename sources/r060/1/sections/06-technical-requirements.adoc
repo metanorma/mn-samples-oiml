@@ -28,16 +28,16 @@ A, is required.
 . For legally relevant software of digital load cells the following statements according
 to OIML D 31 [8] shall be applied.
 
-. The exception described in OIML D 31, 5.1.1 [8] for an imprint of the software
+.. The exception described in OIML D 31, 5.1.1 [8] for an imprint of the software
 identification is allowed.
 
-. The level of conformity of manufactured devices to the approved type is according
+.. The level of conformity of manufactured devices to the approved type is according
 to OIML D 31, 5.2.5 (subclause a) [8].
 
-. Updating the legally relevant software of a load cell in the field is possible
+.. Updating the legally relevant software of a load cell in the field is possible
 via verified or traced update according to OIML D 31, 5.2.6.2 and 5.2.6.3 [8].
 
-. The software documentation shall include descriptions according to the applicable
+.. The software documentation shall include descriptions according to the applicable
 requirements of OIML D 31, 6.1.1 [8].
 
 The validation procedures are described in OIML D 31, 6.4 [8].
@@ -47,7 +47,7 @@ The validation procedures are described in OIML D 31, 6.4 [8].
 Technical information markings including load cell classifications as indicated in
 <<sec-5.1.5>> must be specified for the load cell(s).
 
-=== Mandatory markings on the load cell
+==== Mandatory markings on the load cell
 
 The following mandatory markings shall be clearly and indelibly marked on the load
 cell. When a sticker or data plate is used it shall be impossible to remove them
@@ -144,10 +144,13 @@ in <<table-6>>.
 .Symbols for different types of load transmission principles
 [cols="2"]
 |===
-| Tension     | ↑ ↓
-| Compression | ↓ ↑
+| Tension     | ↑ +
+↓
+| Compression | ↓ +
+↑
 | Beam        | ↑ or ↓
-| Universal   | ↑ ↓ ↓ ↑
+| Universal   | ↑ ↓ +
+↓ ↑
 |===
 
 [[sec-6.2.4.3]]
