@@ -1,0 +1,35 @@
+directives:
+  - documents-inline
+  - flavor: oiml
+bibdata:
+  title:
+    - language: en
+      content: "OIML documents"
+  type: collection
+  docid:
+    type: oiml
+    id: OIML R-60
+  copyright:
+    owner:
+      name: International Organization of Legal Metrology
+      abbreviation: OIML
+    from: 2025
+format:
+  - presentation
+  - html
+  - pdf
+  - doc
+  - rxl
+
+output_folder: collection-output
+coverpage: coverpage.html
+manifest:
+  level: document
+  title: Document
+  docref:
+    - fileref: 1/document.adoc
+      identifier: doc1
+    - fileref: 2/document.adoc
+      identifier: doc2
+    - fileref: a/document.adoc
+      identifier: r060-annex-a
