@@ -1,13 +1,14 @@
 directives:
   - documents-inline
+  - flavor: oiml
 bibdata:
   title:
-    type: title-main
-    language: en
-    content: "Metrological regulation for load cells"
+    - language: en
+      type: title-main
+      content: "Metrological regulation for load cells"
   type: collection
   docid:
-    type: OIML
+    type: oiml
     id: OIML R 60
   edition: 2021
   copyright:
@@ -35,4 +36,4 @@ manifest:
     - fileref: 3/document.adoc
       identifier: R060-3
     - fileref: a/document.adoc
-      identifier: R060 Annex A
+      identifier: R060-annex-a
