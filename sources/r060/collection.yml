@@ -1,13 +1,13 @@
 directives:
   - documents-inline
-  - flavor: oiml
+  - flavor: iso
 bibdata:
   title:
     - language: en
       content: "OIML documents"
   type: collection
   docid:
-    type: oiml
+    type: iso
     id: OIML R-60
   copyright:
     owner:
