@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.2.2" schema-version="v2.1.4" flavor="iso" document_suffix="R060-2">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.2.3" schema-version="v2.1.5" flavor="iso" document_suffix="R060-2">
 <bibdata type="standard">
 <title language="en" type="main">Metrological regulation for load cells — Metrological and technical requirements</title>
 
@@ -12,23 +12,23 @@
 <title language="fr" type="title-main">Réglementation métrologique des cellules de pesée</title>
 
 <title language="fr" type="title-part">Exigences métrologiques et techniques</title>
-<docidentifier type="ISO" primary="true">ISO 60-2-2:2021</docidentifier><docidentifier type="iso-reference">ISO 60-2-2:2021(E)</docidentifier><docidentifier type="URN">urn:iso:std:iso:60-2:-2:stage-60.60:en</docidentifier><docidentifier type="iso-undated">ISO 60-2-2</docidentifier><docidentifier type="iso-with-lang">ISO 60-2-2:2021(en)</docidentifier><docnumber>60-2</docnumber><contributor><role type="author"/><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<docidentifier type="ISO" primary="true">OIML R 60-2</docidentifier><docnumber>60</docnumber><contributor><role type="author"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Instruments for measuring mass and density</name>
+<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+</organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
 <name>International Organization for Standardization</name>
 <subdivision type="Technical committee" subtype="TC">
 <name>Instruments for measuring mass and density</name>
-<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
-<name>International Organization for Standardization</name>
-<subdivision type="Technical committee" subtype="TC">
-<name>Instruments for measuring mass and density</name>
-<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2</edition><version><revision-date>2021-10-01</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2021</from><owner><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>international-recommendation</doctype><flavor>iso</flavor><structuredidentifier><project-number part="2">ISO 60-2</project-number></structuredidentifier><stagename>International Standard</stagename></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2</edition><version><revision-date>2021-10-01</revision-date></version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2021</from><owner><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation></organization></owner></copyright><ext><doctype>international-recommendation</doctype><flavor>iso</flavor><structuredidentifier><project-number part="2">OIML 60</project-number></structuredidentifier><stagename abbreviation="IS">International Standard</stagename></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
 <presentation-metadata><name>document-scheme</name><value>2013</value></presentation-metadata><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd5" id="U_NISTu23_R060-2">
         <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
         <UnitName lang="en">degree Celsius</UnitName>
@@ -194,21 +194,21 @@
         <PrefixSymbol type="unicode">M</PrefixSymbol>
         <PrefixSymbol type="LaTeX">M</PrefixSymbol>
         <PrefixSymbol type="HTML">M</PrefixSymbol>
-      </Prefix></PrefixSet></UnitsML><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
-<clause id="_8aac20ac-ba9a-3b96-1d33-2cb503a67afb_R060-2" anchor="boilerplate-copyright-default_R060-2" inline-header="false" obligation="normative">
-<title id="_129fe8d3-7b32-3da5-a270-59bb0ef8173e_R060-2">COPYRIGHT PROTECTED DOCUMENT</title>
-<p id="_7bd1e8fb-0214-b2d8-e1a2-17653a226509_R060-2" anchor="boilerplate-year_R060-2">© <span class="std_publisher">ISO </span><span class="date">2021</span></p>
+<clause id="_26a1404b-5691-bab0-51f5-438211e9bbfc_R060-2" inline-header="false" obligation="normative"><p id="_1d37d283-b53c-595e-4f5b-96140619aae7_R060-2">© OIML 2021</p>
 
-<p id="_dcd0efd0-9c2b-bcfd-6dcd-ce36b8143916_R060-2" anchor="boilerplate-message_R060-2">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
-
-<p id="_9b279b29-6760-9714-7fb3-2ca2038acedf_R060-2" anchor="boilerplate-address_R060-2" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8<br/> CH-1214 Vernier, Geneva<br/> Phone: +41 22 749 01 11<br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website: www.iso.org</p>
-
-<p id="_93a0bcfe-1edb-b952-e8f5-db8ed91f8e23_R060-2" anchor="boilerplate-place_R060-2">Published in Switzerland</p>
+<p id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99_R060-2" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
 </clause>
 </copyright-statement>
-</boilerplate><preface><foreword id="_35492ae5-dd78-343b-2a02-be2e198928c5_R060-2" obligation="informative">
+<feedback-statement>
+
+<clause id="_78778e0b-9d1e-e0ad-1272-7268592fc427_R060-2" inline-header="false" obligation="normative"><p id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb_R060-2">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organisation’s headquarters:</p>
+
+<p id="_4242e451-d3c4-e8c0-4883-3b88240ca76c_R060-2" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</feedback-statement></boilerplate><preface><foreword id="_35492ae5-dd78-343b-2a02-be2e198928c5_R060-2" obligation="informative">
 <title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026_R060-2">Foreword</title>
 <p id="_562d2fb6-d63e-84ae-e97e-5078e3b7b4a7_R060-2">The International Organisation of Legal Metrology (OIML) is a worldwide, intergovernmental organisation whose primary aim is to harmonise the regulations and metrological controls applied by the national metrological services, or related organisations, of its Member States. The main categories of OIML publications are:</p>
 
@@ -2976,8 +2976,7 @@ three times, returning to the minimum test load, <stem block="false" type="MathM
 
 <figure id="_0f456715-31cc-8f80-e259-441e367a3ce9_R060-2" anchor="fig-2_R060-2">
 <name id="_0db3e595-a506-662d-77bc-5009658f0d4a_R060-2">Recommended test sequence for each test temperature when all tests are carried out in the same force-generating system</name>
-<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="401.5pt" height="173pt" viewBox="0 0 401.5 173" version="1.1" id="svg1559_R060-2_000000000" sodipodi:docname="figure-2.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
-  <sodipodi:namedview id="namedview1559_inject_0_R060-2_000000000" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="pt" inkscape:zoom="0.71443844" inkscape:cx="255.44538" inkscape:cy="275.74104" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="1791" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg1559"/>
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="401.5pt" height="173pt" viewBox="0 0 401.5 173" id="svg1559_R060-2_000000000" sodipodi:docname="figure-2.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
   <defs id="defs103_inject_0_R060-2_000000000">
     <filter id="filter-remove-color_inject_0_R060-2_000000000" x="0" y="0" width="1" height="1">
       <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" id="feColorMatrix1_inject_0_R060-2_000000000"/>
@@ -4056,8 +4055,7 @@ three times, returning to the minimum test load, <stem block="false" type="MathM
 
 <figure id="_98400d5b-2f12-225f-2193-cbe09a078118_R060-2" anchor="fig-3_R060-2">
 <name id="_b79934d1-f96f-04e2-eb03-eef1cdc9f6e6_R060-2">Recommended test sequence for each test temperature for the minimum dead load output return (DR) and creep tests when carried out in a machine different from that used for the load tests</name>
-<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="385.05078pt" height="224.39844pt" viewBox="0 0 385.05078 224.39844" version="1.1" id="svg1559_inject_1_R060-2_000000001" sodipodi:docname="figure-3.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
-  <sodipodi:namedview id="namedview1559_inject_1_R060-2_000000001" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="pt" inkscape:zoom="0.71443844" inkscape:cx="98.678901" inkscape:cy="60.187131" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="1791" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg1559"/>
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="385.05078pt" height="224.39844pt" viewBox="0 0 385.05078 224.39844" id="svg1559_inject_1_R060-2_000000001" sodipodi:docname="figure-3.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
   <defs id="defs103_inject_1_R060-2_000000001">
     <filter id="filter-remove-color_inject_1_R060-2_000000001" x="0" y="0" width="1" height="1">
       <feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" id="feColorMatrix1_inject_1_R060-2_000000001"/>

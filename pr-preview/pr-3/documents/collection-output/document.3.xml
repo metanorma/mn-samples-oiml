@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.2.2" schema-version="v2.1.4" flavor="iso" document_suffix="R060_Annex_A">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.2.3" schema-version="v2.1.5" flavor="iso" document_suffix="R060_Annex_A">
 <bibdata type="standard">
 <title language="en" type="main">Metrological regulation for load cells — Metrological and technical requirements</title>
 
@@ -12,23 +12,23 @@
 <title language="fr" type="title-main">Réglementation métrologique des cellules de pesée</title>
 
 <title language="fr" type="title-part">Exigences métrologiques et techniques</title>
-<docidentifier type="ISO" primary="true">ISO 60:2021</docidentifier><docidentifier type="iso-reference">ISO 60:2021(E)</docidentifier><docidentifier type="URN">urn:iso:std:iso:60:stage-60.60:en</docidentifier><docidentifier type="iso-undated">ISO 60</docidentifier><docidentifier type="iso-with-lang">ISO 60:2021(en)</docidentifier><docnumber>60</docnumber><contributor><role type="author"/><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<docidentifier type="ISO" primary="true">OIML R 60</docidentifier><docnumber>60</docnumber><contributor><role type="author"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Instruments for measuring mass and density</name>
+<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+</organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
 <name>International Organization for Standardization</name>
 <subdivision type="Technical committee" subtype="TC">
 <name>Instruments for measuring mass and density</name>
-<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
-<name>International Organization for Standardization</name>
-<subdivision type="Technical committee" subtype="TC">
-<name>Instruments for measuring mass and density</name>
-<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2</edition><version><revision-date>2021-10-01</revision-date></version><language>en</language><script>Latn</script><status><stage>60</stage><substage>60</substage></status><copyright><from>2021</from><owner><organization>
-<name>International Organization for Standardization</name>
-<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>international-recommendation</doctype><flavor>iso</flavor><structuredidentifier><project-number>ISO 60</project-number></structuredidentifier><stagename>International Standard</stagename></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<identifier>TC 9</identifier><identifier type="full">TC 9</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2</edition><version><revision-date>2021-10-01</revision-date></version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2021</from><owner><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation></organization></owner></copyright><ext><doctype>international-recommendation</doctype><flavor>iso</flavor><structuredidentifier><project-number>OIML 60</project-number></structuredidentifier><stagename abbreviation="IS">International Standard</stagename></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
 <presentation-metadata><name>document-scheme</name><value>2013</value></presentation-metadata><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd2" id="U_NISTu2_R060_Annex_A">
         <UnitSystem name="SI" type="SI_base" lang="en-US"/>
         <UnitName lang="en">kilogram</UnitName>
@@ -171,21 +171,21 @@
         <PrefixSymbol type="unicode">M</PrefixSymbol>
         <PrefixSymbol type="LaTeX">M</PrefixSymbol>
         <PrefixSymbol type="HTML">M</PrefixSymbol>
-      </Prefix></PrefixSet></UnitsML><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>3</value></presentation-metadata></metanorma-extension>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
 <boilerplate><copyright-statement>
 
-<clause id="_8aac20ac-ba9a-3b96-1d33-2cb503a67afb_R060_Annex_A" anchor="boilerplate-copyright-default_R060_Annex_A" inline-header="false" obligation="normative">
-<title id="_129fe8d3-7b32-3da5-a270-59bb0ef8173e_R060_Annex_A">COPYRIGHT PROTECTED DOCUMENT</title>
-<p id="_7bd1e8fb-0214-b2d8-e1a2-17653a226509_R060_Annex_A" anchor="boilerplate-year_R060_Annex_A">© <span class="std_publisher">ISO </span><span class="date">2021</span></p>
+<clause id="_26a1404b-5691-bab0-51f5-438211e9bbfc_R060_Annex_A" inline-header="false" obligation="normative"><p id="_1d37d283-b53c-595e-4f5b-96140619aae7_R060_Annex_A">© OIML 2021</p>
 
-<p id="_dcd0efd0-9c2b-bcfd-6dcd-ce36b8143916_R060_Annex_A" anchor="boilerplate-message_R060_Annex_A">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
-
-<p id="_9b279b29-6760-9714-7fb3-2ca2038acedf_R060_Annex_A" anchor="boilerplate-address_R060_Annex_A" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8<br/> CH-1214 Vernier, Geneva<br/> Phone: +41 22 749 01 11<br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website: www.iso.org</p>
-
-<p id="_93a0bcfe-1edb-b952-e8f5-db8ed91f8e23_R060_Annex_A" anchor="boilerplate-place_R060_Annex_A">Published in Switzerland</p>
+<p id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99_R060_Annex_A" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
 </clause>
 </copyright-statement>
-</boilerplate><preface><foreword id="_c2cb962d-9150-5eac-f611-e54e9d3bdbd4_R060_Annex_A" obligation="informative">
+<feedback-statement>
+
+<clause id="_78778e0b-9d1e-e0ad-1272-7268592fc427_R060_Annex_A" inline-header="false" obligation="normative"><p id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb_R060_Annex_A">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organisation’s headquarters:</p>
+
+<p id="_4242e451-d3c4-e8c0-4883-3b88240ca76c_R060_Annex_A" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</feedback-statement></boilerplate><preface><foreword id="_c2cb962d-9150-5eac-f611-e54e9d3bdbd4_R060_Annex_A" obligation="informative">
 <title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026_R060_Annex_A">Foreword</title>
 <p id="_562d2fb6-d63e-84ae-e97e-5078e3b7b4a7_R060_Annex_A">The International Organisation of Legal Metrology (OIML) is a worldwide, intergovernmental organisation whose primary aim is to harmonise the regulations and metrological controls applied by the national metrological services, or related organisations, of its Member States. The main categories of OIML publications are:</p>
 
@@ -3687,13 +3687,10 @@ C3 — <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998
 <table id="_8ce2776e-55ed-6843-68b9-f033b400eacf_R060_Annex_A" unnumbered="true"><thead><tr id="_76aa0096-9b18-1e67-f6a8-3a46df947da9_R060_Annex_A"><th id="_bc66e7e1-6680-0a83-896f-19f6c1f1034d_R060_Annex_A" valign="top" align="left">Symbol</th>
 <th id="_07865817-f1d4-9702-083f-9a6c03264c2b_R060_Annex_A" valign="top" align="left">Description</th>
 </tr></thead>
-<tbody><tr id="_b0120f84-e6a7-7697-3434-daa0fe8dd1ee_R060_Annex_A"><td id="_771e7909-3207-4e41-798d-842e3c55a5cd_R060_Annex_A" valign="top" align="left"><figure id="_5f12a1a7-c123-2729-b87f-3b61ecc404f0_R060_Annex_A"><image id="_a7190931-5279-f37d-a9a8-c5ffb7fbaf0b_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u1.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg1_R060_Annex_A_000000000" width="30.530224" height="13.949286" viewBox="0 0 30.530224 13.949286" sodipodi:docname="figure-u1.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
+<tbody><tr id="_b0120f84-e6a7-7697-3434-daa0fe8dd1ee_R060_Annex_A"><td id="_771e7909-3207-4e41-798d-842e3c55a5cd_R060_Annex_A" valign="top" align="left"><figure id="_5f12a1a7-c123-2729-b87f-3b61ecc404f0_R060_Annex_A"><image id="_a7190931-5279-f37d-a9a8-c5ffb7fbaf0b_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u1.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg1_R060_Annex_A_000000000" width="30.530224" height="13.949286" viewBox="0 0 30.530224 13.949286" sodipodi:docname="figure-u1.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
   <defs id="defs1_inject_0_R060_Annex_A_000000000">
     <color-profile inkscape:label="Dot Gain 20%" name="Dot-Gain-20" xlink:href="data:application/vnd.iccprofile;base64,AAADrGxjbXMCEAAAcHJ0ckdSQVlYWVogB88ABgADAAAAAAAAYWNzcE1TRlQAAAAAbm9uZQAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1sY21zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFY3BydAAAAMAAAAAyZGVzYwAAAPQAAACEd3RwdAAAAXgAAAAUYmtwdAAAAYwAAAAUa1RSQwAAAaAAAAIMdGV4dAAAAABDb3B5cmlnaHQgMTk5OSBBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZAAAAGRlc2MAAAAAAAAADURvdCBHYWluIDIwJQAAAAAAAAAADQBEAG8AdAAgAEcAYQBpAG4AIAAyADAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAAD21gABAAAAANMtWFlaIAAAAAAAAAAAAAAAAAAAAABjdXJ2AAAAAAAAAQAAAAAQACAAMABAAFAAYQB/AKAAxQDsARcBRAF1AagB3gIWAlICkALQAxMDWQOhA+wEOQSIBNoFLgWFBd4GOQaWBvYHVwe7CCIIigj0CWEJ0ApBCrQLKQugDBoMlQ0SDZIOEw6WDxwPoxAsELgRRRHUEmUS+BONFCQUvRVXFfQWkhcyF9QYeBkeGcYabxsbG8gcdh0nHdoejh9EH/wgtSFxIi4i7SOtJHAlNCX5JsEniihVKSIp8CrAK5IsZS06LhEu6i/EMKAxfTJcMz00HzUDNek20De5OKQ5kDp+O208Xj1RPkU/O0AzQSxCJkMiRCBFH0YgRyNIJ0ktSjRLPExHTVNOYE9vUH9RkVKlU7pU0VXpVwJYHlk6WlhbeFyZXbxe4GAGYS1iVmOAZKxl2WcIaDhpaWqda9FtB24/b3hwsnHucyt0anWqdux4L3l0erp8AX1KfpV/4YEugnyDzYUehnGHxYkbinKLy40ljoGP3ZE8kpuT/ZVflsOYKJmPmvecYJ3LnzegpaIUo4Wk9qZpp96pVKrLrEStvq85sLayNLO0tTS2t7g6ub+7RbzNvla/4MFswvnEh8YXx6jJO8rOzGPN+s+S0SvSxdRh1f7XnNk82t3cf94j38jhbuMW5L/maegU6cHrb+0f7tDwgvI18+r1oPdX+RD6yvyF/kH//w==" id="color-profile1_inject_0_R060_Annex_A_000000000"/>
   </defs>
-  <sodipodi:namedview id="namedview1_inject_0_R060_Annex_A_000000000" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="11.431015" inkscape:cx="-6.0799502" inkscape:cy="6.4736161" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="1791" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="g1">
-    <inkscape:page x="0" y="0" inkscape:label="1" id="page1_inject_0_R060_Annex_A_000000000" width="30.530224" height="13.949286" margin="0" bleed="0"/>
-  </sodipodi:namedview>
   <g id="g1_inject_0_R060_Annex_A_000000000" inkscape:groupmode="layer" inkscape:label="1" transform="translate(-140.05937,-675.28)">
     <g id="g5_inject_0_R060_Annex_A_000000000"/>
     <g id="g6_inject_0_R060_Annex_A_000000000"/>
@@ -3756,13 +3753,10 @@ C3 — <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998
 <note id="_1d7feb58-453c-53e5-d6c5-05f0eda503ae_R060_Annex_A"><p id="_187a6e31-8aa5-ef16-25aa-d9a45deccbbf_R060_Annex_A">allows for temperature dilatation</p>
 </note>
 </td>
-</tr><tr id="_c2f3d01f-5c9a-ae06-466f-27f59dc39a87_R060_Annex_A"><td id="_fad2d9e2-567d-e562-6dc3-71b1ddbade48_R060_Annex_A" valign="top" align="left"><figure id="_1f08b5d2-15f4-a548-88e6-ef995dee05f1_R060_Annex_A"><image id="_80dc5963-720c-cda8-7bef-276063845b80_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u2.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg1_inject_1_R060_Annex_A_000000001" width="35.915962" height="18.059883" viewBox="0 0 35.915962 18.059884" sodipodi:docname="figure-u2.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
+</tr><tr id="_c2f3d01f-5c9a-ae06-466f-27f59dc39a87_R060_Annex_A"><td id="_fad2d9e2-567d-e562-6dc3-71b1ddbade48_R060_Annex_A" valign="top" align="left"><figure id="_1f08b5d2-15f4-a548-88e6-ef995dee05f1_R060_Annex_A"><image id="_80dc5963-720c-cda8-7bef-276063845b80_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u2.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg1_inject_1_R060_Annex_A_000000001" width="35.915962" height="18.059883" viewBox="0 0 35.915962 18.059884" sodipodi:docname="figure-u2.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
   <defs id="defs1_inject_1_R060_Annex_A_000000001">
     <color-profile inkscape:label="Dot Gain 20%" name="Dot-Gain-20" xlink:href="data:application/vnd.iccprofile;base64,AAADrGxjbXMCEAAAcHJ0ckdSQVlYWVogB88ABgADAAAAAAAAYWNzcE1TRlQAAAAAbm9uZQAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1sY21zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFY3BydAAAAMAAAAAyZGVzYwAAAPQAAACEd3RwdAAAAXgAAAAUYmtwdAAAAYwAAAAUa1RSQwAAAaAAAAIMdGV4dAAAAABDb3B5cmlnaHQgMTk5OSBBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZAAAAGRlc2MAAAAAAAAADURvdCBHYWluIDIwJQAAAAAAAAAADQBEAG8AdAAgAEcAYQBpAG4AIAAyADAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAAD21gABAAAAANMtWFlaIAAAAAAAAAAAAAAAAAAAAABjdXJ2AAAAAAAAAQAAAAAQACAAMABAAFAAYQB/AKAAxQDsARcBRAF1AagB3gIWAlICkALQAxMDWQOhA+wEOQSIBNoFLgWFBd4GOQaWBvYHVwe7CCIIigj0CWEJ0ApBCrQLKQugDBoMlQ0SDZIOEw6WDxwPoxAsELgRRRHUEmUS+BONFCQUvRVXFfQWkhcyF9QYeBkeGcYabxsbG8gcdh0nHdoejh9EH/wgtSFxIi4i7SOtJHAlNCX5JsEniihVKSIp8CrAK5IsZS06LhEu6i/EMKAxfTJcMz00HzUDNek20De5OKQ5kDp+O208Xj1RPkU/O0AzQSxCJkMiRCBFH0YgRyNIJ0ktSjRLPExHTVNOYE9vUH9RkVKlU7pU0VXpVwJYHlk6WlhbeFyZXbxe4GAGYS1iVmOAZKxl2WcIaDhpaWqda9FtB24/b3hwsnHucyt0anWqdux4L3l0erp8AX1KfpV/4YEugnyDzYUehnGHxYkbinKLy40ljoGP3ZE8kpuT/ZVflsOYKJmPmvecYJ3LnzegpaIUo4Wk9qZpp96pVKrLrEStvq85sLayNLO0tTS2t7g6ub+7RbzNvla/4MFswvnEh8YXx6jJO8rOzGPN+s+S0SvSxdRh1f7XnNk82t3cf94j38jhbuMW5L/maegU6cHrb+0f7tDwgvI18+r1oPdX+RD6yvyF/kH//w==" id="color-profile1_inject_1_R060_Annex_A_000000001"/>
   </defs>
-  <sodipodi:namedview id="namedview1_inject_1_R060_Annex_A_000000001" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="1.4288768" inkscape:cx="10.847681" inkscape:cy="90.98055" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="1791" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="g1">
-    <inkscape:page x="0" y="0" inkscape:label="1" id="page1_inject_1_R060_Annex_A_000000001" width="35.915962" height="18.059883" margin="0" bleed="0"/>
-  </sodipodi:namedview>
   <g id="g1_inject_1_R060_Annex_A_000000001" inkscape:groupmode="layer" inkscape:label="1" transform="translate(-140.22662,-731.39206)">
     <g id="g5_inject_1_R060_Annex_A_000000001"/>
     <g id="g6_inject_1_R060_Annex_A_000000001"/>
@@ -3835,13 +3829,10 @@ C3 — <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998
 <note id="_56c59e7b-82b4-809f-8841-5cd90b36c9b9_R060_Annex_A"><p id="_328dbfc4-81d2-0bbc-d7f1-ad9bc4d530c3_R060_Annex_A">allows for temperature dilatation, also used for damping of lateral shock</p>
 </note>
 </td>
-</tr><tr id="_636889ec-331d-7029-0af9-47c35d30778c_R060_Annex_A"><td id="_718596b6-039d-5695-9eee-ea6cee0e9dba_R060_Annex_A" valign="top" align="left"><figure id="_101c8d95-5f4d-afe1-86a7-b233a8357012_R060_Annex_A"><image id="_3d2cee76-df22-c81e-5892-b750f4eadc58_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u3.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg1_inject_2_R060_Annex_A_000000002" width="29.773548" height="20.116102" viewBox="0 0 29.773548 20.116103" sodipodi:docname="figure-u3.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
+</tr><tr id="_636889ec-331d-7029-0af9-47c35d30778c_R060_Annex_A"><td id="_718596b6-039d-5695-9eee-ea6cee0e9dba_R060_Annex_A" valign="top" align="left"><figure id="_101c8d95-5f4d-afe1-86a7-b233a8357012_R060_Annex_A"><image id="_3d2cee76-df22-c81e-5892-b750f4eadc58_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u3.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg1_inject_2_R060_Annex_A_000000002" width="29.773548" height="20.116102" viewBox="0 0 29.773548 20.116103" sodipodi:docname="figure-u3.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
   <defs id="defs1_inject_2_R060_Annex_A_000000002">
     <color-profile inkscape:label="Dot Gain 20%" name="Dot-Gain-20" xlink:href="data:application/vnd.iccprofile;base64,AAADrGxjbXMCEAAAcHJ0ckdSQVlYWVogB88ABgADAAAAAAAAYWNzcE1TRlQAAAAAbm9uZQAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1sY21zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFY3BydAAAAMAAAAAyZGVzYwAAAPQAAACEd3RwdAAAAXgAAAAUYmtwdAAAAYwAAAAUa1RSQwAAAaAAAAIMdGV4dAAAAABDb3B5cmlnaHQgMTk5OSBBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZAAAAGRlc2MAAAAAAAAADURvdCBHYWluIDIwJQAAAAAAAAAADQBEAG8AdAAgAEcAYQBpAG4AIAAyADAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAAD21gABAAAAANMtWFlaIAAAAAAAAAAAAAAAAAAAAABjdXJ2AAAAAAAAAQAAAAAQACAAMABAAFAAYQB/AKAAxQDsARcBRAF1AagB3gIWAlICkALQAxMDWQOhA+wEOQSIBNoFLgWFBd4GOQaWBvYHVwe7CCIIigj0CWEJ0ApBCrQLKQugDBoMlQ0SDZIOEw6WDxwPoxAsELgRRRHUEmUS+BONFCQUvRVXFfQWkhcyF9QYeBkeGcYabxsbG8gcdh0nHdoejh9EH/wgtSFxIi4i7SOtJHAlNCX5JsEniihVKSIp8CrAK5IsZS06LhEu6i/EMKAxfTJcMz00HzUDNek20De5OKQ5kDp+O208Xj1RPkU/O0AzQSxCJkMiRCBFH0YgRyNIJ0ktSjRLPExHTVNOYE9vUH9RkVKlU7pU0VXpVwJYHlk6WlhbeFyZXbxe4GAGYS1iVmOAZKxl2WcIaDhpaWqda9FtB24/b3hwsnHucyt0anWqdux4L3l0erp8AX1KfpV/4YEugnyDzYUehnGHxYkbinKLy40ljoGP3ZE8kpuT/ZVflsOYKJmPmvecYJ3LnzegpaIUo4Wk9qZpp96pVKrLrEStvq85sLayNLO0tTS2t7g6ub+7RbzNvla/4MFswvnEh8YXx6jJO8rOzGPN+s+S0SvSxdRh1f7XnNk82t3cf94j38jhbuMW5L/maegU6cHrb+0f7tDwgvI18+r1oPdX+RD6yvyF/kH//w==" id="color-profile1_inject_2_R060_Annex_A_000000002"/>
   </defs>
-  <sodipodi:namedview id="namedview1_inject_2_R060_Annex_A_000000002" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="1.4288768" inkscape:cx="-129.1224" inkscape:cy="-99.378755" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="1791" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="g1">
-    <inkscape:page x="0" y="0" inkscape:label="1" id="page1_inject_2_R060_Annex_A_000000002" width="29.773548" height="20.116102" margin="0" bleed="0"/>
-  </sodipodi:namedview>
   <g id="g1_inject_2_R060_Annex_A_000000002" inkscape:groupmode="layer" inkscape:label="1" transform="translate(-140.08243,-822.60233)">
     <g id="g5_inject_2_R060_Annex_A_000000002"/>
     <g id="g6_inject_2_R060_Annex_A_000000002"/>
@@ -3911,13 +3902,10 @@ C3 — <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998
 <note id="_aaedb9e3-8082-27a3-8ed5-c1cd93f2f1cf_R060_Annex_A"><p id="_bf35fd89-5089-19fb-0ff5-e79745106b31_R060_Annex_A">allows for tilt of load cell or deflection of load receptor, no movement normal to load axis possible</p>
 </note>
 </td>
-</tr><tr id="_e6008593-d464-060b-4e34-cfb807bad0bd_R060_Annex_A"><td id="_b52a5f0c-4297-5109-1641-8729cbfa5184_R060_Annex_A" valign="top" align="left"><figure id="_fbfe606a-6b91-9730-c9d3-6d84428b9685_R060_Annex_A"><image id="_aea7c1a0-886a-e970-784d-010d3c1c5874_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u4.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg1_inject_3_R060_Annex_A_000000003" width="49.62722" height="15.842535" viewBox="0 0 49.62722 15.842536" sodipodi:docname="figure-u4.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
+</tr><tr id="_e6008593-d464-060b-4e34-cfb807bad0bd_R060_Annex_A"><td id="_b52a5f0c-4297-5109-1641-8729cbfa5184_R060_Annex_A" valign="top" align="left"><figure id="_fbfe606a-6b91-9730-c9d3-6d84428b9685_R060_Annex_A"><image id="_aea7c1a0-886a-e970-784d-010d3c1c5874_R060_Annex_A" src="" mimetype="image/svg+xml" height="auto" width="auto" filename="images/figure-u4.svg"><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg1_inject_3_R060_Annex_A_000000003" width="49.62722" height="15.842535" viewBox="0 0 49.62722 15.842536" sodipodi:docname="figure-u4.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)">
   <defs id="defs1_inject_3_R060_Annex_A_000000003">
     <color-profile inkscape:label="Dot Gain 20%" name="Dot-Gain-20" xlink:href="data:application/vnd.iccprofile;base64,AAADrGxjbXMCEAAAcHJ0ckdSQVlYWVogB88ABgADAAAAAAAAYWNzcE1TRlQAAAAAbm9uZQAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1sY21zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFY3BydAAAAMAAAAAyZGVzYwAAAPQAAACEd3RwdAAAAXgAAAAUYmtwdAAAAYwAAAAUa1RSQwAAAaAAAAIMdGV4dAAAAABDb3B5cmlnaHQgMTk5OSBBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZAAAAGRlc2MAAAAAAAAADURvdCBHYWluIDIwJQAAAAAAAAAADQBEAG8AdAAgAEcAYQBpAG4AIAAyADAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAAD21gABAAAAANMtWFlaIAAAAAAAAAAAAAAAAAAAAABjdXJ2AAAAAAAAAQAAAAAQACAAMABAAFAAYQB/AKAAxQDsARcBRAF1AagB3gIWAlICkALQAxMDWQOhA+wEOQSIBNoFLgWFBd4GOQaWBvYHVwe7CCIIigj0CWEJ0ApBCrQLKQugDBoMlQ0SDZIOEw6WDxwPoxAsELgRRRHUEmUS+BONFCQUvRVXFfQWkhcyF9QYeBkeGcYabxsbG8gcdh0nHdoejh9EH/wgtSFxIi4i7SOtJHAlNCX5JsEniihVKSIp8CrAK5IsZS06LhEu6i/EMKAxfTJcMz00HzUDNek20De5OKQ5kDp+O208Xj1RPkU/O0AzQSxCJkMiRCBFH0YgRyNIJ0ktSjRLPExHTVNOYE9vUH9RkVKlU7pU0VXpVwJYHlk6WlhbeFyZXbxe4GAGYS1iVmOAZKxl2WcIaDhpaWqda9FtB24/b3hwsnHucyt0anWqdux4L3l0erp8AX1KfpV/4YEugnyDzYUehnGHxYkbinKLy40ljoGP3ZE8kpuT/ZVflsOYKJmPmvecYJ3LnzegpaIUo4Wk9qZpp96pVKrLrEStvq85sLayNLO0tTS2t7g6ub+7RbzNvla/4MFswvnEh8YXx6jJO8rOzGPN+s+S0SvSxdRh1f7XnNk82t3cf94j38jhbuMW5L/maegU6cHrb+0f7tDwgvI18+r1oPdX+RD6yvyF/kH//w==" id="color-profile1_inject_3_R060_Annex_A_000000003"/>
   </defs>
-  <sodipodi:namedview id="namedview1_inject_3_R060_Annex_A_000000003" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" showgrid="false" inkscape:zoom="1.4288768" inkscape:cx="-269.09247" inkscape:cy="19.595811" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="1791" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="g1">
-    <inkscape:page x="0" y="0" inkscape:label="1" id="page1_inject_3_R060_Annex_A_000000003" width="49.62722" height="15.842536" margin="0" bleed="0"/>
-  </sodipodi:namedview>
   <g id="g1_inject_3_R060_Annex_A_000000003" inkscape:groupmode="layer" inkscape:label="1" transform="translate(-139.85886,-897.64169)">
     <g id="g5_inject_3_R060_Annex_A_000000003"/>
     <g id="g6_inject_3_R060_Annex_A_000000003"/>
@@ -4022,9 +4010,9 @@ C3 — <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998
 </td>
 </tr></tbody>
 </table>
-</annex><bibliography><references id="_12515967-805e-270d-0000-2edda2493d29_R060_Annex_A" anchor="annex-f_R060_Annex_A" normative="false" obligation="informative">
-<title id="_2b4ed339-a7ed-1bbb-9576-55fcbc1ace3a_R060_Annex_A">Bibliography</title><bibitem id="_9fbd969d-adf5-43ea-0f25-bc6c842ad4cb_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="ISO_8601_2004_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</annex><bibliography><references id="_99238977-a029-e174-1e53-decc89ed1b70_R060_Annex_A" anchor="annex-f_R060_Annex_A" normative="false" obligation="informative">
+<title id="_2b4ed339-a7ed-1bbb-9576-55fcbc1ace3a_R060_Annex_A">Bibliography</title><bibitem id="_2191e908-6120-d0f4-9c28-93b36ebaf89d_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="ISO_8601_2004_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Data elements and interchange formats</title>
 
@@ -4114,8 +4102,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
 
   </relation>
   <place>Geneva</place>
-</bibitem><bibitem id="_1b682be4-077c-8b4f-fc3f-021c181cf955_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_60068_2_78_2012_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_5c06ad13-5be3-c3da-b28c-69f3f2a50e39_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_60068_2_78_2012_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Environmental testing</title>
 
@@ -4173,8 +4161,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     </owner>
   </copyright>
   <place>Geneva</place>
-</bibitem><bibitem id="_dd12ee86-f254-30e2-8469-4f7a7aafe8fa_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_60068_3_4_2001_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_9a79f3fe-b44b-201b-1327-40109a51584a_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_60068_3_4_2001_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Environmental testing</title>
 
@@ -4232,8 +4220,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     </owner>
   </copyright>
   <place>Geneva</place>
-</bibitem><bibitem id="_180bcb99-e9b9-6379-c9fb-79f13056f4ef_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_1_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_b7751db3-0653-3918-b975-6809fb04a683_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_1_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4282,7 +4270,7 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
   </copyright>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2025-11-30</fetched>
+      <fetched>2025-12-09</fetched>
       
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4344,8 +4332,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
 
   </relation>
   <place>Geneva</place>
-</bibitem><bibitem id="_b28506cf-8789-68bb-bc05-a4daa3a0ceb5_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_11_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_e2ee4df8-ee68-24de-854e-f8876ccf22c5_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_11_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4394,7 +4382,7 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
   </copyright>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2025-11-30</fetched>
+      <fetched>2025-12-09</fetched>
       
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4453,8 +4441,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
 
   </relation>
   <place>Geneva</place>
-</bibitem><bibitem id="_b007f11c-9410-c484-ec75-cc1cc9214ca7_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_29_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_80b04914-06b6-fcd7-9958-265a1c0227aa_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_29_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4503,7 +4491,7 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
   </copyright>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2025-11-30</fetched>
+      <fetched>2025-12-09</fetched>
       
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4562,8 +4550,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
 
   </relation>
   <place>Geneva</place>
-</bibitem><bibitem id="_8697d64e-9f0c-98b8-be4e-6c82c19188f8_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_2_2008_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_c63cbd63-9c23-7ec3-309c-6392db985ad5_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_2_2008_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4621,8 +4609,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     </owner>
   </copyright>
   <place>Geneva</place>
-</bibitem><bibitem id="_f579bd28-17e0-82de-adff-5a085f72ccbf_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_3_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_1893b231-9888-d780-c31c-e835eaee05e9_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_3_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4671,7 +4659,7 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
   </copyright>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2025-11-30</fetched>
+      <fetched>2025-12-09</fetched>
       
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4730,8 +4718,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
 
   </relation>
   <place>Geneva</place>
-</bibitem><bibitem id="_cacc0706-2810-d007-1b72-633f84ae9ff2_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_4_2012_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_e17e8b4b-a5ce-9e92-1e1c-0d7314135cb6_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_4_2012_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4786,8 +4774,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     </owner>
   </copyright>
   <place>Geneva</place>
-</bibitem><bibitem id="_a99138b9-12b9-8a71-17a0-36b27132913a_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_5_2014_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_32cc0b13-0fc1-4b9f-990a-be0b2fcd7a30_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_5_2014_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4842,8 +4830,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     </owner>
   </copyright>
   <place>Geneva</place>
-</bibitem><bibitem id="_f432f546-c75a-4e22-c20e-41595d24e441_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_6_2013_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_0d6aec6a-48bb-9b1d-d74c-4bf42086bcd1_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_4_6_2013_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4901,8 +4889,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     </owner>
   </copyright>
   <place>Geneva</place>
-</bibitem><bibitem id="_4dc8cf67-1bb1-aa7c-531a-6970a5389690_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_6_1_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_17194e9a-2faa-6312-6790-db516a9d2ef3_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_6_1_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -4951,7 +4939,7 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
   </copyright>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2025-11-30</fetched>
+      <fetched>2025-12-09</fetched>
       
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -5010,8 +4998,8 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
 
   </relation>
   <place>Geneva</place>
-</bibitem><bibitem id="_765888e6-4aa5-edd2-82bc-98630b23943f_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_6_2_R060_Annex_A">
-  <fetched>2025-11-30</fetched>
+</bibitem><bibitem id="_d31d1a87-b8a2-5ade-a125-c3afe5fa8930_R060_Annex_A" type="standard" schema-version="v1.2.9" anchor="IEC_61000_6_2_R060_Annex_A">
+  <fetched>2025-12-09</fetched>
   
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
@@ -5060,7 +5048,7 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
   </copyright>
   <relation type="instanceOf">
     <bibitem type="standard">
-      <fetched>2025-11-30</fetched>
+      <fetched>2025-12-09</fetched>
       
 <title type="title-intro" format="text/plain" language="en" script="Latn">Electromagnetic compatibility (EMC)</title>
 
