@@ -10,7 +10,7 @@
 :title-part-en: Metrological and technical requirements
 :title-main-fr: Réglementation métrologique des cellules de pesée
 :title-part-fr: Exigences métrologiques et techniques
-:doctype: international-recommendation
+:doctype: recommendation
 :docstage: 60
 :docsubstage: 60
 :technical-committee-number: 9
