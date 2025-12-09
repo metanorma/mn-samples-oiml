@@ -1,0 +1,12 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/r060/1/document.adoc
+      - sources/r060/2/document.adoc
+      - sources/r060/3/document.adoc
+      - sources/r060/a/document.adoc
+
+  collection:
+    name: Metanorma for OIML R 060
+    organization: Metanorma
