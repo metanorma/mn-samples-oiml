@@ -3,6 +3,10 @@ metanorma:
   source:
     files:
       - sources/r060/collection.yml
+      - sources/r060/1/document.adoc
+      - sources/r060/2/document.adoc
+      - sources/r060/3/document.adoc
+      - sources/r060/a/document.adoc
 
   collection:
     organization: "OIML - International Organization of Legal Metrology"
