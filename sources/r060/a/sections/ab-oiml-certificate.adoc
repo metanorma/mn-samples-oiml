@@ -1,6 +1,6 @@
 
 [[annex-b]]
-[appendix]
+[appendix,obligation="normative"]
 == OIML certificate for load cells - Content of the certificate
 
 The OIML certificate template that can be downloaded from the "Documentation" section
@@ -9,14 +9,14 @@ with the following additional information:
 
 [cols="a,a,a,a,a",options="unnumbered,header"]
 |===
-| _Model designation_ | | | |
-| Maximum capacity, stem:[E_{"max"}] | | | |
-| Accuracy class | | | |
-| Maximum number of load cell | | | |
+| _Model designation_                     | | | |
+| Maximum capacity, stem:[E_{"max"}]      | | | |
+| Accuracy class                          | | | |
+| Maximum number of load cell             | | | |
 | verification intervals, stem:[n_{"LC"}] | | | |
-| Minimum load cell verification | | | |
-| interval, stem:[v_{"min"}] | | | |
-| Apportioning factor, stem:[p_{"LC"}] | | | |
+| Minimum load cell verification          | | | |
+| interval, stem:[v_{"min"}]              | | | |
+| Apportioning factor, stem:[p_{"LC"}]    | | | |
 |===
 
 Additional characteristics and identification, as applicable according to

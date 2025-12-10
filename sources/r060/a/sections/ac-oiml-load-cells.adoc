@@ -35,9 +35,9 @@ section "6 Data sheet and dimensions" in this Annex).
 
 | Maximum capacity stem:[E_{"max"}] | stem:["unitsml(kg)"] | 150 / 200 / 250 / 300 / 500 / 750
 
-| Minimum load cell verification interval | stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] | stem:["unitsml(kg)"] | stem:[E_{"max"} // 15000]
+| Minimum load cell verification interval stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] | stem:["unitsml(kg)"] | stem:[E_{"max"} // 15000]
 
-| Minimum dead load output return | stem:["DR" = 1//2 (E_{"max"} - E_{"min"})// Z] | stem:["unitsml(kg)"] | stem:[1//2 (E_{"max"} - E_{"min"}) // 5000]
+| Minimum dead load output return stem:["DR" = 1//2 (E_{"max"} - E_{"min"})// Z] | stem:["unitsml(kg)"] | stem:[1//2 (E_{"max"} - E_{"min"}) // 5000]
 
 |===
 
@@ -55,16 +55,16 @@ with the reference No. xxx, dated xxx.
 
 [[table-C3]]
 .Tests performed
-[cols="a,a,a,a",options="header"]
+[cols="4*^a",options="header"]
 |===
 | Test | R 60 | Tested samples | Result
 
-| Temperature test and repeatability at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.3.2; 5.4; R 60-2, 2.10.1 | stem:[150 "unitsml(kg)"] | +++
-| Temp. effect on minimum dead load output at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.6.1.3; R 60-2, 2.10.1.16 | stem:[150 "unitsml(kg)"] | +++
-| Creep test at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.5.1; R 60-2, 2.10.2 | stem:[150 "unitsml(kg)"] | +++
-| Minimum dead load output return at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.5.2; R 60-2, 2.10.3 | stem:[150 "unitsml(kg)"] | +++
-| Barometric pressure effects at ambient temperature | R 60-1, 5.6.2; R 60-2, 2.10.4 | stem:[150 "unitsml(kg)"] | +++
-| Damp heat test, static, marked SH | R 60-1, 5.6.3.2; R 60-2, 2.10.6 | stem:[150 "unitsml(kg)"] | +++
+<| Temperature test and repeatability at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.3.2; 5.4; R 60-2, 2.10.1 | stem:[150 "unitsml(kg)"] | +++
+<| Temp. effect on minimum dead load output at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.6.1.3; R 60-2, 2.10.1.16 | stem:[150 "unitsml(kg)"] | +++
+<| Creep test at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.5.1; R 60-2, 2.10.2 | stem:[150 "unitsml(kg)"] | +++
+<| Minimum dead load output return at (stem:[20 // 40 // -10 // 20 "unitsml(degC)"]) | R 60-1, 5.5.2; R 60-2, 2.10.3 | stem:[150 "unitsml(kg)"] | +++
+<| Barometric pressure effects at ambient temperature | R 60-1, 5.6.2; R 60-2, 2.10.4 | stem:[150 "unitsml(kg)"] | +++
+<| Damp heat test, static, marked SH | R 60-1, 5.6.3.2; R 60-2, 2.10.6 | stem:[150 "unitsml(kg)"] | +++
 |===
 
 [[sec-C.4]]
@@ -76,14 +76,18 @@ made of aluminium, and the strain gauge application is hermetically sealed. Furt
 essential characteristics are given in the data sheet (see the section "6 Data sheet
 and dimensions" in this Annex).
 
+[align=center]
 ++[Include a picture/diagram of the load cell]++
 
+[align=center]
 Figure 1 - Load cell type xxx
 
 The complete type designation is indicated as follows in the example on the name plate:
 
+[align=center]
 ++[Include a picture/diagram of the name plate]++
 
+[align=center]
 Figure 2 - Name plate
 ====
 
@@ -161,14 +165,14 @@ image::figure-un1.png[]
 |===
 | Connections | 4-wire | 6-wire
 
-| Excitation + | red    | red
-| Excitation - | black  | black
-| Signal +     | green  | green
-| Signal -     | white  | white
-| Sense +      | -      | blue
-| Sense -      | -      | yellow
-| Shield       | purple | purple
-| Cable length | 2 m    |
+| Excitation +++++ | red                   | red
+| Excitation -     | black                 | black
+| Signal +++++     | green                 | green
+| Signal -         | white                 | white
+| Sense +++++      | -                     | blue
+| Sense -          | -                     | yellow
+| Shield           | purple                | purple
+| Cable length     | stem:[2 "unitsml(m)"] |
 |===
 
 [[sec-C.10]]

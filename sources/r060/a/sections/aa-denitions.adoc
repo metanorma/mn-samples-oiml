@@ -1,9 +1,10 @@
 
 [[annex-a]]
-[appendix]
+[appendix,obligation="normative"]
 == Definitions from other applicable international publications
 
 [[sec-A.1]]
+[heading="terms and definitions"]
 === Definitions from OIML D 11 [4]
 
 [[sec-A.1.1]]
@@ -107,6 +108,7 @@ battery
 To preserve stored data
 
 [[sec-A.2]]
+[heading="terms and definitions"]
 === Definitions from OIML R 76 [1]
 
 [[sec-A.2.1]]
