@@ -22,7 +22,7 @@
 
 include::sections/00-foreword.adoc[]
 
-include::sections/aa-denitions.adoc[]
+include::sections/aa-definitions.adoc[]
 
 include::sections/ab-oiml-certificate.adoc[]
 
