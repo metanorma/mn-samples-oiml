@@ -44,7 +44,7 @@ in the right-hand column. When five runs are necessary, use <<table-6.4>>.
 Determine the conversion factor, stem:[f], which is the number of indicated units
 per load cell verification interval, stem:[v], and is used to convert all
 "indicated units" to "stem:[v]". It is determined from the test data averages of
-the increasing load tests at the initial stem:[20 "unitsml(degC)] nominal test temperature.
+the increasing load tests at the initial stem:[20 "unitsml(degC)"] nominal test temperature.
 
 ===== {blank}
 
@@ -76,7 +76,7 @@ per load cell verification interval, stem:[v].
 ===== {blank}
 
 Enter the average test indications of the tests at the temperatures following the
-initial test at a nominal stem:[20 "unitsml(degC)] in <<table-6.5>>. In recording
+initial test at a nominal stem:[20 "unitsml(degC)"] in <<table-6.5>>. In recording
 this data, indicate a "no test load" indication (at stem:[D_{"min"}]) as "0".
 This may require subtracting the "no load indication at stem:[D_{"min"}]" from the
 "test load indication" so that the first entry in the column is "0". These "0's"
