@@ -157,10 +157,11 @@ representing the force introduced by the load applied.
 
 [[table-4]]
 .Maximum Permissible Errors (MPE) on type evaluation
+[cols="5*^",options="header",headerrows=2]
 |===
-2+| MPE
+.2+| MPE
 (+/-)
-| Load, stem:[m]
+4+| Load, stem:[m]
 | Class A | Class B | Class C | Class D
 | stem:[p_{"LC"} xx 0.5 " v"] | stem:[0 <= m <= 50000 " v"] | stem:[0 <= m <= 5000 " v"] | stem:[0 <= m <= 500 " v"] | stem:[0 <= m <= 50 " v"]
 | stem:[p_{"LC"} xx 1.0 " v"] | stem:[50000 " v" < m <= 200 000 " v"] | stem:[5000 " v" < m <= 20 000 " v"] | stem:[500 " v" < m <= 2 000 " v"] | stem:[50 " v" < m <= 200 " v"]

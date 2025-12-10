@@ -83,7 +83,7 @@ _(To be completed by the Evaluating Authority)_
 4+| Passed &#x2610; Yes &#x2610; No
 |===
 
-==== Software (if present) (R 60-1, 6.1)
+=== Software (if present) (R 60-1, 6.1)
 
 [cols="a,a,a",options="noheader,unnumbered"]
 |===
