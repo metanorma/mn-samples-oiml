@@ -78,14 +78,10 @@ load cells with identical outer dimensions but different geometries are shown be
 .Examples of strain gauge-type load cell design shapes
 image::figure-1.png[]
 
-[NOTE]
-====
-. difference of geometry in the area of thin places (i.e. round or oval drilling)
-
-. difference of geometry in the area of fixing/load introduction (i.e. groove, base, offset)
-
-. difference of geometry in the inner of fixing/load introduction (i.e. drilling, thread, dropping)
-====
+[%key]
+A:: difference of geometry in the area of thin places (i.e. round or oval drilling)
+B:: difference of geometry in the area of fixing/load introduction (i.e. groove, base, offset)
+C:: difference of geometry in the inner of fixing/load introduction (i.e. drilling, thread, dropping)
 
 [[sec-2.4.1]]
 ==== Load cells of the same capacity belonging to different groups

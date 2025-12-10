@@ -627,7 +627,7 @@ Conversion factor, stem:[f]: input:text[]
 --
 
 [[table-6.6]]
-[cols="a,a,a,a,a,a,a,a,a,a",options="header,unnumbered",headerrows=2]
+[cols="a,a,a,a,a,a,a,a,a,a",options="header",headerrows=2]
 |===
 .2+| Test load (unit)
 2+| ....stem:["unitsml(degC)"] (stem:[20"unitsml(degC)"]) 2+| ....stem:["unitsml(degC)"] (stem:[T_1"unitsml(degC)"]) 2+| ....stem:["unitsml(degC)"] (stem:[T_2"unitsml(degC)"]) 2+| ....stem:["unitsml(degC)"] (stem:[20"unitsml(degC)"])
@@ -1012,7 +1012,7 @@ counts
 Absolute (not relative) time shall be recorded
 ====
 
-===== Form 6.10.1.(c): Load test data (stem:[E_L]) - 3 runs
+===== Form pass-format:metanorma[6.10.1.(c)]: Load test data (stem:[E_L]) - 3 runs
 
 R 60-2, 2.10.1.1-2.10.1.11. Complete this form if the measurement error is determined
 *[underline]#after#* the humidity test (CH) is carried out (not mandatory)

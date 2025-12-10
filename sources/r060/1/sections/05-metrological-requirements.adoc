@@ -32,11 +32,11 @@ be divided in a measuring system shall be within the limits presented in <<table
 
 [[table-1]]
 .Maximum number of load cell verification intervals (stem:[n_{"LC"}]) according to accuracy class
-[cols="5",options="header"]
+[cols="5*^",options="header"]
 |===
 | | Class A | Class B | Class C | Class D
-| Lower limit | stem:[50000] | stem:[5000]   | stem:[500]   | stem:[100]
-| Upper limit | Unlimited    | stem:[100000] | stem:[10000] | stem:[1000]
+<| Lower limit | stem:[50000] | stem:[5000]   | stem:[500]   | stem:[100]
+<| Upper limit | Unlimited    | stem:[100000] | stem:[10000] | stem:[1000]
 |===
 
 ==== Minimum load cell verification interval
