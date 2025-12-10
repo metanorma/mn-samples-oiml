@@ -2,13 +2,14 @@
 :docidentifier: OIML R 60
 :docnumber: 60
 :edition: 2
+:partnumber: 4
 :revdate: 2021-10-01
 :copyright-year: 2021
 :language: en
 :title-main-en: Metrological regulation for load cells
-:title-part-en: Metrological and technical requirements
+:title-part-en: Annexes
 :title-main-fr: Réglementation métrologique des cellules de pesée
-:title-part-fr: Exigences métrologiques et techniques
+:title-part-fr: Annexes
 :doctype: recommendation
 :docstage: 60
 :docsubstage: 60
