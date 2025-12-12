@@ -1,0 +1,112 @@
+== Pipe provers covered by this Document
+
+=== General
+
+A pipe prover is a pipe or cylinder whose volume is used to verify and/or calibrate flow measuring
+systems for liquids. A process of calibration is accomplished by a displacer (usually a sphere or piston)
+passing through the pipe that actuates a pair of position detectors defining the calibrated section within
+a certain time. The known volume of this section (base volume) is used as a standard to determine the
+instrumental error of the measuring system which is connected to the prover. The measured volume is
+corrected for the errors due to the differences in temperature and pressure of the liquid from the
+reference condition. The travel time between the detectors is used to determine the flowrate.
+
+=== Types of pipe provers
+
+The following are generally used as pipe provers. Other types of pipe provers can be used when their
+metrological characteristics comply with the requirements of this Document.
+
+[[cls-4.2.1]]
+==== Uni-directional type
+
+A uni-directional type of prover uses a displacer that travels in one direction to actuate detectors in the
+calibrated section of the pipe (see <<fig-1>>). The measured volume corresponds to one passage of the
+displacer.
+
+[[cls-4.2.2]]
+==== Bi-directional type
+
+A bi-directional type of prover uses a displacer that travels in one direction and then in the opposite
+direction through the same calibrated section (see <<fig-2a;and!fig-2b>>). The measured volume
+corresponds to the sum of both passages of the displacer. One pair or two independent pairs of detectors
+are used to record the movement of the displacer.
+
+==== Small volume or compact type
+
+A small volume or compact type of prover uses a displacer which travels through a very short section
+of the pipe or cylinder (see <<fig-3a;and!fig-3b>>). The volume displaced in the calibrated section is usually
+much smaller than that of a conventional prover (such as in <<cls-4.2.1;and!cls-4.2.2>>). For this reason, highprecision
+detectors and a method for pulse-interpolation are necessary to achieve good repeatability and
+high accuracy.
+
+==== Full stroke type
+
+This type of pipe prover uses the standing start and stop method (see <<fig-4>>). Its base volume is the
+volume displaced by a single full stroke of the reversible displacer. The full stroke type may be used
+mainly for the verification of LPG dispensers.
+
+[[cls-4.3]]
+=== Accuracy
+
+The calibration of the base volume of a prover shall be carried out such that the expanded uncertainty
+of the calibration is significantly smaller than the acceptable criteria which is referred to as the
+maximum permissible error (MPE) in type approval tests and verification tests. The treatment of the
+expanded uncertainty and the acceptance criteria should follow <<G19>>, the applicable OIML
+Recommendation, and/or an international standard. The expanded uncertainty shall be determined using
+an appropriate coverage factor (stem:[k]) which is usually equivalent to two (stem:[k = 2]).
+
+=== Construction of pipe provers
+
+==== General
+
+The construction of pipe provers should meet the provisions of <<ISO4267-2>>. Typical layouts of pipe
+provers are shown in <<fig-1;to!fig-3b>>. Special care should be taken in the control system of a prover for
+the collection of necessary data. For the purposes of correct metrological control, some requirements
+are mentioned below.
+
+==== Materials and fabrication
+
+The materials of construction and the pressure rating of the prover should be compatible with the
+measuring systems to be verified/calibrated and the test liquids. The prover should be thermally
+insulated for the required duty and operational conditions. If separation of prover components is
+necessary (e.g. for transportation), the correct reassembly of the components shall be ensured by an
+appropriate reconstruction and by a recalibration of the base volume. Internal coating of the prover with
+the correct material should be used to reduce corrosion and wear.
+
+==== Displacer
+
+In general, provers use one or more spheres, or a piston as the displacer. Spheres should be made of a
+resilient material that is compatible with the test liquids, and they shall meet the specified minimum
+and maximum sizes. Piston displacers shall be made of rigid material with resilient seals that are in
+contact with the pipe prover wall. The diameter of the sphere(s) shall be such that a seal is provided
+without excessive friction.
+
+==== Valves
+
+The valves used in a pipe-prover system shall not leak, as their leakage would influence the
+measurement result. Means for checking possible leakage in the system shall be provided.
+
+==== Temperature measuring devices
+
+Temperature measuring devices with an appropriate range shall be installed at the inlet and outlet of the
+prover. These devices shall be immersed in the liquid to enable an accurate determination of the liquid
+temperature. The use of thermo-wells (tubular fittings used to protect the temperature sensors) is
+normally recommended. The accuracy and range of the devices shall be such that the provisions of <<cls-4.3;and!cls-6.3>> are met.
+
+==== Pressure measuring devices
+
+Pressure measuring devices with an appropriate range shall be used to correctly measure pressure in the
+prover. The accuracy and range of the devices shall be such that the provisions of <<cls-4.3;and!cls-6.4>> are met.
+
+==== Detectors
+
+Detection devices and switches for any given direction of the displacer shall respond to the displacer's
+position such that the prover meets the performance requirements specified in <<cls-4.3>>.
+
+==== Vent valve and related piping
+
+Vent valves shall be installed on the topmost part of the pipe to ensure that all the gas is vented from
+the dead spaces not swept by the displacer. This requirement ensures that the piping, the pipe prover
+and the meter being verified/calibrated remain completely filled with liquid. Provisions shall be made
+for the draining of liquids and for venting vapours from the prover. If the prover is intended to be
+calibrated using the water draw method or the master meter method, correct connections shall be
+provided.

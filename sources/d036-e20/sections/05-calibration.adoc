@@ -1,0 +1,47 @@
+== Calibration of pipe provers
+
+=== General
+
+The calibration methods summarised below are to be used as a guideline. A detailed description of these
+calibration methods is also given in <<ISO7278-2>>. National regulations should specify that pipe
+provers are to be calibrated when they are installed, and that they should be re-calibrated periodically
+at an interval fixed by these regulations. Pipe provers should also be re-calibrated when they have been
+repaired or modified (e.g. change of detectors, recoating, dismantling and/or re-installation).
+
+=== Reference conditions
+
+The base volume of a pipe prover shall be determined on the basis of the reference conditions specified
+in national/regional regulations.
+
+=== Methods for calibrating pipe provers
+
+There are three methods for calibrating a pipe prover: the water draw method, the master meter method,
+and the dimensional method.
+
+==== Water draw method
+
+The calibration of a pipe prover by the water draw method requires standard capacity measures
+(volumetric method) or a weighing instrument with a tank (gravimetric method) to determine the base
+volume of the prover. To allow a continuous and uniform flowrate to be produced, the base volume of
+the prover may be transferred into a holding tank using arrangements such as those shown in <<fig-5;and!fig-6>>.
+This volume is then measured either gravimetrically or volumetrically by transferring the liquid
+into standard capacity measures. The prover shall be thoroughly flushed and cleaned before calibration.
+
+==== Master meter method
+
+Firstly, a master meter for flowrate is calibrated by another flow or volume reference standard.
+Secondly, a pipe prover under calibration is calibrated using the master meter, where the master meter
+functions merely as an intermediate link between the reference standard and the prover under
+calibration. Therefore, before and after the calibration, it is necessary to assure that the performance of
+the master meter is stable by using the reference standard. A typical arrangement of the master meter
+method is shown in <<fig-7>>.
+
+NOTE: This method is not applicable to a full stroke type of pipe prover with a small volume. Another
+calibrated master prover may be used for the reference standard.
+
+==== Dimensional method
+
+This method is based on accurate dimensional measurements of the calibrated section of the pipe prover.
+The measurements are typically conducted by evaluating effective and averaged values for the inner
+length and the inner diameter of the calibrated section of the cylinder. This method is particularly
+effective to reduce measurement uncertainty for piston provers and other straight-tube provers.

@@ -1,0 +1,133 @@
+== General requirements for the calibration and verification of measuring systems using a pipe prover
+
+=== Test liquids
+
+A measuring system shall be tested using one of the liquids marked on the data plate (or in the
+instruction manual) of the measuring system, or with a liquid whose flow characteristics are within the
+ranges of those of the marked liquids. All appropriate safety and environmental measures concerning
+the handling of the liquids shall be observed.
+
+=== Base volume of the pipe prover
+
+It shall be ensured that the base volume of the pipe prover is matched to the resolution of the measuring
+system and is adequate to meet the requirements of <<cls-4.3>>. If the measuring system is equipped with a
+pulse generator which does not generate enough pulses for the base volume, a pulse-interpolation
+method may be used in compliance with <<ISO7278-3>>.
+
+[[cls-6.3]]
+=== Temperature measurement
+
+Appropriate temperature-measuring devices shall be used to ensure accurate temperature correction of
+the liquid volume. These devices shall be mounted in suitable locations on the prover and the measuring
+system. It is recommended to use the temperature-measuring devices with an expanded uncertainty of
+stem:[0.2 "unitsml(degC)"] or less. Calibration certificates shall be provided for the devices.
+
+[[cls-6.4]]
+=== Pressure measurement
+
+Appropriate pressure-measuring devices (e.g. pressure gauges) shall be used to ensure accurate pressure
+correction of the liquid volume. The devices shall be mounted in a suitable location on the prover and
+on the measuring system in order to measure the pressure of the liquid with the necessary accuracy. It
+is recommended to use the pressure-measuring devices with an expanded uncertainty of stem:[0.05 "unitsml(MPa)"]
+(stem:[0.5 " bar"]) or less. Calibration certificates shall be provided for the devices.
+
+=== Inspection of electronic devices
+
+The electronic devices including detectors, pulse generator, and pulse counter shall be inspected to
+ensure correct operation.
+
+=== Preliminary runs
+
+A sufficient number of preliminary runs shall be carried out before the actual verification/calibration
+runs in order to ensure complete elimination of any gases, which may be contained in the prover and
+associated piping, and to ensure that the liquid temperature is stable and uniform. The measuring system
+shall be checked to ensure that leaks do not exist.
+
+=== Test flowrates
+
+The total number and the range of flowrates applied for verification/calibration are specified in the
+applicable OIML Recommendation(s) for the measuring system.
+
+[[cls-6.8]]
+=== Number of test runs
+
+The number of runs to be carried out at a particular flowrate is specified in the applicable OIML
+Recommendation(s) for the measuring system. In general, the number of runs is more than two in order
+to ensure the good repeatability of the measuring system as well as to verify whether each result meets
+the maximum permissible error (MPE).
+
+=== Calculation of errors
+
+The errors of the measuring system may be calculated either
+
+. from the meter factor determined according to <<ISO4267-2,clause=7>>, or
+. from the following equations in which the second order terms are neglected:
++
+--
+[stem]
+++++
+E = E' + E_alpha + E_beta + E_gamma + E_delta
+++++
+
+[stem]
+++++
+E' = [(V_"lm" - V_"B") // V_"B"] xx 100
+++++
+
+[stem]
+++++
+E_alpha = alpha xx (t_"lp" - t_"lm") xx 100
+++++
+
+[stem]
+++++
+E_beta = beta xx (t_"s" - t_"lp") xx 100
+++++
+
+[stem]
+++++
+E_gamma = gamma xx (p_"lm" - p_"lp") xx 100
+++++
+
+[stem]
+++++
+E_delta = - delta xx p_"lp" xx 100
+++++
+
+[%key]
+stem:[E]:: is the instrumental error of the measuring system, in %
+stem:[E']:: is the uncorrected error, in %
+stem:[E_alpha]:: is the temperature correction for the test liquid, in %
+stem:[E_beta]:: is the temperature correction for the pipe prover, in %
+stem:[E_gamma]:: is the pressure correction for the test liquid, in %
+stem:[E_delta]:: is the pressure correction for the pipe prover, in %
+stem:[V_"lm"]:: is the volume indicated by the meter, in stem:["unitsml(L)"]
+stem:[V_"B"]:: is the base volume of the pipe prover, in stem:["unitsml(L)"]
+stem:[t_"lp"]:: is the liquid temperature in the pipe prover, in stem:["unitsml(degC)"]
+stem:[t_"lm"]:: is the liquid temperature in the meter, in stem:["unitsml(degC)"]
+stem:[t_"s"]:: is the reference temperature of the pipe prover, in stem:["unitsml(degC)"]
+stem:[p_"lp"]:: is the gauge pressure of the liquid in the pipe prover, in stem:["unitsml(kPa)"]
+stem:[p_"lm"]:: is the gauge pressure of the liquid in the meter, in stem:["unitsml(kPa)"]
+stem:[alpha]:: is the cubic expansion coefficient of the test liquid due to temperature, in stem:["unitsml(degC^-1)"]
+stem:[beta]:: is the cubic expansion coefficient of the pipe prover due to temperature, in stem:["unitsml(degC^-1)"]
+stem:[gamma]:: is the compression coefficient of the test liquid, in stem:["unitsml(kPa^-1)"]
+stem:[delta]:: is the pressure expansion coefficient of pipe prover, in stem:["unitsml(kPa^-1)"]
+
+[NOTE]
+====
+The four coefficients may be determined as shown below:
+
+stem:[alpha]:: Refer to <<D35>> or <<ISO91>> for petroleum products; refer to ISO 8222 for water
+stem:[beta]:: stem:[33 xx 10^-6 "unitsml(degC^-1)"] for mild steel, stem:[51 xx 10^-6 "unitsml(degC^-1)"] for stainless steel
+stem:[gamma]:: Refer to the coefficient stem:[C_"pl"] of <<ISO4267-2,clause=5.4>>
+stem:[delta]:: Refer to the coefficient stem:[C_"ps"] of <<ISO4267-2,clause=5.3>>
+====
+
+To obtain a more accurate result, the following equation can be used without neglecting the second
+order terms:
+
+[stem]
+++++
+E = ( (V_"lm")/(V_"B") * ([1-alpha(t_"lm"-t_"lp")][1+gamma(p_"lm"-p_"lp")])/([1+beta(t_"lp"-t_"s")](1+delta_"lp")) - 1 ) xx 100
+++++
+--

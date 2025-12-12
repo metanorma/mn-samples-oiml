@@ -1,0 +1,98 @@
+[[annex-a]]
+[appendix,obligation=informative]
+== Example of test procedures for the verification of measuring systems
+
+This Annex describes examples of typical verification procedures using pipe provers. It should be noted
+that there are many other applicable test methods described in OIML Recommendations and ISO
+Standards. All verification procedures should comply with the provisions of this Document.
+
+[[cls-A.1]]
+=== Test procedure for measuring systems for liquid fuel
+
+Two typical installations, in which a pipe prover and a measuring system for liquid fuel are connected,
+are shown in <<fig-8;and!fig-9>>. The basic test procedure for these systems is as follows:
+
+. Carry out a sufficient number of preliminary runs.
+. Locate the displacer at the starting position, reset the pulse counter and interval timer.
+. Start the displacer in movement. Ensure that both the pulse counter and the interval timer start
+when the start detector is activated.
+. While counting pulses, read and record the temperature and pressure of the pipe prover and the
+measuring system.
+. Check that both the pulse counter and the interval timer stop when the end detector is activated.
+. Read and record the indicated results of the pulse counter and the interval timer.
+
+=== Test procedure for measuring systems for LPG under pressure
+
+A typical installation, in which a measuring system for LPG under pressure is tested using a pipe prover,
+is shown in <<fig-10>>. It should be ensured that the LPG remains in liquid phase inside the pipe prover
+by means of an appropriate device, if necessary. The basic test procedure shall be the same as those
+described in <<cls-A.1>>.
+
+=== Test procedure for LPG dispensers
+
+A typical installation, in which a full-stroke type pipe prover is used for verifying an LPG dispenser, is
+shown in <<fig-11>>. The basic test procedure is as follows:
+
+. Locate the pipe prover horizontally and close to the dispenser (to make the pipework as short as
+possible).
+. Connect the outlet nozzle of the dispenser to the inlet of the twin-type 3-way valve connected to
+the pipe prover.
+. Position the 3-way valve to initiate the flow. Purge gas adequately and conduct preliminary runs.
+Check that no air bubbles are present by means of a sight glass.
+. Locate the displacer at the starting position and reset the indication of the dispenser.
+. Start the cylindrical piston movement.
+. Read and record the temperature, pressure and flowrate of the liquid during flow.
+. Read and record the volume displayed on the dispenser when the displacer reaches the end point of
+its stroke.
+
+[[fig-1]]
+.Typical uni-directional pipe prover (Extracted from <<ISO7278-2>> footnote:f1[Figures 1 to 3b are extracted from <<ISO7278-2>> and <<ISO7278-4>>, reproduced with the authorisation of the International Organization for Standardization (ISO) which holds the copyright.])
+image::img01.png[]
+
+[[fig-2a]]
+.Typical bi-directional straight-type piston pipe prover (Extracted from <<ISO7278-2>> footnote:f1[])
+image::img02.png[]
+
+[[fig-2b]]
+.Typical bi-directional U-type pipe prover (Extracted from <<ISO7278-2>> footnote:f1[])
+image::img03.png[]
+
+[[fig-3a]]
+.Typical small volume pipe prover with internal valve (Extracted from <<ISO7278-4>> footnote:f1[])
+image::img04.png[]
+
+[[fig-3b]]
+.Typical small volume pipe prover with external valve (Extracted from <<ISO7278-4>> footnote:f1[])
+image::img05.png[]
+
+[[fig-4]]
+.Typical full stroke type pipe prover
+image::img06.png[]
+
+[[fig-5]]
+.Calibration of pipe prover (water draw method)
+image::img07.png[]
+
+[[fig-6]]
+.Calibration of full stroke type pipe prover (water draw method)
+image::img08.png[]
+
+[[fig-7]]
+.Calibration of a pipe prover (master meter method)
+image::img09.png[]
+
+[[fig-8]]
+.Verification of measuring systems for tank containers connected with pipelines
+image::img10.png[]
+
+[[fig-9]]
+.Verification of measuring systems on road tankers
+image::img11.png[]
+
+[[fig-10]]
+.Verification of measuring systems for LPG under pressure
+image::img12.png[]
+
+[[fig-11]]
+.Verification of LPG dispensers
+image::img13.png[]
