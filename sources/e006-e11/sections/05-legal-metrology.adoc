@@ -1,0 +1,309 @@
+== Legal metrology approach to smart metering systems
+
+=== Definitions
+
+==== Definition of a smart meter in terms of OIML publications
+
+A smart meter is considered to be a measuring device (for utility metering) which is equipped
+with functionalities enabling certain parameters and data of the device to be remotely
+influenced, observed and acted upon.
+
+==== Definition of a part of a measuring system in terms of OIML publications
+
+A measuring system in terms of OIML publications is considered to contain one or more
+measuring instruments, each equipped with one or more devices or modules.
+
+==== Definition of a module in terms of OIML publications
+
+[NOTE]
+====
+OIML B 3 [2] contains the following definition for a "module":
+
+[quote]
+____
+Identifiable part of a measuring instrument or of a family of measuring instruments that
+performs a specific function or functions and that can be separately evaluated according to
+prescribed metrological and technical performance requirements in the relevant
+Recommendation.
+____
+====
+
+==== Describing a smart meter configuration and its environment
+
+Contrary to traditional stand-alone measurement equipment for utility metering, the
+configuration of a smart meter as a result of its definition includes certain interconnecting
+means and transmission related software.
+
+Observing the assembly and its environment, the smart meter configuration can be considered
+as a network system and may contain a number of wired or wireless interconnected measuring
+instruments, which:
+
+* are used to measure different measurands;
+* are possibly installed quite close to each other; and
+* contain functions/modules that convert the measured values into binary numeric
+electromagnetic quantities which become available as so-called digital signals.
+
+=== Analysis of measuring systems
+
+==== Metrologically relevant parts in general
+
+To be able to define whether a function/functionality of a physical module is to be considered
+as metrologically essential, it is necessary to know its influence on the _metrologically relevant_
+output data.
+
+Therefore, when observing the configuration of a measurement system an analysis should first
+be carried out indicating which functions within this system or part of such system could be
+considered as being essential for its metrological behavior and/or of relevance to its
+application for legal purposes.
+
+The parts attributing to or comprising these functions shall be taken into account in the
+subsequent evaluation.
+
+The next stage will be the analysis of whether and by what means such functions could be
+approached and/or influenced by external sources other than the measurand.
+
+==== Metrologically relevant parts (functionalities) of smart meters
+
+Considering its scope as presented in <<cls-4.1.5;and!cls-4.2.4>>, legal metrology should primarily focus
+on keeping data available for verification of billing.
+
+The smart metering concept concerns the measurement of a cumulated quantity value coupled
+with the period of measurement and time dependent tariff. This implies that next to the
+recording of the quantity of the measurand, the time stamp registration is also of interest to
+legal metrology.
+
+So the parts or modules at least to be included are those involved in the measurand quantity
+value recording and the time stamp registration. Any function/functionality which could
+influence these recorded values is of interest.
+
+In principle, there is no need to include those parts concerning the applicable tariffs since this
+parameter does not tend to be the result of a measurement of its value.
+
+As explained in <<cls-4.1.4>>, it is assumed that for this Report there is no need to deal either with the
+requirements concerning the accuracy of the individual measurement, or with the effect of
+influence quantities to which a standalone measurement device is exposed, since this is
+already covered by existing applicable Recommendations.
+
+This Report will further concentrate on the extra measures it is necessary to take for the smart
+meter concept, which implies mainly extending to functions concerning adequate data storage
+and securing of data storage and transmission.
+
+==== Analysis of the smart meter design
+
+In addition to the evaluation of the correct metrological operation of a (module of a) system
+itself therefore, an analysis is needed of whether the stored parameters and recordings are
+secure, and also whether all the possible (available) interfaces/interconnections of the system
+to the environment (and the manner in which these could serve as an entrance port for
+undesired influences) are secure.
+
+As a consequence, it is necessary to include of all the available input and/or output ports to
+the environment, and also the expected behavior of this environment itself.
+
+For this, it is necessary to break the system down into, for example:
+
+* the several constituent parts of the measuring system;
+* the environment; and
+* the interconnections (input and output ports).
+
+Following this, those parts that are relevant to the measurand or that could influence the
+measurement result may be defined.
+
+The following distinction in devices based on metrological relevance can be made in the
+assessment of the measures taken to prevent incorrect measurement results:
+
+*Devices with internal recording of data*
+
+For devices that are designed to record measurement results, the assessment of the risk of loss
+or violation of data in the record is to be applied. Besides the measurement data from the
+measurand this also concerns other possible parameters of importance to the result used for
+transactions, such as recording the time and time interval measurements.
+
+*Devices without internal recording of data*
+
+For devices that do not record measurement data but instead transmit it to some data
+collection point, it should also be assured that the risk of violation of data as a consequence of
+transport through the data transmission medium is diminished.
+
+==== Assessment of risk on violation
+
+To further assess the risk it is necessary to distinguish between accidental and deliberate
+violation of measurement data, which need to be approached in different manners.
+
+An influencing phenomenon as described below includes human intervention.
+
+*Assessment of the risk of accidental violation*
+
+Knowledge of the techniques used in a specific device can be a basis for a preliminary
+estimation of the potential sensitivity of certain influencing phenomena. It can also be a
+source for establishing the significance of a disturbance in relation to its dwell time.
+
+. *Observing the device*
++
+--
+Risks of violation of integrity by accidentally influencing the measurement or the
+measurement result could arise from inadequate design, which in turn could be caused by
+insufficient knowledge by the designer of the causes of a potential sensitivity of this design to
+a disturbing phenomenon.
+
+In principle, a survey on measures taken during the design to prevent such a risk could
+provide the necessary confidence. This could, for example, be the approach when assessing
+software measures.
+
+The risk of accidentally influencing measurement results caused by weaknesses in hardware
+design, however, often cannot easily be estimated on the basis of only observing the
+construction or design of the specimen.
+
+Another risk concerns the possible mutual interaction between different adjacent electronic
+measuring devices, for example the effect of heat emissions from devices present in the
+vicinity. Specifically in the case where electromagnetic interference is concerned, it will be
+difficult to ascertain the number of potential EM leaks (which increases with the number of
+input and output ports), thus making the assessment of the risk of interference rather complex.
+
+Moreover, the sensitivity of a measuring device to potential disturbances could also change if
+additional or alternative cabling and/or other auxiliary devices are connected.
+
+In most cases it will therefore be necessary to detect weaknesses in hardware design by
+exposing such instruments or systems to simulated disturbance sources, which implies that
+some knowledge of potential disturbance phenomena and sources and basic knowledge about
+the way in which such phenomena may penetrate into a device is required.
+
+_[underline]#Available sources of information#_
+
+OIML D 11 provides an overview of available test methods concerning EM disturbances that
+are most applicable to measuring devices used for legal purposes.
+
+_[underline]#Restriction#_
+
+To assume that the requirements and tests described in the relevant standards and other
+guidance documents cover all the necessary needs for prevention of interference, amounts to
+neglecting the consequences of the rapid innovations in electronics. It is almost impossible to
+keep up with these fast developments and to ensure that they are taken into account in
+available standards, as the drafting of standards naturally lags behind such developments.
+
+Therefore, a general requirement on non-interference shall be the guideline on the approach to
+take, and the analysis of the measuring device shall not be restricted to only testing against
+available standards.
+--
+
+. *Observing the environment*
++
+--
+While in operation, each device is exposed to and more or less "influenced" by its
+environment. This environment is considered to comprise not only the "usual" physical
+environmental parameters (such as the rated operating conditions) but also the results of the
+emissions and/or influences from other instruments or devices located in the neighborhood.
+
+With this definition of the environment it can be stated that each disturbance of a device in
+operation originates from the environment in which the disturbed device is located, unless the
+disturbance is produced by the device itself or the behavior of the measurand.
+
+Knowledge of the (behavior of) the parameters that make up the environment is therefore
+essential.
+
+For some environmental parameters, for example the climatic conditions of the in-service
+locations, a survey could be sufficient to ascertain their value or range of values. For others -
+for example those establishing the electromagnetic environment - this information cannot
+easily be assessed and/or measured since the frequency of occurrence of the EM phenomena
+could be too low. A better approach would be to use inventories such as those laid down in
+standards and/or reports.
+
+_[underline]#Available sources of information#_
+
+Much information on the worldwide EM environment is available
+{blank}footnote:[An overview of potential sources of disturbance is available in IEC 61000-2-5 (in revision; Ed. 2 forecast publishing date: 2011-08)];
+many standards have been
+written and much legislation is in force based on this information.
+
+When successively taking into consideration the influences on the environment due to the
+presence of adjacent instrumentation, the approach could be similar to the above and the
+information collected on the environment could be combined with the known (maximum)
+emission of the adjacent instrumentation. On basis of the dimensional and other location
+parameters the latter could be calculated. For example, the maximum radiated heat emission
+from such instrumentation could be calculated from its location (and path) in the direction of
+the measuring device and the power consumption, while the maximum expected exposure to
+electromagnetic radiation from a device could be calculated from the (limits of) EM emission
+specified in the relevant EM emission standards and the path properties.
+--
+
+. *Use of harmonized documents and standards (to reduce risks)*
++
+--
+As indicated, suggestions for requirements and test methods to eliminate the influence of a
+number of environmental phenomena are presented in OIML D 11. Most of these are based
+on international (IEC) standards. Although this horizontal document covers many influence
+factors, the performance requirements needed for protection against mutual interference
+specifically related to a smart metering concept are not yet completely covered by D 11. The
+latter in particular concerns the emissions and immunity requirements for data communication
+signals.
+
+Moreover, attention should be paid to the fact that the presence of several instruments in close
+proximity to each other will give rise to mutual interference despite the fact that each
+instrument may satisfy the requirements in the standards.
+
+For example, at a distance of a few cm from an antenna used for GPRS, one could expect
+levels above stem:[10 "unitsml(V/m)"] in the MHz band and at a distance of a few cm from a mains supply
+adapter one could expect levels of stem:[0.1 "unitsml(mT)" (= 80 "unitsml(A/m)")] at mains frequency.
+
+Furthermore, in the near past it was proven that photovoltaic devices used for generating
+electrical energy can produce LF (kHz) band disturbances on the connected mains circuit
+which lead to deviations in the measurement results of the connected smart electrical energy
+meters.
+
+In principle, the requirements and protocols specified in UTC and ETSI harmonized standards
+on telecommunications should cover securing and protection of the communication. The
+focus of these standards, however, is mainly on higher frequencies and on medium to long
+distances. Prevention of disturbing in-house (near field) and low frequency interactions are
+less covered.
+--
+
+*Assessment of the risk of deliberate violation*
+
+. *Observing the device*
++
+--
+The risk of violating integrity through deliberately influencing the measurement or the
+measurement result could arise when insufficient measures have been taken in the design so
+as to protect against such violation.
+
+Since the measurement principle in most cases will be publicly available knowledge, a
+method for influencing a measurement will often be within reach, which implies that each
+design will need some means of protection against potential fraud. In principle a survey on
+measures taken in the design to prevent such a risk could provide the necessary confidence.
+Again, this could be the approach when assessing software measures.
+
+The risk of deliberately influencing measurement results caused by weaknesses in the
+hardware design depends on the direct or indirect
+{blank}footnote:["Indirect accessibility" means through using some physical phenomenon.]
+accessibility of the parts and circuits
+involved in the measurement and to what extent measures to detect interventions are
+implemented. Again, a survey on measures taken at the construction and design stages to
+prevent such a risk could provide the necessary confidence. Furthermore, the measures taken
+to prevent an unacceptable and more or less predictable response to the higher level of
+interference should be assessed, which could be the case for (high level) magnetic or
+electromagnetic interferences.
+
+NOTE: An interference resulting in a purely random response could be interpreted as a
+deliberate violation but _de facto_ need not be considered as a fraud action.
+{blank}footnote:[Although a random response is most likely, protection by means of a checking facility such as some kind of "tilting" detecting could provide the performance protection needed.]
+--
+
+. *Observing the environment*
++
+--
+Concerning the deliberate influencing of measurements, the disturbing source is also part of
+the environment, such as a human being involved or the software routine in use.
+
+Since an inventory or a complete listing of all the conceivable ways of influencing is not
+feasible, the only way in which one could make some discrimination is to distinguish between
+instruments that can be approached by the public and those that can only be approached by
+personnel in their line of duty.
+--
+
+*Reduction of risks*
+
+A rather conventional means of preventing deliberate interference with the measurement
+result is the use of adequate hardware sealing and securing methods.
+
+Unauthorized approach/amendment of software can be prevented by use of passwords and
+cryptographic means. The implementation of the principles/requirements as described in
+OIML D 31 could provide the necessary protective measures.

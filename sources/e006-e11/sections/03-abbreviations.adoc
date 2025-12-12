@@ -1,0 +1,16 @@
+== Abbreviations
+
+BIML:: Bureau International de Métrologie Légale
+EM:: Electromagnetic
+ETSI:: European Telecommunications Standards Institute
+ESD:: Electrostatic Discharge
+GPRS:: General Packet Radio Service (mobile data communication system using GSM)
+GSM:: Global System for Mobile communications
+IEC:: International Electrotechnical Committee
+OIML:: Organisation Internationale de Métrologie Légale
+PLC:: Power line Communication
+PLT:: Power Line Telecommunication
+SC:: Subcommittee
+TC:: Technical Committee
+WGSM:: Working Group on Smart Metering
+UTC:: United Telecom Council

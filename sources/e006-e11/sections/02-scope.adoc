@@ -1,0 +1,13 @@
+== Scope and objectives
+
+The scope of this Expert Report concerns guidance for preventing violations of measurements
+and measurement data in instrumentation that is or that can be connected to a remote data
+collection and control unit, and that is to be used for legal control.
+
+It does not deal with acceptable intervention on the measurement result, nor does it deal with
+incorrect interpretation of these results, and is restricted to violation of measurement results
+only (both accidental and intentional).
+
+The main objective is to provide guidance to OIML TCs/SCs on the decisions to be taken and
+the options to consider in selecting and incorporating the necessary performance requirements
+for the measurement devices and systems within the scope of this report.
