@@ -1,0 +1,475 @@
+== Evaluation of metrologically relevant parts of measuring systems
+
+Hardware, firmware and software protection measures are needed to satisfy the performance
+requirements.
+
+=== Hardware evaluation
+
+==== Modular approach
+
+When establishing the performance requirements and when performing tests on smart meters,
+breaking these systems down into modules has the following advantages:
+
+* a smart metering system in many cases already comprises a number of modules, the
+configuration of which can easily differ;
+* for some tests it is almost impossible to expose the smart metering system as a whole;
+* when applying a modular approach the focus of the evaluation performance can be
+restricted to only those modules which have an influence on the legal metrology
+results.
+
+A disadvantage is:
+
+* practical results concerning the response of the system as a whole are not available
+prior to the installation.
+
+Performing tests on a system as a whole, however, would only be useful for testing the mutual
+influence between devices installed at exactly the same distance from and orientation to each
+other.
+
+While these geometric parameters tend to be rather random, tests on mutual interference will
+be very complex. A subdivision into modules combined with signal simulation is therefore
+more appropriate.
+
+* *Identifiable parts (instruments, devices or modules; whatever is applicable)*
++
+--
+To arrive at an overview for the purpose of setting requirements and performing tests, a
+(smart) metering system can be considered as consisting of a combination of identifiable
+parts.
+
+For each of these parts the model below may be applied. Each part, stand-alone or as part of a
+(measurement) system, can be considered as a black box with a number of input and output
+ports.
+--
+
+* *Definition of an input or output port*
++
+--
+For the purpose of this Report, an input or output port of a device is considered as being each
+physical channel through which a connection is or can be made between the electronic circuits
+in this device and:
+
+* another device; or
+* a network; or
+* the electromagnetic environment.
+
+Such a connection may be established by making use of a physical product/medium (for
+example a cable) or a physical phenomenon (wireless).
+--
+
+* *Kinds of ports*
++
+--
+A measurement device/module may comprise several ports having identical or different
+functions. Such physical ports may be used for different purposes which may be sequential or
+simultaneous and which make use of one and the same connection.
+
+NOTE: The enclosure of a device is also to be considered as being an input and output port.
+
+For example, distinction between the following kinds of ports may be made:
+
+* (power) supply port;
+* measurand input and output port;
+* data transmission port;
+* signaling and switching ports;
+* enclosure port; and
+* operator panel.
+
+[[fig-1]]
+.Input and output ports of a device
+image::img01.png[]
+--
+
+* *Multi-function ports*
++
+--
+An example in which a port is used for more than one purpose is the connection of an
+electrical energy meter to the mains power supply. In this case the wires are used for:
+
+* transmission of the electrical energy;
+* electrical energy supply to the energy meter;
+* data transmission line.
+
+Another subdivision could be made for data transmission, and one could even distinguish
+between data transport and pulses mainly for switching purposes. The data transmission can
+include the electrical energy meter measurement data.
+
+Each of the input and output ports can potentially influence the measurement data.
+
+Each type of port, on the one hand, has to withstand improper intervention and on the other
+hand should not emit or produce a phenomenon to such a level that it leads to a disturbance on
+one of the other ports.
+
+NOTE: Emission of EM disturbances is generally not considered in legal metrology
+requirements for measuring instruments.
+
+When observing the different ports, the influence quantities listed below should be taken into
+account.
+
+*1 Power supply port*
+
+The device will need to withstand or filter out the following disturbances from the power
+supply port:
+
+* mains voltage interruptions;
+* mains voltage variations;
+* mains voltage surges and bursts;
+* all communication signals;
+* induced radio frequency currents (antenna behavior).
+
+*2 Measurand input port (analogue)*
+
+The device will need to withstand or filter out the following potential disturbance from the
+measurand input port:
+
+* induced radio frequency currents (antenna behavior).
+
+*3 Enclosure port*
+
+The device will need to withstand or filter out the following potential disturbances from the
+enclosure port:
+
+* temperature/humidity fluctuations;
+* electrostatic discharges;
+* induced currents from radio frequency sources (antenna behavior);
+* induced currents from power frequency sources including harmonics (near field
+coupling).
+
+*4 Data transmission port*
+
+The device will need to withstand or filter out the following potential disturbances from the
+data transmission port:
+
+* data transmission line surges and bursts;
+* out of band communication signals (signals for which the port is neither specified nor
+reserved);
+* out of band induced radio frequency currents (signals for which the port is neither
+specified nor reserved).
+
+*5 Operator port*
+
+The device will need to withstand or filter out the following potential disturbances from the
+operator port:
+
+* electrostatic discharges;
+* induced currents from radio frequency sources (antenna behavior);
+* induced currents from power frequency sources including harmonics (near field
+coupling).
+--
+
+==== Potential influences/disturbances and limitations
+
+Generally speaking, influences or disturbances are the result of the presence of or change in
+physical phenomena that influence the measurand, but not the measurand itself.
+
+* *Spectrum of phenomena*
++
+--
+The behavior of the phenomena can be quite diverse. The values of the climatic parameters
+generally do not change as fast as the electromagnetic phenomena.
+
+Also, the nature of these physical phenomena can be quite diverse. For example some are
+only one-dimensional such as temperature, humidity and air pressure while others are multidimensional,
+such as vibration and electromagnetic phenomena. Another parameter which has
+to be taken into account and which differs quite a lot between phenomena is the dwell time.
+
+This difference in behavior will influence the risk on the measurand; the risk assessment
+approach should therefore be fitted to this behavior.
+
+[[tab-1]]
+.Nature of phenomena that are potential sources of influence
+[cols="<,^,^,^,^",options=header]
+|===
+^| Physical phenomenon
+| Range dimensions
+| Orientation; polarization
+| Frequency
+| Dwell time
+
+| Temperature | 1 | | | Medium-long
+| Humidity | 1 | | | Medium-long
+| Air pressure | 1 | | | Long
+| Vibration | 4 | x | x | Short-medium
+| Magnetic | 1 | x | | Short
+| Electric | 1 | x | | Short
+| Electromagnetic | 3 | x | x | Ultra short-short
+| Chemical | | | | Long
+| Etc. | | | |
+|===
+--
+
+* *Actual coverage by performance requirements*
++
+--
+Over the past 20-30 years, performance requirements for measuring instruments that are
+exposed to influences and disturbances on the enclosure port have been implemented in
+OIML Recommendations for a number of phenomena. Influences on the measurand (internal,
+external) have been taken into account, but the actual risk of such disturbances in most cases
+has not been addressed.
+
+For phenomena having a long or medium term dwell time this risk can easily be estimated. It
+has more or less already been taken into account by specifying the rated operating conditions.
+
+For short and ultra-short dwell times the risk cannot easily be estimated, but in general the
+appropriate requirements and test levels are copied from generic IEC standards and are based
+on experiences on interference in practice. Therefore, these levels should implicitly take into
+account the risk of interference.
+
+For some phenomena (see below) no performance requirements have yet been specified. One
+could assume that disturbances as a consequence of these will be covered by the general
+performance requirements of the measuring device. The risk of a disturbance, however, will
+be unknown when the dwell time of the phenomenon is short and its existence is location
+dependent.
+
+[[tab-2]]
+.Actual coverage by standards referred to in OIML D 11 and in the applicable Recommendations
+[cols=6,css-style="background-color: lightgray"]
+|===
+| Infl./dist. / Port td-style:[background-color: rgb(200, 226, 250)]
+| Power supply td-style:[background-color: rgb(200, 226, 250)]
+| Measurand td-style:[background-color: rgb(200, 226, 250)]
+| Enclosure td-style:[background-color: rgb(200, 226, 250)]
+| Data transmission td-style:[background-color: rgb(200, 226, 250)]
+| Operator td-style:[background-color: rgb(200, 226, 250)]
+
+| Climatic/vibration td-style:[background-color: rgb(200, 226, 250)]
+|
+| td-style:[background-color: rgb(33, 158, 48)]
+| td-style:[background-color: rgb(33, 158, 48)]
+|
+|
+
+| Magnetic td-style:[background-color: rgb(200, 226, 250)]
+|
+|
+| td-style:[background-color: rgb(252, 197, 45)]
+|
+| td-style:[background-color: rgb(252, 197, 45)]
+
+| Electric td-style:[background-color: rgb(200, 226, 250)]
+|
+|
+| td-style:[background-color: rgb(252, 197, 45)]
+|
+| td-style:[background-color: rgb(252, 197, 45)]
+
+| ESD td-style:[background-color: rgb(200, 226, 250)]
+|
+| td-style:[background-color: rgb(96, 163, 235)]
+| td-style:[background-color: rgb(33, 158, 48)]
+| td-style:[background-color: rgb(96, 163, 235)]
+| td-style:[background-color: rgb(33, 158, 48)]
+
+| Interruption td-style:[background-color: rgb(200, 226, 250)]
+| td-style:[background-color: rgb(33, 158, 48)]
+|
+|
+|
+|
+
+| Variation td-style:[background-color: rgb(200, 226, 250)]
+| td-style:[background-color: rgb(33, 158, 48)]
+|
+|
+|
+|
+
+| Surge/burst td-style:[background-color: rgb(200, 226, 250)]
+| td-style:[background-color: rgb(33, 158, 48)]
+| td-style:[background-color: rgb(33, 158, 48)]
+|
+| td-style:[background-color: rgb(33, 158, 48)]
+|
+
+| RF induced currents td-style:[background-color: rgb(200, 226, 250)]
+| td-style:[background-color: rgb(33, 158, 48)]
+| td-style:[background-color: rgb(33, 158, 48)]
+| td-style:[background-color: rgb(33, 158, 48)]
+| td-style:[background-color: rgb(33, 158, 48)]
+|
+
+| LF induced currents td-style:[background-color: rgb(200, 226, 250)]
+| td-style:[background-color: yellow]
+| td-style:[background-color: yellow]
+| td-style:[background-color: rgb(33, 158, 48)]
+| td-style:[background-color: yellow]
+|
+
+| Rad. out of band td-style:[background-color: rgb(200, 226, 250)]
+|
+|
+|
+| td-style:[background-color: rgb(109, 199, 97)]
+|
+
+| Cond. out of band td-style:[background-color: rgb(200, 226, 250)]
+|
+|
+|
+| td-style:[background-color: rgb(109, 199, 97)]
+|
+|===
+
+[%key]
+[%unnumbered]
+|===
+| td-style:[background-color: lightgray] | Not applicable
+| td-style:[background-color: rgb(96, 163, 235)] | Could be applicable
+| td-style:[background-color: rgb(33, 158, 48)] | Covered in OIML D 11
+| td-style:[background-color: rgb(252, 197, 45)] | Partly covered in D 11
+| td-style:[background-color: yellow] | No standard available
+| td-style:[background-color: rgb(109, 199, 97)] | Covered by UTC/ETSI
+|===
+--
+
+* *Low frequency phenomena*
++
+--
+As can be seen from Table 2 for a number of relatively low frequency conducted and radiated
+phenomena, standards are not available and/or standardization is in progress. Caution is
+therefore advised and it may be necessary to develop and perform product specific tests.
+--
+
+* *Mutual interference of instruments in the same vicinity*
++
+--
+One should be aware that the levels for EMC immunity testing as specified in generic IEC
+standards do not cover the risk of mutual interference between adjacent instrumentation.
+
+It could be expected that manufacturers in such cases will notice any undesirable behavior
+during prototyping. But this approach would not cover the potential interference from a
+device from some other manufacturer, which for example would be the case when power line
+communication is also in use next to the smart meter data communication line.
+--
+
+* *Estimating the level of interference from radiating sources*
++
+--
+When attempting to estimate the level of electromagnetic interference, the following
+parameters need to be assigned a value:
+
+* expected environment of operation;
+* level of immunity of the measuring instrument.
+
+Both tend to be complex but considerable research has been carried out and studies provide
+some figures on expected maximum levels of emission of sources.
+
+When determining the properties of the environment, all contributing sources and distances
+from these sources are to be taken into account.
+
+When determining the expected level of immunity, a mathematical model could be used or
+immunity tests could be performed. Both could be rather complex.
+
+Simple but adequate models and/or reproducible test setups should be created.
+
+One approach could be to base the deduced level of interference on the maximum expected
+emissions and optimal coupling between the sources and the "victim". The outcome of such
+an approach would probably be that some (perhaps most) of the instrumentation would not be
+in conformity with the requirements for non-interference.
+
+Another approach could be to include a risk analysis, taking into account both the actual risk
+when a potential source is present, and the coupling factor. This factor would comprise e.g.
+distance, polarity and isotropy components, each of which contributes to the resulting
+intensity on the victim location.
+
+Such an analysis can be performed using a mathematical model, but setting up such a model
+requires additional work. A Monte Carlo approach could probably be the best technique to
+estimate the risk.
+--
+
+* *Coverage of immunity tests*
++
+--
+Over the past ten years an exponential increase in the use of the electromagnetic spectrum has
+been observed, mainly for communication purposes. This accounts for both transmission line
+bound and free space phenomena.
+
+Driven by commercial incentives the telecommunication companies have optimized the use of
+the limited available EM bandwidth by using sophisticated and intelligent software methods.
+
+This increase in use, however, has not kept pace with the limited bandwidth available and the
+techniques for exploiting the upper RF bandwidth regions; therefore, the potential risk of
+conflicting use of the spectrum is increasing.
+
+For decades, standardization committees have been intensively working on preventing mutual
+interference by setting requirements on emission and susceptibility of (mainly) electronic
+devices.
+
+Their first focus on EM interference originated from the prevention of disturbance of radio
+services.
+
+Besides this prevention of evident interference risks on communication, standardization of
+EM interference-related qualities further arose from hazardous incidents and commercial
+pressures.
+
+However, since the occurrence of an interference in many cases is stochastic in nature,
+protective measures and standardization of these measures have only been implemented in
+those cases where there is a relatively high risk of occurrence and where there are substantial
+consequences.
+
+A review of the agreed measures as specified in standards over the whole EM spectrum shows
+that this process has lead to an incomplete coverage of EM interference protective measures,
+resulting in certain gaps in specific bands.
+
+The introduction of smart metering has made these gaps in protection more manifest.
+
+One gap which has become more prominent concerns the VLF and LF band protection. Due
+to the fact that in this band below 150 kHz no (efficient) radio transmissions are operated,
+there is no real concern and therefore no involvement of radio protection agencies in this
+band. The use of EM phenomena and signals in this band is merely transmission line bound
+and emissions to free space are beneath the level of observance (noise level) within a few
+meters of the transmission line.
+
+Electricity suppliers and distributors make use of this frequency band for switching and
+signaling over mains power lines. Since instrumentation connected to the mains will in
+general frequently be exposed to such signaling and since its properties are well defined, the
+risk of unexpected interference will already become prominent at the design stage of such
+instruments, and can be reduced prior to marketing the product.
+
+Of more concern are those mains connected products which produce disturbances in this
+frequency band and whose waveforms are more or less arbitrary pulses. Smart meters, when
+directly connected to these mains power supplies, can suffer from these kinds of signals, not
+only as a result of the interference on the measurand but also on the measured data when
+using PLT/PLC as a means of communicating this data.
+
+No adequate measurement methods or standardization are applicable for these kinds of
+interferences.
+--
+
+[[fig-2]]
+.Overview of the electromagnetic spectrum in use for radio and infrared communication
+image::img02.png[]
+
+Frequency bands in use for smart metering are:
+
+* VLF and LF (conducted) band for PLC;
+* UHF band (radiated) for GPRS.
+
+=== Software/firmware evaluation
+
+==== Modular approach
+
+Unlike hardware evaluation, the software evaluation of a complete smart metering system as a
+whole would in most cases be an impossible task.
+
+A modular approach is the only practical way of evaluating software.
+
+In principle, the constituent parts of the system are to be evaluated and data in an insecure
+environment is to be protected. Refer to OIML D 31 for such an evaluation.
+
+==== Potential influences/disturbances and limitations
+
+The need to evaluate the parts of the system depends on the location of the primary registers
+in which the results of measurement quantities and the associated time intervals are stored.
+The need to evaluate data transmission securing measures will depend on this location.
+
+Furthermore, the smart metering software/firmware should include the securing of adequate
+time recording which, in turn, implies accurate time-stamping and interval measurement
+which are of sufficient resolution.
+
+Time measurement can be performed to a very high degree of accuracy when using up-to-date
+techniques. In principle, this should not limit the accuracy in establishing the overall result of
+the measurements, but attention has to be paid to synchronizing and to avoiding delays as a
+consequence of processing and transmission. The securing of the synchronizing method and
+means shall be such that the accuracy of the time measurement has no consequences on the
+overall measurement result.

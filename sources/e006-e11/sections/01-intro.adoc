@@ -1,0 +1,19 @@
+== Introduction
+
+When laying down performance requirements for measuring devices to be used for legal
+metrological control, OIML Technical Committees and Subcommittees need to make
+decisions as to the extent of these requirements and the severity of the tests to be performed
+so as to guarantee the quality of a measurement and to reduce disputes over the results.
+
+With the growing complexity in interconnections of measuring instruments and systems, the
+degree of legal metrological control that is required must be observed in a more detailed way.
+
+Systems containing multiple measuring devices can easily grow to the size of large networks
+of devices when one takes into account all the interconnections; legal metrological control
+over such extensive networks is not readily feasible. In order to monitor the metrological
+aspect of such systems it is necessary to restrict legal metrological control to only those parts
+of a system that could influence the measurements and parameters which form the basis of a
+legal transaction. But restricting legal metrological control to only the primary measurement
+action itself may be insufficient, for example in those cases where this primary result is not
+recorded in such a way that its original value can be reproduced from recorded results and/or
+data.

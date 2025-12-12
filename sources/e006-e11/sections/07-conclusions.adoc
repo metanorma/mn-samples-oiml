@@ -1,0 +1,23 @@
+== Conclusions
+
+Secretariats of OIML TCs and SCs are advised to consider the additional functionalities of
+utility meters to first analyze their possible effect on the legal metrology aspects.
+
+These aspects will need to include not only the actual measured quantity but also the time
+stamp in the case where measured values are accumulated.
+
+Applying the device input-output model as presented in this Report, it is expected that one
+will become aware of the possible influences or interactions between parts of the systems and
+that adequate requirements will be implemented to prevent undesired hardware interactions.
+
+These could be requirements for immunity to environmental influences created by emissions
+from adjacent instruments and possibly also for the level of the emissions to the environment.
+Parts (but not all) of these are at present covered by the provisions suggested in D 11.
+
+Concerning software, it is assumed that when choosing a protection level the applicable
+provisions in OIML D 31 can be selected. These provisions will not only need to cover the
+securing of the measurement data related to the measurand, but also take into account the
+time-related measurements.
+
+Inclusion of requirements for data transmission communication depends on whether these
+data are relevant to the ultimate verification of the transaction parameters.

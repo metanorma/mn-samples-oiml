@@ -1,0 +1,40 @@
+= Guidance on the selection and implementation of performance requirements for utility meters containing additional functionalities
+:docidentifier: OIML E 6
+:series: E
+:docnumber: 6
+:edition: 2011
+:revdate: 2011
+:copyright-year: 2011
+:language: en
+:title-main-en: Guidance on the selection and implementation of performance requirements for utility meters containing additional functionalities
+:title-main-fr:
+:doctype: expert-report
+:docstage: 60
+:docsubstage: 60
+:surname: Teunisse
+:givenname: George M.
+:affiliation: Verispect B.V.
+:country: The Netherlands
+:toclevels-pdf: 3
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-intro.adoc[]
+
+include::sections/02-scope.adoc[]
+
+include::sections/03-abbreviations.adoc[]
+
+include::sections/04-rationale.adoc[]
+
+include::sections/05-legal-metrology.adoc[]
+
+include::sections/06-evaluation.adoc[]
+
+include::sections/07-conclusions.adoc[]
+
+include::sections/aa-guidelines.adoc[]

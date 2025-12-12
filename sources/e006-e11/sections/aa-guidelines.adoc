@@ -1,0 +1,5 @@
+[appendix,obligation=informative]
+== Some guidelines for estimating the risks of EM interference
+
+[%unnumbered]
+image::img03.png[]

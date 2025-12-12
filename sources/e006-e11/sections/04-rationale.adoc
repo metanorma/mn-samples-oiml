@@ -1,0 +1,91 @@
+== Rationale
+
+Implementation of the performance requirements for instruments in use for legal metrological
+purposes requires a rationale. Therefore, in this Expert Report some basic considerations and
+assumptions are specified which result in a number of statements.
+
+=== Basic considerations, assumptions and restrictions
+
+Considerations are expressed regarding the following performance related subjects:
+
+* suitability of design (general performance);
+* integrity of measurement results (are they prone to fraud);
+* uniformity of performance requirements (metrological compatibility);
+* acceptable risk (degree of confidence).
+
+This is followed by an assumption concerning coverage by existing Recommendations and
+the description of the scope.
+
+==== Suitability of design and integrity
+
+The purpose of legal metrological control is to ensure that instruments are fit for their
+intended use, that they meet and maintain the necessary metrological performance
+requirements, and that they provide adequate protection against misuse, incorrect
+interpretations of results and fraud (from OIML D 1, V 4.4).
+
+==== Uniformity
+
+In order to achieve international uniformity and compatibility of measurements and to create
+the appropriate level of confidence in measurement results it is necessary to harmonize the
+performance requirements for measuring instruments and to harmonize the testing procedures
+aimed at demonstrating the equivalence of performance for the measuring instruments (from
+OIML G 17, 1).
+
+==== Acceptable risk
+
+One of the conditions for maintaining the performance of a measuring device is a negligible
+risk of unauthorized or unintentional interference or disturbance of the metrological
+information.
+
+Hardware configurations as well as applied software are considered to have an impact on the
+degree of risk, which will also depend on the environment of use.
+
+[[cls-4.1.4]]
+==== Assumed coverage by existing Recommendations
+
+It is assumed that existing Recommendations already cover the measures for preventing
+hardware interference for those individual instruments whose connected cabling only serves
+for power supply or for interconnecting a measurement sensor with the unit or device which
+converts the analogue signal from the sensor into a measurement value.
+
+[[cls-4.1.5]]
+==== Scope of legal metrology
+
+In the case of utility meters used for residential consumers, legal metrological control is
+considered to extend up to the point at which the consumer can verify that the measurement
+results used for billing are consistent with the reading of the meter.
+
+=== Statements
+
+As a consequence of the considerations and assumptions the following can be stated:
+
+==== Suitability of design & integrity
+
+The primary concern from a legal metrology point of view is the integrity of measurement
+results and uniformity in performance requirements of measuring devices.
+
+Sufficient hardware measures shall be taken in order to maintain the integrity and security of
+the device.
+
+==== Software security
+
+Any software security leak is considered unacceptable when metrological data can be
+accessed. Sufficient software measures shall be taken in order to maintain the software
+integrity and the device security, which includes a continuous survey of potential intrusions.
+
+==== Acceptable risk
+
+Risk assessments are needed on hardware as well as on software intrusion.
+
+[[cls-4.2.4]]
+==== Scope of legal metrology
+
+No restrictive performance requirements shall be described for parts of a measuring system
+which do not deal with, or have influence on, the value or stored value of the primary
+measurement result.
+
+==== Innovation restriction
+
+Legal metrology performance requirements shall not restrict the application of innovative
+techniques for measurements and for handling measurement data for which the essential
+metrological requirements on integrity and uniformity have been validated.
