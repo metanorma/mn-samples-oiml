@@ -1,0 +1,26 @@
+= Policy and rules for the reimbursement of travel expenses incurred by the CIML President in attending legal metrology related events
+:docidentifier: OIML B 22
+:docnumber: 22
+:edition: 2023
+:revdate: 2023-10-01
+:copyright-year: 2023
+:language: en
+:title-main-en: Policy and rules for the reimbursement of travel expenses incurred by the CIML President in attending legal metrology related events
+:title-main-fr: Politique et règles relatives au remboursement des frais de voyage encourus par le Président du CIML pour participer à des événements liés à la métrologie légale
+:doctype: basic-publication
+:docstage: 60
+:docsubstage: 60
+:secretariat: International Bureau of Legal Metrology
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-policy.adoc[]
+
+include::sections/03-rules.adoc[]
