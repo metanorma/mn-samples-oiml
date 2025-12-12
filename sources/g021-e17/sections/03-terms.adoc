@@ -1,0 +1,64 @@
+== Terminology
+
+In addition to the following terminology, the terminology given in <<R79;and!R87>>
+also applies.
+
+NOTE: Terminology pertaining to conformity assessment is given in <<ISO17000>> and may be
+included in a certification scheme agreement as required.
+
+[heading=terms and definitions]
+=== Definitions
+
+==== certification system
+
+rules, procedures and management for carrying out certification
+
+==== certification scheme
+
+{{certification system}} related to specified products to which the same specified requirements,
+specific rules and procedures apply
+
+==== designated body
+
+government authority or private conformity assessment body designated to perform conformity
+assessment activities under a certification scheme for prepackages
+
+NOTE: Conformity assessment bodies are generally designated by government authorities.
+
+NOTE: In this Guide a designated body that issues certificates is also referred to as a certification
+body.
+
+==== scheme owner
+
+body responsible for developing and maintaining a specific certification scheme
+
+NOTE: The scheme owner is generally a governmental authority but could also be a designated
+body.
+
+==== packer
+
+legal entity that physically places product in packing material to produce prepackages
+
+==== production system
+
+whole of the procedures, processes and equipment that the packer uses to ensure that prepackages
+comply with stated requirements regarding the quantity of product and the associated labelling
+
+=== Acronyms and symbols
+
+SI:: Système International d'unités (The International System of Units).
+IAF:: International Accreditation Forum.
+IAF MLA:: The https://en.wikipedia.org/wiki/International_Accreditation_Forum[International Accreditation Forum] (IAF) https://en.wikipedia.org/wiki/Mutual_Recognition_Arrangement[Multilateral Recognition Arrangements]
+(MLA) consists of an agreement between accreditation bodies for mutual recognition of
+accreditations.
+IEC:: International Electrotechnical Commission.
+ILAC:: International Laboratory Accreditation Cooperation.
+ILAC MRA:: The International Laboratory Accreditation Cooperation (ILAC) Multilateral
+Recognition Agreement (MRA) signatories agree to accept the results of each other's
+https://ilac.org/ilac-mra-and-signatories/accredited-conformity-assessment-bodies/[accredited conformity assessment bodies] according to the relevant international
+standards including calibration laboratories (using <<ISO17025>>), testing
+laboratories (using <<ISO17025>>), medical testing laboratories (using <<ISO15189>>)
+and inspection bodies (using <<ISO17020>>). Hence, the results from the
+conformity assessment bodies accredited by the ILAC MRA signatories are able to be
+recognized internationally.
+ISO:: International Organization for Standardization.

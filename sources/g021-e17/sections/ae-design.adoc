@@ -1,0 +1,59 @@
+[[annex-e]]
+[appendix]
+== Design and application of marks of conformity
+
+[[cls-E.1]]
+=== Application of the mark of conformity
+
+==== {blank}
+Once a packer is certified by a designated body it may apply the applicable mark of
+conformity, together with the unique identification number or code allocated to the designated body.
+
+[[cls-E.1.2]]
+==== {blank}
+Should any of the following occur, a packer should immediately cease to apply the mark to
+prepackages:
+
+. the certificate of the packer is withdrawn by the designated body; or
+. the designation of the certification body is suspended or withdrawn; or
+. the packer no longer produces prepackages or a specific range of prepackages according
+to the stated requirements.
+
+NOTE: Application of the mark of conformity may be subject to national legislation in the country in
+which the prepackages are sold.
+
+NOTE: Prepackages produced prior to the certification of the packer becoming invalid for the
+reasons mentioned in <<cls-E.1.2>> may be found in the market for some time after such withdrawal.
+
+==== {blank}
+Identification of packer
+
+A prepackage that carries the mark of conformity should carry an identification of the packer, either:
+
+. the packer's full name and physical address; or
+. an anonymous code assigned by the certification body (see also <<cls-D.3>> for codes assigned
+on certificates).
+
+=== Design of the mark of conformity (example)
+
+==== {blank}
+The mark of conformity may consist of:
+
+. either a logo of the designated body or a logo defined by the designating body;
+. a unique identification of the designated body; and
+. where the name and address of the packer does not appear on the prepackage, the
+unique identification code (see <<cls-E.1>>) should also appear within the mark.
+
+==== {blank}
+The format of the marks may be as defined in drawings <<fig-E.2.2.1;and!fig-E.2.2.2>>.
+
+[[fig-E.2.2.1]]
+.Mark where packer's name and address appear on the prepackage
+image::img01.png[]
+
+[[fig-E.2.2.2]]
+.Mark where a code is used to identify the packer
+image::img02.png[]
+
+==== {blank}
+The minimum height of figures and characters in the mark should be stem:[3 "unitsml(mm)"].

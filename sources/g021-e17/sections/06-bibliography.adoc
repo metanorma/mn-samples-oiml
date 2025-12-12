@@ -1,0 +1,26 @@
+[bibliography]
+== Bibliography
+
+* [[[R79,OIML R 79:2015]]], Labelling requirements for prepackages
+
+* [[[R87,OIML R 87:2016]]], Quantity of product in prepackages
+
+* [[[ISO17000,ISO/IEC 17000:2004]]]
+
+* [[[ISO17025,ISO/IEC 17025:2005]]]
+
+* [[[ISO15189,ISO 15189:2012]]]
+
+* [[[ISO17020,ISO/IEC 17020:2012]]]
+
+* [[[ISO17067,ISO/IEC 17067:2013]]]
+
+* [[[ISO17030,ISO/IEC 17030:2003]]]
+
+* [[[ISO28,ISO/IEC Guide 28:2004]]]
+
+* [[[G14,OIML G 14:2011]]], Density measurement
+
+* [[[ISO9001,ISO 9001:2008]]]
+
+* [[[ISO17065,ISO/IEC 17065:2012]]]

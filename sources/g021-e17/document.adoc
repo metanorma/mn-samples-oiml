@@ -1,0 +1,46 @@
+= Guidance for defining the requirements for a certification system for prepackages
+:docidentifier: OIML G 21
+:series: G
+:docnumber: 21
+:edition: 2017
+:revdate: 2017-10-01
+:copyright-year: 2017
+:language: en
+:title-main-en: Guidance for defining the requirements for a certification system for prepackages
+:title-main-fr: Guidance pour la détermination des exigences pour un système de certification des emballages
+:doctype: guide
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 6
+:technical-committee: Prepackaged products
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-intro.adoc[]
+
+include::sections/02-scope.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-general-guidance.adoc[]
+
+include::sections/05-detailed-guidance.adoc[]
+
+include::sections/06-bibliography.adoc[]
+
+include::sections/aa-min-requirements.adoc[]
+
+include::sections/ab-practical-examples.adoc[]
+
+include::sections/ac-min-requirements.adoc[]
+
+include::sections/ad-certificate-info.adoc[]
+
+include::sections/ae-design.adoc[]
+
+include::sections/af-resolution.adoc[]

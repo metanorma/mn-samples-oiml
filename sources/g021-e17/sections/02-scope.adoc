@@ -1,0 +1,6 @@
+== Scope
+
+This OIML Guide provides guidance to national authorities on the establishment and maintenance of
+certification schemes for the control of quantity of product in prepackages and labelling related to the
+identity of the product, to the declaration of responsibility for a prepackage, to the quantity declaration
+and to the certification mark associated with the product.

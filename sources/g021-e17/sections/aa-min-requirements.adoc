@@ -1,0 +1,247 @@
+[[annex-a]]
+[appendix]
+== Minimum requirements for the production system of a packer
+
+=== System documentation
+
+==== {blank}
+Production system documentation should include a description of the organizational
+structure, authorities and responsibilities of key personnel, procedures, work instructions, controls,
+records, forms and maintenance practices to permit consistent interpretation of the production system.
+
+==== {blank}
+Applicable documentation such as procedures and work instructions should be available as
+controlled documents at the location where used, e.g. where prepackage control measurements are
+carried out.
+
+=== Implementation, maintenance and review of the system
+
+==== {blank}
+A packer should designate a person or persons to have the authority and responsibility for the
+implementation and maintenance of the production system.
+
+==== {blank}
+The production system should be audited and reviewed annually and updated as appropriate
+under the responsibility of the designated person.
+
+==== {blank}
+Documented procedures should be established for
+
+. recording non-conformances raised,
+. recording corrective action taken to eliminate a recurrence,
+. evaluating and recording the effectiveness of corrective actions taken,
+. closing out of non-conformances, and
+. disposal of non-conforming prepackages.
+
+=== Competent personnel
+
+A packer should ensure the competence of its personnel through relevant training or instruction to a
+level that will ensure the effective and efficient manufacture and control of prepackages.
+
+=== Inspection of packaging material
+
+A procedure should be established for inspecting, accepting and rejecting packing materials. These
+checks should include assessing conformance to the marking requirements in <<R79>>.
+
+=== Retention of records
+
+==== {blank}
+Records should be maintained for a sufficient period decided on by the packer. Records that
+are produced while controlling prepackages should be traceable to the prepackages concerned and to
+the person responsible for the control and also the measuring instruments used, and should be kept for
+at least 2 years.
+
+NOTE: Notice should be taken of other national legal requirements pertaining to the retention of
+records.
+
+[[cls-A.5.2]]
+==== {blank}
+The records may be kept electronically.
+
+=== Identification of prepackages
+
+The packer should establish documented procedures to clearly identify batches of prepackages and
+relate them to their production control records. Identification may include, but not be limited to,
+production location or plant, production time and date, and production line.
+
+=== Identification of packing lines
+
+==== {blank}
+The production system documentation should contain at least the information regarding each
+packing line as required in <<cls-A.7.2;to!cls-A.7.7>>.
+
+NOTE: A packing line could be made up of several filling machines, if they pack the same
+prepackages and are brought together for storage and distribution.
+
+[[cls-A.7.2]]
+==== {blank}
+Packer's name for the filling line
+
+==== {blank}
+Details of the prepackaged product
+
+. name (generic name);
+. main components of the product (e.g. fruit, yoghurt, nuts, etc.);
+. physical properties (e.g. liquid, deep frozen, etc.).
+
+==== {blank}
+Packaging materials
+
+. type of packaging material (glass, can, cardboard, Polyethylene film, aluminium foil,
+etc.);
+. indication of the weight deviation of the packaging material in order to establish
+whether an average tare weight may be used.
+
+==== {blank}
+Quantities and target values for each product and pack size
+
+. nominal quantity;
+. target quantity;
+. action control limits;
+. warning control limits or other control rules, where used.
+
+==== {blank}
+Filling process
+
+. type of filling machine;
+. filling principle (e.g. weighing, volume, time, number, etc.);
+. rate of filling and number of prepackages per hour;
+. number of filler heads;
+. smallest adjustment that is possible to be made to the quantity.
+
+[[cls-A.7.7]]
+==== {blank}
+Indication of the process standard deviation per product and pack size
+
+=== Measuring instruments
+
+[[cls-A.8.1]]
+==== {blank}
+The measurements of the quantity of product in prepackages, the density of liquid products,
+the weight of packaging materials and other relevant measurements should be carried out by means of
+measuring instruments that are at least as accurate as the requirements prescribed in <<R87>>
+for instruments used to control prepackages by legal metrology officials (inspector's reference test).
+The minimum requirements in <<cls-A.8.1;to!cls-A.8.4>> are applicable.
+
+[[cls-A.8.2]]
+==== {blank}
+Measurement results should be traceable to the SI.
+
+NOTE: Traceability to the SI can be obtained via the national measurement standards of the country
+in which the packer is located or via the national measurement standards of another country.
+
+NOTE: This requirement is considered to be fulfilled if the instrument has been subjected to national
+legal metrology control and duly verified with stated errors or it has been calibrated with
+stated errors and uncertainty of measurement by a calibration laboratory accredited by an
+accreditation body recognized by an international organization such as ILAC.
+
+==== {blank}
+Calibration frequencies for instruments that have the possibility of becoming inaccurate due to
+wear and tear should be calibrated at intervals that will ensure their required accuracy at all times but
+calibration should take place at least every 12 months for measuring instruments excluding glass
+measures and simple fixed length measures (e.g. tape measures).
+
+NOTE: The frequency of calibration can be determined by considering the maintenance of accuracy
+of a certain instrument over time. For glass measuring instruments usually one calibration is
+sufficient.
+
+NOTE: Records of calibration should always state 'as found' errors to demonstrate the instrument
+was maintained to the required accuracy.
+
+NOTE: When an instrument is found to be outside the required accuracy the non-conforming
+products procedure must be implemented.
+
+[[cls-A.8.4]]
+==== {blank}
+In-service validation should be carried out by the packer as deemed necessary to ensure
+continued accuracy between calibrations.
+
+NOTE: A daily pre-use check on weighing instruments for level, zero and span (and for automatic
+instruments standard deviation & rejection mechanism set points) is recommended to
+demonstrate the instrument is working correctly.
+
+NOTE: A daily pre-use check with distilled water can demonstrate that density measuring
+instruments are operating correctly.
+
+=== Sampling and measuring methods
+
+==== {blank}
+To ensure compliance of the prepackages with the stated requirements at all times, the
+packer should conduct sufficient sampling of the running production to obtain data that enable the
+packer to decide whether the production process is in control. Records of the sampling and the results
+of measurement should be kept for a sufficient period to be evaluated by the designated body.
+
+NOTE: The metrological requirements for prepackages are given in <<R87,clause=3>>.
+
+NOTE: The requirements for sampling plans and procedures for use by legal metrology officials to
+verify the quantity of product in prepackages given in <<R87>> are not recommended
+for quantity control purposes during the production process and packers should have a
+system implemented that is suited to their own production process.
+
+==== {blank}
+When determining the sampling criteria, consideration should be taken of the standard
+deviation and filling rate of the filling process. A sample should be taken after each manual adjustment
+to correct a filling process.
+
+NOTE: A low sampling rate will require the target quantity to be higher than the nominal quantity to
+ensure that the metrological requirements in <<R87>> are met.
+
+==== {blank}
+Where products are measured together with the packaging material (i.e. complete
+prepackage), the weight of the packaging material should be determined on a regular basis to
+determine whether it is sufficiently consistent to allow an average tare weight to be used. The
+requirements given in <<R87>> for determining the average tare weight and acceptability for use
+should be used as a minimum. Where the use of the average tare weight is not suitable because of a
+large deviation in the weight of individual packaging materials, the mass of each individual packing
+material should be taken into consideration.
+
+==== {blank}
+When the quantity of liquid is determined by gravimetric means, the density of every batch
+of liquid product should be determined by a method that is suitably accurate to ensure that the overall
+uncertainty of measurement of the test method is not exceeded.
+
+NOTE: <<G14>> gives detailed guidance on density measurement procedures.
+
+==== {blank}
+When calculating the volume from the mass of a liquid using the determined density, the
+requirements for air buoyancy and density corrections in <<R87>> should be used.
+
+==== {blank}
+Product quantity control charts that are manually completed, automated systems connected
+to weighing and measuring instruments and network connected automated systems are accepted.
+Software in automated systems must be validated (see <<cls-A.9.7>>).
+
+[[cls-A.9.7]]
+==== {blank}
+Software and systems used in production control should be secured and validated to ensure
+that they fulfil their intended purpose, and that they are accessible to, and may be modified by,
+designated personnel only.
+
+NOTE: Software may be validated by comparing the readouts with manually calculated results.
+
+=== Non-conforming products
+
+[[cls-A.10.1]]
+==== {blank}
+Where a production run is found to have deficiencies that could result in non-compliance
+with the stated requirements, all prepackages produced since the previous acceptable sample should be
+segregated and prevented from being released for sale.
+
+==== {blank}
+Where markings on prepackages are found not to conform to the stated requirements, such
+prepackages should be segregated and prevented from being released for sale.
+
+==== {blank}
+When prepackages are found not to comply, notes relating to the cause and actions
+undertaken including how the rejected prepackages have been disposed of, should be kept with
+production control records in accordance with the packer's procedures (see <<cls-A.5.2>>).
+
+==== {blank}
+It should left up to the packer to decide on the method of rectification of non-conforming
+prepackages to ensure compliance to the stated requirements in accordance with the packer's
+procedures.
+
+==== {blank}
+Where quality control checks or the verification/calibration of measuring instruments
+indicate that they are outside the required accuracy levels, the impact thereof on the quantity of
+product in prepackages should be assessed and <<cls-A.10.1>> implemented when necessary.

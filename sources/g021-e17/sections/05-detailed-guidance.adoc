@@ -1,0 +1,10 @@
+== Detailed guidance
+
+The following annexes give detailed guidance:
+
+A:: Minimum requirements for the production system of a packer
+B:: Practical examples of different certification schemes
+C:: Minimum requirements for designated bodies
+D:: Information to be contained in the certificate issued by designated bodies
+E:: Design and application of marks of conformity
+F:: Resolution of complaints and disputes

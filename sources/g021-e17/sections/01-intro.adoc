@@ -1,0 +1,9 @@
+== Introduction
+
+Prepackages can give rise to concerns on the part of consumers regarding the quantity of product they
+contain. These concerns are usually addressed by specifying product requirements in a normative
+document such as an OIML Recommendation. The packer of the prepackage should then demonstrate
+that the quantity of product in the prepackage complies with the prescriptions in the OIML
+Recommendation. In certain cases it might be sufficient for the packer to assess and declare
+conformity, but in other cases a national authority might require that conformity be assessed by a
+competent and impartial third party.

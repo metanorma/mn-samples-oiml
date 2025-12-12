@@ -1,0 +1,248 @@
+== General guidance for the certification of prepackages
+
+=== Objectives of certification for prepackages
+
+The objectives of certification include
+
+* establishing rules and procedures for fostering confidence that the labelling and quantity
+of prepackages comply with all the relevant legal requirements,
+* promoting the efficiency of the control of prepackages whilst maintaining confidence in
+and facilitating trade of prepackaged products, and
+* promoting the harmonization, uniform interpretation and implementation of legal
+metrology requirements for the quantity of product in prepackages including labelling
+requirements and of production system requirements.
+
+=== General principles of a certification system
+
+==== {blank}
+A certification system may include one or more certification schemes (see <<cls-4.4>>).
+
+==== {blank}
+Generally, a government authority acts as the scheme owner and is the designating authority.
+
+==== {blank}
+Depending on national legislation, one or more public or private bodies may be designated
+under a certification scheme.
+
+==== {blank}
+Conformity assessment bodies wishing to be designated under a scheme should
+
+* apply to become designated according to publicly available procedures, and
+* have their competence evaluated by or on behalf of the designating authority, taking into
+account, where applicable, any appropriate accreditation or peer review.
+
+==== {blank}
+Depending on national legislation, participation of a packer in a certification scheme is
+voluntary or mandatory.
+
+==== {blank}
+A mark of conformity may be established to identify prepackages conforming to the stated
+requirements.
+
+==== {blank}
+Designating authorities and designated bodies should have procedures for dealing with and
+resolving complaints (see <<annex-f>>).
+
+=== Content of a certification scheme for prepackages
+
+NOTE: General fundamentals for product certification and guidelines for product certification
+schemes are given in <<ISO17067>>.
+
+A certification scheme for prepackages should specify, as appropriate, the following elements:
+
+. the scope of the scheme, including the type of prepackages covered;
+. [[cls-4.3.b]]the requirements against which the prepackages are evaluated;
++
+--
+NOTE: These requirements are usually included in legislation and should be based on
+<<R79;and!R87>>.
+
+NOTE: These requirements may also be based on the specific needs of a country or
+regional economy, for example a minimum system, a maximum system, or any
+combination of systems for which an OIML Recommendation currently does not
+exist. In this case the requirements against which the prepackages must be
+evaluated should be adequately documented so as not to create any
+misunderstanding that the stated requirements are those based on <<R79>>
+and <<R87>> (see <<cls-D.2.8.1>>).
+--
+
+. the conformity assessment activities appropriate to the purpose and the scope of the scheme
+(see <<cls-4.4>>);
+. other requirements that the packer must comply with (see <<annex-a>>);
+. the requirements for designated bodies and others involved in the certification process (see
+<<annex-c>>);
+. whether designated bodies involved in the scheme are to be accredited, participate in peer
+assessment or qualified in another manner;
+. the methods and procedures to be used by the designated bodies and other organizations
+involved in the certification process, so as to ensure the integrity and consistency of the
+outcome of the conformity assessment process;
+. the information to be supplied to the designated body by an applicant for certification;
+. the content of the certificate of conformity (see <<annex-d>>);
+. the conditions under which the packer may use the certificate of conformity or marks of
+conformity where applicable;
+. where marks of conformity may be used, the ownership, use and control of the marks (see
+<<annex-e>>);
++
+--
+NOTE: <<ISO17030>> provides detailed guidance on these requirements.
+--
+. the resources required for the operation of the scheme, including impartiality and
+competence of the personnel (internal and external), the evaluation resources, and the use of
+subcontractors;
+. how the results of the assessments and surveillance procedures shall be reported and used by
+the designated body and the scheme owner;
+. how non-conformities with the requirements shall be dealt with and resolved;
+. surveillance procedures, where surveillance is part of the scheme;
+. the criteria for access of packers and designated bodies to the scheme;
+. content, conditions and responsibility for publication of the register of certificates;
+. the need for, and content of, contracts where required between parties involved in the
+scheme;
++
+--
+NOTE: <<ISO28,annex=B>> gives guidance on these contract requirements.
+--
+. general conditions for granting, maintaining, continuing, extending the scope of, reducing
+the scope of, suspending and withdrawing certification: this includes requirements for
+discontinuation of advertising and return of certification documents and any other action if
+the certification is suspended, withdrawn or terminated;
+. the way in which complaints and appeals are dealt with (see <<annex-f>>);
+. the way in which the packers make reference to the scheme in their publicity material;
+. retention of records by the scheme owner and designated bodies.
+
+[[cls-4.4]]
+=== Elements for a certification scheme for prepackages
+
+Certification schemes are developed by defining specific scheme activities for each of the scheme
+elements as described in <<cls-4.4.1;to!cls-4.4.4>>. <<tab-1>> shows how to build a certification scheme by using
+these scheme elements. The different types of certification schemes are further practically described in
+<<annex-b>>.
+
+[[tab-1]]
+.Elements for a certification scheme for prepackages
+[cols="<,<,^,^,^,^,^,^,^",options=header,headerrows=2]
+|===
+2.2+^| Scheme elements and activities
+7+^| Different types of certification schemes
+^| A ^| B | C | D | E | F | stem:[N]
+
+| *4.4.1* | *Production system assessment* .5+| X .5+| X .5+| X .5+| X .5+| X .5+| X .5+| X
+| 4.4.1.1 | Statement of requirements
+| 4.4.1.2 | Application for certification
+| 4.4.1.3 | Initial assessment of the production system
+| 4.4.1.4 | Review of the evidence of compliance
+
+| *4.4.2* | *Certification of the production system* .4+| X .4+| X .4+| X .4+| X .4+| X .4+| X .4+| X
+| 4.4.2.1 | Decision on certification
+| 4.4.2.2 | Issuing of a certificate
+| 4.4.2.3 | Registration of certificates
+
+| *4.4.3* | *Licensing* .3+| .3+| .3+| X .3+| X .3+| X .3+| X .3+|
+| 4.4.3.1 | Granting the right to use certificates
+| 4.4.3.2 | Granting the right to use marks of conformity
+
+| *4.4.4* 8+| *Post certification conformity assessment activities*
+| 4.4.4.1 | Inspection at point of production | | | X | | X | X |
+| 4.4.4.2 | Inspection in market place | | | | X | X | X |
+| 4.4.4.3 | Batch licensing | | X | | | | X |
+| 4.4.4.4 | Surveillance of the production system | | | X | X | X | X |
+|===
+
+NOTE: "stem:[N]" has been added to show an undefined number of possible other schemes which can be based on different activities
+
+[[cls-4.4.1]]
+==== Production system assessment
+
+===== Statement of requirements
+
+The scheme owner should state the requirements that the packer must comply with. These
+requirements are generally stated in national legislation and should cover the quantity of product in
+prepackages, the associated labelling and sampling methods. <<R79;and!R87>>
+should be the basis for this national legislation. <<annex-a>> provides detailed guidance on minimum
+production system requirements.
+
+===== Application for certification
+
+An application for the certification of a production system should be lodged for each production site
+with a designated body (<<annex-c>> provides guidance on the appointment of designated bodies). The
+packer should provide information regarding his production system including information regarding
+type of product, pack sizes, and related quantity control system and other information as required by
+the designated body. <<annex-a>> provides detailed guidance on the minimum production system
+information.
+
+NOTE: A packer should not lodge an application for the same site with two designated bodies.
+
+===== Initial assessment of the production system
+
+The designated body should carry out conformity assessment activities to ensure that the production
+system of the packer meets the minimum production system requirements and issue an assessment
+report. <<annex-c>> gives detailed guidance on the minimum requirements for designated bodies.
+
+===== Review the evidence of compliance
+
+The designated body should review the assessment report and identify any non-compliances. The
+packer should be given reasonable time to correct any non-compliances after which the designated
+body should re-assess the production system as necessary.
+
+==== Certification of the production system
+
+===== Decision on certification
+
+The designated body should decide on granting certification on the basis of the evidence contained in
+the assessment report. All non-compliances should be resolved before a designated body may grant
+certification.
+
+===== Issuing of a certificate
+
+The designated body should issue a certificate to the packer which attests the compliance of the
+production system with the stated requirements and which specifies the production site(s), type(s) of
+prepackage and pack size(s). <<annex-d>> provides detailed guidance on information to be contained in
+the certificate.
+
+===== Registration of certificates
+
+The designated body should maintain a register of certificates. From the register it should be possible
+to determine whether a prepackage is covered by a valid certificate. A registration should be
+withdrawn if the certificate is no longer valid.
+
+==== Licensing
+
+===== Granting the right to use certificates
+
+The designated body may grant to the packer the right to use the certificate as a basis for the packer to
+declare that subsequent production items conform to the specified requirements.
+
+===== Granting the right to use marks of conformity
+
+The designated body may grant to the packer the right to apply a mark of conformity to subsequent
+production items declaring conformity to specified requirements. Guidance on the design and
+application of marks of conformity is provided in <<annex-e>>.
+
+[[cls-4.4.4]]
+==== Post certification conformity assessment activities
+
+Post certification conformity assessment activities are generally carried out by the designated body
+that has issued the certification to monitor ongoing compliance. These activities often overlap with
+activities carried out by authorities such as market surveillance activities.
+
+===== Inspection at point of production (reference test)
+
+This activity involves periodically taking samples of produced prepackages at the point of production
+and subjecting them to tests to establish ongoing compliance.
+
+===== Inspection in the market place (market control)
+
+This activity involves taking samples of prepackages from the market and subjecting them to tests to
+establish ongoing compliance.
+
+===== Batch licensing
+
+This activity involves the certification of a whole batch of prepackages against product specifications,
+following selection and determination as specified in the scheme.
+
+===== Surveillance of the production system
+
+This activity involves periodic assessment of the production system to establish ongoing compliance
+with the requirements of the scheme.
+
+NOTE: The scheme owner will decide on the frequency of the surveillance of the production system
+to ensure ongoing compliance.

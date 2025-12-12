@@ -1,0 +1,24 @@
+[[annex-f]]
+[appendix]
+== Resolution of complaints and disputes
+
+[[cls-F.1]]
+=== {blank}
+Complaints and disputes concerning the operation of the appropriate certification system
+should be lodged with the appropriate designated body.
+
+=== {blank}
+The designating authority concerned should, upon request, assist in resolving a dispute
+in <<cls-F.1>>.
+
+=== {blank}
+Complaints concerning prepackages should be forwarded with documented and substantiated
+evidence to the responsible designated body for resolution in terms of its own procedures. Should
+complaints not be satisfactorily resolved, the matter may be brought to the attention of the relevant
+designating authority.
+
+NOTE: This does not imply that the designating authority should be involved in legal proceedings.
+
+=== {blank}
+Complaints concerning designated bodies should be forwarded to the designating authority
+concerned.

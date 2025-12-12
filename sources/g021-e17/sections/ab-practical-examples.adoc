@@ -1,0 +1,73 @@
+[[annex-b]]
+[appendix]
+== Practical examples of different certification schemes
+
+With reference to <<tab-1>>, examples of different certification schemes are as follows.
+
+=== Example of scheme A
+
+A farmer has a small production of preserves which he sells prepacked in glass jars on the local
+market. The jars are labelled with the name of the product, the name of the farmer, the place where the
+farmer is located and the nominal quantity. The farmer's production process ensures that all jars are
+overfilled. The designated body assesses the farmer's production system and issues a certificate. The
+certificate mentions that if the farmer changes his production process, he has to inform the designated
+body. In this case it would not be necessary for the designated body to perform surveillance on the
+production system.
+
+=== Example of scheme B
+
+A packer in country A receives a "one off" order for a batch of prepackages from a customer in
+country B. The authorities in country B will accept the shipment on the basis of a certificate from a
+designated body in country A that attests that the packer's production system is able to produce
+complying prepackages and evidence that the batch has been subjected to sample tests and complies
+with stated requirements. The packer sends the certificate for his production system, together with the
+attestation by the designated body that the batch (identified by a batch number or otherwise) has been
+sample tested and found to comply to the authorities in country B.
+
+=== Example of scheme C
+
+The packer's production system has been certified by a designated body. This allows him to produce
+prepackages as specified in the certificate and to place them on the market. Depending on national
+legislation, these prepackages may be marked with a mark of conformity. The packer is subjected to
+periodic surveillance of his production system by the designated body. The designated body also
+performs sample tests on prepackages produced by the packer at the point of production. Surveillance
+in the market place may be performed by a market surveillance authority, but is not part of the
+certification scheme.
+
+=== Example of scheme D
+
+The designated body is the national regulator and market surveillance authority, responsible for legal
+metrology, including prepackages. National legislation provides for surveillance in the market place
+and the mandatory use of a mark of conformity on prepackages. The designated body assesses the
+packer's production system and issues a certificate. This gives the packer the right to apply the mark
+of conformity to the prepackages he produces, as specified in the certificate. The packer is subjected to
+periodic surveillance by the designated body of his production system. The designated body carries
+out checks in the market place.
+
+=== Example 1 of scheme E
+
+The national regulator for legal metrology (including prepackages) is the designating authority. The
+regulator has designated one or more private certification body(ies) to perform the assessment of the
+packer's production system, to issue certificates, to perform surveillance of the packer's production
+system and to check the prepackages produced at the point of production. Surveillance in the market
+place is part of the scheme and is performed by the regulator.
+
+=== Example 2 of scheme E
+
+An international group of private certification bodies offers certification of packers' production
+systems on the basis of the requirements of <<R79>> and <<R87>> (product requirements)
+as well as <<ISO9001>>, extended with specific requirements concerning the quantity control as part
+of the production system, as specified in the description of the scheme published by the certification
+bodies. The group of certification bodies is identified as a legal entity and acts as the scheme owner.
+The certification bodies are accredited for their scheme on the basis of <<ISO17065>>.
+
+The packer uses the certificate and (if applicable) the mark of conformity as licensed to him as
+evidence that the prepackages he produces comply with the stated requirements.
+
+Such a scheme may be beneficial to packers who export to countries that have limited resources to
+control prepackages at the border, but will accept certification under the scheme.
+
+=== Example of scheme F
+
+Scheme E with an extension to licensing batches, for instance in the case where a packer produces
+"one off" batches of prepackages that are not covered by a valid certificate.

@@ -1,0 +1,123 @@
+[[annex-d]]
+[appendix]
+== Information to be contained in the certificate issued by designated bodies
+
+=== General
+
+Certificates issued to packers by designated bodies should contain at least the information mentioned
+in <<cls-D.2;and!cls-D.3>>. Any changes to the scope of certification should be indicated by means of a revised
+certificate.
+
+[[cls-D.2]]
+=== Certificates where the packer is identified on the certificate
+
+[[cls-D.2.1]]
+==== {blank}
+Full registered name of packer.
+
+==== {blank}
+Full trading name(s) of packer, if applicable.
+
+==== {blank}
+In the case of contract packers, the names and addresses of companies for which goods are
+packed and which will appear on prepackages as taking responsibility for the prepackages (see also
+relevant provisions in <<R79>>).
+
+NOTE: The names and addresses of companies for which goods are packed may, for confidentiality
+purposes, not be included on the certificate but must be made available at all times on
+request of the government authority or designated body.
+
+==== {blank}
+Full postal address of the packer.
+
+[[cls-D.2.5]]
+==== {blank}
+Full physical address of the packing plant.
+
+NOTE: In the case of more than one packing plant owned by the same packer, each packing plant
+should be registered separately on an individual certificate.
+
+==== {blank}
+Date of certification.
+
+[[cls-D.2.7]]
+==== {blank}
+If applicable, specification of the mark of conformity to be applied to prepackages (see
+<<annex-e>>).
+
+[[cls-D.2.8]]
+==== {blank}
+Scope of certification.
+
+[[cls-D.2.8.1]]
+===== {blank}
+The scope should include a brief description of the products in such a way that it allows a
+prepackage to be identified as covered by the certificate. This should include a reference to which
+packaging system is used, i.e. average system in the case of <<R87>>.
+
+NOTE: The certificate may make provision for other packing systems, when required by an
+economy, such as a minimum system, a catch-weight system, a maximum system or any
+combination of systems (see <<cls-4.3.b>>).
+
+===== {blank}
+To give a clear description of the product, the following guidelines may be used in the
+description of the products:
+
+. brand name or generic name describing the product in such a way that the products for
+which the packer is certified are covered. This description should be sufficiently
+complete to distinguish products that are included from those that are not included in
+the scope of certification;
+. product description if necessary to distinguish from other products, e.g. liquid, powder,
+granules, paste, gel, semi-solid, etc.;
+. unit of measurement in which marked;
+. measuring range (smallest to largest quantity);
+. type of packaging material if only certain packing materials are included in the scope of
+certification, e.g. sachets, tins, packets, glass/ plastic bottles, flexible bags, boxes, etc.;
+and
+. other limitations if the scope of certification is restricted, e.g. only high viscosity
+liquids, un-carbonated soft drinks.
+
+===== {blank}
+If all products packed by the packer are covered by the certificate, then it is only necessary to
+include a brief description, e.g.:
+
+. powdered milk products between stem:[250 "unitsml(g)"] and stem:[10 "unitsml(kg)"];
+. foodstuffs by mass from stem:[5 "unitsml(g)"] to stem:[1 "unitsml(kg)"];
+. cosmetics by mass and volume ranging from stem:[5 "unitsml(g)"] to stem:[500 "unitsml(g)"] and stem:[9 "unitsml(ml)"] to stem:[350 "unitsml(ml)"];
+. aerosols by mass and volume up to stem:[250 "unitsml(g)"] or stem:[250 "unitsml(ml)"];
+. toilet paper by length and pieces (count by number); or
+. carbonated and un-carbonated soft drinks and beer in nominal quantities between
+stem:[500 "unitsml(ml)"] and stem:[1.5 "unitsml(L)"].
+
+===== {blank}
+If only some of the products packed by the packer are covered by the certificate, then it
+would be necessary to have a more specific description, e.g.:
+
+. powdered milk products in flexible bags between stem:[250 "unitsml(g)"] and stem:[1 "unitsml(kg)"] bearing XYZ brand
+name;
+. fruit preserves in glass bottles between stem:[250 "unitsml(g)"] and stem:[10 "unitsml(kg)"] when packed for XYZ
+company; or
+. aerosol perfumes in glass bottles between stem:[15 "unitsml(ml)"] and stem:[30 "unitsml(ml)"].
+
+[[cls-D.3]]
+=== Certificates where the packer is not identified on the certificate
+
+==== {blank}
+Where a packer does not want to be identified on the certificate, such as a contract packer
+who packs on behalf of a third party whose name appears on the prepackages, the certificate may use a
+code to identify the packer, provided that all of the information required by <<cls-D.2.1;to!cls-D.2.5>> should be
+kept by the designated body and made available, on request, to a national body responsible for the
+regulation of prepackages or the responsible designating authority. The following minimum
+information will then be required on the certificate.
+
+==== {blank}
+Unique code to identify the packer.
+
+==== {blank}
+Date of certification.
+
+==== {blank}
+If applicable, specification of the mark as in <<cls-D.2.7>>.
+
+==== {blank}
+Scope of certification as in <<cls-D.2.8>>.
