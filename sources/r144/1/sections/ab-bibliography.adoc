@@ -1,0 +1,56 @@
+
+[appendix]
+[bibliography]
+== Bibliography
+
+* [[[OIML_V_1_2012,OIML V 1:2012]]] International vocabulary of terms in legal metrology (VIML)
+
+* [[[OIML_V_2_2012,OIML V 2:2012]]] International Vocabulary of Metrology -- Basic and general concepts and associated terms (VIM)
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]] General requirements for electronic measuring instruments
+
+* [[[IEC_60068_2_1,IEC 60068-2-1]]] (2007-03) Environmental testing - Part 2-1: Tests - Test A: Cold
+
+* [[[IEC_60068_2_2,IEC 60068-2-2]]] (2007-07) Environmental testing - Part 2-2: Tests - Test B: Dry heat
+
+* [[[IEC_60068_2_31,IEC 60068-2-31]]] (2008-05) Environmental testing - Part 2-31: Tests - Test Ec: Rough handling shocks, primarily for equipment-type specimens
+
+* [[[IEC_60068_2_47,IEC 60068-2-47]]] (2005-04) Environmental testing - Part 2-47: Test methods - Mounting of components, equipment and other articles for vibration, impact and similar dynamic tests
+
+* [[[IEC_60068_2_64,IEC 60068-2-64]]] (2008-04) Environmental testing - Part 2-64: Test methods - Test Fh: Vibration, broad-band random (digital control) and guidance
+
+* [[[IEC_60068_2_78,IEC 60068-2-78]]] (2001-08) Environmental testing - Part 2-78: Tests - Test Cab: Damp heat, steady state
+
+* [[[IEC_60068_3_8,IEC 60068-3-8]]] (2003-08) Environmental testing - Part 3-8: Supporting documentation and guidance - Selecting amongst vibration tests
+
+* [[[IEC_61000_4_2,IEC 61000-4-2]]] (2008-12) Electromagnetic compatibility (EMC) - Part 4-2: Testing and measurement techniques - Electrostatic discharge immunity test
+
+* [[[IEC_61000_4_3,IEC 61000-4-3]]] (2006-02) with amendment 1 (2007-11) Electromagnetic compatibility (EMC) - Part 4-3: Testing and measurement techniques - Radiated, radio-frequency, electromagnetic field immunity test. Consolidated edition: IEC 61000-4-3 (2010-04) ed. 3.4
+
+* [[[IEC_61000_4_4,IEC 61000-4-4]]] (2012-04-30), Ed. 3.0 Electromagnetic compatibility (EMC) - Part 4-4: Testing and measurement techniques - Electrical fast transient/burst immunity test
+
+* [[[IEC_61000_4_5,IEC 61000-4-5]]] (2005-11) Electromagnetic compatibility (EMC) - Part 4-5: Testing and measurement techniques - Surge immunity test
+
+* [[[IEC_61000_4_6,IEC 61000-4-6]]] (2008-10) Electromagnetic compatibility (EMC) - Part 4-6: Testing and measurement techniques - Immunity to conducted disturbances, induced by radio-frequency fields
+
+* [[[IEC_61000_4_11,IEC 61000-4-11]]] (2004-03) - Part 4-11: Testing and measuring techniques - Voltage dips, short interruptions and voltage variations immunity tests
+
+* [[[ISO_7504_2001,ISO 7504:2001]]] Gas analysis - Vocabulary
+
+* [[[ISO_10396_2007,ISO 10396:2007]]] Stationary source emissions - Sampling for the automated determination of gas concentrations for permanently installed monitoring systems
+
+* [[[IEC_60068_3_1,IEC 60068-3-1]]] (2011-08-19) Ed. 2.0 Environmental testing - Part 3-1: Supporting documentation and guidance - Cold and dry heat tests
+
+* [[[IEC_60068_3_4,IEC 60068-3-4]]] (2001-08) Environmental testing - Part 3-4: Supporting documentation and guidance - Damp heat tests
+
+* [[[IEC_60068_2_17,IEC 60068-2-17]]] (1994-07) Basic environmental testing procedures - Part 2: Tests - Test Q: Sealing
+
+* [[[ISO_6142_2001,ISO 6142:2001]]] Gas analysis - Preparation of calibration gas mixtures - Gravimetric method OIML R 144-1:2013 (E)
+
+* [[[ISO_6143_2001,ISO 6143:2001]]] Gas analysis - Comparison methods for determining and checking the composition of calibration gas mixtures
+
+* [[[ISO_6145_1_2003,ISO 6145-1:2003]]]  Gas analysis - Preparation of calibration gas mixtures using dynamic volumetric methods - Part 1: Methods of calibration
+
+* [[[ISO_80000_9_2009,ISO 80000-9:2009]]]  Quantities and units - Part 9: Physical chemistry and molecular physics
+
+* [[[SI_8th_2006,SI 8th Edition:2006]]] Système International des Unités (SI) 8th Edition:2006, Bureau International de Poids et Mesures

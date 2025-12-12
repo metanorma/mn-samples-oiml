@@ -1,0 +1,255 @@
+
+[[sec-5]]
+== Technical requirements
+
+[[sec-5.1]]
+=== Construction
+
+[[sec-5.1.1]]
+==== {blank}
+
+All components of the gas handling system shall be made of corrosion resistant material.
+The materials used shall not influence the composition of the gas sample.
+
+[[sec-5.1.2]]
+==== {blank}
+
+The means for sampling and sample preparation during extractive sampling shall provide
+for representative sampling and shall comply with <<ISO_10396_2007>>.
+
+[[sec-5.1.3]]
+==== {blank}
+
+The gas handling system shall contain a switching system to allow the zero gas, gas
+calibration mixtures, and gas sample to be analyzed to flow into the analyzer.
+
+[[sec-5.1.4]]
+==== {blank}
+
+A dehydrating charcoal filter or equivalent system shall be used when ambient air
+is supplied as a zero gas.
+
+[[sec-5.1.5]]
+==== {blank}
+
+The pump conveying the gas sample shall be mounted so that its vibrations do not
+affect the measurement result. It shall be possible for the user to turn the pump
+on and off separately from the other components of the gas analytical system; however,
+it shall not be possible to make a measurement when the pump is switched off.
+
+NOTE: It is recommended to flush the gas handling system automatically with ambient
+air before the pump is switched off.
+
+[[sec-5.1.6]]
+==== {blank}
+
+The gas handling system shall be equipped with a gas flow meter, by which the user
+can check the measuring mode specified by the manufacturer of the gas analytical
+system.
+
+[[sec-5.1.7]]
+==== {blank}
+
+The gas handling system shall be air-tight.
+
+[[sec-5.1.8]]
+==== {blank}
+
+The gas analytical system may be equipped with an interface permitting it to be coupled
+to any peripheral devices or other instruments, e.g. facilities for measuring the
+characteristics of the flow gas in a pipe or gas duct.
+
+[[sec-5.1.9]]
+==== {blank}
+
+The interface and peripherals coupled to it shall not affect the metrological characteristics
+of the gas analytical system or the measurement data obtained.
+
+[[sec-5.2]]
+=== Display devices
+
+[[sec-5.2.1]]
+==== Indication range of the gas analyzer
+
+The indication range of the display device shall be from 0.0 ppm to the maximum measuring
+range. In normal operation the recording device may indicate 0.0 ppm for the volume
+fraction of the component being determined equal to or smaller than stem:[1 "unitsml(ppm)"].
+
+[[sec-5.2.2]]
+==== Interval and marks of analog scales
+
+If an analog scale is fitted, the distance between the scale marks shall be at least
+stem:[1.25 "unitsml(mm)"]. The interval of the marks shall be smaller than or equal
+to 2 % of the span of the analog scale.
+
+The thickness of the pointer shall not exceed one quarter of the distance between
+the scale marks. The pointer shall overlap at least one third of the shortest scale
+mark and shall be clearly seen.
+
+The height of the figures shall be at least stem:[5 "unitsml(mm)"] and they shall
+be marked in such a way that any misinterpretation is not possible.
+
+[[sec-5.2.3]]
+==== Digital display
+
+The height of the figures shall be at least stem:[5 "unitsml(mm)"] for illuminated
+displays and stem:[10 "unitsml(mm)"] in all other cases.
+
+The symbol of the unit of measurement shall appear in close proximity to the figures
+indicating the measurement results and the characters used shall be at least
+stem:[3 "unitsml(mm)"] in height.
+
+When a measurement result is zero, it shall not be possible to confuse such a result
+with the zero indication prior to measurement.
+
+[[sec-5.3]]
+=== Durable recording of measurement results
+
+When the gas analytical system has interfaces to submit analytical data, it shall
+be equipped with a printing device, which prints
+
+* the date and time of measurement,
+* the measurement results and their units, and
+* the result of self-checking by means of automatic adjustment facilities.
+
+Printed measurement results shall not differ from the measurement results provided
+by the indicating device.
+
+The minimum height for the figures of the printing device is stem:[2 "unitsml(mm)"].
+
+NOTE: When values of the component concentration to be determined are continuously
+recorded on paper, the duration of the recording shall be no less than that required
+for the report documentation (records) for the reporting period (e.g. 24 hours, a
+month, a decade, etc.) established by the legal authority.
+
+Printouts shall remain readable for the relevant period as required by the national
+authority, even when exposed to daylight or equivalent lighting.
+
+The legal authority may require that a printing device be provided. It may also require
+that more information appear on the printed document than requested above, e.g. the
+result of the volume fraction calculation during a specified period.
+
+The printing device shall not print out the records for the reporting period if the
+checking facilities provide evidence of errors in excess of the maximum permissible
+errors, or of failures. The measurement mode shall also be prevented if no paper
+(or other recording medium) is available in the printing device.
+
+[[sec-5.4]]
+=== Computing device
+
+The gas analytical system may be equipped with a computing device (such as a data
+processing unit or a personal computer), which calculates emissions (e.g. the average
+emission during the specified time, etc.) and transmits their values to the printing
+device with an estimated uncertainty. The relevant authority shall certify the computational
+algorithm of the measurement results and their estimated uncertainty.
+
+Since information about the flow rate, temperature, gas pressure and diameter of
+a pipe (gas duct) is necessary to calculate the stationary source emissions, such
+information shall be provided with the required accuracy and automatically introduced
+into the computing device.
+
+[[sec-5.5]]
+=== Alarm system
+
+[[sec-5.5.1]]
+==== {blank}
+
+The gas analytical system may be equipped with an alarm system that shall give an
+audible or visible signal when the maximum permissible unit emission specified for
+the given stationary source is exceeded. If an alarm system is fitted, it shall be
+tested.
+
+[[sec-5.5.2]]
+==== {blank}
+
+The gas handling system shall have a device that measures or signals that the gas
+flow is not available or that its rate is outside the limits specified by the manufacturer.
+
+[[sec-5.5.3]]
+==== {blank}
+
+An indication that the gas analytical system is ready for measurement shall be provided.
+If it is not ready, any indication on a recording device and any printing of the
+results on a printing device shall be prevented.
+
+[[sec-5.5.4]]
+==== {blank}
+
+For a gas analytical system with electrochemical sensors, a warning device shall
+be provided to signal that the effective life of the sensors has expired. Sensors
+for indicating the expiry of the filters shall be fitted.
+
+[[sec-5.6]]
+=== Adjustment facilities
+
+[[sec-5.6.1]]
+==== {blank}
+
+The gas analytical system shall have adjustment facilities that provide readings
+for zero-setting, CGM and internal adjustment. The facilities may be manual, semi-automatic
+or automatic.
+
+[[sec-5.6.2]]
+==== {blank}
+
+The internal adjustment shall neither affect the zero set, nor the instrument's linearity
+and it shall not be connected with the CGM adjustment. The approach should be such
+that each time a calibration gas mixture is applied to the input of the gas analyser,
+the adjustment facilities will enable the readings to be brought into conformity
+with the value of the volume fraction of the component to be determined in the CGM.
+
+[[sec-5.6.3]]
+==== {blank}
+
+The adjustment facility for zero-setting shall give negative indications near zero
+for certain tests or manual adjustment, if necessary.
+
+[[sec-5.6.4]]
+==== {blank}
+
+The automatic adjustment facilities shall display or print out the results of all
+internal adjustments: flow rate (its deceleration), internal reference adjustment,
+calibration and leak immediately after switching on and then during operation with
+the periodicity specified by the operator.
+
+[[sec-5.7]]
+=== Security of the gas analyzer operation
+
+[[sec-5.7.1]]
+==== {blank}
+
+The technical means by which the gas analyzer is adjusted (particularly devices for
+adjusting the calibration with the CGM and zero-setting) shall be inaccessible to
+the operator or user. Access shall be possible only by entering a code, or by some
+other equivalent procedure.
+
+[[sec-5.7.2]]
+==== {blank}
+
+The means used to change from one mode of operation to another shall be inaccessible
+to the operator or user. Access shall be possible only by entering a code, or by
+some other equivalent procedure.
+
+[[sec-5.8]]
+=== Inscriptions/markings
+
+All inscriptions and markings shall be made on clearly visible parts of the instruments.
+
+The gas analyzer in the gas analytical system shall be inscribed indelibly and irremovably
+with the following information:
+
+* manufacturer's trademark/corporate name;
+* symbolic designation of the gas analytical system;
+* serial number;
+* year of manufacture;
+* type approval mark;
+* power supply parameters (voltage, frequency, power consumption).
+
+Each constituent part (unit) of the gas analytical system shall be inscribed with
+the following information:
+
+* symbolic designation of the unit;
+* serial number;
+* year of manufacture;
+* gas analytical system to which it belongs;
+* power supply parameters (voltage, frequency, power consumption).

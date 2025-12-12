@@ -1,0 +1,153 @@
+
+[[sec-4]]
+== Metrological requirements
+
+[[sec-4.1]]
+=== Presentation of the measurement results
+
+The measurement results of the concentration of carbon monoxide and nitrogen oxides
+in the sample shall be expressed in the units of volume fraction and reduced to reference
+conditions.
+
+The reference conditions are:
+
+* temperature: stem:[273.15 "unitsml(K)"];
+* pressure: stem:[101.325 "unitsml(kPa)"].
+
+In this Recommendation, ppm is used (<<ISO_80000_9_2009,clause=9.15>>) for the volume
+fraction unit.
+
+[[sec-4.2]]
+=== Measuring range
+
+The gas analyzer shall provide measurements of a volume fraction of the components
+determined in the following ranges:
+
+* carbon monoxide: stem:[10 "unitsml(ppm)"] to stem:[20000 "unitsml(ppm)"];
+* nitrogen monoxide: stem:[10 "unitsml(ppm)"] to stem:[5000 "unitsml(ppm)"];
+* nitrogen dioxide: stem:[10 "unitsml(ppm)"] to stem:[500 "unitsml(ppm)"].
+
+These measuring ranges may be divided into sub-ranges.
+
+[[sec-4.3]]
+=== Maximum permissible errors
+
+[[sec-4.3.1]]
+==== Maximum permissible intrinsic error
+
+For any measurement within the measuring range or sub-range (see <<sec-4.2>>) under
+the reference conditions specified in <<sec-8>>, the MPE, positive or negative, is
+the larger of the two following values:
+
+* stem:[2 "unitsml(ppm)"];
+* 5 % of the measured value.
+
+[[sec-4.3.2]]
+==== Maximum permissible errors on verification under rated operating conditions (without dismounting the gas analytical system)
+
+The MPE, positive or negative under the rated operating conditions specified in <<sec-4.5.1>>,
+may be equal to or greater than the maximum permissible intrinsic errors, taking
+into account the actual values of the influence quantities, but they should not exceed
+the larger of the two following values:
+
+* stem:[5 "unitsml(ppm)"];
+* 10 % of the measured value.
+
+[[sec-4.4]]
+=== Repeatability
+
+An estimate of the standard deviation is used as a characteristic of repeatability
+(R 144-2, 1.4).The estimate of the standard deviation shall not exceed 1/3 of the
+maximum permissible intrinsic error (<<sec-4.3.1>>) at the given point of the measuring
+range.
+
+[[sec-4.5]]
+=== Influence quantities
+
+[[sec-4.5.1]]
+==== Rated operating conditions (for use of the gas analyzer)
+
+. temperature: stem:[5 "unitsml(degC)"] to stem:[40 "unitsml(degC)"];
+. relative humidity: up to 90 % at stem:[25 "unitsml(degC)"];
+. atmospheric pressure: from stem:[86 "unitsml(kPa)"] to stem:[106 "unitsml(kPa)"];
+. supply from AC mains power:
+
+** voltage: nominal value, with deviation from nominal value: -15 %, +10 %;
+** frequency: nominal value stem:[pm 2 %].
+
+If a battery is used to power the gas analyzer, the limits of power supplied shall
+be within the gas analyzer manufacturer's specifications. If a current generator
+is used, the limits of variation of the parameters shall comply with the specifications
+for the mains voltage.
+
+NOTE: The above rated operating conditions for temperature, relative humidity and
+atmospheric pressure may be changed to extend the ranges.
+
+NOTE: Instruments using a battery power supply should be equipped with an indicator
+to warn when the battery becomes discharged.
+
+NOTE: Requirements for the input gas temperature and particulate level of a sampling
+probe are given in <<sec-8.7>> and <<sec-8.8>>.
+
+[[sec-4.5.2]]
+==== Influence of the gas components of emissions other than the measurand (cross sensitivity)
+
+The indications of the gas analyzer shall not vary by more than half the absolute
+value of the maximum permissible intrinsic error (<<sec-4.3.1>>) at the given point
+of the measurement range if the value of the volume fraction of the gas components
+other than the measurand does not exceed the maximum permissible value.
+
+NOTE: The manufacturer of the gas analytical system shall provide the list of gas
+components other than the measurand and their maximum permissible concentrations
+in the operating instructions.
+
+[[sec-4.5.3]]
+==== Vibration
+
+The gas analyzer shall be protected against the effects of vibration. The manufacturer
+shall indicate in the specifications the requirements for the vibration parameters,
+at which the metrological characteristics of the gas analyzer are within the permissible
+limits (<<sec-4.3.2>>). The minimum requirements should correspond to severity
+level 1 of <<OIML_D_11_2013,clause=11.1>>.
+
+NOTE: The requirements for the individual units of the gas analytical system may vary.
+
+[[sec-4.5.4]]
+==== Disturbances
+
+The error of the gas analyzer shall lie within the permissible limits, or its failure
+shall be detected by the checking facility for the following disturbances:
+
+. mechanical shocks;
+. short time power reduction;
+. voltage pulses from the mains;
+. electrostatic discharges;
+. radio frequency electromagnetic fields.
+
+The disturbance norms and test methods are described in R 144-2.
+
+[[sec-4.6]]
+=== Response time
+
+When a volume fraction of a component being determined at the input changes abruptly
+from 0 % to 100 %, the reading of the gas analyzer shall reach, within four minutes,
+a value of at least 90 %.
+
+[[sec-4.7]]
+=== Warm-up time
+
+After switching on the gas analytical system and after the warm-up time specified
+by the manufacturer of this system, it shall meet the metrological requirements stated
+in this Recommendation.
+
+[[sec-4.8]]
+=== Stability with time or drift
+
+When a gas analyzer equipped with semi-automatic adjustment means is operated in
+accordance with its operating instructions under stable environmental conditions,
+its error shall remain within the maximum permissible errors (according to <<sec-4.3.1>>)
+for at least seven days from the moment of adjustment of the gas analyzer using the
+CGM. If the gas analyzer is equipped with a means for drift compensation, such as
+automatic zero correction or automatic internal adjustment, the action of these adjustments
+shall not produce any indication that can be confused with a measurement result of
+the volume fraction of the components in the analyzed sample.

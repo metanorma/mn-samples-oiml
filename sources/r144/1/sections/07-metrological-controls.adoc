@@ -1,0 +1,121 @@
+
+[[sec-7]]
+== Metrological controls
+
+[[sec-7.1]]
+=== Type evaluation
+
+[[sec-7.1.1]]
+==== Documentation
+
+The documentation for a gas analytical system supplied by the manufacturer when applying
+for type evaluation shall include the following information:
+
+. a description of its general principle of measurement;
+. a list of its essential components with their characteristics;
+. a description of its essential components with drawings and diagrams;
+. general information on the software used as part of the gas analytical system;
+. a description of the formula applied for calculation of mass emission components;
+. the operating manual to be provided to the user;
+. details and results of any testing which may have been carried out by the manufacturer.
+
+[[sec-7.1.2]]
+==== General requirements
+
+Type evaluation shall be carried out on at least one unit, which represents the definitive type.
+
+[[sec-7.1.3]]
+==== External examination and tests
+
+[[sec-7.1.3.1]]
+===== General
+
+The external examination and testing of a gas analytical system is intended to verify
+compliance with the requirements of <<sec-4;and!sec-5;and!sec-6>> of this Recommendation.
+
+Where possible, tests should be carried out with a completely mounted gas analytical
+system. However, it is permitted to perform the test on separate units or devices
+of the gas analytical system if it is impossible to test the system as a whole due
+to its size or configuration, or when testing only the operation of that separate
+unit or device. Such tests can only be performed in cases where it is possible to
+simulate the operating conditions for that separate unit or device included in a
+gas analytical system.
+
+NOTE: It is not intended that separate components be dismantled for testing.
+
+The contents and metrological characteristics of calibration gas mixtures used during
+type approval shall conform to those specified in <<annex-a>>.
+
+[[sec-7.1.3.2]]
+===== {blank}
+
+A gas analytical system shall undergo an external examination to obtain a general
+appraisal of its design and construction.
+
+[[sec-7.1.3.3]]
+===== {blank}
+
+When testing a gas analytical system for compliance with the requirements of <<sec-4;and!sec-5>>
+of this Recommendation, the correctness of its operation shall be checked.
+
+[[sec-7.1.3.4]]
+===== {blank}
+
+The operating manual for a gas analytical system shall be checked to ensure that
+correct procedures are clearly indicated, especially those specified in <<sec-6.2>>.
+
+[[sec-7.2]]
+=== Initial verification
+
+[[sec-7.2.1]]
+==== General requirements
+
+A new gas analytical system shall undergo initial verification only after type approval
+(depending on the legislation in each specific country). The initial verification
+shall be carried out using suitable testing means and calibration gas mixture.
+
+[[sec-7.2.2]]
+==== External examination and tests
+
+[[sec-7.2.2.1]]
+===== {blank}
+
+Initial verification of a gas analytical system includes an external examination
+to determine conformance with the approved type, and also compliance with the contents
+of the set of accompanying documents.
+
+NOTE: The verification procedures shall be approved by the responsible legal authority
+that carried out the type approval tests.
+
+[[sec-7.2.2.2]]
+===== {blank}
+
+After adjusting a gas analytical system according to the routine adjustment procedure
+described in the operating manual, tests to determine its errors shall be carried
+out under rated operating conditions at several values over the measuring range.
+
+The tests shall be performed using at least three calibration gas mixtures (CGMs)
+with values of the volume fractions for components to be determined that are uniformly
+distributed over the measurement range.
+
+The smallest and the largest values of the volume fraction for components to be determined
+in a CGM shall not differ from the lower and upper values of the measurement range
+by more than +10 % and -10 %, respectively.
+
+The uncertainty on the volume fraction for components to be determined in a CGM shall
+be such that the ratio between the absolute value of the uncertainty of the CGM and
+the maximum permissible error of the gas analytical system at the given point of
+the measurement range shall be not more than 1:3. However, the responsible legal
+authority may allow the ratio 1:2.
+
+The errors observed during the tests shall be within the permissible limits according
+to <<sec-4.3.2>> for initial verification at each measurement.
+
+[[sec-7.3]]
+=== Subsequent verification
+
+The responsible legal authority shall provide instructions with requirements giving
+
+* the content and volume of subsequent verifications,
+* recalibration intervals, and
+* recommendations for on-line testing indicated in the operating manual.

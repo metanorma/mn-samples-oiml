@@ -1,0 +1,23 @@
+
+[[sec-6]]
+== Operating manual
+
+[[sec-6.1]]
+=== {blank}
+
+The operating manual shall be in the official language(s) of the country (or another
+generally accepted language according to national legislation) and easily understandable.
+An operating manual for users shall be made available for each individual instrument.
+
+[[sec-6.2]]
+=== {blank}
+
+The operating manual shall include the following information:
+
+. instructions for the correct operation of the instrument;
+. maximum and minimum storage temperatures;
+. rated operating conditions;
+. warm-up time after switching on the instrument/electrical power;
+. all other relevant mechanical and electromagnetic environmental conditions;
+. mechanical and electromechanical environmental classes;
+. safety and security conditions.
