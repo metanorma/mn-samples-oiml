@@ -1,0 +1,39 @@
+= Pipe provers for verification and calibration of measuring systems for liquids
+:docidentifier: OIML D 36
+:series: D
+:docnumber: 36
+:edition: 2020
+:revdate: 2020
+:copyright-year: 2020
+:language: en
+:title-main-en: Pipe provers for verification and calibration of measuring systems for liquids
+:title-main-fr: Tubes étalons pour vérification et étalonnage des ensembles de mesurage de liquides
+:doctype: international-document
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 8
+:technical-committee: Measurement of quantities of fluids
+:workgroup-number: 8
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-intro.adoc[]
+
+include::sections/02-scope.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-pipe-provers.adoc[]
+
+include::sections/05-calibration.adoc[]
+
+include::sections/06-general-requirements.adoc[]
+
+include::sections/07-bibliography.adoc[]
+
+include::sections/aa-example.adoc[]

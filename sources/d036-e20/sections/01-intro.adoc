@@ -1,0 +1,17 @@
+== Introduction
+
+A pipe prover is a measuring system that is used as a measurement standard for volume or for measuring
+the flowrate of liquid. These systems have advantages over other conventional measurement methods
+for precise volumetric measurement using a calibrated base volume, a semi-automatic measurement in
+a production/calibration line, and continuous measurement without interrupting the flow (for certain
+types of provers).
+
+Because of these advantages, pipe provers are widely used as standards to calibrate/verify flow meters
+or as capacity measures for liquids, including water and oil. The users of these instruments include
+national/local metrology institutes, calibration laboratories, manufacturers of measuring instruments,
+water utilities, food industries, and oil/chemical industries.
+
+This Document may be used in conjunction with other International Recommendations and standards
+such as <<R49-1>>, <<R49-2>>, <<R49-3>>, <<D35>>, <<R117-1>>, <<R117-2>>,
+<<R117-3>>, <<ISO91>>, <<ISO4267-2>>, <<ISO7278-1>>, <<ISO7278-2>>, <<ISO7278-3>>,
+<<ISO7278-4>> and <<ISO8222>>.

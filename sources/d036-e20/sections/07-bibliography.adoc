@@ -1,0 +1,38 @@
+[bibliography]
+== Bibliography
+
+* [[[R49-1,OIML R 49-1:2013]]], _Water meters for cold potable water and hot water, Part 1: Metrological
+and technical requirements_
+
+* [[[R49-2,OIML R 49-2:2013]]], _Water meters for cold potable water and hot water, Part 2: Test methods_
+
+* [[[R49-3,OIML R 49-3:2013]]], _Water meters for cold potable water and hot water, Part 3: Test report
+format_
+
+* [[[D35,OIML D 35:2020]]], _Petroleum measurement tables_
+
+* [[[R117-1,OIML R 117-1:2019]]], _Dynamic measuring systems for liquids other than water, Part 1: Metrological and technical requirements_
+
+* [[[R117-2,OIML R 117-2:2019]]], _Dynamic measuring systems for liquids other than water, Part 2: Metrological controls and performance tests_
+
+* [[[R117-3,OIML R 117-3:2019]]], _Dynamic measuring systems for liquids other than water, Part 3: Test report format_
+
+* [[[ISO91,ISO 91:2017]]]
+
+* [[[ISO4267-2,ISO 4267-2:1988]]]
+
+* [[[ISO7278-1,ISO 7278-1:1987]]]
+
+* [[[ISO7278-2,ISO 7278-2:1988]]]
+
+* [[[ISO7278-3,ISO 7278-3:1998]]]
+
+* [[[ISO7278-4,ISO 7278-4:1999]]]
+
+* [[[ISO8222,ISO 8222:2020]]]
+
+* [[[V2,OIML V 2-200:2012]]], _International Vocabulary of Metrology - Basic and General Concepts and Associated Terms_ (VIM), 3rd edition
+
+* [[[V1,OIML V 1:2013]]], _International vocabulary of terms in legal metrology_ (VIML)
+
+* [[[G19,OIML G 19:2017]]], _The role of measurement uncertainty in conformity assessment decisions in legal metrology_

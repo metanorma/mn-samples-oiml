@@ -1,0 +1,8 @@
+== Scope
+
+This Document covers provers, including piston provers, which are used as standards to verify and/or
+calibrate measuring equipment/systems for volume or for measuring the flowrate of liquids. These
+processes for verification/calibration are conducted in compliance with the metrological requirements
+in the relevant OIML Recommendations or other international standards. This Document proposes
+model technical requirements for the design, installation, calibration, and use of provers in legal
+metrology and in industries involved in flow and volume measurements.
