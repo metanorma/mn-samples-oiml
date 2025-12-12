@@ -1,0 +1,8 @@
+[[cls-8]]
+== Maximum permissible errors
+
+The maximum permissible errors are:
+stem:[+ 0.1 "unitsml(degC)"], stem:[- 0.15 "unitsml(degC)"].
+
+These values are valid for thermometer readings after cooling to an ambient temperature
+between stem:[15] and stem:[30 "unitsml(degC)"].

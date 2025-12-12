@@ -1,0 +1,258 @@
+[[appendix-a]]
+[appendix]
+== Verification Method
+
+Verification methods based on this Recommendation are given in <<appendix-a>>. Other
+verification methods may be selected depending on the number and quality of the thermometers
+to be verified and the resources of the verifying authorities (personnel, equipment, etc.). The
+method recommended below can be applied without difficulty for verifying up to 1 million
+thermometers a year.
+
+=== Laboratory equipment
+
+==== Laboratory
+
+===== Protection from the dangers of mercury
+
+The floor and tables on which the testing is carried out must be smooth and impervious.
+The tables must have raised edges. Adequate floor-level ventilation must be provided.
+
+===== Lighting
+
+Special lighting is required for examining and reading the thermometer.
+
+===== Safety devices for stamping machines
+
+The stamping machines must be equipped with safety devices.
+
+==== Measuring equipment
+
+===== {blank}
+Instruments and auxiliary devices for the external examination:
+
+* magnifying glasses with at least stem:[xx 4] magnification ;
+* graduated scales or gauges for checking dimensions.
+
+===== {blank}
+Instruments and auxiliary devices for determining the errors of indication.
+
+[[cls-A.1.2.2.1]]
+====== {blank}
+Well-stirred water baths with interchangeable thermometer-holders. The
+thermometers under examination must be immersed in the bath to the lowest numbered line
+on the scale.
+
+During measurement, the temperature of the water baths must be constant to within
+stem:[0.02 "unitsml(degC)"] and uniform to within better than stem:[0.01 "unitsml(degC)"].
+
+The use of baths with automatic temperature control is recommended.
+
+There must be enough water to ensure that immersion of the thermometers in the bath
+will not cause a temperature drop greater than stem:[0.05 "unitsml(degC)"]. Time can be saved when testing by
+preheating the thermometers in a special bath to a few tenths of a degree Celsius below the test
+temperature.
+
+[[cls-A.1.2.2.2]]
+====== {blank}
+Standard thermometers, e.g., total immersion mercury-in-glass thermometers
+with scale intervals of stem:[0.02 "unitsml(degC)"] or stem:[0.05 "unitsml(degC)"] and an auxiliary scale for stem:[0 "unitsml(degC)"], or platinum resistance
+thermometers.
+
+Preferably two standards thermometers are used to measure the temperature of the baths
+(<<cls-A.3.1>>) and a third standard thermometer to check the first two.
+
+The corrections for standard thermometers, including the correction at stem:[0 "unitsml(degC)"] must be
+determined to within an uncertainty of measurement of preferably stem:[pm 0.01 "unitsml(degC)"] or a maximum
+stem:[pm 0.02 "unitsml(degC)"].
+
+====== {blank}
+Magnifying glasses with at least stem:[xx 4] magnification for reading standard enclosedscale
+mercury-in-glass thermometers.
+
+Monocular or binocular viewers with approximately stem:[xx 10] magnification for reading
+standard solid-stem mercury-in-glass thermometers.
+
+[[cls-A.1.2.2.4]]
+====== {blank}
+A centrifuge with a container for thermometers to drive down the mercury column in
+thermometers under test. The centrifuge must be capable of exerting an acceleration of
+stem:[600 "unitsml(m/s^2)"] on the mercury at the level of the base of the thermometer bulbs (see <<cls-5.4>>).
+
+[[cls-A.1.2.2.5]]
+====== {blank}
+A zero point (stem:[0 "unitsml(degC)"]) ice bath for testing standard thermometers{blank}footnoteblock:[f1]. The device consists
+of a Dewar flask filled with finely crushed ice covered over with water. The water used to
+make the ice and the water in which the ice is submerged must be pure. Its electrical
+conductivity must not exceed stem:[10^-3 "unitsml(S*m^-1)"] at stem:[20 "unitsml(degC)"]. The ice must be carefully tamped so that
+there are no air bubbles in the ice-water mixture. It must be compacted as much as possible
+both prior to measurement and periodically during measurement.
+
+It is recommended that a water purifier, a refrigerator with ice trays, and an ice crusher be
+obtained for preparing the ice-water mixture.
+
+=== {blank}
+External examination footnote:[In view of <<cls-5.2>>, it is advisable to conduct the external examination after testing at the highest temperature (<<cls-A.3>>).]
+
+==== {blank}
+After ascertaining that there are no visible defects or signs of deterioration, the
+thermometer must be examined for compliance with the following provisions of this
+Recommendation:
+
+===== {blank}
+Types (<<cls-3>>)
+
+===== {blank}
+Scale and numbering (<<cls-2.2;and!cls-6>>)
+
+===== {blank}
+Materials (<<cls-4>>)
+
+===== {blank}
+Construction (<<cls-5>>, except <<cls-5.4>>)
+
+===== {blank}
+Inscriptions (<<cls-7>>)
+
+[[cls-A.3]]
+=== Determination of errors of indication
+
+[[cls-A.3.1]]
+==== {blank}
+The thermometers must be examined for compliance with the provisions of <<cls-8>> with
+regard to maximum permissible errors. This examination is performed by comparing the test
+thermometers with standard thermometers (<<cls-A.1.2.2.2>>) in well-stirred water baths
+(<<cls-A.1.2.2.1>>).
+
+==== {blank}
+The thermometers must be checked at a minimum of two temperatures spaced stem:[4 "unitsml(degC)"] apart
+(test temperatures) in the stem:[35.5 "unitsml(degC)"] to stem:[42 "unitsml(degC)"] range.
+
+[[f1]]
+[NOTE]
+--
+Detailed information on the control and calibration of mercury-in-glass laboratory thermometers is
+available, for example, from the following documents:
+
+* Techniques of calibration of liquid-in-glass thermometers.
+(National Standards Laboratory, CSIRO, Chippendale, 2008, Australia).
+* Physikalisch- Technische Bundesanstalt. -Prüfregeln. Fliissigkeits-Glasthermometer.
+(Deutscher - Eichverlag GmbH Braunschweig, Federal Republic of Germany).
+* Indian Standard IS 6274:1971 (or latest Standard issued). Methods of calibrating liquidinglass
+thermometers (published by the Indian Standards Institution, New Delhi, India).
+* British Standard BS 1041: Code for temperature measurement. Section 2.1:1969 (or latest
+Standard issued). Liquid-in-glass expansion thermometers (British Standards Institution,
+London, England).
+* National Physical Laboratory (N.P.L., Department of Trade and Industry). The calibration of
+thermometers, C.R. Barber (Her Majesty's Stationery Office, London, England).
+* American National Standard Z 104.1 ASTM E-77 (or latest Standard issued). Standard
+method for verification and calibration of liquid-in-glass thermometers (American Society
+for Testing and Materials. Philadelphia, Pennsylvania 19103, USA).
+* National Bureau of Standards (N.B.S.). Latest issue of publication of calibration of liquidinglass
+thlermometers (National Bureau of Standards, U.S. Department of Commerce,
+Washington, D.C. USA).
+--
+
+==== {blank}
+Control at a given temperature.
+
+===== {blank}
+Using, if necessary, the centrifuge (<<cls-A.1.2.2.4>>), the mercury column in the
+thermometers under examination is driven down to at least stem:[0.5 "unitsml(degC)"] below the test
+temperature.
+
+===== {blank}
+The thermometers are placed in the water bath once the bath has been brought to the
+test temperature.
+
+===== {blank}
+When the temperature of the water bath is again sufficiently constant (see
+<<cls-A.1.2.2.1>>) and at least 20 seconds have elapsed, the bath temperature (stem:[t]) is measured with
+the standard thermometers, whereupon the thermometers under examination are removed
+from the bath.
+
+When measuring temperature, the corrections to the standard thermometer indications
+must be taken into account (<<cls-A.1.2.2.2>>).
+
+===== {blank}
+The thermometer indications are observed when they have reached ambient
+temperature (stem:[15 "unitsml(degC)"] to stem:[30 "unitsml(degC)"]). The differences between the indications and stem:[t] are the
+thermometer errors at the test temperature.
+
+=== Testing the maximum device
+
+==== {blank}
+The maximum device is tested for compliance with the requirements of <<cls-5.4>>.
+
+==== {blank}
+Immediately after the test at the maximum test temperature, all of the thermometers
+under examination are placed, blub outwards, in a centrifuge (<<cls-A.1.2.2.4>>) and their
+mercury columns are made to recede.
+
+In accordance with <<cls-5.4>>, the speed of the centrifuge is regulated so that the mercury
+at the bottom of the bulbs is subjected to an acceleration of stem:[600 "unitsml(m/s^2)"]. Once this acceleration is
+reached, the centrifuge is switched off.
+
+All thermometers in which the mercury column has not dropped below the lowest
+numbered line must be rejected.
+
+During this test, the ambient temperature must be lower than the minimum scale value of
+the thermometers.
+
+=== Testing the solid-stem thermometer coloration
+
+The scale, numbering and inscriptions will be examined to assure that they have been
+engraved or indelibly printed in compliance with <<cls-6;and!cls-7>>.
+
+The thermometers are immersed for one hour in a 5 % aqueous solution of phenol, the
+temperature of which must be between stem:[20 "unitsml(degC)"] and stem:[30 "unitsml(degC)"], or are subjected to the action of 96 %
+alcohol. The thermometers are then wiped with a. piece of lightcolored cloth which should not
+pick up any stains.
+
+=== Testing the materials
+
+Because the examination which pertains to compliance with the provisions of <<cls-4>>
+(Materials) cannot be conducted on the thermometers themselves, the manufacturer of clinical
+thermometers (mercury-in-glass, with maximum device) must prove to the verifying authorities
+that the materials used meet the requirements of <<cls-4>>.
+
+When considering the test methods to be used in case of doubt, the following provisions
+should be taken into account:
+
+==== {blank}
+Because the value of the depression of zero depends strongly on the conditions under
+which the test is performed, the method outlined in <<appendix-b>> should be used to determine
+the depression of zero (<<cls-4.1>>).
+
+==== {blank}
+The provisions concerning the analysis of the glass in accordance with ISO
+Recommendation R 719-1968 (<<cls-4.2>>) must be taken from that Recommendation.
+
+==== {blank}
+Method for testing the dimensional stability of scale-bearing strips made from materials
+other than either opaline or metal (<<cls-4.3>>)
+
+===== {blank}
+The aforementioned tests are carried out on at least 5 scale-bearing strips marked with
+graduation lines and numbering (<<cls-2.2>>) and manufactured from the material being tested.
+
+===== {blank}
+The distance between the graduation lines which correspond to stem:[36.0 "unitsml(degC)"] and stem:[42.0 "unitsml(degC)"]
+must be measured with a maximum uncertainty of measurement of stem:[pm 0.01 "unitsml(mm)"] (measured
+value stem:[l_1]).
+
+===== {blank}
+The scale-bearing strips are then kept at a temperature of stem:[50 "unitsml(degC)" pm 1 "unitsml(degC)"] for 7 days.
+
+===== {blank}
+After they have been cooled to ambient temperature (stem:[15 "unitsml(degC)"] to stem:[30 "unitsml(degC)"]), the distance
+between the graduation lines which correspond to stem:[36.0 "unitsml(degC)"] and stem:[42.0 "unitsml(degC)"] is measured once
+more (measured value stem:[l_2]).
+
+===== {blank}
+The scale-bearing strip material tested is considered equivalent to opaline or metal with
+respect to its dimensional stability if:
+
+[stem%unnumbered]
+++++
+abs(l_1 - l_2) <= 0.002 * l_1
+++++

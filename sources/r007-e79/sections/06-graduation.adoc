@@ -1,0 +1,28 @@
+[[cls-6]]
+== Graduation and numbering
+
+=== {blank}
+The scale spacing must be at least stem:[0.5 "unitsml(mm)"] for solid-stem thermometers and at least stem:[0.6 "unitsml(mm)"]
+for enclosed-scale thermometers.
+
+=== {blank}
+Graduation lines must be uniform and clear, and must be engraved or printed clearly and
+indelibly.
+
+The graduation lines must be perpendicular to the axis of the thermometer. Their
+thickness must not be more than one-fifth of the length of a scale division for enclosed-scale
+thermometers, or one quarter of the length of a scale division for solid-stem thermometers. The
+half-degree and degree lines must be longer than the other lines.
+
+=== {blank}
+The lines corresponding to degrees must be numbered ; these numbers must be engraved or
+indelibly printed.
+
+For solid-stem thermometers, the numbering of the line corresponding to stem:[37 "unitsml(degC)"] is
+optional and may be replaced by the special form of marking specified in <<cls-6.4>>.
+
+[[cls-6.4]]
+=== {blank}
+Only the line corresponding to the temperature of stem:[37 "unitsml(degC)"] may be indicated specially, using a
+different color from that of the numbers and/or by additional marking such as a dot, asterisk
+or arrow.

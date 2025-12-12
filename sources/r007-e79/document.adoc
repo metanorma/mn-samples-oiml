@@ -1,0 +1,49 @@
+= Clinical thermometers (mercury-in-glass, with maximum device)
+:docidentifier: OIML R 7
+:series: R
+:docnumber: 7
+:edition: 1979
+:revdate: 1979
+:copyright-year: 1979
+:language: en
+:title-main-en: Clinical thermometers (mercury-in-glass, with maximum device)
+:title-main-fr: Thermomètres médicaux (à mercure, en verre, avec dispositif à maximum)
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 18
+:subcommittee-number: 2
+:subcommittee: Medical thermometers
+:toclevels-pdf: 1
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-field-of-application.adoc[]
+
+include::sections/02-unit.adoc[]
+
+include::sections/03-types.adoc[]
+
+include::sections/04-materials.adoc[]
+
+include::sections/05-construction.adoc[]
+
+include::sections/06-graduation.adoc[]
+
+include::sections/07-inscriptions.adoc[]
+
+include::sections/08-max-permissible-errors.adoc[]
+
+include::sections/09-influence.adoc[]
+
+include::sections/10-space-for-stamping.adoc[]
+
+include::sections/11-metrological-controls.adoc[]
+
+include::sections/aa-verification.adoc[]
+
+include::sections/ab-determination.adoc[]

@@ -1,0 +1,56 @@
+== Foreword
+
+The International Organization of Legal Metrology
+(OIML) is a worldwide, intergovernmental
+organization whose primary aim is to harmonize the
+regulations and metrological controls applied by the
+national metrological services, or related
+organizations, of its Member States.
+
+The two main categories of OIML publications are:
+
+* *International Recommendations (OIML R)*,
+which are model regulations that establish the
+metrological characteristics required of certain
+measuring instruments and which specify
+methods and equipment for checking their
+conformity; the OIML Member States shall
+implement these Recommendations to the
+greatest possible extent;
+* *International Documents (OIML D)*, which are
+informative in nature and intended to improve
+the work of the metrological services.
+
+OIML Draft Recommendations and Documents are
+developed by technical committees or subcommittees
+which are formed by the Member States. Certain
+international and regional institutions also participate
+on a consultation basis.
+
+Cooperative agreements are established between
+OIML and certain institutions, such as ISO and IEC,
+with the objective of avoiding contradictory
+requirements; consequently, manufacturers and users
+of measuring instruments, test laboratories, etc. may
+apply simultaneously OIML publications and those
+of other institutions.
+
+International Recommendations and International
+Documents are published in French (F) and
+English (E) and are subject to periodic revision.
+
+This publication - reference OIML R 7 (E), edition
+1979 - which is under the responsibility of Technical
+Committee TC 18/SC 2 _Medical thermometers_, was
+sanctioned by the Fifth International Conference of
+Legal Metrology in 1976.
+
+OIML publications may be obtained from the
+Organization's headquarters:
+
+Bureau International de Métrologie Légale +
+11, rue Turgot - 75009 Paris - France +
+Telephone: 33 (0)1 48 78 12 82 and 42 85 27 11 +
+Fax: 33 (0)1 42 82 17 27 +
+E-mail: biml@oiml.org +
+Internet: www.oiml.org
