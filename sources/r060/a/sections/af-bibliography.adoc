@@ -1,7 +1,10 @@
 
 [[annex-f]]
-[bibliography]
+[appendix]
 == Bibliography
+
+[bibliography]
+=== Bibliography
 
 * [[[OIML_R_76_2006,OIML R 76:2006]]] _Non-automatic weighing instruments_
 
