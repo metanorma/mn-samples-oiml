@@ -1,0 +1,249 @@
+[[annex-c]]
+[appendix]
+== Minimum requirements for designated bodies
+
+=== Legal responsibility
+
+The designated body should be a legal entity, or a defined part of a legal entity, such that the legal
+entity can be held legally responsible for all its certification activities. Where a designated body is part
+of another legal entity it should clearly identify which legal entity has responsibility for each
+certification.
+
+NOTE: A governmental designated body is deemed to be a legal entity on the basis of its
+governmental status.
+
+NOTE: A designated body, along with other designated bodies, can be owned by (or be under
+another contractual relationship with) a larger legal entity wherein all bodies work under a
+common management structure and management system. In such a situation each
+certification can only be the responsibility of one designated body/legal entity.
+
+=== Impartiality and non-discriminatory conditions
+
+==== Management of impartiality
+
+===== {blank}
+The designated body should have top management commitment to impartiality.
+
+===== {blank}
+The designated body should have, and make available on request, a statement that it
+understands the importance of impartiality in carrying out its certification activities, manages conflicts
+of interest, and ensures the objectivity of its certification activities.
+
+===== {blank}
+The designated body should identify risks to its impartiality on an ongoing basis. This should
+include those risks that arise from its activities, or from its relationships, or from the relationships of
+its personnel. However, such relationships do not necessarily present a designated body with a risk to
+impartiality.
+
+[[note-C.2.1.3]]
+NOTE: A relationship that threatens the impartiality of the designated body can be based on
+ownership, governance, management, personnel, shared resources, finances, contracts,
+marketing and payment of a sales commission or other inducement for the referral of new
+clients, etc.
+
+===== {blank}
+If a risk to impartiality is identified, the designated body should be able to demonstrate how
+it eliminates or minimizes such risk.
+
+===== {blank}
+When a relationship poses an unacceptable threat to impartiality (such as a wholly owned
+subsidiary of the designated body requesting product certification from its parent, or when the
+designated body belongs to a corporation or holding company, or manufacturer, etc. which requests
+product certification from its related designated body), then certification should not be provided.
+
+===== {blank}
+Designated bodies should document how they manage their certification business and any
+other activities so as to eliminate actual conflicts of interest and minimize any identified risk to
+impartiality. The documentation should cover all potential sources of conflicts of interest that are
+identified, whether they arise from within the designated body or from the activities of other persons,
+bodies or organizations.
+
+===== {blank}
+The designated body and any group within its organizational control or personnel, employed
+or contracted in an organization within its organizational control, should not offer or provide
+consultancy on the product that it certifies. This also applies to that part of government identified as
+the designated body.
+
+===== {blank}
+The designated body should not give prescriptive advice or consultancy as part of an
+evaluation.
+
+NOTE: This does not preclude normal exchange of information (including explaining its findings
+and/or clarifying the requirements) with packers and other interested parties.
+
+===== {blank}
+The designated body (and any group within its organizational control or personnel, employed
+or contracted, in an organization within its organizational control) should not offer or provide internal
+management system audits to the packer (or other legal entities involved in the certification process),
+in those schemes that require the packer (or other legal entities involved in the certification process),
+to perform internal management system audits. This also applies to that part of government identified
+as the designated body.
+
+NOTE: See <<note-C.2.1.3>>.
+
+===== {blank}
+The designated body should not certify a product on which a packer has received
+consultancy or internal evaluations, where the relationship between the consultancy organization and
+the designated body poses an unacceptable threat to the impartiality of the designated body.
+
+NOTE: Allowing a minimum period of two years to elapse following the end of the product
+consultancy is one way of reducing the threat to impartiality to an acceptable level.
+
+===== {blank}
+The designated body's activities should not be marketed or offered as being linked with the
+activities of an organization that provides product consultancy. The designated body should take
+action to correct inappropriate claims by any consultancy organization stating or implying that
+certification would be simpler, easier, faster or less expensive if the designated body were used.
+A designated body should not state or imply that certification would be simpler, easier, faster or less
+expensive if a specified consultancy organization were used.
+
+===== {blank}
+To ensure that there are no conflicts of interest, personnel who have provided consultancy
+for, or been employed by a packer, including those acting in a managerial capacity, should not be used
+by the designated body to make a certification decision, nor to resolve a complaint or appeal for that
+packer within two years following the end of the consultancy or employment.
+
+NOTE: This requirement does not apply to an individual participating in a group/committee.
+
+===== {blank}
+The designated body should take action to respond to any threats to its impartiality arising
+from the actions of other persons, bodies or organizations.
+
+===== {blank}
+All designated body personnel, either internal or external, or committees, who could
+influence the certification activities, should act impartially and should not allow commercial, financial
+or other pressures to compromise impartiality.
+
+===== {blank}
+The designated body should manage the risk to impartiality arising from over-familiarity
+between its personnel and the packer.
+
+==== Management of non-discriminatory conditions
+
+===== {blank}
+The policies and procedures under which the designated body operates and their
+administration should be non-discriminatory and should be administered in a non-discriminatory
+manner. Procedures should not be used to impede or inhibit access by applicants.
+
+===== {blank}
+Designated bodies should not practice any form of discrimination such as hidden
+discrimination by speeding up or delaying the processing of applications.
+
+===== {blank}
+The designated body should make its services accessible to all applicants whose activities
+fall within its declared field of operation. There should not be undue financial or other conditions.
+
+===== {blank}
+Access to the certification process should not be conditional upon the size of the packer or
+membership of any association or group, nor should certification be conditional upon the number of
+certifications already issued.
+
+NOTE: A designated body may deny certification to a packer when fundamental/demonstrated
+reasons exist, such as illegal activities, history of repeated non compliances with the
+certification/product requirements and similar issues.
+
+===== {blank}
+The designated body should confine its requirements, evaluation (if the designated body is
+responsible for evaluation), review, decision, and surveillance (if any) to those matters specifically
+related to the scope of the certification.
+
+=== Competency
+
+Designated bodies should demonstrate their competency for the certification of a packer's production
+system in accordance with the provisions of this Guide and for the inspection of prepackages for
+compliance with stated requirements, either
+
+. by being accredited by a recognized accreditation body that has signed the IAF MLA or
+applicable ILAC MRA. Ongoing competency should be ensured by the applicable
+accreditation body according to its rules. The designated body should submit to the authority
+which designated the body all assessment reports received from the accreditation body, or
+. by having an entrenched management system and by being peer assessed by an assessment
+team, nominated by the designating authority, consisting of members independent of the
+designating authority. Ongoing competency should be ensured by submitting copies of an
+annual internal audit and management review done on its own management system and
+being subjected to peer assessments arranged by the designating authority at least every five
+years or more often at its discretion, should doubt exist concerning the competency.
+
+=== Assessment of compliance
+
+Designated bodies should ensure that packers that they have certified fulfil the requirements by
+carrying out inspections of packers as required and issuing assessment reports after each visit. The
+following specific requirements for assessing compliance should be applied:
+
+==== {blank}
+In the case of initial assessment by a designated body, packers should be subjected to at least
+the following:
+
+. determination that the packer complies with the requirements of <<annex-a>> and has the
+necessary qualified personnel, facilities, measuring and test equipment, and control
+procedures to provide capability for ensuring compliance of prepackages to the stated
+requirements;
+. determination of the suitability of the packer's production system; and
+. determination of the conformity of prepackages produced by the packer by means of
+reference testing.
+
+==== {blank}
+In order to maintain certification the packer should, depending on the applicable scheme, be
+subject to:
+
+. an assessment of the continued suitability and effectiveness of the packer's production
+system at specified intervals not exceeding twelve months through inspection (including
+review of required process control records), testing of prepackages and, where
+applicable, witnessing the procedures required by the production system; and
+. unannounced inspections, surveillance, and testing if necessary; or
+. the implementation of more frequent or detailed inspections, surveillance, and testing
+when a need is indicated.
+
+=== Certification of packers
+
+Designated bodies should issue a certificate, as detailed in <<annex-d>>, to each prepacking plant that
+conforms to all the applicable requirements.
+
+=== Suspension or withdrawal of a certificate
+
+The certificate should be suspended or withdrawn in the following cases according to the rules of the
+designated body:
+
+. non-resolution of non-compliance with the stated requirements;
+. two or more non-compliances with the same element of the scheme or stated
+requirements for prepackages; or
+. any non-compliance that the designated body considers necessary.
+
+=== Information on packers and certificates
+
+Designated bodies should maintain an up to date register of all the certificates that they have issued,
+including information about their validity. Such records should be publicly available on their website.
+
+NOTE: National legislation may require a designated body to notify the national authority
+responsible for the control of prepackages about any change in the status of a packer's
+certificate.
+
+=== Procedures for certification
+
+Designated bodies should have documented procedures for certification as follows:
+
+. application to apply the quantity mark and period of validity of registration;
+. the means by which a packer may request permission to withdraw from participation in
+the scheme;
+. the procedure to withdraw certification if a packer fails to meet the requirements of the
+scheme;
+. the establishment of a fair and equitable appeals mechanism by which a packer may
+request resolution of any disputes that arise in an assessment of the implementation and
+maintenance of its production system and applying a mark of conformity if applicable;
+and
+. rules for investigating complaints received from third parties concerning the correctness
+of prepackages packed by a certified packer.
+
+=== Notification of change in designation status
+
+A designated body should without delay inform all packers that it has certified the suspension or
+withdrawal of its designation, and provide them with adequate instructions to seek certification with
+another designated body or to cease forthwith the application of the mark of conformity to
+prepackages if applicable.
+
+=== Collaboration with other designated bodies
+
+Designated bodies should collaborate, as applicable, in the following efforts:
+
+. to monitor the capability and competence of their packers; and
+. to achieve and maintain competence for determining conformity to requirements.
