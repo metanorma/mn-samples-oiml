@@ -1,0 +1,28 @@
+[[cls-4]]
+== Materials
+
+[[cls-4.1]]
+=== {blank}
+The thermometer bulb must be made from a type of glass which assures that the depression
+of zero, determined in accordance with the specifications given in <<appendix-b>>, does not
+exceed stem:[0.07 "unitsml(degC)"]. The glass must be identified visibly and indelibly:
+
+* either by the glass manufacturer
+* or by the manufacturer of the thermometer (see <<cls-7.1.3>>)
+
+[[cls-4.2]]
+=== {blank}
+The types of glass used for the maximum device, capillary tube, and bulb must meet the
+following requirements:
+
+When the glass is analyzed according to the requirements of ISO Recommendation
+R 719-1968 (Determination of the hydrolytic resistance of glass grains at stem:[98 "unitsml(degC)"]), the quantity of
+alkali passed into solution for stem:[1 "unitsml(g)"] of glass must correspond to no more than stem:[263.5 "unitsml(ug)"] of Na~2~O.
+
+[[cls-4.3]]
+=== {blank}
+The scale-bearing strip of an enclosed-scale thermometer must be made of opaline glass,
+metal, or a material having an equivalent dimensional stability.
+
+=== {blank}
+The protective sheath of an enclosed-scale thermometer must be made of glass.

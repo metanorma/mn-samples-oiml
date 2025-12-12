@@ -1,0 +1,15 @@
+[[cls-9]]
+== Influence of immersion time footnote:[Requirements relating to thermometer characteristics are given in <<cls-9>>; a free choice of test method is permitted, provided the law of the variation of the indication of the thermometer as a function of immersion time is known.]
+
+If a thermometer at temperature stem:[t_1] (stem:[15 "unitsml(degC)" <= t_1 <= 30 "unitsml(degC)"]) is suddenly immersed in a wellstirred
+water bath having a constant temperature stem:[t_2 (35.5 "unitsml(degC)" <= t_2 <= 42 "unitsml(degC)"]) and is withdrawn after
+20 seconds, the thermometer reading, after cooling to ambient temperature (stem:[15 "unitsml(degC)"] to stem:[30 "unitsml(degC)"]),
+
+* must comply with maximum permissible error requirements (<<cls-8>>), and
+* must not deviate from its stabilized reading for temperature stem:[t_2] by more than
+stem:[0.005] (stem:[t_2 - t_1]).
+
+This stabilized reading is the thermometer reading obtained when the thermometer has
+been cooled to ambient temperature, after reaching complete thermal equilibrium with the water
+bath at temperature stem:[t_2]. This reading must also meet the maximum permissible error requirements
+stipulated in <<cls-8>>.

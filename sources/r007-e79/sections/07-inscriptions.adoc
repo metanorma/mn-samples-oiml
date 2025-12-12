@@ -1,0 +1,20 @@
+[[cls-7]]
+== Inscriptions
+
+=== {blank}
+The following inscriptions must be engraved or indelibly printed on the scalebearing strip
+of enclosed-scale thermometers and on the stem of solid-stem thermometers:
+
+==== {blank}
+The symbol "stem:["unitsml(degC)"]" near the scale.
+
+==== {blank}
+The manufacturer's name or trademark.
+
+[[cls-7.1.3]]
+==== {blank}
+An indication identifying the glass used for the bulb, if the glass is not already identified
+by its maker.
+
+=== {blank}
+Other inscriptions may be added, but only if there is no risk of misleading the user.

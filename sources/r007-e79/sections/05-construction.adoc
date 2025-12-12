@@ -1,0 +1,41 @@
+[[cls-5]]
+== Construction
+
+=== {blank}
+The thermometer must be free from any defects which might prevent it from operating
+normally, or which might lead to errors by the users.
+
+[[cls-5.2]]
+=== {blank}
+The capillary tube must allow the mercury column to be seen clearly throughout its length,
+and the position of the top of the meniscus to be defined (preferably, it should be of the
+prismatic magnifying type).
+
+The mercury column and scale must be clearly visible simultaneously.
+
+=== {blank}
+The mercury must be sufficiently pure and dry
+
+The bulb, capillary tube, and mercury must be sufficiently free from entrapped gas, debris
+and foreign bodies in order to ensure the correct functioning of the thermometer.
+
+[[cls-5.4]]
+=== {blank}
+When the thermometer is heated slowly the mercury column must rise with an even
+movement, without appreciable jerks. After the thermometer has been heated to at least
+stem:[37 "unitsml(degC)"] and then cooled to a temperature below minimum scale value, the mercury column
+must fall below the lowest numbered line when the mercury at the base of the bulb is
+subjected to an acceleration of stem:[600 "unitsml(m/s^2)"].
+
+=== {blank}
+The scale-bearing strip in an enclosed-scale thermometer must be fixed tightly against the
+capillary tube, an the method of fixing must prevent any displacement of one part with
+respect to the other.
+
+The position of the strip with respect to the capillary tube must be clearly marked, so that
+any possible accidental relative displacement of the two parts can be easily detected
+footnote:[For example, by means of an indelebile line marked on the protective sheath, level with one of the numbered scale lines.].
+
+=== {blank}
+The protective sheath of an enclosed-scale thermometer must be free from moisture,
+mercury, debris or any foreign bodies.

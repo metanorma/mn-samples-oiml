@@ -1,0 +1,12 @@
+== Field of application
+
+The provisions of this Recommendation apply to those thermometers called "clinical
+thermometers", of the mercury-in-glass type, with a maximum device, intended for
+measurement of the internal human body temperature.
+
+This Recommendation does not apply to special purpose thermometers (thermometers for
+premature babies, ovulation thermometers), which owing to their measurement range, scale
+interval or maximum permissible error, do not meet the following requirements.
+
+These special purpose thermometers, as well as thermometers for veterinary applications,
+could subsequently be made the subject of additions to this Recommendation.

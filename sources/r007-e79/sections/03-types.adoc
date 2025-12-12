@@ -1,0 +1,19 @@
+[[cls-3]]
+== Types
+
+=== {blank}
+The clinical thermometers (mercury-in-glass, with maximum device) covered by this
+Recommendation may be either of the solid-stem type or the enclosed-scale type.
+
+==== {blank}
+In the case of a solid-stem thermometer, the scale is marked directly on the stem.
+
+==== {blank}
+In the case of an enclosed-scale thermometer, the scale is marked on a "scalebearing
+strip" fixed longitudinally behind the capillary tube. The capillary tube and the scale-bearing
+strip are enclosed in a transparent, sealed tube fused to the bulb and forming a protective
+sheath.
+
+=== {blank}
+The thermometers must include a maximum device which prevents the mercury column
+from receding solely because of the cooling of the thermometer.

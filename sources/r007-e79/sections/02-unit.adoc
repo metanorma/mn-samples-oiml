@@ -1,0 +1,8 @@
+== Unit of temperature and scale graduation
+
+=== {blank}
+The unit of temperature is the degree Celsius, symbol stem:["unitsml(degC)"].
+
+[[cls-2.2]]
+=== {blank}
+The scale must extend at least from stem:[35.5 "unitsml(degC)"] to stem:[42.0 "unitsml(degC)"] with a scale interval of stem:[0.1 "unitsml(degC)"].

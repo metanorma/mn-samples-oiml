@@ -1,0 +1,22 @@
+== Metrological controls
+
+=== {blank}
+When clinical thermometers are subject to the governmental metrological controls of a
+particular country, all or some of the following controls must be included, depending on the
+internal legislation of the country involved:
+
+. Pattern approval
++
+--
+Each pattern of thermometer from each manufacturer is submitted to the pattern approval
+procedure.
+
+No modification of an approved pattern may be made without special authorization.
+--
+. Initial verification
+. Periodic verifications
+
+=== Certificates
+
+The verifying authorities may issue certificates indicating the results of the metrological
+examination.

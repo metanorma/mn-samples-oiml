@@ -1,0 +1,126 @@
+[[appendix-b]]
+[appendix]
+== Determination of the Mean Depression of Zero of Thermometers
+
+=== {blank}
+It is not possible to determine the depression of zero of clinical thermometers (mercury-inglass,
+with maximum device) covered by this Recommendation. Therefore, special test
+thermometers (<<cls-B.2>>) must be manufactured from the glass being examined in order to
+conduct the necessary measurements. The following provisions must be observed in
+manufacturing the test thermometers and conducting the measurements.
+
+[[cls-B.2]]
+=== {blank}
+The test thermometers must meet the following requirements
+
+==== {blank}
+Scale range: at least from stem:[-3.0 "unitsml(degC)"] to stem:[+ 3.0 "unitsml(degC)"].
+
+==== {blank}
+Scale interval: stem:[0.02 "unitsml(degC)"], stem:[0.05 "unitsml(degC)"] or stem:[0.1 "unitsml(degC)"].
+
+==== {blank}
+The scale spacing must be a least stem:[0.7 "unitsml(mm)"] for enclosed-scale thermometers and at least
+stem:[1.0 "unitsml(mm)"] for solid-stem thermometers.
+
+==== {blank}
+The expansion chamber must be large enough to allow the thermometers to be heated to
+stem:[400 "unitsml(degC)"] without damage.
+
+==== {blank}
+The thermometers must be properly stabilized by the manufacturer and must meet the
+requirements of the stabilization test (<<cls-B.3>>).
+
+[[cls-B.3]]
+=== {blank}
+The proper stabilization of each test thermometer must be tested in accordance with the
+following provisions:
+
+[[cls-B.3.1]]
+==== {blank}
+The thermometer is heated in a test bath (liquid bath or metal block type oven) from
+ambient temperature up to stem:[350 "unitsml(degC)" pm 10 "unitsml(degC)"] and kept at this temperature for at least five
+minutes. It is then cooled to stem:[50 "unitsml(degC)"] in the test bath, which decreases in temperature by stem:[10] to
+stem:[15 "unitsml(degC/h)"].
+
+==== {blank}
+When the thermometer has reached a temperature of stem:[50 "unitsml(degC)"], it is removed from the test
+bath and its stem:[0 "unitsml(degC)"] correction (value stem:[K_1]) is determined (<<cls-A.1.2.2.5>>).
+
+==== {blank}
+The thermometer is then heated a second time to stem:[350 "unitsml(degC)" pm 10 "unitsml(degC)"] in the test bath and kept
+at this temperature for 24 hours. It is then cooled to stem:[50 "unitsml(degC)"], as before (<<cls-B.3.1>>).
+
+[[cls-B.3.4]]
+==== {blank}
+When the thermometer has reached a temperature of stem:[50 "unitsml(degC)"], it is removed from the test
+bath and its stem:[0 "unitsml(degC)"] correction (value stem:[K_2]) is determined once more.
+
+==== {blank}
+stem:[K_2] must not differ from stem:[K_1], by more than stem:[0.15 "unitsml(degC)"]. Thermometers which do not meet this
+requirement must not be used to determine the depression of zero.
+
+=== {blank}
+The mean depression of zero is determined in accordance with the following provisions:
+
+[[cls-B.4.1]]
+==== {blank}
+At least three test thermometers must be used. They must be manufactured from the glass
+being tested, have met the requirements of the stabilization test (<<cls-B.3>>), and not have
+been heated above the ambient temperature once value stem:[K_2] has been determined (<<cls-B.3.4>>).
+
+[[cls-B.4.2]]
+==== {blank}
+Each of these thermometers must be tested at least three times in accordance with the
+provisions of <<cls-B.4.2.1>>, <<cls-B.4.2.2>> and <<cls-B.4.2.3>> below.
+
+[[cls-B.4.2.1]]
+===== {blank}
+The thermometer is kept in a test bath at stem:[100 "unitsml(degC)" pm 1.0 "unitsml(degC)"] for 30 minutes. It is then
+removed from the bath and allowed to cool in air. While it is cooling to ambient temperature,
+its bulb must not come into contact with other objects.
+
+[[cls-B.4.2.2]]
+===== {blank}
+The stem:[0 "unitsml(degC)"] correction of the thermometer is determined not later than 15 minutes after
+the thermometer has been removed from the test bath. The correction value obtained is
+designated by the symbol stem:[K_3].
+
+[[cls-B.4.2.3]]
+===== {blank}
+The thermometer is then kept for one week at a temperature between stem:[20 "unitsml(degC)"] and stem:[25 "unitsml(degC)"].
+At the end of the week the stem:[0 "unitsml(degC)"] correction is determined. This correction value is designated
+stem:[K_4]. The procedures described in <<cls-B.4.2.1>> and <<cls-B.4.2.2>> are then repeated, and a stem:[0 "unitsml(degC)"]
+correction value, designated stem:[K_5], is obtained.
+
+[[cls-B.4.2.4]]
+===== {blank}
+The procedures described in <<cls-B.4.2.3>> are repeated to obtain a series of stem:[n]
+differences stem:[K_2 - K_3], stem:[K_4 - K_5], stem:[K_(2n) - K_(2n+1)]. These are the values of the thermometer's
+depression of zero from the first, second and stem:[n]-th series of measurements, respectively.
+
+[[cls-B.4.2.5]]
+===== {blank}
+When stem:[n] series of measurements have been made with stem:[m] test thermometers, the
+following expression is obtained for the mean depression of zero of these thermometers:
+
+[stem%unnumbered]
+++++
+1/(mn) sum_(i=1)^m [(K_2^((i)) - K_3^((i))) + (K_4^((i)) - K_5^((i))) + ... + (K_(2n)^((i)) - K_(2n+1)^((i)))],
+++++
+
+which must not exceed stem:[0.07 "unitsml(degC)"] (<<cls-4.1>>).
+
+In accordance with the provisions of <<cls-B.4.1;and!cls-B.4.2>>, the conditions
+
+[stem%unnumbered]
+++++
+m >= 3 " and " n >= 3
+++++
+
+must be met for stem:[m] and stem:[n], and the standard deviation of the mean depression of zero
+determined in accordance with the aforementioned provisions, must not exceed stem:[pm 0.01 "unitsml(degC)"].
+
+===== {blank}
+If a more accurate value for the mean depression of zero is required, at least five series
+of measurements on at least five test thermometers must be carried out.
