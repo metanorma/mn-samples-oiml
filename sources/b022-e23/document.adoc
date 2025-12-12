@@ -1,7 +1,7 @@
 = Policy and rules for the reimbursement of travel expenses incurred by the CIML President in attending legal metrology related events
 :docidentifier: OIML B 22
 :series: B
-:docnumber: 22
+:docnumber: 22
 :edition: 2023
 :revdate: 2023-10-01
 :copyright-year: 2023
