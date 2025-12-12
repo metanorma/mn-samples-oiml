@@ -1,0 +1,222 @@
+
+[[sec-2]]
+== Terminology
+
+[[sec-2.1]]
+=== gas analytical system
+
+assembly to carry out specified gas analytical measurements (<<ISO_7504_2001>>)
+
+NOTE: In this Recommendation, a gas analytical system means a system that continuously
+measures the volume fraction of CO (carbon monoxide), NO (nitrogen monoxide ), NO~2~
+(nitrogen dioxide), or sum of nitrogen oxides (NO~x~), or measures only CO or only
+NO and NO2, or NOx by analyzing the gas samples taken directly from the smokestack
+or gas pipe in industry. This system includes
+
+* a means for sampling and sample preparation (in the case of extractive sampling),
+* a gas analyzer,
+* a means for adjusting zero (gas analyzer),
+* a means for adjusting the gas analyzer using a calibration gas mixture,
+* a means for the accumulation, processing and storage of measurement results,
+* a means for the control and adjustment of the main components of the system,
+* an interface to connect devices measuring the gas flow parameters of exhaust emissions, and
+* gas and electric lines of communication.
+
+[[sec-2.2]]
+=== sampling probe
+
+device inserted into the gas, designed to take a representative sample thereof, to
+which a sample line or a sample container is connected (<<ISO_7504_2001>>)
+
+[[sec-2.3]]
+=== sample line
+
+line provided to remove a representative sample of a gas to be analyzed and to transport
+it to the analyzer (<<ISO_7504_2001>>)
+
+NOTE: A sample line may include devices such as coarse and fine filters, dryers or
+separators which are necessary to prepare the sample for analysis.
+
+[[sec-2.4]]
+=== gas analyzer
+
+assembly which enables qualitative and/or quantitative determinations (measurements)
+of substances content on the basis of their chemical or physical properties (<<ISO_7504_2001>>)
+
+NOTE: A gas analyzer measures all components covered by this Recommendation
+(CO, NO, NO~2~, or NO~x~), or measures only CO, or only NO and NO~2~, or NO~x~.
+
+[[sec-2.5]]
+=== input measurement signal
+
+measurement signal functionally related to the measurand -- the volume fraction of
+a component to be measured, which enters the input of a measuring instrument, a measuring
+channel or a separate converter component
+
+[[sec-2.6]]
+=== gas handling system
+
+all components of the gas analytical system, from the sampling probe to the tube
+of the gas sample outlet, through which the gas samples, including the Calibration
+Gas Mixture (hereafter termed "CGM") and the zero gas, are conveyed by the pump
+
+[[sec-2.7]]
+=== adjustment
+
+set of operations carried out on a measuring system so that it provides prescribed
+indications corresponding to given values of a quantity to be measured (<<OIML_V_2_2012,clause=3.11>>)
+
+[[sec-2.7.1]]
+==== user adjustment
+
+adjustment employing only the means at the disposal of the user
+
+[[sec-2.7.2]]
+==== adjustment means
+
+means allowing the adjustment of the gas analytical system by the user OIML R 144-1:2013 (E)
+
+[[sec-2.7.3]]
+==== semi-automatic adjustment means
+
+means allowing the user to adjust the gas analytical system without having the possibility
+of changing the input measurement signal, whether the automatic adjustment is required
+or not
+
+NOTE: For those gas analytical systems that require the calibration gas mixture to
+be entered manually, the adjustment means are considered to be semi-automatic.
+
+[[sec-2.7.4]]
+==== automatic adjustment means
+
+means which perform the adjustment of the gas analytical system as programmed without
+the intervention of the user, to initiate the adjustment or regulate the measurement
+signal
+
+[[sec-2.8]]
+=== zero-setting means (of a gas analyzer)
+
+means to set the indication of the gas analyzer to zero
+
+[[sec-2.9]]
+=== means for adjustment of a gas analyzer by the calibration gas mixture
+
+means to adjust the indication of the gas analyzer to the value of the CO, NO and
+NO~2~ volume fraction in a CGM
+
+[[sec-2.10]]
+=== internal adjustment means
+
+means to adjust the gas analyzer without the use of a CGM
+
+[[sec-2.11]]
+=== warm-up time
+
+period of time that the gas analytical system requires from applying power to the
+instrument to attaining the operating mode at which the instrument will operate within
+the maximum permissible errors
+
+NOTE: For a gas analyzer this is the time between the instant at which power is applied
+to it and the instant at which the measurement result of the volume fraction, a CGM
+being supplied to the input, is within the permissible limits.
+
+[[sec-2.12]]
+=== response time
+
+time interval between the instant of a stepwise concentration change of the component
+being measured (CO, NO, NO~2~ or NO~x~) and the instant at which the signal reaches
+90 % of its stable value
+
+[[sec-2.13]]
+=== error
+
+measured quantity value minus a reference quantity value (<<OIML_V_2_2012,clause=2.16>>)
+
+[[sec-2.14]]
+=== intrinsic error
+
+error of a gas analyzer, determined under reference conditions
+
+[[sec-2.15]]
+=== relative error
+
+absolute error of measurement divided by the reference value of the measurand
+
+[[sec-2.16]]
+=== fault
+
+difference between the error of indication and the intrinsic error of the measuring
+instrument (<<OIML_V_1_2012,clause=5.11>>)
+
+NOTE: Random errors presenting momentary variations in the indication but which cannot
+be interpreted, recorded or transmitted as measuring results are considered to be
+insignificant faults.
+
+[[sec-2.17]]
+=== influence quantity
+
+quantity that, in a direct measurement, does not affect the quantity that is actually
+measured, but that affects the relation between the indication and the measurement
+result (<<OIML_V_2_2012,clause=2.52>>)
+
+[[sec-2.18]]
+=== rated operating conditions
+
+operating conditions that must be fulfilled during measurement in order that a measuring
+instrument or measuring system perform as designed (<<OIML_V_2_2012,clause=4.9>>)
+
+[[sec-2.19]]
+=== disturbance
+
+influence quantity having a value within the limits specified in this Recommendation
+but outside the specified rated operating conditions of a measuring instrument (<<OIML_V_1_2012,clause=5.16>>)
+
+[[sec-2.20]]
+=== reference condition
+
+operating condition prescribed for evaluating the performance of a measuring instrument
+or measuring system or for comparison of measurement results (<<OIML_V_2_2012,clause=4.11>>)
+
+[[sec-2.21]]
+=== checking facility
+
+facility that is incorporated in a measuring instrument and which enables significant
+faults to be detected and acted upon
+
+NOTE: "Acted upon" refers to any adequate response by the measuring instrument
+(luminous signal, acoustic signal, prevention of the measurement process, etc.)
+(<<OIML_V_1_2012,clause=5.06>>).
+
+[[sec-2.22]]
+=== gas sample
+
+gas taken from the pipe or gas duct of the stationary source of emissions, conveyed
+to the gas analyzer for analysis
+
+[[sec-2.23]]
+=== instrumental drift
+
+continuous or incremental change over time in the indication, due to changes in the
+metrological properties of a measuring instrument (<<OIML_V_2_2012,clause=4.21>>)
+
+NOTE: In this Recommendation, "drift" means a change in the indication which occurs
+during a stated period of time at a given concentration of CO, NO and NO~2~ in a
+sample to be analyzed.
+
+[[sec-2.24]]
+=== calibration gas mixture (CGM)
+
+stable gas mixture of known concentration (volume fraction) of a component being
+determined and used for periodic calibration and adjustment of the gas analyzer,
+as well as for tests of its metrological characteristics for compliance with the
+requirements of normative documents
+
+[[sec-2.25]]
+=== Abbreviations
+
+CGM:: Calibration Gas Mixture
+IEC:: International Electrotechnical Commission
+ISO:: International Organization for Standardization
+MPE:: Maximum Permissible Error
+ppm:: part per million (e.g. 1 cm3/1 m3) (<<ISO_80000_9_2009>>, <<SI_8th_2006,clause=5.3.7>>)
+EUT:: Equipment Under Test

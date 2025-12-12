@@ -1,0 +1,86 @@
+
+[[sec-3]]
+== Description of the gas analytical system
+
+[[sec-3.1]]
+=== General
+
+The gas analytical system consists of a means for sampling, preparation of samples,
+and measurement of the CO, NO, NO~2~ or NO~x~ concentration in the pipes and gas
+ducts of industrial enterprises, as well as a means for conveying the gas sample
+through a gas handling system. The gas analyzer incorporated in the gas handling
+system analyzes the sample and provides a signal related to the volume fraction of
+the gas component being determined which arrives at the data accumulation unit where
+it is processed, recorded and stored.
+
+The metrological characteristics of the gas analytical system depend on the corresponding
+characteristics of the units included. An example of the composition of a gas analytical
+system using calibration gas mixtures for its adjustment is shown in Figure 1.
+
+[[sec-3.2]]
+=== Principal units
+
+The gas analytical system in general consists of the following principle units:
+
+* sampling probe with a coarse filter, which is introduced into the pipe or gas duct
+of a stationary source of emissions;
+
+* heated main pipe for supplying a gas sample from the sampling probe to the input
+of the gas analyzer;
+
+* pump to convey the gas sample through the gas handling system;
+
+* gas flow rate measurement system, for example a rotameter, to measure the gas flow
+rate in the gas handling system;
+
+* condensate separator to prevent condensation in the gas handling system;
+
+* fine filter to remove dust from the gas sample, which could cause contamination
+of various inner parts of the gas analyzer;
+
+* electro-pneumatic valve to switch a sample to be analyzed, a calibration gas mixture
+or a zero gas to the input of the gas analyzer (a pipe connecting two three-way valves
+is intended for delivering the CGM to a sampling system through a three-way valve
+to estimate the absence of probe composition change);
+
+* means for adjusting zero (gas analyzer);
+* means for adjusting the gas analyzer by a calibration gas mixture;
+* gas analyzer;
+* means to check operation of the gas analytical system and means to adjust the units;
+* means for data accumulation, processing and storage.
+
+The gas analytical system may include means to signal and record
+
+* the malfunction of the units of the gas analytical system,
+* the reduction of the gas amount in a cylinder required for automatic adjustment
+of the gas analyzer to
+an amount below the permissible value, and
+* the current value of the volume fraction being determined in the sample exceeding
+the maximum permissible value.
+
+[[fig-1]]
+.Example of the composition of a gas analytical system using calibration gas mixtures for its adjustment (for illustrative purpose only)
+image::figure1.svg[]
+
+.Figure labels
+[%key]
+1:: Pipe                                      
+2:: Sampling probe                            
+3:: Coarse filter                             
+4:: Separator                                 
+5:: Pump                                      
+6:: Condensate removal                        
+7:: Fine filter                               
+8:: Electro-pneumatic valve                   
+9:: CGM cylinder                              
+10:: Filter unit in fault line (carbon filter)
+11:: Pressure sensor
+12:: Gas analyzer
+13:: Rotameter
+14:: Pump
+15:: Processing and information storage unit
+16:: Adjustment means
+17:: Unauthorized adjustment protection
+18:: Interfaces
+19:: Zero gas input
+20:: Sample output

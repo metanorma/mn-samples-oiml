@@ -1,0 +1,125 @@
+
+[[sec-8]]
+== Performance tests for type evaluation
+
+Prior to the type evaluation tests or when specified by the manufacturer, gas analytical
+systems shall be calibrated against the CGM according to the operating manual procedures
+and under reference conditions (if not specified otherwise):
+
+. temperature: stem:[20 "unitsml(degC)" pm 5 "unitsml(degC)"]
+. relative humidity: stem:[60 % pm 10 %]
+. ambient pressure: stem:[86 "unitsml(kPa)"] to stem:[106 "unitsml(kPa)"], stable
+stem:[pm 1 "unitsml(kPa)"]
+. AC mains power supply:
+** voltage: nominal voltage stem:[pm 2 %]
+** frequency: nominal frequency stem:[pm 1 %]
+. presence of influencing gas components: none
+. vibrations: none
+. radiated radio-frequency electromagnetic fields: stem:[<0.2 "unitsml(V/m)"]
+. conducted radio-frequency fields: stem:[0.2 "unitsml(V)" "emf"]
+. electrostatic discharge: none
+. power frequency magnetic field: stem:[<1 "unitsml(A/m)"]
+. bursts (transients) on signal, data and control lines: negligible
+. surges on signal, data and control lines: negligible
+. AC mains voltage dips, short interruptions and voltage variations: none
+. bursts (transients) on AC and DC mains power: negligible
+. surges on AC and DC mains power: none
+. low voltage of internal battery (not connected to the main power) none
+
+[[sec-8.1]]
+=== Determination of the intrinsic error of the gas analyzer
+
+This test shall be carried out according to R 144-2, 1.2, under reference conditions.
+During this test, the errors shall not exceed the maximum permissible intrinsic error
+of <<sec-4.3.1>> for any measurement.
+
+[[sec-8.2]]
+=== Stability with time or drift
+
+This test shall be carried out according to R 144-2, 1.3, under reference conditions.
+During this test the requirements of <<sec-4.8>> shall be met.
+
+[[sec-8.3]]
+=== Repeatability
+
+This test shall be carried out according to R 144-2, 1.4, under reference conditions.
+For 20 consecutive measurement of the same CGM, made by the same operator using the
+same gas analytical system during a short period of time, the standard deviation
+shall not exceed 1/3 of the absolute value of the maximum permissible error according
+to <<sec-4.4>>, for the relevant point of the measurement range.
+
+[[sec-8.4]]
+=== Effect of influence quantities
+
+Only one influence quantity shall be varied during a test, while all the others are
+maintained at their reference values.
+
+[[sec-8.4.1]]
+==== Environmental conditions and electrical supply
+
+The reading of the gas analytical system shall remain within the maximum permissible
+error specified in <<sec-4.3.2>> during the following tests covering the rated operating
+conditions defined in <<sec-4.5.1>>:
+
+. dry heat: .................... R 144-2, 1.5
+. cold: .......................... R 144-2, 1.6
+. damp heat, steady state: .................... R 144-2, 1.7
+. atmospheric pressure: ....................... R 144-2, 1.8
+. power supply variations: .................... R 144-2, 1.9
+
+[[sec-8.4.2]]
+==== Influence of gas components other than the measurand (cross sensitivity)
+
+This test shall be carried out under reference conditions. During this test
+(R 144-2, 1.10) the volume fraction of gas components other than the measurand in
+CGM shall correspond to that specified in <<sec-4.5.2>>. The absolute value of the
+variation of the reading shall not exceed the value given in <<sec-4.5.2>>.
+
+[[sec-8.4.3]]
+==== Vibration stability of the gas analytical system
+
+This test shall be carried out under reference conditions. During this test
+(R 144-2, 1.11.1) the absolute value of the reading variation shall not exceed the
+value given in the operating manual.
+
+[[sec-8.5]]
+=== Disturbances
+
+The MPE of the gas analytical system shall be in compliance with <<sec-4.3.2>>. Significant
+faults shall be detected and fixed by means of checking facilities during the following
+tests, carried out to verify the requirements of <<sec-4.5.4>> under rated operating
+conditions (as specified in <<sec-4.5.1>>):
+
+. mechanical shocks: ................................. R 144-2, 1.11.2;
+. short time power reduction: ........................ R 144-2, 1.12;
+. bursts from the mains (transients):  ............... R 144-2, 1.13;
+. electrostatic discharges: .......................... R 144-2, 1.14;
+. radio frequency electromagnetic fields: ............ R 144-2, 1.15.
+
+[[sec-8.6]]
+=== Other important technical requirements
+
+The gas analytical system shall be tested for conformity to the following requirements:
+
+. warm-up time: ............................................ according to 4.7 and R 144-2, 1.16;
+. response time: ........................................... according to 4.6 and R 144-2, 1.17;
+. change in the gas flow rate (in a gas handling system): .. according to 5.1.5, 5.5.2 and R 144-2, 1.18;
+. leakproofness of the gas handling system: ................ according to 5.1.6, 5.5.2 and R 144-2, 1.19.
+
+[[sec-8.7]]
+=== Temperature of input gas
+
+The temperature of the input gas for a sampling probe shall be specified by the manufacturer
+of a sampling device.
+
+The temperature of the input gas for a gas analyzer shall be specified by the manufacturer
+of a gas analyzer.
+
+[[sec-8.8]]
+=== Particulate content
+
+The maximum particulate content of the input gas for a sampling probe shall be specified
+by its manufacturer.
+
+The maximum particulate content of the input gas for a gas analyzer shall be specified
+by its manufacturer.

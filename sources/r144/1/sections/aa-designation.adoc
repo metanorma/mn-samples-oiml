@@ -1,0 +1,99 @@
+[[annex-a]]
+[appendix,obligation="normative"]
+== Designation of calibration gas mixtures and their composition
+
+[[sec-A.1]]
+=== General requirements
+
+[[sec-A.1.1]]
+==== {blank}
+
+The CGM shall be supplied either from a gas cylinder under pressure or from a gas
+mixture generator.
+
+. Each gas cylinder shall be identified with the following information
+(included as a mark, label, and/or certificate):
+** manufacturer of the gas cylinder and serial number;
+** composition of the gas mixture;
+** amount of substance of each component and the corresponding measurement uncertainty (stem:[k=2]);
+** statement about the traceability of the measurement results to accepted
+(inter)national gaseous measurement standards;
+** temperature limits for use and storage;
+** date of certification and expiry date;
+** name of the authority that carried out the certification;
+** the marking "calibration gas mixture"; and
+** the method of preparation: gravimetric according to <<ISO_6142_2001>> and <<ISO_6143_2001>>.
+
+. The gases obtained from the gas mixture generator using the dynamic method shall
+meet the requirements of <<ISO_6145_1_2003>> and in addition the requirements of
+B.1.2, B.2 and B.1.1.a) concerning amount of substance, measurement uncertainty and
+accepted (inter)national traceability to gaseous measurement standards.
+
+[[sec-A.1.2]]
+==== {blank}
+
+The composition of the CGM used for type approval and verification shall be certified
+as complying with the requirements of B.2 by a competent authority. The unit of volume
+fraction for the components to be determined shall be traceable to national, regional
+or international standards.
+
+[[sec-A.1.3]]
+==== {blank}
+
+For all other purposes the CGMs (except those indicated in B.1.2) shall be certified
+by the supplier of the gases and shall be traceable to the appropriate measurement
+standards.
+
+[[sec-A.1.4]]
+==== {blank}
+
+For testing with the purpose of determining errors, three binary gas mixtures with
+a volume fraction of the components to be determined, corresponding to the range
+points of (5 + 5) %, (50 + 5) % and (95 - 5) %, are used.
+
+For cross sensitivity testing, the gas mixtures with the maximum content of influencing
+components, other than the measurand are used.
+
+NOTE: It is permitted to use the three-component mixtures stem:["CO" + "NO" + "N"_2]
+and stem:["CO" + "NO"_2 + "N"_2].
+
+[[sec-A.1.5]]
+==== {blank}
+
+The material of gas cylinders shall be inert to the gases contained therein.
+
+[[sec-A.1.6]]
+==== {blank}
+
+The appropriate safety regulations shall be followed when handling the gases.
+
+[[sec-A.2]]
+=== Characteristics and uncertainties of the composition of the gas mixtures
+
+[[sec-A.2.1]]
+==== {blank}
+
+The volume fraction for the components to be determined in N~2~ in cylinders or in
+a gas mixture obtained from the generator shall be given in parts per million (ppm)
+(see <<sec-4.1>>).
+
+[[sec-A.2.2]]
+==== {blank}
+
+The blend tolerances of the calibration gas mixtures shall not exceed 10 % of the
+volume fraction of each component.
+
+[[sec-A.2.3]]
+==== {blank}
+
+For calibration gas mixtures the uncertainty in the composition shall be 2 % or less
+of the certified (assigned) value of the volume fraction for the components to be
+determined. The composition of other gas mixture components shall have an uncertainty
+of no more than 3 %.
+
+[[sec-A.3]]
+=== Zero-setting
+
+Ambient air shall be drawn through a charcoal filter or equivalent system when it
+is used to set zero for the gas analytical system. High pure nitrogen can be also
+used directly to set zero.

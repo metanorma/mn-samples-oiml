@@ -1,0 +1,31 @@
+
+[[sec-1]]
+== Scope
+
+[[sec-1.1]]
+=== Application
+
+This Recommendation applies to measuring instruments (hereafter referred to as
+"gas analytical systems") that serve to determine the volume fraction of carbon monoxide
+(CO), nitrogen monoxide (NO), nitrogen dioxide (NO2), or sum of nitrogen oxides (NOx)
+and establishes the conditions and requirements with which such systems shall comply
+in order to meet the requirements for measurement results of the pollutant content
+in stationary source emissions within OIML Member States.
+
+This Recommendation applies to gas analytical systems intended for measuring (analyzing)
+industrial emissions, and provides metrological and technical requirements for gas
+analytical systems, as well as means and methods for checking their normalized characteristics.
+
+The principle of operation of gas analytical systems can be based on infrared (IR)
+and ultraviolet (UV) absorption methods, chemiluminescence, electrochemistry or IR
+methods with correlation filters, as well as on a combination of the methods mentioned
+above.
+
+NOTE: This Recommendation is also applicable to analyzers that are capable of analyzing
+only one or two of mentioned components.
+
+[[sec-1.2]]
+=== Restrictions
+
+Gas analytical system software certification problems are beyond the scope of this
+Recommendation.
