@@ -1,0 +1,32 @@
+
+[[annex-b]]
+[appendix,obligation="informative"]
+== Procedure for gas analytical system control under operating conditions
+
+[[sec-B.1]]
+=== {blank}
+
+Perform an internal adjustment check of the gas analytical system that may include
+checking the gas flow rate, the temperature of the heated gas-mains at intervals
+specified by the responsible legal authority or recommended in the manufacturer's
+operating manual.
+
+[[sec-B.2]]
+=== {blank}
+
+Determine the error of the gas analytical system and internal adjustment with one
+CGM at intervals specified by the responsible legal authority or recommended in the
+manufacturer's operating manual.
+
+[[sec-B.3]]
+=== {blank}
+
+Perform a leak check of the gas handling system at least once a day. Repair any leakage/leak
+and perform a successful leak check before measurement.
+
+[[sec-B.4]]
+=== {blank}
+
+Perform a leak check after each disassembly of the gas handling system (e.g. a sampling
+device or filter element replacement). Repair any leakage/leak and perform a successful
+leak check before measurement.
