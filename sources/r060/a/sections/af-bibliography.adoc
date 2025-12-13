@@ -60,6 +60,6 @@
 
 * [[[OIML_R_106,OIML R 106]]] _Automatic rail-weighbridges_
 
-* [[[OIML R 107:2007 OIML R 107:2007]]]_Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers)_
+* [[[OIML R 107:2007,OIML R 107:2007]]]_Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers)_
 
 * [[[OIML_CS,OIML-CS]]]Procedural Document PD-05 (Edition 2) _Processing an OIML Type Evaluation Report and OIML Certificate_
