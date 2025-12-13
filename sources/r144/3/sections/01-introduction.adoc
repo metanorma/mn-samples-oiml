@@ -1,0 +1,10 @@
+
+[[sec-1]]
+== Introduction
+
+This _Test report format_ presents, in a standardized format, the results of the
+various tests and examinations to which a type of a gas analytical system shall be
+submitted with a view to its approval.
+
+In the framework of the OIML Certificate System for Measuring Instruments, use of
+this _Test report_ format is mandatory.

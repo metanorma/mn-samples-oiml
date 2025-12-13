@@ -1,0 +1,242 @@
+
+[[sec-3]]
+== Report
+
+[[sec-3.1]]
+=== Name and address of the testing laboratory(ies)
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+[[sec-3.2]]
+=== Location at which tests were performed (if other than the address of the testing laboratory(ies))
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+[[sec-3.3]]
+=== Name and address of the manufacturer
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+[[sec-3.4]]
+=== Name and address of the applicant (if other than the manufacturer)
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+[[sec-3.5]]
+=== Identification of the type tested
+
+Trade name: pass-format:metanorma[_______________________________________________________________________]
+
+Model no.: pass-format:metanorma[_______________________________________________________________________]
+
+Serial no.: pass-format:metanorma[_______________________________________________________________________]
+
+Brief description (if useful, including reference to diagrams and inscriptions)
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+[[sec-3.6]]
+=== Composition of the type tested
+
+(The main components of the gas analytical system are to be listed. If the component
+is purchased, its name, model, serial no. and manufacturer are to be specified):
+
+[cols="4",options="header,unnumbered"]
+|===
+| Component | Manufacturer | Model | Serial no.
+
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+[[sec-3.7]]
+=== Visual and technical examination
+
+[cols="6*.^",options="header,unnumbered"]
+|===
+2+| Reference in R 144-1:2013 | Requirements indicated in the operating manual | Actual results | Complies with requirement (yes/no) | Comments
+
+| Unit of measurement | 4.1 | | | |
+| Measuring range | 4.2 | | | |
+| Response time | 4.6 | | | |
+| Warm-up time | 4.7 | | | |
+| Air-tightness of the gas handling system | 5.1.6 | | | |
+.3+| Display device
+| 5.2.1 | | | |
+| 5.2.2 | | | |
+| 5.2.3 | | | |
+| Printing device | 5.3 | | | |
+| Computing device | 5.4 | | | |
+.3+| Alarm system
+| 5.5.1 | | | |
+| 5.5.2 | | | |
+| 5.5.3 | | | |
+.4+| Adjustment facilities
+| 5.6.1 | | | |
+| 5.6.2 | | | |
+| 5.6.3 | | | |
+| 5.6.4 | | | |
+.2+| Security of the gas analyzer operation
+| 5.7.1 | | | |
+| 5.7.2 | | | |
+| Inscriptions/markings | 5.8 | | | |
+|===
+
+Comments may be provided separately if necessary.
+
+[[sec-3.8]]
+=== Conclusion of the tests
+
+[cols="6*.^",options="header,unnumbered"]
+|===
+2+<| Reference in other parts of this OIML Recommendation | Requirements indicated in the operating manual | Actual results | Complies with requirement (yes/no) | Comments
+
+| Intrinsic error
+| R 144-1, 4.3.1 +
+R 144-2, 1.2 | | | |
+| Repeatability
+| R 144-1, 4.4 +
+R 144-2, 1.4 | | | |
+| Cross sensitivity
+| R 144-1, 4.5.2 +
+R 144-2, 1.10 | | | |
+| Drift
+| R 144-1, 4.8 +
+R 144-2, 1.3 | | | |
+6+^| Physical influence factors -- R 144-1, 4.5.1
+| AC supply voltage | R 144-2, 1.9 | | | |
+| Temperature
+| R 144-2, 1.5 +
+R 144-2, 1.6 | | | |
+| Humidity | R 144-2, 1.7 | | | |
+| Pressure | R 144-2, 1.8 | | | |
+| Supply frequency | R 144-2, 1.9 | | | |
+| DC supply voltage | R 144-2, 1.9 | | | |
+6+^| Disturbances -- R 144-1, 4.5.4
+| Mechanical vibrations | R 144-2, 1.11.1 | | | |
+| Mechanical shocks | R 144-2, 1.11.2 | | | |
+| Short time power reduction | R 144-2, 1.12 | | | |
+| Voltage pulses from the mains | R 144-2, 1.13 | | | |
+| Electrostatic discharges | R 144-2, 1.16 | | | |
+| Radio frequency electromagnetic fields | R 144-2, 1.17 | | | |
+|===
+
+Comments may be provided separately if necessary.
+
+[[sec-3.9]]
+=== Brief statement on general conclusion as to whether the samples tested meet the requirements of this Recommendation
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+pass-format:metanorma[_______________________________________________________________________]
+
+[[sec-3.10]]
+=== Person(s) responsible for the testing
+
+Name: pass-format:metanorma[_______________________________________________________________________]
+
+Title: pass-format:metanorma[_______________________________________________________________________]
+
+Signature: pass-format:metanorma[_______________________________________________________________________]
+
+Date: pass-format:metanorma[_______________________________________________________________________]
+
+&#x200c;
+
+Name: pass-format:metanorma[_______________________________________________________________________]
+
+Title: pass-format:metanorma[_______________________________________________________________________]
+
+Signature: pass-format:metanorma[_______________________________________________________________________]
+
+Date: pass-format:metanorma[_______________________________________________________________________]
+
+&#x200c;
+
+Name: pass-format:metanorma[_______________________________________________________________________]
+
+Title: pass-format:metanorma[_______________________________________________________________________]
+
+Signature: pass-format:metanorma[_______________________________________________________________________]
+
+Date: pass-format:metanorma[_______________________________________________________________________]
+
+&#x200c;
+
+Signature: pass-format:metanorma[_______________________________________________________________________]
+
+Title: pass-format:metanorma[_______________________________________________________________________]
+
+Date: pass-format:metanorma[_______________________________________________________________________]
+
+&#x200c;
+
+Name: pass-format:metanorma[_______________________________________________________________________]
+
+Title: pass-format:metanorma[_______________________________________________________________________]
+
+Signature: pass-format:metanorma[_______________________________________________________________________]
+
+Date: pass-format:metanorma[_______________________________________________________________________]
