@@ -16,12 +16,14 @@ bibdata:
       name: International Organization of Legal Metrology
       abbreviation: OIML
     from: 2025
+
 format:
-  - presentation
+  - xml
   - html
-  - pdf-portfolio
+  - presentation
   - doc
-  - rxl
+  - pdf
+  - pdf-portfolio
 
 output_folder: collection-output
 coverpage: coverpage.html
