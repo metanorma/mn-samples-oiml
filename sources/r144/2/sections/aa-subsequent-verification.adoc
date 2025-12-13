@@ -1,0 +1,34 @@
+
+[[annex-a]]
+[appendix,obligation="informative"]
+== Procedure for subsequent verification
+
+Subsequent verification of a gas analytical system at the same location may include
+the tests below.
+
+[[sec-A.1]]
+=== {blank}
+
+For short-term subsequent verification, perform all tests included in the initial
+verification except for the power check and the warm-up check.
+
+[[sec-A.2]]
+=== {blank}
+
+For short-term subsequent verification, determine the error using the number of CGMs
+required for initial verification, unless the responsible legal authority specifies
+fewer CGMs.
+
+[[sec-A.3]]
+=== {blank}
+
+For long-term subsequent verification, perform all tests included in the initial
+verification.
+
+[[sec-A.4]]
+=== {blank}
+
+When a gas analytical system has been moved to a new location, or has undergone repairs
+other than the replacement of its separate units (e.g. a sampling device or a filter)
+as defined in the manufacturer's operating manual, perform all tests included in
+the initial verification.

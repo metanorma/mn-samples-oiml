@@ -1,0 +1,39 @@
+
+[[sec-2]]
+== Procedure for initial verification
+
+The initial verification of a gas analytical system should include the following tests:
+
+[[sec-2.1]]
+=== {blank}
+
+Check the power supply voltage and frequency at the location of use to determine
+compliance with the manufacturer's specifications.
+
+[[sec-2.2]]
+=== {blank}
+
+Check the activation of the warm-up lockout by attempting to make a measurement prior
+to the operating mode.
+
+[[sec-2.3]]
+=== {blank}
+
+After the gas analytical system has warmed up, determine its error as described in
+R 144-1, 7.2.2.2.
+
+[[sec-2.4]]
+=== {blank}
+
+Check the air-tightness of the gas analytical system by performing a leak check as
+described in <<sec-1.19>>.
+
+[[sec-2.5]]
+=== {blank}
+
+Check for the activation of the gas flow rate device (unit) as described in <<sec-1.18.2>>.
+
+[[sec-2.6]]
+=== {blank}
+
+Check the response time as described in <<sec-1.17>>.

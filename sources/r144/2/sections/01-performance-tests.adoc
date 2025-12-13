@@ -1,0 +1,585 @@
+
+[[sec-1]]
+== Performance tests for type evaluation
+
+[[sec-1.1]]
+=== General
+
+Prior to the type evaluation tests, the referenced documents shall be studied.
+
+[[sec-1.2]]
+=== Error determination
+
+For a linear calibration characteristic, the error of a gas analytical system shall
+be determined for at least three points within the measuring range and sub-range.
+It is recommended to use calibration gas mixtures (CGM) with the following values
+of volume fractions for the components to be determined:
+
+* minimum value of the measuring range stem:[+ 10 %];
+* average value stem:[pm 10 %];
+* maximum value of the measuring range stem:[- 10 %].
+
+For a nonlinear calibration characteristic, the error shall be determined for at
+least five points uniformly distributed within the measuring range and sub-range.
+
+Measurements at each point of the measurement range shall be repeated at least three
+times, and no errors shall be greater than the specified limits.
+
+[[sec-1.3]]
+=== Stability with time or drift
+
+This test shall be conducted for a period of seven days following the warm-up time.
+The measurements shall be performed at least every 24 hours under reference conditions
+using a CGM with the largest and the smallest volume fractions for the components
+to be determined according to <<sec-1.2>>. During the tests the requirements of
+R 144-1, 4.8 shall be met.
+
+[[sec-1.4]]
+=== Repeatability (R 144-1, 4.4)
+
+The test procedure specified in R 144-1, 8.3 shall be carried out with each of the
+CGMs recommended in <<sec-1.2>>. An estimate of the standard deviation is given by
+the formula:
+
+[stem%unnumbered]
+++++
+s = sqrt{(sum_{i=1}^n (Y_i - bar Y)^2) / (n - 1)}
+++++
+
+where:
+
+stem:[n]:: is the number of measurements, stem:[n = 20];
+
+stem:[Y_i]:: is the i^th^ indication of the gas analytical system;
+
+stem:[bar Y]:: is the arithmetic mean of the stem:[n] values.
+
+During the tests, the requirements of R 144-1, 4.4 shall be met.
+
+[[sec-1.5]]
+=== Dry heat
+
+[[sec-1.5.1]]
+==== Conditions
+
+The gas analytical system (or its separate units) is exposed to a temperature of
+stem:[40 "unitsml(degC)"] (or at the maximum operating temperature specified by the
+manufacturer) for 2 hours. The time duration begins after the gas analytical system
+(or its separate units) has reached temperature stability. The change in temperature
+shall not exceed stem:[1 "unitsml(degC/min)"] during heating up and cooling down,
+and the relative humidity shall not exceed stem:[50 "%"].
+
+[[sec-1.5.2]]
+==== Tests
+
+The calibration gas mixture shall be supplied to the sampling probe at ambient pressure
+(with a deviation of stem:[pm 0.8 "unitsml(kPa)"]). During the test, one set of measurements
+shall be performed every half-hour using each of CGMs recommended in <<sec-1.2>>.
+
+[[sec-1.5.3]]
+==== References
+
+IEC 60068-2-2 [4], IEC 60068-3-1 [18] and OIML D 11:2013 [2] 10.1.
+
+[[sec-1.6]]
+=== Cold
+
+[[sec-1.6.1]]
+==== Conditions
+
+The gas analytical system (or its separate units) is exposed to a temperature of
+stem:[5 "unitsml(degC)"] (or at the minimum operating temperature specified by the
+manufacturer) for 2 hours. The time duration begins after the gas analytical system
+(or its separate units) has reached temperature stability. The change in temperature
+shall not exceed stem:[1 "unitsml(degC/min)"] during cooling down and heating up.
+The relative humidity shall not exceed stem:[50 "%"].
+
+[[sec-1.6.2]]
+==== Tests
+
+The CGM shall be supplied to the sampling probe at ambient pressure (with a deviation
+of stem:[pm 0.8 "unitsml(kPa)"]). During the test one measurement shall be performed
+every half-hour using each of the CGMs recommended in <<sec-1.2>>.
+
+[[sec-1.6.3]]
+==== References
+
+IEC 60068-2-1 [3], IEC 60068-3-1 [18] and OIML D 11:2013 [2] 10.1.
+
+[[sec-1.7]]
+=== Damp heat, steady state
+
+[[sec-1.7.1]]
+==== Conditions
+
+The gas analytical system (or its separate units) is exposed to a temperature of
+stem:[30 "unitsml(degC)"] and a constant relative humidity of 85 % for 2 days.
+The exposure shall be such that water does not condense on the gas analytical system.
+The temperature is deemed to be steady when the difference between the extreme temperatures
+does not exceed stem:[5 "unitsml(degC)"], and the rate of change does not exceed
+stem:[5 "unitsml(degC)"//h].
+
+[[sec-1.7.2]]
+==== Tests
+
+The CGM shall be supplied to the sampling probe at ambient pressure (with a deviation
+of stem:[pm 0.8 "unitsml(kPa)"]). During the test one measurement shall be performed
+every day using each of the CGMs recommended in <<sec-1.2>>.
+
+[[sec-1.7.3]]
+==== References
+
+IEC 60068-2-78 [8], IEC 60068-3-4 [19] and OIML D 11:2013 [2] 10.2.
+
+[[sec-1.8]]
+=== Ambient pressure
+
+[[sec-1.8.1]]
+==== Conditions
+
+The gas analytical system is exposed to extreme pressures specified in the rated
+operating conditions or extreme pressures specified by the manufacturer if they are
+outside the limits in R 144-1, 4.5.1. The extreme values shall be reached gradually
+from stable ambient pressure conditions and shall be kept at the stable maximum permissible
+level during 30 min before starting the measurements as specified in <<sec-1.8.2>>.
+
+[[sec-1.8.2]]
+==== Tests
+
+The calibration gas mixture shall be supplied to the sampling probe at ambient pressure
+(with a deviation of stem:[pm 0.8 "unitsml(kPa)"]). At least two measurements shall
+be performed at each extreme pressure value using each of the CGMs recommended in
+<<sec-1.2>>.
+
+NOTE: If automatic or semi-automatic pressure compensation is provided for in the
+gas analytical system, then care must be taken to ensure that measurements at both
+extreme pressure values are performed after completing this process.
+
+[[sec-1.9]]
+=== Power supply variation (R 144-1, 8.4.1 e)
+
+[[sec-1.9.1]]
+==== Conditions
+
+The gas analytical system is exposed to extreme values of the nominal power supply
+voltage and nominal frequency according to R 144-1, 4.5.1 for a period long enough
+to perform the required measurement.
+
+[[sec-1.9.2]]
+==== Tests
+
+At each extreme value of the power supply parameters, at least two measurements shall
+be carried out using the CGM with the largest volume fraction for the components
+to be determined according to <<sec-1.2>>.
+
+[[sec-1.10]]
+=== Influence of gas components other than CO, NO and NO~2~ (cross sensitivity) (R 144-1, 8.4.2)
+
+The influence shall be determined by registering the measuring signal when the following
+gas mixtures are supplied to the input:
+
+* zero gas N~2~; then
+* each influencing gas alone in N~2~; and finally
+* each influencing gas together with CO, NO and NO~2~ in N~2~.
+
+The list of influencing components and their limit content are established by the
+manufacturer.
+
+The concentration (volume fraction) of a component to be determined shall correspond
+to 10 % of the upper level of the measurement range or subrange.
+
+NOTE: The responsible legal authority may decide to include some other components
+in the test.
+
+[[sec-1.11]]
+=== Mechanical vibrations and shock (R 144-1, 8.4.3)
+
+[[sec-1.11.1]]
+==== Vibration
+
+[[sec-1.11.1.1]]
+===== Test method
+
+Random vibration.
+
+[[sec-1.11.1.2]]
+===== Test procedure
+
+For vibration testing, the gas analytical system or its separate units shall be
+mounted on a vibrating table and shall be fixed rigidly in the operating position.
+During the test, the gas analytical system shall be in the operating mode, the CGM
+with the largest volume fraction for the components to be determined according to
+<<sec-1.2>> being supplied to the input. The vibration parameters shall correspond
+to those specified by the manufacturer. The testing conditions shall correspond to
+the reference conditions in clause 8 of R 144-1. Minimum requirements for vibration
+shall correspond to R 144-1, 4.5.3 (test level 1 of OIML D 11:2013 [2] 11.1).
+
+[[sec-1.11.2]]
+==== Mechanical shock
+
+[[sec-1.11.2.1]]
+===== Test method
+
+Dropping onto a face.
+
+[[sec-1.11.2.2]]
+===== Test procedure
+
+For mechanical shock testing, the gas analytical system or its separate unit shall
+be placed in its normal position of use on a rigid surface. The gas analytical system
+or unit shall then be tilted on one bottom edge and allowed to fall freely onto the
+test surface. The following conditions shall be applied:
+
+Height of fall:: stem:[25 "unitsml(mm)"];
+
+Number of falls:: 1 on each bottom edge.
+
+[[sec-1.11.2.3]]
+===== Error determination
+
+Before and after the test, the error of the gas analytical system shall be determined
+using the CGM with the largest volume fraction for the components to be determined
+according to <<sec-1.2>>.
+
+[[sec-1.11.3]]
+==== References
+
+IEC 60068-2-47 [6], IEC 60068-2-64 [7], IEC 60068-3-8 [9], IEC 60068-2-31[5] and
+OIML D 11:2013 [2] 11.2.
+
+[[sec-1.12]]
+=== AC mains voltage dips, short interruptions and voltage variations (R 144-1, 8 n)
+
+[[sec-1.12.1]]
+==== Test method
+
+Short-time reductions in main voltages.
+
+[[sec-1.12.2]]
+==== Test procedure
+
+A test generator suitable to reduce the amplitude of the AC mains voltage is used.
+It shall be adjusted before being connected to the gas analytical system. The mains
+voltage interruptions and reductions shall be repeated ten times with an interval
+of at least 10 s between successive disturbances. The following conditions shall
+be applied:
+
+Reduction:: factor Duration
+100 %:: stem:[10 "unitsml(ms)"]
+40 %:: stem:[30 "unitsml(ms)"]
+
+During the test, measurements shall be performed using the CGM with the largest volume
+fraction for the components to be determined according to <<sec-1.2>>.
+
+[[sec-1.12.3]]
+==== References
+
+IEC 61000-4-11 [15] and OIML D 11:2013 [2] 12.3.
+
+[[sec-1.13]]
+=== Bursts (transients) on AC and DC mains (R 144-1, 8 o)
+
+[[sec-1.13.1]]
+==== Test method
+
+Electrical bursts.
+
+[[sec-1.13.2]]
+==== Test procedure
+
+A burst generator shall be used with the performance characteristics as specified
+in the IEC 61000-4-4 [12]. The characteristics of the generator shall be verified
+before connecting the EUT.
+
+The test consists in affecting the gas analytical system with pulses of amplitude
+stem:[1.0 "unitsml(kV)"], which has the form of a double exponent. Each pulse shall
+have a rise time of 5 ns and half amplitude duration of stem:[50 "unitsml(ns)"].
+The pulse duration shall be stem:[15 "unitsml(ms)"] and the period of their repetition
+shall be stem:[300 "unitsml(ms)"]. The repetition frequency of the impulses and peak
+values of the output voltage on a stem:[50 "unitsml(Ohm)"] load shall be
+stem:[(5 pm 1) "unitsml(kHz)"]. The transient generator shall have an output impedance
+of stem:[50 "unitsml(Ohm)"] and shall be adjusted before connecting the gas analytical
+system. At least ten positive and ten negative pulses randomly phased shall be applied.
+Insertion of blocking filters in the cables to the gas analytical system may be necessary
+to prevent the pulse energy being dissipated in the mains.
+
+During the test, measurements shall be performed using the CGM with the largest volume
+fraction for the components to be determined according to <<sec-1.2>>.
+
+[[sec-1.13.3]]
+==== References
+
+IEC 61000-4-4 [12], and OIML D 11:2013 [2] 12.3.
+
+[[sec-1.14]]
+=== Bursts (transients) on signal, data and control lines (R 144-1, 8 l)
+
+[[sec-1.14.1]]
+==== Test method
+
+Electrical bursts.
+
+[[sec-1.14.2]]
+==== Test procedure
+
+A burst generator shall be used with the performance characteristics as specified
+in the IEC 61000-4-4 [12]. The characteristics of the generator shall be verified
+before connecting the EUT.
+
+Before the test, the instruments shall be switched on for a time period equal to
+or greater than the warm-up time specified by the manufacturer.
+
+The EUT shall not be readjusted at any time during the test except to reset it if
+a significant fault has been indicated.
+
+The test consists in exposing the EUT to bursts of voltage spikes of stem:[1 "unitsml(kV)"],
+with a repetition rate of stem:[5 "unitsml(kHz)"]. At least ten positive and ten
+negative bursts randomly phased shall be applied.
+
+The duration of the test shall not be less than 1 min for each amplitude and polarity.
+
+[[sec-1.14.3]]
+==== References
+
+IEC 61000-4-4 [12] and OIML D 11:2013 [2] 12.4.
+
+[[sec-1.15]]
+=== Surges on signal, data and control lines (R 144-1, 8 m)
+
+[[sec-1.15.1]]
+==== Test method
+
+Electrical surges.
+
+[[sec-1.15.2]]
+==== Test procedure
+
+A surge generator shall be used with the performance characteristics as specified
+in the referenced standard. The test consists of exposure to surges for which the
+rise time, pulse width, peak values of the output voltage/current on high/low impedance
+load and minimum time interval between two successive pulses are defined in the referenced
+standard.
+
+The characteristics of the generator shall be verified before connecting the EUT.
+
+At least three positive and three negative surges shall be applied.
+
+[cols="3", options="noheader,unnumbered"]
+|===
+.2+| Unbalanced lines
+| Line to line   | stem:[1.0 "unitsml(kV)"]
+| Line to earth  | stem:[2.0 "unitsml(kV)"]
+| Balanced lines | Line to earth | stem:[2.0 "unitsml(kV)"]
+|===
+
+[[sec-1.15.3]]
+==== References
+
+IEC 61000-4-5 [13] and OIML D 11:2013 [2] 12.4.
+
+[[sec-1.16]]
+=== Electrostatic discharges (R 144-1, 8 j)
+
+[[sec-1.16.1]]
+==== Test method
+
+Electrostatic discharge.
+
+[[sec-1.16.2]]
+==== Test procedure
+
+A capacitor of stem:[150 "unitsml(pF)"] shall be charged by a suitable DC voltage
+source of stem:[6 "unitsml(kV)"] in contact mode and stem:[8 "unitsml(kV)"] in air
+mode. Then it shall be discharged through the gas analytical system (or its separate
+units) by connecting one terminal to the system's ground chassis and the other through
+a stem:[330 "unitsml(Ohm)"] resistance to the system's surfaces that are normally
+accessible to the user. At least ten successive discharges shall be applied with
+a time interval between discharges of at least stem:[10 "unitsml(s)"]. A gas analytical
+system (or its separate units) not equipped with a grounding terminal (for which
+earthing is not provided) shall be placed on a grounded plane surface that projects
+beyond the gas analytical system (or its separate units) by at least stem:[0.1 "unitsml(m)"]
+on all sides. The associated grounded connection to the capacitor shall be as short
+as possible.
+
+[[sec-1.16.2.1]]
+===== Direct application
+
+In the contact discharge mode, to be carried out on the conductive surfaces, the
+electrode shall be in contact with the gas analytical system (or its separate units)
+and the discharge shall be actuated by the discharge switch of the generator.
+
+In the air discharge mode, on insulating surfaces, the electrode is approached to
+the gas analytical system (or its separate units) and the discharge occurs by spark.
+
+[[sec-1.16.2.2]]
+===== Indirect application
+
+The discharges are applied in the contact mode to coupling planes mounted in the
+vicinity of the gas analytical system (or its separate units).
+
+During the test, measurements shall be performed using the CGM with the largest volume
+fraction for the components to be determined according to <<sec-1.2>>.
+
+[[sec-1.16.3]]
+==== References
+
+IEC 61000-4-2 [10] and OIML D 11:2013 [2] 13.3.
+
+[[sec-1.17]]
+=== Radiated, radio frequency, electromagnetic fields (R 144-1, 8 g)
+
+[[sec-1.17.1]]
+==== Test method
+
+Radiated electromagnetic fields.
+
+[[sec-1.17.2]]
+==== Test procedure
+
+The gas analytical system (or its separate units) shall be exposed to electromagnetic
+field strength as follows:
+
+* frequency range: stem:[26 "unitsml(MHz)"] -- stem:[3 "unitsml(GHz)"];
+* field strength: stem:[10 "unitsml(V/m)"];
+* modulation: 80 % AM, stem:[1 "unitsml(kHz)"] sine wave.
+
+The field strength may be generated in different facilities.
+
+The field strength shall be established prior to the actual testing (without the
+gas analytical system or its separate units in the field).
+
+When the test is carried out in a shielded enclosure to comply with international
+laws prohibiting interference to radio communications, care shall be taken to handle
+reflections from walls. Anechoic shielding may be necessary.
+
+During the test, measurements shall be performed using the CGM with the largest volume
+fraction for the components to be determined according to <<sec-1.2>>.
+
+[[sec-1.17.3]]
+==== References
+
+IEC 61000-4-3 [11], IEC 61000-4-6 [14], and OIML D 11 [2] 13.2.
+
+[[sec-1.18]]
+=== Low voltage of internal battery (not connected to the mains power) (R 144-1, 8 r)
+
+[[sec-1.18.1]]
+==== Test method
+
+Variation in supply voltage.
+
+[[sec-1.18.2]]
+==== Test procedure
+
+The test consists of exposure to the specified condition of the battery(s) for a
+period sufficient for achieving temperature stability and for performing the required
+measurements.
+
+[[sec-1.18.3]]
+==== Test sequence
+
+Stabilize the power supply at a voltage within the defined limits and apply the measurement
+and/or loading condition. Record the following data:
+
+. Date and time;
+. Temperature;
+. Power supply voltage;
+. Functional mode;
+. Measurements and/or loading condition;
+. Indications (as applicable);
+. Errors;
+. Functional performance.
+
+Reduce the power voltage to the EUT until the equipment clearly ceases to function
+properly according to the specifications and metrological requirements, and note
+the following data:
+
+. Power supply voltage;
+. Indications;
+. Errors;
+. Other relevant responses of the instrument.
+
+[[sec-1.19]]
+=== Warm-up time
+
+[[sec-1.19.1]]
+==== Test procedure
+
+At reference conditions and at stem:[5 "unitsml(degC)"], the warm-up time test to
+verify compliance with R 144-1, 4.7 shall consist of the following steps:
+
+. stabilize the gas analytical system at each temperature;
+
+. let the gas analytical system warm up;
+
+. [[item-1.19.1-c]]immediately after either the manufacturer's prescribed warm-up
+period has elapsed or an automatic warm-up lockout has been de-activated, perform
+a measurement of volume fraction for the components to be determined (with any necessary
+internal adjustment being performed prior to this measurement). Each of the CGMs
+recommended in <<sec-1.2>> shall be used;
+
+. [[item-1.19.1-d]]at time intervals of 2 min, 5 min and 15 min after warm-up, perform
+a measurement with each of the CGMs recommended in <<sec-1.2>> as in step <<item-1.19.1-c>>.
+
+Check that the difference between any of the four measured values in <<item-1.19.1-c>>
+and <<item-1.19.1-d>> above does not exceed the absolute value of the maximum permissible
+error on initial verification.
+
+NOTE: At reference conditions, the warm-up time test may be included with the drift test.
+
+[[sec-1.20]]
+=== Response time
+
+[[sec-1.20.1]]
+==== {blank}
+
+When testing, the time required for a gas analytical system to be able to perform
+measurements with a given accuracy (R 144-1, 4.3.1) is determined when at the input
+of a sampling device ambient air is replaced with a sample containing the components
+to be determined. Some means shall be applied to perform such replacement. The gases
+shall be supplied to the sampling device at the ambient pressure (stem:[pm 750 "unitsml(Pa)"]).
+Check that the response time does not exceed the appropriate values specified in
+R 144-1, 4.6.
+
+[[sec-1.20.2]]
+==== {blank}
+
+During the test, measurements shall be performed using the CGM with the volume fraction
+of components to be determined equal to 90 % of the maximum value of the measuring
+range and sub-range (see R 144-1, 4.6).
+
+[[sec-1.21]]
+=== Spillover of gas flow rates
+
+[[sec-1.21.1]]
+==== {blank}
+
+A measurement shall be performed with a calibration gas mixture that is initially
+supplied at the sampling device at a gas flow rate greater than the minimum required
+by the gas analytical system according to the manufacturer. During the measurement,
+the gas flow rate shall be reduced until the low flow indicator responds according
+to the requirements of R 144-1, 5.1.5 and gives a signal according to the requirement
+of R 144-1, 5.5.2.
+
+[[sec-1.21.2]]
+==== {blank}
+
+The test is repeated according to <<sec-1.18.1>>, but starting from a gas flow rate
+smaller than the maximum required by the gas analytical system according to the manufacturer.
+During the measurement, the gas flow rate shall be increased until the flow rate
+indicator responds according to the requirements of R 144-1, 5.1.5 and gives a signal
+according to the requirement of R 144-1, 5.5.2.
+
+[[sec-1.21.3]]
+==== {blank}
+
+During the test, measurements shall be performed using each of the CGMs recommended
+in <<sec-1.2>>.
+
+[[sec-1.22]]
+=== Leakproofness
+
+The compliance of the leak-proofing requirements detailed R 144-1, 5.1.6, for the
+gas analytical system or its separate units, is determined using the pressure-gauge
+(compression or vacuum) method according to IEC 60068-2-17 [20] as described in the
+operating manual.
