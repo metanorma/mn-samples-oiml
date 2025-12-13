@@ -1,0 +1,29 @@
+= Instruments for continuous measurement of CO, NO~x~ in stationary source emissions
+:docidentifier: OIML R 144-3
+:docnumber: 144
+:partnumber: 3
+:edition: 2013
+:copyright-year: 2013
+:language: en
+:title-main-en: Instruments for continuous measurement of CO, NO~x~ in stationary source emissions.
+:title-part-en: Test report format
+:title-main-fr: Instruments pour le mesurage continu de CO et NO~x~ dans les émissions de sources fixes.
+:title-part-fr: Format du rapport d'essai
+:doctype: recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 16
+:technical-committee: Air pollution
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-test-method.adoc[]
+
+include::sections/03-report.adoc[]

@@ -1,0 +1,20 @@
+
+[[sec-2]]
+== Test method
+
+Where this Recommendation indicates a recommended number of tests, or recommended
+test values, these numbers and values shall be used in the framework of the OIML
+Certificate System.
+
+The test report shall indicate what test means were used. Where test means did not
+conform to this Recommendation, their necessary metrological and technical characteristics
+shall be given.
+
+Where this Recommendation offers an alternative, the assurance of its requirements
+shall be indicated. Any arguments or results of tests necessary to demonstrate the
+equivalence of results shall be given.
+
+Any problem (fault to be repaired) observed during tests shall be mentioned.
+
+Any useful information about test conditions (ambient temperature, humidity, etc.)
+shall be indicated.
