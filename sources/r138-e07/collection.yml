@@ -35,7 +35,10 @@ format:
   - presentation
   - doc
   - pdf
+  - pdf-portfolio
 
+output_folder: collection-output
+coverpage: coverpage.html
 manifest:
   docref:
     - file: amd-2009/document.adoc
