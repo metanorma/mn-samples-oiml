@@ -8,7 +8,7 @@
 :language: en
 :title-main-en: Policy and rules for the reimbursement of travel expenses incurred by the CIML President in attending legal metrology related events
 :title-main-fr: Politique et règles relatives au remboursement des frais de voyage encourus par le Président du CIML pour participer à des événements liés à la métrologie légale
-:doctype: basic-publication
+:doctype: international-basic-publication
 :docstage: 60
 :docsubstage: 60
 :secretariat: International Bureau of Legal Metrology

@@ -10,7 +10,7 @@
 :title-part-en: Metrological controls and performance tests
 :title-main-fr: Réglementation métrologique des cellules de pesée
 :title-part-fr: Contrôles métrologiques et essais de performance
-:doctype: recommendation
+:doctype: international-recommendation
 :docstage: 60
 :docsubstage: 60
 :technical-committee-number: 9

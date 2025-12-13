@@ -8,7 +8,7 @@
 :language: en
 :title-main-en: Guidance for defining the requirements for a certification system for prepackages
 :title-main-fr: Guidance pour la détermination des exigences pour un système de certification des emballages
-:doctype: guide
+:doctype: international-guide
 :docstage: 60
 :docsubstage: 60
 :technical-committee-number: 6
