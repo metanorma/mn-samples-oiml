@@ -1,0 +1,4 @@
+== Introduction
+
+OIML R 138:2007 was approved by the CIML during its 42nd Meeting held in Shanghai. In the
+meantime it was decided to amend OIML R 138 to take into consideration late comments.
