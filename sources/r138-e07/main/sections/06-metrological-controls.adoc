@@ -1,0 +1,28 @@
+== Metrological controls
+
+=== Type approval
+
+The vessels for commercial transactions are not subject to type approval.
+
+=== Initial verification
+
+The conformity of vessels used for commercial transactions to the prescribed specifications shall be
+controlled by the competent authority using a suitable statistical test. The controls shall preferably take
+place at the manufacturer's plant or at the importer's warehouse.
+
+The competent authority shall use a suitable test to perform the controls. An example is given in
+<<annex-a>>. In cases where a small number of vessels are concerned, the control may be replaced by
+individual initial verification.
+
+Casks may be presented to the competent authority for legal metrology without an indication of the
+nominal capacity. In this case, the authority shall determine the conventional true capacity at a
+reference temperature when the container is filled according to the specifications and shall affix the
+value of the nominal capacity and the official mark of verification.
+
+Capacity serving measures may be presented to the competent Legal Metrology Authority without
+marking. In this case, the authority shall affix the gauge mark, the value of the nominal capacity and
+the official verification mark.
+
+=== Subsequent verification or control
+
+Vessels made of glass are not subject to subsequent verification.

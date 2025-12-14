@@ -1,0 +1,84 @@
+== Technical requirements
+
+=== Nominal capacities
+
+==== {blank}
+
+Capacity serving measures and measuring container bottles
+
+Capacity serving measures and measuring container bottles shall have one of the nominal capacities
+given by the following formula:
+
+[stem]
+++++
+V_n = x * 10^n "L"
+++++
+
+with stem:[n] = positive or negative integer, or zero +
+stem:[x = 1, 1.5, 2, 2.5, 3, 4] and stem:[5]
+
+and comprised between the following values:
+
+* capacity serving measures [20 ... 5000] stem:["unitsml(mL)"]
+* measuring container bottles [50 ... 5000] stem:["unitsml(mL)"]
+
+==== Casks
+
+Casks shall have a nominal capacity equal to:
+
+* a multiple of stem:[5 "unitsml(L)"] for stem:[V_n <= 100 "unitsml(L)"]
+* a multiple of stem:[50 "unitsml(L)"] for stem:[V_n > 100 "unitsml(L)"]
+
+==== Exceptions
+
+When justified by local traditions or by special requirements, national regulations may allow
+additional values for nominal capacities or units (e.g. stem:[0.33 "unitsml(L)"]).
+
+=== Material
+
+The vessels shall be sufficiently robust to withstand normal usage without distortions.
+
+For capacity serving measures and measuring container bottles, the materials used in construction
+should be sufficiently tough, rigid, non porous and stable to maintain accuracy during use.
+
+Casks may be manufactured in any material with strength, rigidity and toughness adequate for the
+intended use (e.g. solid wood, plywood, metal). National regulations may stipulate that the interior of
+certain casks must be covered with a protective permanent coating, compatible with the material used
+for construction and the liquids to be contained.
+
+Vessels used only once, such as thin plastic or cardboard drinking capacities, must remain accurate
+during nominal filling, transportation and discharge functions.
+
+=== Construction
+
+The total volume of vessels intended to contain liquids under pressure shall not increase more than
+0.5 % when subjected to an internal pressure of stem:[100 "unitsml(kPa)"] maintained for 48 hours.
+
+The position of the filling orifice shall allow for complete filling of the casks.
+
+=== Resolution if gauge mark
+
+Vessels with gauge marks shall be so designed that at the nominal capacity, a variation in the contents
+equal to the maximum permissible error causes a change in the liquid level of at least stem:[2 "unitsml(mm)"].
+
+=== Vertical position
+
+Vessels with gauge marks and measuring container bottles shall have a base wide enough to allow a
+vertical, stable position when resting on a flat horizontal surface. If not, a holder must be provided
+with the vessel.
+
+=== Filling requirements
+
+==== Vessels with gauge marks
+
+"Filled to the gauge mark" is when the lowest part of the meniscus formed by the liquid is tangential
+to the upper edge of the gauge mark.
+
+==== Measuring container bottles
+
+Depending on the specifications of the manufacturer, the surface of the liquid shall either be at the
+specified distance from the brim or have the specified ullage at the top.
+
+==== Casks
+
+Casks shall be filled to the lower edge of the filling orifice.

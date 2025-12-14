@@ -1,0 +1,51 @@
+== Terminology and symbols
+
+=== General terms
+
+The general terms and definitions are those of the International Vocabulary of Basic and General
+Terms in Metrology (VIM, 1993).
+
+=== Capacity serving measures
+
+Measures which are filled as required and used for the retail sale of drinks sold by volume. They are
+divided into two categories: transfer measures used solely for decanting specific volumes of beverages
+and drinking measures used also for the consumption of specific volumes of beverages.
+
+=== Measuring container bottles
+
+Bottles intended to be filled either at constant level or at constant ullage with sufficient accuracy
+without the need to use an independent measuring instrument.
+
+=== Casks and barrels
+
+Containers used for commercial transactions of liquids when they are filled to their nominal volume.
+To simplify the text, casks and barrels are referred to hereafter by the name "casks" only.
+
+=== Nominal capacity, stem:[V_n]
+
+Volume indicated on the vessel.
+
+=== Conventional true capacity
+
+For measuring container bottles and casks: contained volume of water at a reference temperature with
+an uncertainty appropriate for the given purpose.
+
+For capacity serving measures: delivered volume of water at a reference temperature with an
+uncertainty appropriate for the given purpose. This volume is measured after prior wetting of the
+interior of the vessel and draining for 30 seconds.
+
+=== Brim capacity, stem:[V_r]
+
+Volume that the vessel is meant to contain when filled to the brim.
+
+=== Ullage (or headspace)
+
+Empty volume remaining in a container after it is filled.
+
+=== Gauge mark
+
+Mark, generally a line that indicates the nominal capacity stem:[V_n].
+
+=== Filling orifice
+
+Opening in the cask wall defined by its section and the thickness of the cask walls.

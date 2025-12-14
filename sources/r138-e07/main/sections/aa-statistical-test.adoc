@@ -1,0 +1,66 @@
+[[annex-a]]
+[appendix,obligation=normative]
+== Statistical test
+
+=== Sampling
+
+The method of control set out in <<annex-a>> assumes that the distribution of actual capacities of the
+vessels in a batch submitted for inspection is near to a normal distribution.
+
+The sampling procedure shall conform as much as possible to sampling theory and shall be adapted to
+the manufacturing procedures of the manufacturer or to the conditions in which batches are presented
+by the importer.
+
+=== Computation example
+
+A sample of 35 vessels of the same type and manufacture shall be taken at random in one or several
+batches so that the sample is as representative as possible of the production.
+
+The following computational procedure is taken from the International Standard ISO 3951:1989, letter
+code J, AQL = 2.5, normal control, unknown standard deviation.
+
+Compute the mean stem:[x] of the capacities stem:[x_i] of the vessels in the sample:
+
+[stem]
+++++
+x = sum_(i=1)^N x_i/N
+++++
+
+with stem:[N = 35].
+
+Compute the standard deviation stem:[s] of the capacities stem:[x_i] of the vessels in the sample:
+
+[stem]
+++++
+s = sqrt( sum_(i=1)^N (x_i-x)^2/(N-1) )
+++++
+
+with stem:[N = 35].
+
+Compute the specified upper limit stem:[T_s], the sum of the capacity to be verified and of the maximum
+permissible error for this capacity.
+
+Compute the specified lower limit stem:[T_i], the difference between the capacity to be verified and the
+maximum permissible error for this capacity.
+
+=== Acceptance criteria
+
+The batch shall be accepted if the values of stem:[x] and stem:[s] satisfy simultaneously the following three
+inequalities:
+
+[stem]
+++++
+x + k * s <= T_s,
+++++
+
+[stem]
+++++
+x - k * s >= T_i,
+++++
+
+[stem]
+++++
+s <= F * (T_s - T_i),
+++++
+
+where stem:[k = 1.57] and stem:[F = 0.266].

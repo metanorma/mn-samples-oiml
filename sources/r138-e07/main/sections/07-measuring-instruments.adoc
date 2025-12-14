@@ -1,0 +1,5 @@
+== Measuring instruments used for official controls
+
+Measuring instruments used for official controls of vessels for commercial transactions shall be
+traceable to internationally supported realizations of the SI Units and have an uncertainty not greater
+than one-third of the maximum permissible error.
