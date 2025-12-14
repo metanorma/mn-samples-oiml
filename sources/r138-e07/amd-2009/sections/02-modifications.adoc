@@ -1,0 +1,29 @@
+== Amendment (2009) to OIML R 138:2007 (E)
+
+[change=modify,locality="clause=2.6"]
+=== Section 2.6
+
+2.6 Conventional true capacity
+
+. For measuring container bottles and casks: Contained volume of water at a reference temperature
+with an uncertainty appropriate for the given purpose.
+. For capacity serving measures: Delivered volume of water at a reference temperature with an
+uncertainty appropriate for the given purpose.
+
+[change=modify,locality="clause=5.2.3"]
+=== Section 5.2.3
+
+5.2.3 Measuring container bottles
+
+In addition to the requirements of 5.2.1, measuring container bottles shall be marked with one of the
+following marks, either on the lower rim or the bottom:
+
+* when filled to a constant level: the distance, expressed in millimeter, followed by the
+symbol mm from the brim to the filling level corresponding to the nominal capacity; or
+* when filled to a constant ullage: the number, expressed in millilitre (stem:["unitsml(ml)"]) or centilitre (stem:["unitsml(cl)"])
+not followed by the symbol stem:["unitsml(ml/cl)"] that is equal to the brim capacity.
+
+[change=modify,locality="annex=A"]
+=== Annex A
+
+Annex A is an informative annex.

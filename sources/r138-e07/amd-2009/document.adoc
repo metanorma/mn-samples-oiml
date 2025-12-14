@@ -1,0 +1,26 @@
+= Vessels for commercial transactions Amendment (2009)
+:docidentifier: Amendment (2009) to OIML R 138:2007
+:series: R
+:docnumber: 138
+:edition: 2009
+:revdate: 2009
+:copyright-year: 2009
+:language: en
+:title-main-en: Vessels for commercial transactions Amendment (2009)
+:title-main-fr: Récipients pour transactions commerciales (Amendement 2009)
+:doctype: amendment
+:updates-document-type: international-recommendation
+//:updates: OIML R 138:2007
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 8
+:technical-committee: Measurement of quantities of fluids
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/01-intro.adoc[]
+
+include::sections/02-modifications.adoc[]
