@@ -1,0 +1,110 @@
+== Metrological requirements
+
+=== Maximum permissible errors
+
+==== Capacity serving measures
+
+.Capacity serving measures
+[cols="^,^,^,^",options=header,headerrows=2]
+|===
+2.2+| 2+| Maximum permissible error (MPE)
+| Nominal capacity stem:[V_n] | Brim capacity stem:[V_r]
+
+.4+| Transfer measures
+.2+| stem:[< 100 "unitsml(mL)"]
+.2+| stem:[pm 2 "unitsml(mL)"]
+| stem:[-0]
+| stem:[+ 4 "unitsml(mL)"]
+
+.2+| stem:[>= 100 "unitsml(mL)"]
+.2+| stem:[pm 3 %] of stem:[V_n]
+| stem:[-0]
+| stem:[+ 6 %] of stem:[V_r]
+
+.4+| Drinking measures
+.2+| stem:[< 200 "unitsml(mL)"]
+.2+| stem:[pm 5 %] of stem:[V_n]
+| stem:[-0]
+| stem:[+ 10 %] of stem:[V_r]
+
+.2+| stem:[>= 200 "unitsml(mL)"]
+.2+| stem:[pm (5 "unitsml(mL)" + 2.5 %] of stem:[V_n])
+| stem:[-0]
+| stem:[+ 10 "unitsml(mL)" + 5 %] of stem:[V_r]
+|===
+
+==== Measuring container bottles
+
+.Measuring container bottles
+[cols="^,^,^",options=header,headerrows=2]
+|===
+.2+| Nominal capacity stem:[V_n] or
+
+Brim capacity stem:[V_r] in stem:["unitsml(mL)"]
+2+| Maximum permissible error (MPE)
+| in % of stem:[V_n] or stem:[V_r]
+| in stem:["unitsml(mL)"]
+
+| from 50 to 100 | - | stem:[pm 3]
+| from 100 to 200 | stem:[pm 3] | -
+| from 200 to 300 | - | stem:[pm 6]
+| from 300 to 500 | stem:[pm 2] | -
+| from 500 to 1000 | - | stem:[pm 10]
+| from 1000 to 5000 | stem:[pm 1] | -
+|===
+
+==== Casks
+
+stem:[pm 0.5 %] but not less than stem:[0.10 "unitsml(L)"] for casks made of metal which shall be designated by the letter "A"
+affixed to the vessel.
+
+stem:[pm 1.0 %] but not less than stem:[0.15 "unitsml(L)"] for casks made of other materials which shall be designated by the
+letter "B" affixed to the vessel.
+
+==== General
+
+Systematic exploitation of the maximum permissible errors is prohibited.
+
+=== Markings
+
+[[cls-5.2.1]]
+==== Nominal capacity
+
+Every vessel for commercial transactions shall bear a clearly visible, easily readable and permanent
+indication of the nominal capacity stem:[V_n]. Markings shall be in SI units.
+
+[[cls-5.2.2]]
+==== Capacity serving measures
+
+In addition to the requirements of <<cls-5.2.1>>, capacity serving measures shall bear at least one filling mark.
+All filling marks shall be clearly visible and permanently marked. They must be at least stem:[10 "unitsml(mm)"] long
+and in a horizontal plane when the measure stands on a horizontal flat surface.
+
+On drinking measures with a capacity of more than 50 mL, the filling mark is at least stem:[10 "unitsml(mm)"] from the
+brim.
+
+For foam building liquids the distance between the upper gauge mark and the brim shall be sufficient
+to allow for a complete filling to the mark but not less than stem:[20 "unitsml(mm)"].
+
+Exception: if the capacity of a serving or drinking measure is defined by its brim capacity, the
+requirement of <<cls-5.2.2>> does not have to be fulfilled.
+
+==== Measuring container bottles
+
+In addition to the requirements of <<cls-5.2.1>>, measuring container bottles shall be marked with one of the
+following marks, either on the lower rim or the bottom:
+
+* when filled to a constant level: the distance, expressed in stem:["unitsml(mL)"] followed by the symbol stem:["unitsml(mm)"]
+from the brim to the filling level corresponding to the nominal capacity; or
+* when filled to a constant ullage: the number, expressed in mL followed by the symbol stem:["unitsml(mL)"]
+that is equal to the brim capacity.
+
+==== Compliance with the metrological specifications
+
+Every vessel for commercial transactions shall bear a mark identifying the company responsible for
+compliance with the metrological specifications applicable to the vessel.
+
+==== Reference temperature
+
+If the National Metrology Authority decides on a reference temperature other than stem:[20 "unitsml(degC)"], this
+temperature must be indicated next to every volume indication affixed to the vessel.
