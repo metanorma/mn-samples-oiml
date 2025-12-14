@@ -1,0 +1,45 @@
+---
+directives:
+  - documents-inline
+  - recompile-xml: true
+
+output_folder: collection
+
+bibdata:
+  title:
+    type: title-main
+    language: en
+    content: Vessels for commercial transactions
+
+  type: collection
+
+  docid:
+    type: oiml
+    id: OIML R 138
+
+  edition: "2007"
+
+  date:
+    - type: created
+      value: "2007"
+
+  copyright:
+    owner:
+      name: Organisation Internationale de Métrologie Légale
+      abbreviation: OIML
+    from: "2007"
+
+format:
+  - xml
+  - html
+  - presentation
+  - doc
+  - pdf
+
+manifest:
+  docref:
+    - file: amd-2009/document.adoc
+      identifier: Amendment (2009) to OIML R 138
+      type: amendment
+    - file: main/document.adoc
+      identifier: OIML R 138
