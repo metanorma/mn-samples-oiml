@@ -11,15 +11,16 @@
 :doctype: expert-report
 :docstage: 60
 :docsubstage: 60
-:surname: Teunisse
-:givenname: George M.
-:affiliation: Verispect B.V.
-:country: The Netherlands
 :toclevels-pdf: 3
 :mn-document-class: oiml
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:
+
+// :surname: Teunisse
+// :givenname: George M.
+// :affiliation: Verispect B.V.
+// :country: The Netherlands
 
 include::sections/00-foreword.adoc[]
 
