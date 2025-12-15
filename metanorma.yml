@@ -10,14 +10,14 @@ metanorma:
       - sources/r144/1/document.adoc
       - sources/r144/2/document.adoc
       - sources/r144/3/document.adoc
-      # - sources/r138-e07/collection.yml
-      - sources/r138-e07/main/document.adoc
-      - sources/r138-e07/amd-2009/document.adoc
-      # - sources/r060/collection.yml
-      - sources/r060/1/document.adoc
-      - sources/r060/2/document.adoc
-      - sources/r060/3/document.adoc
-      - sources/r060/a/document.adoc
+      - sources/r138-e07/collection.yml
+      # - sources/r138-e07/main/document.adoc
+      # - sources/r138-e07/amd-2009/document.adoc
+      - sources/r060/collection.yml
+      # - sources/r060/1/document.adoc
+      # - sources/r060/2/document.adoc
+      # - sources/r060/3/document.adoc
+      # - sources/r060/a/document.adoc
 
   collection:
     name: "Metanorma for OIML sample documents"
