@@ -36,6 +36,7 @@ format:
   - doc
   - pdf
   - pdf-portfolio
+  - rxl
 
 output_folder: collection-output
 coverpage: coverpage.html
