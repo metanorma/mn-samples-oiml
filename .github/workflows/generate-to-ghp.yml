@@ -22,7 +22,7 @@ jobs:
     #   image: metanorma/metanorma:latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Cache Metanorma assets
         uses: actions-mn/cache@v1
@@ -39,6 +39,16 @@ jobs:
 
       - name: Update Fontist
         run: bundle exec fontist update
+
+      - name: Install private Fontist fonts
+        env:
+          GH_TOKEN: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
+        run: |
+          bundle exec fontist repo setup metanorma "https://${GH_TOKEN}@github.com/metanorma/fontist-formulas-private"
+          bundle exec fontist repo update metanorma
+          bundle exec fontist install "Futura PT Book"
+          bundle exec fontist install "Futura PT Demi"
+          bundle exec fontist install "Futura PT Light"
 
       - name: Print Metanorma version
         run: bundle exec metanorma --version
