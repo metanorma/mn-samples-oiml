@@ -34,3 +34,8 @@ include::sections/04-description-load-cells.adoc[]
 include::sections/05-metrological-requirements.adoc[]
 
 include::sections/06-technical-requirements.adoc[]
+
+[bibliography]
+== Bibliography
+* [[[R060-2,repo:(current-metanorma-collection/R060-2)]]]
+

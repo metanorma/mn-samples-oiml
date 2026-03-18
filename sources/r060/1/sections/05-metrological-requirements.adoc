@@ -306,7 +306,7 @@ mandatory.
 This requirement is only applicable to load cells marked CH or with no humidity symbol
 marking and not applicable to load cells marked NH or SH.
 
-The influence of exposure to temperature cycles specified in R 60-2, 2.10.5.12 on
+The influence of exposure to temperature cycles specified in R 60-2, 2.10.5.12 <<R060-2,clause=2.10.5.12>> on
 the load cell output for minimum load shall not be greater than 4 % of the difference
 between the output on the maximum capacity, stem:[E_{"max"}], and that at the minimum
 dead load, stem:[E_{"min"}].
