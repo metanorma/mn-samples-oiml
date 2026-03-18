@@ -34,11 +34,11 @@ manifest:
   level: document
   title: Documents
   docref:
-    #- fileref: 1/document.adoc
-      #identifier: R060-1
-    #- fileref: 2/document.adoc
-      #identifier: R060-2
+    - fileref: 1/document.adoc
+      identifier: R060-1
+    - fileref: 2/document.adoc
+      identifier: R060-2
     - fileref: 3/document.adoc
       identifier: R060-3
-    #- fileref: a/document.adoc
-      #identifier: R060-annex-a
+    - fileref: a/document.adoc
+      identifier: R060-annex-a
