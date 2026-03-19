@@ -39,6 +39,33 @@ Reference documents.
 (automatically generated after compilation) published documents.
 
 
+== Prerequisites
+
+To render proper PDF/HTML you need to have the "`Futura PT *`" fonts setup.
+
+This font is available in the private Metanorma Fontist formulas repository.
+
+Adding the private Metanorma Fontist formula repository.
+
+[source,sh]
+----
+fontist repo setup metanorma git@github.com:metanorma/fontist-formulas-private.git
+# Or
+# fontist repo setup metanorma https://github.com/metanorma/fontist-formulas-private
+fontist repo update metanorma
+----
+
+Install the formula, otherwise Metanorma on the first run of the OIML flavor
+will automatically install this.
+
+[source,sh]
+----
+fontist install 'Futura PT Book'
+fontist install 'Futura PT Demi'
+fontist install 'Futura PT Light'
+----
+
+
 == Usage (general)
 
 === Quick start
