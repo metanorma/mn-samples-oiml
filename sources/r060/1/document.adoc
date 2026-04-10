@@ -39,3 +39,12 @@ include::sections/06-technical-requirements.adoc[]
 == Bibliography
 * [[[R060-2,repo:(current-metanorma-collection/R060-2)]]]
 
+* [[[OIML_V_1_2013,OIML V 1:2013]]] _International Vocabulary of Terms in Legal Metrology (VIML)_
+
+* [[[OIML_V_2_200_2012,OIML V 2-200:2012]]] _International Vocabulary of Metrology - Basic and General Concepts and Associated Terms (VIM)_
+
+* [[[OIML_D_9_2004,OIML D 9:2004]]] _Principles of metrological supervision_
+
+* [[[OIML_D_11_2008,OIML D 11:2008]]] _General requirements for electronic measuring instruments_
+
+* [[[OIML_B_18_2018,OIML B 18:2018]]] _Framework for the OIML Certification System (OIML-CS)_
