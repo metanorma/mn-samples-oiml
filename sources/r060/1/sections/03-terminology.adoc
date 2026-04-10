@@ -6,28 +6,34 @@
 The terms most frequently used in the load cell field and their definitions are given
 below (see <<sec-3.6>> for an illustration of certain definitions). The terminology
 used in this Recommendation conforms to OIML V 2-200 _International Vocabulary of
-Metrology - Basic and General Concepts and Associated Terms_ (VIM) [2], to OIML V
-1 _International Vocabulary of Terms in Legal Metrology_ (VIML) [3], to OIML D 9
-_Principles of metrological supervision_ [4], to OIML D 11 _General requirements
-for measuring instruments_ [5], and to OIML B 18 _Framework for the OIML Certification
-System (OIML-CS)_ [6].
+Metrology - Basic and General Concepts and Associated Terms_ (VIM) <<OIML_V_2_200_2012>>, to OIML V
+1 _International Vocabulary of Terms in Legal Metrology_ (VIML) <<OIML_V_1_2013>>, to OIML D 9
+_Principles of metrological supervision_ <<OIML_D_9_2004>>, to OIML D 11 _General requirements
+for measuring instruments_ <<OIML_D_11_2008>>, and to OIML B 18 _Framework for the OIML Certification
+System (OIML-CS)_ <<OIML_B_18_2018>>.
 
 In addition, for the purposes of this Recommendation, the following definitions apply:
 
 [heading="terms and definitions"]
 === General definitions
 
-==== durability [VIML 5.15]
+==== durability
 
 ability of a measuring instrument to maintain its performance characteristics over
 a period of use
 
-==== legal metrology [VIML 1.01]
+[.source]
+<<OIML_V_1_2013,clause="5.15">>
+
+==== legal metrology
 
 practice and process of applying statutory and regulatory structure and enforcement
 to metrology
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
+
+[.source]
+<<OIML_V_1_2013,clause="1.01">>
 
 ==== load cell
 
@@ -74,56 +80,77 @@ analogue-active load cell which includes an analogue to digital conversion devic
 providing a representation of the measurand value in some digital format and includes
 further digital processing (e.g. scaling)
 
-==== marking [VIML 2.19]
+==== marking
 
 affixing of one or more marks
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
 
-==== metrological supervision [VIML 2.03]
+[.source]
+<<OIML_V_1_2013,clause="2.19">>
+
+==== metrological supervision
 
 activity of legal metrological control to check the observance of metrology laws
 and regulations
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
 
-==== measuring transducer [VIM 3.7]
+[.source]
+<<OIML_V_1_2013,clause="2.03">>
+
+==== measuring transducer
 
 device, used in measurement, that provides an output quantity having a specified
 relation to the input quantity
+
+[.source]
+<<OIML_V_2_200_2012,clause="3.7">>
 
 ==== performance test
 
 test to verify whether the load cell under test is capable of performing its intended
 functions
 
-==== rated operating condition [VIM 4.9]
+==== rated operating condition
 
 operating condition that must be fulfilled during measurement in order that a measuring
 instrument or measuring system perform as designed
 
-(For notes, refer to the VIM [2]).
+(For notes, refer to the <<OIML_V_2_200_2012>>).
 
-==== sealing [VIML 2.20]
+[.source]
+<<OIML_V_2_200_2012,clause="4.9">>
+
+==== sealing
 
 means intended to protect the measuring instrument against any unauthorised modification,
 readjustment, removal of parts, software, etc.
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
 
-==== type (pattern) evaluation [VIML 2.04]
+[.source]
+<<OIML_V_1_2013,clause="2.20">>
+
+==== type (pattern) evaluation
 
 conformity assessment procedure on one or more specimens of an identified type (pattern)
 of measuring instruments which results in an evaluation report and / or an evaluation
 certificate
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
 
-==== type approval [VIML 2.05]
+[.source]
+<<OIML_V_1_2013,clause="2.04">>
+
+==== type approval
 
 decision of legal relevance, based on the review of the type evaluation report, that
 the type of a measuring instrument complies with the relevant statutory requirements
 and results in the issuance of the type approval certificate
+
+[.source]
+<<OIML_V_1_2013,clause="2.05">>
 
 === Categories of load cells
 
@@ -321,10 +348,13 @@ to the load cell alone
 
 NOTE: This value is used in determining the MPE (see <<sec-3.7.10>>).
 
-==== durability error [VIML 5.16]
+==== durability error
 
 difference between the intrinsic error after a period of use and the initial intrinsic
 error of a measuring instrument
+
+[.source]
+<<OIML_V_1_2013,clause="5.16">>
 
 ==== expanded uncertainty
 
@@ -332,10 +362,13 @@ quantity defining an interval about the result of a measurement that may be expe
 a large fraction of the distribution of values that could reasonably be attributed to the measurand
 (OIML G 1-100 _Guide to the Expression of Uncertainty in Measurement_) [7]
 
-==== fault [VIML 5.12]
+==== fault
 
 difference between the error of indication and the intrinsic error of a measuring
-instrument (For notes, refer to the VIML [3]).
+instrument (For notes, refer to the <<OIML_V_1_2013>>).
+
+[.source]
+<<OIML_V_1_2013,clause="5.12">>
 
 ==== fault detection output
 
@@ -347,38 +380,50 @@ difference in load cell output readings for the same applied force between the r
 obtained by increasing the load from minimum load (stem:[D_{"min"}]), and the reading
 obtained by decreasing the load from maximum load (stem:[D_{"max"}])
 
-==== initial intrinsic error [VIML 5.11]
+==== initial intrinsic error
 
 intrinsic error of a measuring instrument as determined prior to performance tests
 and durability evaluations
+
+[.source]
+<<OIML_V_1_2013,clause="5.11">>
 
 ==== load cell intrinsic error
 
 error resulting from a load cell, determined under reference conditions
 
 [[sec-3.7.10]]
-==== maximum permissible error (MPE) [VIM 4.26]
+==== maximum permissible error (MPE)
 
 extreme value of measurement error, with respect to a known reference quantity value,
 permitted by specifications or regulations for a given measurement, measuring instrument,
 or measuring system
 
-(For notes, refer to the VIM [2]).
+(For notes, refer to the <<OIML_V_2_200_2012>>).
 
-==== measurement error [VIM 2.16]
+[.source]
+<<OIML_V_2_200_2012,clause="4.26">>
+
+==== measurement error
 
 measured quantity minus a reference quantity value.
 
 NOTE: The term "measurement error" in this Recommendation refers to load cell measurement
 errors.
 
-(For additional notes, refer to the VIM [2]).
+(For additional notes, refer to the <<OIML_V_2_200_2012>>).
 
-==== measured quantity (value) [VIM 2.10]
+[.source]
+<<OIML_V_2_200_2012,clause="2.16">>
+
+==== measured quantity (value)
 
 quantity value representing a measurement result
 
-(For notes, refer to the VIM [2]).
+(For notes, refer to the <<OIML_V_2_200_2012>>).
+
+[.source]
+<<OIML_V_2_200_2012,clause="2.10">>
 
 ==== non-linearity
 
@@ -390,24 +435,33 @@ through zero force applied and maximum force applied
 difference between load cell output readings taken from consecutive tests under the
 same loading and environmental conditions of measurement
 
-==== resolution [VIM 4.14]
+==== resolution
 
 smallest change in a quantity being measured that causes a perceptible change in
 the corresponding indication
 
-(For notes, refer to the VIM [2]).
+(For notes, refer to the <<OIML_V_2_200_2012>>).
 
-==== significant durability error [VIML 5.17]
+[.source]
+<<OIML_V_2_200_2012,clause="4.14">>
+
+==== significant durability error
 
 durability error exceeding the value specified in the applicable Recommendation
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
 
-==== significant fault [VIML 5.14]
+[.source]
+<<OIML_V_1_2013,clause="5.17">>
+
+==== significant fault
 
 fault exceeding the applicable fault limit value
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
+
+[.source]
+<<OIML_V_1_2013,clause="5.14">>
 
 ==== span stability
 
@@ -422,46 +476,64 @@ change of the signal output under minimum dead load due to a change in ambient t
 
 change in sensitivity due to a change in ambient temperature
 
-==== type approval mark [VIML 3.07]
+==== type approval mark
 
 mark applied to a measuring instrument certifying its conformity to the approved type
+
+[.source]
+<<OIML_V_1_2013,clause="3.07">>
 
 [heading="terms and definitions"]
 === Influences and reference conditions
 
-==== disturbance [VIML 5.19]
+==== disturbance
 
 influence quantity having a value within the limits specified in the relevant Recommendation,
 but outside the specified rated operating conditions of a measuring instrument
 
-==== influence factor [VIML 5.17]
+[.source]
+<<OIML_V_1_2013,clause="5.19">>
+
+==== influence factor
 
 influence quantity having a value which ranges within the rated operating conditions
 of a measuring instrument
 
-(For notes, refer to the VIML [3]).
+(For notes, refer to the <<OIML_V_1_2013>>).
 
-==== influence quantity [VIM 2.52]
+[.source]
+<<OIML_V_1_2013,clause="5.17">>
+
+==== influence quantity
 
 quantity that, in a direct measurement, does not affect the quantity that is actually
 measured, but that affects the relation between the indication and the measurement
 result
 
-(For examples and notes, refer to the VIM [2]).
+(For examples and notes, refer to the <<OIML_V_2_200_2012>>).
 
-==== rated operating condition [VIM 4.9]
+[.source]
+<<OIML_V_2_200_2012,clause="2.52">>
+
+==== rated operating condition
 
 operating condition that must be fulfilled during measurement in order that a measuring
 instrument or measuring system perform as designed
 
-(For notes, refer to the VIM [2]).
+(For notes, refer to the <<OIML_V_2_200_2012>>).
 
-==== reference (operating) condition [VIM 4.11]
+[.source]
+<<OIML_V_2_200_2012,clause="4.9">>
+
+==== reference (operating) condition
 
 operating condition prescribed for evaluating the performance of a measuring instrument
 or measuring system or for comparison of measurement results
 
-(For notes, refer to the VIM [2]).
+(For notes, refer to the <<OIML_V_2_200_2012>>).
+
+[.source]
+<<OIML_V_2_200_2012,clause="4.11">>
 
 === Abbreviations
 
