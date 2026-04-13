@@ -27,6 +27,10 @@ jobs:
         with:
           submodules: true
 
+      - name: "Update gems"
+        run: |
+          bundle update mn2pdf
+
       - name: Setup Metanorma with oiml flavor
         uses: actions-mn/setup@v3
         with:
