@@ -86,7 +86,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
         run: |
-          bundle exec fontist repo setup metanorma "https://${GH_TOKEN}@github.com:metanorma/fontist-formulas-private"
+          bundle exec fontist repo setup metanorma "https://${GH_TOKEN}@github.com/metanorma/fontist-formulas-private"
           bundle exec fontist repo update metanorma
           bundle exec fontist install "Futura PT Book"
           bundle exec fontist install "Futura PT Demi"
