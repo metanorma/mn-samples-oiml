@@ -114,65 +114,65 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # Individual documents (from build-documents artifact)
+          # Individual documents (from build-documents artifact, path: documents/{name}/)
           - name: 'b022-e23'
             artifact: 'mn'
-            dir: 'documents/b022-e23-v5'
+            dir: 'documents/b022-e23'
             xml: 'document.presentation.xml'
             url: 'b022-e23'
             prefix: '/mn-samples-oiml/'
           - name: 'd036-e20'
             artifact: 'mn'
-            dir: 'documents/d036-e20-v5'
+            dir: 'documents/d036-e20'
             xml: 'document.presentation.xml'
             url: 'd036-e20'
             prefix: '/mn-samples-oiml/'
           - name: 'e006-e11'
             artifact: 'mn'
-            dir: 'documents/e006-e11-v5'
+            dir: 'documents/e006-e11'
             xml: 'document.presentation.xml'
             url: 'e006-e11'
             prefix: '/mn-samples-oiml/'
           - name: 'g021-e17'
             artifact: 'mn'
-            dir: 'documents/g021-e17-v5'
+            dir: 'documents/g021-e17'
             xml: 'document.presentation.xml'
             url: 'g021-e17'
             prefix: '/mn-samples-oiml/'
           - name: 'r007-e79'
             artifact: 'mn'
-            dir: 'documents/r007-e79-v5'
+            dir: 'documents/r007-e79'
             xml: 'document.presentation.xml'
             url: 'r007-e79'
             prefix: '/mn-samples-oiml/'
           - name: 'r144-1'
             artifact: 'mn'
-            dir: 'documents/r144-1-v5'
+            dir: 'documents/r144/1'
             xml: 'document.presentation.xml'
             url: 'r144-1'
             prefix: '/mn-samples-oiml/'
           - name: 'r144-2'
             artifact: 'mn'
-            dir: 'documents/r144-2-v5'
+            dir: 'documents/r144/2'
             xml: 'document.presentation.xml'
             url: 'r144-2'
             prefix: '/mn-samples-oiml/'
           - name: 'r144-3'
             artifact: 'mn'
-            dir: 'documents/r144-3-v5'
+            dir: 'documents/r144/3'
             xml: 'document.presentation.xml'
             url: 'r144-3'
             prefix: '/mn-samples-oiml/'
-          # Collections (from build-collections artifacts)
+          # Collections (from build-collections artifacts, files at artifact root)
           - name: 'r060'
             artifact: 'mn-r060'
-            dir: 'documents/r060'
+            dir: ''
             xml: 'collection.presentation.xml'
             url: 'r060'
             prefix: '/mn-samples-oiml/'
           - name: 'r138-e07'
             artifact: 'mn-r138-e07'
-            dir: 'documents/r138-e07'
+            dir: ''
             xml: 'collection.presentation.xml'
             url: 'r138-e07'
             prefix: '/mn-samples-oiml/'
@@ -192,15 +192,21 @@ jobs:
           git config --global init.defaultBranch main
           rm -rf .git
           git init .
-          git add ${{ matrix.dir }}/${{ matrix.xml }}
+          if [ -n "${{ matrix.dir }}" ]; then
+            git add "${{ matrix.dir }}/${{ matrix.xml }}"
+          else
+            git add "${{ matrix.xml }}"
+          fi
           git commit -m "Add presentation XML for ${{ matrix.name }}"
 
       - name: Create anafero config
+        env:
+          ENTRYPATH: ${{ matrix.dir != '' && format('{0}/{1}', matrix.dir, matrix.xml) || matrix.xml }}
         run: |
-          cat <<EOF > anafero-config.json
+          cat <<'EOF' > anafero-config.json
           {
             "version": "0.1",
-            "entryPoint": "file:${{ matrix.dir }}/${{ matrix.xml }}",
+            "entryPoint": "file:${ENTRYPATH}",
             "storeAdapters": [
               "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
             ],
