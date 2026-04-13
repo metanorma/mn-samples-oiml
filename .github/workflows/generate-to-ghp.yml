@@ -98,8 +98,9 @@ jobs:
 
       - name: Move collection output
         run: |
-          # Collection outputs go to collection-output/; rename to collection name for fl-build
-          mv collection-output "documents/${{ matrix.collection.name }}"
+          # Collection outputs go to sources/<collection>/collection-output/; move to documents/<collection>/ for fl-build
+          mkdir -p documents
+          mv "${{ matrix.collection.dir }}/collection-output" "documents/${{ matrix.collection.name }}"
 
       - uses: actions/upload-artifact@v4
         with:
