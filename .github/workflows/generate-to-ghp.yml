@@ -107,75 +107,28 @@ jobs:
           name: mn-${{ matrix.collection.name }}
           path: documents/${{ matrix.collection.name }}/
 
-  fl-build:
-    runs-on: ubuntu-latest
+  generate-matrix:
     needs: [build-documents, build-collections]
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate fl-build matrix
+        id: matrix
+        run: |
+          MATRIX=$(ruby .github/workflows/scripts/generate-fl-matrix.rb metanorma.yml)
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+
+  fl-build:
+    needs: [build-documents, build-collections, generate-matrix]
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        include:
-          # Individual documents (from build-documents artifact, path: documents/{name}/)
-          - name: 'b022-e23'
-            artifact: 'mn'
-            dir: 'documents/b022-e23'
-            xml: 'document.presentation.xml'
-            url: 'b022-e23'
-            prefix: '/mn-samples-oiml/'
-          - name: 'd036-e20'
-            artifact: 'mn'
-            dir: 'documents/d036-e20'
-            xml: 'document.presentation.xml'
-            url: 'd036-e20'
-            prefix: '/mn-samples-oiml/'
-          - name: 'e006-e11'
-            artifact: 'mn'
-            dir: 'documents/e006-e11'
-            xml: 'document.presentation.xml'
-            url: 'e006-e11'
-            prefix: '/mn-samples-oiml/'
-          - name: 'g021-e17'
-            artifact: 'mn'
-            dir: 'documents/g021-e17'
-            xml: 'document.presentation.xml'
-            url: 'g021-e17'
-            prefix: '/mn-samples-oiml/'
-          - name: 'r007-e79'
-            artifact: 'mn'
-            dir: 'documents/r007-e79'
-            xml: 'document.presentation.xml'
-            url: 'r007-e79'
-            prefix: '/mn-samples-oiml/'
-          - name: 'r144-1'
-            artifact: 'mn'
-            dir: 'documents/r144/1'
-            xml: 'document.presentation.xml'
-            url: 'r144-1'
-            prefix: '/mn-samples-oiml/'
-          - name: 'r144-2'
-            artifact: 'mn'
-            dir: 'documents/r144/2'
-            xml: 'document.presentation.xml'
-            url: 'r144-2'
-            prefix: '/mn-samples-oiml/'
-          - name: 'r144-3'
-            artifact: 'mn'
-            dir: 'documents/r144/3'
-            xml: 'document.presentation.xml'
-            url: 'r144-3'
-            prefix: '/mn-samples-oiml/'
-          # Collections (from build-collections artifacts, files at artifact root)
-          - name: 'r060'
-            artifact: 'mn-r060'
-            dir: ''
-            xml: 'collection.presentation.xml'
-            url: 'r060'
-            prefix: '/mn-samples-oiml/'
-          - name: 'r138-e07'
-            artifact: 'mn-r138-e07'
-            dir: ''
-            xml: 'collection.presentation.xml'
-            url: 'r138-e07'
-            prefix: '/mn-samples-oiml/'
+        include: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
     name: Firelight build - ${{ matrix.name }}
 
     steps:
