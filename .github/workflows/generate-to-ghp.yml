@@ -201,12 +201,12 @@ jobs:
 
       - name: Create anafero config
         env:
-          ENTRYPATH: ${{ matrix.dir != '' && format('{0}/{1}', matrix.dir, matrix.xml) || matrix.xml }}
+          ENTRYPOINT: ${{ matrix.dir != '' && format('{0}/{1}', matrix.dir, matrix.xml) || matrix.xml }}
         run: |
-          cat <<'EOF' > anafero-config.json
+          cat > anafero-config.json <<EOF
           {
             "version": "0.1",
-            "entryPoint": "file:${ENTRYPATH}",
+            "entryPoint": "file:${ENTRYPOINT}",
             "storeAdapters": [
               "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
             ],
