@@ -43,7 +43,7 @@ section "6 Data sheet and dimensions" in this Annex).
 
 Dead load: xxx stem:[% cdot E_{"max"}]; Safe overload: xxx stem:[% cdot E_{"max"}]; Input impedance: xxx stem:["unitsml(Ohm)"]
 
-[[sec-C.3]] 
+[[sec-C.3]]
 === Tests
 
 The determination of the measurement error, the stability of the dead load output,
@@ -156,7 +156,7 @@ indicated in the accompanying document. The shield will be connected or not conn
 to the load cell according to the customer's preference.
 
 [%unnumbered]
-image::figure-un1.png[] 
+image::figure-un1.svg[]
 
 [[sec-C.9]]
 === Connections
