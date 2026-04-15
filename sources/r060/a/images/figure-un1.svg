@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 319.2 258.6">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: ArialMT, Arial;
+        font-size: 12px;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st1, .st2, .st3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st1, .st3 {
+        stroke-width: 2px;
+      }
+
+      .st2 {
+        stroke-width: .75px;
+      }
+
+      .st2, .st3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="shapes">
+    <g>
+      <rect class="st1" x="51.41" y="90.82" width="76.25" height="76.25" transform="translate(61.68 283.44) rotate(-135)"/>
+      <rect class="st1" x="53.63" y="88.2" width="17.91" height="27.56" transform="translate(34.72 218.35) rotate(-135)"/>
+      <rect class="st1" x="107.55" y="142.12" width="17.91" height="27.56" transform="translate(88.64 348.52) rotate(-135)"/>
+      <rect class="st1" x="107.55" y="88.2" width="17.91" height="27.56" transform="translate(-37.99 112.25) rotate(-45)"/>
+      <rect class="st1" x="53.63" y="142.12" width="17.91" height="27.56" transform="translate(-91.91 89.91) rotate(-45)"/>
+    </g>
+    <rect class="st2" x="28.58" y="67.99" width="121.92" height="121.92" transform="translate(61.68 283.44) rotate(-135)"/>
+    <g>
+      <polyline class="st3" points="35.62 128.94 21.5 128.94 21.5 14.43 236.64 14.43"/>
+      <path d="M236.64,17.43c1.66,0,3.01-1.35,3.01-3.01s-1.35-3.01-3.01-3.01-3.01,1.35-3.01,3.01,1.35,3.01,3.01,3.01Z"/>
+    </g>
+    <g>
+      <polyline class="st3" points="89.54 75.02 89.54 61.66 212.16 61.66 236.64 61.66"/>
+      <path d="M236.64,64.67c1.66,0,3.01-1.35,3.01-3.01s-1.35-3.01-3.01-3.01-3.01,1.35-3.01,3.01,1.35,3.01,3.01,3.01Z"/>
+    </g>
+    <g>
+      <polyline class="st3" points="236.64 38.88 212.37 38.88 212.37 61.66"/>
+      <path d="M236.64,35.87c1.66,0,3.01,1.35,3.01,3.01s-1.35,3.01-3.01,3.01-3.01-1.35-3.01-3.01,1.35-3.01,3.01-3.01Z"/>
+    </g>
+    <g>
+      <line class="st3" x1="143.46" y1="128.94" x2="236.64" y2="128.94"/>
+      <path d="M236.64,131.95c1.66,0,3.01-1.35,3.01-3.01s-1.35-3.01-3.01-3.01-3.01,1.35-3.01,3.01,1.35,3.01,3.01,3.01Z"/>
+    </g>
+    <g>
+      <polyline class="st3" points="89.54 182.86 89.54 194.55 236.64 194.55"/>
+      <path d="M236.64,197.56c1.66,0,3.01-1.35,3.01-3.01s-1.35-3.01-3.01-3.01-3.01,1.35-3.01,3.01,1.35,3.01,3.01,3.01Z"/>
+    </g>
+    <g>
+      <polyline class="st3" points="236.64 218.32 212.37 218.32 212.37 194.55"/>
+      <path d="M236.64,215.32c1.66,0,3.01,1.35,3.01,3.01s-1.35,3.01-3.01,3.01-3.01-1.35-3.01-3.01,1.35-3.01,3.01-3.01Z"/>
+    </g>
+    <g>
+      <polyline class="st2" points="89.54 215.15 89.54 244.77 236.64 244.77"/>
+      <path d="M236.64,247.59c1.56,0,2.82-1.26,2.82-2.82s-1.26-2.82-2.82-2.82-2.82,1.26-2.82,2.82,1.26,2.82,2.82,2.82Z"/>
+    </g>
+    <g>
+      <rect class="st3" x="146.06" y="45.51" width="36.01" height="16.15"/>
+      <rect class="st1" x="153.23" y="38.88" width="21.67" height="12.36"/>
+      <rect class="st1" x="153.23" y="55.98" width="21.67" height="12.36"/>
+    </g>
+    <g>
+      <rect class="st3" x="146.24" y="194.57" width="36.01" height="16.15"/>
+      <rect class="st1" x="153.41" y="187.94" width="21.67" height="12.36"/>
+      <rect class="st1" x="153.41" y="205.04" width="21.67" height="12.36"/>
+    </g>
+  </g>
+  <g id="texts">
+    <text class="st0" transform="translate(251.87 18.89)"><tspan x="0" y="0">Signal +</tspan></text>
+    <text class="st0" transform="translate(251.87 132.46)"><tspan x="0" y="0">Signal -</tspan></text>
+    <text class="st0" transform="translate(251.87 45.51)"><tspan x="0" y="0">Sense +</tspan></text>
+    <text class="st0" transform="translate(251.87 64.93)"><tspan x="0" y="0">Excitation +</tspan></text>
+    <text class="st0" transform="translate(251.87 223.44)"><tspan x="0" y="0">Sense -</tspan></text>
+    <text class="st0" transform="translate(251.87 249.46)"><tspan x="0" y="0">Shield</tspan></text>
+    <text class="st0" transform="translate(251.87 198.91)"><tspan x="0" y="0">Excitation -</tspan></text>
+  </g>
+</svg>

@@ -76,7 +76,7 @@ load cells with identical outer dimensions but different geometries are shown be
 
 [[fig-1]]
 .Examples of strain gauge-type load cell design shapes
-image::figure-1.png[]
+image::figure-1.svg[]
 
 [%key]
 A:: difference of geometry in the area of thin places (i.e. round or oval drilling)
