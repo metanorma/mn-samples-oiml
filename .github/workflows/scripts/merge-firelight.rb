@@ -58,7 +58,7 @@ if index_html.exist?
   used_sections = Set.new
 
   firelight_names.each do |name|
-    firelight_path = "documents/#{name}/firelight/index.html"
+    firelight_path = "documents/#{name}/firelight/"
     doc_path = "documents/#{name}/document.html"
 
     target_section = nil
