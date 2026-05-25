@@ -115,6 +115,7 @@ end
 # ═══════════════════════════════════════════════════════════════
 
 require "glossarist"
+require "glossarist/v3"
 
 TermData = Struct.new(
   :term_id, :term_name, :definition, :notes, :examples,
@@ -476,7 +477,7 @@ def build_all
   # Each file is multi-document YAML: concept + localizations
   concept_ids = []
   collection.managed_concepts.each do |mc|
-    doc = Glossarist::ConceptDocument.from_managed_concept(mc)
+    doc = Glossarist::V3::ConceptDocument.from_managed_concept(mc)
     filename = File.join(OUTPUT_DIR, "#{mc.data.id}.yaml")
     File.write(filename, doc.to_yamls, encoding: "utf-8")
     concept_ids << mc.data.id
