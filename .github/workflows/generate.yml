@@ -109,13 +109,13 @@ jobs:
             "version": "0.1",
             "entryPoint": "file:${ENTRYPOINT}",
             "storeAdapters": [
-              "git+https://github.com/metanorma/firelight#fix-todom-array-format/packages/metanorma-xml-store"
+              "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
             ],
             "contentAdapters": [
-              "git+https://github.com/metanorma/firelight#fix-todom-array-format/packages/metanorma-site-content"
+              "git+https://github.com/metanorma/firelight#main/packages/metanorma-site-content"
             ],
             "resourceLayouts": [
-              "git+https://github.com/metanorma/firelight#fix-todom-array-format/packages/plateau-layout"
+              "git+https://github.com/metanorma/firelight#main/packages/plateau-layout"
             ]
           }
           EOF
