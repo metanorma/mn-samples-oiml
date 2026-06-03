@@ -41,9 +41,32 @@ Reference documents.
 
 == Prerequisites
 
-To render proper PDF/HTML you need to have the "`Futura PT *`" fonts setup.
+- Ruby 2.6+ (or Podman/Docker for containerized workflow).
 
-This font is available in the private Metanorma Fontist formulas repository.
+- To render proper PDF/HTML you need to have the "`Futura PT *`" fonts
+available to Metanorma. They are available in private Metanorma Fontist formulas repository,
+which you would need to have access to.
+
+== Shortcut: building full site using containers
+
+This skips the need for some installation steps, but is likely to be slower
+than the regular local installation approach, and you need to have
+Podman or Docker.
+
+Podman example:
+
+[source,sh]
+----
+podman run --cpus=4 --memory=6g -v "$(pwd)":/metanorma -w /metanorma -it metanorma/metanorma sh -c "fontist update && fontist repo setup metanorma 'https://<YOU_GH_PAT>@github.com/metanorma/fontist-formulas-private' && fontist repo update metanorma && fontist install 'Futura PT Book' && fontist install 'Futura PT Demi' && fontist install 'Futura PT Light' && metanorma site generate --agree-to-terms"
+----
+
+== Usage (general)
+
+=== Installing Metanorma
+
+See https://www.metanorma.org
+
+=== Installing fonts
 
 Adding the private Metanorma Fontist formula repository.
 
@@ -65,10 +88,7 @@ fontist install 'Futura PT Demi'
 fontist install 'Futura PT Light'
 ----
 
-
-== Usage (general)
-
-=== Quick start
+=== Building R-60 collection
 
 The easy way if you install locally:
 
@@ -79,10 +99,6 @@ bundle
 bundle exec metanorma sources/r060/collection.yaml
 # => sources/r060/collection.{html,pdf,xml}
 ----
-
-=== Installing Metanorma
-
-See https://www.metanorma.org
 
 === Building a single document
 
