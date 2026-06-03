@@ -41,19 +41,20 @@ Reference documents.
 
 == Prerequisites
 
-- Ruby 2.6+ (or Podman/Docker for containerized workflow).
-
 - To render proper PDF/HTML you need to have the "`Futura PT *`" fonts
 available to Metanorma. They are available in private Metanorma Fontist formulas repository,
 which you would need to have access to.
 
-== Shortcut: building full site using containers
+== Shortcut: using pre-built Metanorma container image
 
 This skips the need for some installation steps, but is likely to be slower
-than the regular local installation approach, and you need to have
-Podman or Docker.
+than the regular local installation approach and Metanorma version available
+in the image may lag a few days behind the latest version. Requires:
 
-Podman example:
+- Podman or Docker.
+- Your Github Personal Access Token, which you would need to provide the container.
+
+Single-command Podman example that builds the site (tested in Zsh, Fish):
 
 [source,sh]
 ----
@@ -61,6 +62,8 @@ podman run --cpus=4 --memory=6g -v "$(pwd)":/metanorma -w /metanorma -it metanor
 ----
 
 == Usage (general)
+
+Requires Ruby 2.6+.
 
 === Installing Metanorma
 
