@@ -108,6 +108,7 @@ jobs:
           {
             "version": "0.1",
             "entryPoint": "file:${ENTRYPOINT}",
+            "workspaceTitle": "OIML",
             "storeAdapters": [
               "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
             ],
