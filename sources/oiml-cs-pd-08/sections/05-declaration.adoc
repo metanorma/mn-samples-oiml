@@ -1,0 +1,27 @@
+== Initiation and maintenance of a Declaration
+
+=== {blank}
+
+Once an OIML Issuing Authority has been approved by the Management Committee they must sign a Declaration before they can issue OIML certificates and OIML type evaluation reports for the categories of measuring instruments in the OIML-CS. If the OIML Issuing Authority extends or reduces its scope (see <<OIML_CS_PD_04>>), then its Declaration shall be updated to reflect the updated scope.
+
+=== {blank}
+
+Evaluation and testing of an instrument may be performed for an application received before the OIML Issuing Authority has signed its Declaration, or before the scope of the OIML Issuing Authority has been updated in its Declaration in the case of an extension to scope.
+
+However, in this case, the evaluation and testing shall be performed after the Review Committee (RC) has made a positive recommendation to the Management Committee to approve (without conditions) the OIML Issuing Authority (see <<OIML_CS_PD_03>>) and/or Test Laboratory (see <<OIML_CS_PD_04>>). In all cases, the OIML certificate and the OIML type evaluation report cannot be issued until the Declaration of the OIML Issuing Authority has been signed or updated, as appropriate.
+
+=== {blank}
+
+The requirements in 5.2 apply to
+
+. a new potential OIML Issuing Authority and the associated Test Laboratory(ies), and
+
+. an existing OIML Issuing Authority that has applied to extend its scope to include a new or existing category of measuring instrument, including the associated Test Laboratory.
+
+=== {blank}
+
+Following the periodic review detailed in <<OIML_CS_PD_03>>, any changes to the scope or status of an OIML Issuing Authority shall be recorded in its Declaration.
+
+=== {blank}
+
+Any changes in the acceptance and utilization of OIML certificates and OIML type evaluation reports by Utilizers and Associates shall be recorded in the respective Declaration.

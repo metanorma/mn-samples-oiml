@@ -1,0 +1,58 @@
+[[annex-c]]
+[appendix,obligation=informative]
+== Facility for tests on barometric pressure
+
+=== Introduction
+
+At the date of publication of this Document no publication is available on a standard method describing a test facility for the evaluation of the influence of minor changes in the barometric pressure on the performance of measuring instruments.
+
+As the performance of certain measuring instruments can be influenced by changes in atmospheric pressure, exposing these to such test makes sense. A typical example is the influence on the zero-output of certain designs of load cells that have a low excitation voltage.
+
+This Annex presents a brief description for a simple test setup, primarily designed and designated for testing load cells, but also applicable for other relatively small EUTs with a safe low excitation voltage.
+
+For this test, it should be emphasized that the changes in pressure introduced are very small: the difference in atmospheric pressure between the test chamber and the outer atmosphere will never exceed 20 kPa. So no special precautions need to be taken with respect to pressure related safety measures.
+
+Furthermore, there is no need to control the exact pressure; it is sufficient to control the difference between the pressure in the pressure chamber and the atmospheric pressure in the laboratory.
+
+When using a small pressure chamber for the testing of electronic measuring instruments a practical problem is making the connection for the cable(s) between the pressure room and the outer atmosphere airtight using simple means and without the need to dismantle the connection plug(s).
+
+=== Facility for barometric pressure test
+
+It must be clearly emphasized that the facility described below is just one possible solution. Other solutions may be equally acceptable.
+
+In the described facility, the problem of getting an airtight feed-through for the cables is solved by creating a water slot and using it to generate the changes in pressure as well.
+
+The principle of the test facility is depicted in <<fig-c-1>> and a practical setup is shown in <<fig-c-2>>.
+
+The vessel (1) is partly filled with water.
+
+The EUT (2) is placed on a table (3) and prevents the EUT from becoming wet.
+
+A transparent vessel (4), having a smaller diameter than the one mentioned before, is placed upside down within the first vessel (1) to form a water seal (5) between the two vessels. Furthermore, there should be a means (6) that prevents the vessel from floating. This could be either a bar as shown in <<fig-c-2>> or some other heavy object.
+
+The pressure above the water level in the second vessel (7) can be set by means of a manually operated pump (8) and its level read on a pressure gauge (9).
+
+The water seal (5) between the two vessels solves the problem of an airtight feed-through for the cables.
+
+The vessel (1) shown in <<fig-c-2>> a) has a diameter of about 50 cm.
+
+The pressure in the chamber can be increased by either a small hand pump or by adding a small amount of water.
+
+As an alternative for the pressure gauge (9), a water manometer (10) consisting of a water-filled plastic tube and a ruler may be used.
+
+[WARNING]
+====
+Due to the presence of water and a metal housing, this facility may only be used in situations where safe voltages occur (U < 50 V, i.e. extra low voltage range), or no electric power at all.
+====
+
+[[fig-c-1]]
+.The basic principle
+image::figure-c-1.svg[]
+
+(1) Vessel, (2) EUT, (3) Table, (4) Transparent vessel, (5) Water, (6) Prevention against floating up, (7) Pressure chamber, (8) Pump, (9) Pressure gauge
+
+[[fig-c-2]]
+.The practical setup
+image::figure-c-2.svg[]
+
+(10) Water-manometer

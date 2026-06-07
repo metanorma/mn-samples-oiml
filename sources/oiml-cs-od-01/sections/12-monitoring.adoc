@@ -1,0 +1,13 @@
+== Monitoring of Operation and Effectiveness
+
+=== General
+
+To ensure that the OIML-CS continues to develop and to operate in an effective and efficient manner the Management Committee shall establish mechanisms for measuring key activities and outcomes. The Management Committee shall also seek feedback from stakeholders and users of the OIML-CS in order to identify possible improvements. The monitoring of the operation and effectiveness of the OIML-CS will be reported to the CIML as part of the annual report detailed in 8.2.
+
+=== Measurement of Activities
+
+The activities that may be measured by the Management Committee are detailed in 8.2.
+
+=== Benchmarking
+
+The Management Committee may choose to undertake benchmarking to gather information to support the monitoring of the operation and effectiveness of the OIML-CS and to compare the performance of the OIML-CS with other well-established certification systems. The outputs from benchmarking exercises will be incorporated into the monitoring and reporting process.

@@ -1,0 +1,87 @@
+== Review Committee
+
+=== Composition
+
+The composition of the Review Committee is defined in OIML B 18, 11.6.1 <<OIML_B_18>>.
+
+=== Tasks
+
+The tasks of the Review Committee are defined in OIML B 18, 11.6.2 <<OIML_B_18>>.
+
+In addition, the Review Committee is also available to provide advice to the Executive Secretary regarding enquiries from OIML Issuing Authorities on the use of previous test data (OIML-CS PD-07, subclauses 6.2 and 7.2).
+
+=== Review Committee operating rules and procedures
+
+==== {blank}
+
+The Management Committee is responsible for developing, maintaining and approving the operating rules and procedures regarding
+
+. the roles and duties of the Review Committee,
+
+. the appointment of the Review Committee Chairperson,
+
+. the selection of Review Committee members,
+
+. the conduct of Review Committee work, and
+
+. the responsibilities of the Executive Secretary in connection with the activities of the Review Committee.
+
+==== {blank}
+
+In accordance with 11.2.1, any proposed changes to the composition and tasks of the Review Committee will require a revision of OIML B 18 <<OIML_B_18>>.
+
+=== Membership of the Review Committee
+
+The Management Committee shall identify and select from amongst its members (either Management Committee Members or representatives) at least six people, having the requisite knowledge and experience, to become members of the Review Committee. Representatives from OIML Corresponding Members and Organisations in Liaison (observers) cannot be members of the Review Committee.
+
+=== Review Committee Chairperson
+
+==== {blank}
+
+The Management Committee shall appoint one of its members (either a Management Committee member or a representative) from an OIML Member State to be the Review Committee Chairperson.
+
+==== {blank}
+
+The principal duties of the Review Committee Chairperson are to
+
+. convene and preside over meetings of the Review Committee,
+
+. determine the agenda for Review Committee meetings,
+
+. report to the Management Committee the advice (in the form of recommendations) from the Review Committee in an appropriate and timely manner, and
+
+. provide an annual report of its activities to the Management Committee.
+
+=== Review Committee Recommendations
+
+==== {blank}
+
+The Management Committee will seek, through the Executive Secretary, recommendations from the Review Committee on
+
+. the approval or rejection of potential OIML Issuing Authorities and their Test Laboratories including changes to scope,
+
+. the periodic review of OIML Issuing Authorities and their Test Laboratories, and
+
+. the approval or rejection of Legal Metrology Experts and Management System Experts.
+
+==== {blank}
+
+It is the responsibility of the Review Committee Chairperson to ensure that recommendations on the above are provided to the Management Committee.
+
+==== {blank}
+
+Members of the Review Committee shall not contribute (by comment or opinion) to recommendations concerning potential and existing OIML Issuing Authorities or Test Laboratories where they have participated in the peer assessment or accreditation assessment of that OIML Issuing Authority or Test Laboratory.
+
+==== {blank}
+
+Members of the Review Committee may contribute (by comment or opinion) to recommendations concerning potential and existing OIML Issuing Authorities or Test Laboratories from their own country and organisation, subject to the exception specified in 5.6.3.
+
+=== Review Committee Confidentiality
+
+==== {blank}
+
+Members of the Review Committee shall sign a non-disclosure agreement which guarantees that all information received in relation to the work of the Review Committee is held in strict confidence. This agreement is signed with the BIML.
+
+==== {blank}
+
+The Executive Secretary will provide Review Committee members with the information regarding applications from OIML Issuing Authorities, Test Laboratories, Legal Metrology Experts and Management System Experts. Review Committee members shall destroy all documents associated with these applications once a recommendation has been made.

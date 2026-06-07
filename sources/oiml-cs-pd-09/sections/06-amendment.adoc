@@ -1,0 +1,33 @@
+== Amendment of Utilizer and Associate scopes
+
+=== {blank}
+
+An existing Utilizer or Associate may apply to extend their scope for the following:
+
+. addition of a new category of measuring instrument;
+
+. addition of a new edition of an OIML Recommendation (where a previous edition of the OIML Recommendation is in its scope);
+
+. addition of a new, or an amendment of an existing condition; or
+
+. addition of a new, or amendment of an existing additional national requirement.
+
+=== {blank}
+
+Conversely, an existing Utilizer or Associate may apply to reduce their scope for the following:
+
+. removal of a category of measuring instrument;
+
+. removal of an edition of an OIML Recommendation;
+
+. removal of a condition, or an amendment of an existing condition; or
+
+. removal of an additional national requirement, or an amendment of an existing additional national requirement.
+
+=== {blank}
+
+Where a Utilizer or an Associate wishes to extend its scope an application shall be made using the Application to be a Utilizer or Application to be an Associate form, as appropriate. The form shall be submitted to the Executive Secretary who will amend the scope of the Utilizer or Associate, as appropriate, in their Declaration. Once the signed Declaration has been received by the Executive Secretary, the Executive Secretary shall update the relevant information on the OIML-CS pages of the OIML website and shall inform the Management Committee.
+
+=== {blank}
+
+Where a Utilizer or an Associate wishes to reduce its scope a representative from the Utilizer or Associate, as appropriate, shall inform the Executive Secretary. The Executive Secretary shall amend the scope of the Utilizer or Associate accordingly in their Declaration. The Executive Secretary shall update the relevant information on the OIML-CS pages of the OIML website and shall inform the Management Committee.

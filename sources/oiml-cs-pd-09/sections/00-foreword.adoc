@@ -1,0 +1,24 @@
+== Foreword
+
+This publication has been prepared by the Maintenance Group of the OIML Certification System (OIML-CS) Management Committee.
+
+The Management Committee approved this Edition 1 of OIML-CS PD-09 by electronic ballot on 01 October 2025 and it was published on 24 December 2025. This edition takes effect immediately upon publication.
+
+This publication is directly related to OIML B 18 Framework for the OIML Certification System (OIML-CS) <<OIML_B_18>> which contains the framework for the operation of the OIML-CS.
+
+[cols="3*",options="header"]
+|===
+| Edition | Document | Report on Voting/Acceptance
+
+| PD-09 Edition 1 (Draft)
+| OIML-CS_SC3_P1_SG3_N102
+| Draft for MG: 2025-01-17
+
+| PD-09 Edition 1 (Draft)
+| OIML-CS_SC3_P1_SG3_N106
+| Draft for MG: 2025-03-19
+
+| PD-09 Edition 1 (Draft)
+| OIML-CS_SC1_P4_N165
+| Draft for MC approval: 2025-09-01
+|===

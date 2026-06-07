@@ -1,0 +1,26 @@
+[[preamble]]
+== Preamble
+
+ISO/IEC 17025:2017 is an International Standard which sets out criteria for the competence of testing and calibration laboratories. The edition of ISO/IEC 17025 referred to in this Document is 2017.
+
+This Document gives guidance and interpretations relating to the application of ISO/IEC 17025 to the assessment of any testing laboratories involved in legal metrology testing. These testing laboratories may be
+
+* internal or third-party testing laboratories of a national issuing authority,
+
+* internal or third-party testing laboratories of an inspection body, for instance those responsible for initial verification, or
+
+* internal, third-party or Manufacturer Test Laboratories (MTLs) of an OIML Issuing Authority when implementing the OIML Certification System (OIML-CS).
+
+NOTE: In the OIML-CS the terms "Test Laboratory" and "Test Laboratories" are used in place of the terms "Testing Laboratory" and "Testing Laboratories".
+
+It may be used in particular
+
+* by peer assessment or accreditation assessors when interpreting ISO/IEC 17025 for legal metrology applications in connection with the OIML-CS,
+
+* for the assessment of testing laboratories conducted by an accreditation body in the field of legal metrology (e.g. an ILAC full Member, signatory of the ILAC MRA), and
+
+* on a voluntary basis for the implementation of ISO/IEC 17025 by national issuing authorities or by OIML Issuing Authorities for assessing their third-party or manufacturer testing laboratories.
+
+This Document has been developed in cooperation with the International Laboratory Accreditation Cooperation (ILAC), which is an Organisation in Liaison with the OIML. Consequently, this Document should be used for accreditation assessments and any appropriate evaluation of testing laboratories on the basis of the Memorandum of Understanding signed between ILAC, the IAF and the OIML in October 2018.
+
+This Document does not include the text of ISO/IEC 17025. Numbers and titles of ISO/IEC 17025 clauses and subclauses are associated with the relevant OIML Guidance which is identified with the letter "G" (for Guidance) followed by the relevant subclause number of ISO/IEC 17025. A chronological number is also given (e.g. G.1.1-1) which signifies "OIML Guidance number 1 to section 1.1 of ISO/IEC 17025". OIML Guidance to the introduction of ISO/IEC 17025 is identified by G.0-x.

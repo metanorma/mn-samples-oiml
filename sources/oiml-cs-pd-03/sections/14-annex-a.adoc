@@ -1,0 +1,31 @@
+[appendix]
+[[annex-a]]
+== Summary of the tasks of an OIML Issuing Authority
+
+[A.1]
+This annex summarises the tasks of the OIML Issuing Authority in order to assist them in understanding their central role in implementing the OIML-CS.
+
+[A.2]
+The OIML Issuing Authority carries out the following tasks:
+
+. designates the Test Laboratory(ies) that it wishes to use to carry out the necessary examinations and tests of the submitted type (of measuring instrument) and prepares the Test Report(s) of the results;
+
+. ensures that the Test Laboratory(ies) is (are) competent according to requirements compatible with ISO/IEC 17025 <<ISO_IEC_17025>> and OIML D 30 <<OIML_D_30>>;
+
+. ensures that the application and test procedures reflect the current OIML-CS requirements;
+
+. specifies documented conditions under which tests are abbreviated or omitted;
+
+. reviews the results of tests and examinations included in the Test Report(s);
+
+. issues the OIML type evaluation report;
+
+. for a successful evaluation, issues an OIML certificate for the type (of measuring instrument) to the applicant;
+
+. for an unsuccessful evaluation, notifies the applicant in writing of the deficiencies in performance of the type (of measuring instrument);
+
+. submits the OIML certificate to the BIML for registration;
+
+. maintains active liaison with its CIML Member, whenever appropriate; and
+
+. makes available documented procedures for accepting, considering, and resolving appeals against decisions.

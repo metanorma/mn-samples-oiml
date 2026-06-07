@@ -1,0 +1,26 @@
+= Guide for the application of ISO/IEC 17025 to the assessment of Testing Laboratories involved in legal metrology
+:docidentifier: OIML D 30:2020
+:docnumber: 30
+:edition: 2020
+:revdate: 2020-01-01
+:copyright-year: 2020
+:language: en
+:doctype: international-document
+:docstage: 60
+:docsubstage: 60
+:title-main-en: Guide for the application of ISO/IEC 17025 to the assessment of Testing Laboratories involved in legal metrology
+:title-main-fr: Guide pour l'application de la Norme ISO/CEI 17025 à l'évaluation des Laboratoires d'Essais intervenant en métrologie légale
+:technical-committee-number: 3
+:technical-committee: Conformity assessment
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-preamble.adoc[]
+
+include::sections/02-explanatory-notes.adoc[]
+
+include::sections/03-guidance.adoc[]

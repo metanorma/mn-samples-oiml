@@ -1,0 +1,17 @@
+== Scope
+
+This Recommendation specifies the metrological and technical requirements for the type evaluation of multi-dimensional measuring instruments used to determine the dimensions and/or dimensional volume of an object for the purpose of calculating charges for postage, freight or storage.
+
+The instruments may be used in conjunction with a weighing instrument also used in the determination of charges, in which case the procedure is usually for the dimensional volume to be calculated, a conversion factor applied, and the resulting dimensional weight of the object compared to its weight to establish which quantity (the largest of measured weight or dimensional weight) will be used to determine the charges. In some cases dimensions other than volume are used for determining charges. The Recommendation also includes type evaluation procedures, verification procedures and test procedures.
+
+The requirements of this Recommendation apply to automatic and semi-automatic instruments, but they do not apply (for example) to simple linear measures such as tape measures. The instruments measure the length, width and height of a rectangular box and in some cases determine the dimensional volume of that box. If the object is not in the form of a rectangular box, the volume of the smallest rectangular box (by volume) which fully encloses the object is determined (see <<section-2.2.1>>).
+
+Instruments may include different measurement devices, each using a different method to measure separate dimensions of an object. The instrument may measure the object whilst there is relative motion between the instrument and the object.
+
+If the multi-dimensional measuring instrument is associated with a weighing instrument, which is also used for determining the charges, the requirements for the weighing instrument are found in the following OIML Recommendations:
+
+. OIML R 76 Non-automatic weighing instruments <<OIML_R_76_2006>> for non-automatic weighing instruments; and
+
+. OIML R 51 Automatic catchweighing instruments <<OIML_R_51_2006>> for automatic weighing instruments.
+
+The requirements of this Recommendation may also be used, where applicable, for type evaluation and verification of other instruments which measure the dimensions and/or the volume of objects for applications other than for determining postage, freight or storage charges.

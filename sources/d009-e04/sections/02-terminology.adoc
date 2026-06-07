@@ -1,0 +1,184 @@
+[heading="Terms and definitions"]
+== Terminology
+
+=== Legal metrology
+
+Part of metrology relating to activities which result from statutory requirements and concern measurement, units of measurement, measuring instruments and methods of measurement and which are performed by competent bodies.
+
+[.source]
+<<VIML,clause="1.2">>
+
+=== Prepackage
+
+Combination of a product and the packing material in which it is prepacked (see <<R87>>).
+
+=== Legally controlled measuring instrument
+
+(Hereinafter referred to as "measuring instrument"): Measuring instrument which conforms to prescribed requirements, in particular legal metrological requirements.
+
+NOTE: For the purposes of this Document the following instruments may fall under legal control according to national regulations: measuring instruments, coin counting machines, medical measuring instruments, water dispensing machines, timing instruments in vehicle washes.
+
+[.source]
+<<VIML,clause="4.3">>
+
+=== Legal metrological control
+
+The whole of legal metrology activities which contribute to metrological assurance.
+
+NOTE: Legal metrological control includes:
+
+* legal control of measuring instruments;
+* metrological supervision;
+* metrological expertise.
+
+[.source]
+<<VIML,clause="2.1">>
+
+=== Metrological supervision
+
+Control exercised in respect of the manufacture, import, installation, use, maintenance and repair of a measuring instrument and/or in respect of its use performed in order to check that it is used correctly as regards the observance of metrology laws and regulations.
+
+NOTE: Metrological supervision includes checking the correctness of the quantities indicated on and contained in prepackages.
+
+[.source]
+<<VIML,clause="2.3">>
+
+=== Investigation
+
+Function of metrological supervision consisting of a systematic examination to determine compliance with legal requirements.
+
+=== Enforcement
+
+Function of metrological supervision consisting in taking the appropriate legal actions against offenders for any violation established during the investigation.
+
+=== Inspection
+
+Function of an investigation to ascertain that the legal requirements related to the matter under investigation are observed. (A more general form of the definition is given in the VIML under 2.21 for inspection of a measuring instrument).
+
+=== Conformity assessment of a measuring instrument
+
+Testing and evaluation of a measuring instrument to ascertain whether or not a single instrument, an instrument lot or a production series of instruments comply with all statutory requirements applicable to this instrument type.
+
+NOTE: Conformity assessment does not only concern metrological requirements but may also cover requirements relating to:
+
+* safety;
+* EMC;
+* software identification;
+* ease of use;
+* marking; etc.
+
+[.source]
+<<VIML,clause="2.11">>
+
+=== Type approval
+
+Decision of legal relevance, based on the evaluation report, that the type of measuring instrument complies with the respective statutory requirements and is suitable for use in the regulated area in such a way that it is expected to provide reliable measurement results over a defined period of time.
+
+[.source]
+<<VIML,clause="2.6">>
+
+=== Verification of a measuring instrument
+
+Procedure (other than type approval) which includes the examination and marking and/or issuing of a verification certificate, that ascertains and confirms that the measuring instrument complies with the statutory requirements.
+
+[.source]
+<<VIML,clause="2.13">>
+
+=== Initial verification
+
+Verification of a measuring instrument which has not been verified previously.
+
+[.source]
+<<VIML,clause="2.15">>
+
+=== Subsequent verification
+
+Any verification of a measuring instrument after a previous verification and including:
+
+* mandatory periodic verification;
+* verification after repair.
+
+NOTE: Subsequent verification of a measuring instrument may be carried out before expiry of the period of validity of a previous verification either at the request of the user (owner) or when its verification is declared to be no longer valid.
+
+[.source]
+<<VIML,clause="2.16">>
+
+=== Free trade area
+
+Area in which two or more countries have harmonized legislation or established some other legal means, on a national basis, to facilitate free cross-border movement of products and services that are affected by legal metrological control.
+
+NOTE: Such harmonized legislation may rely on conformity assessment procedures where, apart from public authorities, first party bodies (manufacturers) and other private bodies, carry out certain functions as third parties.
+
+=== Authority
+
+Public (Government or local Government) body authorized by law on a national level to be responsible for metrological supervision as a whole or in part.
+
+=== Supervised body
+
+Body under supervision -- a business involved in activities being the subject of public interest, e.g. manufacture, repair, distribution, installation and/or use of a measuring instrument and prepackages in trade transactions, health protection and protection of private property, work safety and protection of the environment, as specified by national metrological legislation.
+
+=== Manufacturer
+
+Business responsible for designing and manufacturing a measuring instrument or a pre-packaged product with a view to placing it lawfully on the market nationally or within a free trade area, on its own behalf.
+
+NOTE: The instrument or other product can be produced by another business but it shall be placed on the market by and under the full responsibility of the manufacturer.
+
+=== Manufacturer's representative
+
+Any business designated by the manufacturer to act on its behalf for specified tasks.
+
+=== Consumer
+
+Each individual or business acquiring or purchasing products with a view to using them. (In some countries this applies only to individuals).
+
+=== End user
+
+Business or individual that acquires a measuring instrument with the intention of using it himself or herself and not reselling it.
+
+=== Authorized private body
+
+Private body authorized (licensed) to perform certain activities in legal metrology beyond the scope of metrological supervision (especially activities of metrological control: certification of a measuring instrument, initial and subsequent verification of a measuring instrument, metrological control of a prepackage).
+
+NOTE: Prior to authorization, their technical competence is normally demonstrated by an approval of their quality system through accreditation or any equivalent type of assessment.
+
+=== Placing on the market
+
+Making a measuring instrument or a prepackage available on the market for the first time in the specific country (or region), either for payment or free of charge.
+
+=== Putting into service (use)
+
+Moment of the first use by the end-user of a measuring instrument for the purposes for which it was designed.
+
+=== Quality system surveillance
+
+Form of metrological supervision aimed at establishing that the quality systems of manufacturers, manufacturers' representatives (in relation to conformity assessment procedures) or authorized private bodies, as applicable, comply with the regulatory or statutory requirements of a country or free trade area.
+
+=== Being in service (use)
+
+Operational life cycle of a measuring instrument after its putting into service, i.e. a measuring instrument in use, after repair, relocated, or rebuilt that may be resold.
+
+=== Market surveillance
+
+Form of metrological supervision aimed at a measuring instrument and prepackage which is placed on the market and/or put into service for the first time, to ensure that all the elements of the conformity assessment system work properly and result in general compliance of the products with the provisions of the applicable regulations across a country or free trade area.
+
+[NOTE]
+====
+In the above definition the words "placed on the market and/or put into service" should be applied to describe different situations as follows:
+
+* "placed on the market": should be used in the case when all the relevant conformity assessment procedures are finalized before a measuring instrument or prepackage is put into service;
+* "placed on the market and put into service": one or more conformity assessment procedure(s) may be or have to be carried out when a measuring instrument is put into service;
+* "put into service": to describe the situation when a manufacturer manufactures a measuring instrument to be used by itself (it is not necessary to place it on the market).
+====
+
+=== Field surveillance
+
+alt:[in-service surveillance]
+
+Form of metrological supervision aimed at establishing that a measuring instrument in use in the field complies with the statutory requirements.
+
+[NOTE]
+====
+Note on the relation between market and field surveillance:
+
+Where a conformity assessment of a measuring instrument indicates that the findings can be directly related to the responsibilities of manufacturers or their representatives, the matter should be dealt with by market surveillance.
+====

@@ -1,0 +1,56 @@
+== Periodic review of participation
+
+=== Scheme A
+
+==== {blank}
+
+OIML Issuing Authorities and their associated Test Laboratories are required to undergo internal audits and re-assessments of competence according to the following maintenance process:
+
+. a review by the Management Committee, once a year, of an internal summary report submitted to the Executive Secretary. The report shall highlight in particular, for the relevant scope of the OIML Issuing Authority and Test Laboratories:
+
+.. Results of comparisons;
+
+.. Changes in personnel, structure and organisation;
+
+.. Results of management reviews;
+
+.. Results of internal audits;
+
+.. Results of accreditation (surveillance) assessments, where applicable;
+
+.. Complaints received;
+
+.. Number of type evaluation reports issued;
+
+.. Number of test reports issued; and
+
+.. Number of certificates issued.
+
++
+An OIML Issuing Authority Report template can be downloaded from the OIML-CS pages of the OIML website.
+
+. a review by the Management Committee, every four years, of the accreditation assessment reports and/or peer assessment reports of the OIML Issuing Authorities and their Test Laboratories submitted to the Executive Secretary.
+
+==== {blank}
+
+Where the evaluation of competence of an OIML Issuing Authority and their associated Test Laboratory(ies) has been based on peer assessment, the OIML Issuing Authority is responsible for organising peer assessments every four years under the conditions defined in 5.2.3 above for the OIML Issuing Authority activities and in <<OIML_CS_PD_04>>, 6.2.3 for the Test Laboratory(ies).
+
+==== {blank}
+
+Where the evaluation of competence of an OIML Issuing Authority and their associated Test Laboratory(ies) has been based on accreditation, the OIML Issuing Authority is responsible for requesting the relevant accreditation body to include at least one Legal Metrology Expert approved by the Management Committee in the assessment team as soon as the scope of the Declaration is included in the assessment. A Legal Metrology Expert(s) approved by the Management Committee for the appropriate scope shall, at least once over the renewal cycle, participate in the accreditation assessment team with a maximum interval of five years.
+
+==== {blank}
+
+The OIML Issuing Authority shall send all information, including accreditation certificates and assessment reports, peer assessment reports, etc., to the Executive Secretary as specified in 10.1.1. The Executive Secretary will review the documentation and may request further information to be supplied by the OIML Issuing Authority. Once the review of the documentation is satisfactorily completed by the Executive Secretary, the Executive Secretary distributes the documentation to the Review Committee.
+
+==== {blank}
+
+The Review Committee will review the documentation and will make a recommendation to the Management Committee to approve or reject the continued participation of the OIML Issuing Authority. Based on the Review Committee recommendation the Management Committee will vote on the continued participation of the OIML Issuing Authority. If the Management Committee approves the continued participation the Executive Secretary will notify the OIML Issuing Authority.
+
+==== {blank}
+
+If the Management Committee does not approve the continued participation of an OIML Issuing Authority the Executive Secretary will notify the OIML Issuing Authority, and may request additional information to address the reason for the rejection. The OIML Issuing Authority will have the opportunity to submit the information to the Executive Secretary who will notify the Management Committee. The Management Committee will then reconsider the continued participation of the OIML Issuing Authority.
+
+=== Scheme B
+
+OIML Issuing Authorities and their associated Test Laboratories are required to provide, on an annual basis, evidence to support the self-declaration, e.g. internal assessment reports, for a review by the Management Committee. An OIML Issuing Authority Report template can be downloaded from the OIML-CS pages of the OIML website.

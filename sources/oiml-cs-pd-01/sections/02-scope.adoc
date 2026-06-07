@@ -1,0 +1,7 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains information on appeals, resolution of complaints and disputes associated with the OIML-CS, along with the procedures relating to the operation of the Board of Appeal (BoA).
+
+The information and procedures relate to the framework for the OIML-CS as given in OIML B 18 <<OIML_B_18>>, the Operational Rules as given in <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and the Procedures as given in <<OIML_CS_PD_02>>, <<OIML_CS_PD_03>>, <<OIML_CS_PD_04>>, <<OIML_CS_PD_05>>, <<OIML_CS_PD_06>>, <<OIML_CS_PD_07>> and <<OIML_CS_PD_08>>.

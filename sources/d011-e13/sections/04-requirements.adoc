@@ -1,0 +1,119 @@
+== Requirements for measuring instruments with respect to their environment
+
+Measuring instruments shall comply with the following requirements, notwithstanding all other technical and metrological requirements of the applicable Recommendation, when installed and used in accordance with the manufacturers' specifications.
+
+=== General requirements
+
+==== {blank}
+
+Measuring instruments shall be designed and manufactured such that their errors do not exceed the maximum permissible errors under rated operating conditions.
+
+==== {blank}
+
+Measuring instruments shall be designed and manufactured such that when they are exposed to disturbances, either
+
+. significant faults do not occur, or
+. significant faults are detected and acted upon by means of a checking facility.
+
+NOTE: A fault equal to or smaller than the value fixed (fault limit) in the applicable Recommendation as defined in 3.11 is allowed irrespective of the value of the error of indication.
+
+==== {blank}
+
+The provisions in 5.1.1 and 5.1.2 shall be durably met. Measuring instruments shall be designed and manufactured such that either
+
+. significant durability errors do not occur, or
+. significant durability errors are detected and acted upon by means of a durability protection facility.
+
+==== {blank}
+
+The type of a measuring instrument is presumed to comply with the provisions in 5.1.1, 5.1.2 and 5.1.3 if it passes the examination and tests specified in 6.2.
+
+=== Application
+
+==== {blank}
+
+The provisions in 5.1.2 (a) and 5.1.2 (b) may be applied separately to
+
+. each individual cause of significant fault, and/or
+. each part of the measuring instrument.
+
+==== {blank}
+
+The choice of whether 5.1.2 (a) or 5.1.2 (b) is applied is left to the manufacturer, unless the applicable Recommendation specifies otherwise in view of the intended use of the measuring instrument or the nature of measurement (see note to 4.2).
+
+==== {blank}
+
+The provisions in 5.1.3 (a) and 5.1.3 (b) may be applied separately to each part of the measuring instrument (for example: analogue and digital parts).
+
+==== {blank}
+
+The choice of whether 5.1.3 (a) or 5.1.3 (b) is applied is left to the manufacturer, unless the applicable Recommendation specifies otherwise.
+
+=== Measuring instruments equipped with checking facilities
+
+==== {blank}
+
+For each function of a measuring instrument the applicable Recommendation may specify
+
+. the kind of checking facility (P, I or N), as defined in 3.19,
+. the checking frequency, if appropriate,
+. the method of acting upon a significant fault.
+
+==== {blank}
+
+The applicable Recommendation may specify that it shall be possible to determine the presence and correct functioning of these facilities.
+
+==== {blank}
+
+The requirements in 5.3.1 and 5.3.2 do not apply to measuring instruments or parts of measuring instruments for which the manufacturer claims compliance with the provisions in 5.1.2 (a) and which are nevertheless equipped with checking facilities.
+
+=== Measuring instruments equipped with durability protection facilities
+
+==== {blank}
+
+The applicable Recommendation may specify
+
+. details concerning the operation of the durability protection facilities, and/or
+. the method of acting upon the detection of significant durability errors.
+
+==== {blank}
+
+The applicable Recommendation may specify that it shall be possible to determine the presence and correct operation of these facilities.
+
+==== {blank}
+
+The requirements in 5.4.1 and 5.4.2 do not apply to measuring instruments or parts of measuring instruments for which the manufacturer claims compliance with the provision in 5.1.3 (a) and which are nevertheless equipped with durability protection facilities.
+
+=== Requirements for battery powered instruments
+
+==== {blank}
+
+Type(-s) and capacity(-ies) of the batteries allowed to be used in the applicable measuring instruments shall be specified by the manufacturer. Instruments not equipped with allowed batteries are not considered to be of the same type.
+
+==== {blank}
+
+Instruments powered by stand-alone batteries shall comply with the following requirements:
+
+. instruments provided with new and fully charged batteries shall comply with the metrological requirements;
+. the manufacturer of the measuring instrument shall specify the minimum battery voltage at which the instrument still complies the metrological requirements;
+. in case the battery voltage has dropped below this minimum voltage level specified by the manufacturer this shall be detected and appropriately acted upon by the instrument. The applicable Recommendation may prescribe this manner of response;
+. the battery capacity and lifetime shall be in accordance with the application. The applicable Recommendation may prescribe a required minimum lifetime.
+
+For such instruments, tests associated with the mains power variations and interferences need not be performed.
+
+The applicable Recommendation shall specify a minimum set of provisions to prevent the loss of stored data.
+
+==== {blank}
+
+Instruments powered by rechargeable auxiliary batteries that are intended to be (re)charged during the operation of the measuring instrument shall both
+
+. comply with the requirements of 5.5.2 with the mains power switched off, and
+. comply with the requirements for mains powered instruments with the mains power switched on.
+
+==== {blank}
+
+Instruments powered by the mains power and provided with a back-up battery for data-storage only shall comply with the requirements for mains powered instruments.
+
+In the applicable Recommendation a minimum period of time shall be stated during which the applicable function of the instrument shall function properly without replacing or recharging the batteries.
+
+The provisions of 5.5.2(b) and 5.5.3 do not apply for back-up batteries.

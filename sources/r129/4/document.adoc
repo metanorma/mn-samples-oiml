@@ -1,0 +1,46 @@
+= Multi-dimensional measuring instruments
+:docidentifier: OIML R 129-4
+:docnumber: 129
+:partnumber: 4
+:edition: 2020
+:revdate: 2020-01-01
+:copyright-year: 2020
+:language: en
+:title-main-en: Multi-dimensional measuring instruments
+:title-part-en: Type evaluation report format
+:title-main-fr: Instruments de mesure multidimensionnels
+:title-part-fr: Format du rapport d'évaluation de type
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 7
+:technical-committee: Dimensional measuring instruments
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-explanatory-notes.adoc[]
+
+include::sections/03-identification.adoc[]
+
+include::sections/04-general-information.adoc[]
+
+include::sections/05-configuration.adoc[]
+
+include::sections/06-sample-selection.adoc[]
+
+include::sections/07-adjustments-modifications.adoc[]
+
+include::sections/08-summary-test-reports.adoc[]
+
+include::sections/09-appraisal-test-data.adoc[]
+
+include::sections/10-summary-checklist.adoc[]
+
+include::sections/11-checklist.adoc[]

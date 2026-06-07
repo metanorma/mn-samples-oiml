@@ -1,0 +1,20 @@
+=== Summary of test report(s)
+
+Use the table below to summarise the test report(s) used to support the type evaluation:
+
+|===
+|Test report number |Issued by |Remarks*
+
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+* Use this column to record if the test report was issued:
+
+* under the OIML Basic Certificate System, the OIML Mutual Acceptance Arrangement (MAA) or the OIML Certification System (OIML-CS) Scheme A or B. Where the test report was used as the basis for issuing an existing OIML Certificate, the relevant OIML Certificate number should be noted;
+* by a Manufacturer Test Laboratory (MTL);
+* under the scope of ISO/IEC 17025 accreditation.

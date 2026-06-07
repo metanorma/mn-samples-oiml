@@ -1,0 +1,269 @@
+== Climate related performance tests
+
+=== Static temperatures
+
+[[table-6]]
+.Dry heat
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60068-2-2>>, <<IEC60068-3-1>>
+| Test method | Exposure to dry heat (non-condensing)
+| Applicability | General
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of high temperature
+| Test procedure in brief | The test comprises exposure to the specified high temperature under "free air" conditions during the period of time specified (the period specified is the period following the moment at which the EUT has reached temperature stability). The change in temperature shall not exceed 1 °C/min during heating up and cooling down. The absolute humidity of the test atmosphere shall not exceed 20 g/m³. When tests are performed at temperatures below 35 °C, the relative humidity shall not exceed 50 %.
+|===
+
+[cols="1,1,1,1,1,1,1,1"]
+|===
+| Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | 2 | *3* | 4 | 5 | 6 | 7
+
+| Temperature (°C) | 30 | 35 | *40* | 45 | 50 | 55 | 60
+| Duration (h) | 2 | 2 | *2* | 2 | 2 | 2 | 2
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: temperature and duration,
+. electrical and mechanical measurements to be made prior to the test,
+. state of the EUT as introduced into the chamber,
+. loading during conditioning,
+. electrical and mechanical measurements to be made during conditioning and the period(s) after which they shall be performed,
+. special precautions to be taken regarding removal of surface moisture,
+. recovery conditions (if other than standard),
+. electrical and mechanical measurements to be made at the end of the test, the parameters to be measured first, and the maximum period allowed for the measurement of these parameters.
+
+[[table-7]]
+.Cold
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60068-2-1>>, <<IEC60068-3-1>>
+| Test method | Exposure to cold
+| Applicability | General
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of low temperature
+| Test procedure in brief | The test comprises exposure to the specified low temperature under "free air" conditions during the period of time specified (the period specified is the period following the moment at which the EUT has reached temperature stability). The change in temperature shall not exceed 1 °C/min during heating up and cooling down.
+|===
+
+[cols="1,1,1,1,1,1"]
+|===
+| Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | 2 | *3* | 4 | 5 | 6
+
+| Temperature (°C) | +5 | -10 | *-20* | -25 | -30 | -40
+| Duration (h) | 2 | 2 | *2* | 2 | 2 | 2
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: temperature and duration,
+. electrical and mechanical measurements to be made prior to the test,
+. state of the EUT as introduced into the chamber,
+. loading during conditioning,
+. electrical and mechanical measurements to be made during conditioning and the period(s) after which they shall be performed,
+. special precautions to be taken regarding removal of surface moisture,
+. recovery conditions (if other than standard),
+. electrical and mechanical measurements to be made at the end of the test, the parameters to be measured first, and the maximum period allowed for the measurement of these parameters.
+
+=== Damp heat
+
+[[table-8]]
+.Damp heat, steady-state (non-condensing)
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60068-2-78>>, <<IEC60068-3-4>>
+| Test method | Exposure to damp heat in steady-state
+| Applicability | This test is considered generally applicable where the measuring instrument is expected to be used in a non-controlled climatic environment
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of high humidity and constant temperature. The steady-state test should always be used where adsorption or absorption play the main part. When diffusion but not breathing is involved, either the steady-state or the cyclic test shall be prescribed depending on the type of instrument and its application.
+| Test procedure in brief | The test comprises exposure to the specified high level temperature and the specified constant relative humidity for a certain fixed period of time as defined by the test level chosen. The EUT shall be handled such that no condensation of water occurs on it.
+|===
+
+[cols="1,1,1,1"]
+|===
+| Test level index footnote:[The test level considered most appropriate and preferable for OIML Recommendations is presented in bold face.] | *1* | 2 | unit
+
+| Relative humidity (RH) | *85* | 93 | %
+| Duration | *2* | 4 | 24-hour period
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. preconditioning procedure,
+. electrical and mechanical measurements to be made prior to the test,
+. state of the EUT as introduced into the chamber,
+. test level and tolerance: temperature, relative humidity and duration,
+. loading during conditioning,
+. electrical and mechanical measurements to be made during conditioning and the period(s) after which they shall be performed,
+. special precautions to be taken regarding removal of surface moisture,
+. recovery conditions (if other than standard),
+. electrical and mechanical measurements to be made at the end of the test, the parameters to be measured first, and the maximum period allowed for the measurement of these parameters.
+
+[[table-9]]
+.Damp heat, cyclic (condensing)
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60068-2-30>>, <<IEC60068-3-4>>
+| Test method | Exposure to damp heat with cyclic temperature variation
+| Applicability | Damp heat tests with cyclic temperature variation shall be applied in all cases where condensation is concerned and is potentially of influence or when the penetration of vapour will be accelerated by the breathing effect.
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of high humidity combined with cyclic temperature changes.
+| Test procedure in brief | The test comprises exposure to cyclic temperature variation between 25 °C and the appropriate upper temperature while maintaining the relative humidity above 95 % during the temperature change and the low temperature phases and at or above 93 % RH at the upper temperature phases. Condensation is expected to occur on the EUT during the temperature rise. The 24 h cycle comprises: 1) temperature rise during 3 hours, 2) temperature maintained at upper value until 12 hours from the start of the cycle, 3) temperature lowered to lower temperature level within a period of 3 to 6 hours, the declination (rate of fall) during the first hour and a half being such that the lower temperature level would be reached in a 3 hour period, 4) temperature maintained at the lower level until the 24 h period is completed. The stabilizing period before and recovery period after the cyclic exposure shall be such that the temperature of all parts of the EUT is within 3 °C of its final value. Special electrical conditions and recovery conditions may need to be specified. For integrating measuring instruments see 9.2.2 for the appropriate sequence of measurements during the test.
+|===
+
+[cols="1,1,1,1"]
+|===
+| Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | *1* | *2* | unit
+
+| Upper temperature | *40* | *55* | °C
+| Duration | *2* | *2* | 24-hour cycle
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: temperature and number of cycles,
+. state of the EUT during conditioning,
+. details of mounting or support,
+. intermediate measurements,
+. instrument recovery conditions,
+. special precautions to be taken regarding surface moisture elimination,
+. measurements to be made at the end of the test, sequence of parameters to be measured, and the maximum time period allowed for and between the measurement of these parameters.
+
+=== Water
+
+[[table-10]]
+.Water
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60068-2-18>>, <<IEC60512-14-7>>, <<IEC60529>>
+| Test method | Exposure to water falling in drops and impacting (colliding) water
+| Applicability | Applicable when the measuring instrument is expected to be used in open air locations (see 8.2.2).
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 when the specimen is subjected to spraying and splashing water.
+| Test procedure in brief | The EUT is mounted on an appropriate fixture and is subjected to impacting water generated from either an oscillating tube or a spray nozzle used to simulate spraying or splashing water. The stabilizing period before and recovery after the exposure shall be specified in the applicable Recommendation.
+|===
+
+[cols="1,1,1,1"]
+|===
+| Test level index footnote:[The test level considered most appropriate and preferable for OIML Recommendations is presented in bold face.] | 1 | *2* | unit
+
+| Flow rate (per nozzle) | 0.07 | *0.07* | L/min
+| Duration | 10 | *10* | min
+| Angle of inclination | ±60 | *±180* | °
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: angle of inclination,
+. state of the EUT during conditioning,
+. details of mounting or support,
+. intermediate measurements,
+. recovery conditions,
+. special precautions to be taken regarding removal of surface moisture,
+. electrical and mechanical measurements to be made at the end of the test, the parameters to be measured first, and the maximum period allowed for the measurement of these parameters.
+
+=== Atmospheric pressure
+
+In <<table-11>> and <<table-12>>, two tests for determining the influence of atmospheric pressure on measuring instruments are described. In general, it should be avoided to prescribe both tests in OIML Recommendations.
+
+Either of these tests shall only be prescribed in OIML Recommendations in those cases where, as a result of the physical principle of the measuring instrument, a significant influence due to changes in atmospheric pressure can be expected (also refer to 4.4).
+
+The choice of either test and of the test level to be prescribed in the applicable Recommendation, is to be made by the responsible OIML Technical Committee, Subcommittee or Project Group.
+
+[[table-11]]
+.Static atmospheric pressure
+[cols="1,7"]
+|===
+| Applicable standard | There are no applicable standards (refer to Annex C)
+| Test method | Exposure to low and high atmospheric pressure
+| Applicability | Applicable where, based on the physical measuring principle of the measuring instrument the atmospheric pressure is expected to be an influence quantity (see 8.2.3).
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of different static atmospheric pressures.
+| Test procedure in brief | The test comprises exposure of the EUT to the specified higher and lower atmospheric pressures.
+|===
+
+[cols="1,1,1,1,1"]
+|===
+| Test level index | 1 | 2 | | unit
+
+| Atmospheric pressure | Lower limit | Ambient pressure - (2.50 ± 0.15) | 86 ± 1 | kPa
+| | Upper limit | Ambient pressure + (2.50 ± 0.15) | 106 ± 1 | kPa
+| | Uncertainty of the recorded pressure | 0.15 | 0.15 |
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: pressure range,
+. acceptable influence on the EUT.
+
+[[table-12]]
+.Variation in atmospheric pressure
+[cols="1,7"]
+|===
+| Applicable standard | There are no applicable standards (refer to Annex C)
+| Test method | Exposure to variable atmospheric pressure
+| Applicability | Applicable where, based on the physical measuring principle of the measuring instrument, the atmospheric pressure is expected to be an influence quantity (see 8.2.3).
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of changing atmospheric pressure.
+| Test procedure in brief | The test comprises exposure of the EUT to changes in atmospheric pressure and performance of measurements during these changes.
+|===
+
+[cols="1,1,1,1"]
+|===
+| Test level index | 1 | 2 | unit
+
+| Change in atmospheric pressure, relative to ambient pressure | 1.0 ± 0.1 | 10 ± 1 | kPa
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: pressure change,
+. acceptable influence on the EUT.
+
+=== Sand and dust
+
+[[table-13]]
+.Sand and dust
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60512-11-8>>, <<IEC60529>>, <<IEC60721-2-5>>
+| Test method | Exposure to sand and dust
+| Applicability | Applicable when the measuring instrument is expected to be used in a dusty or sandy environment (see 8.2.4).
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under a dust-laden atmosphere.
+| Test procedure in brief | The test comprises exposure to cyclic temperature variation between 30 °C and 65 °C, maintaining the following conditions: relative humidity: less than 25 %, air velocity: 3 m/s, particle concentration: 5 g/m³, composition of the particles: as specified in 3.2.1 of <<IEC60512-11-8>>.
+|===
+
+[cols="1,1,1"]
+|===
+| Test level index footnote:[The test level considered most appropriate and preferable for OIML Recommendations is presented in bold face.] | *1* | 2
+
+| Number of cycles | *1* | 2
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: number of cycles,
+. state of the EUT during conditioning,
+. intermediate measurements,
+. recovery conditions,
+. electrical and mechanical measurements to be performed at the end of the test, the parameters to be measured, the sequence of the measurements, and the maximum period allowed for these measurements.
+
+=== Salt mist
+
+[[table-14]]
+.Salt mist
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60068-2-11>>, <<IEC60721-2-5>>
+| Test method | Exposure to salt mist
+| Applicability | Applicable when the measuring instrument is expected to be used in a humid salt environment (see 8.2.5).
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under salt mist atmosphere.
+| Test procedure in brief | The test comprises exposure to salt mist atmosphere at 35 °C.
+|===
+
+[cols="1,1,1,1,1,1"]
+|===
+| Test level index footnote:[The test level considered most appropriate and preferable for OIML Recommendations is presented in bold face.] | 1 | *2* | 3 | 4 | unit
+
+| Duration | 16 | *24* | 48 | 96 | h
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: duration,
+. state of the EUT during conditioning,
+. intermediate measurements,
+. recovery conditions,
+. electrical and mechanical measurements to be performed at the end of the test, the parameters to be measured, the sequence of the measurements, and the maximum period allowed for these measurements.

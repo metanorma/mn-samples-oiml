@@ -1,0 +1,37 @@
+== Principles of operation of the TLF
+
+=== Conduct of work
+
+The TLF shall perform their activities primarily by correspondence, although meetings of the TLF may be held as and when deemed necessary. A TLF Workspace is provided on the OIML-CS website for use by the TLF, with members of the TLF provided with a username and password to access the TLF Workspace.
+
+=== Communication
+
+The Executive Secretary shall keep all TLF Members informed of all developments within the TLF. Such communication should as far as possible be electronic and additionally make full use of the TLF Workspace on the OIML-CS website. However, the Executive Secretary shall take account of any problems which the TLF Members may have with electronic communication, so as not to exclude members from its work.
+
+=== Meetings
+
+Meetings of the TLF may be convened either if decided upon by the Executive Secretary or if requested by a TLF Member in writing to the Executive Secretary. Meetings may be held in-person and/or online as determined by the Executive Secretary in collaboration with TLF members.
+
+Notice of the meetings shall be circulated by the Executive Secretary at least three months prior to the meeting. The agenda and proposal documents shall be circulated at least two months prior to the meeting. Shorter time periods are permitted with the prior agreement of TLF Members.
+
+In preparing the agenda, the Executive Secretary shall, as far as possible, list and identify all the documents related to the various items for discussion.
+
+The TLF may refuse to consider matters set before it if the relevant documents have not been circulated in accordance with the above.
+
+Participants in meetings of the TLF shall be appointed by the Management Committee Members and shall be experts from Test Laboratories. The names of the participants shall be communicated to the Executive Secretary in due time before each meeting. The number of participants appointed by each Management Committee Member simultaneously present at a meeting shall not exceed three. The participants may, however, change during a particular meeting according to the subject to be discussed.
+
+The Executive Secretary shall, as soon as possible after a meeting, prepare and distribute a report and the minutes for consideration by the Management Committee. They shall embody all conclusions of the relevant meeting, together with a brief account of the discussions, covering:
+
+a. the results of the meeting;
+
+b. proposals being submitted to TCs and SCs; and
+
+c. proposals submitted to the Management Committee for discussion.
+
+=== Recommendations of the TLF
+
+Recommendations of the TLF shall be arrived at by consensus. Where consensus cannot be achieved the matter shall be referred, as appropriate, to the Management Committee or to the relevant OIML TC/SC.
+
+=== Interface with OIML TCs/SCs
+
+If the TLF decides that it is necessary to revise the testing requirements in an OIML Recommendation, a proposal detailing the changes shall be submitted, by the Executive Secretary, to the relevant OIML TC/SC. The Management Committee Chairperson shall be notified of the proposal.

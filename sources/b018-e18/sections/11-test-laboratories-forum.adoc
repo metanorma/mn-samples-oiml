@@ -1,0 +1,21 @@
+== Test Laboratories Forum (TLF)
+
+=== Composition
+
+. one representative from each test laboratory, including Manufacturers' Test Laboratories, listed in the Declaration of the OIML-CS;
+
+. a Chairperson, nominated from amongst the TLF members and appointed by the MC; and
+
+. the Executive Secretary.
+
+[12.2] The tasks of the TLF are to
+
+. provide a platform for handling practical and/or technical questions pertaining to test specifications, test methods and test equipment detailed in standards (see <<standards>>) accepted for use in the OIML-CS,
+
+. detail the way in which the tests specified in OIML Recommendations may be carried out so as to achieve the necessary reproducibility of test results,
+
+. draw up "best practice" papers and/or propose amendments to OIML Recommendations relating to test specifications, test procedures and reporting of test results.
+
+NOTE: It is envisaged that the TLF will focus on issues that are common across Recommendations, thereby supporting a consistent means of resolving issues across OIML technical work, and
+
+. work towards the development of inter-laboratory comparison programs for the Test Laboratories of the OIML Issuing Authorities.

@@ -1,0 +1,9 @@
+== Terminology and abbreviations
+
+The terminology and abbreviations defined in clause 3 of OIML B 18 <<OIML_B_18>> apply. In addition, the following definition applies:
+
+=== {blank}
+
+=== previous test data
+
+test results and test reports that have been used to support the issuing of an OIML Basic or MAA type evaluation report or an OIML Basic or MAA certificate under the OIML Basic Certificate System or OIML Mutual Acceptance Arrangement

@@ -1,0 +1,56 @@
+== Foreword
+
+The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental organization whose primary aim is to harmonize the regulations and metrological controls applied by the national metrological services, or related organizations, of its Member States. The main categories of OIML publications are:
+
+* *International Recommendations (OIML R)*, which are model regulations that establish the metrological characteristics required of certain measuring instruments and which specify methods and equipment for checking their conformity. OIML Member States shall implement these Recommendations to the greatest possible extent;
+
+* *International Documents (OIML D)*, which are informative in nature and which are intended to harmonise and improve work in the field of legal metrology;
+
+* *International Guides (OIML G)*, which are also informative in nature and which are intended to give guidelines for the application of certain requirements to legal metrology; and
+
+* *International Basic Publications (OIML B)*, which define the operating rules of the various OIML structures and systems.
+
+OIML Draft Recommendations, Documents and Guides are developed by Project Groups linked to Technical Committees or Subcommittees which comprise representatives from OIML Member States. Certain international and regional institutions also participate on a consultation basis. Cooperative agreements have been established between the OIML and certain institutions, such as ISO and the IEC, with the objective of avoiding contradictory requirements. Consequently, manufacturers and users of measuring instruments, test laboratories, etc. may simultaneously apply OIML publications and those of other institutions.
+
+International Recommendations, Documents, Guides and Basic Publications are published in English (E) and translated into French (F) and are subject to periodic revision.
+
+Additionally, the OIML publishes or participates in the publication of *Vocabularies (OIML V)* and periodically commissions legal metrology experts to write *Expert Reports (OIML E)*. Expert Reports are intended to provide information and advice, and are written solely from the viewpoint of their author, without the involvement of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do not necessarily represent the views of the OIML.
+
+This publication -- reference OIML B 18, edition 2018 (E) -- was developed by the OIML Certification System Management Committee. It was approved for final publication by the International Committee of Legal Metrology at its 53rd meeting in October 2018. It replaces the previous edition dated 2017.
+
+The OIML acknowledges that parts of the terminology, operational rules and organizational structure in this OIML Basic Publication and in the OIML-CS Operational and Procedural Documents were developed following discussions with the IEC and from documents developed and published by the IEC for the operation of their global Conformity Assessment Systems. The OIML thanks the IEC for granting the OIML permission to use its intellectual property and agreeing to explore opportunities for cooperation in areas of mutual interest.
+
+OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organization's headquarters:
+
+Bureau International de Métrologie Légale +
+11, rue Turgot - 75009 Paris - France +
+Telephone: 33 (0)1 48 78 12 82 +
+Fax: 33 (0)1 42 82 17 27 +
+E-mail: biml@oiml.org +
+Internet: www.oiml.org
+
+== Introduction
+
+=== {blank}
+
+The OIML Certification System (hereafter referred to as the OIML-CS) is a system for issuing, registering and using OIML Type Examination Certificates (hereafter referred to as OIML Certificates) and associated OIML type evaluation reports for types of measuring instruments (including families of measuring instruments, modules, or families of modules), based on the requirements of OIML Recommendations.
+
+It is a single Certification System comprising two Schemes; it replaces the previous OIML Basic Certificate System <<B3>> introduced in 1991, and also the OIML Mutual Acceptance Arrangement (MAA) <<B10>> introduced in 2005. The OIML-CS aims to facilitate, accelerate and harmonize the work of national and regional bodies that are responsible for type evaluation and approval of measuring instruments subject to legal metrological control. In the same way, instrument manufacturers, who are required to obtain type approval in some countries in which they wish to sell their products, should benefit from the OIML-CS as it provides evidence that their instrument type complies with the requirements of the relevant OIML Recommendation(s). The OIML-CS may also help to promote the manufacture, marketing and use of measuring instruments that comply with OIML requirements for applications which are not subject to legal metrological control by a national metrology authority.
+
+=== {blank}
+
+The OIML-CS is a voluntary system and all OIML Member States and Corresponding Members are free to participate. Participating in the OIML-CS, and signing the Declaration (see <<participation>>), commits in principle the signatories to abide by the rules of the OIML-CS. This Framework establishes these rules whereby signatories voluntarily accept and utilize OIML type evaluation reports, when associated with an OIML Certificate issued by an OIML Issuing Authority, for type approval or recognition in their national or regional metrological controls.
+
+=== {blank}
+
+The OIML-CS requires a type evaluation of sample(s) of measuring instruments which should be representative of the production. However, the type evaluation conducted within the OIML-CS does not include any formal evaluation to establish that the type is representative of the intended production. Such an evaluation, and the assessment of the conformity of the produced instruments to the certified type, may be addressed in other OIML publications.
+
+NOTE: The OIML-CS is classified to Scheme 1a defined in ISO/IEC 17067 <<ISO17067>>.
+
+=== {blank}
+
+A manufacturer or its authorized representative from any country may apply for type evaluation and an OIML Certificate to be issued by a designated OIML Issuing Authority in any OIML Member State that participates in the OIML-CS. Likewise, any OIML Certificate and/or its associated OIML type evaluation report may be accepted and utilized by any national issuing authority or national responsible body in any country.
+
+=== {blank}
+
+The present publication, OIML B 18 Framework for the OIML Certification System (OIML-CS), is supplemented by Operational Documents and Procedural Documents which are developed, maintained and approved by the OIML-CS Management Committee.

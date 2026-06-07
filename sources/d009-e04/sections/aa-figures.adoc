@@ -1,0 +1,17 @@
+[appendix]
+== Figures
+
+[[fig-1]]
+image::figure-1.svg[Figure 1 -- Structure of legal metrological control]
+
+Figure 1 -- Structure of legal metrological control
+
+[[fig-2]]
+image::figure-2.svg[Figure 2 -- Structure of supervision]
+
+Figure 2 -- Structure of supervision
+
+[[fig-3]]
+image::figure-3.svg[Figure 3 -- Procedure for performing supervision]
+
+Figure 3 -- Procedure for performing supervision

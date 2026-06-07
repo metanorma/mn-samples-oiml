@@ -1,0 +1,44 @@
+[[annex-b]]
+[appendix,obligation=informative]
+== Durability assessment
+
+=== Introduction
+
+==== Objective
+
+The objective of the durability assessment is to verify the instrument's capability to operate correctly within the performance criteria over the required period of time.
+
+Since deterioration of an instrument may occur (i) suddenly due to the failure of one of its components, which may happen at an unpredictable moment during its lifetime, or (ii) gradually due to wear and tear, the durability assessment comprises determination of the capability of the instrument to
+
+- act adequately upon the failure of a component,
+- collect information on the possible occurrence of defects during its complete lifetime.
+
+==== Verification of the instrument's capability to act adequately upon failure of a part or component
+
+Tests may be carried out to verify the correct performance of durability protection facilities and checking facilities by creating situations that these facilities are designed to act upon, provided that the integrity of the instrument is maintained. Study of the documentation on circuitry may give guidance. The applicable Recommendation may specify the parts that are to be tested. Special attention should be paid to parts (electronic or mechanic) for which properties may be expected to change gradually during the lifetime of the instrument.
+
+==== Assessment of the possible occurrence of defects during the lifetime of the complete measuring system
+
+Information concerning this subject can only be collected by performing actual endurance tests simulating the complete lifetime by accelerating the instrument's wear and tear. The manufacturer may have carried out such tests in order to improve the overall quality of the instrument by reinforcing certain parts, to elaborate other solutions for certain problems, or to set up an adequate maintenance system.
+
+It is recommended that the testing authority requests documentation concerning these tests.
+
+The applicable Recommendation may specify certain endurance tests.
+
+=== Characteristics of durability protection
+
+Durability protection in its basic form provides the operator with information concerning the status of the instrument. He may be warned that a certain operation time has elapsed or that the instrument itself has detected a significant durability error and is consequently invited to take corrective actions; alternatively, he may be recommended to carry out certain checking operations.
+
+A proper intake for protection may be the time factor itself, in which case an obvious moment for checking operations is the switching-on of the instrument or, for example, the switching on of a display or an additional device. Another approach may be the use of timers or operation cycle counters, which would determine other checking times based on the known or estimated frequency of the occurrence of durability errors.
+
+In these cases, the operator may be given a certain lapse of time to carry out his checking operations at a suitable moment; after that time, however, the instrument shall discontinue its operation if the checks have not been done.
+
+In more sophisticated forms of durability protection, the instrument may automatically compare the result of checking operations with stored result values and automatically conclude whether it is still in good condition or not. If the self-checking involves the application of physical reference standards (for example in weighing instruments) monitoring of the durability of analogue input transducers will also be possible.
+
+Within the instrument, the circuits warranting durability protection shall represent a logical function with self-checking properties. Since significant durability errors normally need a certain time interval to develop, this self-checking action may be intermittent, and very often an interlock with the switch-on procedure may be sufficient.
+
+Durability protection should not be confused with protection against disturbances and influence factors, although checking facilities sometimes also monitor durability aspects, for example by detecting a significant fault that occurs due to the wearing of a component in the measuring chain. The objective of both requirements 5.1.2 and 5.1.3 is to safeguard the routine measurement operations of the instrument against failures.
+
+The applicable Recommendation may contain prescriptions concerning the means for securing digital signal handling in the case of a self-checking ability. The difference in self-checking frequency (automatic and permanent for some routine operations; intermittent for durability effects) is to be seen as a consequence of speed: a slow evolution of durability errors opposed to the transmission of typically one million information-carrying pulses every second in the digital signal processing.
+
+Where transmission and storage of digital data has been sufficiently protected, the internal function of a typical microprocessor (which processes program instructions as well as arithmetical operations through the same function blocks) may be considered as self-checked by its normal operation.

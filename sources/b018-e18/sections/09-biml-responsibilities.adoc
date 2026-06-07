@@ -1,0 +1,35 @@
+== Responsibilities of the BIML within the OIML-CS
+
+=== {blank}
+
+The BIML acts as the secretariat of the OIML-CS, undertaking administrative functions defined by the MC, for example (but not limited to)
+
+. registering and publishing OIML Certificates,
+
+. collecting OIML Certificate registration fees, and
+
+. maintaining the OIML-CS website.
+
+=== {blank}
+
+The Executive Secretary is a BIML staff member, appointed by the BIML Director. The Executive Secretary is responsible for the day-to-day operation of the OIML-CS under the direction of the MC. The tasks and duties of the Executive Secretary are to
+
+. provide general administrative and secretarial services for the MC, the MC Working Groups, the TLF and the BoA,
+
+. organize meetings of the MC, MC Working Groups, TLF and (where necessary) BoA,
+
+. process applications from OIML Issuing Authorities or Test Laboratories in accordance with the Operational and Procedural rules approved by the MC,
+
+. provide advice on initial peer assessment and peer reassessment of OIML Issuing Authorities and Test Laboratories, including the selection of assessors,
+
+. maintain up to date records regarding the OIML Issuing Authorities and Test Laboratories,
+
+. maintain up to date records of MC members and representatives of Test Laboratories in the TLF,
+
+. assume responsibility for editing and organizing the publication of OIML-CS publications,
+
+. assume responsibility for maintaining a list of Legal Metrology Experts and Management System Experts approved by the MC,
+
+. monitor OIML-CS activities for reporting purposes, and
+
+. monitor the countries that have signed the Declaration.

@@ -1,0 +1,39 @@
+== Status, acceptance and revision of existing OIML Basic and MAA certificates
+
+=== {blank}
+
+As specified in OIML B 18, 15.10 and 15.11 <<OIML_B_18>>, OIML Basic and OIML MAA certificates that were issued under the OIML Basic Certificate System and the OIML MAA respectively are considered to remain valid.
+
+=== {blank}
+
+Utilizers and Associates may specify their acceptance of OIML MAA certificates and/or OIML MAA type evaluation reports in their OIML-CS Declaration, and any associated conditions, as defined in <<OIML_CS_PD_08>>. Acceptance of OIML Basic certificates will be on a voluntary basis; this will not be specified in the OIML-CS Declaration of a Utilizer or Associate.
+
+=== {blank}
+
+From 1 January 2018, no new OIML Basic certificates or OIML MAA certificates may be issued and revisions to existing OIML Basic certificates or existing OIML MAA certificates are no longer permitted. However, an "Annex" to the OIML Basic certificate or OIML MAA certificate may be issued by the original Issuing Authority (under the OIML Basic Certificate System) or by the original Issuing Participant (under the OIML MAA) respectively in the following instances:
+
+. to correct an error by the applicant or the Issuing Authority/Participant; or
+
+. when the ownership of an OIML Basic or MAA certificate is transferred to a new applicant.
+
+=== {blank}
+
+An "Annex" to an OIML Basic certificate or OIML MAA certificate cannot be issued to change the technical or metrological characteristics of the measuring instrument/module. In this instance, a new OIML certificate shall be issued under Scheme A or Scheme B as appropriate. Existing OIML Basic and/or OIML MAA type evaluation reports may be used to support the issuing of the new OIML certificate according to the conditions specified in clauses 5 and 6 below.
+
+=== {blank}
+
+Applications for OIML certification under either Scheme A or Scheme B may be made based on existing OIML MAA certificates or OIML Basic certificates, and their corresponding OIML MAA or Basic type evaluation reports and previous test data.
+
+In this case the application shall be made to the 'original' OIML Issuing Authority as the organization that issued the OIML MAA certificate (as an Issuing Participant under the OIML MAA) or the OIML Basic certificate (as an Issuing Authority under the OIML Basic Certificate System). The following exceptions apply to this requirement:
+
+. Where the original Issuing Participant or Issuing Authority is not an OIML Issuing Authority under the OIML-CS for that category of measuring instrument, the application may be made to another OIML Issuing Authority for that category of measuring instrument.
+
+. Where the original OIML Issuing Authority is not able to fulfil the certification process required by the application (for whatever reason), a new application may be made to another OIML Issuing Authority for that category of measuring instrument subject to, and accompanied by, written permission from either:
+
+.. the original OIML Issuing Authority; or
+
+.. the Executive Secretary of the OIML-CS.
+
+=== {blank}
+
+The "Annex" shall bear the applicable logo (the MAA logo for MAA certificates or the OIML logo for Basic certificates) and shall be provided with a unique number. Requirements regarding the use of the OIML and OIML-CS logos are specified in OIML B 20 <<OIML_B_20>>.

@@ -1,0 +1,50 @@
+[bibliography]
+== References
+
+* [[[VIML,OIML V 1:2013]]], span:organization[OIML], span:title[_International vocabulary of terms in legal metrology (VIML)_], span:publisher[OIML], span:date.issued[2013]
+* [[[VIM,OIML V 2-200:2012]]], span:organization[OIML], span:title[_International vocabulary of metrology -- Basic and general concepts and associated terms (VIM)_], span:publisher[OIML], span:date.issued[2012]
+* [[[D31,OIML D 31:2008]]], span:organization[OIML], span:title[_General requirements for software-controlled measuring instruments_], span:publisher[OIML], span:date.issued[2008]
+* [[[B6-2,OIML B 6-2]]], span:organization[OIML], span:title[_Directives for the technical work -- Part 2: Guide for drafting OIML Recommendations and documents_], span:publisher[OIML]
+* [[[IEC60068-1,IEC 60068-1:1988]]] _Environmental testing -- Part 1: General and guidance_
+* [[[IEC60068-2-1,IEC 60068-2-1:2007]]] _Environmental testing -- Part 2: Test methods -- Section 1: Test A: Cold_
+* [[[IEC60068-2-2,IEC 60068-2-2:2007]]] _Environmental testing -- Part 2: Test methods -- Section 2: Test B: Dry heat_
+* [[[IEC60068-2-6,IEC 60068-2-6:2007]]] _Environmental testing -- Part 2: Tests -- Section 6: Test Fc: Vibration (sinusoidal)_
+* [[[IEC60068-2-11,IEC 60068-2-11:1981]]] _Environmental testing -- Part 2: Test methods -- Section 11: Test Ka: Salt mist_
+* [[[IEC60068-2-18,IEC 60068-2-18:2000]]] _Environmental testing -- Part 2: Test methods -- Section 18: Test R and guidance: Water_
+* [[[IEC60068-2-30,IEC 60068-2-30:2005]]] _Environmental testing -- Part 2: Test methods -- Section 30: Test Db: Damp heat, cyclic (12 + 12 hour cycle)_
+* [[[IEC60068-2-31,IEC 60068-2-31:2008]]] _Environmental testing -- Part 2: Test methods -- Section 31: Test Ec: Rough handling shocks, primarily for equipment-type specimens_
+* [[[IEC60068-2-47,IEC 60068-2-47:2005]]] _Environmental testing -- Part 2: Test methods -- Section 47: Mounting of specimens for vibration, impact and similar dynamic tests_
+* [[[IEC60068-2-64,IEC 60068-2-64:2008]]] _Environmental testing -- Part 2: Test methods -- Section 64: Test Fh: Vibration, broad-band random and guidance_
+* [[[IEC60068-2-78,IEC 60068-2-78:2012]]] _Environmental testing -- Part 2: Test methods -- Section 78: Test Cab: Damp heat, steady state_
+* [[[IEC60068-3-1,IEC 60068-3-1:2011]]] _Environmental testing -- Part 3: Supporting documentation and guidance -- Section 1: Cold and dry heat tests_
+* [[[IEC60068-3-4,IEC 60068-3-4:2001]]] _Environmental testing -- Part 3: Supporting documentation and guidance -- Section 4: Damp heat tests_
+* [[[IEC60068-3-8,IEC 60068-3-8:2003]]] _Environmental testing -- Part 3: Supporting documentation and guidance -- Section 8: Selecting amongst vibration tests_
+* [[[IEC60512-11-8,IEC 60512-11-8:1995]]] _Electromechanical components for electronic equipment -- Basic testing procedures and measuring methods -- Part 11: Climatic tests -- Section 8: Test 11h -- Sand and dust_
+* [[[IEC60512-14-7,IEC 60512-14-7:1997]]] _Electromechanical components for electronic equipment -- Basic testing procedures and measuring methods -- Part 14: Sealing tests -- Section 7: Test 14g: Impacting water_
+* [[[IEC60529,IEC 60529:2001]]] _Degrees of protection provided by enclosures (IP Code)_
+* [[[IEC60654-2,IEC 60654-2:1979]]] _Operating conditions for industrial-process measurement and control equipment -- Part 2: Power_
+* [[[IEC60721-2-5,IEC 60721-2-5:1991]]] _Classification of environmental conditions -- Part 2: Environmental conditions appearing in nature -- Section 5: Dust, sand, salt mist_
+* [[[IEC60721-3-3,IEC 60721-3-3:2002]]] _Classification of environmental conditions -- Part 3: Classification of groups of environmental parameters and their severities -- Section 3: Stationary use at weather-protected locations_
+* [[[IEC60721-3-4,IEC 60721-3-4:1995]]] _Classification of environmental conditions -- Part 3: Classification of groups of environmental parameters and their severities -- Section 4: Stationary use at non-weather protected locations_
+* [[[IECTR61000-2-1,IEC TR 61000-2-1:1990]]] _Electromagnetic compatibility (EMC) -- Part 2: Environment -- Section 1: Description of the environment -- Electromagnetic environment for low-frequency conducted disturbances and signalling in public power supply systems_
+* [[[IEC61000-2-2,IEC 61000-2-2:2002]]] _Electromagnetic compatibility (EMC) -- Part 2: Environment -- Section 2: Compatibility levels for low-frequency conducted disturbances and signalling in public low-voltage power supply systems_
+* [[[IECTR61000-2-5,IEC TR 61000-2-5:2011]]] _Electromagnetic compatibility (EMC) -- Part 2: Environment -- Section 5: Description and classification of electromagnetic environments_
+* [[[IEC61000-4-1,IEC 61000-4-1:2006]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 1: Overview of IEC 61000-4 series_
+* [[[IEC61000-4-2,IEC 61000-4-2:2008]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 2: Electrostatic discharge immunity test_
+* [[[IEC61000-4-3,IEC 61000-4-3:2010]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 3: Radiated, radio-frequency, electromagnetic field immunity test_
+* [[[IEC61000-4-4,IEC 61000-4-4:2012]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 4: Electrical fast transient/burst immunity test_
+* [[[IEC61000-4-5,IEC 61000-4-5:2005]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 5: Surge immunity test_
+* [[[IEC61000-4-6,IEC 61000-4-6:2013]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 6: Immunity to conducted disturbances, induced by radio-frequency fields_
+* [[[IEC61000-4-8,IEC 61000-4-8:2009]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 8: Power frequency magnetic field immunity test_
+* [[[IEC61000-4-11,IEC 61000-4-11:2004]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 11: Voltage dips, short interruptions and voltage variations immunity tests_
+* [[[IEC61000-4-13,IEC 61000-4-13:2009]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 13: Harmonics and interharmonics including mains signalling at a.c. power port, low frequency immunity tests_
+* [[[IEC61000-4-17,IEC 61000-4-17:2009]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 17: Ripple on DC input power port immunity test_
+* [[[IEC61000-4-19,IEC 61000-4-19:2014]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 19: Test for immunity to conducted, differential mode disturbances and signalling in the frequency range from 2 kHz to 150 kHz, at a.c. ports_
+* [[[IEC61000-4-20,IEC 61000-4-20:2010]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 20: Emission and immunity testing in transverse electromagnetic (TEM) waveguides_
+* [[[IEC61000-4-29,IEC 61000-4-29:2000]]] _Electromagnetic compatibility (EMC) -- Part 4: Testing and measurement techniques -- Section 29: Voltage dips, short interruptions and voltage variations on DC input power port immunity tests_
+* [[[IEC61000-6-1,IEC 61000-6-1:2005]]] _Electromagnetic compatibility (EMC) -- Part 6: Generic standards -- Section 1: Immunity for residential, commercial and light-industrial environments_
+* [[[IEC61000-6-2,IEC 61000-6-2:2005]]] _Electromagnetic compatibility (EMC) -- Part 6: Generic standards -- Section 2: Immunity for industrial environments_
+* [[[ISO16750-2,ISO 16750-2:2012]]] _Road vehicles -- Environmental conditions and testing for electrical and electronic equipment -- Part 2: Electrical loads_
+* [[[ISO7637-1,ISO 7637-1:2002]]] _Road vehicles -- Electrical disturbance from conducting and coupling -- Part 1: Definitions and general considerations_
+* [[[ISO7637-2,ISO 7637-2:2011]]] _Road vehicles -- Electrical disturbance from conducting and coupling -- Part 2: Electrical transient conduction along supply lines only_
+* [[[ISO7637-3,ISO 7637-3:2007]]] _Road vehicles -- Electrical disturbance by conducting and coupling -- Part 3: Passenger cars and light commercial vehicles with nominal 12 V supply voltage and commercial vehicles with 24 V supply voltage -- Electrical transient transmission by capacitive and inductive coupling via lines other than supply lines_

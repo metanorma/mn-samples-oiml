@@ -1,0 +1,5 @@
+== General
+
+Metrological supervision consists of the metrological, technical and other activities performed by the competent authorities to determine compliance of measuring instruments, measurements, goods, services or any other matter subject to the requirements of any Law on Metrology or any corresponding legislation. The structure of activities associated with legal metrological control and their mutual relationships are given in <<fig-1>> to highlight the difference between the definitions and scope of legal control of measuring instruments and prepackages and metrological supervision.
+
+For measuring instruments, countries normally adopt and publish a list of measuring instruments required to be submitted to type approval and initial and subsequent verification and/or a harmonized legislation is in place in a free trade area. The scope of metrological supervision may be extended, if required, to cover some aspects of measurements, of measuring instruments in general and of prepackages.

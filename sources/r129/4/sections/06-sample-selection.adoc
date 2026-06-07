@@ -1,0 +1,11 @@
+=== Selection of sample(s)
+
+Application no.: ___
+
+Type designation: ___
+
+Report date: ___
+
+Manufacturer: ___
+
+Use this space for additional information relating to the justification for the selection of sample(s), in particular if a family of instruments or modules or if specific requirements are mentioned in OIML R 129-1 and -2:

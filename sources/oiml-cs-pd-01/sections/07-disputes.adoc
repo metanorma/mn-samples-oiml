@@ -1,0 +1,19 @@
+== Disputes
+
+=== {blank}
+
+The Executive Secretary shall be contacted in the event of a dispute initiated by:
+
+. an applicant for OIML type evaluation and certification regarding an OIML type evaluation report; or
+
+. an OIML Issuing Authority, Utilizer or Associate regarding the incorrect application of the operational rules and procedures of the OIML-CS.
+
+NOTE: The incorrect application of the operational rules and procedures of the OIML-CS may include decisions by Utilizers and Associates to not accept an OIML test report, OIML type evaluation report and/or OIML certificate without appropriate justification.
+
+=== {blank}
+
+The appropriate CIML Member may represent their respective OIML Issuing Authority, Utilizer or Associate involved in a dispute and shall attempt to resolve between the parties in dispute any issue that might arise. If the OIML Issuing Authorities, Utilizers or Associates affected are unable to resolve an issue, they shall provide a written explanation to the Executive Secretary who will then raise it with the BoA.
+
+=== {blank}
+
+Where a dispute involves an applicant for OIML type evaluation and certification (e.g. a manufacturer), the applicant shall attempt to resolve any issues that might arise with the relevant OIML Issuing Authority, Utilizer, Associate and/or their CIML Members. If the applicant is unable to resolve an issue, they may provide a written explanation to the Executive Secretary who will then raise it with the BoA.

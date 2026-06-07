@@ -1,0 +1,31 @@
+== Complaints
+
+=== {blank}
+
+A complaint may relate to a range of topics including, but not limited to:
+
+.. an OIML type evaluation report that has been issued by an OIML Issuing Authority on the basis of incorrect technical conclusions or procedures;
+
+.. a decision of a Utilizer or Associate to not accept an OIML test report, OIML type evaluation report and/or OIML certificate;
+
+.. any expression of dissatisfaction with the OIML-CS.
+
+=== Incorrect technical conclusions or procedures
+
+=== {blank}
+
+A complaint may be submitted to the Executive Secretary with documented and substantiated evidence that an OIML type evaluation report was issued by an OIML Issuing Authority on the basis of incorrect technical conclusions or procedures. The Executive Secretary shall notify the owner of the report and the Management Committee of the complaint. The Executive Secretary shall investigate the complaint and will seek the advice of the Review Committee as to whether the complaint should be upheld. If the complaint is upheld then the corresponding OIML certificate will be deregistered from the OIML-CS website and the OIML Issuing Authority shall take appropriate action to correct the OIML type evaluation report. The OIML Issuing Authority has the right to appeal the decision to deregister the OIML certificate.
+
+=== Non-acceptance of an OIML test report, OIML type evaluation report and/or OIML certificate
+
+=== {blank}
+
+A complaint may be submitted to the Executive Secretary with documented and substantiated evidence regarding a decision of a Utilizer or Associate to not accept an OIML test report, OIML type evaluation report and/or OIML certificate. The Executive Secretary shall notify the Utilizer or Associate and the Management Committee of the complaint. The Executive Secretary shall investigate the complaint. The Executive Secretary will report to the Management Committee with recommended actions as appropriate. Actions may include proposed amendments to the scope of a Utilizer or Associate and potential consequential amendments to the scope of OIML Issuing Authority(ies) from the same OIML Member State. The Utilizer or Associate has the right to appeal any decisions of the Management Committee in this regard.
+
+=== Expressions of dissatisfaction
+
+=== {blank}
+
+An expression of dissatisfaction regarding the OIML-CS may be brought to the attention of the Management Committee Chairperson, Management Committee Deputy Chairperson, a Management Committee Member or the Executive Secretary. In the case where an expression of dissatisfaction has been brought to the attention of a person other than the Executive Secretary, the person shall notify the Executive Secretary who will investigate the expression of dissatisfaction. Where the expression of dissatisfaction is upheld the Executive Secretary will report to the Management Committee with recommended actions as appropriate.
+
+NOTE: The above-mentioned process can also be adopted when a suggestion for improvement is received.

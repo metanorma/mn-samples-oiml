@@ -1,0 +1,890 @@
+== Checklist
+
+Report no.: ___
+
+Application no.: ___
+
+Manufacturer: ___
+
+Make and model: ___
+
+Serial no.: ___
+
+Date: ___
+
+Observer: ___
+
+|===
+|Requirement (R 129-1) | |Passed |Failed |Remarks
+
+|3
+|Units of measurement
+| | |
+
+| |Correct units and symbols used
+| | |
+
+|4.1.1
+|Scale intervals, minimum dimension
+| | |
+
+| |Correct minimum dimensions
+| | |
+
+|4.1.2
+|Value of mpe
+| | |
+
+| |mpe applicable to any of the three dimensions = stem:[\pm]1.0 stem:[d]
+| | |
+
+|4.1.3
+|Value of the fault limit
+| | |
+
+| |Value of one scale interval (stem:[d])
+| | |
+
+|4.1.4
+|Variation between indicators
+| | |
+
+| |No variation in indications
+| | |
+
+|4.1.5
+|Multi-interval instruments
+| | |
+
+| |Appropriate mpe for applicable range and axis
+| | |
+
+|4.1.6
+|Calculated quantities
+| | |
+
+| |Derived from displayed value of measured dimensions
+| | |
+
+| |Rounded to nearest applicable scale interval
+| | |
+
+| |Calculated quantities in mathematical agreement
+| | |
+
+|4.2.1
+|Rated operating conditions
+| | |
+
+| |At least 30 stem:[°C]
+| | |
+
+| |If powered by direct current, instrument functions correctly or does not indicate quantity below manufacturer's specified nominal voltage
+| | |
+
+| |Instrument designed and manufactured such that it does not exceed the mpe when exposed to:
+| | |
+
+|4.2.1(a)
+|mains power voltage variations: stem:[-]15 % to stem:[+]10 % of nominal voltage
+| | |
+
+|4.2.1(b)
+|air temperature variations at the temperature limits stated in the descriptive markings or stem:[-]10 stem:[°C] to stem:[+]40 stem:[°C]
+| | |
+
+|4.2.1(c)
+|relative humidity of 85 % (non-condensing) at the high temperature limit of the instrument or 40 stem:[°C], whichever is lower
+| | |
+
+|4.3.1
+|Disturbances applied to measuring instrument
+| | |
+
+| |Instrument is designed and manufactured such that, when exposed to disturbances, either:
+| | |
+
+|4.3.1(a)
+|significant faults do not occur, or
+| | |
+
+|4.3.1(b)
+|significant faults are detected and acted upon
+| | |
+
+|4.3.3
+|Tests for disturbances; severity levels
+| | |
+
+| |Instrument withstands disturbances when subject to the applicable severity levels
+| | |
+
+|4.4
+|Light and acoustic effects
+| | |
+
+| |Remains within mpe when subjected to the applicable light or acoustic effects, or
+| | |
+
+| |has provisions for alternative operations
+| | |
+
+|5.1.1
+|Fraudulent use
+| | |
+
+| |Instrument shall not facilitate fraudulent use
+| | |
+|===
+
+[.mt-indent]
+*** Checklist (continued)
+
+|===
+|Requirement (R 129-1) | |Passed |Failed |Remarks
+
+|5.1.2
+|Suitability of construction
+| | |
+
+| |All controls, indicators etc. are suitable
+| | |
+
+|5.1.3
+|Suitability for use
+| | |
+
+| |Suit the method of operation and objects
+| | |
+
+|5.1.4
+|Suitability for verification
+| | |
+
+| |Constructed so that test of performance requirements can be carried out
+| | |
+
+| |Test mode provided (only volume indicated in normal position)
+| | |
+
+|5.1.5
+|Zero or ready adjustment
+| | |
+
+| |Facilities for zero or ready condition
+| | |
+
+| |Can only be set with no object in the measurement area
+| | |
+
+| |Zero or ready condition indicated
+| | |
+
+| |Condition set automatically or inhibited if not set correctly
+| | |
+
+|5.1.6
+|Tare device
+| | |
+
+|5.1.6(a)
+|Only operates subtractively with respect to the zero or ready condition
+| | |
+
+|5.1.6(b)
+|Value of the tare scale interval is the same as that for the respective axis and range
+| | |
+
+|5.1.6(c)
+|Operation of tare indicated
+| | |
+
+|5.1.7
+|Warm-up
+| | |
+
+| |Indications within mpe following warm-up
+| | |
+
+|5.2.1
+|Indicators and printing devices
+| | |
+
+|5.2.1(a)
+|Instrument has an indicator or printer which displays dimensions or volume
+| | |
+
+|5.2.1(b)
+|Device to transmit, store and preserve measurement results
+| | |
+
+|5.2.1(c)
+|Indications automatically displayed or are readily available
+| | |
+
+|5.2.1(d)
+|Other indications (e.g. DW, F) are automatically displayed or are readily available
+| | |
+
+|5.2.1(e)
+|Previously displayed indication persists long enough for easy reading by observer
+| | |
+
+|5.2.1(f)
+|Indication clearly assignable to a specific object
+| | |
+
+|5.2.1(g)
+|Display of extended indication device:
+| | |
+
+| |while pressing a key; or
+| | |
+
+| |limited to 5 seconds
+| | |
+
+| |Printing and data transmission restricted in extended indication
+| | |
+
+|5.2.1(h)
+|Extended indication device not fitted to instrument for direct sales to public
+| | |
+
+|5.2.1(i)
+|All indications are identified
+| | |
+
+|5.2.2
+|Presentation of indications
+| | |
+
+| |Indications, printing reliable, clear and unambiguous and printing indelible
+| | |
+
+| |Figures easy to read
+| | |
+
+| |Printed numbers and symbols at least 2 mm high
+| | |
+
+| |Digits oriented normally and permit reading by simple juxtaposition
+| | |
+
+|5.2.3
+|Units of measurement
+| | |
+
+| |All indications include the name/symbol of the unit of measurement
+| | |
+
+| |On tickets, name or symbol printed by printer or pre-printed
+| | |
+
+| |For any one indication, only one unit of measurement used
+| | |
+
+|5.2.4
+|Value of scale interval
+| | |
+
+| |Value of scale interval in the form stem:[1, 2] or stem:[5 \times 10^n]
+| | |
+
+| |The scale interval shall be:
+| | |
+
+|5.2.4(a)
+|the same for each axis; or
+| | |
+
+|5.2.4(b)
+|different for one axis from the other provided instructions are marked, or indication of incorrect use given; or
+| | |
+|===
+
+[.mt-indent]
+*** Checklist (continued)
+
+|===
+|Requirement (R 129-1) | |Passed |Failed |Remarks
+
+|5.2.4(c)
+|variable, on one or more axes provided:
+| | |
+
+| |all three axes are multi-interval stem:[-] all the same
+| | |
+
+| |two axes are multi-interval and the third is fixed
+| | |
+
+| |instrument limitations are clearly marked
+| | |
+
+| |one axis is multi-interval and the others are fixed
+| | |
+
+| |instrument limitations are clearly marked
+| | |
+
+|5.2.5
+|Decimal numbers
+| | |
+
+| |At least one zero before decimal mark for values stem:[<] 1
+| | |
+
+| |Decimal mark printed
+| | |
+
+| |One or more fixed zeros to the right of variable numbers for values stem:[>] 1
+| | |
+
+| |All decades to right of decimal are active and least significant digit is scale interval
+| | |
+
+|5.2.6
+|Limits of indication
+| | |
+
+| |Displaying, storing, transmitting or printing the quantity value is inhibited if the entire object is not in, or does not pass through, the measuring area
+| | |
+
+|5.2.6(a)
+|Dimensions below minimum either:
+| | |
+
+| |stem:[-] blank; or
+| | |
+
+| |stem:[-] displayed with error code
+| | |
+
+|5.2.6(b)
+|Dimensions above maximum stem:[+]9stem:[d] either:
+| | |
+
+| |stem:[-] blank; or
+| | |
+
+| |stem:[-] displayed with error code
+| | |
+
+|5.2.7
+|Multi-interval instruments
+| | |
+
+|5.2.7(a)
+|For each partial measuring range:
+| | |
+
+| |stem:[d_1 < d_2 < ... < d_r]
+| | |
+
+|5.2.7(b)
+|stem:[Min = Min_1], stem:[Max = Max_r], stem:[Max_1 = Min_2] etc.
+| | |
+
+|5.2.7(c)
+|Minimum dimension of any axis = minimum dimension of the lowest partial range of that axis
+| | |
+
+|5.2.7(d)
+|Maximum dimension of any axis = minimum dimension of the highest partial range of that axis
+| | |
+
+|5.2.7(e)
+|Minimum dimension of any partial measuring range is no smaller than minimum specified in 4.1.1
+| | |
+
+|5.2.8
+|Multi-instrument systems
+| | |
+
+| |Indications on common indicator and test indicator agree
+| | |
+
+| |Indication from each device clearly identified on the common indicator
+| | |
+
+|5.2.9
+|Printed and displayed information stem:[-] general
+| | |
+
+|5.2.9.1
+|Displayed results include the measured dimensions
+| | |
+
+|5.2.9.2
+|Printed ticket or stored measurement includes:
+| | |
+
+|5.2.9.2(a)
+|stem:[-] dimensions: length (L), width (W) and height (H)
+| | |
+
+|5.2.9.2(b)
+|stem:[-] date, transaction number, etc.
+| | |
+
+|5.2.9.2(c)
+|stem:[-] volume (V)
+| | |
+
+|5.2.9.2(d)
+|stem:[-] weight (Wt)
+| | |
+
+|5.2.9.2(e)
+|stem:[-] dimensional weight (DW ... kg)
+| | |
+
+|5.2.9.2(f)
+|stem:[-] dimensional tare (DT ... kg) or linear tare (LT ... cm)
+| | |
+
+|5.2.9.2(g)
+|stem:[-] conversion factor (F)
+| | |
+
+|5.2.9.2(h)
+|stem:[-] quantity for charging
+| | |
+
+|5.2.9.2(i)
+|stem:[-] price rate and price
+| | |
+
+|5.2.9.3
+|Additional requirements for printed tickets
+| | |
+
+| |A printed ticket contains printed or pre-printed notices stating:
+| | |
+
+|5.2.9.3(a)
+|stem:[-] dimensions and/or volume are those of the smallest rectangular box
+| | |
+
+|5.2.9.3(b)
+|stem:[-] dimensional weight is a calculated value
+| | |
+|===
+
+[.mt-indent]
+*** Checklist (continued)
+
+|===
+|Requirement (R 129-1) | |Passed |Failed |Remarks
+
+|5.2.10
+|Availability of indications
+| | |
+
+| |Indications must be available to the customer as follows:
+| | |
+
+|5.2.10(a)
+|if customer present, all indications are available to customer at time of measurement
+| | |
+
+|5.2.10(b)
+|if customer not present, information in 5.2.9 shall be available on request, if not displayed or printed
+| | |
+
+|5.3.1
+|Nameplate
+| | |
+
+| |Instrument or descriptive nameplate permanently affixed to the instrument, permanently and clearly marked and clearly visible at all times
+| | |
+
+| |Nameplate contains the following information
+| | |
+
+|5.3.1(a)
+|manufacturer's name or mark
+| | |
+
+|5.3.1(b)
+|model designation
+| | |
+
+|5.3.1(c)
+|serial number and year of manufacture
+| | |
+
+|5.3.1(d)
+|type evaluation mark
+| | |
+
+|5.3.1(e)
+|minimum and maximum dimensions for each axis
+| | |
+
+|5.3.1(f)
+|maximum and minimum measuring speeds
+| | |
+
+|5.3.1(g)
+|scale interval(s) in the form of stem:[d = ...]
+| | |
+
+|5.3.1(h)
+|temperature limits (if other than stem:[-]10 stem:[°C] to 40 stem:[°C])
+| | |
+
+|5.3.2
+|Technical specifications
+| | |
+
+| |Specifications or limitations of use clearly marked and visible to the operator, or in operator's manual
+| | |
+
+|5.3.2(a)
+|Special application
+| | |
+
+|5.3.2(b)
+|Minimum spacing
+| | |
+
+|5.3.2(c)
+|Measure only rectangular boxes
+| | |
+
+|5.3.2(d)
+|Box location
+| | |
+
+|5.3.2(e)
+|Limitations of surface characteristics
+| | |
+
+| |Other special notices relating to the instrument
+| | |
+
+|5.4.1
+|Verification mark
+| | |
+
+| |Provision made for the application of a verification mark
+| | |
+
+| |The following requirements apply:
+| | |
+
+|5.4.1(a)
+|mark easily affixed without affecting the metrological properties
+| | |
+
+|5.4.1(b)
+|mark visible without moving or dismantling instrument when in use
+| | |
+
+|5.4.1(c)
+|the part on which the mark is located is not removable from the instrument without damaging the mark
+| | |
+
+|5.4.1(d)
+|the size of the space sufficient for a mark (e.g. at least 200 mm stem:[^2])
+| | |
+
+|5.4.2
+|Sealing
+| | |
+
+| |Provision made for sealing by mechanical or electronic means
+| | |
+
+| |Mechanical seal applied
+| | |
+
+| |For electronic seals:
+| | |
+
+|5.4.2(a)
+|access by authorised persons protected by physical key or password
+| | |
+
+|5.4.2(b)
+|access to alter parameters automatically recorded
+| | |
+
+|5.4.2(c)
+|record readily accessible by simple action
+| | |
+
+|5.4.2(d)
+|record readily identifiable
+| | |
+
+|5.4.2(e)
+|reference record permanently marked on the instrument
+| | |
+
+|5.4.2(f)
+|record does not repeat in a sequence of less than 999 alterations
+| | |
+
+| |record persists reliably for a period of at least two years
+| | |
+
+|5.4.2(g)
+|record persists through tests for influence factors and disturbances
+| | |
+|===
+
+[.mt-indent]
+*** Checklist (continued)
+
+|===
+|Requirement (R 129-1) | |Passed |Failed |Remarks
+
+|5.5.2
+|Interfaces for peripheral devices
+| | |
+
+| |Interface does not allow metrological functions to be affected by the operation of the ancillary devices or connected instruments or disturbances acting on the interface
+| | |
+
+| |Interface sealed if instructions or data affecting the measurement result can be introduced through the interface
+| | |
+
+|5.6.1
+|Acting upon significant faults
+| | |
+
+| |Instrument made automatically inoperative; or
+| | |
+
+| |visible or audible indication until user takes action or fault disappears
+| | |
+
+| |Automatic instrument made inoperative automatically
+| | |
+
+|5.6.2
+|Indication check
+| | |
+
+| |Display check needed
+| | |
+
+| |Display check not needed
+| | |
+
+| |All elements of the indication are active and non-active long enough to be checked by the operator
+| | |
+
+|6.1
+|Software identification
+| | |
+
+| |Software of a measuring instrument/component is clearly identified
+| | |
+
+| |stem:[-] displayed on command, or
+| | |
+
+| |stem:[-] displayed during operation, or
+| | |
+
+| |stem:[-] displayed on start-up
+| | |
+
+|6.2
+|Correctness of algorithms and function
+| | |
+
+| |Measuring algorithms and functions of a measuring instrument appropriate and functionally correct
+| | |
+
+| |Possible to assess algorithms and functions either by metrological tests, software tests or software examination
+| | |
+
+| |No hidden or undocumented functions or parameters shall exist
+| | |
+
+|6.3
+|Securing and protecting software, parameters, the measurand value and measurement data
+| | |
+
+| |Constructed in such a way that possibilities for unintentional, unauthorised, or intentional misuse are minimal
+| | |
+
+|6.3.1
+|Protected in such a way that evidence of any intervention (e.g. software updates) shall be available
+| | |
+
+| |Protected against unauthorised modification, loading, or changes by swapping the memory device
+| | |
+
+|6.3.2
+|Only clearly documented functions may be activated by the user interface
+| | |
+
+|6.3.3
+|Legally relevant characteristics are protected such that evidence of intervention is available
+| | |
+
+| |Displaying or printing of the current legally relevant parameter settings is possible
+| | |
+
+|6.3.4
+|Measurement data and the measurand value protected against modification
+| | |
+
+| |Fitted with a checking facility to ensure that if modification or corruption is detected, the measurement data and the measurand value are discarded or marked unusable
+| | |
+
+|6.4
+|Not possible to fraudulently simulate legally relevant software for presenting measurement results, using easily available and manageable tools
+| | |
+|===
+
+[.mt-indent]
+*** Checklist (continued)
+
+|===
+|Requirement (R 129-1) | |Passed |Failed |Remarks
+
+|6.5
+|Audit trail
+| | |
+
+| |Audit trail is protected
+| | |
+
+| |Not possible to delete or exchange audit trail
+| | |
+
+| |Content of audit trail shown or displayed on command
+| | |
+
+| |Storage device for audit trail has sufficient capacity for at least three successive verifications
+| | |
+
+| |Audit trail contains:
+| | |
+
+| |success/failure of the update procedure
+| | |
+
+| |time stamp of the event
+| | |
+
+| |for software download: software identification of the installed version
+| | |
+
+| |for software download: software identification of the previous installed version
+| | |
+
+| |for parameter change: identification of the changed parameter
+| | |
+
+| |for parameter change: the old and new values of the changed parameter
+| | |
+
+|6.6
+|Requirements for specific configurations of electronic instruments
+| | |
+
+| |Meets specific requirements for following technologies:
+| | |
+
+|6.7
+|Detection of significant defects
+| | |
+
+| |Software is made inoperative automatically or a visual or audible indication is provided automatically until user takes action when significant defect detected
+| | |
+
+| |All necessary documentation provided
+| | |
+
+|6.8
+|Support of durability protection
+| | |
+
+| |When durability is jeopardised the instrument starts measures to ensure further durability or become inoperable until the user takes action, or the problem disappears
+| | |
+
+| |All necessary documentation provided
+| | |
+
+|Annex B.1
+|Specification and separation of legally relevant parts and specification of interfaces
+| | |
+
+|Annex B.1.1
+|Interfaces
+| | |
+
+|Annex B.1.2
+|Separation of components
+| | |
+
+|Annex B.1.3
+|Specification and separation of software parts
+| | |
+
+|Annex B.2
+|Shared indications
+| | |
+
+|Annex B.3
+|Storage of data
+| | |
+
+|Annex B.4
+|Transmission of measured quantity values and/or measurement data
+| | |
+
+|Annex B.5
+|Operating systems
+| | |
+
+|Annex B.6
+|Software updates
+| | |
+
+|R 129-2, 1.1
+|Documentation
+| | |
+
+| |Submission accompanied by sufficient documentation, to ensure complete understanding of the construction and method of operation of the instrument including:
+| | |
+
+| |drawings
+| | |
+
+| |specifications
+| | |
+
+| |photographs
+| | |
+
+| |descriptions
+| | |
+
+| |Details of the measurement data contained in the memory and calculation methods provided
+| | |
+
+| |For electronic instruments, documentation includes:
+| | |
+
+| |list of all electronic sub-assemblies with their essential characteristics
+| | |
+
+| |description of electronic devices with drawings, diagrams and general software information explaining their construction and operation
+| | |
+|===
+
+=== RESULT
+
+* PASS
+* FAIL
+
+Use this page to detail remarks from the checklist:

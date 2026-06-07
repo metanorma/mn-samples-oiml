@@ -1,0 +1,3 @@
+== Competence criteria for Management System Experts
+
+The competence criteria for Management System Experts that will participate in peer assessments are defined in OD-01, 13.2.2 <<OIML_CS_OD_01>>.

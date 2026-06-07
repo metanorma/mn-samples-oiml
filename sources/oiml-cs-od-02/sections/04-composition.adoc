@@ -1,0 +1,13 @@
+== Composition and appointment of members of the TLF
+
+=== Composition
+
+The composition of the TLF is defined in OIML B 18, 12.1 <<OIML_B_18>>.
+
+=== Participation
+
+A representative from each Test Laboratory listed in the Declaration of an OIML Issuing Authority may participate in the activities and/or meetings of the TLF. The Management Committee Member from each OIML Member State that has at least one OIML Issuing Authority shall notify the Executive Secretary of the name(s) of the TLF representative(s) and any changes in representation.
+
+NOTE: Where a Test Laboratory provides testing services for more than one category of measuring instrument a representative for each measuring instrument category is permitted.
+
+An up-to-date list of the representatives from Test Laboratories in the TLF is maintained by the Executive Secretary.

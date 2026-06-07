@@ -1,0 +1,9 @@
+== OIML Issuing Authority appeals procedures
+
+=== {blank}
+
+All OIML Issuing Authorities shall have documented procedures for accepting, considering and resolving appeals against decisions.
+
+=== {blank}
+
+A CIML Member may act as a technical advisor and may request assistance from the BIML, the responsible OIML Technical Committee or Subcommittee, and/or the Management Committee in resolving technical issues associated with appeals and disputes of decisions of an OIML Issuing Authority in his or her country.

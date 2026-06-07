@@ -1,0 +1,229 @@
+== Terminology
+
+The following terminology includes terms applicable to those instruments covered by this Recommendation and some general terms included in OIML V 2-200:2012 International Vocabulary of Basic and General Terms in Metrology (VIM) <<VIM>> and OIML V 1:2013 International vocabulary of terms in legal metrology (VIML) <<VIML>>.
+
+=== General terms
+
+==== multi-dimensional measuring instrument
+
+instrument that measures the dimensions of an object and determines the length (L), width (W) and height (H) of the smallest rectangular parallelepiped (rectangular box) which fully encloses that object
+
+===== length (L)
+
+linear measured dimension that is oriented 90 degrees relative to the width and height
+
+===== width (W)
+
+linear measured dimension that is oriented 90 degrees relative to the length and height
+
+===== height (H)
+
+linear measured dimension that is oriented 90 degrees relative to the length and width
+
+==== device
+
+identifiable instrument or part of an instrument or family of instruments that performs a specific function or functions [OIML D 11, 3.3 <<OIML_D_11_2013>>]
+
+NOTE: A device may be a stand-alone and complete measuring instrument (for example: counter scale, electricity meter) or part of a measuring instrument (for example: printer, indicator).
+
+==== measuring instrument
+
+device used for making measurements, alone or in conjunction with one or more supplementary devices [VIM 3.1]
+
+NOTE: A measuring instrument that can be used alone is a measuring system.
+
+==== indicator
+
+device that displays the measured dimensions and any associated quantities
+
+==== ancillary device
+
+device intended to perform a particular function, directly involved in elaborating, transmitting or displaying measurement results [VIML 5.06]
+
+NOTE: An ancillary device may or may not be subject to legal metrological control according to its function in the measuring system or to national regulations.
+
+NOTE: Main ancillary devices are:
+
+* zero-setting device;
+* repeating indicating device;
+* printing device;
+* memory device;
+* price indicating device;
+* totalising indicating device;
+* pre-setting device;
+* self-service device.
+
+==== semi-automatic instrument
+
+instrument requiring the intervention of an operator to carry out the measurements but that automatically determines the results
+
+==== automatic instrument
+
+instrument that measures without the intervention of an operator
+
+==== multi-interval instrument
+
+measuring instrument having one dimensional measuring range for each axis which is divided into partial measuring ranges each with different scale intervals, with the measuring range determined automatically according to the dimension being measured
+
+==== maximum measuring speed stem:[(V_\mathrm{max})]
+
+maximum speed at which the instrument will measure correctly
+
+NOTE: Only applicable to instruments where measurements are affected by means of relative movement between the object and the instrument.
+
+==== minimum measuring speed stem:[(V_\mathrm{min})]
+
+minimum speed at which the instrument will measure correctly
+
+NOTE: Only applicable to instruments where measurements are affected by means of relative movement between the object and the instrument.
+
+==== indication
+
+quantity value provided by a measuring instrument or measuring system [VIM 4.1]
+
+==== measuring area
+
+area in and around the instrument in which it is capable of measuring an object
+
+=== Measurement terms
+
+[[section-2.2.1]]
+==== rectangular box (rectangular parallelepiped)
+
+polyhedron having six faces that are parallel in pairs having all dihedral angles as right angles
+
+==== irregular shaped object
+
+object other than a rectangular box
+
+==== measured dimensions
+
+length (L), width (W) or height (H), measured by the measuring instrument, of the smallest rectangular box which fully encloses the object
+
+[[section-dv]]
+==== dimensional volume (Dim Vol or DV)
+
+volume of the smallest rectangular box which fully encloses the object, and is the product of the indicated values of length (L), width (W) and height (H) stem:[DV = L \times W \times H]
+
+==== maximum dimension (Max)
+
+maximum measurable dimension for each axis as specified by the manufacturer for the measuring instrument
+
+==== minimum dimension (Min)
+
+value of the smallest measured dimension for each axis
+
+==== dimensional weight (Dim Wt or DW)
+
+calculated value obtained by applying a conversion factor to the object's dimensional volume (see <<section-dv>>) or measured dimensions (see above)
+
+==== conversion factor (F)
+
+factor applied to the volume or dimensions of an object to determine its dimensional weight
+
+[[section-d]]
+==== scale interval (d)
+
+value, expressed in units of the measured quantity, of the difference between the values corresponding to two consecutive scale marks for analogue indication, or two consecutive indicated values for digital indication
+
+==== measurand value
+
+quantity value attributed to the measurand
+
+=== Performance terms
+
+==== error of indication
+
+indicated value minus a reference quantity value [VIML 0.04]
+
+==== intrinsic error
+
+error of a measuring instrument determined under reference conditions [VIML 0.06]
+
+==== initial intrinsic error
+
+intrinsic error of a measuring instrument as determined prior to performance tests [VIML 5.11]
+
+==== maximum permissible error (mpe)
+
+extreme value (positive and negative) of the error of indication permitted by specifications, Recommendations, regulations, etc. [adapted from VIM 4.26]
+
+NOTE: The absolute value of the mpe is the same value without sign.
+
+==== fault
+
+difference between the error of indication and the intrinsic error of a measuring instrument [VIML 5.12]
+
+NOTE: Principally a fault is the result of an undesired change of data contained in, or flowing through, an electronic measuring instrument.
+
+NOTE: From the definition, it follows that a "fault" is a numerical value which is expressed either in a unit of measurement or as a relative value, for instance as a percentage.
+
+==== fault limit
+
+value delimiting non-significant faults [VIML 5.13]
+
+==== significant fault
+
+fault exceeding the applicable fault limit value [VIML 5.14]
+
+NOTE: The following faults are not considered to be significant, even when they exceed the value defined above:
+
+. faults arising from simultaneous and mutually independent causes in the measuring instrument itself;
+
+. faults implying the impossibility to perform any measurement;
+
+. transitory faults being momentary variations in the indication, which cannot be interpreted, memorised or transmitted as a measurement result; and
+
+. faults giving rise to variations in the measurement result so serious that they are bound to be noticed by all those interested in the result of the measurement.
+
+==== influence quantity
+
+quantity that, in a direct measurement, does not affect the quantity that is actually measured, but affects the relation between the indication and the measurement result [VIM 2.52]
+
+==== influence factor
+
+influence quantity having a value within the rated operating conditions of the measuring instrument, specified in this Recommendation
+
+==== disturbance
+
+influence quantity having a value within the limits specified in this Recommendation, but outside the specified rated operating conditions of the measuring instrument
+
+NOTE: An influence quantity is a disturbance if for that influence quantity the rated operating conditions are not specified.
+
+==== rated operating conditions
+
+operating condition that must be fulfilled during measurement in order that a measuring instrument or measuring system perform as designed [VIM 4.9]
+
+==== reference conditions
+
+set of specified values of influence factors fixed to ensure valid intercomparison of results of measurements [VIM 4.11]
+
+==== performance
+
+ability of the measuring instrument to accomplish its intended functions
+
+=== Testing terms
+
+==== test
+
+series of operations intended to verify the compliance of the EUT (equipment under test) with certain requirements
+
+==== test procedure
+
+detailed description of the tests
+
+==== test program
+
+description of a series of tests for a certain type of equipment
+
+==== performance test
+
+test intended to verify whether the EUT is able to accomplish its intended functions
+
+==== test object
+
+object whose dimensions are verified by appropriate reference standards and intended to verify the compliance of the EUT with certain metrological requirements
+
+=== Software terms
+
+The specific software terminology are as defined in OIML D 31 General requirements for software controlled measuring instruments <<OIML_D_31_2008>>.

@@ -1,0 +1,106 @@
+== Structure of metrological supervision
+
+=== {blank}
+
+The individual activities performed as a function of metrological supervision are shown in <<fig-2>>. <<fig-3>> outlines the procedure to be followed in performing these activities.
+
+=== {blank}
+
+Information gathering (planning) is where targeted actions of metrological supervision are carried out either as planned periodic activities or as non-periodic activities. The planned periodic activities are regular investigations where the targeted actions are of a more systematic character and are usually completed according to a work program for the current year. The non-periodic activities may be carried out as an immediate response to complaints and information received from the general public, competitors, and other sources. On occasions, a modified procedure may be used for special cases of metrological supervision, targeting individual cases where fraud is suspected. The sources of information for planning individual actions of inspection during metrological supervision can be summarized as follows:
+
+* notifications by various bodies and individuals;
+* risk assessment;
+* market analysis;
+* initial (if applicable), and especially subsequent verification;
+* information from bodies performing conformity assessment procedures;
+* other concerned bodies (in case of optional forms of supervision).
+
+Non-periodic activities can be initiated by complaints or notifications from the general public, by randomly found systematic or technical defects of instruments or by notifications from other conformity assessment bodies that are involved with legal metrology. Periodic activities are best planned using special databases, preferably in an electronic form. The periodic activities can be effectively organized in the form of round trips in conjunction with additional activities (verification of instruments, other forms of metrological supervision) provided there is no conflict of interests.
+
+Other than non-periodic cases, metrological supervision is normally carried out by inspectors under the orders of the authority. The inspector carries out the activities in accordance with the requirements of the relevant legislation.
+
+=== {blank}
+
+Where testing samples of measuring instruments or prepackages is involved, the inspection function is based on the following elements:
+
+* to determine, when not otherwise specified, the number of measuring instruments or prepackages to be examined (e.g. all units in a lot or the size of a representative sample) and to choose an appropriate sampling plan;
+* to determine the method of examination (on-site, without dismantling and/or at a verification station, after dismantling), to specify the method, range and procedure by which the test must be carried out, as well as the testing device (including a suitable check standard -- see VIM 6.7, note 2) to be used;
+* to check the measuring instrument by comparing one or several indications with those of the check standard or by means of a prescribed, recommended or chosen verification method, i.e. complete, simplified, subsequent or exceptional verification;
+* prepackages are taken from stock or the point-of-sale and the contents are checked in accordance with <<R87>>;
+* to carry out a detailed examination of the measuring instrument or pre-packaged product (conformity with the approved type, marking, general condition, wear, unauthorized tampering, etc.);
+* to evaluate the results of the examination and to formulate conclusions.
+
+When testing on samples forms a part of the examination, the corresponding standard for quality acceptance inspection shall be used.
+
+This form of inspection carried out by a third party can be substituted for one of the requirements stipulated in <<ISO17025>>, par. 5.9.1) for assuring the quality of test and calibration results: c) to replicate tests or calibrations using the same and different methods.
+
+In general, the appropriate quality standard in this case is <<ISO17020>>. When the examination only consists of testing, the appropriate standard is ISO/IEC 17025.
+
+The actual inspection can be carried out in the following main forms:
+
+=== On-site conditions (in situ)
+
+These inspections are used as circumstances require and are preferred in cases when the testing of a measuring instrument or pre-packaged product is relatively simple and manageable on-site (e.g. metrological characteristics of balances). On-site inspections are also used where the measuring instruments cannot be moved (e.g. weighbridges, automatic weighing instruments, fuel dispensers) or when their performance is installation dependent. The authority should be suitably equipped to perform all of the testing.
+
+On-site testing is normally performed:
+
+* at the premises of either the manufacturer, the repairer or their agents;
+* at the premises of the user of the measuring instrument; or
+* at the point-of-sale or the premises of the distributor in the case of prepackages.
+
+=== In the laboratory of the authority (in-house)
+
+In-house inspection is collecting samples of measuring instruments or prepackaged products for inspection, examination, testing and evaluation of their technical and metrological characteristics, in the authority's properly equipped laboratory. It could be a "temporary laboratory", for instance in a public building such as a town hall, a school, or even in a hired room, etc. The testing function could be subcontracted to a technically competent calibration or testing laboratory. Subcontracting is especially suitable for inspection of bulk verification of utility meters because it ensures the correct type of testing equipment will be readily available. If applicable, the corresponding international standards or OIML Recommendations should be followed when carrying out the procedures described above (e.g. prepackages, electricity meters).
+
+=== {blank}
+
+The proper evaluation of findings at the investigation stage is an essential part of the inspection. If appropriate, statistical methods from OIML Recommendations drawn up within the various TCs can be used, for instance, TC 3/SC 4 (Statistical methods), TC 6 (Prepackages) and TC 12 (Electricity meters). After the inspection, a report is prepared to build up a history of findings and should contain all the relevant information concerning the scope, place of examination and results. Reports are kept on file by the authorities for a period determined by each jurisdiction's record retention laws.
+
+=== {blank}
+
+Any deviations from and/or violations of the metrological legislation found during the inspection shall be specified in an accurate, factual, unambiguous and comprehensive manner in the report. The report shall specifically include a full description of the measuring instruments or prepackages found to be violating the legislation. Any comments made by the authorized representative of the supervised body should be recorded in writing in the report. If the representative of the supervised body refuses to provide comments and/or sign the report, the inspector shall note this fact in the report.
+
+=== {blank}
+
+Where violations are found, the investigation stage is followed by the enforcement stage, which consists of applying and enforcing various types of sanctions against the supervised body based on the history of findings. For significant violations of the legislation, the sanctions listed below shall be imposed. Also, the inspector shall conduct the associated investigations in accordance with the following model methodology (not mandatory):
+
+* in the event of severe violations (e.g. large measurement errors compared to maximum permissible errors) the measuring instruments concerned are immediately put out of service if supported by national legislation;
+* after consulting the supervised body, an official letter is issued to (the chief executive officer of) the supervised body setting the deadline for completion of corrective actions. The supervised body shall subsequently provide a written report detailing the corrective actions taken;
+* prohibit their further use, either temporarily or permanently. The appropriate course of action would be based on the inspector's findings and would depend on the nature of the non-compliances;
+* if corrective actions have not been taken or if they cannot be completed within the deadline, measures must be taken to withdraw non-compliant measuring instruments or prepackages from the market within one month of the missed deadline;
+* a temporary, full or a partial halt to the manufacture or distribution of measuring instruments or prepackages to restrict or prohibit their further placing on the market;
+* a financial penalty (a fine) or a legal action against the offender corresponding to the significance of the violation(s);
+* suspension or complete withdrawal of the supervised body's (or their Agent's) authorization or registration to officially run a metrology-related business;
+* a corresponding notification to the police or to the court of justice or any other body, as stipulated by the legislation, in cases where there is evidence of criminal behavior;
+* a withdrawal of the type approval, if foreseen by the legislation, on a recommendation of the authority to the issuing authority based on the finding that an excessive number of individual items under investigation do not comply with the requirements.
+
+=== {blank}
+
+Metrological supervision according to the above structure can be carried out by authorities in either of two ways.
+
+==== {blank}
+
+The first one relies on the appropriate authorities which perform all the activities (planning, inspection and enforcement). The essential principle to be maintained during metrological supervision shall be the highest achievable guarantee of impartiality and protection of public interests by the Government. Therefore, only metrological supervision performed by authorities is appropriate.
+
+==== {blank}
+
+In the other arrangement, the authority delegates the task of performing metrological supervision to an appropriate recognized body, (Government, Government-owned, non-profit or "fully" private body(ies)). The planning activities are split or shared between both, by a special authorization or a contract for this activity. The general responsibility and enforcement must always rest with the authority; it is only the inspection function that is solely passed over to other bodies -- they have, therefore, the character of a suitable conformity assessment body (for inspection or management system certification). Their overall competence must be assessed against requirements given by the corresponding regulation. Formal accreditation for granting the appropriate authorization shall be carried out according to national metrological regulations compatible with international standards (e.g. ISO/IEC 17020 on inspection bodies <<ISO17020>>, <<ISO17021>>, ISO/IEC 17025 on calibration and testing laboratories <<ISO17025>>). However, when specifically required by the inspection body, an alternative way to demonstrate its competence should be available, especially in the case of major liberalization towards manufacturers (e.g. conformity assessment procedures are widely employed) with the accreditation body having a monopoly.
+
+==== {blank}
+
+In general it is necessary, if not stated in the metrological legislation, to specify the corresponding rights and duties of the authorities and conformity assessment bodies, if appropriate, and to stipulate the means of examining their qualifications to perform these operations. These bodies can issue (usually on the basis of professional training and subsequent examination of the staff qualification) a certificate of competence to each inspector performing metrological supervision. However a certificate of competence may not be necessary where there is other appropriate professional qualification. Certification of personnel according to <<ISO17024>> is recommended when a rigorously systematic approach is preferred. This type of certificate should be valid for longer periods of time.
+
+==== {blank}
+
+The detailed organizational structure of the arrangement to carry out metrological supervision is specific for any given country, depending on its historical administrative and legal development. In addition, in creating this structure, the following considerations should be taken into account:
+
+* national geography to cover the entire area of the country by supervision;
+* guarantees of impartial performance;
+* economic efficiency.
+
+==== {blank}
+
+Depending on the country's organizational structure of metrological supervision, the sanctions can be applied either:
+
+* directly by the authority (see 4.7.1); or
+* by the authority responsible for enforcement under the legislation on the basis of the report prepared by the conformity assessment body that completed the investigation (see 4.7.2).

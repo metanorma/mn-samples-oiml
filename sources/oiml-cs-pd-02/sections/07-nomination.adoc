@@ -1,0 +1,35 @@
+== Nomination Process
+
+=== Legal Metrology Experts
+
+==== {blank}
+
+A person who considers that they meet the competence criteria to be a Legal Metrology Expert can apply to be a Legal Metrology Expert. They can apply to be an expert for a single category or for multiple categories of measuring instruments and the corresponding OIML Recommendation(s). Applications shall be made using the "Application to be a Legal Metrology Expert" form (hereafter referred to as the "LME Application Form") which can be found on the OIML-CS pages of the OIML website.
+
+==== {blank}
+
+A completed LME Application Form shall be submitted to the Executive Secretary by the applicant. The Executive Secretary will review the LME Application Form to ensure that all of the relevant information has been provided. If information is missing, or further detail is required, the Executive Secretary will contact the applicant.
+
+=== Management System Experts
+
+==== Nominations from Accreditation Bodies
+
+===== {blank}
+
+Persons to be included in the list of Management System Experts to participate in OIML peer assessments of Test Laboratories can be nominated by Accreditation Body signatories to the International Laboratory Accreditation Cooperation (ILAC) Mutual Recognition Arrangement or to a Regional Arrangement recognised by ILAC for the scope of "Testing ISO/IEC 17025".
+
+===== {blank}
+
+Persons to be included in the list of Management System Experts to participate in OIML peer assessments of OIML Issuing Authorities can be nominated by Accreditation Body signatories to
+
+* the International Accreditation Forum (IAF) Multilateral Recognition Arrangement or to a Regional Arrangement recognised by IAF for the scope of "Product Certification ISO/IEC 17065" (in the case of ISO/IEC 17065), or
+
+* the ILAC Mutual Recognition Arrangement or to a Regional Arrangement recognised by ILAC for the scope of "Inspection ISO/IEC 17020" (in the case of ISO/IEC 17020).
+
+===== {blank}
+
+The nomination, along with evidence of an understanding of the OIML-CS and OIML D 32 <<OIML_D_32>>, OIML D 30 <<OIML_D_30>> and/or OIML D 37 <<OIML_D_37>>, as appropriate, can be submitted to the Executive Secretary by the Management Committee member of the country of the Accreditation Body or by the ILAC secretariat or IAF secretariat, as appropriate.
+
+==== Nominations from individuals
+
+A person who considers that they meet the qualification criteria to be a Management System Expert can apply to be a Management System Expert. Applications shall be made using the "Application to be a Management System Expert" form (hereafter referred to as the "MSE Application Form") which can be found on the OIML-CS pages of the OIML website. A completed MSE Application Form shall be submitted to the Executive Secretary by the applicant. The Executive Secretary will review the MSE Application Form to ensure that all of the relevant information has been provided. If information is missing, or further detail is required, the Executive Secretary will contact the applicant.

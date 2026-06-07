@@ -1,0 +1,13 @@
+== Acceptance of OIML certificates and OIML type evaluation reports
+
+=== {blank}
+
+Although signing a Declaration commits in principle signatories to accept OIML certificates and/or OIML type evaluation reports from OIML Issuing Authorities, in accordance with OIML B 18, 15.9 <<OIML_B_18>> there are conditions under which test data may legitimately not be accepted on the provision that a written justification and explanation is provided.
+
+=== {blank}
+
+Acceptance of test results from a Manufacturer Test Laboratory (MTL) is on a voluntary basis and does not require a justification or explanation where they are not accepted. Due to the voluntary nature of the acceptance of test results from MTLs, this information is not detailed in the Declaration.
+
+=== {blank}
+
+The acceptance by a Utilizer or Associate of existing OIML MAA certificates issued under the OIML MAA Certificate System shall be detailed in its Declaration along with any conditions.

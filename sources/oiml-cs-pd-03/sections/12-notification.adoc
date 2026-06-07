@@ -1,0 +1,3 @@
+== Notification of changes
+
+An OIML Issuing Authority shall immediately inform the Executive Secretary of an essential organisational or technical change, such as a change to key staff or a change of location, which could impact on compliance with ISO/IEC 17065 <<ISO_IEC_17065>>. The Executive Secretary shall consult with the Review Committee for a recommendation on the appropriate action to take, e.g. temporary suspension of scope.

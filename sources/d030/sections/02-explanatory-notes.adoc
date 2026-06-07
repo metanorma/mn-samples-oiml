@@ -1,0 +1,21 @@
+[[explanatory-notes]]
+== Explanatory notes
+
+[[note-1]]
+=== Note 1 (Designation and approval of Test Laboratories)
+
+Under the OIML-CS, the relevant Test Laboratories are those that have been designated by an OIML Issuing Authority and approved by the OIML-CS Management Committee.
+
+[[note-2]]
+=== Note 2 (Applicability)
+
+When used in connection with the OIML-CS, the guidance in this Document is applicable to any testing laboratory that has been approved to perform testing and examinations, including internal Test Laboratories of the OIML Issuing Authority, third-party Test Laboratories and Manufacturer Test Laboratories (MTLs).
+
+In addition, the guidance in this Document is applicable to any testing laboratory that may wish to apply to be approved under the OIML-CS.
+
+[[note-3]]
+=== Note 3 (Issuing a partial test report)
+
+Test reports may be partial test reports when several testing laboratories perform tests and examinations. In such a case, each testing laboratory issues a partial test report, which includes the results of the tests and examinations that it performs.
+
+When tests and examinations are performed on the basis of an OIML Recommendation within the OIML-CS, the test report is drawn up according to the format specified in the relevant OIML Recommendation for the applicable tests and examinations that the Test Laboratory performs.

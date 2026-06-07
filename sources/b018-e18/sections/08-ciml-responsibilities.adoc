@@ -1,0 +1,18 @@
+== Responsibilities of the CIML within the OIML-CS
+
+The CIML is responsible for
+
+. appointing the Chairperson of the MC,
+
+. appointing the Deputy Chairperson of the MC,
+
+. appointing the Chairperson and members of the BoA,
+
+. approving revisions to OIML B 18 Framework for the OIML Certification System (OIML-CS), and
+
+. approving proposals of the MC concerning
+
+.. moving a category of measuring instrument (and the applicable OIML Recommendation) from Scheme A back to Scheme B,
+.. extending or reducing the two-year transition period for a category of measuring instrument when moving from Scheme B to Scheme A,
+.. including a new category of measuring instrument in the OIML-CS, and
+.. withdrawing previous editions of an OIML Recommendation in the OIML-CS (see <<operation>>).

@@ -1,0 +1,291 @@
+== Battery and non-mains power supply related performance tests
+
+=== Low voltage of internal battery
+
+[[table-36]]
+.Low voltage of internal battery (not connected to the mains power)
+[cols="h,7a"]
+|===
+| Applicable standards
+| No standard is available.
+
+| Test method
+| Applying minimum supply voltage.
+
+| Applicability
+| Applicable to all measuring instruments supplied by internal battery.
+
+| Object of the test
+| Verification of compliance with the provisions in 5.1.1 or 5.1.2 during low battery voltage.
+
+| Test procedure
+| The test comprises exposure of the EUT to the specific low battery level condition during a period sufficient for achieving temperature stability and for performing the required measurements. The maximum internal impedance of the battery and the minimum battery supply voltage level stem:[U_"min"] shall be specified by the manufacturer of the instrument.
+
+If an alternative power supply source is used instead of the internal battery, for instance in bench testing, the internal impedance of the specified type of battery shall also be simulated.
+
+The alternative power supply shall be capable of delivering sufficient current at the applicable supply voltage.
+
+The test sequence is as follows:
+
+* Let the power supply stabilize at a voltage as defined within the rated operating conditions and apply the measurement and/or loading condition.
+* Record:
+
+.. the data defining the actual measurement conditions including date, time and environmental conditions,
+.. the actual power supply voltage.
+
+* Perform measurements and record the error(s) and other relevant performance parameters.
+* Verify compliance with 5.1.1 and 5.1.2.
+* Repeat the above procedure with actual supply voltage at stem:[U_"min"] and again at 0.9 stem:[U_"min"].
+* Verify compliance with the requirements in 5.5.
+|===
+
+[cols="h,7a"]
+|===
+| Test level index | 1
+| Lower limit of the voltage | The lowest voltage at which the EUT functions properly according to the specifications.
+| Number of test cycles | At least one test cycle for each functional mode.
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. preconditioning of the EUT,
+. measurements and/or loading during conditioning and test,
+. number of test cycles,
+. maximum allowable variations,
+. response of the EUT to low supply voltage; for instance indication or switch off.
+
+
+=== Power from external 12 V and 24 V road vehicle batteries
+
+NOTE: The nominal voltage stem:[U_"nom"] of the electrical system in road vehicles is usually 12 V or 24 V. However, the practical voltage at the battery terminals can vary considerably. <<ISO7637-2>> specifies reference levels of 13.5 V and 27 V, respectively.
+
+NOTE: 42 V systems are not within the scope of the ISO 7637 series of standards, nor of <<ISO16750-2>>.
+
+[[table-37]]
+.Voltage variations
+[cols="h,7a"]
+|===
+| Applicable standard
+| <<ISO16750-2>>
+
+| Test method
+| Variation in supply voltage
+
+| Applicability
+| Applicable to all measuring instruments supplied by the internal battery of a vehicle and charged by use of a combustion engine driven generator.
+
+| Object of the test
+| Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of high (while charging) and low battery voltage.
+
+| Test procedure in brief
+| The test comprises exposure to the specified maximum and minimum power supply voltage conditions for a period sufficient for achieving temperature stability and performing the required measurements at these conditions.
+|===
+
+[cols="1,1,1,1,1,1,1,1,1,1"]
+|===
+| Nominal battery voltage 4+| stem:[U_"nom" = 12 V] 4+| stem:[U_"nom" = 24 V] | unit
+
+| Test level index footnote:[In <<ISO16750-2>> called "Code".] footnote:[Preferred test level for OIML Recommendations: Code C for 12 V batteries and code F for 24 V batteries.]
+| A
+| B
+| C
+| D
+| E
+| F
+| G
+| H
+|
+
+| Lower limit | 6 | 8 | 9 | 10.5 | 10 | 16 | 22 | 18 | V
+| Upper limit | 16 | 16 | 16 | 16 | 32 | 32 | 32 | 32 | V
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. preconditioning of the instrument,
+. measurements and/or loading during conditioning and test,
+. number of test cycles,
+. maximum allowable variations,
+. response of the EUT to low supply voltage; for instance indication or switch off.
+
+
+[[table-38]]
+.Electrical transient conduction along supply lines
+[cols="h,7a"]
+|===
+| Applicable standard
+| <<ISO7637-2>>
+
+* §5.6.2: Test pulse 2a+2b
+* §5.6.3: Test pulse 3a+3b
+
+| Test method
+| Electrical transient conduction along supply lines.
+
+| Applicability
+| Applicable to all measuring instruments supplied by the internal battery of a vehicle which may at the same time be charged by use of a combustion engine driven generator.
+
+| Object of the test
+|
+Verification of compliance with the provisions in 5.1.1 or 5.1.2 under the following conditions:
+
+* transients due to a sudden interruption of current in a device connected in parallel with the device under test due to the inductance of the wiring harness (pulse 2a);
+
+* transients from DC motors acting as generators after the ignition is switched off (pulse 2b) footnote:[Test pulse 2b is only applicable if the electrical power circuitry of the measuring instrument can be interrupted by the master switch of the car and as a consequence is not permanently connected to the battery of the car. This test will therefore be applicable in all situations where the manufacturer of the measuring instrument has not specified that the instrument is to be connected directly to the battery.];
+
+* transients on the supply lines which occur as a result of the switching processes (pulses 3a and 3b).
+
+| Test procedure in brief
+| The test comprises exposure to disturbances on the power voltage by direct coupling into the supply lines.
+|===
+
+[cols="2,1,1,1,1,1",options="header"]
+|===
+| Test level index footnote:[In <<ISO7637-2>>, so called "test levels".] footnote:[In <<ISO7637-2>>, the former levels I and II were deleted because transients in road vehicles do not ensure a sufficient level of immunity.] footnote:[The referred standard is primarily intended as a basis for contracts between manufacturers of motor vehicles and electronic sub-assemblies. As instruments shall comply with the provisions in 5.1.1 or 5.1.2 in any type of car, test level IV is advised to incorporate in OIML Recommendations.] 2+| III 2+| IV footnote:[The advised values in bold, for the level indexed IV, concern the maximum levels as defined in <<ISO7637-2>> (2004). The values between brackets concern the maximum levels as defined in <<ISO7637-2>> (2011) (for additional information see 8.5.2).] .3+| unit
+
+.2+| Test pulse
+2+| Pulse voltage stem:[U_s] 2+| Pulse voltage stem:[U_s]
+| stem:[U_"nom" =12 V] | stem:[U_"nom" =24 V] | stem:[U_"nom" =12 V] | stem:[U_"nom" =24 V]
+
+| 2a | +37 | +37 | +50 (+112) | +50 (+112) | V
+| 2b footnote:[Test pulse 2b is only applicable if the electrical power circuitry of the measuring instrument can be interrupted by the master switch of the car.] | +10 | +20 | +10 | +20 | V
+| 3a | -112 | -150 | -150 (-220) | -200 (-300) | V
+| 3b | +5 | +150 | +100 (+150) | +200 (+300) | V
+|===
+
+NOTE: Test pulse 1 mentioned in the standard is considered not applicable. Former test pulses 4 and 5 are no longer covered by the recent ISO 7637-2. Instead the recent ISO 16750-2 covers the phenomenon of energizing starter motor circuits of combustion engines. Refer <<table-40>> (pulse 4 of former ISO 7637-2) and <<table-41>> (pulse 5 of former ISO 7637-2).
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test pulses to be applied,
+. test level to be applied,
+. minimum number of pulses or test time,
+. performance of the EUT during and after the test pulses.
+
+
+[[table-39]]
+.Electrical transient conduction via lines other than supply lines
+[cols="h,7a"]
+|===
+| Applicable standard
+| <<ISO7637-3>>, §3.5.1: fast transient test pulses a and b
+
+| Test method
+| Electrical transient conduction along lines other than supply lines.
+
+| Applicability
+| Only applicable to analogue I/O cabling of modular measuring instruments installed in vehicles footnote:[Only the capacitive coupling clamp method shall be applied.].
+
+| Object of the test
+| Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of transients which occur on other lines as a result of the switching processes (pulses a and b).
+
+| Test procedure in brief
+| The test consists of exposure to bursts of voltage spikes by capacitive and inductive coupling via lines other than supply lines.
+|===
+
+[cols="3,1,1,1,1,1,1"]
+|===
+2+| Test level index | I | II | III | IV footnote:[The text of the standard indicates that this standard is primarily intended as a basis for contracts between manufacturers of motor vehicles and electronic sub-assemblies. As instruments must comply with the provisions in 5.1.1 or 5.1.2 in any type of car, test level IV is advised for application in OIML Recommendations.] | unit
+
+.2+| stem:[U_"nom" = 12 V]
+| pulse a: stem:[U_s] | -10 | -20 | -40 | -60 | V
+| pulse b: stem:[U_s] | +10 | +20 | +30 | +40 | V
+
+.2+| stem:[U_"nom" = 24 V]
+| pulse a: stem:[U_s] | -14 | -28 | -56 | -80 | V
+| pulse b: stem:[U_s] | +14 | +28 | +56 | +80 | V
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level to be applied,
+. performance of the EUT during and after the test pulses.
+
+
+[[table-40]]
+.Battery voltage variations when starting up a vehicle engine
+[cols="h,7a"]
+|===
+| Applicable standard
+| <<ISO16750-2>>
+
+| Test method
+| Supply voltage variation due to energizing the starter motor of a vehicle
+
+| Applicability
+| Measuring instruments powered by on board DC battery and which may be in operation while the vehicle engine is started
+
+| Object of the test
+| Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of starting the vehicle engine (during and after cranking)
+
+| Test procedure in brief
+| The test comprises exposure to a typical supply voltage characteristic simulating the voltage variation while cranking the engine using a DC electrical starter motor.
+|===
+
+[cols="1,1,1,1,1,1,1,1,1",options="header"]
+|===
+| Nominal battery voltage 4+| stem:[U_"nom" = 12 V] 3+| stem:[U_"nom" = 24 V] | unit
+
+| Test profile footnote:[As specified in <<ISO16750-2>>.] footnote:[Preferred test profiles for OIML Recommendations.]
+| I footnote:[Preferred]
+| II
+| III footnote:[Preferred]
+| IV
+| I footnote:[Preferred]
+| II
+| III footnote:[Preferred]
+|
+
+| stem:[U_S] | 8 | 4.5 | 3 | 6 | 10 | 8 | 6 | V
+| stem:[U_A] | 9.5 | 6.5 | 5 | 6.5 | 20 | 15 | 10 | V
+| stem:[t_8] | 1 | 10 | 1 | 10 | 1 | 10 | 1 | s
+| stem:[t_f] | 40 | 100 | 100 | 100 | 40 | 100 | 40 | ms
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. preconditioning of the instrument,
+. measurements and/or loading during conditioning and test,
+. number of test cycles,
+. maximum allowable variations,
+. response of the EUT to low supply voltage; for instance indication or switch off.
+
+
+[[table-41]]
+."Load dump" test
+[cols="h,7a"]
+|===
+| Applicable standard
+| <<ISO16750-2>>
+
+| Test method
+| Supply voltage variation due to disconnecting a discharged battery.
+
+| Applicability
+| Measuring instruments powered by on board DC battery and which may be in operation while the vehicle engine is running.
+
+| Object of the test
+| Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of disconnecting a discharged vehicle battery while the charging alternator is running.
+
+| Test procedure in brief
+| The test comprises exposure to a typical pulse on the supply voltage, simulating the voltage peak due to the impedance of connected loads when disconnecting the battery.
+|===
+
+[cols="1,1,1,1,1,1"]
+|===
+| Nominal battery voltage 2+| stem:[U_"nom" = 12 V] 2+| stem:[U_"nom" = 24 V] | unit
+
+| Test pulse shape footnote:[As specified in <<ISO16750-2>>.] footnote:[Preferred test pulse shapes for OIML Recommendations.] | I footnote:[Preferred] | II footnote:[Preferred] | I footnote:[Preferred] | II footnote:[Preferred] |
+| stem:[U_S] | 80 | 100 | 150 | 200 | V
+| stem:[R_i] | 0.5 | 4 | 1 | 8 | Ω
+| stem:[t_r] | 10 | 10 | 10 | 10 | ms
+| stem:[t_d] | 40-400 | 40-400 | 100-350 | 100-350 | ms
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. preconditioning of the instrument,
+. test pulses to be applied,
+. test level to be applied,
+. minimum number of pulses or test time,
+. performance of the EUT during and after the test pulse.

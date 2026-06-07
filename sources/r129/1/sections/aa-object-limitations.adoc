@@ -1,0 +1,119 @@
+[[annex-a]]
+[appendix]
+== Guidelines on object limitations
+
+[obligation=informative]
+
+Multi-dimensional measuring instruments use a number of technologies to measure the dimensions of an object and thereby determine the volume of the smallest rectangular box which would fully enclose the object. All technologies have a limited ability to measure all objects correctly. These limitations have to be recognised and instruments have to be marked accordingly and/or have appropriate instructions in the user's manual for the operator to follow. The following guidelines give information on known limitations associated with the objects to be measured.
+
+Characteristics of the object which can affect the measurement are:
+
+. shape;
+
+. surface characteristics such as colour (uniform and non-uniform), contrast of the surface colour with the background colour of the measuring plane, reflectivity and absorption of sound and light, transparency, roughness and protrusions;
+
+. uniformity of density; and
+
+. orientation and position in the measuring instrument.
+
+Instruments are tested with test objects to determine whether they measure within the specified mpe. Test objects have to be of a known shape and size and constructed from a suitable material so that there is a high probability that any errors found are due to the instrument and not to the test objects. It is essential that the dimensions of the test objects are traceable to national measurement standards.
+
+However, in practice not all objects are of ideal shape or material, or have dimensions which are easily traceable to national standards. Therefore there may be errors of measurement due to the non-ideal characteristics of the object as well as errors due to the instrument.
+
+This Recommendation requires that the instrument be marked with any limitations of use (or instructions included in a user's manual) and it is therefore necessary for tests to be carried out to justify these limitations. Reliance is also placed on the operator of the instrument to ensure that the limitations are adhered to.
+
+It must be recognised, however, that it is highly improbable that all these precautions will totally eliminate the measurement of unsuitable objects. Features can be built into the instrument to guard against some of the more obvious misuses but it is also essential to train operators and establish good work practices.
+
+Clauses A.2 to A.4 list the known limitations of objects, and <<table-a1>> specifies which limitations apply to the different technologies used for measuring the object.
+
+[[table-a1]]
+.Applicable object limitations
+|===
+|Applicable clause in Annex A 2+|Principle of operation
+| |Reflection of sound footnote:[1] |Reflection of light footnote:[2] |Cutting a light beam footnote:[3] |Mechanical footnote:[4]
+
+|A.2 Shape |X |X |X |X
+|A.3.1 Uniform surface colour | |X | |
+|A.3.2 Non-uniform surface colour | |X | |
+|A.3.3 Contrast of surface colour with background colour | |X | |
+|A.3.4 Surface reflectivity and absorption of sound |X | | |
+|A.3.5 Surface reflectivity and absorption of light | |X | |
+|A.3.6 Uniformity of density |X | | |
+|A.3.7 Transparency | |X |X |
+|A.3.8 Surface roughness |X |X |X |X
+|A.3.9 Protrusions of the surface |X |X |X |X
+|A.4 Orientation and position |X |X |X |X
+|===
+
+[NOTE]
+====
+Examples:
+
+Ultrasonic unit that transmits and receives sound waves which are reflected from an object.
+
+Laser or LED unit that transmits and receives light waves which are reflected from an object.
+
+LED unit that transmits a light beam, and an opposing light sensor that detects when the beam is cut by an object.
+
+Mechanical wheel device that rolls a wheel along the surface of the object.
+====
+
+=== Shape of the object
+
+Some instruments can only measure a rectangular box, while others can measure irregular shaped objects and determine the dimensions of the smallest rectangular box which fully encloses the object. Instruments which only measure rectangular boxes shall be so marked.
+
+If an instrument can measure irregular shapes in some, but not all, of the dimensions, the instrument shall be marked that it is only to be used for measuring rectangular boxes.
+
+=== Surface characteristics
+
+==== Uniform surface colour
+
+The surface colour of an object only affects instruments which use light as the principle of measurement. Light coloured objects are more easily measured than dark coloured objects due to better reflectivity or contrast. Suitable test objects with surfaces varying from shiny white to matt black can be used to determine whether the specified limits marked on the instrument are correct.
+
+==== Non-uniform surface colour
+
+The non-uniformity of surface colour of an object means that different intensities of light are reflected from different parts of the object, for example if black tape is wrapped around a white box, or if a shiny plastic invoice sleeve is fixed to a low light reflective surface. Suitable test objects of non-uniform colour can be used to determine whether the instrument is affected by such variations.
+
+==== Contrast of the surface colour with the background colour
+
+Some instruments measure by contrasting the surface colour of the object against the background colour of the measuring plane. The contrast may be a light colour against a dark colour, or a shiny surface against a matt surface. The surface of the background plane has to be chosen to accommodate most objects to be measured. Test objects of varying contrasting colours to the colour of the measuring plane can be used to determine the limits of contrast.
+
+==== Reflectivity and absorption of sound
+
+Some instruments use sound to measure objects. The sound reflective qualities of an object relate to its density and smoothness. The more dense and smooth the object is, the better reflector it is. The following examples are arranged in order from best to worse reflective properties:
+
+. smooth, flat steel;
+
+. smooth, flat plywood;
+
+. smooth, flat, corrugated cardboard; and
+
+. polystyrene foam.
+
+Test objects made of polystyrene foam can be used to test the instrument.
+
+==== Reflectivity and absorption of light
+
+For instruments which use light waves to measure objects, a shiny, smooth, white surface reflects better than a rough, matt, black surface. Also instruments may not perform as well if there is a mixture of surfaces, for example if shiny sealing tape is wrapped around a matt surface or if there is a plastic cover over documents attached to the surface. Additionally, a mixture of light and shadow on the surface may degrade performance. Suitable test objects and light conditions can be used to determine whether the instrument is affected by these characteristics.
+
+==== Uniformity of density
+
+The object being measured may not be uniformly dense. For example, if a metal container is inside a polystyrene foam box, sound waves may be absorbed and reflected from the metal. A test object can be constructed to check this feature.
+
+==== Transparency
+
+Solid objects wrapped in a transparent material such as "bubble plastic" may not be measured correctly by instruments which use light as the measuring technology. A suitable test object can be prepared to check this feature.
+
+==== Roughness
+
+An object with a rough surface may degrade the measuring performance of an instrument using any of the technologies for the measurement. A test object with rough surfaces can be used to check this characteristic.
+
+==== Protrusions
+
+Instruments which only measure rectangular boxes are not able to measure protrusions on the surface. Instruments which measure irregular shaped objects measure protrusions, but only above a minimum size. Labels, handles or similar small protrusions on rectangular boxes need not be measured by either type of instrument.
+
+Larger protrusions which could occur on irregular shaped objects need to be measured and included in the determination of the smallest rectangular box which fully encloses the object. Therefore, the smallest specified protrusion which can be measured by the instrument needs to be tested with a suitable test object.
+
+=== Orientation and position of the object on the measuring instrument
+
+Any limitations on the orientation or placement of the object on the measuring plane need to be determined and precautions should be taken to ensure that the limitations are adhered to. For example, physical or displayed guides can be used to control the limits. In some cases two sets of guides may be needed for the smallest and largest sizes, for example if the object must always be placed in the centre of the measuring plane.

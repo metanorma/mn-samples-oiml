@@ -1,0 +1,19 @@
+== General
+
+=== Application
+
+A certification body in an OIML Member State may apply to be an OIML Issuing Authority. Any application to be an OIML Issuing Authority shall be accompanied by a corresponding application to include one or more Test Laboratories, as detailed in <<OIML_CS_PD_04>>. An existing OIML Issuing Authority may also apply to add a Test Laboratory using the procedures detailed in <<OIML_CS_PD_04>>.
+
+=== Role of the Management Committee and the Review Committee
+
+The Management Committee is responsible for the approval or rejection of applications from OIML Issuing Authorities and their associated Test Laboratories (see <<OIML_CS_PD_04>>), including extensions to scope, under Scheme A and Scheme B. The Review Committee provides advice, in the form of a recommendation, to the Management Committee regarding the approval or rejection of applications from OIML Issuing Authority, including those for extensions to scope.
+
+=== Requirements for OIML Issuing Authorities to demonstrate competence
+
+==== {blank}
+
+OIML Issuing Authorities shall demonstrate their competence through compliance with ISO/IEC 17065 <<ISO_IEC_17065>>.
+
+==== {blank}
+
+OIML publication D 32 <<OIML_D_32>> provides guidance and interpretations regarding the application of ISO/IEC 17065 <<ISO_IEC_17065>>.

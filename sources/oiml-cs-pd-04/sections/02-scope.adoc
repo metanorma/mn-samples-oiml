@@ -1,0 +1,15 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains the requirements and the associated procedures for including a Test Laboratory in the OIML-CS, including the processes relating to the assessment of a Test Laboratory, the Review Committee review and Management Committee approval. This publication should be used in conjunction with the associated procedures for OIML Issuing Authorities as detailed in <<OIML_CS_PD_03>>.
+
+These procedures apply to the following Test Laboratories:
+
+. An internal Test Laboratory of an OIML Issuing Authority;
+
+. A third-party Test Laboratory; and
+
+. A Manufacturer Test Laboratory.
+
+These procedures relate to the framework for the OIML-CS as given in OIML B 18 <<OIML_B_18>>, the Operational Rules as given in <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and the Procedures as given in <<OIML_CS_PD_01>>, <<OIML_CS_PD_02>>, <<OIML_CS_PD_03>>, <<OIML_CS_PD_05>>, <<OIML_CS_PD_06>>, <<OIML_CS_PD_07>>, <<OIML_CS_PD_08>> and <<OIML_CS_PD_09>>.

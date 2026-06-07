@@ -1,0 +1,32 @@
+[bibliography]
+== References
+
+* [[[OIML_B_18,OIML B 18:2025]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2025]
+
+* [[[OIML_CS_PD_03,OIML-CS PD-03]]], span:organization[OIML], span:title[_Application and approval of OIML Issuing Authorities_], span:publisher[OIML]
+
+* [[[OIML_CS_OD_01,OIML-CS OD-01]]], span:organization[OIML], span:title[_Management Committee_], span:publisher[OIML]
+
+* [[[OIML_CS_OD_02,OIML-CS OD-02]]], span:organization[OIML], span:title[_Test Laboratories Forum_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_01,OIML-CS PD-01]]], span:organization[OIML], span:title[_Appeals, Resolution of Complaints and Disputes_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_02,OIML-CS PD-02]]], span:organization[OIML], span:title[_Procedures to approve Legal Metrology experts and QMS experts_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_05,OIML-CS PD-05]]], span:organization[OIML], span:title[_Processing an application for an OIML Type Evaluation Report and OIML Certificate_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_06,OIML-CS PD-06]]], span:organization[OIML], span:title[_Use of OIML Type Evaluation Reports and OIML Certificates_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_07,OIML-CS PD-07]]], span:organization[OIML], span:title[_Transition Arrangements under the OIML-CS_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_08,OIML-CS PD-08]]], span:organization[OIML], span:title[_Signing the OIML-CS Declaration_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_09,OIML-CS PD-09]]], span:organization[OIML], span:title[_Admission of Utilizers and Associates_], span:publisher[OIML]
+
+* [[[ISO_IEC_17025,ISO/IEC 17025:2017]]] _General requirements for competence of testing and calibration laboratories_
+
+* [[[OIML_D_30,OIML D 30:2020]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17025 to assessment of Testing Laboratories involved in legal metrology testing_], span:publisher[OIML], span:date.issued[2020]
+
+* [[[OIML_ILAC_AP,Joint OIML-ILAC]]] _Joint ILAC-OIML Assessment Procedure in the field of legal metrology (February 2018)_
+
+* [[[OIML_B_6_1,OIML B 6-1:2023]]], span:organization[OIML], span:title[_Directives for OIML technical work. Part 1: Structures and procedures for the development of OIML publications_], span:publisher[OIML], span:date.issued[2023]

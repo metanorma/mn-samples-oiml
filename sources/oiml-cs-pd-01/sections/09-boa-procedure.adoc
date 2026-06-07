@@ -1,0 +1,41 @@
+== BoA Procedure
+
+=== {blank}
+
+In order to consider a case, the BoA shall normally meet in-person. Alternatively, the case can be considered in an online meeting or via correspondence if all parties agree.
+
+=== {blank}
+
+When the BoA meets to consider a case, either in-person, online or via correspondence, all relevant information shall be made available. The information shall be circulated at least one month before a meeting by the Executive Secretary to the BoA Chairperson and the four members of the BoA. Copies of all of the information shall be sent to the parties.
+
+=== {blank}
+
+It is the duty of the Executive Secretary to assist the members and the parties involved. When the BoA decision is taken by correspondence, notes or minutes relevant to the decision shall be written.
+
+=== {blank}
+
+The BoA shall deal with the case confidentially.
+
+=== {blank}
+
+The parties involved each have the right to use an expert to advise on matters relevant to the case. This is applicable both at a meeting of the BoA to adjudicate the case or where the case is adjudicated by correspondence.
+
+=== {blank}
+
+During the adjudication of the case, only the BoA Chairperson, the four members of the BoA and the Executive Secretary shall be present.
+
+=== {blank}
+
+Decisions of the BoA shall be taken by a simple majority of the members. If the votes are divided equally, the BoA Chairperson shall decide upon the action to be taken.
+
+=== {blank}
+
+The BoA shall give its decision in writing, within one month after the case has been considered, to the parties, and, if action with regard to rules and operating procedures is needed, to the Management Committee Chairperson.
+
+=== {blank}
+
+Where the appeal relates to a Management Committee decision, the BoA shall give its decision in writing, within one month after the case has been considered, to the party that raised the appeal and the Management Committee Chairperson. If the BoA upholds the appeal against a Management Committee decision, the BoA decision is binding upon the Management Committee and cannot be subsequently appealed.
+
+=== {blank}
+
+The decisions of the BoA shall be presented to the Management Committee at its next meeting in such a way as not to reveal the identity of the parties, when that is requested by any party to the case. When an OIML Issuing Authority, Utilizer or Associate has not followed a decision from the BoA, the Management Committee shall decide on the appropriate steps to be taken.

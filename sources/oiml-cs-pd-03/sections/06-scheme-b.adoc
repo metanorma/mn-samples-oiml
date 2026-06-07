@@ -1,0 +1,35 @@
+== Application to be an OIML Issuing Authority under Scheme B
+
+=== Application and accompanying information
+
+==== {blank}
+
+An application to be an OIML Issuing Authority in the OIML-CS under Scheme B shall be made using the OIML Issuing Authority Application Form (hereafter referred to as the "Application Form") which can be found on the OIML-CS pages of the OIML website. The application form must be endorsed (signed) by the relevant CIML Member and shall be supported by a corresponding application for one, or more, Test Laboratories (see <<OIML_CS_PD_04>>).
+
+==== {blank}
+
+The Application Form shall be accompanied by the following information:
+
+. information about the assessment of competency (on the basis of a self-declaration);
+
+. designation and contact details of the OIML Issuing Authority applicant;
+
+. a list of all Test Laboratories indicating, for each one, which tests and examinations of the relevant OIML Recommendation included in the scope, if applicable, it performs;
+
+. evidence to support the self-declaration, e.g. internal assessment reports; and
+
+. a copy of the most recent OIML type evaluation report issued for each of the considered categories in the event that the OIML Issuing Authority applicant is already an Issuing Authority under the OIML Basic System or an Issuing Participant under the OIML MAA Certificate System, or a template showing the proposed format of the OIML type evaluation format where the OIML Issuing Authority applicant was not previously an Issuing Authority under the OIML Basic System or an Issuing Participant under the OIML MAA Certificate System.
+
+==== {blank}
+
+The Application Form and accompanying information shall be sent by a representative of the OIML Issuing Authority to the Executive Secretary.
+
+=== Approval process
+
+==== {blank}
+
+Once the Executive Secretary has reviewed the Application Form and accompanying information, including the relevant self-declaration, and is satisfied that all of the information is present, the Executive Secretary will complete the Executive Secretary Review section of the Application Form. The Executive Secretary may request further information to be supplied by the OIML Issuing Authority applicant.
+
+==== {blank}
+
+The procedure in 5.3.2 shall be followed, with the exception of 5.3.2.5.

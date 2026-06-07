@@ -1,0 +1,71 @@
+== Composition and appointment of members of the Management Committee
+
+=== Composition
+
+The composition of the Management Committee is defined in OIML B 18, 11.1 <<OIML_B_18>>.
+
+=== Appointment of Management Committee Members and representatives
+
+==== Members from OIML Member States
+
+The International Committee of Legal Metrology (CIML) Member of an OIML Member State that has at least one OIML Issuing Authority or Utilizer, may designate up to four representatives to participate in the Management Committee. One of the representatives shall be designated by the CIML Member as the "Management Committee Member" for the purposes of voting. Preferably the representatives will be from the OIML Issuing Authorities and/or Utilizers in that country. However, it is possible to designate representatives that are not from an OIML Issuing Authority or Utilizer.
+
+==== Members from OIML Corresponding Members
+
+The Representative of an OIML Corresponding Member that has at least one Associate in their country or economy may designate up to four representatives to participate in the Management Committee. Preferably the representatives will be from the Associates in that country or economy. However, it is possible to designate representatives that are not from an Associate.
+
+==== Chairperson
+
+The Chairperson is nominated from amongst the representatives of the Management Committee from OIML Member States and shall be appointed for a term of three years by the CIML.
+
+The Chairperson is eligible for re-appointment for one further term of three years. If at the end of a second, or a subsequent, term there are no new candidates nominated for appointment to the position of Chairperson, the Management Committee may propose to the CIML that the incumbent Chairperson be appointed for a further term of three years.
+
+In the event that the Chairperson is unable to fulfil his/her duties, the Deputy Chairperson shall substitute for him/her.
+
+==== Deputy Chairperson
+
+The Deputy Chairperson is nominated from amongst the representatives of the Management Committee from OIML Member States and shall be appointed for a term of three years by the CIML.
+
+The Deputy Chairperson is eligible for re-appointment for one further term of three years. If at the end of a second, or a subsequent, term there are no new candidates nominated for appointment to the position of Deputy Chairperson, the Management Committee may propose to the CIML that the incumbent Deputy Chairperson be appointed for a further term of three years.
+
+The Deputy Chairperson may at the same time act as a representative of his/her country at a Management Committee meeting, except when he/she takes on the role of Chairperson at the meeting.
+
+==== Procedure for nominating Chairperson and Deputy
+
+During a Management Committee meeting, the candidates will give a short presentation of their candidacy. The selection is then processed, by secret ballots, as follows:
+
+. As long as there are two candidates or more:
+
+.. Management Committee Members from OIML Member States vote for one of the candidates, and the candidate who obtained the smallest number of votes is eliminated;
+
+.. in the case where two candidates share the lowest number of votes, the candidate who was most recently appointed as a Management Committee representative is eliminated;
+
+NOTE: If one of the candidates receives a number of "yes" votes greater than 50% of the number of Management Committee Members from OIML Member States then that candidate is selected for nomination.
+
+. If there is only one candidate or when only one candidate remains, Management Committee Members from OIML Member States vote "yes" or "abstention" and the candidate is selected for nomination if he/she obtains a number of "yes" votes greater or equal to 50 % of the number of Management Committee Members from OIML Member States.
+
+. In the case where the remaining candidate has not obtained the required 50 % majority:
+
+.. for the selection of the Chairperson, the Deputy Chairperson becomes Acting Chairperson until the next Management Committee meeting, at which time a new selection is organised;
+
+.. for the selection of a Deputy Chairperson, the position shall remain vacant until the next Management Committee meeting, at which time a new selection is organised.
+
+. The selected candidate (nominee) is then proposed to the CIML for appointment. CIML Members vote "yes" or "abstention" and the nominee is appointed if he/she obtains a number of "yes" votes greater or equal to 50 % of the number of OIML Member States. The conditions specified in 4.2.5 c) apply where the nominee does not receive the required 50% majority.
+
+. Where the positions of Chairperson and Deputy Chairperson are both vacant, should both candidates (nominees) fail to receive the required 50% majority the CIML First Vice-President shall assume the role of Chairperson (ex officio) until such time as a candidate (nominee) achieves the required 50% majority.
+
+==== Executive Secretary
+
+As a BIML staff member the Executive Secretary shall act independently of any OIML Issuing Authority, Utilizer or Associate and shall not act as a representative of an OIML Member State or an OIML Corresponding Member. The Executive Secretary shall be present at all Management Committee meetings.
+
+==== Secretaries of OIML TCs/SCs
+
+The Secretaries of the OIML TCs/SCs responsible for the OIML Recommendations that are included in the OIML-CS (see OIML B 18, 4.2 <<OIML_B_18>>) may attend Management Committee meetings as observers and participate in other Management Committee activities. Secretariats may designate representatives to participate on behalf of their TC/SC.
+
+==== Representatives from Organisations in Liaison
+
+Representatives from Organisations in Liaison may, with the agreement of the Chairperson, attend Management Committee meetings as observers and participate in other Management Committee activities.
+
+==== Representatives from countries that have expressed a clear intention to participate in the OIML-CS
+
+OIML Member States or Corresponding Members that have expressed a clear intention to participate in the OIML-CS as an OIML Issuing Authority, Utilizer or Associate, as appropriate, but are not yet in a position to be able to participate, e.g. capability is being developed or legislation is being developed, may, with the agreement of the Chairperson, designate representatives to participate in the Management Committee and to attend Management Committee meetings as observers. The status of these representatives shall be reviewed annually.

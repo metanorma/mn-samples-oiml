@@ -1,0 +1,41 @@
+[[annex-b]]
+[appendix]
+== Comparison table
+
+[obligation=informative]
+
+[[table-b1]]
+.Comparison between OIML R 129-2:2020 and OIML R 129:2000
+[cols="5*",options="header"]
+|===
+2+|OIML R 129-2:2020 2+|OIML R 129:2000 |Remarks
+|Reference |Description |Reference |Description |Remarks
+
+|1.1.2 |Software documentation | | |New requirements for software documentation to be submitted for type approval.
+
+|1.4.2 |Test objects |11.1.4.2 |Test objects |The dimensions of the test objects known to an expanded uncertainty - Changed to 1/3 mpe. An acceptable tolerance for the test objects for the product of stem:[N \times d] as stem:[\pm 1/3] d was specified. Requirements for test objects used on instruments with extended indication device.
+
+|1.4.11 |Software evaluation | | |New requirements for software evaluation and evaluation methods.
+
+|2.1.1 |Software verification | | |New additional verification requirements for software controlled devices.
+
+|3 |Subsequent verification |11.3 |Subsequent verification |Additional requirements for software controlled devices added.
+
+|Annex A |Performance tests |Annex A |Performance tests |Tests amended to align with OIML D 11:2013 <<OIML_D_11_2013>>.
+
+|A.1.1 |Instrument warm up time | | |Test added.
+
+|A.1.2 |Repeatability | | |Test added.
+
+|A.1.3 |Tests for influence factors |A.1.1 |Tests for influence factors |Number of tests at each dimension reduced to one.
+
+|A.1.4 |Tests for disturbances |A.1.2 |Tests for disturbances |Damp heat cyclic test to be carried based on the instrument's intended use and location.
+
+| | |A.1.5 |Tests for humidity effects |Deleted and the requirements split between static temperatures and damp heat condensing tests.
+
+|A.3.6 |Damp heat cyclic | | |Damp heat cyclic test to be carried out based on the instrument's intended use location.
+
+|A.3.4 |Electrical surges | | |Test added. Testing for the impact of electrical surges.
+
+|A.4.2 |Acoustics tests |A.4.2 |Acoustics tests |Test amended from the previous version.
+|===

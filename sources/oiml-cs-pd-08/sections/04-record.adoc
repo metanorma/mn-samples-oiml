@@ -1,0 +1,21 @@
+== Record of participation in the OIML-CS
+
+=== {blank}
+
+Each OIML Issuing Authority, Utilizer and Associate in the OIML-CS shall sign a Declaration drawn up according to the format defined in the relevant "Declaration" template which can be found on the OIML-CS website.
+
+=== {blank}
+
+The Executive Secretary is responsible for recording the Declarations and arranging for the relevant information regarding the participants to be uploaded to the OIML-CS website and notifying participants when completed.
+
+=== {blank}
+
+The relevant information of each participant, as recorded in its Declaration, shall specify
+
+. the scope of each OIML Issuing Authority detailing the category of measuring instrument(s) and the OIML certificate(s) and OIML type evaluation report(s) issued under Scheme A and/or Scheme B, and
+
+. the scope of each Utilizer and Associate detailing the acceptance and utilization of OIML certificates and/or OIML type evaluation reports issued under Scheme A and/or Scheme B and any additional national requirements which deviate from those in the relevant OIML Recommendation(s).
+
+NOTE: An OIML Member State having an OIML Issuing Authority under Scheme A shall designate at least one Utilizer for those categories of instruments. The scope of the Utilizer(s) will be detailed in the Declaration as per b) above.
+
+NOTE: The requirement to designate at least one Utilizer shall not apply when the OIML Member State does not regulate that particular category of measuring instrument in their country. A written explanation shall be provided to the Executive Secretary in this instance. This exception is not intended to unnecessarily limit participation and testing capability within the OIML-CS due to the regulatory settings of an economy.

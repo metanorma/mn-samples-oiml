@@ -1,0 +1,13 @@
+== Change of Scope
+
+=== {blank}
+
+Experts may apply to request a change of scope, e.g. Legal Metrology Experts may wish to add or remove a measuring instrument category (and associated Recommendation) and Management System Experts may wish to add or remove assessment of OIML Issuing Authorities (ISO/IEC 17065 <<ISO_IEC_17065>> or ISO/IEC 17020 <<ISO_IEC_17020>>) or Test Laboratories (ISO/IEC 17025 <<ISO_IEC_17025>>). Experts may also request to be removed from the lists.
+
+=== {blank}
+
+Where a Legal Metrology Expert wishes to extend their scope to add a measuring instrument category (and associated Recommendation) or a Management System Expert wishes to add the assessment of OIML Issuing Authorities or Test Laboratories, an application and the relevant supporting information shall be provided to the Executive Secretary. The application, and the information supporting the extension of scope, will be processed according to the procedures in 8.1 and 8.2 above.
+
+=== {blank}
+
+Reductions in scope, or a request to be removed from the lists, do not need to undergo formal review by the Review Committee. In these cases, the Executive Secretary will notify the Management Committee and the published lists will be updated accordingly.

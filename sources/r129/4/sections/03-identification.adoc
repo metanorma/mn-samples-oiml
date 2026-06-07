@@ -1,0 +1,59 @@
+=== Identification of the instrument
+
+Application no.: ___
+
+Type designation: ___
+
+Identification no.: ___
+
+Software version: ___
+
+Report date: ___
+
+Documentation from the manufacturer:
+
+(Record as necessary to identify the equipment under evaluation)
+
+|===
+|System or module name |Drawing number or software reference |Issue level |Document identification
+
+| | | |
+| | | |
+| | | |
+|===
+
+[.mt-indent]
+*** Identification of the instrument (continued)
+
+Application no.: ___
+
+Type designation: ___
+
+Identification no.: ___
+
+Manufacturer: ___
+
+Report date: ___
+
+Simulator function (summary) (if applicable):
+
+(Simulator description and drawings, block diagram, etc. should be attached to the report if available)
+
+[.mt-indent]
+*** Identification of the instrument (continued)
+
+Application no.: ___
+
+Type designation: ___
+
+Identification no.: ___
+
+Manufacturer: ___
+
+Report date: ___
+
+==== Physical description of the instrument
+
+Describe, using point form, the physical construction of the MDMI (materials, configuration and location of components, interfaces and communications ports). Attach photographs, diagrams or drawings if available:
+
+Describe, using point form, the measurement technology used (include details such as physical contact method, laser class, power and wavelength, ultrasonic frequency, or camera spectrum):

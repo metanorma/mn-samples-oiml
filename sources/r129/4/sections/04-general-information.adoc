@@ -1,0 +1,113 @@
+=== General information concerning the type
+
+Application no.: ___
+
+Manufacturer: ___
+
+Type designation: ___
+
+Applicant: ___
+
+Instrument category: ___
+
+.Parameter limits
+|===
+| |Minimum |Maximum
+
+|Temperature limits (stem:[°C]) | |
+|Speed limitations (m/s) | |
+|Voltage (V) | |
+|Minimum spacing | |/
+|===
+
+.Limitation
+|===
+| |Check if applicable
+
+|Object
+|Cuboidal |
+|Irregular |
+|Singulated |
+|Non-singulated, non-touching |
+|Touching |
+
+|Measurement dynamics
+|Static measurement only |
+|Fixed speed |
+|Variable speed |
+|Unidirectional |
+|Bidirectional |
+
+|Installation
+|Permanent |
+|Mobile |
+
+|Power supply
+|AC |
+|AC-DC converter |
+|Battery |
+|DC |
+|===
+
+Evaluation period: ___
+
+Date of report: ___
+
+Observer: ___
+
+[.mt-indent]
+*** General information concerning the type (continued)
+
+Application no.: ___
+
+Manufacturer: ___
+
+Type designation: ___
+
+Applicant: ___
+
+Instrument category: ___
+
+==== Scale interval and limits of indication
+
+|===
+|Axis |Unit of measurement |Scale interval (stem:[d]) |Minimum dimension |Maximum dimension
+
+|X | | | |
+| | | | |
+|Y | | | |
+| | | | |
+|Z | | | |
+| | | | |
+|===
+
+Describe, using point form, each axis and its relation to the physical object being measured and/or the MDMI itself:
+
+Use this space to describe, using point form, any other use or installation limitations not detailed in the above on the previous page (such as special applications other than postage, freight or storage, restrictions on object material, texture, reflectivity or colour, object positioning):
+
+Use this space to indicate additional remarks and/or information: connecting equipment, interfaces, choice of the manufacturer regarding protection against disturbances, etc.:
+
+[.mt-indent]
+*** General information concerning the type (continued)
+
+Application no.: ___
+
+Manufacturer: ___
+
+Type designation: ___
+
+Applicant: ___
+
+Instrument category: ___
+
+==== Indications and controls
+
+Describe, using point form, all indications and controls of the instrument (such as wired or wireless communication with the instrument, zero method, ready indication, computed quantities, error codes). Describe each measurement (L, W, and H) and its relation to the physical object being measured and/or the MDMI itself:
+
+==== Sealing
+
+Describe, using point form, the physical and electronic seals (e.g. audit trails) used to protect the metrological characteristics of the instrument, and how to access them. Also describe any remote access abilities available and how these are sealed:
+
+==== Software
+
+Describe, using point form, the means used to protect legally relevant software in the instrument and indicate the version of the software present at the time of testing and how to verify this version number:

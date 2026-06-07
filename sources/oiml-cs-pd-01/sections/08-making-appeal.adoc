@@ -1,0 +1,23 @@
+== Making an appeal to the BoA
+
+=== {blank}
+
+Applicants for OIML type evaluation and certification, OIML Issuing Authorities, Utilizers or Associates have the right to submit an appeal to the BoA.
+
+NOTE: Organizations that have applied to become an OIML Issuing Authority, Utilizer or Associate also have the right to appeal.
+
+=== Appeals by applicants for OIML type evaluation and certification
+
+==== {blank}
+
+When an applicant for OIML type evaluation and certification wishes to appeal against a decision taken by an OIML Issuing Authority about a matter with which the applicant is concerned, the applicant shall first appeal according to the appeal procedure of the OIML Issuing Authority concerned, when that procedure is applicable.
+
+==== {blank}
+
+If the applicant is not satisfied with the outcome of the appeal and the applicant is of the opinion that the decision goes against the operating rules and procedures of the OIML-CS, or if the OIML Issuing Authority appeal procedure is not applicable, the applicant may submit an appeal in writing to the Executive Secretary within one month after having been informed of the decision, setting out all reasons for the appeal.
+
+=== Appeals by OIML Issuing Authorities, Utilizers or Associates
+
+=== {blank}
+
+When an OIML Issuing Authority, Utilizer or Associate wishes to submit an appeal against a decision of the Management Committee, it shall do so in writing to the Executive Secretary within one month after having concluded that it cannot reach an agreement, setting out its reasons in full.

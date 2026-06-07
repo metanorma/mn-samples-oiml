@@ -1,0 +1,31 @@
+= Management Committee
+:docidentifier: OIML-CS OD-01 Edition 4
+:doctype: international-document
+:title-main-en: Management Committee
+:edition: 4
+:revdate: 2024-03-11
+:copyright-year: 2024
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-composition.adoc[]
+include::sections/05-review-committee.adoc[]
+include::sections/06-working-groups.adoc[]
+include::sections/07-principles.adoc[]
+include::sections/08-ciml-interaction.adoc[]
+include::sections/09-strategy.adoc[]
+include::sections/10-promotion.adoc[]
+include::sections/11-documents.adoc[]
+include::sections/12-monitoring.adoc[]
+include::sections/13-experts.adoc[]
+include::sections/14-tlf-interaction.adoc[]
+include::sections/15-references.adoc[]

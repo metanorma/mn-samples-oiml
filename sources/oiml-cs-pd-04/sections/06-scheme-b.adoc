@@ -1,0 +1,35 @@
+== Application for a Test Laboratory under Scheme B
+
+=== Application and accompanying information
+
+==== {blank}
+
+An application to be a Test Laboratory in the OIML-CS under Scheme B shall be made using the Test Laboratory Application Form (hereafter referred to as the "Application Form") which can be found on the OIML-CS pages of the OIML website. The application form must be endorsed (signed) by a representative of an OIML Issuing Authority, and the Test Laboratory application shall be made in conjunction with a corresponding application by the OIML Issuing Authority (see <<OIML_CS_PD_03>>) to include the Test Laboratory in its scope.
+
+==== {blank}
+
+The following information shall be provided on the Application Form or in accompanying documents:
+
+. information about the assessment of competency (on the basis of a self-declaration);
+
+. designation and contact details of the Test Laboratory and whether it is an internal Test Laboratory, a third-party Test Laboratory or a Manufacturer Test Laboratory;
+
+. a definition of the capability of the Test Laboratory in terms of the tests and examinations of the relevant OIML Recommendation(s) and of additional national requirements included in its Declaration, if applicable, it performs;
+
+. information about its type testing capabilities, e.g. flow range, temperature range, etc.;
+
+. evidence to support the self-declaration, e.g. internal assessment reports on the basis of ISO/IEC 17025 <<ISO_IEC_17025>> and OIML D 30 <<OIML_D_30>> for the relevant scope.
+
+==== {blank}
+
+The Application Form and accompanying information shall be sent to the Executive Secretary either by a representative of the OIML Issuing Authority which endorsed the application, or a representative of the Test Laboratory.
+
+=== Application review and approval
+
+==== {blank}
+
+Once the Executive Secretary has reviewed the Application Form and accompanying information, including the relevant self-declaration, and is satisfied that all information is present the Executive Secretary will complete the Executive Secretary Review section of the Application Form. The Executive Secretary may request further information to be supplied by the OIML Issuing Authority and/or the Test Laboratory.
+
+==== {blank}
+
+The procedure in 5.3.2 shall be followed.

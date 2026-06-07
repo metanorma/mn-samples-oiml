@@ -1,0 +1,17 @@
+== Monitoring of Experts
+
+=== {blank}
+
+As outlined in OD-01, 13.4 <<OIML_CS_OD_01>>, the on-going competence and suitability of experts shall be reviewed at least once every four years.
+
+=== {blank}
+
+The Executive Secretary shall contact each expert that is on the lists to determine if there has been any change in status, e.g. they no longer wish to be an expert, or if they would like to request a change of scope. Experts, as part of the review process, should provide evidence/information on the activities that they have been involved in during the four-year period to support their on-going competence and suitability.
+
+=== {blank}
+
+The Executive Secretary will compile a report outlining the evidence/information on the activities that the experts have been involved and any proposed changes to the status or scope of the experts. If, as part of the formal monitoring process, a Legal Metrology Expert wishes to extend their scope to include a measuring instrument category (and associated Recommendation) or a Management System Expert wishes to add the assessment of OIML Issuing Authorities or Test Laboratories, the relevant information shall also be provided to the Executive Secretary. The report, and any information supporting extensions to scope, will be provided to the Review Committee for their review and recommendation according to 8.1 above. The recommendation(s) of the Review Committee regarding the continued competence and suitability of the experts, including any extensions to scope, will be reported to the Management Committee for their approval.
+
+=== {blank}
+
+Requests to be removed from the lists do not need to undergo formal review by the Review Committee. In these cases, the Executive Secretary will notify the Management Committee as part of the report and the lists will be updated accordingly.

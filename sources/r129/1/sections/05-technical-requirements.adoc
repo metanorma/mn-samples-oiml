@@ -1,0 +1,292 @@
+== Technical requirements
+
+=== General
+
+==== Fraudulent use
+
+Instruments shall not facilitate fraudulent use, either by accidental or by deliberate means when using the instrument in the normal manner.
+
+==== Suitability of construction
+
+Instruments shall be of adequately robust construction to maintain their metrological characteristics when properly installed and used in an environment for which they are intended. Instruments shall be constructed so that all controls, indicators, etc. are suitable for operation under normal conditions of use.
+
+==== Suitability for use
+
+Instruments shall be designed to suit the method of operation and the objects for which they are intended.
+
+==== Suitability for verification
+
+Instruments shall be constructed so that the performance requirements of this Recommendation can be applied.
+
+If in normal operation the instrument indicates the volume and not the measured dimensions, a test mode shall be provided to display or print out the measured dimensions.
+
+==== Zero or ready adjustment
+
+Instruments shall be provided with facilities to set the instrument to, and maintain it at, zero or ready condition. This shall only be possible without an object in the measuring area. Either this condition is met automatically for each measurement or the instrument is automatically inhibited from making measurements. For semi-automatic instruments, the zero or ready condition shall be indicated by a zero indication, a ready light or a similar display.
+
+==== Tare device
+
+. The tare function shall only operate subtractively.
+
+. The value of the tare scale interval shall be the same as the scale interval of the respective axis and range.
+
+. Operation of tare shall be indicated.
+
+==== Warm-up
+
+As soon as the instrument indicates, prints, stores or transmits the measurement results after the warm-up period following switch-on, the indications shall be within mpe.
+
+=== Indicators and printing devices
+
+==== General
+
+. An instrument shall have either
+
+** an indicator which displays the measurement results, or
+** a printer which prints the measurement results.
+
+. An instrument may also have a device to transmit, store and preserve measurement results so that they can durably be reconstructed from the stored data.
+
+. The indication shall be automatically displayed or printed following each step in the process or be readily available by a simple action of the operator, for example by pressing a key.
+
+. Other indications such as dimensional weight, weight conversion factors, etc. may be displayed or printed.
+
+. For semi-automatic devices, the indications must persist long enough for them to be easily read by an observer.
+
+. For automatic devices where the indications do not persist long enough to be observed, a test mode shall be provided to display or print the indications long enough for them to be easily read by an observer.
+
+. The indications shall be clearly assignable to a specific object.
+
+. When an instrument is fitted with an extended indication device, displaying the indication with a scale interval smaller than d shall be possible only
+
+** while pressing a key, or
+** for a period not exceeding 10 s after a manual command by the operator.
+
+. Printing and data transmission shall not be permitted while the extended indicating device is in operation. Instruments intended to be used in the presence of a customer shall not have any extended indicating device.
+
+. All indications shall be identified either by the full name or by abbreviations (see 5.2.9).
+
+==== Presentation of indications
+
+Printed and displayed indications shall be reliable, clear and unambiguous and printing shall be indelible. Figures forming the results shall be of a size, shape and clarity for reading to be easy. Printed numbers and symbols shall be at least 2 mm high.
+
+All digits on displays and tickets shall be oriented in the normal viewing position and shall permit reading by simple juxtaposition.
+
+==== Units of measurement
+
+All printed and displayed indications shall include the name or symbol of the unit of measurement. On tickets, the name or symbol may be printed out by the printer or pre-printed on the ticket.
+
+For each indication of a quantity only one unit of measurement for that quantity shall be used, for example cm only, not m and cm, and the unit of measurement shall be the same for each axis.
+
+==== Value of the scale interval
+
+The value of all scale intervals shall be in the form stem:[1, 2] or stem:[5 \times 10^n] where n is a positive or negative whole number or zero.
+
+The value of the scale interval shall be:
+
+. the same for each axis; or
+
+. different for one axis from the other two provided that instructions are marked on the instrument specifying any limitations of use; alternatively, a visible warning regarding incorrect usage shall be given; or
+
+[[value-of-scale-c]] . variable (for example multi-interval) on one or more axes provided that:
+
+** if all three axes are multi-interval, then stem:[d_{x1} = d_{y1} = d_{z1}], stem:[d_{x2} = d_{y2} = d_{z2}], stem:[\dots], stem:[d_{xr} = d_{yr} = d_{zr}];
+
+** if two axes are multi-interval, for example x and y, and z is fixed, then stem:[d_{x1} = d_{y1}], stem:[d_{x2} = d_{y2}], stem:[\dots], stem:[d_{xr} = d_{yr}], and instrument limitations such as object size, placement, etc. are clearly marked to define how to operate the instrument; and
+
+** if only one axis is multi-interval, for example x, and y and z are fixed, then stem:[d_y = d_z] and instrument limitations such as object size, placement, etc. are clearly marked to define how to operate the instrument.
+
+The requirements in <<value-of-scale-c>> do not apply when the instrument is equipped with a test mode that provides the associated scale interval for each measured dimension.
+
+==== Decimal numbers
+
+For printed or displayed indications, if the indication is expressed in a decimal form, there shall be at least one zero preceding the decimal mark for values less than one.
+
+For values in decimal form that are not visually displayed (e.g. stored or transmitted electronically), there shall be at least one zero preceding the decimal mark for values less than one, and any number of zeroes preceding the indication for values greater than one.
+
+The decimal mark on tickets shall be printed out with the measured value by the printer, with at least one zero preceding the decimal mark for values less than one.
+
+Only one non-significant zero may be used to the right of the variable numbers for values greater than one. All the decades to the right of the decimal point or comma must be active and the least significant digit should correspond to the scale interval.
+
+==== Limits of indication
+
+Displaying, storing, transmitting or printing the quantity value of any dimension shall either be inhibited or an error message shall be included together with the measurement indication, if the axis being measured
+
+. is shorter than the minimum dimension marked on the device, or
+
+. is longer than the maximum dimension marked on the device plus 9 d.
+
+NOTE: The national responsible body may specify the acceptable option with regards to either inhibiting or allowing measurement indication with an error message.
+
+Displaying, storing, transmitting or printing the quantity value of any dimension shall be inhibited if during the measuring process the entire object is not contained within, or does not pass through, the measuring area of the instrument.
+
+==== Multi-interval instruments
+
+For each partial measuring range, the following apply:
+
+. the value of the scale interval of every partial measuring range must be less than the value of the scale interval of the subsequent partial measuring range stem:[(d_1 < d_2 < d_3 < \dots < d_r)];
+
+. the maximum dimension of every partial measuring range must be equal to the minimum dimension of the subsequent partial measuring range (Min = Min~1~, Max = Max~r~, Max~1~ = Min~2~, etc.);
+
+. the minimum dimension of any axis must be equal to the minimum dimension of the lowest partial range of that axis;
+
+. the maximum dimension of any axis must be equal to the maximum dimension of the highest partial measuring range of that axis; and
+
+. the minimum dimension of any partial measuring range shall be no smaller than the minimum dimension specified in 4.1.1, based on the scale interval of the partial measuring range.
+
+==== Multi-instrument system
+
+A number of measuring instruments may be connected to one indicating device to form a multi-instrument system.
+
+The indication from each measuring instrument shall be clearly identified with the device on the common indicator.
+
+==== Displayed, printed and stored information
+
+===== Displayed measurement
+
+Any displayed measurement results shall include at a minimum the measured dimensions.
+
+===== Printed or stored measurement
+
+Any printed ticket or stored measurement result shall include at a minimum
+
+. measured dimensions, and
+
+. date, transaction number or other identification of the object,
+and shall include the following, if used or calculated by the instrument:
+
+. dimensional volume (Dim Vol ... L or DV ... L);
+
+. weight (Wt) if the instrument includes a weighing instrument;
+
+. dimensional weight (Dim Wt ... kg or DW ... kg);
+
+. dimensional tare (DT ... kg) or linear tare (LT ... cm);
+
+. conversion factor (F);
+
+. quantity for charging, for example dimensions, vol or DW ... kg;
+
+. price rate and price.
+
+NOTE: Icons may be used to identify indications.
+
+NOTE: The price interval and the price rate shall comply with the national regulations applicable for trade.
+
+===== Additional requirements for printed tickets
+
+A printed ticket shall also contain the following printed or pre-printed information:
+
+. that the dimensions and/or volume shown are those of the smallest rectangular box that fully encloses the object; and
+
+. that the dimensional weight is a calculated value obtained by applying a conversion factor to the object's volume or dimensions.
+
+==== Availability of indications
+
+Indications must be available to the customer as follows:
+
+. When the customer is present during the measurement process, all indications shall be available to the customer at the time of measurement.
+
+. When the customer is not present during the measurement process the information outlined in 5.2.9 need not be displayed or printed out at the time of measurement but shall be available on request, e.g. retrievable from a data storage device and shall include the identity of the instrument which produced the measurement.
+
+=== Markings
+
+==== Nameplate
+
+Instruments shall be clearly and permanently marked, either directly on the instrument or on a descriptive nameplate permanently affixed to the instrument, with the following information so that it is clearly visible at all times:
+
+. manufacturer's name or mark;
+
+. model designation;
+
+. serial number of the instrument and year of manufacture;
+
+. type evaluation mark;
+
+. maximum and minimum dimensions for each axis in the form Max=... Min=...;
+
+. if measurements are affected by means of relative movement between the object and the instrument, the maximum and minimum measuring speeds for which the instrument will measure correctly in the form stem:[V_\mathrm{max} = \dots \text{m/s}], stem:[V_\mathrm{min} = \dots \text{m/s}];
+
+. scale interval(s) for each axis and range (multi-interval) in the form stem:[d = \dots]; and
+
+. temperature limits (if other than stem:[-10\,\text{°C}] to stem:[+40\,\text{°C}]).
+
+==== Technical specifications
+
+Any specifications or limitation of use relating to the instrument or the objects being measured shall be visibly and clearly presented to the operator on the instrument. Such specifications or limitations could include, but not be limited to
+
+. special application if used for a purpose other than determining postage, freight or storage charges,
+
+. minimum spacing between successive objects,
+
+. whether the instrument can measure only rectangular boxes,
+
+. whether the box has to be located in a particular position, and
+
+. any limitation of the surface characteristics of the objects being measured.
+
+=== Verification mark and sealing
+
+==== Verification mark
+
+Provision shall be made for the application of a verification mark either on a nameplate, a stamping plug or on an adhesive label. The following requirements apply:
+
+. the mark shall be easily affixed without affecting the metrological properties of the instrument;
+
+. the mark shall be visible without moving or dismantling the instrument when in use;
+
+. the part on which the mark is located shall not be removable from the instrument without damaging the mark; and
+
+. the size of the space shall be sufficient to contain the marks applied by the verifying authority: for example an area of at least stem:[200\,\text{mm}^2].
+
+NOTE: If technical reasons restrict or limit the verification mark(s) to be fixed only in a "hidden" place (e.g. when an instrument in combination with another device is integrated in other equipment) this can be accepted if these marks are easily accessible, and if there is a legible notice provided on the instrument at a clearly visible place that provides direction to these marks or if its location is defined in the OIML certificate and OIML test report.
+
+==== Sealing
+
+Provision shall be made for sealing those devices, software and parameters that have a metrologically significant effect and that determine the measurement result. This may include devices and parameters which affect the configuration of the instrument as well as those which affect the calibration.
+
+Sealing may be by mechanical, electronic, software (audit trail) and/or cryptographic means, making an intervention evident. Mechanical means include those where access to an electronic means of changing the parameters (for example via a keyboard) is prohibited by a mechanical seal. Additional requirements for sealing and protection of software controlled devices are as described in 6.3.
+
+The requirements for applying a mark to a mechanical seal are the same as those for 5.4.1.
+
+For sealing by electronic, software or cryptographic means the following requirements apply:
+
+. access by authorised persons shall be protected by some form of physical key or a password or access code (for example a four-digit code);
+
+. any access to alter protected parameters shall be automatically recorded (for example by means of a counter which automatically increments when access is initiated);
+
+. the record shall be readily accessible by a simple action (for example by display of the counter when a button identified as being for this purpose is pressed, or during the indication check);
+
+. the record shall be readily identifiable as such and shall not be easily confused with other indications of the instrument;
+
+. a reference record in the same form as the incremental record shall be permanently marked on the instrument to indicate that the parameters have been accessed since the last verification (for example the reference record could be associated with the verification mark);
+
+. the record shall not repeat in a sequence of less than 999 alterations. It shall also persist reliably for a period of at least two years (unless it is overwritten by a further alteration); and
+
+. the record shall persist through tests for influence factors and disturbances specified in this Recommendation.
+
+=== Instrument construction
+
+==== General
+
+Multi-dimensional measuring instruments shall be constructed so that they comply with the following metrological and technical requirements.
+
+==== Interfaces for peripheral devices
+
+An instrument may be equipped with interfaces permitting the coupling of any peripheral devices or other instruments.
+
+An interface shall not allow the metrological functions of the instrument and its measurement data to be affected by the operation of the peripheral devices or connected instruments or by disturbances acting on the interface.
+
+If instructions or data can be introduced through the interface into the measuring instrument which alters the parameters that determine the measurement result, the interface shall be sealed as described in 5.4.2.
+
+=== Checking facilities
+
+==== Acting upon significant faults
+
+When a significant fault has been detected, the instrument shall either be made inoperative automatically or a visual or audible indication shall be provided automatically and shall continue until such time as the user takes action or the fault disappears. For automatic instruments the instrument shall be made inoperative automatically.
+
+==== Indication check
+
+If the failure of an indicator display element can cause a false indication, then the instrument shall have a display test facility which when turning on the power and on demand, shows all the relevant elements of the indication display in both active and non-active states, for a sufficient time to allow the operator to check them.
+
+This is not applicable for displays on which failure becomes evident, e.g. non-segmented displays, screen displays, matrix-displays, etc.

@@ -1,0 +1,44 @@
+= Multi-dimensional measuring instruments
+:docidentifier: OIML R 129-1
+:docnumber: 129
+:partnumber: 1
+:edition: 2020
+:revdate: 2020-01-01
+:copyright-year: 2020
+:language: en
+:title-main-en: Multi-dimensional measuring instruments
+:title-part-en: Metrological and technical requirements
+:title-main-fr: Instruments de mesure multidimensionnels
+:title-part-fr: Exigences métrologiques et techniques
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 7
+:technical-committee: Dimensional measuring instruments
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-terminology.adoc[]
+
+include::sections/03-units.adoc[]
+
+include::sections/04-metrological-requirements.adoc[]
+
+include::sections/05-technical-requirements.adoc[]
+
+include::sections/06-software-requirements.adoc[]
+
+include::sections/aa-object-limitations.adoc[]
+
+include::sections/ab-software-requirements.adoc[]
+
+include::sections/ac-comparison-table.adoc[]
+
+include::sections/ad-bibliography.adoc[]

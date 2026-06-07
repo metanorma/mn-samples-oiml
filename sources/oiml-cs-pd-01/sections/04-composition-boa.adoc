@@ -1,0 +1,39 @@
+== Composition and appointment of members of the BoA
+
+=== Composition
+
+The composition of the BoA is defined in OIML B 18, 13.1 <<OIML_B_18>>.
+
+=== Appointment of BoA Chairperson and BoA members
+
+==== {blank}
+
+The CIML shall seek nominations for candidates for the roles of BoA Chairperson and members of the BoA. Management Committee Members and representatives cannot be appointed as the BoA Chairperson or as a BoA member. CIML Members shall be given at least one month to review all nominations ahead of a vote.
+
+==== {blank}
+
+For the BoA Chairperson the appointment process shall be as follows:
+
+. In the case that there is only one candidate, that candidate is appointed.
+
+. Where there is more than one candidate, CIML Members vote for one of the candidates and the candidate who obtained the highest number of votes is appointed.
+
+. If there is no candidate a member of the Presidential Council shall be appointed as BoA Chairperson (ex officio) until a new appointment process is conducted.
+
+==== {blank}
+
+For the members of the BoA the appointment process shall be as follows:
+
+. In the case where there are four candidates, those candidates are appointed.
+
+. Where there are more than four candidates, CIML Members vote for four of the candidates and the four candidates who obtained the highest number of votes are appointed.
+
+. In case there are fewer than four candidates, those candidates are appointed and a member of the Presidential Council or, at the discretion of the CIML President, a CIML Member shall be appointed to each vacant position until a new appointment process is conducted.
+
+==== {blank}
+
+The terms of office of the BoA Chairperson and the four members of the BoA shall be three years and they shall be immediately eligible for re-appointment for a further period of three years.
+
+==== {blank}
+
+Neither the BoA Chairperson nor the other members shall serve in a case in which an OIML Issuing Authority or Test Laboratory of their country is involved. When necessary in such an event, a member of the Presidential Council or, at the discretion of the CIML President, a CIML Member from a country not involved in the case shall be appointed. The Executive Secretary shall act as the Secretary of the BoA and shall have no right to vote.

@@ -1,0 +1,9 @@
+== Scope
+
+Metrological supervision is defined (VIML 2.3 <<VIML>>) as control exercised in respect of the manufacture, import, installation, use, maintenance and repair of measuring instruments and/or in respect of their use, performed in order to check that they are used correctly as regards the observance of metrology laws and regulations. It includes checking the correctness of the quantities indicated on and contained in prepackages.
+
+This Document reflects the ongoing efforts to eliminate technical barriers to trade and ensure equity in the marketplace. It is recommended that OIML Members refer to <<D1>> when drawing up their metrological legislation.
+
+Metrological supervision in a given country must conform to the pertinent laws, regulations, decrees and decisions of competent national authorities and official bodies in the field of legal metrology. However, legislation may differ between individual countries. Therefore, the structure of metrological supervision in any country must take into account the economic system of that country, the principles of its legal system, its territorial organization, and also its other features and specific conditions.
+
+The purpose of this International Document is to provide elements to be considered for developing a model of metrological supervision in Member States which can be used as a basis for the harmonization of metrological supervision at an international level.

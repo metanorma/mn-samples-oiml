@@ -1,0 +1,5 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains the Operational Rules of the OIML-CS Test Laboratories Forum (TLF) which specify how the TLF shall perform its duties and responsibilities. These Operational Rules relate to the framework for the OIML-CS, as given in OIML B 18 <<OIML_B_18>>.

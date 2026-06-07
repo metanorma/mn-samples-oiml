@@ -1,0 +1,49 @@
+== Role of the Management Committee in the development, maintenance, approval and publishing of OIML-CS documents
+
+=== General
+
+During the conduct of its activities, the Management Committee may determine that new or revised Operational Documents, Procedural Documents, guidance, forms or templates may be required to ensure that the OIML-CS continues to develop and to operate effectively and efficiently. The need to develop new or to revise existing documents may be identified through the monitoring of the effectiveness of the OIML-CS, periodic reviews and/or through feedback obtained from users of the OIML-CS (see 12).
+
+The Maintenance Group will undertake the work to develop or revise a document, guidance, form or template.
+
+Procedures, guidance, forms and templates associated with the OIML-CS are published, and are publicly available, on the OIML-CS website.
+
+=== Documents requiring CIML approval
+
+==== {blank}
+
+As an OIML Basic Publication, any revision to OIML B 18 <<OIML_B_18>> will require CIML approval.
+
+==== {blank}
+
+When the Management Committee determines that a revision of OIML B 18 <<OIML_B_18>> is required, the Maintenance Group will develop a draft revision. When the draft revision has been created it will be submitted by the Executive Secretary to the Management Committee Members for voting. The voting rules defined in OIML B 18, 11.4 <<OIML_B_18>> will apply to Management Committee approval of the draft revision.
+
+==== {blank}
+
+If the Management Committee approves the draft revision the document will then be forwarded by the Executive Secretary to the BIML so that it can be submitted to the CIML for approval.
+
+=== Documents requiring Management Committee approval
+
+==== {blank}
+
+The Management Committee is responsible for developing, maintaining and approving the Operational Documents, Procedural Documents, guidance, templates and forms that support the successful operation of the OIML-CS. The CIML will be informed of any new or revised document, guidance, form or template as part of the annual reporting process (see 8.2).
+
+==== {blank}
+
+The Maintenance Group will develop the draft of a new or revised Operational Document or Procedural Document, guidance, template or form. When a draft of the new or revised Operational Document or Procedural Document, guidance, template or form has been developed it will be submitted by the Executive Secretary to the Management Committee Members for voting. The voting rules defined in OIML B 18, 11.4 <<OIML_B_18>> will apply to Management Committee approval of the new or revised document.
+
+==== {blank}
+
+If the Management Committee approves the draft document then the Executive Secretary will arrange for the new or revised document to be published on the OIML-CS pages of the OIML website.
+
+==== {blank}
+
+For any proposed change to an Operational Document or Procedural Document that the Management Committee considers could be contentious, or where it would present a significant change in policy, the Management Committee shall consult with the CIML prior to making the change.
+
+=== Other publications and information
+
+The Management Committee is responsible for developing literature, including guidance and training materials, and other publicity materials which support the development and promotion of the OIML-CS to existing and potential new users and other stakeholders. The OIML Bulletin may be used to publicise developments within the OIML-CS including information regarding, but not limited to, new OIML Issuing Authorities or Test Laboratories, new instrument categories being included, matters relating to relevant International Standards and changes to the Rules.
+
+=== Website
+
+The Management Committee is responsible for developing proposals for the content and functionality of the OIML-CS pages on the OIML website in relation to the OIML-CS. The decisions taken by the Management Committee regarding the OIML-CS pages on the OIML website shall be reported by the Executive Secretary to the BIML for implementation.

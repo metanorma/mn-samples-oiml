@@ -1,0 +1,17 @@
+.Foreword
+
+This publication has been prepared by the Maintenance Group of the OIML Certification System (OIML-CS) Management Committee.
+
+The Management Committee approved this Edition 3 of OIML-CS PD-08 at its Ninth meeting on 06 March 2024 and it was published on 11 March 2024. This edition takes effect immediately upon publication.
+
+This publication is directly related to the Framework for the OIML Certification System (OIML-CS) (OIML B 18 <<OIML_B_18>>) which contains the framework for the operation of the OIML-CS.
+
+.Edition history
+|===
+|Edition |Document |Report on Voting/Acceptance
+
+|PD-08 Edition 1 |PD-08 Edition 1 |Published: July 2017
+|PD-08 Edition 2 |PD-08 Edition 2 |Published: 20 December 2018
+|PD-08 Edition 3 (Draft) |OIML-CS_SC3_P1_SG3_N089 |Draft for MG comment-20231213
+|PD-08 Edition 3 (Draft) |OIML-CS_SC1_P1_N415 |Draft for MC vote-20240228
+|===

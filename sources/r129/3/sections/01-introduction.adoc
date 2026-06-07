@@ -1,0 +1,164 @@
+== Introduction
+
+The "Test report format", the subject of OIML R 129-3, aims at presenting, in a standardised format, the results of the various tests and examinations to which a type of a multi-dimensional measuring instrument (MDMI) shall be submitted with a view to its approval.
+
+The "Test report format" is a record of the results of the tests carried out on the instrument. The forms have been produced based on the tests detailed in the performance test procedures (OIML R 129-2).
+
+The "Information concerning the test equipment used for type evaluation" shall cover all test equipment which has been used in determining the test results given in a report. The information may be a short list containing essential data (name, type, reference number for purpose of traceability). For example:
+
+* Verification standards (accuracy or accuracy class, and no.);
+* Simulator for testing of modules (name, type, traceability and no.);
+* Climatic test and static temperature chamber (name, type and no.);
+* Electrical tests, bursts (name of the instrument, type and no.);
+* Description of the procedure of field calibration for the electromagnetic susceptibility test.
+
+All metrology services or laboratories evaluating types of multi-dimensional measuring instrument according to OIML R 129-1 and -2, or to national or regional regulations based on OIML R 129-1 and -2, are strongly advised to use this "Test report format", directly or after translation into a language other than English or French. Its direct use in English or in French, or in both languages, is even more strongly recommended whenever test results may be transmitted by the country performing these tests to the approving authorities of another country, under bi- or multi-lateral cooperation agreements. In the framework of the OIML Certification System (OIML-CS), use of the "Test report format" is mandatory.
+
+=== Explanatory notes to the test report
+
+Meaning of symbols used in this report:
+
+stem:[L]:: Indicated length
+stem:[W]:: Indicated width
+stem:[H]:: Indicated height
+stem:[L_\mathrm{T}]:: Length of the test object
+stem:[DL]:: Error, stem:[L - L_\mathrm{T}]
+stem:[W_\mathrm{T}]:: Width of the test object
+stem:[DW]:: Error, stem:[W - W_\mathrm{T}]
+stem:[H_\mathrm{T}]:: Height of the test object
+stem:[DH]:: Error, stem:[H - H_\mathrm{T}]
+mpe:: Maximum permissible error
+stem:[V]:: Volume indicated on the instrument
+stem:[V_\mathrm{calc}]:: stem:[L \times W \times H]
+stem:[F]:: Conversion factor
+DW:: Dimensional weight indicated on the instrument
+DWcalc:: stem:[V \times F]
+SF:: Significant fault
+
+The name(s) or symbol(s) of the unit(s) used to express test results shall be specified on each form.
+
+The boxes under the headings of the report should always be filled in according to the following example:
+
+|===
+| |At start |At end |
+
+|Temp.: |20.5 |21.1 |stem:[°C]
+|Rel. h.: | | |%
+|Date: |2014-10-15 |2014-10-15 |yyyy-mm-dd
+|Time: |16:00:05 |16:30:05 |hh:mm:ss
+|===
+
+where Temp. = temperature
+
+Rel. h. = relative humidity
+
+"Date" in the test report refers to the date on which the test was performed.
+
+=== Identification of the instrument
+
+Application no.: ___
+
+Type designation: ___
+
+Identification no.: ___
+
+Software version: ___
+
+Report date: ___
+
+Documentation from the manufacturer:
+
+(Record as necessary to identify the equipment under test)
+
+|===
+|System or module name |Drawing number or software reference |Issue level |Document identification
+
+| | | |
+| | | |
+| | | |
+|===
+
+=== General information concerning the type
+
+Application no.: ___
+
+Manufacturer: ___
+
+Type designation: ___
+
+Applicant: ___
+
+Instrument category: ___
+
+.Parameter limits
+|===
+| |Minimum |Maximum
+
+|Temperature limits (stem:[°C]) | |
+|Speed limitations (m/s) | |
+|Voltage (V) | |
+|Minimum spacing | |/
+|===
+
+.Limitation
+|===
+| |Check if applicable
+
+|Object
+|Cuboidal |
+|Irregular |
+|Singulated |
+|Non-singulated, non-touching |
+|Touching |
+
+|Measurement dynamics
+|Static measurement only |
+|Fixed speed |
+|Variable speed |
+|Unidirectional |
+|Bidirectional |
+
+|Installation
+|Permanent |
+|Mobile |
+
+|Power supply
+|AC |
+|AC-DC converter |
+|Battery |
+|DC |
+|===
+
+Evaluation period: ___
+
+Date of report: ___
+
+Observer: ___
+
+=== Information concerning the test equipment used for type evaluation
+
+(Record as necessary to identify the test equipment)
+
+=== Configuration for test
+
+Application no.: ___
+
+Type designation: ___
+
+Report date: ___
+
+Manufacturer: ___
+
+(Describe the configuration used for testing)
+
+=== Adjustments or modifications
+
+Application no.: ___
+
+Type designation: ___
+
+Report date: ___
+
+Manufacturer: ___
+
+(Record any adjustments or modifications made during testing)

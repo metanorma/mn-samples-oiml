@@ -1,0 +1,29 @@
+=== Appraisal of test data (where applicable)
+
+Use this space to record the appraisal of test data:
+
+|===
+|Requirement |Check if yes |Remarks (provide information)
+
+|Correct method has been used | |
+|Test data from acceptable testing facility | |
+|Testing facility capable of performing the testing (accredited or peer assessed) | |
+|Test report provided in OIML format | |
+|Test performed against OIML R 129 (versions) | |
+|Results acceptable for all the tests performed | |
+|Further information/clarification needed | |
+|Further testing to be performed | |
+|===
+
+If there is more than one test report, indicate in the remarks if the answers are not the same for all test reports by referring to the test report number from the previous table.
+
+==== Corrective actions required
+
+|===
+|Issue identified |Details of corrective action required
+
+| |
+| |
+| |
+| |
+|===
