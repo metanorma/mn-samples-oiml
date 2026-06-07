@@ -41,7 +41,7 @@ and temperature.
 [[sec-2.3]]
 === {blank}
 
-"Weighing modules" as noted in OIML R 76 [1], T.2.2.7 (see R 60, Annex A, A.2.1),
+"Weighing modules" as noted in <<OIML_R_76_2006>>, T.2.2.7 (see R 60, Annex A, A.2.1),
 are not covered by this Recommendation. Weighing instruments that include load cells
 and which give an indication of mass are the subjects of separate Recommendations.
 While digital load cells may be covered under this Recommendation, a load cell that

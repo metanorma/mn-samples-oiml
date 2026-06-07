@@ -5,7 +5,7 @@
 
 [[sec-A.1]]
 [heading="terms and definitions"]
-=== Definitions from OIML D 11 [4]
+=== Definitions from <<OIML_D_11_2008>>
 
 [[sec-A.1.1]]
 ==== electronic measuring instrument (OIML D 11, 3.1)
@@ -109,7 +109,7 @@ To preserve stored data
 
 [[sec-A.2]]
 [heading="terms and definitions"]
-=== Definitions from OIML R 76 [1]
+=== Definitions from <<OIML_R_76_2006>>
 
 [[sec-A.2.1]]
 ==== weighing module (OIML R 76-1, T.2.2.7)

@@ -79,7 +79,7 @@ shall be performed every half-hour using each of CGMs recommended in <<sec-1.2>>
 [[sec-1.5.3]]
 ==== References
 
-IEC 60068-2-2 [4], IEC 60068-3-1 [18] and OIML D 11:2013 [2] 10.1.
+<<IEC_60068_2_2>>, <<IEC_60068_3_1>> and <<OIML_D_11_2013,clause="10.1">>.
 
 [[sec-1.6]]
 === Cold
@@ -104,7 +104,7 @@ every half-hour using each of the CGMs recommended in <<sec-1.2>>.
 [[sec-1.6.3]]
 ==== References
 
-IEC 60068-2-1 [3], IEC 60068-3-1 [18] and OIML D 11:2013 [2] 10.1.
+<<IEC_60068_2_1>>, <<IEC_60068_3_1>> and <<OIML_D_11_2013,clause="10.1">>.
 
 [[sec-1.7]]
 === Damp heat, steady state
@@ -129,7 +129,7 @@ every day using each of the CGMs recommended in <<sec-1.2>>.
 [[sec-1.7.3]]
 ==== References
 
-IEC 60068-2-78 [8], IEC 60068-3-4 [19] and OIML D 11:2013 [2] 10.2.
+<<IEC_60068_2_78>>, <<IEC_60068_3_4>> and <<OIML_D_11_2013,clause="10.2">>.
 
 [[sec-1.8]]
 === Ambient pressure
@@ -212,7 +212,7 @@ with the largest volume fraction for the components to be determined according t
 <<sec-1.2>> being supplied to the input. The vibration parameters shall correspond
 to those specified by the manufacturer. The testing conditions shall correspond to
 the reference conditions in clause 8 of R 144-1. Minimum requirements for vibration
-shall correspond to R 144-1, 4.5.3 (test level 1 of OIML D 11:2013 [2] 11.1).
+shall correspond to R 144-1, 4.5.3 (test level 1 of <<OIML_D_11_2013,clause="11.1">>).
 
 [[sec-1.11.2]]
 ==== Mechanical shock
@@ -244,8 +244,8 @@ according to <<sec-1.2>>.
 [[sec-1.11.3]]
 ==== References
 
-IEC 60068-2-47 [6], IEC 60068-2-64 [7], IEC 60068-3-8 [9], IEC 60068-2-31[5] and
-OIML D 11:2013 [2] 11.2.
+<<IEC_60068_2_47>>, <<IEC_60068_2_64>>, <<IEC_60068_3_8>>, <<IEC_60068_2_31>> and
+<<OIML_D_11_2013,clause="11.2">>.
 
 [[sec-1.12]]
 === AC mains voltage dips, short interruptions and voltage variations (R 144-1, 8 n)
@@ -274,7 +274,7 @@ fraction for the components to be determined according to <<sec-1.2>>.
 [[sec-1.12.3]]
 ==== References
 
-IEC 61000-4-11 [15] and OIML D 11:2013 [2] 12.3.
+<<IEC_61000_4_11>> and <<OIML_D_11_2013,clause="12.3">>.
 
 [[sec-1.13]]
 === Bursts (transients) on AC and DC mains (R 144-1, 8 o)
@@ -288,7 +288,7 @@ Electrical bursts.
 ==== Test procedure
 
 A burst generator shall be used with the performance characteristics as specified
-in the IEC 61000-4-4 [12]. The characteristics of the generator shall be verified
+in <<IEC_61000_4_4>>. The characteristics of the generator shall be verified
 before connecting the EUT.
 
 The test consists in affecting the gas analytical system with pulses of amplitude
@@ -309,7 +309,7 @@ fraction for the components to be determined according to <<sec-1.2>>.
 [[sec-1.13.3]]
 ==== References
 
-IEC 61000-4-4 [12], and OIML D 11:2013 [2] 12.3.
+<<IEC_61000_4_4>>, and <<OIML_D_11_2013,clause="12.3">>.
 
 [[sec-1.14]]
 === Bursts (transients) on signal, data and control lines (R 144-1, 8 l)
@@ -323,7 +323,7 @@ Electrical bursts.
 ==== Test procedure
 
 A burst generator shall be used with the performance characteristics as specified
-in the IEC 61000-4-4 [12]. The characteristics of the generator shall be verified
+in <<IEC_61000_4_4>>. The characteristics of the generator shall be verified
 before connecting the EUT.
 
 Before the test, the instruments shall be switched on for a time period equal to
@@ -341,7 +341,7 @@ The duration of the test shall not be less than 1 min for each amplitude and pol
 [[sec-1.14.3]]
 ==== References
 
-IEC 61000-4-4 [12] and OIML D 11:2013 [2] 12.4.
+<<IEC_61000_4_4>> and <<OIML_D_11_2013,clause="12.4">>.
 
 [[sec-1.15]]
 === Surges on signal, data and control lines (R 144-1, 8 m)
@@ -375,7 +375,7 @@ At least three positive and three negative surges shall be applied.
 [[sec-1.15.3]]
 ==== References
 
-IEC 61000-4-5 [13] and OIML D 11:2013 [2] 12.4.
+<<IEC_61000_4_5>> and <<OIML_D_11_2013,clause="12.4">>.
 
 [[sec-1.16]]
 === Electrostatic discharges (R 144-1, 8 j)
@@ -423,7 +423,7 @@ fraction for the components to be determined according to <<sec-1.2>>.
 [[sec-1.16.3]]
 ==== References
 
-IEC 61000-4-2 [10] and OIML D 11:2013 [2] 13.3.
+<<IEC_61000_4_2>> and <<OIML_D_11_2013,clause="13.3">>.
 
 [[sec-1.17]]
 === Radiated, radio frequency, electromagnetic fields (R 144-1, 8 g)
@@ -458,7 +458,7 @@ fraction for the components to be determined according to <<sec-1.2>>.
 [[sec-1.17.3]]
 ==== References
 
-IEC 61000-4-3 [11], IEC 61000-4-6 [14], and OIML D 11 [2] 13.2.
+<<IEC_61000_4_3>>, <<IEC_61000_4_6>>, and <<OIML_D_11_2013,clause="13.2">>.
 
 [[sec-1.18]]
 === Low voltage of internal battery (not connected to the mains power) (R 144-1, 8 r)
@@ -581,5 +581,5 @@ in <<sec-1.2>>.
 
 The compliance of the leak-proofing requirements detailed R 144-1, 5.1.6, for the
 gas analytical system or its separate units, is determined using the pressure-gauge
-(compression or vacuum) method according to IEC 60068-2-17 [20] as described in the
+(compression or vacuum) method according to <<IEC_60068_2_17>> as described in the
 operating manual.

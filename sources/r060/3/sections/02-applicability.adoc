@@ -2,8 +2,8 @@
 [[sec-2]]
 == Applicability of this Report Format
 
-In the framework of OIML B 18 _Framework for the OIML Certification System (OIML-CS)_
-[6] applicable to load cells in conformity with OIML R 60-1 and R 60-2, use of this
+In the framework of <<OIML_B_18_2028>>
+applicable to load cells in conformity with OIML R 60-1 and R 60-2, use of this
 Report Format is mandatory, in French and/or in English with translation into the
 national languages of the countries issuing such certificates, if appropriate.
 
@@ -263,7 +263,7 @@ stem:[x =] actual time/specified time
 ===== {blank}
 
 Whereas stem:[C_{"DR"}] expresses the minimum dead load output return in terms of
-stem:[v], the value of stem:[DR] as used in OIML R 76 [1] is expressed in units of
+stem:[v], the value of stem:[DR] as used in <<OIML_R_76_2006>> is expressed in units of
 mass (stem:["unitsml(g)"], stem:["unitsml(kg)"] or stem:["unitsml(t)"]).
 
 ===== {blank}

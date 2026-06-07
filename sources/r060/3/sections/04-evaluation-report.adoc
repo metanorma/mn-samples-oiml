@@ -114,7 +114,7 @@ Additional tests performed for digital load cells:
 | Application number 2+|
 | Applicant authorised by the manufacturer (documented) | &#x2610; Yes | &#x2610; No
 | Statement that no concurrent application for OIML type evaluation has been made
-to any other OIML Issuing Authority (see Procedural Document PD-05 [29], 4.1.2 b)
+to any other OIML Issuing Authority (see <<OIML_CS>>, 4.1.2 b)
 | &#x2610; Yes | &#x2610; No
 3+| Remarks:
 
@@ -184,13 +184,13 @@ _(as provided by the manufacturer prior to the evaluation)_
 |===
 | Accessory | Remarks and specifications
 
-| Analogue data processing device (see OIML R 76 [1], T.2.2.3) |
+| Analogue data processing device (see <<OIML_R_76_2006>>, T.2.2.3) |
 | Cables                                                       |
 | Load cell mounting hardware                                  |
 | Load introduction elements                                   |
 | Main power supply                                            |
 | Battery (type, voltage)                                      |
-| Indicator (see OIML R 76 [1], T.2.2.2)                       |
+| Indicator (see <<OIML_R_76_2006>>, T.2.2.2)                       |
 | Data printer                                                 |
 | Other accessories:                                           |
 |===
@@ -232,7 +232,7 @@ This test report is issued for the following load cell:
 
 ==== Justification of the selection of the test sample(s)
 
-(refer to R 60-2, 2.3, 2.4 and Annex D):
+(refer to <<OIML_R_60_2,clause="2.3">>, <<OIML_R_60_2,clause="2.4">> and <<OIML_R_60_2,annex="D">>):
 
 [cols="4",options="header,unnumbered"]
 |===
@@ -322,7 +322,7 @@ Additional information concerning the type (connection equipment, interfaces, et
 
 ==== Additional information for the performance tests
 
-(Refer to R 60-1, 6.2.2, 6.2.3, and 6.2.4)
+(Refer to <<OIML_R_60_1,clause="6.2.2">>, <<OIML_R_60_1,clause="6.2.3">> and <<OIML_R_60_1,clause="6.2.4">>)
 
 [cols="2",options="noheader,unnumbered"]
 |===
@@ -558,7 +558,7 @@ Further remarks concerning the definition of load cell families / construction _
 | | | |
 |===
 
- 
+
 
 [[sec-4.10]]
 === Information concerning the test equipment used for the tests

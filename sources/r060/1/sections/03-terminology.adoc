@@ -360,7 +360,7 @@ error of a measuring instrument
 
 quantity defining an interval about the result of a measurement that may be expected to encompass
 a large fraction of the distribution of values that could reasonably be attributed to the measurand
-(OIML G 1-100 _Guide to the Expression of Uncertainty in Measurement_) [7]
+(<<OIML_G_1_100_2008>>)
 
 ==== fault
 

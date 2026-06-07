@@ -20,13 +20,13 @@ with the following additional information:
 |===
 
 Additional characteristics and identification, as applicable according to
-R 60-1, 3.4.2 and 5.1.5, may be included in the certificate or on additional pages
+<<OIML_R_60_1,clause="3.4.2">> and <<OIML_R_60_1,clause="5.1.5">>, may be included in the certificate or on additional pages
 if necessary, in the format below:
 
 [cols="a,a,a,a,a",options="unnumbered,header"]
 |===
 | _Model designation_ | | | |
-| (Additional characteristics, per R 60-1, 3.4.2 and 5.1.5) | | | |
+| (Additional characteristics, per <<OIML_R_60_1,clause="3.4.2">> and <<OIML_R_60_1,clause="5.1.5">>) | | | |
 | | | | |
 |===
 
@@ -63,11 +63,11 @@ footnote:note1[For load cells with digital output this refers to the number of c
 | | 2.5 | | | | stem:["unitsml(mV/V)"]
 footnote:note1[For load cells with digital output this refers to the number of counts for stem:[E_{"max"}].]
 | Maximum excitation voltage | | 30 | | | | stem:["unitsml(V)"]
-| Input impedance (for strain gauge load cells) | stem:[R_{"LC"}] | stem:[4000] | | | | stem:["unitsml(Ohm)"] 
+| Input impedance (for strain gauge load cells) | stem:[R_{"LC"}] | stem:[4000] | | | | stem:["unitsml(Ohm)"]
 | Temperature rating | | -- 10/+ 40 | | | | stem:["unitsml(degC)"]
 | Safe overload, relative | stem:[E_{"lim"} // E_{"max"}] | 150 | | | | %
 | Cable length | | 3 | | | | stem:["unitsml(m)"]
-| Additional characteristics per R 60-1, 3.4.2 and 5.1.5
+| Additional characteristics per <<OIML_R_60_1,clause="3.4.2">> and <<OIML_R_60_1,clause="5.1.5">>
 footnote:[For load cells with digital output this is not required.]
 | | - | | | |
 |===
