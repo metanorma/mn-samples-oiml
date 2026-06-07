@@ -20,7 +20,7 @@ metanorma:
       - sources/r060/a/document.adoc
       - sources/b018-e18/document.adoc
       - sources/d009-e04/document.adoc
-      - sources/d011-e13/document.adoc
+      # - sources/d011-e13/document.adoc  # TODO: fix rowspan tables causing Metanorma fatal error
       - sources/d032/document.adoc
       - sources/r129/collection.yml
       - sources/r129/1/document.adoc

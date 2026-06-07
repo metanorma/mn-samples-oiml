@@ -43,7 +43,7 @@ Information to be presented in the applicable Recommendation, where relevant
 | Test procedure in brief | The test comprises exposure to the specified low temperature under "free air" conditions during the period of time specified (the period specified is the period following the moment at which the EUT has reached temperature stability). The change in temperature shall not exceed 1 °C/min during heating up and cooling down.
 |===
 
-[cols="1,1,1,1,1,1"]
+[cols="1,1,1,1,1,1,1"]
 |===
 | Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | 2 | *3* | 4 | 5 | 6
 
