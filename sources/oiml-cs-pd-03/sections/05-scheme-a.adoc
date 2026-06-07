@@ -1,0 +1,153 @@
+== Application to be an OIML Issuing Authority under Scheme A
+
+=== Application and accompanying information
+
+==== {blank}
+
+An application to be an OIML Issuing Authority in the OIML-CS under Scheme A shall be made using the OIML Issuing Authority Application Form (hereafter referred to as the "Application Form") which can be found on the OIML-CS pages of the OIML website. The application form must be endorsed (signed) by the relevant International Committee of Legal Metrology (CIML) Member and shall be supported by a corresponding application for one, or more, Test Laboratories (see <<OIML_CS_PD_04>>).
+
+==== {blank}
+
+In applying to be an OIML Issuing Authority under Scheme A, this will commit the OIML Member State to designate at least one Utilizer footnote:[Corresponding to the definition of Utilizer in OIML B 18 <<OIML_B_18>>.] for the category(ies) of measuring instrument(s). Therefore, a corresponding application to be a Utilizer for the category(ies) of measuring instrument(s) will be required (see <<OIML_CS_PD_09>>) for each organisation that will be a Utilizer in that country.
+
+==== {blank}
+
+The application to be an OIML Issuing Authority shall be accompanied by the following information:
+
+. information about the assessment of competency (accreditation and/or peer assessment as detailed in 5.2);
+
+. designation and contact details of the OIML Issuing Authority applicant;
+
+. the scope of the OIML Issuing Authority applicant, including the category(ies) of measuring instrument and the relevant OIML Recommendation(s) and the Scheme(s);
+
+. a list of all Test Laboratories indicating, for each one, which tests and examinations of the relevant OIML Recommendation(s) it performs (the assessment of Test Laboratories is detailed in Procedural Document <<OIML_CS_PD_04>>);
+
+. where relevant, the procedures between the OIML Issuing Authority applicant and any Manufacturer Test Laboratory to manage the controlled supervision according to <<OIML_CS_PD_04>>, 7.1;
+
+. in the case of accreditation (see 5.2.2), the certificate(s) of accreditation of the OIML Issuing Authority applicant and the most recent accreditation assessment report(s) which includes the relevant scope and enough information that an assessment of the legal metrology aspects of the accreditation can be determined, if accreditation applies;
+
+. in the case of peer assessment (see 5.2.3), a copy of the peer assessment report of the OIML Issuing Authority applicant;
+
+. a copy of the most recent OIML type evaluation report issued for each of the considered categories in the event that the OIML Issuing Authority applicant is already an OIML Issuing Authority under Scheme B or they were previously an Issuing Authority or Issuing Participant under the OIML Basic or OIML MAA Certificate Systems respectively; and
+
+. the most recent internal audit of the OIML Issuing Authority applicant (whether it is accredited or not) conducted on the basis of ISO/IEC 17065 <<ISO_IEC_17065>> and OIML D 32 <<OIML_D_32>>, for the relevant scope.
+
+==== {blank}
+
+The Application Form and accompanying information shall be sent by a representative of the OIML Issuing Authority to the Executive Secretary.
+
+=== Assessment requirements for OIML Issuing Authorities under Scheme A
+
+==== General
+
+===== {blank}
+
+All OIML Issuing Authorities under Scheme A shall be assessed by accreditation and/or peer assessment for the scope of the measuring instrument category(ies). As specified in 4.3, OIML Issuing Authorities are assessed using requirements that comply with ISO/IEC 17065 <<ISO_IEC_17065>> and OIML D 32 <<OIML_D_32>>.
+
+===== {blank}
+
+In the case of accreditation and peer assessment, the assessment process must comply with the requirements detailed below. An accreditation assessment report and/or peer assessment report that will be used to support an application shall include the name(s) of the OIML expert(s), where applicable (see 5.2.2.2) that participated in the respective assessment.
+
+===== {blank}
+
+A combination of accreditation and peer assessment processes (and the associated accreditation assessment reports and peer assessment reports) may be used to support the demonstration of competency as part of an application to be an OIML Issuing Authority.
+
+==== Accreditation
+
+===== {blank}
+
+Where accreditation is chosen, the Accreditation Body that carries out the assessment of an OIML Issuing Authority under the OIML-CS shall participate in a mutual recognition arrangement among Accreditation Bodies (regional or international), for instance the IAF Multilateral Recognition Arrangement (IAF MRA) footnote:[Information on the IAF MLA can be found on the IAF website https://www.iaf.nu.]
+
+===== {blank}
+
+The assessment team shall comprise at least one Legal Metrology Expert approved by the Management Committee. It is possible to use Experts that have not yet been approved by the Management Committee on the condition that the requirements of <<OIML_CS_PD_02>>, 8.3 are followed.
+
+===== {blank}
+
+The use of an Accreditation Body expert, in place of a Legal Metrology Expert, may be permitted by the Executive Secretary in accordance with the following conditions:
+
+. The use of an Accreditation Body expert shall only be permitted for an accreditation assessment of an existing OIML Issuing Authority to support an application to extend its scope or to maintain an existing accreditation. Accreditation assessments intended to support applications for new OIML Issuing Authorities shall always include at least one Legal Metrology Expert.
+
+. The OIML Issuing Authority shall make a written request to the Executive Secretary to use an Accreditation Body Expert in place of a Legal Metrology Expert prior to the assessment taking place. The request shall include a justification for the use of the Accreditation Body expert and information regarding the relevant competences and experience of the Accreditation Body expert.
+
+. The Executive Secretary shall consult with the Management Committee Chairperson and Review Committee Chairperson prior to permitting the use of the Accreditation Body expert.
+
+. The Review Committee shall be informed when an Accreditation Body expert has been used in place of a Legal Metrology Expert for an accreditation assessment. This should be documented in the accreditation assessment report and as part of the application process.
+
+. A Legal Metrology Expert shall be used at the next available opportunity, e.g. at the next routine surveillance or re-assessment visit.
+
+===== {blank}
+
+The accreditation body shall ensure that all members of the assessment team are impartial and independent and shall not be directly associated with the OIML Issuing Authority applicant.
+
+===== {blank}
+
+The assessment team shall ensure that the guidance and interpretations detailed in OIML D 32 <<OIML_D_32>> are addressed with evidence included in the accreditation assessment report.
+
+===== {blank}
+
+Subject to the rules of the Accreditation Body and the discretion of the team leader, remote assessment techniques may be used to support and supplement on-site accreditation assessments. The use of such techniques shall not compromise the integrity or the findings of the accreditation assessment.
+
+===== {blank}
+
+Further information can be found in the Joint IAF-OIML Assessment Procedure <<OIML_IAF_AP>>.
+
+
+==== Peer assessment
+
+===== {blank}
+
+Where peer assessment is chosen, the peer assessment shall be carried out by a team of experts that will include a Management System Expert (team leader), approved by the Management Committee, knowledgeable in assessing quality management systems on the basis of ISO/IEC 17065 <<ISO_IEC_17065>> and at least one Legal Metrology Expert approved by the Management Committee.
+
+===== {blank}
+
+The assessment team shall include all the necessary competencies required to complete the assessment of the OIML Issuing Authority applicant. The assessment team may comprise any number of people (as agreed to between the applicant and the team leader), however it shall contain a team leader, Experts with suitable assessment experience and Experts with suitable legal metrology knowledge.
+
+===== {blank}
+
+The OIML Issuing Authority applicant shall make the necessary arrangements for an assessment team to be formed from the list of approved experts and will inform the Executive Secretary. It is possible to use experts that have not yet been approved by the Management Committee on the condition that the requirements of <<OIML_CS_PD_02>>, 8.3 are followed. The team leader and Legal Metrology Expert(s) shall be impartial and independent and shall not be directly associated with the OIML Issuing Authority applicant. The team leader and Legal Metrology Expert(s) shall declare their impartiality and independence prior to the assessment. The OIML Issuing Authority applicant is responsible for bearing the cost of the assessment team. The Executive Secretary shall forward the Application Form and all relevant supporting documentation to the members of the assessment team to enable them to commence their assessment. The assessment team shall review the Application Form and the submitted documentation. If necessary the team leader may request additional information from the OIML Issuing Authority applicant. The initial planning is carried out for the number of days and the number of assessors on site. The date for the assessment is agreed between the OIML Issuing Authority applicant and the assessment team.
+
+===== {blank}
+
+The assessment visit shall be undertaken in accordance with ISO/IEC 17065 <<ISO_IEC_17065>> and OIML D 32 <<OIML_D_32>>. The findings will be discussed with the OIML Issuing Authority applicant at the end of the assessment. The assessment team will complete an OIML Issuing Authority Peer Assessment Report form which can be found on the OIML-CS pages of the OIML website. A copy will be given to the OIML Issuing Authority applicant and a copy will be sent by the team leader to the Executive Secretary.
+
+===== {blank}
+
+Any issues or non-compliances identified during the assessment process must be resolved by the OIML Issuing Authority applicant to the satisfaction of the assessment team. In some cases, it may be necessary for a follow-up visit by one or more members of the assessment team. The final peer assessment reports are sent by the team leader for submission to the Executive Secretary. Where nonconformities identified during the site visit require rectification or corrective action by the OIML Issuing Authority applicant, the team leader shall review the corrective actions and determine whether the item(s) raised has(have) been sufficiently addressed in order to close the issue. Where non-compliances, identified during the site visit, remain unresolved more than 12 months beyond the site visit, the Executive Secretary shall manage the difficulties in consultation with the team leader.
+
+===== {blank}
+
+Subject to the discretion of the team leader, remote assessment techniques may be used to support and supplement on-site peer assessments. The use of such techniques shall not compromise the integrity or the findings of the peer assessment.
+
+=== Approval process
+
+==== {blank}
+
+The Executive Secretary will review the Application Form and the accompanying information, including the relevant accreditation assessment report and/or peer assessment report and the documentation associated with the Test Laboratory(ies) (see <<OIML_CS_PD_04>>), and will complete the Executive Secretary Review section of the Application Form. The Executive Secretary may request further information to be supplied by the OIML Issuing Authority applicant.
+
+
+==== Documentation review and approval
+
+===== {blank}
+
+Once the Executive Secretary has reviewed the Application Form and the accompanying information and is satisfied that all information is present, the Executive Secretary will distribute the Application Form and all of the accompanying information to the Review Committee for review. Where the Review Committee review raises questions and/or dissatisfaction the Executive Secretary will refer the matter to the OIML Issuing Authority applicant, or to the team leader in the case of questions/concerns being raised regarding the peer assessment report, to seek additional information. Any additional information supplied will be circulated to the Review Committee.
+
+===== {blank}
+
+When the Review Committee has completed its review of the Application Form and accompanying information the Review Committee will provide a recommendation to the Management Committee on the approval or rejection of the OIML Issuing Authority applicant. The recommendation is recorded in the Review Committee section of the Application Form and is sent to the Executive Secretary. In the event that the Review Committee makes a recommendation to approve the OIML Issuing Authority applicant the Executive Secretary shall forward the Application Form to the Management Committee for approval. In the event that the Review Committee does not make a recommendation to approve the OIML Issuing Authority applicant the Executive Secretary shall notify the OIML Issuing Authority applicant of the reasons for the recommendation.
+
+===== {blank}
+
+Where the Review Committee makes a positive recommendation, the Management Committee shall vote on the approval of the OIML Issuing Authority applicant. If the Management Committee rejects the application then the Management Committee shall specify the reasons for the rejection. The Executive Secretary shall notify the OIML Issuing Authority applicant of the rejection and the associated reasons and further action will be discussed either at the next Management Committee meeting or by correspondence. If the application is approved the Executive Secretary shall notify the OIML Issuing Authority applicant of its approval.
+
+===== {blank}
+
+When a new OIML Issuing Authority is approved by the Management Committee the OIML Issuing Authority shall sign a Declaration as detailed in <<OIML_CS_PD_08>>. The Declaration will list the scope of the categories of measuring instruments and the Scheme(s) for which the OIML Issuing Authority and its Test Laboratory(ies) have been approved. By signing the Declaration the OIML Issuing Authority states that it will abide by the rules and procedures of the OIML-CS. The format of the Declaration can be found on the OIML-CS pages of the OIML website.
+
+===== {blank}
+
+Under Scheme A, an OIML Member State having an OIML Issuing Authority shall designate at least one Utilizer footnote:[Corresponding to the definition of Utilizer in OIML B 18 <<OIML_B_18>>.] for those categories of instruments. The organisation(s) that intend to be a Utilizer shall apply according to the procedures detailed in <<OIML_CS_PD_09>>.
+
+===== {blank}
+
+When the Declaration has been signed and returned to the Executive Secretary, the Executive Secretary will update the list of OIML Issuing Authorities on the OIML-CS pages of the OIML website.

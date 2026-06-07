@@ -1,0 +1,232 @@
+== Principles of operation of the Management Committee, Review Committee and Working Groups
+
+=== Obligations of Management Committee Members
+
+==== {blank}
+
+To ensure the effective and efficient operation of the Management Committee, all Management Committee Members are obliged to attend Management Committee meetings and participate in the work of the Management Committee.
+
+==== {blank}
+
+To avoid delays in decision making and approval processes, Management Committee Members are obliged to vote on all proposals developed by the Management Committee whenever asked to do so by the Chairperson or Executive Secretary. If their vote is not in favour of a proposal they are obliged to give reasons for their position.
+
+==== {blank}
+
+The Executive Secretary shall inform the Chairperson if a Management Committee Member does not a) vote in two successive votes organised by the Chairperson or Executive Secretary, or b) make a contribution to two consecutive Management Committee meetings (by attendance or by correspondence - preferably electronically).
+
+==== {blank}
+
+At the same time, the Chairperson or Executive Secretary shall try to resolve the reasons for non-participation directly with their contact in the country which has not participated. If these attempts fail, the Chairperson shall contact the appropriate CIML Member.
+
+==== {blank}
+
+If these attempts do not resolve the situation, the country will lose its vote within the Management Committee and will be classified as an Observer. The Executive Secretary will inform the CIML Member that this has been done. The CIML Member may designate another Management Committee Member for their country. Full membership and voting rights will be granted when the Management Committee Member attends the next meeting.
+
+==== {blank}
+
+A CIML Member can appeal against the decision for their country to lose its voting rights and being given Observer status.
+
+=== Obligations of Review Committee Members
+
+==== {blank}
+
+To ensure the effective and efficient operation of the Review Committee, all Review Committee Members are obliged to attend Review Committee meetings and participate in the work of the Review Committee.
+
+==== {blank}
+
+Review Committee Members are obliged to give their opinions on recommendations to the Management Committee as detailed in 5.6.1 whenever asked to do so by the Review Committee Chairperson. If their opinion is not in favour, they are obliged to give reasons for their position.
+
+==== {blank}
+
+The Review Committee Chairperson shall inform the Executive Secretary when a Review Committee Member does not a) give their opinion on five successive recommendations organised by the Review Committee Chairperson, or b) make a contribution to two consecutive Review Committee meetings (by attendance or by correspondence - preferably electronically).
+
+==== {blank}
+
+The Review Committee Chairperson or Executive Secretary shall try to resolve the reasons for non-participation directly with the Review Committee Member, with the Review Committee Member being given the opportunity to explain the reason(s) for non-participation. If these attempts fail, the Executive Secretary shall contact the appropriate Management Committee Member.
+
+==== {blank}
+
+If these attempts do not resolve the situation, the Review Committee Member will lose their right to give opinions within the Review Committee and will be classified as an Observer. The Executive Secretary will inform the Management Committee Member that this has been done. The Management Committee will be notified of the situation at its next meeting, and the Management Committee will decide what action to take, i.e. either reinstate the Review Committee Member or remove the Review Committee Member, in which case the appropriate Management Committee Member will be given the opportunity to designate another Review Committee Member.
+
+=== Conduct of work
+
+==== {blank}
+
+The Management Committee, the Review Committee and its Working Groups, shall perform their activities primarily by correspondence.
+
+==== {blank}
+
+The Management Committee will identify which documents, minutes of meetings, etc. can be made public. Accreditation and Peer Assessment reports shall never be made public.
+
+==== {blank}
+
+A Management Committee Workspace is provided on the OIML-CS website for use by the Management Committee. Management Committee Members and observers will be provided with a username and password to access the Management Committee Workspace.
+
+=== Confidentiality
+
+There may be instances where matters of confidentiality associated with decisions to be taken on
+
+. approving, rejecting or suspending OIML Issuing Authorities,
+
+. extending (reducing) the scope of an OIML Issuing Authority,
+
+. the periodic review on the continued participation
+
+need to be addressed. In such cases, the circulation of documents may be restricted to the Management Committee Members by the Chairperson. When such matters are dealt with at a meeting of the Management Committee, the Chairperson may restrict the right for observers to be present. Notification of such action shall be provided in advance of the meeting or, at the discretion of the Chairperson, such discussion can take place without notice. When necessary, these matters may be recorded in separate confidential minutes with restricted circulation.
+
+=== Communication
+
+The Executive Secretary shall keep all Management Committee Members and observers informed of all developments within the Management Committee and its Working Groups. Such communication should as far as possible be electronic and additionally make full use of the Management Committee Workspace on the OIML website. However, the Executive Secretary shall take account of any problems which the Management Committee Members and observers may have with electronic communication, so as not to exclude people from its work.
+
+=== Management Committee meetings
+
+==== {blank}
+
+Management Committee meetings shall be held at least annually. Additional Management Committee meetings may be convened either if decided upon by the Chairperson or if requested by a Management Committee Member in writing to the Executive Secretary.
+
+==== {blank}
+
+Notice of the meetings shall be circulated by the Executive Secretary at least three months prior to the meeting. The agenda and proposal documents shall be circulated at least two months prior to the meeting. Shorter time periods are permitted with the prior agreement of Management Committee Members.
+
+==== {blank}
+
+In preparing the agenda, the Executive Secretary shall, as far as possible, list and identify all the documents related to the various items for discussion.
+
+==== {blank}
+
+The Management Committee may refuse to consider matters set before it if the relevant documents have not been circulated in accordance with the above.
+
+==== {blank}
+
+Minutes of the Management Committee meetings shall be circulated by the Executive Secretary to all Management Committee Members within one month of the meeting.
+
+==== Attendance at Management Committee meetings
+
+The following people may attend Management Committee meetings
+
+* Chairperson;
+* Deputy Chairperson;
+* Executive Secretary;
+* a delegation of up to three people, one of whom is the Management Committee Member, from each OIML Member State and Corresponding Member participating in the OIML-CS;
+* Secretaries, or their representatives, of OIML TCs/SCs of measuring instrument categories within the scope of the OIML-CS as observers;
+* Representatives of Organisations in Liaison as observers;
+* Representatives from countries that have expressed a clear intention to participate in the OIML-CS, at the invitation of the Management Committee Chairperson, as observers; and
+* Guests, e.g. guest speakers, at the invitation of the Chairperson.
+
+All those attending a meeting shall have the right to express their views during the meeting.
+
+=== Review Committee and Working Group Meetings
+
+==== {blank}
+
+Although it is the intention that the work of the Review Committee and Working Groups will primarily be by correspondence, where a meeting of the Review Committee or a Working Group is required notice of the meeting shall be circulated by the Executive Secretary at least three months prior to the meeting. The agenda and proposal documents shall be circulated at least two months prior to the meeting. Shorter time periods are permitted with the prior agreement of Review Committee Members or Working Group Members as appropriate.
+
+==== {blank}
+
+In preparing the agenda, the Executive Secretary shall, as far as possible, list and identify all the documents related to the various items for discussion.
+
+==== {blank}
+
+The Review Committee or Working Group may refuse to consider matters set before it if the relevant documents have not been circulated in accordance with the above.
+
+=== Management Committee Voting
+
+==== {blank}
+
+The Management Committee voting rules are defined in OIML B 18, 11.4 <<OIML_B_18>>.
+
+==== {blank}
+
+For voting at Management Committee meetings, in exceptional cases a Management Committee Member from an OIML Member State who is unable to be present at a Management Committee meeting, may give a proxy to either another representative from their own country, or to another Management Committee Member from an OIML Member State, under the following conditions:
+
+. the Management Committee Member from an OIML Member State who is unable to be present informs their CIML Member, who officially asks the Management Committee Chairperson or Executive Secretary to accept a proxy, by designating another representative; and
+
+. the Management Committee Chairperson agrees and accepts the reasons given, as well as the proposed other representative; and
+
+. no Management Committee Member from an OIML Member State holds more than two votes in addition to their own.
+
+==== {blank}
+
+The Management Committee is required to seek a recommendation from the Review Committee prior to voting on the following matters:
+
+. the approval, rejection or suspension of an OIML Issuing Authority or a Test Laboratory; and
+
+. the validation of a Legal Metrology Expert or a Management System Expert.
+
+=== Review Committee Recommendations
+
+==== {blank}
+
+There is no formal voting in the Review Committee, but the Review Committee shall provide a report to the Management Committee on its recommendations, including information on the level of consensus reached.
+
+==== {blank}
+
+Recommendations to the Management Committee on
+
+. the approval, rejection or suspension of an OIML Issuing Authority or a Test Laboratory, and
+
+. the approval or rejection of a Legal Metrology Expert or Management System Expert
+
+shall be valid when two-thirds of the opinions given are in favour. However, a lower level of support can be used as the basis for making a recommendation to the Management Committee, in which case the actual level of support obtained will be included in the report to the Management Committee. It will be for the Management Committee to vote on the basis of the Review Committee recommendation.
+
+Other recommendations shall be valid when at least half of the opinions of the Review Committee members are in favour.
+
+In exceptional cases, a member of the Review Committee who is unable to be present at a Review Committee meeting may give a proxy to another member of the Review Committee. Members of the Review Committee shall not hold more than one proxy (in addition to their own opinion) at a Review Committee meeting unless additional proxies are needed at the meeting in order to reach a quorum, in which case two proxies shall be permitted.
+
+Abstentions will not be considered as contributing to a recommendation. Review Committee members giving an opinion against a proposal or abstaining shall provide their reasons for doing so.
+
+==== {blank}
+
+If the Review Committee Chairperson or Executive Secretary so decides, developing a recommendation to the Management Committee can take place by correspondence.
+
+All recommendations to the Management Committee, including those relating to
+
+. the approval, rejection or suspension of an OIML Issuing Authority or a Test Laboratory, and
+
+. the approval or rejection of a Legal Metrology Expert or Management System Expert
+
+shall be valid when two-thirds of the opinions of the Review Committee members are in favour. However, a lower level of support can be used as the basis for making a recommendation to the Management Committee, in which case the actual level of support obtained will be included in the report to the Management Committee. It will be for the Management Committee to vote on the basis of the Review Committee recommendation.
+
+Abstentions and failures to reply are not considered as contributing to a decision. Members giving an opinion against a proposal shall provide their reasons for doing so.
+
+=== Working Group Recommendations
+
+There is no voting in Working Groups, but the Working Group shall provide a report to the Management Committee on its recommendations, including information on the level of consensus reached.
+
+=== Timelines
+
+==== Management Committee
+
+===== {blank}
+
+For decisions to be taken outside of a Management Committee meeting, the following timelines apply:
+
+. one month for decisions relating to approval, renewal or suspension of OIML Issuing Authorities;
+
+. one month for decisions relating to the approval of Legal Metrology Experts and Management System Experts; and
+
+. two months for decisions relating to the approval of new or revised Operational Documents and Procedural Documents.
+
+==== Review Committee
+
+===== {blank}
+
+For recommendations made outside of a Review Committee meeting, the following timelines apply:
+
+. Six weeks for recommendations relating to approval, renewal or suspension of OIML Issuing Authorities and Test Laboratories; and
+
+. One month for recommendations relating to the approval of Legal Metrology Experts and Management System Experts.
+
+==== Maintenance Group
+
+Unless otherwise indicated in their Terms of Reference, the Maintenance Group should try to keep to the following suggested timelines when developing new or revising Operational Documents or Procedural Documents:
+
+. the Maintenance Group convener or the Executive Secretary should distribute the first Working Draft to the Maintenance Group members within three months of starting work on the project;
+
+. the Maintenance Group convener or the Executive Secretary should allow at least two months for the Maintenance Group members to provide comments on each Working Draft;
+
+. the MG convener or the Executive Secretary should distribute all comments received on a Working Draft (but not necessarily the responses to those comments) within two months after the deadline for comments;
+
+. the period between distributing successive Working Drafts, together with comments received on the previous Working Draft and the Maintenance Group convener's response to these comments, should not exceed three months; and
+
+. the Maintenance Group should send a final Working Draft to the Management Committee for approval within eighteen months of starting work on the project.

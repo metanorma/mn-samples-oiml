@@ -1,0 +1,28 @@
+[bibliography]
+== References
+
+* [[[B3,OIML B 3:2011]]], span:organization[OIML], span:title[_OIML Basic Certificate System for OIML Type Evaluation of Measuring Instruments_], span:publisher[OIML], span:date.issued[2011]
+
+* [[[B10,OIML B 10:2011]]], span:organization[OIML], span:title[_Framework for a Mutual Acceptance Arrangement on OIML Type Evaluations_], span:publisher[OIML], span:date.issued[2011]
+
+* [[[ISO17067,ISO/IEC 17067:2013]]] Conformity assessment -- Fundamentals of product certification and guidelines for product certification schemes
+
+* [[[ISO17000,ISO/IEC 17000:2004]]] Conformity assessment -- Vocabulary and general principles
+
+* [[[R76,OIML R 76:2006]]], span:organization[OIML], span:title[_Non-automatic weighing instruments_], span:publisher[OIML], span:date.issued[2006]
+
+* [[[ISO17065,ISO/IEC 17065:2012]]] Conformity assessment -- Requirements for bodies certifying products, processes and services
+
+* [[[PD04,OIML PD-04]]], span:organization[OIML], span:title[_OIML-CS Procedural Document PD-04: Assessment of Test Laboratories_], span:publisher[OIML]
+
+* [[[PD05,OIML PD-05]]], span:organization[OIML], span:title[_OIML-CS Procedural Document PD-05: Processing an OIML Type Evaluation Report and OIML Certificate_], span:publisher[OIML]
+
+* [[[PD06,OIML PD-06]]], span:organization[OIML], span:title[_OIML-CS Procedural Document PD-06: Use of OIML Type Evaluation Reports and OIML Certificates_], span:publisher[OIML]
+
+* [[[VIM,OIML V 2-200:2012]]], span:organization[OIML], span:title[_International vocabulary of metrology -- Basic and general concepts and associated terms_], span:publisher[OIML], span:date.issued[2012]
+
+* [[[VIML,OIML V 1:2013]]], span:organization[OIML], span:title[_International vocabulary of terms in legal metrology_], span:publisher[OIML], span:date.issued[2013]
+
+* [[[ISO17025,ISO/IEC 17025:2017]]] General requirements for the competence of testing and calibration laboratories
+
+* [[[PD03,OIML PD-03]]], span:organization[OIML], span:title[_OIML-CS Procedural Document PD-03: Application and approval of OIML Issuing Authorities, Utilizers and Associates_], span:publisher[OIML]

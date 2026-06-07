@@ -1,0 +1,117 @@
+== Issuing an OIML certificate under Scheme A
+
+=== OIML MAA certificates, OIML MAA type evaluation reports and previous test data
+
+==== {blank}
+
+An applicant may apply to an OIML Issuing Authority under the OIML-CS to use an existing OIML MAA certificate, its corresponding OIML MAA type evaluation report and previous test data to issue a Scheme A OIML certificate and OIML type evaluation report under the OIML-CS. The requirements of 4.5 apply.
+
+==== {blank}
+
+Where previous test data is used to issue a Scheme A OIML certificate and OIML type evaluation report, the OIML Issuing Authority shall ensure that:
+
+. the testing was performed on a sample that is representative of the current type; and
+
+. the testing that was performed is equivalent to the requirements specified in the edition of the OIML Recommendation for which the OIML certificate is being issued.
+
+NOTE: Some OIML Recommendations allow for OIML certificates to be issued for components, modules, measuring instruments, and/or complete systems.
+
+==== {blank}
+
+The procedures specified in clause 5 of <<OIML_CS_PD_05>> shall be applied to the processing of a Scheme A OIML certificate. Previous test data that satisfies the requirements of 6.1.2 above is deemed to fulfil the requirement specified in <<OIML_CS_PD_05>>, 5.3. In addition, the OIML type evaluation report shall clearly identify:
+
+. all test facilities that performed testing and issued the test data and/or test reports; and
+
+. all OIML test reports, other test reports, and previous test data (regardless of dates of testing) with all relevant information and explanations provided.
+
+==== {blank}
+
+Scheme A OIML certificates may only be issued for editions of OIML Recommendations that are included in the OIML-CS at the time of issue.
+
+==== {blank}
+
+To issue a Scheme A OIML certificate for a revised edition of the OIML Recommendation, the OIML MAA type evaluation report issued in support of the existing OIML MAA certificate may be used to support the assessment of requirements where those requirements and tests are unchanged in the revised edition of the Recommendation.
+
+==== {blank}
+
+Where additional tests are required or the test requirements have changed in the revised edition of a Recommendation (e.g. different severity level), all new testing shall be conducted by an approved Test Laboratory listed in the OIML-CS Declaration of any OIML Issuing Authority.
+
+=== OIML Basic certificates, OIML Basic type evaluation reports and previous test data
+
+==== {blank}
+
+An applicant may apply to an OIML Issuing Authority to use an existing Basic certificate, its corresponding OIML Basic type evaluation report and previous test data to issue a Scheme A OIML certificate for any OIML Recommendation included in the OIML-CS. The requirements of 4.5 apply.
+
+While an existing OIML Basic certificate and its corresponding OIML Basic type evaluation report cannot be used directly to issue a Scheme A OIML certificate, the associated previous test data may be used to issue a Scheme A OIML certificate and OIML type evaluation report under the conditions specified in 6.2.2 to 6.2.9 below.
+
+==== {blank}
+
+Where previous test data is used to issue a Scheme A OIML certificate and OIML type evaluation report, the OIML Issuing Authority shall ensure that:
+
+. at the time that the original testing took place the test facility was accredited or peer assessed to ISO/IEC 17025 <<ISO_IEC_17025_2017>> <<ISO_IEC_17025_2005>>, with the scope of accreditation or peer assessment covering the relevant OIML Recommendation (see 6.2.3 for a conditional exception);
+
+. the testing was performed on a sample that is representative of the current type; and
+
+. the testing that was performed is equivalent to the requirements specified in the edition of the OIML Recommendation for which the OIML certificate is being issued.
+
+NOTE: The accreditation body that carried out the assessment of the Test Laboratory shall be a signatory to the ILAC Mutual Recognition Arrangement or to a regional arrangement recognized by ILAC for the scope of "testing ISO/IEC 17025".
+
+NOTE: In the case of peer assessment, the peer assessment team shall have comprised a lead assessor and technical and metrological expert(s) relevant to the category(ies) of measuring instrument(s), from the Joint OIML/ILAC/IAF list of assessors and technical and metrological experts or the MAA expert list.
+
+NOTE: Some OIML Recommendations allow for OIML Certificates to be issued for components, modules, measuring instruments, and complete systems.
+
+NOTE: In the case of complex approvals, the OIML Issuing Authority may consult with the Executive Secretary on the acceptability of using the OIML Basic type evaluation report to issue an OIML certificate under Scheme A.
+
+==== {blank}
+
+Where previous testing was performed in a facility (either a test laboratory or field site) that did not satisfy the requirements of 6.2.2 a) at the time of testing, the OIML Issuing Authority shall include a documented appraisal of the previous testing and shall accurately record the use of any previous test data in the OIML type evaluation report.
+
+The requirements of 6.2.2 b) and c) still apply.
+
+The documented appraisal of the previous testing shall include at least the following:
+
+. an assessment of the test facility and test methodology used at the time of testing, with consideration of the requirements of ISO/IEC 17025 <<ISO_IEC_17025_2017>> <<ISO_IEC_17025_2005>>, including:
+
+.. Traceability and calibration of reference standards;
+
+.. Documented procedures and test methods;
+
+.. Estimation of the uncertainty of the results associated with the test methods;
+
+.. Staff competency and training; and
+
+.. History of similar testing and comparisons with other results.
+
+. a review of the previous test data that evaluates both the data itself and its acceptability to the Issuing Authority at the time of testing; and
+
+. a statement that the previous test data continues to be acceptable under the OIML-CS.
+
+==== {blank}
+
+The procedures specified in clause 5 of <<OIML_CS_PD_05>> shall be applied to the processing of a Scheme A OIML certificate. In addition, the OIML type evaluation report shall clearly identify:
+
+. all test facilities that performed testing and issued the test data and/or test reports; and
+
+. all OIML test reports, other test reports, and previous test data (regardless of dates of testing) with all relevant information and explanations provided.
+
+==== {blank}
+
+Scheme A OIML certificates may only be issued for editions of OIML Recommendations that are included in the OIML-CS at the time of issue.
+
+==== {blank}
+
+To issue a Scheme A OIML certificate for a revised edition of the OIML Recommendation, the previous test data may be used to support the assessment of requirements where those requirements and tests are unchanged in the revised edition of the Recommendation.
+
+==== {blank}
+
+Where additional tests are required or the test requirements have changed in the revised edition of a Recommendation (e.g. different severity level), all new testing shall be conducted by an approved Test Laboratory listed in the OIML-CS Declaration of any OIML Issuing Authority.
+
+==== {blank}
+
+Scheme A OIML type evaluation reports shall clearly specify whether or not they have been issued on the basis of previous test data from an existing OIML Basic certificate and its corresponding OIML Basic type evaluation report.
+
+==== {blank}
+
+Scheme A OIML certificates and OIML type evaluation reports that contain previous test data from an existing OIML Basic certificate and its corresponding OIML Basic type evaluation report may be accepted by Utilizers and Associates in their OIML-CS Declaration on a voluntary basis.
+
+NOTE: Utilizers and Associates may inform the Executive Secretary of their rejection of an OIML certificate and/or OIML type evaluation report, and the reasons for the rejection.

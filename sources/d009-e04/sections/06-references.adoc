@@ -1,0 +1,14 @@
+[bibliography]
+== References
+
+* [[[Birkeland]]], span:title[_Legal metrology at the dawn of the 21st century_], span:organization[OIML], span:publisher[OIML], span:date.issued[1998-10], span:type[report]
+* [[[VIM,OIML V 2-200:1993]]], span:organization[BIPM], span:organization[IEC], span:organization[IFCC], span:organization[ISO], span:organization[IUPAC], span:organization[IUPAP], span:organization[OIML], span:title[_International Vocabulary of Basic and General Terms in Metrology (VIM)_], span:edition[2], span:publisher[OIML], span:date.issued[1993]
+* [[[VIML,OIML V 1:2000]]], span:organization[OIML], span:title[_International Vocabulary of Terms in Legal Metrology (VIML)_], span:publisher[OIML], span:date.issued[2000]
+* [[[D1,OIML D 1:2004]]], span:organization[OIML], span:title[_Elements for a law on metrology_], span:publisher[OIML], span:date.issued[2004]
+* [[[R87,OIML R 87:2004]]], span:organization[OIML], span:title[_Quantity of product in prepackages_], span:publisher[OIML], span:date.issued[2004]
+* [[[D27,OIML D 27:2001]]], span:organization[OIML], span:title[_Initial verification of measuring instruments using the manufacturer's quality system_], span:publisher[OIML], span:date.issued[2001]
+* [[[ISO17025,ISO/IEC 17025:2005]]] General requirements for the competence of testing and calibration laboratories.
+* [[[ISO17020,ISO/IEC 17020:1998]]] General criteria for the operation of various types of bodies performing inspection.
+* [[[ISO17024,ISO/IEC 17024:2003]]] Conformity assessment -- General requirements for bodies operating certification of persons.
+* [[[ISO17021,ISO/IEC 17021-2:2011]]] ISO/IEC 17021-2 Conformity assessment -- Requirements for bodies providing audit and certification of management systems.
+* [[[ISO9001,ISO 9001:2000]]] Quality management systems -- Requirements.

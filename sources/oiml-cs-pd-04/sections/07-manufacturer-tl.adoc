@@ -1,0 +1,41 @@
+== Additional requirements for Manufacturer Test Laboratories
+
+=== {blank}
+
+In order to address potential conflicts of interest the Manufacturer Test Laboratory shall operate under the controlled supervision of at least one OIML Issuing Authority that is identified in its Declaration. In the case where two or more OIML Issuing Authorities want to make use of the same Manufacturer Test Laboratory, this must be clearly stated in its Declaration and the OIML Issuing Authority responsible for the supervision of the Manufacturer Test Laboratory must also be identified. The controlled supervision includes at least the following safeguards:
+
+. the OIML Issuing Authority has clear and documented instructions (quality system procedures) for the Manufacturer Test Laboratory concerning the test program and the equipment under test (EUT);
+
+. the OIML Issuing Authority has clear and documented instructions (quality system procedures) for the Manufacturer Test Laboratory in the case that the EUT fails before the test program is finished;
+
+. the OIML Issuing Authority is informed when the Manufacturer Test Laboratory starts and finishes the agreed tests;
+
+. the OIML Issuing Authority or an authorised representative is allowed to make short-notice visits to the manufacturer's site to witness tests performed at the Manufacturer Test Laboratory as considered necessary by the OIML Issuing Authority;
+
+. after finishing the tests, the OIML Issuing Authority may request that the EUT tested by the Manufacturer Test Laboratory be submitted to its internal and/or subcontracting laboratory for re-tests (spot checks) that the OIML Issuing Authority considers necessary; for these re-tests the OIML Issuing Authority may - with the applicant's consent - use another OIML Issuing Authority's registered laboratory;
+
+. a Manufacturer Test Laboratory shall not subcontract testing.
+
+=== {blank}
+
+The OIML Issuing Authority shall exercise a controlled supervision as defined in 7.1. The safeguards and actions to be taken in the case of EUT failure have to be documented by written procedures in the quality management systems of both the Manufacturer Test Laboratory and the OIML Issuing Authority. Their effectiveness is subject to regular surveillance audits as part of the accreditation assessment or peer assessment under Scheme A, or the internal audits in the case of Scheme B.
+
+=== {blank}
+
+In order to ensure sufficient independence and impartiality of the Manufacturer Test Laboratory as part of a larger organisation (company) the quality manual and other supporting documents of the organisation shall demonstrate that there are suitable provisions that ensure that the Manufacturer Test Laboratory's personnel are free from any undue commercial, financial or other pressures which might influence their technical judgement. In particular, the following is mandatory:
+
+. the Manufacturer Test Laboratory is a clearly defined Organisational Unit (OU) within the company, or part of such an OU, where procedures exist that define the specific responsibilities of the Manufacturer Test Laboratory and the interactions between the Manufacturer Test Laboratory and other OUs of the company;
+
+. there is an organisational chart that shows the existence of the Manufacturer Test Laboratory and its position in the organisational structure;
+
+. the Manufacturer Test Laboratory staff members, including the head of the Manufacturer Test Laboratory, are identified and their competencies and responsibilities are described;
+
+. there is evidence that the head of the Manufacturer Test Laboratory is free of any responsibilities or other pressures which may influence his/her technical judgement, and that he/she is responsible to a member of the top management in all technical conclusions.
+
+=== {blank}
+
+Under Scheme A, the suitability and effectiveness of the procedures described above are evaluated as part of the ISO/IEC 17025 <<ISO_IEC_17025>> accreditation or included in the scope of the peer assessment of the corresponding OIML Issuing Authority. Under Scheme B, the suitability and effectiveness of the procedures described above are evaluated as part of the internal audit of the corresponding OIML Issuing Authority.
+
+=== {blank}
+
+Several OIML Issuing Authorities may designate the same Manufacturer Test Laboratory footnote:[For clarity, there are no restrictions on the number of OIML Issuing Authorities that may designate the same Manufacturer Test Laboratory.]. In this case, upon agreement among the OIML Issuing Authorities, one of them may be identified in its Declaration as the principal OIML Issuing Authority that is responsible for the procedures and information required according to 7.1 through 7.4. Nevertheless, the remaining OIML Issuing Authorities that include the Manufacturer Test Laboratory on their Declarations still retain responsibility for confirming that the procedures and information required according to 7.1 through 7.4 are satisfied prior to utilising the Manufacturer Test Laboratory.

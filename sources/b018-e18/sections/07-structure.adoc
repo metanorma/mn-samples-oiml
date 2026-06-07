@@ -1,0 +1,20 @@
+[[structure]]
+== Structure
+
+=== {blank}
+
+The structure of the OIML-CS comprises:
+
+. Management Committee (MC);
+
+. Review Committee (RC), which is a sub-committee of the MC;
+
+. Test Laboratories Forum (TLF);
+
+. Board of Appeal (BoA).
+
+<<figure-1>> illustrates the structure of the OIML-CS within the OIML structure.
+
+[[figure-1]]
+.Structure of the OIML-CS within the OIML structure
+image::figure-1.svg[]

@@ -1,0 +1,26 @@
+= Guide for the application of ISO/IEC 17065 to assessment of certification bodies in legal metrology
+:docidentifier: OIML D 32:2018
+:docnumber: 32
+:edition: 2018
+:revdate: 2018-01-01
+:copyright-year: 2018
+:language: en
+:doctype: international-document
+:docstage: 60
+:docsubstage: 60
+:title-main-en: Guide for the application of ISO/IEC 17065 to assessment of certification bodies in legal metrology
+:title-main-fr: Guide pour l'application de la norme ISO/CEI 17065 à l'évaluation des organismes de certification en métrologie légale
+:technical-committee-number: 3
+:technical-committee: Conformity assessment
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-preamble.adoc[]
+
+include::sections/02-explanatory-notes.adoc[]
+
+include::sections/03-guidance.adoc[]

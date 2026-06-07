@@ -1,0 +1,7 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains the procedures for the approval of Legal Metrology Experts and Management System Experts (Team Leaders), and on-going maintenance of the lists of experts.
+
+These procedures relate to the framework for the OIML-CS as given in OIML B 18 <<OIML_B_18>>, the Operational Rules as given in OD-01 <<OIML_CS_OD_01>> and OD-02 <<OIML_CS_OD_02>>, and the Procedures as given in PD-01 <<OIML_CS_PD_01>>, PD-03 <<OIML_CS_PD_03>>, PD-04 <<OIML_CS_PD_04>>, PD-05 <<OIML_CS_PD_05>>, PD-06 <<OIML_CS_PD_06>>, PD-07 <<OIML_CS_PD_07>> and PD-08 <<OIML_CS_PD_08>>.

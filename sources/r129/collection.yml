@@ -1,0 +1,39 @@
+directives:
+  - documents-inline
+  - flavor: oiml
+bibdata:
+  title:
+    - language: en
+      type: title-main
+      content: "Multi-dimensional measuring instruments"
+  type: collection
+  docid:
+    type: oiml
+    id: OIML R 129
+  edition: 2020
+  copyright:
+    owner:
+      name: International Organization of Legal Metrology
+      abbreviation: OIML
+    from: 2020
+
+format:
+  - xml
+  - html
+  - presentation
+  - pdf
+  - rxl
+
+output_folder: collection-output
+manifest:
+  level: document
+  title: Documents
+  docref:
+    - fileref: 1/document.adoc
+      identifier: R129-1
+    - fileref: 2/document.adoc
+      identifier: R129-2
+    - fileref: 3/document.adoc
+      identifier: R129-3
+    - fileref: 4/document.adoc
+      identifier: R129-4

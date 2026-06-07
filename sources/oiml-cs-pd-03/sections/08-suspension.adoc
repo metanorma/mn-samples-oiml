@@ -1,0 +1,27 @@
+== Process to suspend an OIML Issuing Authority
+
+=== {blank}
+
+Where it is alleged that an OIML Issuing Authority has failed over time to abide by the rules of the OIML-CS, and evidence is provided to the Executive Secretary to support the allegation, the Executive Secretary shall contact the OIML Issuing Authority concerned.
+
+=== {blank}
+
+If the OIML Issuing Authority cannot provide evidence that they have complied with the rules of the OIML-CS, or if they cannot provide a solution to the reasons for the alleged non-compliance, the Executive Secretary shall produce a report to the Review Committee detailing the alleged non-compliance.
+
+=== {blank}
+
+The Review Committee will review the report and if the Review Committee determines that the OIML Issuing Authority has not complied with the rules of the OIML-CS, it will request that the OIML Issuing Authority develop an action plan (including proposed timescales) to address the reasons for noncompliance.
+
+=== {blank}
+
+If the OIML Issuing Authority fails to subsequently provide evidence that it has taken the appropriate action then the Review Committee may make a recommendation to the Management Committee regarding the possible suspension of the OIML Issuing Authority.
+
+NOTE: Depending upon the nature of the non-compliance the Review Committee may recommend a partial suspension of the scope of an OIML Issuing Authority.
+
+=== {blank}
+
+If the Management Committee votes to suspend the OIML Issuing Authority, or to partially suspend the scope of the OIML Issuing Authority, the Executive Secretary will notify the OIML Issuing Authority of the suspension and the actions that it must take to lift the suspension. Whilst it is suspended, the OIML Issuing Authority may only complete any ongoing applications under conditions defined by the Management Committee. These conditions should take into account the fact that tests and examinations may already have started. The OIML Issuing Authority shall not start any new applications whilst it is suspended.
+
+=== {blank}
+
+The OIML Issuing Authority has the right to appeal the Management Committee decision to suspend it according to <<OIML_CS_PD_01>>.

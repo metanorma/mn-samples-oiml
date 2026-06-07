@@ -1,0 +1,46 @@
+== Foreword
+
+The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental organization whose primary aim is to harmonize the regulations and metrological controls applied by the national metrological services, or related organizations, of its Member States.
+
+The two main categories of OIML publications are:
+
+* *International Recommendations (OIML R)*, which are model regulations that establish the metrological characteristics required of certain measuring instruments and which specify methods and equipment for checking their conformity; the OIML Member States shall implement these Recommendations to the greatest possible extent;
+
+* *International Documents (OIML D)*, which are informative in nature and intended to improve the work of the metrological services.
+
+OIML Draft Recommendations and Documents are developed by technical committees or subcommittees which are formed by the Member States. Certain international and regional institutions also participate on a consultation basis.
+
+Cooperative agreements are established between OIML and certain institutions, such as ISO and IEC, with the objective of avoiding contradictory requirements; consequently, manufacturers and users of measuring instruments, test laboratories, etc. may apply simultaneously OIML publications and those of other institutions.
+
+International Recommendations and International Documents are published in French (F) and English (E) and are subject to periodic revision.
+
+This publication -- OIML D 9, Edition 2004 (E) -- was developed by TC 3/SC 2 Metrological supervision. This version supersedes the previous Edition dated 1984 and was approved for final publication by the International Committee of Legal Metrology in 2004.
+
+OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organization's headquarters:
+
+Bureau International de Métrologie Légale +
+11, rue Turgot - 75009 Paris - France +
+Telephone: 33 (0)1 48 78 12 82 +
+Fax: 33 (0)1 42 82 17 27 +
+E-mail: biml@oiml.org +
+Internet: www.oiml.org
+
+== Introduction
+
+The landscape in the field of legal metrology has changed considerably in recent years, mainly due to the effects of liberalization, elimination of technical barriers to trade on a regional basis, privatization/contractorization and a wide use of accreditation.
+
+Firstly, voluntary accreditation and various mutual recognition agreements have now covered in a systematic way a number of areas in metrology that otherwise might be a target of metrological supervision (measuring instruments in non-regulated fields of metrology, national standards and dissemination of units of measurements, etc.).
+
+Secondly, conformity assessment procedures based on quality systems and other tools are sometimes used for placing legally controlled measuring instruments on the market and putting them in use, replacing traditional type approval and initial verification procedures.
+
+A considerable part of responsibilities has been transferred in this respect from third party public bodies to manufacturers, distributors and owners. The driving force behind this development is the effort coordinated by the World Trade Organization (WTO) to facilitate trade among countries and regions by removing technical barriers to trade (TBT). A number of free trade areas with a harmonized legislation to that effect have thus come into existence in various regions (e.g. the European Union -- EU) or based on trade agreements introducing extensive mutual recognitions (e.g. North American Free Trade Area NAFTA). Furthermore, these changes have enabled non-Governmental and private bodies to become involved in supervision activities once third party assessment of their technical competence has been satisfactorily demonstrated.
+
+This development pushes metrological supervision to the foreground as a very important operating tool used by responsible public bodies to protect public interests in the liberalized world and has also generated optional types of regulations requiring effective supervision on the part of public bodies (prepackages conformity assessment procedures). All these developments have led to the preparation of the OIML generic strategy document by K. Birkeland <<Birkeland>> and gradually they will require a complete overhaul of the corresponding OIML International Documents, especially those of general nature, to bring them up-to-date without compromising effective consumer protection generally, legal metrology is an area where Government intervention is needed.
+
+Naturally, the above-mentioned changes might not be currently suitable for all the possible socio-economic environments in OIML Member States and Corresponding Members so this Document should be flexible enough to fit reasonably well in this variety -- it should offer a list of possible forms of metrological supervision to be used by national authorities in preparation of the legislation. The original OIML D 9 played a crucial role in this respect and was officially approved in 1984, though at that time naturally it did not reflect these changes so its revision has been considered by TC 3/SC 2 as being long overdue.
+
+Practical considerations in the preparation and implementation of legislation in various countries may require an extension of the scope of metrological supervision as defined in the International Vocabulary of Terms in Legal Metrology (VIML) <<VIML>> because the existing supervisory infrastructures and their expertise can be used advantageously for the other forms of supervision specified by that legislation.
+
+This is the case, for example, for various gaming machines subject to legal control by laws on gambling/gaming, and pre-packages subject to metrological legislation. In the latter case, their metrological control is dealt with in the revised <<R87>> but the corresponding market surveillance, if specified by the legislation, is in principal identical to that in the field of measuring instruments.
+
+This revised Document aims to define the necessary terminology which is important in the field of metrological supervision and includes some terms not referenced in the VIML. The proposed definitions attempt to assign available, more or less synonymous words in English to certain activities connected with metrological supervision, even though the selection is to some extent arbitrary (and it is still not clear how it will work in other languages). The definition of terms should be considered with this in mind. However, once approved these terms should be consequently used throughout legal metrology regulations because nowadays the use of supervision related terms is rather arbitrary.

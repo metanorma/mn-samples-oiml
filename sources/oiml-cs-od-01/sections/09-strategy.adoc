@@ -1,0 +1,14 @@
+[[section-9-strategy]]
+== Role of the Management Committee in defining strategy and policy
+
+The Management Committee shall
+
+. consult with all stakeholders, interested parties and users of the system,
+
+. review feedback, and
+
+. use the output from OIML-CS monitoring activities
+
+to inform the development of proposals to the CIML that support the delivery of Objective 2 of the OIML strategy defined in OIML B 15 <<OIML_B_15>>. The Management Committee is responsible for the implementation of initiatives relating to the OIML-CS that support the OIML strategy. These initiatives may result in the need to revise OIML B 18 <<OIML_B_18>>, which will require CIML approval (see <<8-3a>>), the Operational Documents and Procedural Documents and/or to make amendments to other OIML-CS publications and the OIML-CS website.
+
+NOTE: There is no separate Strategy or Policy document relating to the OIML-CS.

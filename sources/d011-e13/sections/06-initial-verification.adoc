@@ -1,0 +1,3 @@
+== Initial verification
+
+Detailing requirements for initial verification or conformity to type evaluation is outside the scope of this Document. In Recommendations the applicable requirements for initial verification shall be specified. These may comprise a subset of the requirements and tests provided in this Document.

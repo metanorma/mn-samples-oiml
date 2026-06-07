@@ -1,0 +1,47 @@
+== Initial verification
+
+=== Verification conditions
+
+Initial verification of instruments is normally carried out after installation and under the intended conditions of use. The installation and conditions of use shall be appropriate for the design of the instrument as described in the type evaluation certificate and shall allow the specified performance requirements to be achieved.
+
+==== Software verification
+
+For software controlled devices, the verification of the software shall include
+
+. an examination of the conformity of the software to verify that it is the certified version (e.g. verify the software identification, verify the integrity of securing and protection),
+
+. an examination of the configuration to verify that it is compatible with the declared minimal configuration, if given in the certificate,
+
+. an examination of the measuring function, including price calculation if available, and
+
+. an examination of the legally relevant parameters (especially the adjustment parameters) to verify that they are correctly set.
+
+=== Conformity
+
+An instrument shall conform to the certificate with respect to its construction and metrological functions. Devices such as zero adjustment, indicators, printers, etc. shall be checked for correct functioning.
+
+The nameplate shall contain the required information including the type evaluation mark.
+
+Any notices, including notices of limitations of use required by the certificate, shall be checked to ensure that they are readily available to the operator and processes are in place to ensure that they are adhered to.
+
+=== Test objects
+
+Test objects shall be available and comply with requirements of 1.4.2.
+
+=== Accuracy tests
+
+Accuracy tests shall be carried out in accordance with test A.1.2 at the operating conditions in effect at the time of verification.
+
+=== Other tests
+
+The following tests shall be carried out as applicable, depending on the mode of operation, environment location, and the intended use of the instrument:
+
+. tests for irregular shaped objects (1.4.5);
+
+. tests for different orientations and positions (1.4.6);
+
+. tests for automatic instruments (1.4.7);
+
+. tests for multi-interval instruments (1.4.8); and
+
+. tests for different surfaces (1.4.9).

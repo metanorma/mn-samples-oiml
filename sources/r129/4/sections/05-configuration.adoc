@@ -1,0 +1,11 @@
+=== Configuration for type evaluation
+
+Application no.: ___
+
+Type designation: ___
+
+Report date: ___
+
+Manufacturer: ___
+
+Use this space for additional information relating to equipment configuration, interfaces, data rates, EMC protection options, etc., for the instrument and/or simulator:

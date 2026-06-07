@@ -1,0 +1,25 @@
+== Admission of an Associate
+
+=== Application
+
+==== {blank}
+
+A national issuing authority or a national responsible body in an OIML Corresponding Member economy can make an application to be an Associate by using the Application to be an Associate form which can be found on the OIML-CS pages of the OIML website.
+
+==== {blank}
+
+The application must be endorsed (signed) by the Corresponding Member Representative and shall specify information about any additional tests and examinations required for national type approval that the Associate may require. In addition, any conditions on the acceptance of OIML certificates and/or OIML type evaluation reports shall be specified, e.g. OIML certificates and/or OIML type evaluation certificates issued on the basis of test results of Manufacturer Test Laboratories will not be accepted. The application shall be submitted to the Executive Secretary by a representative of the Associate ("the applicant").
+
+==== {blank}
+
+Acceptance of evaluation reports, test reports and test data for additional national requirements is at the discretion of the Associate. It is the responsibility of the Associate to specify whether they will accept OIML certificates and/or type evaluation reports issued on the basis of a test report(s) from a Manufacturer Test Laboratory. This information shall be provided in the Declaration of the Associate.
+
+==== {blank}
+
+The Executive Secretary shall review the application and will contact the applicant where there are questions or where further information is required. Once the Executive Secretary has all of the relevant information the Executive Secretary will draft a Declaration based on the information provided. The Declaration will be sent to the applicant for checking and signing.
+
+NOTE: Acceptance of OIML certificates and OIML type evaluation/test reports under Scheme B is voluntary and may be detailed in the Declaration.
+
+==== {blank}
+
+Once the Associate has signed their Declaration (see PD-08 <<OIML_CS_PD_08>>), and returned it to the Executive Secretary, the Executive Secretary will update the list of Associates on the OIML-CS pages of the OIML website.

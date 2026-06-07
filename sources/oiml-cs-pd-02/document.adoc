@@ -1,0 +1,28 @@
+= Approval of Legal Metrology Experts and Management System Experts
+:docidentifier: OIML-CS PD-02 Edition 3
+:doctype: international-document
+:title-main-en: Approval of Legal Metrology Experts and Management System Experts
+:edition: 3
+:revdate: 2022-11-14
+:copyright-year: 2022
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-general.adoc[]
+include::sections/05-lme-criteria.adoc[]
+include::sections/06-mse-criteria.adoc[]
+include::sections/07-nomination.adoc[]
+include::sections/08-review.adoc[]
+include::sections/09-publication.adoc[]
+include::sections/10-change-scope.adoc[]
+include::sections/11-monitoring.adoc[]
+include::sections/12-references.adoc[]

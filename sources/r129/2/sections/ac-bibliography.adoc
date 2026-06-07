@@ -1,0 +1,44 @@
+[[annex-c]]
+[appendix]
+[bibliography]
+== Bibliography
+
+* [[[OIML_D_16_2011,OIML D 16:2011]]], span:organization[OIML], span:title[_Principles of assurance of metrological control_], span:publisher[OIML], span:date.issued[2011]
+
+* [[[OIML_D_31_2019,OIML D 31:2019]]], span:organization[OIML], span:title[_General requirements for software controlled measuring instruments_], span:publisher[OIML], span:date.issued[2019]
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]], span:organization[OIML], span:title[_General requirements for measuring instruments - Environmental conditions_], span:publisher[OIML], span:date.issued[2013]
+
+* [[[IEC_60068_2_1,IEC 60068-2-1:2007]]] _Environmental testing - Part 2: Test methods - Section 1: Test A: Cold_
+
+* [[[IEC_60068_2_2,IEC 60068-2-2:2007]]] _Environmental testing - Part 2: Test methods - Section 2: Test B: Dry heat_
+
+* [[[IEC_60068_3_1,IEC 60068-3-1:2011]]] _Environmental testing - Part 3: Supporting documentation and guidance - Section 1: Cold and dry heat tests_
+
+* [[[IEC_60068_2_78,IEC 60068-2-78:2012]]] _Environmental testing - Part 2: Tests methods - Section 78: Test Cab: Damp heat, steady state_
+
+* [[[IEC_60068_3_4,IEC 60068-3-4:2001]]] _Environmental testing - Part 3: Supporting documentation and guidance - Section 4: Damp heat tests_
+
+* [[[IEC_61000_4_1,IEC 61000-4-1:2006]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 1: Overview of IEC 61000-4 series_
+
+* [[[IEC_TR_61000_2_1,IEC TR 61000-2-1:1990]]] _Electromagnetic compatibility (EMC) - Part 2: Environment - Section 1: Description of the environment - Electromagnetic environment for low-frequency conducted disturbances and signalling in public power supply systems_
+
+* [[[IEC_61000_4_11,IEC 61000-4-11:2004]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 11: Voltage dips, short interruptions and voltage variations immunity tests_
+
+* [[[IEC_61000_6_1,IEC 61000-6-1:2005]]] _Electromagnetic compatibility (EMC) - Part 6: Generic standards - Section 1: Immunity for residential, commercial and light-industrial environments_
+
+* [[[IEC_61000_6_2,IEC 61000-6-2:2005]]] _Electromagnetic compatibility (EMC) - Part 6: Generic standards - Section 2: Immunity for industrial environments_
+
+* [[[IEC_61000_4_4,IEC 61000-4-4:2012]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 4: Electrical fast transient/burst immunity test_
+
+* [[[IEC_61000_4_2,IEC 61000-4-2:2008]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 2: Electrostatic discharge immunity test_
+
+* [[[IEC_61000_4_5,IEC 61000-4-5:2005]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 5: Surge immunity test_
+
+* [[[IEC_61000_4_3,IEC 61000-4-3:2010]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 3: Radiated, radio-frequency, electromagnetic field immunity test_
+
+* [[[IEC_61000_4_20,IEC 61000-4-20:2010]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 20: Emission and immunity testing in transverse electromagnetic (TEM) waveguides_
+
+* [[[IEC_61000_4_6,IEC 61000-4-6:2013]]] _Electromagnetic compatibility (EMC) - Part 4: Testing and measurement techniques - Section 6: Immunity to conducted disturbances, induced by radio-frequency fields_
+
+* [[[IEC_60068_2_30,IEC 60068-2-30:2005]]] _Environmental testing - Part 2: Test methods - Section 30: Test Db: Damp heat, cyclic (12+12 hour cycle)_

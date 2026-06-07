@@ -1,0 +1,91 @@
+== Mechanical performance tests
+
+=== Vibration
+
+In <<table-15>> and <<table-16>> two vibration tests (random and sinusoidal) are described. In general, it should be avoided to require both tests in OIML Recommendations.
+
+Implementation of the random vibration test is preferred in OIML Recommendations.
+
+The sinusoidal vibration test shall be applied only in those cases where the measuring instrument is expected to be typically subjected to sinusoidal vibrations.
+
+For both tests selection guidance can be found in <<IEC60068-3-8>>.
+
+[[table-15]]
+.Vibration (random)
+[cols="1,7"]
+|===
+| Applicable standard | <<IEC60068-2-47>>, <<IEC60068-2-64>>, <<IEC60068-3-8>>
+| Test method | Exposure to random vibration
+| Applicability | General
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of random vibration
+| Test procedure in brief | The test comprises exposure to vibration for a time sufficient for testing the various functions of the EUT during the exposure. The EUT shall, in turn, be tested in three, mutually perpendicular axes mounted on a rigid fixture by its normal mounting means. The EUT shall normally be mounted in such a way that the gravity vector points in the same direction as it would in normal use. If the measurement principle is such that the effect of the direction of the gravity vector can be considered negligible, the EUT may be mounted in any position.
+|===
+
+[cols="1,1,1,1,1"]
+|===
+| Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | *2* | 3 | unit
+
+| Total frequency range | 10-150 | *10-150* | 10-150 | Hz
+| Total RMS level | 1.6 | *7* | 16 | m·s⁻²
+| ASD level 10-20 Hz | 0.05 | *1* | 5 | m²·s⁻³
+| ASD level 20-150 Hz | -3 | *-3* | -3 | dB/octave
+| Duration per axis | 4+| For each of the orthogonal directions the vibration exposure time shall be 2 minutes in each functional mode as defined in the applicable Recommendation or for a longer period if necessary for performing the measurement.
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+Test level: total frequency range, total RMS level, ASD (acceleration spectral density) level, number of axes, duration per axis.
+
+[[table-16]]
+.Vibration (sinusoidal)
+[cols="1,7"]
+|===
+| Applicable standards | <<IEC60068-2-6>>, <<IEC60068-2-47>>, <<IEC60068-3-8>>
+| Test method | Exposure to sinusoidal vibration
+| Applicability | Applicable for measuring instruments used in locations where predominantly sinusoidal vibrations may be expected (see 8.3).
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of sinusoidal vibration.
+| Test procedure in brief | The test comprises exposure to vibration for a time sufficient for testing the various functions of the EUT during the exposure. The EUT shall be tested by exposing it to the specified acceleration level and sweeping the vibration frequency in the specified frequency range, at 1 octave/min, for the specified number of sweep cycles per axis. The EUT shall be tested in three, mutually perpendicular main axes while mounted on a rigid fixture by its normal mounting means. The EUT shall normally be mounted in such a way that the gravity vector points in the same direction as it would in normal use. If the measurement principle is such that the effect of the direction of the gravity vector can be considered negligible, the EUT may be mounted in any position.
+|===
+
+[cols="1,1,1,1,1"]
+|===
+| Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | *2* | 3 | unit
+
+| Frequency range | 10-150 | *10-150* | 10-150 | Hz
+| Max. acceleration level | 2 | *10* | 20 | m·s⁻²
+| Number of sweep cycles per axis | 20 | *20* | 20 | -
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. test level: frequency range, maximum acceleration, number of cycles,
+. mounting of the EUT,
+. pre-conditioning.
+
+=== Mechanical shock
+
+[[table-17]]
+.Mechanical shock
+[cols="1,7"]
+|===
+| Applicable standard | <<IEC60068-2-31>>
+| Test method | Dropping the EUT onto a rigid surface after tilting
+| Applicability | General
+| Object of the test | Verification of compliance with the provisions in 5.1.1 or 5.1.2 under conditions of mechanical shocks
+| Test procedure in brief | The EUT, standing in its normal position of use on a rigid surface, is tilted along one bottom edge and is subsequently allowed to fall freely back on to the test surface. The height of fall is the distance between the opposite bottom edge and the test surface. However, the angle between the bottom and the test surface shall not exceed 30°.
+|===
+
+[cols="1,1,1,1"]
+|===
+| Test level index | 1 | 2 | unit
+
+| Height of fall | 25 | 50 | mm
+| Number of falls (on each bottom edge) | 1 | 1 | -
+|===
+
+Information to be presented in the applicable Recommendation, where relevant
+
+. conditioning procedure,
+. fitting of cables, covers, etc.,
+. way of execution of the test in case the bottom is not a rectangle,
+. test level: height of drop on to a face.

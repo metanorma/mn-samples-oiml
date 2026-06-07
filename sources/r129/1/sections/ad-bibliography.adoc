@@ -1,0 +1,20 @@
+[[annex-d]]
+[appendix]
+[bibliography]
+== Bibliography
+
+* [[[OIML_R_76_2006,OIML R 76:2006]]], span:organization[OIML], span:title[_Non-automatic weighing instruments_], span:publisher[OIML], span:date.issued[2006]
+
+* [[[OIML_R_51_2006,OIML R 51:2006]]], span:organization[OIML], span:title[_Automatic catchweighing instruments_], span:publisher[OIML], span:date.issued[2006]
+
+* [[[VIM,OIML V 2-200:2012]]], span:organization[BIPM], span:organization[IEC], span:organization[IFCC], span:organization[ISO], span:organization[IUPAC], span:organization[IUPAP], span:organization[OIML], span:title[_International Vocabulary of Metrology - Basic and General Concepts and Associated Terms (VIM)_], span:publisher[OIML], span:date.issued[2012]
+
+* [[[VIML,OIML V 1:2013]]], span:organization[OIML], span:title[_International vocabulary of terms in legal metrology (VIML)_], span:publisher[OIML], span:date.issued[2013]
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]], span:organization[OIML], span:title[_General requirements for measuring instruments - Environmental conditions_], span:publisher[OIML], span:date.issued[2013]
+
+* [[[OIML_D_31_2008,OIML D 31:2019]]], span:organization[OIML], span:title[_General requirements for software controlled measuring instruments_], span:publisher[OIML], span:date.issued[2019]
+
+* [[[ISO_IEC_18033,ISO/IEC 18033:2015]]] _Information technology - Security techniques - Encryption algorithms - Part 1: General_
+
+* [[[OIML_B_6_2,OIML B 6-2:2019]]], span:organization[OIML], span:title[_Directives for OIML technical work. Part 2: Guide to the drafting and presentation of OIML publications_], span:publisher[OIML], span:date.issued[2019]

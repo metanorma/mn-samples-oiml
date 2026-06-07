@@ -1,0 +1,140 @@
+== Type evaluation
+
+A type of instrument is presumed to comply with the requirements of R 129-1, 4.2, 4.3 and 4.4, if it has passed the examination and tests specified in Annex A.
+
+=== Documentation
+
+==== General documentation
+
+Submission of an instrument to a national metrology service for type evaluation shall be accompanied by sufficient technical information including drawings, specifications, photographs and descriptions to ensure complete understanding of the construction and method of operation of the instrument.
+
+Details of the measurement data contained in the memory and calculation methods shall also be provided.
+
+==== Software documentation
+
+This Recommendation does not ask manufacturers for extra declarations that the documentation is correct and complete; however, any country may require this declaration, as a part of the specified software examination process.
+
+The manufacturer shall submit all such documentation to allow for a reasonable evaluation of the legally relevant software. This includes:
+
+* a description of the legally relevant software and how the requirements are met:
+* list of the software modules that belong to the legally relevant part;
+* description of the software interfaces of the legally relevant software part and of the commands and data flows via this interface;
+* list of the parameters to be protected and description of the protection means;
+* a description of suitable system configuration and minimal required resources (see R 129-1, B.5.1(a));
+* a description of the means of securing the operating system (password, etc. if applicable);
+* a description of the (software) sealing method(s);
+* an overview of the system hardware, e.g. topology block diagram, type of computer(s), type of network, etc. Where a hardware component is deemed legally relevant or where it performs legally relevant functions, this shall also be identified;
+* a description of the user interface, menus and dialogues;
+* the software identification and instructions for obtaining it from an instrument in use;
+* if an audit trail is realised in the software, a description on how to access the audit trail;
+* the operating manual;
+* a list of commands of each hardware interface of the measuring instrument/component;
+* a description of the accuracy of the algorithms (e.g. filtering of A/D conversion results, price calculation, rounding algorithms, etc.);
+* a description of the datasets stored or transmitted;
+* if detection of significant defects is realised in the software, a list of significant defects that are detected and a description of the detecting algorithm;
+* if fault detection is realised in the software, a list of faults that are detected and a description of the detecting algorithm;
+* a list of durability errors that are detected by the software and, if necessary for understanding, a description of the detecting algorithms.
+
+=== Instruments submitted for testing
+
+Examination shall be carried out on one or more sample instruments submitted for laboratory tests. If all tests cannot be completed in the laboratory, an examination of a sample instrument on site shall also be carried out.
+
+=== Laboratory examination
+
+The instrument shall be examined in conjunction with the submitted documentation to ensure that it complies with the metrological and technical requirements specified in R 129-1.
+
+=== Laboratory tests
+
+==== General
+
+Laboratory tests shall be performed in accordance with any limitations of use marked on the instrument or included in any documentation accompanying the instrument.
+
+==== Test objects
+
+The test shall be carried out using appropriate test objects of various sizes and of stable dimensions. The test objects shall be opaque, rigid and with flat faces and well defined straight edges. Test objects may consist of rectangular boxes with dimensions which are known to an expanded uncertainty (coverage factor k=2) of not more than one-third of the mpe. The dimensions shall also be checked to the same uncertainty when used at the extreme values of the influence factors. The dimensions of these objects shall lie within the range of values bounded by the minimum and maximum dimensions measurable by the instrument. All adjacent faces and edges shall be perpendicular to each other.
+
+The dimensions of the test object shall be stem:[\mathrm{N} \times d] where N is a whole number and d is the value of the scale interval. An acceptable tolerance for the product of stem:[\mathrm{N} \times d] is stem:[\pm 1/3] d. For the different scale intervals, namely stem:[1, 2] or stem:[5 \times 10^n], stem:[\mathrm{N} = 10, 20], etc. would be suitable as a test object for all. This is applicable for type evaluation and verification tests.
+
+Instruments may be equipped with an extended indication device or mode which displays the indication with a scale interval equal to, or less than, 1/5 d. Where an instrument has such a feature, and that feature is used during type evaluation or verification, the dimensions of the test object are not restricted to stem:[\mathrm{N} \times d] provided that the dimensions of the test object are known to at least 1/5 d.
+
+==== Acceptable indications
+
+For compliance with the mpe, indications where the error of indication is less than or equal to the absolute value of the mpe are acceptable.
+
+For compliance with the significant fault, a difference of 1 d between indications with and without the disturbance applied is acceptable. A difference of more than 1 d is not acceptable.
+
+==== Tests for influence factors, disturbances, and light and acoustic effects
+
+Before a test is conducted and without a test object on the instrument, the instrument shall be in a zero or ready condition. The test object shall be placed in accordance with the manufacturer's instructions. Instruments tested under laboratory conditions shall comply with the mpe (R 129-1, 4.1.2) for influence factors and humidity effects (R 129-1, 4.2.1), and comply with the significant fault requirements for disturbances (R 129-1, 4.3). Instruments based on light or acoustic techniques shall comply with the mpe (R 129-1, 4.1.2) for light and acoustic effects (R 129-1, 4.4).
+
+==== Tests for irregular shaped objects
+
+For irregular shaped test objects the smallest dimension of that test object for an axis shall be equal to, or greater than, the minimum dimension for that axis. However, it must be possible to determine the dimensions of the object to such an accuracy that the smallest rectangular box which fully encloses the object can be calculated within the required uncertainty.
+
+If the instrument is marked with a minimum protrusion to be measured, a test object with that size protrusion shall be used to verify the marked limit.
+
+==== Tests for different orientations and positions
+
+If the instrument does not depend on a particular orientation of the object, several different orientations shall be tested.
+
+If the instrument does not depend on the object being placed in a particular position on the measuring plane, several different positions shall be tested.
+
+==== Tests for automatic instruments
+
+For automatic instruments, tests at the maximum and minimum speeds of relative movement shall be carried out.
+
+==== Tests for multi-interval instruments
+
+For multi-interval instruments, tests shall be performed for all values of the scale interval, i.e. stem:[d_1, d_2, \dots, d_r].
+
+==== Tests for different surfaces
+
+Instruments shall be tested with objects of varying surface characteristics to check the limits of such characteristics marked on the instrument or included in the user's manual. R 129-1, Annex A, gives guidelines on known surface characteristics to be checked such as colour (uniform and non-uniform), contrast of colour with the measurement plane, reflectivity and absorption of sound and light, transparency, roughness or other.
+
+==== Tests for interface
+
+If the instrument is provided with an interface through which ancillary devices or other instruments can be connected, the tests shall be carried out with a sample device connected and tests applicable to the interface applied (see R 129-1, 5.5.2). The immunity to RF electromagnetic fields test (see A.3.5) may be carried out on an instrument with only an unterminated cable, connected to the interface. The length of this cable will be in accordance with the relevant standard referenced in the test procedure.
+
+==== Software evaluation
+
+The risk associated with the software of multi-dimensional measuring instruments is level I. Validation in accordance with examination level A is adequate for solutions implemented to fulfil requirements at the normal severity level.
+
+<<table-1>> below provides an overview of the proposed verification and evaluation methods applicable to this Recommendation.
+
+<<table-2>> below provides an overview of the combination of various software requirements and relevant evaluation methods. The acronyms in <<table-2>> are defined in <<table-1>>.
+
+[[table-1]]
+.Overview of the proposed verification and evaluation methods
+|===
+|Abbreviation |Description |Application |Preconditions, tools for application |Special skills for performing
+
+|AD |Analysis of the documentation and evaluation of the design (D31, 7.3.2.1 <<OIML_D_31_2019>>) |Always |Documentation |-
+
+|VFTM |Verification by functional testing of metrological functions (D31, 7.3.2.2 <<OIML_D_31_2019>>) |Correctness of the algorithms, uncertainty, compensating and correcting algorithms, rules for price calculation |Documentation, specimen |-
+
+|VFTSw |Verification by functional testing of software functions (D31, 7.3.2.3 <<OIML_D_31_2019>>) |Correct functioning of communication, indication, evidence of intervention, protection against operating errors, protection of parameters, detection of significant defects |Documentation, specimen |-
+|===
+
+[[table-2]]
+.Combination of software requirements and relevant evaluation methods
+|===
+|Requirement (R 129-1) |Examination level A (Normal examination level)
+
+|6.1 Software identification |AD+VFTSw
+|6.2 Correctness of algorithms and functions |AD+VFTM
+2+|_Securing and protecting software, parameters and measurement data and the measurand value_
+|6.3 Securing and protecting software |AD+VFTSw
+|6.3 Securing and protecting parameters |AD+VFTSw
+|6.3 Securing measurement data and the measurand value |AD+VFTSw
+|6.4 Authentication of the presented measurement results |AD+VFTSw
+|6.5 Audit trail |AD+VFTSw
+|6.7 Detection of significant defects |AD+VFTSw
+|6.8 Support for durability protection |AD+VFTSw
+2+|_Requirements for specific configurations_
+|B.1.1 to B.1.3 Separation of parts |AD+VFTSw
+|B.2 Shared indications |AD+VFTSw
+|B.3 Storage of data |AD+VFTSw
+|B.4 Transmission of measurement process information |AD+VFTSw
+|B.5 Operating system |AD+VFTSw
+|B.6 Software update |AD+VFTSw
+|===

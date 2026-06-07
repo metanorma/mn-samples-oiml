@@ -1,0 +1,79 @@
+== Type evaluation
+
+=== Application for type evaluation
+
+==== {blank}
+
+The applicable Recommendation shall specify the minimum set of documentation to be submitted together with the application for type evaluation.
+
+NOTE: A non-exhaustive list of documentation that may be required is included in Annex A (informative).
+
+==== {blank}
+
+Furthermore, the application for type evaluation shall be accompanied by a document or other evidence that supports the assumption that the design and characteristics of the measuring instrument comply with the requirements of the applicable Recommendation, in which the general requirements of this Document have been incorporated.
+
+=== General requirements
+
+The applicable Recommendation shall include the following examinations and tests to verify compliance with the general requirements for measuring instruments:
+
+. examination to verify whether the measuring instrument complies with the provisions in 5.1;
+. performance tests to verify compliance with the provisions in 5.1.1 and 5.1.2, regarding influence quantities;
+. durability evaluation (i.e. tests and/or other means) to verify compliance with the provisions in 5.1.3;
+. examination and tests to verify compliance of the electronic measuring instrument with the provisions in 5.3, 5.4, and 5.5 if applicable.
+
+All measuring instruments of the same category whether or not equipped with checking facilities and whether or not equipped with durability protection facilities, are subject to the same test program, unless the applicable Recommendation specifies otherwise. The test program shall be specified in the applicable Recommendation, according to the operating conditions of the category of measuring instruments.
+
+=== Instrument performance tests
+
+During performance tests the EUT shall be operational (i.e. the power shall be switched on), except if the test procedure in this Document or in the applicable Recommendation specifies otherwise, and shall comply with
+
+. the provisions in 5.1.1, the maximum permissible error being the maximum permissible error on type evaluation, and
+. the provisions in 5.1.2.
+
+=== Instrument durability tests
+
+If a durability test has to be performed, the performance tests shall be carried out before the durability test. The Recommendation shall specify which performance test(s) shall be repeated after the durability test.
+
+During performance tests carried out after each durability test, the measuring instrument shall comply with the provisions in 5.1.3.
+
+NOTE: After each durability test, only performance tests that are relevant to the durability test concerned shall be carried out.
+
+=== Test program
+
+The applicable Recommendation may specify details concerning the test program, including
+
+. which tests shall be performed,
+. the order in which the tests are to be performed (if necessary, taking into account the technology),
+. determination of the performance characteristics (initial intrinsic error), prior to all other performance and durability tests,
+. determination of the intrinsic error, prior to those performance tests for which the EUT shall comply with the provisions in 5.1.2, and
+. evaluation of test results.
+
+=== Test procedures
+
+==== {blank}
+
+The test procedures of the most common performance tests are specified in clauses 9--14.
+
+NOTE: Annex B provides a general approach to the durability concept.
+
+==== {blank}
+
+The applicable Recommendation shall specify
+
+. necessary details concerning the tests, including those already stated in clauses 9--14,
+. required severity and associated test levels in accordance with the classification set out in clause 8, where applicable, and
+. allowed deviations from the described tests, if necessary. (For example, a limited temperature range for a measuring instrument may lead to modification of the static temperature performance test.)
+
+NOTE: As a rule, only one influence quantity may be varied during a test, while all others shall be kept at their reference values.
+
+=== Number of specimens to be submitted to tests
+
+The test shall be performed on the number of specimens as specified in the applicable Recommendation.
+
+=== Test arrangement (Equipment under test (EUT))
+
+As a rule, tests shall be carried out on the complete measuring instrument. If the size or configuration of the measuring instrument does not allow for testing the complete EUT or if only a separate device or module of the measuring instrument is concerned, the applicable Recommendation may indicate that the tests, or certain tests, are performed on the devices separately while making use of an instrument simulating setup, sufficiently representing its normal operation.
+
+In such cases the device(s) shall be in operation.
+
+NOTE: It is not intended to dismantle measuring instruments or devices for the purpose of testing.

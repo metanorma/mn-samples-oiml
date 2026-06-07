@@ -1,0 +1,9 @@
+== Withdrawal of a Test Laboratory from the OIML-CS
+
+=== {blank}
+
+A Test Laboratory may decide, for operational, business or commercial reasons, to withdraw as a Test Laboratory from the OIML-CS, or to reduce their scope. In the event that a Test Laboratory wishes to withdraw from the OIML-CS or to reduce their scope, the Test Laboratory shall give notice, via the relevant OIML Issuing Authority, to the Executive Secretary of its intention, but shall meet all current obligations to customers before actual withdrawal or reduction of scope.
+
+=== {blank}
+
+If the Test Laboratory is withdrawn from the OIML-CS at the proposal of the Management Committee, any ongoing applications shall be completed under the conditions defined by the Management Committee. These conditions should take into account the fact that tests and examinations may already have started.

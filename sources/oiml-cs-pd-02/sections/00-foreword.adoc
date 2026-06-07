@@ -1,0 +1,36 @@
+== Foreword
+
+This publication has been prepared by the Maintenance Group of the OIML Certification System (OIML-CS) Management Committee.
+
+The Management Committee approved this Edition 3 of OIML-CS PD-02 by electronic ballot on 09 September 2022 it was published on 14 November 2022. This edition takes effect immediately upon publication.
+
+This publication is directly related to OIML B 18 Framework for the OIML Certification System (OIML-CS) <<OIML_B_18>> which contains the framework for the operation of the OIML-CS.
+
+[cols="3*",options="header"]
+|===
+| Edition | Document | Report on Voting/Acceptance
+
+| PD-02 Edition 1
+| PD-02 Edition 1
+| Published July 2017
+
+| PD-02 Edition 2
+| PD-02 Edition 2
+| Published 20 December 2018
+
+| PD-02 Edition 3 (Draft)
+| OIML-CS_SC3_P1_SG3_N052
+| Draft for MG comments: 2022-01-11
+
+| PD-02 Edition 3 (Draft)
+| OIML-CS_SC3_P1_SG3_N062
+| Draft for MG comments: 2022-03-01
+
+| PD-02 Edition 3 (Draft)
+| OIML-CS_SC1_P1_N311
+| Draft for MC approval: 2022-03-10
+
+| PD-02 Edition 3 (Draft)
+| OIML-CS_SC1_P4_N094
+| Draft for MC approval: 2022-07-15
+|===

@@ -1,0 +1,28 @@
+[bibliography]
+== References
+
+* [[[OIML_B_18,OIML B 18:2022]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2022]
+
+* [[[OIML_B_15,OIML B 15:2011]]], span:organization[OIML], span:title[_OIML Strategy_], span:publisher[OIML], span:date.issued[2011]
+
+* [[[ISO_IEC_17025,ISO/IEC 17025]]] _General requirements for competence of testing and calibration laboratories_
+
+* [[[OIML_D_30,OIML D 30]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17025 to the assessment of Testing Laboratories involved in legal metrology_], span:publisher[OIML]
+
+* [[[ISO_IEC_17065,ISO/IEC 17065:2012]]] _Conformity assessment -- Requirements for bodies certifying products, processes and services_
+
+* [[[ISO_IEC_17020,ISO/IEC 17020:2012]]] _Conformity assessment -- Requirements for the operation of various types of bodies performing inspection_
+
+* [[[OIML_IAF_AP,Joint OIML-IAF]]] _Joint OIML-IAF Assessment Procedure in the field of legal metrology (January 2020)_
+
+* [[[OIML_D_32,OIML D 32:2018]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17065 to assessment of measuring instrument certification bodies in legal metrology_], span:publisher[OIML], span:date.issued[2018]
+
+* [[[OIML_D_37,OIML D 37:2022]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML Certification System_], span:publisher[OIML], span:date.issued[2022]
+
+* [[[OIML_ILAC_AP_2,Joint OIML-ILAC]]] _Joint OIML-ILAC Assessment Procedure in the field of legal metrology (February 2018)_
+
+* [[[OIML_ILAC_AP,Joint OIML-ILAC]]] _Joint OIML-ILAC Assessment Procedure in the field of legal metrology (February 2018)_
+
+* [[[OIML_CS_PD_02,OIML-CS PD-02]]], span:organization[OIML], span:title[_Procedures to approve Legal Metrology Experts and Management System Experts_], span:publisher[OIML]
+
+* [[[OIML_CS_OD_02,OIML-CS OD-02]]], span:organization[OIML], span:title[_Test Laboratories Forum_], span:publisher[OIML]

@@ -1,0 +1,53 @@
+= General requirements for measuring instruments -- Environmental conditions
+:docidentifier: OIML D 11
+:series: D
+:docnumber: 11
+:edition: 2013
+:language: en
+:doctype: international-document
+:title-main-en: General requirements for measuring instruments -- Environmental conditions
+:title-main-fr: Exigences générales pour les instruments de mesure -- Conditions environnementales
+:technical-committee-number: 5
+:technical-committee: Environmental conditions
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-terminology.adoc[]
+
+include::sections/03-instructions.adoc[]
+
+include::sections/04-requirements.adoc[]
+
+include::sections/05-type-evaluation.adoc[]
+
+include::sections/06-initial-verification.adoc[]
+
+include::sections/07-test-levels.adoc[]
+
+include::sections/08-performance-tests.adoc[]
+
+include::sections/09-climate-tests.adoc[]
+
+include::sections/10-mechanical-tests.adoc[]
+
+include::sections/11-external-wiring.adoc[]
+
+include::sections/12-electromagnetic.adoc[]
+
+include::sections/13-battery-tests.adoc[]
+
+include::sections/14-references.adoc[]
+
+include::sections/aa-annex-a.adoc[]
+
+include::sections/ab-annex-b.adoc[]
+
+include::sections/ac-annex-c.adoc[]
+
+include::sections/ad-annex-d.adoc[]

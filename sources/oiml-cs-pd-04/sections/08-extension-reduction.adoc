@@ -1,0 +1,15 @@
+== Extension or reduction of scope of a Test Laboratory
+
+=== {blank}
+
+Where a Test Laboratory wishes to reduce its scope the relevant OIML Issuing Authority shall inform the Executive Secretary. The Executive Secretary shall amend the scope of the Test Laboratory on the OIML-CS pages of the OIML website. Approval of the Management Committee is not required in this situation, although the Executive Secretary will notify the Management Committee of the change.
+
+=== {blank}
+
+A Test Laboratory may apply to extend its scope by completing the Application Form and selecting the option for Modification/extension to scope in section 4. The Application Form must be endorsed by an OIML Issuing Authority. The Application Form and relevant accompanying information shall be sent to the Executive Secretary, either by a representative of the OIML Issuing Authority which endorsed the application, or a representative of the Test Laboratory. The Executive Secretary will process the application in accordance with the relevant and appropriate procedures detailed above.
+
+=== {blank}
+
+Where the Test Laboratory already has an edition of an OIML Recommendation in its scope, and it wishes to add a new edition of the OIML Recommendation to its scope following an update of the OIML Recommendation, it is sufficient for the Test Laboratory to provide a gap analysis as evidence of its competence. An accreditation assessment and/or peer assessment, according to the new edition of the OIML Recommendation, is not required in this instance.
+
+NOTE: This process for an extension of scope does not apply in the case where an OIML Recommendation has been revised. See OIML B 6-1 <<OIML_B_6_1>> for information regarding the review process for OIML publications.

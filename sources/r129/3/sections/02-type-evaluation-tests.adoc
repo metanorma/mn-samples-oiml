@@ -1,0 +1,2013 @@
+== Type evaluation tests
+
+=== Summary of type evaluation (A.1.1–A.4.2)
+
+Report no.: ___
+
+Application no.: ___
+
+Manufacturer: ___
+
+Make and model: ___
+
+.Summary of type evaluation
+|===
+|Section |Test |Report page |Pass |Fail |Remarks
+
+|2.2 |Instrument warm-up time (A.1.1) | | | |
+|2.3 |Repeatability (A.1.2) | | | |
+|2.4 5+|Static temperatures (A.2.1)
+|2.4.1 |Initial reference temperature = ___ stem:[°C] | | | |
+|2.4.2 |High temperature = ___ stem:[°C] | | | |
+|2.4.3 |Low temperature = ___ stem:[°C] | | | |
+|2.5 5+|Damp heat
+|2.5.1 5+|Steady state (non-condensing) (A.2.2)
+|2.5.1.1 |Initial reference temperature and 50 % relative humidity | | | |
+|2.5.1.2 |High temperature and 85 % relative humidity | | | |
+|2.5.1.3 |End reference temperature and 50 % relative humidity | | | |
+|2.5.2 5+|Cyclic (condensing) (A.3.6)
+|2.5.2.1 |DH cyclic | | | |
+|2.6 5+|AC mains voltage variation (A.2.3)
+|2.6.1 |Nominal voltage | | | |
+|2.6.2 |Nominal voltage +10 % | | | |
+|2.6.3 |Nominal voltage −15 % | | | |
+|2.7 5+|Low voltage of internal battery (A.2.4)
+|2.7.1 |Nominal voltage | | | |
+|2.7.2 |Low voltage | | | |
+|2.7.3 |90 % of minimum voltage | | | |
+|2.8 |AC mains voltage dips, short interruptions and reductions (A.3.1) | | | |
+|2.9 5+|Electrical bursts test (A.3.2)
+|2.9.1 |Power supply lines | | | |
+|2.9.2 |Input/output control circuits and communication lines | | | |
+|2.10 5+|Electrostatic discharge (A.3.3)
+|2.10.1 |Direct application | | | |
+|2.10.2 |Indirect application | | | |
+|2.11 5+|Electrical surges (A.3.4)
+|2.11.1 5+|Surges on AC mains power lines (A.3.4.1)
+|2.11.1.1 |AC surge voltage at stem:[0°] | | | |
+|2.11.1.2 |AC surge voltage at stem:[90°] | | | |
+|2.11.1.3 |AC surge voltage at stem:[180°] | | | |
+|2.11.1.4 |AC surge voltage at stem:[270°] | | | |
+|2.11.2 |Surges on signal, data and control lines (A.3.4.2) | | | |
+|2.12 |Immunity to RF electromagnetic fields (A.3.5) | | | |
+|2.12.1 |Radiated RF electromagnetic fields (A.3.5.1) | | | |
+|2.12.2 |Conducted RF electromagnetic fields (A.3.5.2) | | | |
+|===
+
+.Summary of type evaluation (continued)
+|===
+|Section |Test |Report page |Pass |Fail |Remarks
+
+|2.13 5+|Ambient light (A.4.1)
+|2.13.1 |200 lx to 500 lx (reference) | | | |
+|2.13.2 |100 lx | | | |
+|2.13.3 |1000 lx to 1500 lx | | | |
+|2.13.4 |Other intensity ___ lx | | | |
+|2.14 5+|Acoustics (A.4.2)
+|2.14.1 |Reference sound level (___ dB) | | | |
+|2.14.2 |Sound level 100 dB | | | |
+|2.15 |Shape of the object (A.1.6) | | | |
+|2.16 |Uniform surface colour test (A.1.6) | | | |
+|2.17 |Non uniform surface colour test (A.1.6) | | | |
+|2.18 |Contrast of colour with background colour test (A.1.6) | | | |
+|2.19 |Surface reflectivity and absorption of sound test (A.1.6) | | | |
+|2.20 |Surface reflectivity and absorption of colour test (A.1.6) | | | |
+|2.21 |Uniformity of density test (A.1.6) | | | |
+|2.22 |Transparency test (A.1.6) | | | |
+|2.23 |Surface roughness test (A.1.6) | | | |
+|2.24 |Protrusions on the surface test (A.1.6) | | | |
+|2.25 |Orientation and position test (A.1.6) | | | |
+|2.26 5+|Speed of relative movement test (A.1.6)
+|2.26.1 |Minimum speed | | | |
+|2.26.2 |Maximum speed | | | |
+|2.27 |Examination of the construction of the instrument (R 129-1, 5.1.2) | | | |
+|===
+
+=== Instrument warm-up time (A.1.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+.Test object, close to minimum dimensions — Test object ID: ___
+|===
+|Time |Initial zeroing/ready condition (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|0 minutes | | | | | | | | |
+|5 minutes | | | | | | | | |
+|15 minutes | | | | | | | | |
+|30 minutes | | | | | | | | |
+|===
+
+.Test object, close to maximum dimensions — Test object ID: ___
+|===
+|Time |Initial zeroing/ready condition (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|0 minutes | | | | | | | | |
+|5 minutes | | | | | | | | |
+|15 minutes | | | | | | | | |
+|30 minutes | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Repeatability (A.1.2)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ | |Initial zeroing (Ready condition) | |yes/no
+|unit = | |unit = | |unit = | | | | |
+|===
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Static temperatures (A.2.1)
+
+==== Initial reference temperature (A.2.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | | |
+|2 | | | | | | | | | | | | |
+|3 | | | | | | | | | | | | |
+|4 | | | | | | | | | | | | |
+|5 | | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== High and low temperatures (A.2.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+.High temperature
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | | |
+|2 | | | | | | | | | | | | |
+|3 | | | | | | | | | | | | |
+|4 | | | | | | | | | | | | |
+|5 | | | | | | | | | | | | |
+|===
+
+.Low temperature
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | | |
+|2 | | | | | | | | | | | | |
+|3 | | | | | | | | | | | | |
+|4 | | | | | | | | | | | | |
+|5 | | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Reference temperature (A.2.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | | |
+|2 | | | | | | | | | | | | |
+|3 | | | | | | | | | | | | |
+|4 | | | | | | | | | | | | |
+|5 | | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Damp heat
+
+==== Steady state (non-condensing) (A.2.2)
+
+===== Initial reference temperature and 50 % relative humidity
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|4 | | | | | | | | | | | |
+|5 | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+===== High temperature and 85 % relative humidity
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc
+
+|1 | | | | | | | | | | | |
+|2 | | | | | | | | | | | |
+|3 | | | | | | | | | | | |
+|4 | | | | | | | | | | | |
+|5 | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+===== End reference temperature and 50 % relative humidity
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | | |
+|2 | | | | | | | | | | | | |
+|3 | | | | | | | | | | | | |
+|4 | | | | | | | | | | | | |
+|5 | | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Cyclic (condensing) (A.3.6)
+
+===== Damp heat cyclic
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+.Damp heat, cyclic (24 h × 2 cycles)
+[cols="9*"]
+|===
+|Test object ID |Initial zeroing (yes/no) 3+|Indication |SF* |SF* |Result |Comment
+| | |L |W |H |Y/N |Y/N |Pass/Fail |
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|4 | | | | | | | |
+|5 | | | | | | | |
+|===
+
+.After exposure — Reference temperature ___ stem:[°C]
+[cols="9*"]
+|===
+|Test object ID |Initial zeroing (yes/no) 3+|Indication |SF* |SF* |Result |Comment
+| | |L |W |H |Y/N |Y/N |Pass/Fail |
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|4 | | | | | | | |
+|5 | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== AC mains voltage variation (A.2.3)
+
+[[section-2-6-1]]
+==== Nominal voltage (A.2.3)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | | |
+|2 | | | | | | | | | | | | |
+|3 | | | | | | | | | | | | |
+|4 | | | | | | | | | | | | |
+|5 | | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Nominal voltage −15 % (A.2.3)
+
+[Same form layout as <<section-2-6-1>>]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Nominal voltage +10 % (A.2.3)
+
+[Same form layout as <<section-2-6-1>>]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Low voltage of internal battery (A.2.4)
+
+==== Nominal voltage (A.2.4)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+
+|1 | | | | | | | | | | | | |
+|2 | | | | | | | | | | | | |
+|3 | | | | | | | | | | | | |
+|4 | | | | | | | | | | | | |
+|5 | | | | | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Low voltage (A.2.4)
+
+[Same form layout as nominal voltage above]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== 90 % of minimum voltage (A.2.4)
+
+[Same form layout as nominal voltage above]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== AC mains voltage dips, short interruptions and reductions (A.3.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+| | |Length = ___ | |Width = ___ | |Height = ___ |
+|Test object ID |unit = | |unit = | |unit = | |
+|===
+
+.Instrument
+[cols="11*"]
+|===
+|Reduction in amplitude to (as % marked nom voltage) |Duration* (in cycles) |Number of disturbances ≥ 10 |Time between disturbances ≥ 10 s 3+|Indication |SF* |SF* |Result |Comment
+| | | | |L |W |H |Y/N |Y/N |Pass/Fail |
+|units 4+| | | | | | |
+|0 |0 |0 |− | | | | | | |
+|0 |0.5 | | | | | | | | |
+|0 |1 | | | | | | | | |
+|40 |10/12 | | | | | | | | |
+|70 |25/30 | | | | | | | | |
+|80 |250/300 | | | | | | | | |
+|0 |250/300 | | | | | | | | |
+|===
+
+.Ancillary device
+[cols="11*"]
+|===
+|Reduction in amplitude to (as % marked nom voltage) |Duration* (in cycles) |Number of disturbances ≥ 10 |Time between disturbances ≥ 10 s 3+|Indication |SF* |SF* |Result |Comment
+| | | | |L |W |H |Y/N |Y/N |Pass/Fail |
+|units 4+| | | | | | |
+|0 |0 |0 |− | | | | | | |
+|0 |0.5 | | | | | | | | |
+|0 |1 | | | | | | | | |
+|40 |10/12 | | | | | | | | |
+|70 |25/30 | | | | | | | | |
+|80 |250/300 | | | | | | | | |
+|0 |250/300 | | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+NOTE: amplitude* = in case of a marked voltage range, use the average value as the marked nominal voltage.
+
+NOTE: duration* = values applicable for 50 Hz/60 Hz respectively.
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Electrical bursts (A.3.2)
+
+==== Power supply lines (A.3.2)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID | |Length = ___ unit = ___ | |Width = ___ unit = ___ | |Height = ___ unit = ___ | |Initial zeroing (Ready condition) | |yes/no
+| | | | | | | | | | |
+|===
+
+.Instrument
+[cols="11*"]
+|===
+3+|Connection |Polarity 7+|Results
+|L–ground |N–ground |PE–ground | 3+|Indication |SF* Y/N |SF* Y/N |Result Pass/Fail |Comment
+| | | | |L |W |H | | | |
+2+|Without disturbance |X 2+|pos/neg 6+|
+| | | | | | | | | | |
+| | | | | | | | | | |
+2+|Without disturbance |X 2+|pos/neg 6+|
+| | | | | | | | | | |
+| | | | | | | | | | |
+2+|Without disturbance |X 2+|pos/neg 6+|
+| | | | | | | | | | |
+| | | | | | | | | | |
+|===
+
+.Ancillary device
+[cols="11*"]
+|===
+3+|Connection |Polarity 7+|Results
+|L–ground |N–ground |PE–ground | 3+|Indication |SF* Y/N |SF* Y/N |Result Pass/Fail |Comment
+| | | | |L |W |H | | | |
+2+|Without disturbance |X 2+|pos/neg 6+|
+| | | | | | | | | | |
+| | | | | | | | | | |
+2+|Without disturbance |X 2+|pos/neg 6+|
+| | | | | | | | | | |
+| | | | | | | | | | |
+2+|Without disturbance |X 2+|pos/neg 6+|
+| | | | | | | | | | |
+| | | | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+NOTE: L = Phase, N = Neutral, PE = Protective Earth.
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Input/Output circuits and communication lines (A.3.2)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID | |Length = ___ unit = ___ | |Width = ___ unit = ___ | |Height = ___ unit = ___ | |Initial zeroing (Ready condition) | |yes/no
+| | | | | | | | | | |
+|===
+
+.Instrument
+[cols="9*"]
+|===
+|Connection |Polarity 7+|Results
+|Cable/Interface | 3+|Indication |SF* Y/N |SF* Y/N |Result Pass/Fail |Comment
+| | |L |W |H | | | |
+|Without disturbance |pos/neg | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Without disturbance |pos/neg | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Without disturbance |pos/neg | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+.Ancillary device
+[cols="9*"]
+|===
+|Connection |Polarity 7+|Results
+|Cable/Interface | 3+|Indication |SF* Y/N |SF* Y/N |Result Pass/Fail |Comment
+| | |L |W |H | | | |
+|Without disturbance |pos/neg | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Without disturbance |pos/neg | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Without disturbance |pos/neg | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+Remarks (explain or make a sketch indicating the location of clamp on the cable): ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Electrostatic discharge (A.3.3)
+
+==== Direct application (A.3.3)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+Contact discharges: ___
+
+Air discharges: ___
+
+Paint penetration: ___
+
+Polarity**: ___
+
+.Test object dimensions
+|===
+| | |Length = ___ | |Width = ___ | |Height = ___ |
+|Test object ID |unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+.Instrument
+[cols="10*"]
+|===
+3+|Disturbance 7+|Results
+|Test voltage (kV) |No. of discharges |Rep. interval (s) 3+|Indication |SF* |SF* |Result |Comment
+| | | |L |W |H |Y/N |Y/N |Pass/Fail |
+|units | | | | | | | | |
+|Without disturbance 9+|
+|2 | | | | | | | | |
+|4 | | | | | | | | |
+|6 | | | | | | | | |
+|8* | | | | | | | | |
+|===
+
+.Ancillary device
+[cols="10*"]
+|===
+3+|Disturbance 7+|Results
+|Test voltage (kV) |No. of discharges |Rep. interval (s) 3+|Indication |SF* |SF* |Result |Comment
+| | | |L |W |H |Y/N |Y/N |Pass/Fail |
+|units | | | | | | | | |
+|Without disturbance 9+|
+|2 | | | | | | | | |
+|4 | | | | | | | | |
+|6 | | | | | | | | |
+|8* | | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+NOTE: 8* = Air discharges.
+
+NOTE: If the EUT fails, record the test point at which the EUT fails.
+
+NOTE: Polarity** = Tests shall be conducted at the most sensitive polarity.
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Indirect application (A.3.3)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+Contact discharges: ___
+
+Air discharges: ___
+
+Paint penetration: ___
+
+Polarity**: ___
+
+.Test object dimensions
+|===
+|Test object ID | |Length = ___ | |Width = ___ | |Height = ___ | |Initial zeroing (Ready condition) | |yes/no
+| |unit = | | |unit = | |unit = | | | |
+|===
+
+.Horizontal coupling plane
+[cols="10*"]
+|===
+3+|Disturbance 7+|Results
+|Test voltage (kV) |No. of discharges |Rep. interval (s) 3+|Indication |SF* |SF* |Result |Comment
+| | | |L |W |H |Y/N |Y/N |Pass/Fail |
+|units | | | | | | | | |
+|Without disturbance 9+|
+|2 | | | | | | | | |
+|4 | | | | | | | | |
+|6 | | | | | | | | |
+|8* | | | | | | | | |
+|===
+
+.Vertical coupling plane
+[cols="10*"]
+|===
+3+|Disturbance 7+|Results
+|Test voltage (kV) |No. of discharges |Rep. interval (s) 3+|Indication |SF* |SF* |Result |Comment
+| | | |L |W |H |Y/N |Y/N |Pass/Fail |
+|units | | | | | | | | |
+|Without disturbance 9+|
+|2 | | | | | | | | |
+|4 | | | | | | | | |
+|6 | | | | | | | | |
+|8* | | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+NOTE: 8* = Air discharges.
+
+NOTE: If the EUT fails, record the test point at which the EUT fails.
+
+NOTE: Polarity** = Tests shall be conducted at the most sensitive polarity.
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Electrostatic discharge additional sheet (A.3.3)
+
+Specifications of test points of EUT, e.g. photos or sketches:
+
+a) Direct application
+
+Contact discharges: ___
+
+Air discharges: ___
+
+b) Indirect application
+
+Contact discharges: ___
+
+Air discharges: ___
+
+=== Electrical surges (A.3.4)
+
+[[section-2-11-1-1]]
+==== Surges on AC mains — AC surge voltage at stem:[0°] (A.3.4.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID | |Length = ___ | |Width = ___ | |Height = ___ | |Initial zeroing (Ready condition) | |yes/no
+| |unit = | |unit = | |unit = | | | | |
+|===
+
+.Instrument
+[cols="9*"]
+|===
+|Connection |Mode 7+|Results
+|Test conditions | 3+|Indication |SF* Y/N |SF* Y/N |Result Pass/Fail |Comment
+| | |L |W |H | | | |
+|No surge (reference condition) | | | | | | | |
+|Positive | |L–L | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |L–L | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Positive | |N–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |N–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Positive | |L–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |L–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |L2–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+.Ancillary devices
+[cols="9*"]
+|===
+|Connection |Mode 7+|Results
+|Test conditions | 3+|Indication |SF* Y/N |SF* Y/N |Result Pass/Fail |Comment
+| | |L |W |H | | | |
+|No surge (reference condition) | | | | | | | |
+|Positive | |L–L | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |L–L | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Positive | |N–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |N–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Positive | |L–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |L–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |L2–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+NOTE: L–L = Line to Line surge; N–PE = Neutral to Protective Earth surge; L–PE = Line to Protective Earth surge; L2–PE = Line 2 to Protective Earth surge.
+
+Remarks: ___
+
+==== AC surge voltage at stem:[90°] (A.3.4.1)
+
+[Same form layout as <<section-2-11-1-1>>]
+
+Remarks: ___
+
+==== AC surge voltage at stem:[180°] (A.3.4.1)
+
+[Same form layout as <<section-2-11-1-1>>]
+
+Remarks: ___
+
+==== AC surge voltage at stem:[270°] (A.3.4.1)
+
+[Same form layout as <<section-2-11-1-1>>]
+
+Remarks: ___
+
+==== Surges on signal, data and control lines (A.3.4.2)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID | |Length = ___ | |Width = ___ | |Height = ___ | |Initial zeroing (Ready condition) | |yes/no
+| |unit = | |unit = | |unit = | | | | |
+|===
+
+.Instrument
+[cols="9*"]
+|===
+|Connection |Mode 7+|Results
+|Test conditions | 3+|Indication |SF* Y/N |SF* Y/N |Result Pass/Fail |Comment
+| | |L |W |H | | | |
+|No surge (reference condition) | | | | | | | |
+|Positive | |L–L | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |L–L | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Positive | |N–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|Negative | |N–PE | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+NOTE: L–L = Line to Line surge; L–E = Line to Earth surge.
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Immunity to RF electromagnetic fields (A.3.5)
+
+==== Radiated RF electromagnetic fields (A.3.5.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+Rate of sweep: ___
+
+.Test object dimensions
+|===
+| | |Length = ___ | |Width = ___ | |Height = ___ |
+|Test object ID |unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+[cols="11*"]
+|===
+4+|Disturbance 7+|Results
+|Antenna |Frequency range |Antenna polarisation |Facing EUT 3+|Indication |SF* |SF* |Result |Comment
+| | | | |L |W |H |Y/N |Y/N |Pass/Fail |
+| | | |Y/N | | | | | | |
+| | | | |Without disturbance | | | | | |
+| | |Vertical |Front | | | | | | |
+| | | |Right | | | | | | |
+| | | |Left | | | | | | |
+| | | |Rear | | | | | | |
+| | | | |Without disturbance | | | | | |
+| | |Horizontal |Front | | | | | | |
+| | | |Right | | | | | | |
+| | | |Left | | | | | | |
+| | | |Rear | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+Frequency range: 26 MHz to 2000 MHz
+
+Field strength: 10 V/m
+
+Modulation: 80 % AM, 1 kHz sine wave
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+.Description of the setup of the EUT, e.g. by photos, sketches, etc.
+___
+
+.Additional remarks
+___
+
+==== Conducted RF electromagnetic fields (A.3.5.2)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+Rate of sweep: ___
+
+.Test object dimensions
+|===
+| | |Length = ___ | |Width = ___ | |Height = ___ |
+|Test object ID |unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+[cols="10*"]
+|===
+2+|Disturbance 8+|Results
+|Frequency MHz |Observed fault during exposure 3+|Indication |SF* |SF* |Result |Comment |
+| | |L |W |H |Y/N |Y/N |Pass/Fail | |
+| |Without disturbance | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+NOTE: SF* = significant fault detected and acted upon.
+
+Frequency range: 0.15 MHz to 80 MHz
+
+Field strength: 10 V/m
+
+Modulation: 80 % AM, 1 kHz sine wave
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Ambient light (A.4.1)
+
+==== Reference conditions 200 lx to 500 lx (A.4.1)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L (units) |stem:[ΔL] |W (units) |stem:[ΔW] |H (units) |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | | |
+|2 | | | | | | | | |
+|3 | | | | | | | | |
+|4 | | | | | | | | |
+|5 | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Ambient light 100 lx (A.4.1)
+
+[Same form layout as <<section-2-13-1>>]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Ambient light 1000 lx to 1500 lx (A.4.1)
+
+[Same form layout as <<section-2-13-1>>]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Ambient light, other lx (A.4.1)
+
+[Same form layout as <<section-2-13-1>>]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Additional sheet (A.4.1)
+
+.Description of the setup of the EUT, e.g. photos or sketches
+___
+
+.Additional remarks
+___
+
+=== Acoustics (A.4.2)
+
+[[section-2-14-1]]
+==== Reference sound level (dB) (A.4.2)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object dimensions
+|===
+|Test object ID |Length (units) |Width (units) |Height (units)
+
+|1 | | |
+|2 | | |
+|3 | | |
+|4 | | |
+|5 | | |
+|===
+
+|===
+|Test object ID |Initial zeroing (yes/no) |L (units) |stem:[ΔL] |W (units) |stem:[ΔW] |H (units) |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | | |
+|2 | | | | | | | | |
+|3 | | | | | | | | |
+|4 | | | | | | | | |
+|5 | | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== 100 dB sound level (dB) (A.4.2)
+
+[Same form layout as <<section-2-14-1>>]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Acoustic test additional sheet (A.4.2)
+
+.Description of the setup of the EUT, e.g. photos or sketches
+___
+
+.Additional remarks
+___
+
+[[section-2-13-1]]
+=== Shape of the object (A.1.6)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Uniform surface colour (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Non uniform surface colour (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Contrast of colour with background colour (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Surface reflectivity and absorption of sound (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Surface reflectivity and absorption of light (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Uniformity of density (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Transparency (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Surface roughness (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Protrusions on surface (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Orientation and position (A.1.6)
+
+[Same form layout as <<section-2-13-1>> with test object dimensions and run tables for multiple test objects]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Speed of relative movement (A.1.6)
+
+==== Minimum speed (A.1.6)
+
+Observer: ___
+
+Type/application no.: ___
+
+Instrument ID: ___
+
+Scale interval (d): ___
+
+Conversion factor (F): ___
+
+|===
+| |At start |At end |
+
+|Temp.: | | |stem:[°C]
+|Rel. h.: | | |%
+|Date: | | |yyyy-mm-dd
+|Time: | | |hh:mm:ss
+|===
+
+Ancillary device: [ ] Connected [ ] Not connected but connectable [ ] Not connected
+
+Correct indication of ancillary device (yes/no): ___
+
+Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+.Test object ID: ___
+|===
+| |Length = ___ | |Width = ___ | |Height = ___ |
+|unit = | |unit = | |unit = | |
+|===
+
+Initial zeroing (Ready condition): [ ] yes [ ] no
+
+|===
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |Pass/Fail
+
+|1 | | | | | | | |
+|2 | | | | | | | |
+|3 | | | | | | | |
+|===
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+==== Maximum speed (A.1.6)
+
+[Same form layout as minimum speed above]
+
+Remarks: ___
+
+RESULT: [ ] PASS [ ] FAIL
+
+=== Examination of the construction of the instrument (R 129-1, 5.1.2)
+
+Use this page to indicate any description or information pertaining to the instrument, additional to that already contained in this report and in the accompanying certificate of approval or OIML certificate.
+
+This may include pictures of the complete instrument, a description of its main components and any remark which could be useful for initial or subsequent verifications of individual instruments built according to the pattern. It may also include references to the manufacturer's description.
+
+___
+
+RESULT: [ ] PASS [ ] FAIL

@@ -1,0 +1,96 @@
+== Additional requirements for software controlled devices
+
+The software requirements are based on OIML D 31 <<OIML_D_31_2008>>. All requirements in this clause apply only to the legally relevant parts of a measuring instrument, e.g. software, parameters, the measured quantity value, and measurement data.
+
+=== Software identification
+
+The software of a measuring instrument/component shall be clearly identified. The identification may consist of more than one part, but at least one part shall be dedicated to the legal purpose.
+
+The identification shall be displayed
+
+* on command, or
+* during operation, or
+* on start-up.
+
+If a software-controlled component has no display, the identification shall be sent via a communication interface, in order to be displayed/printed on another component.
+
+If the software is modified in any way, a new software identification is required.
+
+The software identifiers are legally relevant parameters and shall be secured and protected; see also 6.3.
+
+The software identification, the means of identification (e.g. software version, hash value, checksum) and the means of verification shall be stated in the certificate.
+
+=== Correctness of algorithms and functions
+
+The measuring algorithms and functions of a measuring instrument shall be appropriate and functionally correct for the given application (accuracy of the algorithms, price calculation according to certain rules, rounding algorithms, etc.).
+
+It shall be possible to assess algorithms and functions either by metrological tests, software tests or software examination.
+
+National authorities shall be informed of all the functions and parameters, and no hidden or undocumented functions or parameters shall exist.
+
+=== Securing and protecting software, parameters, the measurand value and measurement data
+
+A software-controlled measuring instrument shall be constructed in such a way that possibilities for unintentional, unauthorised, or intentional misuse are minimal.
+
+NOTE: Legally relevant software and parameters shall be protected against accidental or unintentional changes due to human action and corruption due to physical changes (e.g. memory corruption due to aging).
+
+Software shall be protected in such a way that evidence of any intervention (e.g. software updates) shall be available.
+
+Software shall be protected against unauthorised modification, loading, or changes by swapping the memory device.
+
+NOTE: Updating the software of the measuring instrument or component is allowed if the requirements for updates are fulfilled; see Annex B, B.6.
+
+Only clearly documented functions may be activated by the user interface, which do not influence the metrological characteristics of the instrument.
+
+Parameters that fix the legally relevant characteristics of the measuring instrument shall be protected in such a way that evidence of an intervention shall be available.
+
+Displaying or printing of the current legally relevant parameter settings shall be possible.
+
+Measurement data and the measurand value, stored or transmitted, shall be protected against modification. See Annex B, B.3 and B.4.
+
+The measuring instrument or component shall be fitted with a checking facility to ensure that if a modification or corruption is detected, the measurement data and the measurand value shall be discarded or marked unusable.
+
+=== Authentication of the presented measurement results
+
+It shall not be possible to fraudulently simulate legally relevant software for presenting measurement results, using easily available and manageable tools.
+
+See also Annex B, B.2 in the case of a shared display.
+
+=== Audit trail
+
+Audit trails are part of the legally relevant software and shall be protected as such. It shall not be possible to delete the audit trails and it shall not be possible to exchange the audit trails.
+
+The content of the audit trail shall be shown on the display or printed upon command. The certificate shall describe how the audit trail may be displayed or printed.
+
+The storage device for the audit trail shall have a sufficient capacity to ensure that the information is available for at least three successive verifications or inspections. If the limit of the storage has been reached, the oldest data may be overwritten by the new data.
+
+The audit trail shall contain at minimum the following information:
+
+* success/failure of the update procedure;
+* time stamp of the event;
+* in the case of a software download (see Annex B, B.6):
+** software identification of the installed version;
+** software identification of the previous installed version;
+* in the case of a parameter change:
+** identification of the changed parameter;
+** the old and new values of the changed parameter.
+
+=== Requirements for specific configurations of electronic instruments
+
+The specific requirements in Annex B (the mandatory software Annex) apply if the measuring instrument/component employs any of the technologies specified in Annex B. These requirements shall be satisfied in addition to those described above.
+
+=== Detection of significant defects
+
+The detection of significant defects by the checking facilities may be achieved by software.
+
+In such a case, this detecting software is considered to be part of the legally relevant software.
+
+If software is involved in the detection of significant defects, the software-controlled measuring instrument shall be made inoperative automatically, or a visual or audible indication shall be provided automatically and shall continue until such time as the user takes action or the defect disappears.
+
+The documentation to be submitted for type evaluation shall contain all such information necessary for a reasonable evaluation of the legally relevant software. It may include a list of the defects that will be detected by the software and the expected reaction and, if needed for understanding its operation, a description of the detecting algorithm.
+
+=== Support of durability protection
+
+If software is involved in durability protection and durability is detected as being jeopardised, the software-controlled measuring instrument shall either initiate measures to ensure further durability, or it shall become inoperable until the user takes action, or the problem disappears.
+
+The documentation to be submitted for type evaluation shall contain all such information necessary for a reasonable evaluation of the legally relevant software. It may include a list of the durability problems that will be detected by the software, the expected reaction and, if needed for understanding its operation, a description of the detecting algorithm.

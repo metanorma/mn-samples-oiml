@@ -1,0 +1,48 @@
+== Foreword
+
+The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental organization whose primary aim is to harmonize the regulations and metrological controls applied by the national metrological services, or related organizations, of its Member States. The main categories of OIML publications are:
+
+* International Recommendations (OIML R), which are model regulations that establish the metrological characteristics required of certain measuring instruments and which specify methods and equipment for checking their conformity. OIML Member States shall implement these Recommendations to the greatest possible extent;
+* International Documents (OIML D), which are informative in nature and which are intended to harmonize and improve work in the field of legal metrology;
+* International Guides (OIML G), which are also informative in nature and which are intended to give guidelines for the application of certain requirements to legal metrology;
+* International Basic Publications (OIML B), which define the operating rules of the various OIML structures and systems; and
+
+OIML Draft Recommendations, Documents and Guides are developed by Project Groups linked to Technical Committees or Subcommittees which comprise representatives from the OIML Member States. Certain international and regional institutions also participate on a consultation basis. Cooperative agreements have been established between the OIML and certain institutions, such as ISO and the IEC, with the objective of avoiding contradictory requirements. Consequently, manufacturers and users of measuring instruments, test laboratories, etc. may simultaneously apply OIML publications and those of other institutions.
+
+International Recommendations, Documents, Guides and Basic Publications are published in English (E) and translated into French (F) and are subject to periodic revision.
+
+Additionally, the OIML publishes or participates in the publication of Vocabularies (OIML V) and periodically commissions legal metrology experts to write Expert Reports (OIML E). Expert Reports are intended to provide information and advice, and are written solely from the viewpoint of their author, without the involvement of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do not necessarily represent the views of the OIML.
+
+This Publication -- reference OIML D 11, edition 2013 (E) -- was developed by the OIML Technical Subcommittee TC 5/SC 1 Environmental conditions. It was approved for final publication by the International Committee of Legal Metrology at its 48th meeting in Ho Chi Minh City, Viet Nam in October 2013.
+
+OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organization's headquarters:
+
+Bureau International de Métrologie Légale +
+11, rue Turgot - 75009 Paris - France +
+Telephone: 33(0)148781282 +
+Fax: 33(0)142821727 +
+E-mail: biml@oiml.org +
+Internet: www.oiml.org
+
+== Introduction
+
+=== {blank}
+
+The primary aim of this International Document is to provide the OIML Technical Committees, Subcommittees and Project Groups with guidance for establishing appropriate metrological performance testing requirements for influence quantities which may affect the measuring instruments covered by OIML Recommendations.
+
+Furthermore, this Document aims to provide guidance to OIML Member States in the implementation of OIML Recommendations in their national laws, in particular in their choice on the applicability and severity of performance requirements, as far as these are not prescribed in the OIML Recommendations, but are left to national legislation.
+
+=== {blank}
+
+Based on information obtained from IEC and ISO standards and on the experience of experts who participated in its elaboration, this Document advises the OIML Technical Committees, Subcommittees and Project Groups on the prescription of requirements and the selection of the appropriate tests for measuring instruments, while taking into account the operational and environmental factors governing the use of these instruments.
+
+=== {blank}
+
+The range and test level for an influence quantity test should, when possible, be selected from the levels proposed in this Document, taking into account the conditions of use of the instruments concerned and the most recent IEC and ISO standards in the given field. Hence the approach in this Document is to present an overview of validated and internationally accepted test methods. In principle the text of this Document should not be in conflict with these referred standards.
+
+=== {blank}
+
+The OIML Technical Committees, Subcommittees and Project Groups responsible for OIML Recommendations covering specific categories of measuring instruments may
+
+* establish test procedures and special test levels (higher or lower) in such OIML Recommendations, different from those specified in this Document, if that would be more appropriate for specific measuring instruments or environments, and
+* utilize the expertise and knowledge of other OIML Technical Committees, Subcommittees and Project Groups or of other organizations to develop special test procedures and conditions not specified in this Document.

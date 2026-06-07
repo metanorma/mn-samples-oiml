@@ -1,0 +1,320 @@
+== Terminology
+
+Unless otherwise stated in the following sub-clauses, the terminology used in this Document conforms to <<VIML>>, and <<VIM>>.
+
+For the purpose of this Document, the definitions and abbreviations given below apply.
+
+=== electronic measuring instrument
+
+instrument intended to measure an electrical or non-electrical quantity using electronic means and/or equipped with electronic devices
+
+NOTE: For the purpose of this Document, auxiliary equipment, provided that it is subject to metrological control, is considered to be a part of the measuring instrument.
+
+=== module
+
+device performing a specific function or functions and (usually) manufactured and constructed such that it can be separately evaluated according to prescribed metrological and technical performance requirements
+
+NOTE: A module may be a complete measuring instrument (for example: counter scale, electricity meter) or a part of a measuring instrument (for example: printer, indicator).
+
+=== device
+
+identifiable instrument or part of an instrument or of a family of instruments that performs a specific function or functions
+
+NOTE: A device may be a stand-alone and complete measuring instrument (for example: counter scale, electricity meter) or a part of a measuring instrument (for example: printer, indicator).
+
+=== (measurement) error
+
+measured quantity value minus a reference quantity value
+
+[.source]
+<<VIM,clause="2.16">>
+
+=== indication
+
+quantity value provided by a measuring instrument or a measuring system
+
+[.source]
+<<VIM,clause="4.1">><<VIML,clause="0.03">>
+
+=== error of indication
+
+indication minus a reference quantity value
+
+[.source]
+<<VIML,clause="0.04">>
+
+=== maximum permissible error (of a measuring instrument)
+
+extreme value of measurement error, with respect to a known reference quantity value, permitted by specifications or regulations for a given measurement, measuring instrument, or measuring system
+
+[.source]
+<<VIM,clause="4.26">>
+
+=== intrinsic error
+
+error of indication determined under reference conditions
+
+=== initial intrinsic error
+
+intrinsic error of a measuring instrument as determined prior to performance tests and durability evaluations
+
+[.source]
+<<VIML,clause="0.06">>
+
+=== fault
+
+difference between the error of indication and the intrinsic error of a measuring instrument
+
+NOTE: Principally, a fault is the result of an undesired change of data contained in or flowing through an electronic measuring instrument.
+
+NOTE: From the definition it follows that in this Document, a "fault" is a numerical value which is expressed either in a unit of measurement or as a relative value, for instance as a percentage.
+
+[.source]
+<<VIML,clause="5.12">>
+
+=== fault limit
+
+value specified in the applicable Recommendation delimiting non-significant faults
+
+[.source]
+<<VIML,clause="5.13">>
+
+=== significant fault
+
+fault exceeding the applicable fault limit value
+
+NOTE: For particular types of measuring instruments some faults exceeding the fault limit may not be considered a significant fault. The applicable Recommendation shall state when such an exception applies. For example, the occurrence of one or some of the following faults may be acceptable:
+
+. faults arising from simultaneous and mutually independent causes originating in a measuring instrument or in its checking facilities;
+. faults implying the impossibility to perform any measurement;
+. transitory faults being momentary variations in the indication, which cannot be interpreted, memorized or transmitted as a measurement result;
+. faults giving rise to variations in the measurement result that are serious enough to be noticed by all those interested in the measurement result; the applicable Recommendation may specify the nature of these variations.
+
+[.source]
+<<VIML,clause="5.14">>
+
+=== durability error
+
+difference between the intrinsic error after a period of use and the initial intrinsic error of a measuring instrument
+
+[.source]
+<<VIML,clause="5.16">>
+
+=== significant durability error
+
+durability error exceeding the value specified in the applicable Recommendation
+
+NOTE: Some durability errors exceeding the value specified may still be considered not significant. The applicable Recommendation shall state when such exception applies. For example, the occurrence of one or some of the following errors may be acceptable:
+
+. the indication cannot be interpreted, memorized or transmitted as a measurement result;
+. the indication implies the impossibility to perform any measurement;
+. the indication is so obviously wrong that it is bound to be noticed by all those interested in the result of the measurement; or
+. a durability error cannot be detected and acted upon due to a breakdown of the appropriate durability protection facility.
+
+[.source]
+<<VIML,clause="5.17">>
+
+=== influence quantity
+
+quantity that, in a direct measurement, does not affect the quantity that is actually measured, but affects the relation between the indication and the measurement result
+
+NOTE: An influence quantity is not related to the measurand but is a quantity that affects the result of the measurement as indicated by the equipment under test (EUT).
+
+[example]
+The temperature of a measuring instrument is an influence quantity, but the temperature of the measured object (used as a reference for determining the fault or the error) is not. This influence of the environment on this measured object may need to be taken into consideration as a contributor in the definition of the measurand.
+
+[.source]
+<<VIM,clause="2.52">><<VIML,clause="0.07">>
+
+==== influence factor
+
+influence quantity having a value which ranges within the rated operating conditions of a measuring instrument
+
+NOTE: The rated operating conditions shall be in conformity with the applicable requirements specified in the applicable Recommendation.
+
+NOTE: The variation of an indication as a consequence of an influence factor is considered an error and not a fault.
+
+[.source]
+<<VIML,clause="5.18">>
+
+==== disturbance
+
+influence quantity having a value within the limits specified in the applicable Recommendation but outside the specified rated operating conditions of the measuring instrument
+
+NOTE: These limits to be specified in the applicable Recommendation shall be based on the probability of occurrence of the disturbing phenomenon within the environment of the measuring instrument.
+
+NOTE: A disturbance typically is of stochastic nature.
+
+NOTE: In case the listed rated operating conditions of a measuring instrument do not include a range for the specific influence quantity, the influence quantity is qualified as being a disturbance.
+
+[.source]
+<<VIML,clause="5.19">>
+
+=== rated operating condition
+
+operating condition that must be fulfilled during measurement in order that a measuring instrument or measuring system perform as designed
+
+NOTE: Rated operating conditions generally specify intervals of values for a quantity being measured and for any influence quantity.
+
+[.source]
+<<VIM,clause="4.9">><<VIML,clause="0.08">>
+
+=== reference operating condition
+
+operating condition prescribed for evaluating the performance of a measuring instrument or measuring system or for comparison of measurement results
+
+NOTE: Reference operating conditions specify intervals of values of the measurand and of the influence quantities.
+
+[.source]
+<<VIM,clause="4.11">><<VIML,clause="0.09">>
+
+=== durability
+
+ability of the measuring instrument to maintain its performance characteristics over a period of use footnote:[The OIML Document on "The role of measurement uncertainty in conformity assessment decisions in legal metrology" should be consulted for a general understanding of the terminology and concepts related to uncertainty, and for guidance on how to assess and use measurement uncertainty.]
+
+[.source]
+<<VIML,clause="5.15">>
+
+=== checking facility
+
+facility incorporated in a measuring instrument which enables significant faults to be detected and acted upon
+
+NOTE: Typically, checking facilities detect and act upon
+
+* incorrect functioning of a specific device of the measuring instrument, and/or
+* disturbed communication between specific devices of the measuring instrument.
+
+NOTE: "Act upon" refers to any adequate response by the measuring instrument (for example: a luminous signal, an acoustic signal, interruption or blocking of the measurement process, etc.).
+
+==== automatic checking facility
+
+checking facility that operates without the intervention of an operator
+
+===== permanent automatic checking facility (type P)
+
+automatic checking facility that operates at each measurement cycle
+
+===== intermittent automatic checking facility (type I)
+
+automatic checking facility that operates at certain time intervals or per fixed number of measurement cycles
+
+==== non-automatic checking facility (type N)
+
+checking facility that requires the intervention of an operator
+
+=== durability protection facility
+
+facility incorporated in a measuring instrument that enables significant durability errors to be detected and acted upon
+
+NOTE: "Act upon" refers to any adequate response by the measuring instrument (luminous signal, acoustic signal, prevention of the measurement process, etc.).
+
+=== test
+
+series of operations intended to verify the compliance of the equipment under test (EUT) with specified requirements
+
+==== test procedure
+
+detailed description of the test operations
+
+==== test program
+
+description of a series of tests for certain types of equipment
+
+[.source]
+<<VIML,clause="5.20">>
+
+==== test level
+
+required (simulated) influence quantity value for performing the test
+
+==== performance test
+
+test intended to verify whether the EUT is able to accomplish its intended functions
+
+[.source]
+<<VIML,clause="5.21">>
+
+==== durability test
+
+test intended to verify whether the EUT is able to maintain its performance characteristics over a period of use
+
+[.source]
+<<VIML,clause="5.22">>
+
+=== mains power
+
+mains
+
+primary external source of electrical power for an instrument, including all sub-assemblies
+
+[example]
+Public or local power grid (AC or DC) or external generator.
+
+=== power converter (power supply device)
+
+sub-assembly converting the voltage from the mains power to a voltage suitable for other sub-assemblies
+
+=== stand-alone battery
+
+non-rechargeable battery or rechargeable battery which shall be (re)charged only when not connected to the EUT
+
+=== auxiliary battery
+
+battery that is
+
+* mounted in, or connected to, an instrument that can be powered by the mains power as well, and
+* capable of supplying power to the complete instrument for a reasonable period of time.
+
+=== back-up battery
+
+battery that is intended to maintain power supply for specific functions of an instrument in the absence of the primary power supply
+
+[example]
+To preserve stored data.
+
+=== specimen
+
+instrument, device or module subjected to testing, examination or study and representing a population
+
+=== measurement uncertainty
+
+uncertainty of measurement
+
+uncertainty
+
+non-negative parameter characterizing the dispersion of the quantity values being attributed to a measurand, based on the information used
+
+NOTE: See VIM 2.26 for notes on this definition.
+
+[.source]
+<<VIM,clause="2.26">>
+
+=== Abbreviations
+
+[%key]
+AC:: alternating current
+AM:: amplitude modulation
+ASD:: acceleration spectral density
+DC:: direct current
+EM:: electromagnetic
+EMC:: electromagnetic compatibility
+e.m.f.:: electromotive force
+ESD:: electrostatic discharge
+EUT:: equipment under test (specimen being exposed to the test)
+GSM:: global system for mobile communication
+IEC:: International Electrotechnical Committee
+I/O:: input / output (refers to ports)
+ISO:: International Organization for Standardization
+LF:: low frequency band (30 kHz-300 kHz)
+MPE:: maximum permissible error
+n/a:: not applicable
+NSFa:: no significant fault shall occur after the disturbance
+NSFd:: no significant fault shall occur during the disturbance
+PLC:: power line communication
+RF:: radio frequency
+RH:: relative humidity
+RMS:: root mean square
+SC:: subcommittee
+TC:: technical committee
+VLF:: very low frequency band (3 kHz-30 kHz)
+WHO:: World Health Organization

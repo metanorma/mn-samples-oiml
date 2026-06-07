@@ -1,0 +1,65 @@
+[[annex-a]]
+[appendix,obligation=informative]
+== Documentation for type evaluation
+
+The applicable Recommendation specifies the documentation to be submitted with the application for type approval which at least includes information concerning the
+
+- principle of operation,
+- actual design,
+- integrity securing measures,
+- software and data management,
+- installation requirements,
+- operating instructions,
+- provisions for testing, servicing and maintenance,
+- specific instrument or device depending measures needed, and
+- evidence on compliance to the requirements of the Recommendation.
+
+=== Examples
+
+concerning the principle of operation:
+
+- specific description/flowchart giving the technical characteristics and the principle of operation.
+
+concerning the actual design:
+
+- design drawings; photographs; panel layout,
+- flow diagram of the logic, showing the functions of the constituent devices,
+- description of the devices with drawings, diagrams,
+- lists of the essential constituent devices, modules and components with their essential characteristics.
+
+concerning the integrity securing measures:
+
+- installation and security sealing plan,
+- drawing(s) presenting the security sealing plan and the provisions and location for verification marks,
+- drawing of regulatory markings.
+
+concerning software and data management:
+
+- specific information on the software required,
+- assessment of metrological relevant software.
+
+NOTE: Refer to <<D31>> for further details.
+
+concerning the installation requirements:
+
+- an assembly drawing with identification of different constituent parts,
+- installation practices or operational constraints.
+
+concerning operating instructions:
+
+- user and installer manual,
+- for correction devices, a description of the determination and execution of the correction.
+
+concerning provisions for testing, servicing and maintenance:
+
+- availability and location of mounting and connection provisions for testing,
+- availability and location of provision for switching to a test service or maintenance mode.
+
+concerning specific instruments and assemblies:
+
+- list of the parts that may influence the metrological behavior with a description of their constituent materials.
+
+concerning evidence on compliance to the requirements of the Recommendation:
+
+- certificates and test reports,
+- declaration of conformity by the manufacturer.

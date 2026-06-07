@@ -1,0 +1,13 @@
+== Review of application and decision
+
+=== {blank}
+
+When the Executive Secretary is satisfied that all relevant information regarding the proposed expert has been provided the application will be sent to the Review Committee. Members of the Review Committee will review the application, either at a Review Committee meeting or by correspondence, and will provide a recommendation to the Management Committee to approve or reject the applicant. In the event that the Review Committee makes a recommendation to approve the expert the Executive Secretary shall forward the documentation to the Management Committee for approval, either at a Management Committee meeting or by an electronic ballot. In the event that the Review Committee does not make a recommendation to approve the expert the Executive Secretary shall notify the applicant of the decision and the reasons for rejection.
+
+=== {blank}
+
+The Management Committee Members vote on the approval of the applicant. If the applicant is not approved the Executive Secretary shall notify the applicant of the reasons for rejection. If the applicant is approved the Executive Secretary shall notify the applicant of his/her approval. The Executive Secretary shall request that the applicant signs a non-disclosure agreement which guarantees that all information received from and about assessed organisations is held in strict confidence. This agreement is signed with the BIML.
+
+=== {blank}
+
+It is permitted to use a person that has not yet been approved as an expert in an accreditation assessment or peer assessment on the provision that an application to approve the person is made in conjunction with the application to be an OIML Issuing Authority/Test Laboratory. In doing so, the potential OIML Issuing Authority/Test Laboratory accepts the risk that the person may not be approved. In this instance the application to be an OIML Issuing Authority/Test Laboratory could be rejected or delayed.

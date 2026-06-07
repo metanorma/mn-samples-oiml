@@ -1,0 +1,24 @@
+= Transition Arrangements under the OIML-CS
+:docidentifier: OIML-CS PD-07 Edition 4
+:doctype: international-document
+:title-main-en: Transition Arrangements under the OIML-CS
+:edition: 4
+:revdate: 2024-01-16
+:copyright-year: 2024
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-status-acceptance.adoc[]
+include::sections/05-scheme-b.adoc[]
+include::sections/06-scheme-a.adoc[]
+include::sections/07-transition-b-to-a.adoc[]
+include::sections/08-references.adoc[]

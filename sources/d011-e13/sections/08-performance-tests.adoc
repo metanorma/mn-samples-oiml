@@ -1,0 +1,178 @@
+== Instrument performance tests (general)
+
+=== Preliminary remarks
+
+The brief descriptions of test procedures in this Document are intended only for information. It is necessary to consult the referenced IEC and ISO publications before conducting a test.
+
+Terminology used in the applicable IEC and ISO publications is applied in this Document to the widest extent possible.
+
+Some IEC and ISO publications use the term "specimen" instead of "EUT" as used in clauses 10--14 of this Document. In this Document, "specimen" concerns one copy of an instrument (or part of an instrument) and "EUT" concerns the specific copy on which the test is, or will be performed. So each of the instruments produced that is part of the population of the same type is called a "specimen" of the type. There might for example be a preference to perform examinations on a specimen different from the one used as EUT.
+
+Most of the standards referred to in the following clauses of this Document concern "basic" standards (according to the IEC definition) not specifically linked to a product. This implies that for many tests a choice may be made from a range of test levels. In order to optimize harmonization between those standards and the relevant OIML Recommendations, all these test levels were copied from these standards into this Document, but only a limited number of these are actually recommended for inclusion in OIML Recommendations. To be able to recognize the preferred test levels, these have been presented in bold face.
+
+==== Measurement uncertainty considerations
+
+Measurement uncertainty evaluation is an important and essential element in all aspects of metrology, including legal metrology. The OIML Document on "The role of measurement uncertainty in conformity assessment decisions in legal metrology" should be consulted for a general understanding of the terminology and concepts related to uncertainty, and for guidance on how to assess and use measurement uncertainty.
+
+Measurement uncertainty shall be considered in all aspects of measurement and conformity assessment decisions associated with OIML Recommendations. Some guidance on how to assess uncertainty is provided in the following paragraphs.
+
+The following clause concerning measurement uncertainty should be included in OIML Recommendations:
+
+[quote]
+____
+Each test comprises measurements applying harmonized test setups for the verification of compliance with requirements. Measurement uncertainty is an attribute of each measurement. For every measurement result that is reported during testing of a measuring instrument or system within the framework of this Recommendation the measurement uncertainty associated with the corresponding measured value(s) and determined error(s) of indication shall be known and where relevant shall be reported.
+
+NOTE: Exceptions considered not relevant to be reported in the test report include the uncertainty values associated with individual measured values which are obtained for the purpose of assessing a component of measurement uncertainty associated with the repeatability or reproducibility of the measuring instrument/system and/or testing procedure, or where it is determined on the basis of a previous reported assessment that a component of measurement uncertainty is not significant in a particular measurement application.
+
+The uncertainty associated with the test method shall be taken into account in the decision on the applicability of the test method.
+____
+
+==== Evaluation of uncertainty in testing
+
+The main reason for evaluating the uncertainty associated with a test result is to ensure with a sufficient probability that a clear decision on compliance to the requirements can be made by taking this uncertainty into account.
+
+In the considerations on uncertainty in testing it shall be taken into account that a test is just an instant observation of the response of one or a few specimen(s) to that test and sometimes for practical reasons even reduced to only a selection of the different manifestations of influencing phenomena. This may require extending the uncertainty margins or to base the value of specific contributors to the uncertainty on well characterized and repeatable measurements performed in earlier stages (pooled uncertainty values).
+
+The test procedure and the test setup may affect the overall uncertainty of the result. Often these are the major contributors.
+
+The contributors to the overall uncertainty of the test result include
+
+* measuring instrumentation uncertainty,
+* test setup introduced uncertainty,
+* test procedure introduced uncertainty, and
+* sample (EUT) introduced uncertainty.
+
+Examples of the above mentioned contributors are (from temperature test and ESD test):
+
+* thermometer in climate room; pulse waveform of ESD generator;
+* homogeneity of temperature in climate room; position of the EUT above a conducting cable;
+* curve of climate change; location for the discharge;
+* reproducibility of the measurements.
+
+In OIML Recommendations, the overall uncertainty contribution may be stated as a maximum acceptable value.
+
+In addition to stating the overall contribution it may be required in Recommendations to set a maximum acceptable value for some specific uncertainty contributors in order to prevent an unnecessary increase of the overall uncertainty or to avoid unnecessary efforts in the evaluation of the uncertainty of a contributor.
+
+An example of an unnecessary increase of the overall uncertainty is the situation where a mass standard with a relatively high uncertainty is used as a reference.
+
+An example of employing unnecessary efforts is the situation where the actual uncertainty of the mass standards is calculated instead of using the pooled uncertainty provided from its classification.
+
+Specific contributions to the (measurement) uncertainty may be
+
+. obtained from calibration results of the reference instruments,
+. estimated on the basis of the test method and procedure, or
+. obtained from the reproducibility of test results.
+
+Results of research during the development or from the evaluation of the test method and procedure shall provide the test method related contributions to the overall uncertainty.
+
+=== Test considerations
+
+==== General
+
+In principle, all tests shall be performed respecting the conditions concerning installation stipulated by the manufacturer and the rated operating conditions, unless it is obvious that these will not be relevant to the result of the test.
+
+The applicable OIML Recommendation shall in all cases describe
+
+* the manner in which the instrument shall be tested, and
+* the allowed changes in the performance of the EUT.
+
+Simulation of any part of the EUT shall be avoided. If such simulation is unavoidable, all parts of the instrument that could be affected by the test shall play their intended role in the measurements.
+
+Nowadays, many measuring instruments comprise electronic circuits and/or are equipped with electronic devices and, therefore, fulfil the definition of an electronic measuring instrument. For these instruments the tests referred to in 8.4 apply. Measuring instruments which do not fulfil this definition shall only be exposed to the mechanical and climatic tests as referred to in 8.2 and 8.3.
+
+If the electronic measuring instrument only contains passive electronic components, the test on influence quantities in 8.4.2.6, 8.4.2.7, 8.4.2.8, 8.4.2.10 and 8.4.2.11 may not be applicable.
+
+<<table-5>> may serve as a guideline showing the preferred method of evaluation of the test results in relation to several tests presented in this Document (the applicable Recommendation may differ in the evaluation method).
+
+NOTE: The value of a specific influence quantity may in some cases exceed the rated operating conditions. Such a particular influence quantity shall be considered as an influence factor when its value lies within the rated operating conditions range, and as a disturbance when the value exceeds these rated operating conditions.
+
+[[table-5]]
+[cols="2,1,1,1"]
+|===
+| Influence quantity exposure | Table(s) | Evaluation | Evaluation
+
+| Dry heat | <<table-6>> | I | MPE
+| Cold | <<table-7>> | I | MPE
+| Damp heat, steady-state (non-condensing) | <<table-8>> | I | MPE
+| Damp heat, cyclic (condensing) | <<table-9>> | D | NSAa
+| Water | <<table-10>> | D | NSAa
+| Atmospheric pressure | <<table-11>>, <<table-12>> | I | MPE
+| Sand and dust | <<table-13>> | D | NSAa
+| Salt mist | <<table-14>> | D | NSAa
+| Vibration | <<table-15>>, <<table-16>> | I | MPE
+| Mechanical shock | <<table-17>> | D | NSAa
+| DC mains voltage variation | <<table-18>> | I | MPE
+| Ripple on DC mains power | <<table-19>> | D | NSAd
+| AC mains voltage variation | <<table-20>> | I | MPE
+| AC mains frequency variation | <<table-21>> | I | MPE
+| DC mains voltage dips, short interruptions and reductions | <<table-22>> | D | NSAa footnote:[For integrating instruments] / NSAd footnote:[For non-integrating instruments]
+| AC mains voltage dips, short interruptions and voltage reduction | <<table-23>> | D | NSAd
+| AC mains harmonics | <<table-24>> | D | NSAd
+| VLF and LF disturbances on AC and DC mains | <<table-25>> | D | NSAd
+| Bursts (transients) on AC and DC mains | <<table-26>> | D | NSAd
+| Surges on AC and DC mains power | <<table-27>> | D | NSAa
+| Bursts (transients) on signal, data and control lines | <<table-28>> | D | NSAd
+| Surges on signal, data and control lines | <<table-29>> | D | NSAa footnote:[For integrating instruments] / NSAd footnote:[For non-integrating instruments]
+| Mains power frequency magnetic field | <<table-30>> | D | NSAd
+| Conducted (common mode) currents generated by RF EM fields | <<table-31>> | D | NSAd
+| RF electromagnetic fields | <<table-32>>, <<table-33>>, <<table-34>> | D | NSAd
+| Electrostatic discharge | <<table-35>> | D | NSAa footnote:[For integrating instruments] / NSAd footnote:[For non-integrating instruments]
+| Low voltage of internal battery | <<table-36>> | I | MPE
+| Voltage variations of a road vehicle battery | <<table-37>> | I | MPE
+| Electrical transient conduction along supply lines of external 12V and 24V batteries (pulses 2a, 3a, 3b) | <<table-38>> | D | NSAd
+| Electrical transient conduction along supply lines of external 12V and 24V batteries (pulse 2b) | <<table-38>> | D | NSAa
+| Electrical transient conduction via lines other than supply lines for external 12V and 24V batteries | <<table-39>> | D | NSAd
+| Battery voltage variations during cranking | <<table-40>> | D | NSAa footnote:[For integrating instruments] / NSAd footnote:[For non-integrating instruments]
+| "Load dump" test | <<table-41>> | D | NSAa
+|===
+
+.I = Influence factor; D = Disturbance; MPE = Maximum permissible error according to 3.6; NSAa = No significant fault shall occur after the disturbance; NSAd = No significant fault shall occur during the disturbance
+
+==== Integrating instruments
+
+As a consequence of the operating principle of integrating instruments the evaluation approach has to be different from that of non-integrating instruments. This implies that more attention to the evaluation sequence is needed when prescribing tests and evaluations for such instruments.
+
+Examples of integrating instruments are: water, gas, electricity and heat meters, as well as belt weighers. For the evaluation of these instruments, testing and observation over a certain defined period of time of operation is necessary.
+
+[[fig-1]]
+image::figure-1.svg[Figure 1 -- Time sequences for the two conditions]
+
+Figure 1 -- Time sequences for the two conditions: NSAa (No Significant Fault shall occur after the disturbance), and NSAd (No Significant Fault shall occur during the disturbance)
+
+===== Sequence during NSAa evaluation
+
+The following test and evaluation sequence is recommended when NSAa evaluation is applicable:
+
+. Establish the period of time needed per measurement;
+. Start the measurements under reference conditions;
+. Stop the measurements after the period of time established and keep the EUT switched on;
+. Determine the initial intrinsic error (stem:[E_{ii}]);
+. Record all indicated and registered values of interest;
+. Only when applicable: switch off the EUT (see note 1);
+. Activate the disturbance generator;
+. Stop the disturbance after the period of time required for the test;
+. Switch on the EUT in case the disturbance was applied in "switch off" mode;
+. Record all indicated and registered values of interest (see note 2);
+. Calculate the change in the display reading and registers. Those changes shall not exceed the fault limit established as prescribed in the applicable Recommendation;
+. Perform a second measurement using the same period of time;
+. Determine the intrinsic error (stem:[E_i]);
+. Record all indicated and registered values of interest;
+. Calculate the fault which is the difference between the intrinsic error and the initial intrinsic error. This fault shall not exceed the fault limit specified in the applicable Recommendation.
+
+NOTE: For the damp heat, cyclic test the position "switched on" or "switched off" is to be specified in the Recommendation; the position "switched off" facilitates condensing.
+
+NOTE: After the application of the disturbance it may sometimes not be possible for the EUT to indicate the same result as it did before (in particular when it must be switched off, or when the measurement range does not allow an indication during performance of the test, which may for instance apply when performing mechanical shock tests on clinical thermometers).
+
+===== Sequence during NSAd for evaluation
+
+The following general test and evaluation sequence is recommended when NSAd evaluation is applicable:
+
+. Establish the period of time needed for a measurement;
+. Start the measurements under reference conditions;
+. Stop the measurements after the period of time established and keep the EUT switched on;
+. Determine the initial intrinsic error;
+. Apply the disturbance;
+. Perform a second measurement;
+. Stop applying the disturbance;
+. Determine the error;
+. Calculate the fault, which is the difference between the error in the second measurement and the initial intrinsic error. This fault shall not exceed the fault limit specified in the applicable Recommendation.

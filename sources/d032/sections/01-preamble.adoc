@@ -1,0 +1,23 @@
+== Preamble
+
+This Document gives guidance and interpretations related to the application of ISO/IEC 17065:2012 Conformity assessment - Requirements for bodies certifying products, processes and services to the assessment of conformity assessment bodies, hereafter called "certification bodies" in this Document, that are responsible for the national type evaluation and type approval of measuring instruments or the issuing of OIML Certificates under the OIML Certification System (OIML-CS) for types of measuring instruments.
+
+The edition of ISO/IEC 17065 referred to in this Document is 2012.
+
+Taking into account that national type evaluation and type approval of measuring instruments and the issuing of OIML Certificates may be considered as product certification, this Document may be used
+
+* by peer assessment or accreditation assessors when interpreting ISO/IEC 17065 for legal metrology applications in connection with the OIML-CS,
+* for the assessment of national issuing authorities responsible for national type evaluation and type approval of measuring instruments conducted by an accreditation body in the field of legal metrology (e.g. by an IAF Full Member signatory to the IAF Multilateral Recognition Arrangement (MLA)), and
+* on a voluntary basis for the implementation of ISO/IEC 17065 by national issuing authorities responsible for the national type evaluation and type approval of measuring instruments.
+
+ISO/IEC 17065 calls for the implementation of the applicable requirements of ISO/IEC 17025 General requirements for the competence of testing and calibration laboratories for testing activities associated with the product certification activity. A separate Document (OIML D 30) is available for the application of ISO/IEC 17025 to type testing of measuring instruments.
+
+In view of the specific regulatory nature of the certification activity, certain guidance in this Document may be applicable either to the certification body that conducts the national type evaluation and type approval or issues the OIML Certificate, or to a regulatory designating authority. In particular, depending on the organization of legal metrology in a country, the regulatory designating authority (e.g. the government) may be responsible for suspending or withdrawing certification. The quality system of the certification body shall clearly identify the responsibilities and the way in which they are shared.
+
+The issuing of OIML Certificates under the OIML-CS is classified as Scheme type 1a defined in ISO/IEC 17067 Conformity assessment - Fundamentals of product certification and guidelines for product certification schemes.
+
+In cases where ISO/IEC 17065 is deemed not to be the most appropriate Standard, national authorities may decide to implement other Standards (e.g. ISO/IEC 17020 General criteria for the operation of various types of bodies performing inspection).
+
+This Document was developed in cooperation with the International Accreditation Forum (IAF), which is an Organization in Liaison with the OIML. Consequently, this Document should be used for accreditation assessments and any appropriate evaluation of certification bodies on the basis of the Memorandum of Understanding signed between ILAC, the IAF and the OIML in October 2018.
+
+This Document does not include the text of ISO/IEC 17065. Numbers and titles of ISO/IEC 17065 clauses and subclauses are associated with the relevant OIML guidance which is identified with the letter "G" (for Guidance) followed by the relevant subclause number of ISO/IEC 17065. A chronological number is also given (e.g. G.1.1-1) which signifies "OIML guidance number 1 to subclause 1.1 of ISO/IEC 17065". OIML guidance to the introduction of ISO/IEC 17065 is identified by "G.0-x".

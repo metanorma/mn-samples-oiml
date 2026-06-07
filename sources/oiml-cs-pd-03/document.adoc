@@ -1,0 +1,30 @@
+= Application and approval of OIML Issuing Authorities
+:docidentifier: OIML-CS PD-03 Edition 5
+:doctype: international-document
+:title-main-en: Application and approval of OIML Issuing Authorities
+:edition: 5
+:revdate: 2025-12-24
+:copyright-year: 2025
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-general.adoc[]
+include::sections/05-scheme-a.adoc[]
+include::sections/06-scheme-b.adoc[]
+include::sections/07-appeals.adoc[]
+include::sections/08-suspension.adoc[]
+include::sections/09-extension-reduction.adoc[]
+include::sections/10-periodic-review.adoc[]
+include::sections/11-withdrawal.adoc[]
+include::sections/12-notification.adoc[]
+include::sections/13-references.adoc[]
+include::sections/14-annex-a.adoc[]

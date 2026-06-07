@@ -1,0 +1,3 @@
+== Subsequent verification
+
+Unless national regulations specify otherwise, subsequent verification tests shall be carried out in accordance with accuracy tests specified in 2.4, using test objects specified in 2.3. For software controlled devices, software verification shall be carried out as specified in 2.1.1.

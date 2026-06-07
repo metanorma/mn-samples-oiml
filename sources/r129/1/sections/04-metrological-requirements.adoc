@@ -1,0 +1,103 @@
+== Metrological requirements
+
+=== Maximum permissible errors and minimum dimension
+
+==== Scale intervals, minimum dimension
+
+The lower limit of the minimum dimension for all values of the scale interval is given in <<table-2>>.
+
+[[table-2]]
+.Scale intervals and minimum dimension
+|===
+|Scale interval (d) |Minimum dimension (Min) (lower limit)
+
+|stem:[d \leq] 2 cm |10 d
+|2 cm stem:[\lt] stem:[d \leq] 10 cm |20 d
+|10 cm stem:[\lt] d |50 d
+|===
+
+==== Value of the mpe
+
+The mpe applicable to the measurement by the instrument of any of the three dimensions for initial and subsequent verification is stem:[\pm 1.0] d.
+
+==== Value of the fault limit
+
+The value of the fault limit is one scale interval (d).
+
+==== Maximum permissible variation between indicators
+
+There shall be no difference between the indications when displayed on different digital indicators.
+
+==== Multi-interval instruments
+
+For multi-interval instruments with scale intervals of stem:[d_1, d_2, ..., d_r], the mpe are stem:[pm 1 d_1, pm 1 d_2, ..., pm 1 d_r] for the applicable range and axis.
+
+==== Calculated quantities
+
+All calculated quantities included in the transaction shall be derived from the indicated measured dimensions, which are rounded to the nearest applicable scale interval. All calculated quantities shall be in mathematical agreement.
+
+==== Rules for the determination of errors
+
+The rules for the determination of errors are as follows:
+
+. The specifications in 4.1.2 to 4.1.5 apply to all instruments irrespective of their principles of operation. Limitations of use as marked on the instrument may apply, for example with respect to the position, shape and material of the object.
+
+. The specifications in 4.1.2 to 4.1.5 are applicable to all indications included in the transaction as appropriate.
+
+. The initial intrinsic error is found at reference conditions of stem:[20 "unitsml(degC) pm 5 "unitsml(degC)}], ambient atmospheric pressure, nominal voltage and stem:[(50 pm 15)%] relative humidity.
+
+. For instruments that are equipped with an extended indication device or mode which displays the indication with a scale interval equal to or less than stem:[1/5] d, and that feature is used during type evaluation or verification, the error of indication is calculated as:
+
+[align=center]
+Error of indication = Indication - Known dimensions of the test object
+
+Otherwise, the error of indication is calculated as:
+
+[align=center]
+Error of indication = Indication - Nominal dimensions of the test object
+
+=== Influence factors
+
+==== Rated operating conditions
+
+Instruments shall be designed and manufactured such that they do not exceed the mpe when exposed to the following ranges of environmental conditions:
+
+. mains power voltage variations: stem:[-15\,\%] to stem:[+10\,\%] of nominal voltage;
+
+. air temperature variations at the temperature limits stated in the descriptive markings; if no temperature limits are stated in the descriptive markings stem:[-10\,\text{°C}] to stem:[+40\,\text{°C}] applies;
+
+. relative humidity of 85 % (non-condensing) at the high temperature limit of the instrument or stem:[40\,\text{°C}], whichever is lower.
+
+An electronic instrument powered by direct current shall either continue to function correctly or not indicate any quantity when the voltage is below the manufacturer's specified nominal voltage.
+
+If special temperature limits are stated in the descriptive markings, the range shall be at least stem:[30\,\text{°C}].
+
+=== Disturbances
+
+==== Disturbance applied to measuring instrument
+
+An instrument shall be designed and manufactured such that, when exposed to disturbances, either:
+
+. significant faults do not occur; or
+
+. significant faults are detected and acted upon.
+
+NOTE: A fault equal to, or smaller than, d is allowed during the disturbance irrespective of the value of the error of indication prior to the disturbance.
+
+==== Disturbance applied to devices
+
+The requirement in 4.3.1 may be applied separately:
+
+[[disturbance-a]] . to each individual cause of significant fault; and/or
+
+[[disturbance-b]] . to each part of the electronic instrument.
+
+The choice whether <<disturbance-a>> or <<disturbance-b>> is applied is left to the manufacturer.
+
+==== Tests for disturbances; severity levels
+
+Instruments shall withstand the appropriate disturbances when subject to the applicable severity levels.
+
+=== Light and acoustic effects
+
+Instruments based on light or acoustic measuring techniques shall remain within the mpe when subjected to the applicable light or acoustic effects, or have provisions for alternative operations if the instrument can only perform across a limited range of the applicable light or acoustic effects.

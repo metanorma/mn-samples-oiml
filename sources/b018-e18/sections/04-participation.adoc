@@ -1,0 +1,40 @@
+[[participation]]
+== Participation in the OIML-CS
+
+=== Membership
+
+==== {blank}
+
+The CIML Member in a given Member State may put forward to the MC one or more OIML Issuing Authorities in that State per category of measuring instruments for its acceptance under Scheme A or Scheme B.
+
+NOTE: An OIML Issuing Authority that issues OIML Certificates may or may not be the same organization as the national body that issues national type approval certificates and whose responsibilities are governed by national regulations.
+
+==== {blank}
+
+The CIML Member in a given Member State may designate one or more Utilizers in that State per category of measuring instrument.
+
+==== {blank}
+
+The OIML Corresponding Member Representative may designate one or more Associates in that country per category of measuring instrument.
+
+==== {blank}
+
+A list of all OIML Issuing Authorities and Utilizers in the various Member States and Associates from OIML Corresponding Members is maintained by the BIML and is permanently available to Member States, Corresponding Members and other interested parties on the OIML website and on request.
+
+=== {blank}
+
+The requirements for the participation of OIML Issuing Authorities and their associated Test Laboratories in Scheme A or Scheme B are the same, but the method of demonstrating compliance is different. OIML Issuing Authorities are required to demonstrate compliance with <<ISO17065>>, and Test Laboratories are required to demonstrate compliance with <<ISO17025>>. For participation in Scheme B, it is sufficient to demonstrate compliance on the basis of "self-declaration" with additional supporting evidence. For participation in Scheme A, compliance shall be demonstrated by peer evaluation, on the basis of accreditation or peer assessment. Accreditation assessment teams shall include Legal Metrology Expert(s), and peer assessment teams shall comprise a Management System Expert and Legal Metrology Expert(s), as specified in Procedural Documents <<PD03>> and <<PD04>>.
+
+=== {blank}
+
+OIML Issuing Authorities that have been accepted for participation in the OIML-CS (see <<duties>>) sign a Declaration indicating their scope for issuing OIML Certificates and OIML type evaluation reports under Scheme A and/or Scheme B. When an OIML Issuing Authority is accepted under Scheme A, the OIML Member State shall designate at least one Utilizer for the respective category(ies) of measuring instrument(s). The Utilizer(s) sign(s) the Declaration indicating their acceptance of OIML Certificates and/or OIML type evaluation reports issued under Scheme A for the respective category(ies) of measuring instrument(s). The Utilizer(s) may specify additional national requirements or special requirements which deviate from those in the relevant OIML Recommendation(s).
+
+NOTE: The requirement to designate at least one Utilizer shall not apply when the OIML Member State does not regulate that particular category of measuring instrument in their country.
+
+=== {blank}
+
+Utilizers sign a Declaration indicating their scope of acceptance of OIML Certificates and/or OIML type evaluation reports issued under Scheme A and/or Scheme B. They may specify additional national requirements or special requirements which deviate from those in the relevant OIML Recommendation(s).
+
+=== {blank}
+
+Associates sign a Declaration indicating their scope of acceptance of OIML Certificates and/or OIML type evaluation reports issued under Scheme A and/or Scheme B. They may specify additional national requirements or special requirements which deviate from those in the relevant OIML Recommendation(s).

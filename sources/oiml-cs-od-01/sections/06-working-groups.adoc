@@ -1,0 +1,25 @@
+== Management Committee Working Groups
+
+=== {blank}
+
+In addition to the Review Committee the Management Committee may establish Working Groups, with clearly defined terms of reference, to advise it on matters related to the management of the OIML-CS or to enhance the efficiency of its operation.
+
+=== {blank}
+
+Working Groups may be established for the purpose of dealing with matters relating, for example, to developing new or revising Operational Documents or Procedural Documents (see 6.5 below), developing the layout and content of peer assessment report forms for the initial assessment of OIML Issuing Authorities and Testing Laboratories, and developing the layout and content of OIML Certificates.
+
+=== {blank}
+
+All representatives of the Management Committee, as well as the representatives of OIML Issuing Authorities, Utilizers, Associates and Organisations in Liaison are entitled to participate in the activities of a Working Group. The composition of a Working Group shall be decided by the Management Committee.
+
+=== {blank}
+
+A member of the Working Group will be appointed by the Management Committee to be the convener. The Secretariat duties of any Working Group shall be under the responsibility of the Executive Secretary.
+
+=== {blank}
+
+A permanent Working Group, referred to as the "Maintenance Group", with a Convener appointed by the Management Committee, has been established to propose amendments and improvements to OIML B 18 <<OIML_B_18>> and to develop new, or revise existing, Operational Documents and Procedural Documents.
+
+=== {blank}
+
+Guests may attend Maintenance Group meetings at the invitation of the Chairperson.

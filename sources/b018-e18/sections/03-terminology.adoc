@@ -1,0 +1,231 @@
+== Terminology and abbreviations
+
+The definitions and abbreviations listed below apply to this publication and the OIML-CS Operational Documents and Procedural Documents.
+
+=== accreditation
+
+third party attestation related to a conformity assessment body conveying formal demonstration of its competence to carry out specific conformity assessment tasks
+
+[NOTE]
+====
+In the OIML-CS, accreditation is equivalent to peer assessment (see <<peer-assessment>>).
+====
+
+[.source]
+<<ISO17000,clause="5.6">>
+
+=== additional national requirement
+
+requirement that is not included in the relevant OIML Recommendation but that is required in order to issue a national/regional type approval, and that has been included in the scope of the Declaration
+
+=== applicant
+
+manufacturer and/or authorized representative who submits an application for an OIML type evaluation of a measuring instrument to an OIML Issuing Authority in order to receive an OIML type evaluation report and an OIML Certificate for that type of measuring instrument
+
+NOTE: Upon issuance of the OIML Certificate, the applicant becomes the owner of the OIML Certificate.
+
+=== Associate
+
+national issuing authority or national responsible body from an OIML Corresponding Member that has signed the Declaration indicating the terms of acceptance of OIML Certificates and/or OIML type evaluation reports
+
+=== Board of Appeal (BoA)
+
+internal appeals committee of the OIML-CS
+
+=== category
+
+classification of measuring instruments for which technical and metrological requirements are laid down in an OIML Recommendation (for instance <<R76>> for the category of non-automatic weighing instruments)
+
+=== certification body
+
+third-party conformity assessment body operating certification schemes
+
+NOTE: A certification body can be non-governmental or governmental (with or without regulatory authority).
+
+[.source]
+<<ISO17065,clause="3.12">>
+
+=== conformity assessment
+
+demonstration that specified requirements related to a product, process, system, person or body are fulfilled
+
+[.source]
+<<ISO17000,clause="2.1">>
+
+=== conformity assessment body
+
+body that performs conformity assessment services
+
+[.source]
+<<ISO17000,clause="2.5">>
+
+=== Declaration
+
+document that is signed by OIML Issuing Authorities, Utilizers and Associates accepting to abide by the rules of the OIML-CS. The scope of certification and/or acceptance of OIML type evaluation reports issued with an OIML Certificate under Scheme A or B are detailed in separate annexes which form part of the Declaration
+
+=== Executive Secretary
+
+BIML staff member appointed by the BIML Director who is responsible for the day-to-day operation of the OIML-CS under the direction of the Management Committee (MC)
+
+=== family of measuring instruments
+
+identifiable group of measuring instruments belonging to the same manufactured type that have the same design features and metrological principles for measurement but which may differ in some metrological and technical performance characteristics, as defined in the relevant Recommendation
+
+NOTE: The concept of a "family" primarily aims to reduce the testing required for OIML type evaluation. It does not preclude the possibility of listing more than one family in one OIML Certificate.
+
+=== family of modules
+
+identifiable group of modules belonging to the same manufactured type that have similar design features but which may differ in some metrological and technical performance requirements as defined in the relevant Recommendation
+
+=== internal Test Laboratory
+
+Test Laboratory that is designated by an OIML Issuing Authority, and registered in the Declaration, that is part of the same organization as the OIML Issuing Authority
+
+=== Legal Metrology Expert
+
+person, approved by the MC, who provides specific technical and metrological expertise with respect to the scope of an accreditation or peer assessment; is a team member who provides advice but is not considered to be an assessor unless he/she has the relevant assessor qualifications and training
+
+=== Management Committee (MC)
+
+committee established by the CIML to manage the OIML-CS (see <<management-committee>>)
+
+=== Management System Expert
+
+person, approved by the MC, who has overall responsibility for leading a peer assessment
+
+=== manufacturer
+
+company or person legally responsible for producing measuring instruments and/or modules which conform to the certified type
+
+=== Manufacturer's Test Laboratory (MTL)
+
+Test Laboratory of a manufacturer that is designated by an OIML Issuing Authority, and registered in the Declaration, that performs specific tests under controlled supervision (see clause 7 of <<PD04>>) or as a third-party laboratory of an OIML Issuing Authority
+
+NOTE: An MTL may conduct tests for the parent company and/or for other companies. The requirements for controlled supervision apply if tests are performed for the parent company. Otherwise the MTL is considered as a third-party Test Laboratory, in which case the requirements for third-party laboratories must be satisfied.
+
+NOTE: In the event that test data is obtained from an MTL this must be clearly indicated on the OIML type evaluation report (see 5.5.4 of <<PD05>>) and acceptance of that report is on a voluntary basis (see 4.9 of <<PD06>>).
+
+=== MC Chairperson
+
+individual, appointed by the CIML, who presides over the Management Committee. He/she is responsible for the operation of the MC and is the functional supervisor of the Executive Secretary in matters related to the OIML-CS
+
+=== measuring instrument
+
+device used for making measurements, alone or in conjunction with one or more supplementary devices
+
+[.source]
+<<VIM,clause="3.1">>
+
+=== module
+
+identifiable part of a measuring instrument or of a family of measuring instruments that performs a specific function or functions that can be separately evaluated according to prescribed metrological and technical performance requirements in the relevant Recommendation
+
+=== national issuing authority
+
+certifying body or person in an OIML Member State or Corresponding Member that is responsible for national type approval and that issues national/regional Type Approval Certificates for specific categories of measuring instruments or modules on the basis of examination and testing under its own control
+
+=== national responsible body
+
+organization within an OIML Member State or Corresponding Member that does not conduct type evaluation but that is responsible for the metrological control of measuring instruments and/or modules
+
+=== OIML Certificate
+
+Type Examination Certificate, issued by an OIML Issuing Authority, attesting the conformity of a type of a measuring instrument or module with the relevant requirements of an OIML Recommendation at the time of testing and evaluation
+
+[[oiml-cs]]
+=== OIML Certification System (OIML-CS)
+
+system for issuing, registering and using OIML Certificates and associated OIML type evaluation reports for types of measuring instruments (including families of measuring instruments, modules, or families of modules), based on the requirements in the relevant OIML Recommendation(s)
+
+=== OIML Issuing Authority (IA)
+
+certification body from an OIML Member State issuing OIML Certificates and associated OIML type evaluation reports in accordance with Scheme A or Scheme B
+
+NOTE: An OIML Member State having an OIML Issuing Authority for a category of measuring instrument under Scheme A shall designate at least one Utilizer (see <<utilizer>>) for that category of measuring instrument. The Utilizer(s) may be a different organization(s) than the OIML Issuing Authority.
+
+NOTE: The requirement to designate at least one Utilizer (see <<utilizer>>) shall not apply when the OIML Member State does not regulate that particular category of measuring instrument in their country.
+
+=== OIML Technical Committees and Subcommittees (TC/SC)
+
+committees comprising representatives from OIML Member States and OIML Corresponding Members, with linked Project Groups, responsible for the development and revision of OIML Recommendations, Documents and Guides
+
+=== OIML test report
+
+report issued by a test laboratory that includes the results of tests and examinations it carried out on the basis of the relevant OIML Recommendation during OIML type evaluation on identified sample(s) of a given type of measuring instrument or module
+
+NOTE: Unless the OIML Recommendation states otherwise, several test reports may be issued if several test laboratories are involved in covering all of the tests and examinations specified in the relevant OIML Recommendation.
+
+=== OIML type evaluation
+
+type evaluation conducted on the basis of the relevant OIML Recommendation(s)
+
+=== OIML type evaluation report
+
+report issued by an OIML Issuing Authority participating in the OIML-CS that assesses the conformity of the type of a measuring instrument or module to the requirements in the relevant Recommendation and, if applicable, to the additional national requirements specified in the Declaration
+
+[[peer-assessment]]
+=== peer assessment
+
+assessment of a body against specified requirements by representatives of other bodies in, or candidates for, an agreement group
+
+NOTE: Within the context of the OIML-CS implementation, this is the procedure by which approved experts assess, against specified requirements, on site, the competence of OIML Issuing Authorities and Test Laboratories to be registered in the Declaration.
+
+NOTE: In the OIML-CS, peer assessment is equivalent to accreditation (see <<acc>>).
+
+[.source]
+<<ISO17000,clause="4.5">>
+
+=== peer evaluation
+
+process used by MC members to evaluate the compliance of OIML Issuing Authorities and Test Laboratories
+
+=== Review Committee (RC)
+
+sub-committee of the MC that provides recommendations on the approval of OIML Issuing Authorities, Legal Metrology Experts and Management System Experts
+
+=== Scheme
+
+part of the OIML-CS covering one or more categories of measuring instruments and with common requirements for participation
+
+=== Scheme A
+
+advanced level of the OIML-CS where accreditation or peer assessment is used as the basis for demonstrating compliance with the requirements of the OIML-CS
+
+=== Scheme B
+
+introductory level of the OIML-CS where "self-declaration" is used as the basis for demonstrating compliance with the requirements of the OIML-CS
+
+=== Test Laboratory (TL)
+
+laboratory performing certain or all tests on a type of measuring instrument. A Test Laboratory is designated by an OIML Issuing Authority and accepted by the MC
+
+NOTE: A Test Laboratory may be an internal Test Laboratory of an OIML Issuing Authority, a third-party Test Laboratory or a Manufacturer's Test Laboratory (MTL).
+
+NOTE: The OIML Issuing Authority, and not the Test Laboratory, is responsible for issuing the OIML type evaluation report.
+
+=== Test Laboratories Forum (TLF)
+
+advisory group that provides a platform for discussion on practical issues pertaining to testing. Each Test Laboratory in the OIML-CS may be represented in the TLF
+
+=== third-party Test Laboratory
+
+Test Laboratory that is designated by an OIML Issuing Authority, and registered in the Declaration, and which is independent from the OIML Issuing Authority
+
+=== TLF Chairperson
+
+individual, appointed by the Management Committee, who presides over and is responsible for the operation of the Test Laboratories Forum
+
+=== type (pattern) evaluation
+
+conformity assessment procedure on one or more specimens of an identified type (pattern) of measuring instruments which results in an evaluation report and/or an evaluation certificate
+
+NOTE: "Pattern" is used in legal metrology with the same meaning as "type" <<VIML>>.
+
+=== user
+
+any organization other than a Utilizer that accepts OIML Certificates and/or OIML type evaluation reports issued under Scheme A or Scheme B
+
+[[utilizer]]
+=== Utilizer
+
+national issuing authority or national responsible body from an OIML Member State that has signed the Declaration, indicating the terms of acceptance of OIML Certificates and/or OIML type evaluation reports issued under Scheme A or Scheme B

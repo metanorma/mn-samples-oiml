@@ -1,0 +1,7 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains the procedures associated with OIML Issuing Authorities, Utilizers and Associates signing a Declaration under the OIML-CS. Templates are provided on the OIML-CS website for the Declaration.
+
+These procedures relate to the framework for the OIML-CS as given in OIML B 18 <<OIML_B_18>>, the Operational Rules as given in <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and the Procedures as given in <<OIML_CS_PD_01>>, <<OIML_CS_PD_02>>, <<OIML_CS_PD_03>>, <<OIML_CS_PD_04>>, <<OIML_CS_PD_05>>, <<OIML_CS_PD_06>> and <<OIML_CS_PD_07>>.

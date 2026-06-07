@@ -1,0 +1,199 @@
+== Forms of metrological supervision
+
+The target areas (forms) of metrological supervision are as follows:
+
+* use of legal units;
+* market surveillance;
+* quality system surveillance;
+* field surveillance;
+* repairs and installation of measuring instruments.
+
+=== Use of legal units
+
+The aim of this area of metrological supervision is to determine whether the application of units and markings are in accordance with the legislation in the following fields:
+
+* on measuring instruments;
+* on prepackages;
+* in advertisements;
+* in other publications, as far as applicable.
+
+The process consists of checking that:
+
+* the legal units and their prescribed or authorized multiples or submultiples are used;
+* the correct names of units and the correct prefixes of their multiples and submultiples are used;
+* the correct symbols of units, of their multiples and submultiples are used;
+* the accuracy is indicated in the prescribed form, completely, and in the proper place (manufacturer's markings on measuring instruments, tolerances on prepackaged products);
+* the names and symbols of the quantities are correct;
+* the mandatory printed information on prepackaged products is clear and permanent and of suitable height;
+* on prepackaged products, the unit price information (if applicable) is correctly positioned;
+* the ratio between the contents and the volume of the package is adequate (to avoid "deceptive packages").
+
+The inspection is completed in accordance with 4.3.1.
+
+=== Market surveillance
+
+==== {blank}
+
+This form of supervision is used to ensure that measuring instruments or prepackages bearing the required markings are only placed on the market and/or put into service if the corresponding requirements have been met. Market surveillance ensures that conformity assessment procedures or metrological control of prepackages and the performance of customs authorities in relation to imports, are working properly and effectively throughout a country or a free trade area, to achieve the level of consumer protection established by law. It is a complementary activity to the metrological controls over instruments and prepackages at the market stage.
+
+The purpose of market surveillance is twofold:
+
+* to ensure equivalent consumer protection throughout the given area regardless of the origin of the product, especially in a liberalized conformity assessment system; and
+* to serve the interest of economic operators in helping to eliminate unfair competition.
+
+==== {blank}
+
+Market surveillance is performed on instruments and prepackages at the market stage when all the procedures of legal control (e.g. required conformity assessment procedures) have been finalized before the measuring instruments and prepackages are placed on the market. If this is not the case (e.g. weighing instruments destined for use in as yet undecided different gravitational zones), it shall be performed in the early in-service life of the instruments. Targeting measuring instruments and prepackages when they are on the market aims at establishing a direct link to the manufacturer or manufacturer's representative (a distributor) to prevent illegal measuring instruments or prepackages from being put into use.
+
+==== {blank}
+
+Market surveillance is intended to detect only typical, systematic non-compliances (e.g. a type of a measuring instrument or of a prepackage). In free trade areas, measuring instruments or prepackages are predominantly subject to market surveillance where it is specified by the corresponding harmonized regulations.
+
+==== {blank}
+
+Market surveillance consists of checking that measuring instruments and prepackages:
+
+* are placed on the market and only put into service when correctly manufactured (special attention is paid to the software version and its protection);
+* are marked in the required language in the correct position;
+* have undergone metrological control (conformity assessments, type approval, initial verification) as required;
+* satisfy the requirements of their corresponding regulation.
+
+==== {blank}
+
+For market surveillance, either of the inspection methods in 4.3.1 and 4.3.2 can be used or combined as necessary. However, in-house surveillance (4.3.2) is preferred. Where the inspection necessitates destructive testing, the authority may purchase the samples.
+
+==== {blank}
+
+Market surveillance shall be performed solely by authorities themselves (see 4.7.1). Only necessary technical tasks (e.g. testing) and provision of information for market surveillance planning (to be delivered e.g. by authorized private bodies involved in procedures of metrological control or in corresponding conformity assessment procedures) can be subcontracted. This is on the condition that the authority retains the responsibility for its decisions and no conflict of interest can arise.
+
+==== {blank}
+
+Manufacturers or their representatives shall notify responsible market surveillance authorities of the location of instruments that have been put into use. The authorities should act in collaboration with manufacturers and their representatives in preventing the placement of non-compliant measuring instruments and prepackages on the market and should cooperate with responsible conformity assessment bodies as to the access to the technical documentation and input information for risk assessment.
+
+==== {blank}
+
+Market surveillance planning is based on market analysis and risk assessment -- there is no intention to reach total coverage. To monitor the measuring instruments or prepackages placed on the market, the surveillance authorities shall have the power, competence and resources:
+
+* to regularly visit commercial, industrial and storage premises;
+* to organize random spot checks;
+* to take (purchase) samples of measuring instruments or prepackages and to subject them to examination and testing;
+* to obtain all the necessary information.
+
+=== Quality system surveillance
+
+==== {blank}
+
+Quality system surveillance ensures that authorized private bodies and/or manufacturers of instruments and their representatives within the conformity assessment system (if such is in place), duly fulfill the obligations arising out of the approved quality system.
+
+==== {blank}
+
+Quality system surveillance is carried out by the conformity assessment body that approved the quality system of the supervised body. It may be the authority itself or, preferably, it is a conformity assessment body having the character of a certification body (subclause 4.7.2) -- an accreditation body or a certification body for quality systems. In the latter case, the authority is not directly involved -- however, it may subsequently act upon the findings.
+
+==== {blank}
+
+Quality system surveillance will depend on the type of the quality system stipulated by national legislation. In the case of verification of measuring instruments or conformity to the approved type (a replacement of initial verification in conformity assessment systems), the quality system is based on <<ISO17025>> supplemented with relevant requirements of legal metrology. For manufacturing, the quality system is based on <<ISO9001>> with some additional technical requirements taken from ISO/IEC 17025 (e.g. uncertainties) as given by the corresponding regulation (see also <<D27>>). Among the requirements set out in the above mentioned standards the following are of utmost importance:
+
+* the observance of requirements concerning possession of measurement standards and testing equipment (especially their calibration status);
+* the observance of prescribed or recommended (at national or international level, especially by the OIML) measurement methods and procedures and way of evaluating the measurements;
+* the completion of performed tests and examinations prescribed by regulations and compliance with these instructions on the part of supervised bodies;
+* the observance of principles of traceability of measurement results;
+* successful history of participation in interlaboratory comparisons or proficiency testing schemes within the scope of activity of supervised bodies.
+
+==== {blank}
+
+In the case of authorized private bodies, the quality system surveillance procedure will depend on whether the measuring instruments are to be verified on-site or in-house. In the former case, due to time constraints, no testing on samples is performed at the premises of the supervised body (this is left to field surveillance) and only the quality system documentation and other relevant documentation (see 5.3.5) is checked. In the latter case, the quality system documentation and other relevant documentation is checked and testing of samples is performed either at the laboratory of the supervised body (4.3.1) or samples can be transported to a competent calibration or testing laboratory (4.3.2) to perform the tests specified by the conformity assessment body. The conformity assessment body shall periodically carry out these audits at regular prescribed intervals (e.g. annually). Additionally, the conformity assessment body may carry out unannounced visits to supervised bodies, performing a full or partial audit. In any event, the conformity assessment body shall provide the supervised body with a corresponding report.
+
+==== {blank}
+
+The supervised body shall grant the conformity assessment body access to its premises for inspection purposes and shall provide the authority with all necessary information, in particular:
+
+* the quality system documentation;
+* the design documentation in the case of a manufacturer;
+* the quality records, e.g. inspection reports, test and calibration data, reports on qualification of personnel involved, etc.;
+* the full authorization decree, if applicable, to check the conditions of authorization.
+
+==== {blank}
+
+The costs of the supervisions are charged to the supervised bodies and, if applicable, the other parties of the regional arrangement (in a free trade area), shall be notified of the findings of the surveillance.
+
+=== Field surveillance
+
+==== {blank}
+
+The purpose of this form of metrological supervision is to ensure that, as stipulated by legislation, the responsibilities of:
+
+* end users of measuring instruments;
+* authorized private bodies to perform their initial, if applicable, and subsequent verification on-site, if such bodies exist (see also 5.3 and the note after 5.4.3);
+* other bodies involved in putting measuring instruments into use (installers and repairers, see <<installation>>)
+
+in relation to regulated measurements <<D1>> and to measuring instruments <<D1>> being in use are properly discharged. In this sense, it is basically a complementary activity to the preventive metrological controls over measuring instruments in service (e.g. subsequent verification), especially those verified on-site. Field surveillance is very important in countries that do not have a system of mandatory subsequent verification at regular intervals.
+
+==== {blank}
+
+Depending on the circumstances, either of the methods described in 4.3.1 and 4.3.2 can be used for this form of supervision. Where fraudulent infringements are suspected, inspectors should anonymously carry out field surveillance by purchasing goods whose quantity is measured by the measuring instrument under supervision.
+
+==== {blank}
+
+Field surveillance can consist basically of checking:
+
+* that the measurements made in the public interest are carried out in compliance with the legal requirements;
+* the legal requirements of the measuring instrument (whether the instrument is or is not subject to legal control);
+* that the measuring instrument subject to legal control is used wherever prescribed by legislation or regulations;
+* that the measuring instrument has been put into service, correctly installed and used in accordance with the manufacturers' instructions, if applicable;
+* that the measuring instrument is properly marked and sealed (markings and seals are in place, correct, untampered with and undamaged) or, when placing these marks on a measuring instrument is impossible, the relevant documentation confirms that the legal metrology regulations are fulfilled;
+* that the measuring instrument has not suffered any accidental damage or excessive wear and tear during its use;
+* that the measuring instrument shows no evidence of misuse or deliberate damage likely to influence its technical, especially metrological, characteristics;
+* the completeness and the correctness of the prescribed accessories;
+* the completeness and validity of the documentation prescribed for the instrument;
+* the knowledge of the personnel, maintenance personnel and their qualifications are adequate, if prescribed;
+* the method of conservation or storage of a measuring instrument which is not in constant use;
+* the correctness of its installation in the given environment and its general fitness for the given application (external examination);
+* that no schemes of manipulation of the measuring instrument's errors within the tolerances given by maximum permissible errors (MPEs) are in progress (the distribution of errors of a verified measuring instrument around zero should exhibit no bias);
+* that tests of technical characteristics in part or in full against the corresponding technical regulation and/or technical standard are carried out. OIML Recommendations should be preferably used for this purpose. In addition to other tests, the errors of a measuring instrument in actual use are compared with the corresponding maximum permissible errors (MPEs) established in the legal requirements for its metrological characteristics. Unless the legislation stipulates otherwise, the errors of an instrument in service which has a valid verification status (verification period, if any, not exceeded) shall be within twice the MPE to take into consideration the effects of normal wear and tear over time (see corresponding OIML publications on uncertainties in legal metrology);
+* that the manufacturer, installer and/or repairer of a measuring instrument is correctly registered when required and as specified by national metrological legislation and meets the requirements determined therein;
+* that a newly manufactured or installed measuring instrument which is in service is in accordance with the approved type (special attention is paid to the software version and its protection);
+* that a measuring instrument which has just been manufactured or repaired has been properly verified before being released for normal use;
+* that a measuring instrument in service is regularly verified at the intervals, if any, established by existing legal metrological regulations;
+* that the ancillary equipment is properly used and calibrated in regular intervals, if necessary, that the calibration certificates are available and that the requirements concerning its use are observed;
+* the number and nature of users' complaints concerning the measuring instrument.
+
+NOTE: For on-site verifications it is difficult to legally prove any violations against the authorized private bodies. Any noncompliance found during field surveillance may be difficult to enforce if, by law, the users are not primarily responsible for any violations.
+
+==== {blank}
+
+Field surveillance shall be performed directly by authorities (see 4.7.1) or by licensed conformity assessment bodies (see 4.7.2) -- in this case they have the character of inspection bodies. Due to the very similar resources and expertise of the inspection bodies responsible for field surveillance and of authorized private bodies, these can be merged if careful precautions are taken to ensure the sufficient impartiality within the unified body. It is not charged to the supervised bodies.
+
+==== {blank}
+
+The possible combinations as to the use of various bodies in metrological supervision can be summarized as follows:
+
+* in the case of public bodies: these can in principle carry out all the forms of surveillance under 5.2--5.4;
+* in the case of private bodies: these can perform only the technical tasks of market surveillance specified in 5.2.6, they can carry out quality system surveillance as a whole and the inspection function of field surveillance.
+
+==== {blank}
+
+In the case of unified legislation not requiring a split between market and field surveillance, both forms of metrological supervision can be merged.
+
+[[installation]]
+=== Installation and repair of measuring instruments
+
+==== {blank}
+
+Where there is insufficient legal coverage of metrology or a low level of public awareness of legislation, it is advisable to subject manufacturers, installers and repairers of measuring instruments (hereinafter referred to as "registered bodies") to mandatory registration. Registration and the associated conformity assessment procedures would ensure strict observance of the applicable regulations. It would also ensure technical uniformity amongst staff within the registered bodies. Manufacturers and their representatives, if subjected to the conformity assessment system, are automatically excluded from this type of regulation. The aim of having metrological supervision of this highly preventive nature is to enable an authority to allow registered bodies longer periods between accreditation assessments (e.g. once every three years).
+
+==== {blank}
+
+The overall performance of registered bodies is indirectly supervised by means of field surveillance.
+
+==== {blank}
+
+Supervision executed at registered bodies' premises (form of inspection 4.3.1) is to establish whether:
+
+* the supervised body is correctly registered when required and as specified by national metrological legislation, and meets the requirements determined therein;
+* the required documentation is available and properly maintained;
+* the required qualification of personnel is properly established and maintained (e.g. proper licenses for installers from the manufacturers of measuring instruments);
+* the standards and the accessory equipment used for the activities performed are maintained under proper metrological control.
+
+==== {blank}
+
+This supervision shall be performed solely by authorities.

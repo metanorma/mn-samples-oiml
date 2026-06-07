@@ -1,0 +1,7 @@
+== Introduction
+
+This "Type evaluation report format", the subject of OIML R 129-4, aims at presenting, in a standardised format, the results of the evaluation to which a type of a multi-dimensional measuring instrument shall be submitted with a view to its approval.
+
+The "Checklist" is a summary of the evaluation and examinations carried out on the instrument. It includes the conclusions of the results of the tests performed, experimental or visual checks based on the required performance criteria and associated tests in OIML R 129-1 and -2. The words or condensed sentences intend to remind the examiner of the requirements of R 129-1 and -2 without reproducing them.
+
+All metrology services evaluating types of multi-dimensional measuring instrument according to OIML R 129-1 and -2 or to national or regional regulations based on OIML R 129-1 and -2 are strongly advised to use this "Type evaluation report format", directly or after translation into a language other than English or French. Its direct use in English or in French, or in both languages, is even more strongly recommended whenever the results of type evaluation may be transmitted by the country performing these evaluations to the approving authorities of another country, under bi- or multi-lateral cooperation agreements. In the framework of the OIML Certification System (OIML-CS), use of the "Type evaluation report format" is mandatory.

@@ -1,0 +1,33 @@
+=== Summary of the checklist
+
+For each test, the "Summary of the checklist" below and the "Checklist" in clause 1 shall be completed according to this example:
+
+|===
+| |Passed |Failed
+
+|When the instrument has passed the test: |X |
+|When the instrument has failed the test: | |X
+|When the test is not applicable: |/ |/
+|===
+
+Summary of the checklist:
+
+|===
+|Requirement |Passed |Failed |Remarks
+
+|Metrological requirements (R 129-1 clause 4) | | |
+|Technical requirements (R 129-1 clause 5) | | |
+|Additional requirements for software controlled multi-dimensional measuring instruments (R 129-1 clause 6) | | |
+|Test procedures (R 129-2) | | |
+|Overall result | | |
+|===
+
+Application no.: ___
+
+Type designation: ___
+
+Report date: ___
+
+---
+
+Use this page to detail remarks from the summary of the checklist:

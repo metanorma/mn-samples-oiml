@@ -1,0 +1,39 @@
+== Instructions for use of this Document in drafting OIML Recommendations
+
+The general structure of OIML Recommendations is defined in <<B6-2>>, Chapter 3, which is followed by a description in somewhat more detail. The following clauses concern the elaboration into more detail and instructions on the incorporation of these required elements in a Recommendation.
+
+=== {blank}
+
+The applicable Recommendation shall specify, for each category or subcategory of measuring instruments:
+
+. expected influence factors, with rated operating and reference conditions;
+. expected disturbances and associated expected maximum intensity (limit of disturbance);
+. maximum permissible errors on type evaluation, on initial verification, in service, and on subsequent verification, as well as fault limit level, and significant durability error level (wherever applicable).
+
+NOTE: The applicable Recommendation may indicate that individual subcategories of measuring instruments may have different rated operating conditions, reference conditions and limits of disturbances.
+
+NOTE: Rated operating conditions are generally specified as a range (for example: stem:[-10\,\mathrm{°C}] to stem:[+40\,\mathrm{°C}]); reference conditions are generally specified as a single value with a range of variation (for example: stem:[23\,\mathrm{°C} \pm 2\,\mathrm{°C}]).
+
+NOTE: The reference conditions shall preferably be specified in accordance with <<IEC60068-1>>.
+
+=== {blank}
+
+The applicable Recommendation may specify additional requirements or adapt the requirements in this Document with a view to limiting the occurrence of the significant faults defined in 3.12.
+
+NOTE: These requirements may depend on the nature of the measurement (repeatable, non-repeatable, non-interruptible, etc.) or the intended use (trade, direct selling to the public, health, law enforcement, etc.).
+
+=== {blank}
+
+The applicable Recommendation may specify requirements concerning the occurrence of durability errors defined in 3.13 (see note to 4.2).
+
+=== {blank}
+
+Some ranges of measuring instruments may be immune to some specific influence quantities due to their design principle. For a particular kind of instrument, therefore, it shall only be required to perform the tests for which the instrument is likely to be influenced by the influence quantity during its operation.
+
+=== {blank}
+
+Clause 8 of this Document contains guidelines for determining the test levels to be applied in the evaluation of compliance with the requirements specified in the applicable Recommendation.
+
+=== {blank}
+
+All referenced standards and normative documents are subject to revision, and the users of this Document are encouraged to investigate the possibility of applying the most recent editions of these standards and documents.

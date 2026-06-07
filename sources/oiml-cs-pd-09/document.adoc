@@ -1,0 +1,25 @@
+= Utilizers and Associates
+:docidentifier: OIML-CS PD-09 Edition 1
+:doctype: international-document
+:title-main-en: Utilizers and Associates
+:edition: 1
+:revdate: 2025-12-24
+:copyright-year: 2025
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-admission-utilizer.adoc[]
+include::sections/05-admission-associate.adoc[]
+include::sections/06-amendment.adoc[]
+include::sections/07-withdrawal.adoc[]
+include::sections/08-notification.adoc[]
+include::sections/09-references.adoc[]

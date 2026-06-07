@@ -1,0 +1,47 @@
+== Extension or reduction of scope of an OIML Issuing Authority
+
+=== {blank}
+
+Existing OIML Issuing Authorities may apply to extend their scope for the following:
+
+. extension of capabilities of an existing Test Laboratory;
+
+. addition of a new Test Laboratory;
+
+. addition of a new category of measuring instrument; or
+
+. addition of a new edition of an OIML Recommendation (where a previous edition of the OIML Recommendation is in its scope).
+
+=== {blank}
+
+Conversely, an existing OIML Issuing Authority can apply to reduce their scope for the following:
+
+. reduction in the capabilities of an existing Test Laboratory;
+
+. removal of a new Test Laboratory;
+
+. removal of a category of measuring instrument; or
+
+. removal of an edition of an OIML Recommendation.
+
+=== {blank}
+
+Where the OIML Issuing Authority wishes to reduce its scope the OIML Issuing Authority shall inform the Executive Secretary. The Executive Secretary shall amend the scope of the OIML Issuing Authority accordingly in the Declaration. Approval of the Management Committee is not required in this situation, although the Executive Secretary will notify the Management Committee of the change.
+
+=== {blank}
+
+Where the OIML Issuing Authority wishes to extend its scope it shall complete the Application Form, selecting the option for Modification/extension to scope in section 3.
+
+=== {blank}
+
+Where the OIML Issuing Authority wishes to add a new Test Laboratory, or where the capabilities of an existing Test Laboratory are to be extended, the procedures detailed in <<OIML_CS_PD_04>> shall be followed.
+
+=== {blank}
+
+Where the OIML Issuing Authority wishes to add a new category of measuring instrument, evidence shall be provided in support of the application which details the competency of the OIML Issuing Authority and its associated Test Laboratory(ies) for the category of measuring instrument as appropriate. The relevant procedures detailed in clause 5 and/or clause 6 will be applied as appropriate.
+
+=== {blank}
+
+Where the OIML Issuing Authority already has an edition of an OIML Recommendation in its scope, and it wishes to add a new edition of the OIML Recommendation to its scope following an update of the OIML Recommendation, it is sufficient for the OIML Issuing Authority to provide a gap analysis as evidence of its competence. An accreditation assessment and/or peer assessment, according to the new edition of the OIML Recommendation, is not required in this instance.
+
+NOTE: This process for an extension of scope does not apply in the case where an OIML Recommendation has been revised. See OIML B 6-1 <<OIML_B_6_1>> for information regarding the review process for OIML publications.

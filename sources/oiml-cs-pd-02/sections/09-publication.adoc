@@ -1,0 +1,9 @@
+== Publication of Lists of Experts
+
+=== {blank}
+
+When an applicant has been approved by the Management Committee to be a Legal Metrology Expert and/or Management System Expert, the Executive Secretary will update the ILAC-IAF-OIML lists of experts published on the OIML-CS pages of the OIML website.
+
+=== {blank}
+
+When an expert is included on the list of Management System Experts, the Executive Secretary will send a notification to ILAC and/or IAF as appropriate.

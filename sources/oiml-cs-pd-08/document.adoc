@@ -1,0 +1,23 @@
+= Signing a Declaration
+:docidentifier: OIML-CS PD-08 Edition 3
+:doctype: international-document
+:title-main-en: Signing a Declaration
+:edition: 3
+:revdate: 2024-03-11
+:copyright-year: 2024
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-record.adoc[]
+include::sections/05-declaration.adoc[]
+include::sections/06-acceptance.adoc[]
+include::sections/07-references.adoc[]

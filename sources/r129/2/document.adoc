@@ -1,0 +1,36 @@
+= Multi-dimensional measuring instruments
+:docidentifier: OIML R 129-2
+:docnumber: 129
+:partnumber: 2
+:edition: 2020
+:revdate: 2020-01-01
+:copyright-year: 2020
+:language: en
+:title-main-en: Multi-dimensional measuring instruments
+:title-part-en: Metrological controls and performance tests
+:title-main-fr: Instruments de mesure multidimensionnels
+:title-part-fr: Contrôles métrologiques et essais de performance
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 7
+:technical-committee: Dimensional measuring instruments
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-type-evaluation.adoc[]
+
+include::sections/02-initial-verification.adoc[]
+
+include::sections/03-subsequent-verification.adoc[]
+
+include::sections/aa-performance-tests.adoc[]
+
+include::sections/ab-comparison-table.adoc[]
+
+include::sections/ac-bibliography.adoc[]

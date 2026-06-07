@@ -1,0 +1,625 @@
+[[annex-a]]
+[appendix]
+== Performance tests
+
+[obligation=normative]
+
+Performance tests carried out under the influence factors, disturbances and humidity effects specified in R 129-1, 4.2, 4.3 and 4.4, ensure that measuring instruments perform over a range of environmental conditions likely to be met in normal use.
+
+=== General
+
+==== Instrument warm up time
+
+[cols="h,a"]
+|===
+
+|Test method
+|The instrument shall be switched on for a period of time equal to, or greater than, the warm-up time specified by the manufacturer. Power is to be "on" for the duration of each test.
+
+|Applicability
+|All multi-dimensional instruments.
+
+|Object of the test
+|Verification of compliance with the provisions in R 129-1, 5.1.7.
+
+|Test procedure in brief
+|Two test objects shall be used, one near minimum dimensions and one near maximum dimensions. One test shall be carried out for each test object at 0, 5, 15 and 30 minutes after the dimensions are first displayed after switch-on.
+
+|Test level
+|The results at each dimension for each object shall be compared with the mpe (R 129-1, 4.1.2). This test shall be performed at reference conditions (R 129-1, 4.1.7(c)).
+
+|Acceptance criteria
+|The instrument shall be correct (within the mpe) as soon as the values of the dimensions are displayed (R 129-1, 5.1.7). All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2.
+|===
+
+==== Repeatability
+
+[cols="h,a"]
+|===
+
+|Test method
+|Repeatability
+
+|Applicability
+|All multi-dimensional measuring instruments.
+
+|Object of test
+|Verification of compliance with the provisions in R 129-1, 4.2.1 under conditions of repeated measurement.
+
+|Test procedure in brief
+|Before the test is conducted and without a test object in the measurement area, the instrument shall be in zero or ready condition. Test objects shall be used such that three measurements of five dimensions approximately equally spaced between and including at or near minimum and maximum dimensions, shall be carried out for each axis (L, W and H) under reference conditions (R 129-1, 4.1.7(c)). Any calculated quantities shall be checked for correct multiplication and rounding (R 129-1, 4.1.6).
+
+|Test level
+|The results at each dimension for each object shall be compared with the mpe (R 129-1, 4.1.2). The instrument shall be correct (within the mpe) for each measurement of each dimension.
+
+|Acceptance criteria
+|All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2.
+|===
+
+==== Tests for influence factors
+
+Before tests are conducted and without a test object in the measurement area, the instrument shall be in zero or ready condition. Test objects shall be used such that at least one measurement of at least five dimensions approximately equally spaced between and including at or near minimum and maximum dimensions, shall be carried out for each axis (L, W and H). For the following influence factor tests it is permitted to use test objects only near the minimum dimensions:
+
+* static temperatures;
+* damp heat, steady-state (non-condensing).
+
+The tests shall first be carried out under reference conditions (R 129-1, 4.1.7(c)) and then at each of the extreme conditions of the influence factors specified in R 129-1, 4.2.1.
+
+When the effect of one influence factor is being evaluated, all other factors shall be held relatively constant at a value close to the reference conditions specified in R 129-1, 4.1.7(c). The test results at each dimension and each condition shall be compared with the mpes (R 129-1, 4.1.2). If applicable, the variation between indicators shall be checked against the permissible difference (R 129-1, 4.1.4). Any calculated quantities shall be checked for correct multiplication and rounding (R 129-1, 4.1.6).
+
+The effect of influence factors on any interfaces (R 129-1, 5.5.2) or electronic sealing provisions (R 129-1, 6.3.1) shall also be checked.
+
+==== Tests for disturbances
+
+Tests for disturbances shall be carried out on all electronic instruments. The damp heat, cyclic test (A.3.6) is only carried out on instruments intended for use in locations where they may be subject to condensate water.
+
+Tests using at least one test object shall be carried out, firstly at reference conditions (R 129-1, 4.1.7(c)) and no disturbance, and then with the applications of each disturbance specified in R 129-1, 4.3. Only one disturbance at a time shall be applied. The disturbances shall be applied during the display mode of the three dimensions (L, W and H). The difference between the tests with and without the disturbance shall be compared with the significant fault (R 129-1, 2.3.7). All indicators shall be checked.
+
+The effect of disturbances on any interfaces (R 129-1, 5.5.2) or electronic sealing provisions (R 129-1, 6.3.1) shall also be checked.
+
+==== Tests for light and acoustic effects
+
+The tests shall be carried out as specified in A.1.3 under the variation of light and acoustic effects given in A.4.
+
+The test results at each dimension and at each condition shall be compared with the mpe (R 129-1, 4.1.2).
+
+==== Tests for other effects
+
+Tests for (see 1.4.5 to 1.4.10)
+
+* irregularly shaped objects,
+* different orientations of the object,
+* the range of relative motion,
+* multi-interval instruments,
+* different surfaces, and
+* interfaces, if applicable
+
+shall be carried out under reference conditions (R 129-1, 4.1.7(c)). The tests as specified in A.1.3 shall be used, except that at least three measurements of at least three dimensions shall be carried out for each axis. All results shall be compared with the mpe (R 129-1, 4.1.2).
+
+==== Applicable tests
+
+The following tests apply to the various types of electronic instruments using the following principles of operation.
+
+[[table-a1]]
+.Applicable tests
+[cols="7*",options="header"]
+|===
+2+|Test |I/D footnote:[I = Influence factor and D = Disturbance] |Mechanical measuring device |Optical measuring device |Acoustic measuring device |Battery operated
+
+|A.2.1 |Static temperatures |I |x |x |x |x
+|A.2.2 & A.3.6 |Damp heat |I/D |x |x |x |x
+|A.2.3 |AC mains voltage variation |I |x |x |x |
+|A.2.4 |Low voltage of internal battery |I |x |x |x |x
+|A.3.1 |AC mains voltage dips, short interruptions and reductions |D |x |x |x |
+|A.3.2 |Electrical bursts |D |x |x |x |
+|A.3.3 |Electrostatic discharge |D |x |x |x |x
+|A.3.4 |Electrical surges |D |x |x |x |x
+|A.3.5 |Immunity to RF Electromagnetic fields |D |x |x |x |x
+|A.4.1 |Ambient light | | |x | |
+|A.4.2 |Acoustics | | | |x |
+|===
+
+NOTE: <<table-a1>> is not all-inclusive, but illustrates the test selection criteria.
+
+=== Test procedures for influence factors
+
+Additional information for carrying out the test procedures for influence factors is given below. The instrument being tested is referred to as the equipment under test (EUT).
+
+==== Static temperatures
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to dry heat (non-condensing) and cold.
+
+|Applicability
+|All multi-dimensional measuring instruments.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.3 and R 129-1, 4.2.1 under conditions of high and low temperatures.
+
+|Test procedure in brief
+|The test comprises exposure to the specified high and low temperatures under "free air" conditions during the period of time specified (the period specified is the period following the moment at which the EUT has reached temperature stability). One measurement on every sample is taken using each unit, at every test condition.
+
+|Test level
+|
+
+The EUT shall be tested as specified in A.1.3:
+
+. at a temperature of 20 stem:[°C] following conditioning;
+. at the specified high temperature;
+. at the specified low temperature; and
+. again at 20 stem:[°C] following conditioning.
+
+The change in temperature shall not exceed 1 stem:[°C]/min during heating up and cooling down.
+
+The absolute humidity of the test atmosphere shall not exceed 20 stem:[g/m^3].
+
+When tests are performed at temperatures below 35 stem:[°C], the relative humidity shall not exceed 50 %.
+
+Exposure duration:
+
+* at least 2 h (following EUT stabilisation) at specified high temperature;
+* at least 2 h (following EUT stabilisation) at specified low temperature.
+
+|Acceptance criteria
+|All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>>, IEC 60068-2-1 <<IEC_60068_2_1>>, IEC 60068-2-2 <<IEC_60068_2_2>> and IEC 60068-3-1 <<IEC_60068_3_1>>.
+|===
+
+==== Damp heat - Steady-state (non-condensing)
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to damp heat in steady-state.
+
+|Applicability
+|All electronic multi-dimensional measuring instruments.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.3 and R 129-1, 4.2.1 under conditions of high humidity and constant temperature. The steady-state test should always be used where adsorption or absorption play the main part. When diffusion but not breathing is involved, either the steady-state or the cyclic test shall be prescribed depending on the type of instrument and its application.
+
+|Test procedure in brief
+|
+The test comprises exposure to the specified high level temperature and the specified constant relative humidity for a certain fixed period of time. The EUT shall be handled such that no condensation of water occurs on it.
+
+NOTE: One measurement on every sample is taken using each unit, at every test condition.
+
+|Test level
+|
+The EUT shall be tested as specified in A.1.3:
+* at the reference conditions of 20 stem:[°C] and 50 % relative humidity; +
+* at the specified high temperature or 40 stem:[°C], whichever is lower and 85 % relative humidity after 48 h; and
+* again at 20 stem:[°C] and 50 % relative humidity.
+
+|Acceptance criteria
+|All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>>, IEC 60068-2-78 <<IEC_60068_2_78>> and IEC 60068-3-4 <<IEC_60068_3_4>>.
+
+|===
+
+==== AC mains voltage variation
+
+[cols="h,a"]
+|===
+
+|Test method
+|Applying low and high level AC mains power voltage (single phase).
+
+|Applicability
+|Applicable for multi-dimensional measuring instruments which are temporarily or permanently connected to an AC mains power network while in operation.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.3 and R 129-1, 4.2.1 under conditions of AC mains network voltage changes between upper and lower limit.
+
+|Test procedure in brief
+|The EUT shall be subjected to AC mains power variations specified in R 129-1, 4.2.1 under constant environmental conditions. One measurement on the sample is taken using each unit, at every test condition. In case of three-phase mains power, the voltage variation shall apply for each phase successively.
+
+|Test level
+|
+The EUT shall be tested as specified in A.1.3:
+
+* at nominal voltage;
+* at an upper limit of 110 % of nominal voltage; and
+* at a lower limit of 85 % of nominal voltage.
+
+NOTE: The nominal voltage is that specified by the manufacturer. If a voltage range is marked, the upper limit applies to the high level value of the range and the lower limit applies to the low level value of the range.
+
+|Acceptance criteria
+|All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>>, IEC 61000-4-1 <<IEC_61000_4_1>> and IEC/TR 61000-2-1 <<IEC_TR_61000_2_1>>.
+
+|===
+
+==== Low voltage of internal battery
+
+[cols="h,a"]
+|===
+
+|Test method |Applying minimum supply voltage.
+
+|Applicability
+|Applicable to all multi-dimensional measuring instruments supplied by internal battery.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.3 and R 129-1, 4.2.1 during low battery voltage.
+
+|Test procedure in brief
+|The test comprises exposure of the EUT to the specific low battery level condition during a period sufficient for achieving temperature stability and for performing the required measurements. The maximum internal impedance of the battery and the minimum battery supply voltage level shall be specified by the manufacturer of the instrument. If an alternative power supply source is used instead of the internal battery, for instance in bench testing, the internal impedance of the specified type of battery shall also be simulated. The alternative power supply shall be capable of delivering sufficient current at the applicable supply voltage.
+
+|Test level
+|
+The EUT shall be tested as specified in A.1.3
+
+. at nominal voltage;
+. at various reduced voltages below nominal voltage; and
+. 90 % of the minimum battery supply voltage level.
+
+The nominal voltage is that specified by the manufacturer.
+
+|Acceptance criteria
+|All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2 or alternatively the indication shall be blank.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>>.
+
+|===
+
+=== Test procedures for disturbances
+
+==== AC mains voltage dips, short interruptions and reductions
+
+[cols="h,a"]
+|===
+|Test method
+|Introducing short-time reductions of mains voltage using the test setup defined in the applicable standard.
+
+|Applicability
+|Applicable to all electronic multi-dimensional measuring instruments supplied by AC mains voltage.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 during short time power reduction.
+
+|Test procedure in brief
+|A test generator is to be used which is suitable to reduce the amplitude of the AC mains voltage for the required period of time. The performance of the test generator shall be verified before connecting the EUT. The mains voltage reduction tests shall be repeated 10 times with intervals of at least 10 s between the tests. If the instrument operates over a range of voltages and that range is equal to or greater than 20 % of the minimum voltage then the test should be carried out at the voltage minimum and maximum.
+
+|Test level
+|Each test shall be repeated ten times with an interval of at least 10 s. The EUT shall be tested as specified in A.1.4 with the following reductions:
+
+. reduction to 0 % for 0.5 cycle;
+. reduction to 0 % for 1 cycle;
+. reduction to 40 % for 10/12 cycles;
+. reduction to 70 % for 25/30 cycles;
+. reduction to 80 % for 250/300 cycles; and
+. reduction to 100 % for 250/300 cycles.
+
+NOTE: Values applicable for 50 Hz/60 Hz respectively.
+
+|Acceptance criteria
+|If the instrument does not detect and react to a significant fault occurring as a consequence of the short time power reduction, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>>, IEC 61000-4-11 <<IEC_61000_4_11>>, IEC 61000-6-1 <<IEC_61000_6_1>> and IEC 61000-6-2 <<IEC_61000_6_2>>.
+|===
+
+==== Electrical bursts
+
+[cols="h,a"]
+|===
+
+|Test method
+|Introducing transients on the mains power lines.
+
+|Applicability
+|Applicable to all multi-dimensional measuring instruments supplied by AC mains voltage.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 when an electrical burst is applied to the power line, input/output control circuits and communication lines.
+
+|Test procedure in brief
+|The EUT shall be subjected to electrical bursts of voltage spikes. The test shall be conducted under constant environmental conditions. The transient generator shall have an output impedance of 50 stem:[\Omega] and 1000 stem:[\Omega] and shall be adjusted before connecting the EUT. At least ten positive and ten negative randomly phased bursts of voltage spikes with a double exponential waveform shall be applied. Each spike shall have a rise time of 5 ns and a half amplitude duration of 50 ns. The burst length shall be 15 ms, the burst period (repetition time interval) shall be 300 ms.
+
+|Test level
+|
+The EUT shall be tested as specified in A.1.4 at the following amplitudes (peak values):
+
+. 2 kV for power supply lines; and
+. 1 kV for input/output control circuits and communication lines.
+
+With a repetition frequency of the impulses of 5 kHz stem:[\pm] 20 %.
+
+|Acceptance criteria
+|If the instrument does not detect and react to a significant fault occurring as a consequence of the electrical bursts, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>> and IEC 61000-4-4 <<IEC_61000_4_4>>.
+|===
+
+==== Electrostatic discharge
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to electrostatic discharge (ESD).
+
+|Applicability
+|Applicable to all electronic multi-dimensional measuring instruments.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 when an electrical discharge is applied.
+
+|Test procedure in brief
+|The EUT shall be subjected to both direct and indirect electrostatic discharges under constant environmental conditions. At least ten discharges shall be applied. The time interval between successive discharges shall be at least 1 second.
+
+|Test level
+|The EUT shall be tested as specified in A.1.4 at a test voltage up to and including 6 kV for the contact mode and 8 kV for the air mode.
+
+|Acceptance criteria
+|If the instrument does not detect and react to a significant fault occurring as a consequence of the electrostatic discharge, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>> and IEC 61000-4-2 <<IEC_61000_4_2>>.
+|===
+
+==== Electrical surges
+
+===== Surges on AC mains power lines
+
+[cols="h,a"]
+|===
+
+|Test method
+|Introducing electrical surges on the mains power lines.
+
+|Applicability
+|Applicable for electronic multi-dimensional measuring instruments which are temporarily or permanently connected to an AC mains power network while in operation.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 during conditions where electrical surges are superimposed on the AC mains voltage.
+
+|Test procedure in brief
+|A surge generator as defined in the referred standard shall be used. The characteristics of the generator shall be verified before connecting the EUT. The test comprises exposure to electrical surges for which the rise time, pulse width, peak values of the output voltage/current on high/low impedance load and the minimum time interval between two successive pulses are defined in the referred standard. At least 3 positive and 3 negative surges shall be applied. On AC mains supply lines the surges shall be synchronised with the AC supply frequency and shall be repeated such that the injection of surges on all the 4 phase shifts: 0°, 90°, 180° and 270° with the mains frequency is covered.
+
+|Test level
+|
+The EUT shall be tested as specified in A.1.4 at the following amplitudes (peak values):
+
+. 1 kV for AC line to line; and
+. 2 kV for AC line to ground.
+
+|Acceptance criteria
+|If the instrument does not detect and react to a significant fault occurring as a consequence of the surge, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>> and IEC 61000-4-5 <<IEC_61000_4_5>>.
+|===
+
+===== Surges on signal, data and control lines
+
+[cols="h,a"]
+|===
+
+|Test method
+|Introducing electrical surges on signal, data and control lines.
+
+|Applicability
+|Applicable for electronic multi-dimensional measuring instruments containing active electronic circuits which during operation are temporarily or permanently connected to electrical signal, data and/or control lines that may exceed a length of 10 m.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 during conditions where electrical surges are superimposed on I/O and communication ports.
+
+|Test procedure in brief
+|A surge generator as defined in the referred standard shall be used. The characteristics of the generator shall be verified before connecting the EUT. The test comprises exposure to electrical surges for which the rise time, pulse width, peak values of the output voltage/current on high/low impedance load and the minimum time interval between two successive pulses are defined in the referred standard. At least 3 positive and 3 negative surges shall be applied. The applicable injection network depends on the kind of wiring the surge is coupled into and is defined in the referred standard. If the EUT is an integrating instrument, the test pulses shall be continuously applied during the measurement time.
+
+|Test level
+|
+The EUT shall be tested as specified in A.1.4 at the following amplitudes (peak values):
+
+. 1 kV for unsymmetrical lines - line to line;
+
+. 2 kV for unsymmetrical lines - line(s) to ground;
+
+. 2 kV for symmetrical lines - line(s) to ground; and
+
+. 2 kV for shielded I/O and communication lines - line(s) to ground.
+
+|Acceptance criteria
+|If the instrument does not detect and react to a significant fault occurring as a consequence of the surge, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>> and IEC 61000-4-5 <<IEC_61000_4_5>>.
+|===
+
+==== Immunity to RF electromagnetic fields
+
+===== Radiated RF electromagnetic fields
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to radiated radio frequency electromagnetic fields.
+
+|Applicability
+|Applicable for electronic multi-dimensional measuring instruments containing active electronic circuits.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 under conditions of exposure to electromagnetic fields.
+
+|Test procedure in brief
+|The EUT is exposed to electromagnetic fields with the required field strength and the field uniformity under constant environmental conditions. The level of field strength specified refers to the field generated by the unmodulated carrier wave. The EUT shall be exposed to the modulated wave field. The frequency sweep shall be made only pausing to adjust the RF signal level or to switch RF-generators, amplifiers and antennas if necessary. Where the frequency range is swept incrementally, the step size shall not exceed 1 % of the preceding frequency value. The dwell time of the amplitude modulated carrier at each frequency shall not be less than the time necessary for the EUT to be exercised and to respond, but shall in no case be less than 0.5 s. Adequate EM fields can be generated in facilities of different type and setup, the use of which is limited by the dimensions of the EUT and the frequency range of the facility. The expected most critical frequencies (e.g. clock frequencies) shall be analysed separately.
+
+|Test level
+|The EUT shall be tested as specified in A.1.4 at a field strength of 10 V/m, 80 % AM, 1 kHz sine wave over frequency ranges of 26 MHz to 3000 MHz for EUT having no mains or other input port available and 80 MHz to 3000 MHz for EUT having mains or other input port available.
+
+|Acceptance criteria
+|If the instrument does not detect and react to a significant fault occurring as a consequence of the electromagnetic susceptibility of the instrument, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>>, IEC 61000-4-3 <<IEC_61000_4_3>> and IEC 61000-4-20 <<IEC_61000_4_20>>.
+|===
+
+===== Conducted RF electromagnetic fields
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to conducted radio frequency electromagnetic fields.
+
+|Applicability
+|Applicable for electronic multi-dimensional measuring instruments containing active electronic circuits.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 under conditions of exposure to electromagnetic fields.
+
+|Test procedure in brief
+|The test procedure involves the use of radio frequency EM current, simulating the influence of EM fields coupled or injected into the power ports and I/O ports of the EUT using coupling/decoupling devices as defined in the referred standard. The performance of the test equipment consisting of an RF generator, decoupling devices, attenuators, etc. shall be verified. The functional performance of the EUT is observed (e.g. displayed indications and/or error messages) while at least ten measurements are taken with the conducted radio-frequency fields applied.
+
+|Test level
+|The EUT shall be tested as specified in A.1.4 at a RF amplitude (50 stem:[\Omega]), 10 V (e.m.f), 80 % AM, 1 kHz sine wave over EM frequency range of 0.15-80 MHz.
+
+|Acceptance criteria
+|If the instrument does not detect and react to a significant fault occurring as a consequence of the electromagnetic susceptibility of the instrument, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>> and IEC 61000-4-6 <<IEC_61000_4_6>>.
+|===
+
+==== Damp heat cyclic (condensing)
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to damp heat with cyclic temperature variation.
+
+|Applicability
+|All electronic multi-dimensional measuring instruments that are intended to be used in locations where they may be subject to condensate water.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 under conditions of high humidity combined with cyclic temperature changes.
+
+|Test procedure in brief
+|
+The test comprises exposure to cyclic temperature variation between 25 stem:[°C] and 40 stem:[°C] while maintaining the relative humidity above 95 % during the temperature change and the low temperature phases and at or above 93 % RH at the upper temperature phases.
+
+Condensation is expected to occur on the EUT during the temperature rise.
+
+The 24 h cycle comprises:
+
+. temperature rise during 3 hours;
+. temperature maintained at upper value until 12 hours from the start of the cycle;
+. temperature lowered to lower temperature level within a period of 3 to 6 hours, the declination (rate of fall). during the first hour and a half being such that the lower temperature level would be reached in a 3 hour period; and
+. temperature maintained at the lower level until the 24 hour period is completed.
+
+The stabilising period before and recovery period after the cyclic exposure shall be such that the temperature of all parts of the EUT is within 3 stem:[°C] of its final value.
+
+Special electrical conditions and recovery conditions may need to be specified.
+
+|Test level
+|
+
+The EUT shall be tested as specified in A.1.4 at:
+
+. 40 stem:[°C]
+. Duration: 24 hours
+. Number of cycles: 2
+
+|Acceptance criteria
+|
+After the application of the disturbance and the subsequent recovery:
+
+* the instrument shall detect and react to a significant fault occurring as a consequence of the damp heat with cyclic temperature variation; or
+
+* the difference between each indication before the test and the associated indication after the test shall not exceed the fault limit defined in R 129-1, 2.3.7.
+
+|References
+|OIML D 11 <<OIML_D_11_2013>>, IEC 60068-2-30 <<IEC_60068_2_30>> and IEC 60068-3-4 <<IEC_60068_3_4>>.
+|===
+
+=== Tests for light and acoustic effects
+
+==== Ambient light
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to ambient light variations.
+
+|Applicability
+|Applicable for multi-dimensional measuring instruments based on light techniques.
+
+|Object of the test
+|Verification of the compliance with the provisions in A.1.5 and R 129-1, 4.4.
+
+|Test procedure in brief
+|The EUT shall be subjected to ambient light variations under constant environmental conditions. The EUT shall be tested as specified in A.1.5 at the following levels of illuminance using a normal industrial white light source (for example halogen incandescent lights in a room such as an environmental chamber where the illumination can be controlled).
+
+|Test level
+|
+
+. 200 lx to 500 lx (reference);
+
+. 100 lx; and
+
+. 1000 lx to 1500 lx.
+
+In addition, tests (a) and (c) shall be repeated with uneven illumination. The reference light intensity is considered to be 200 lx to 500 lx. The levels apply where the object to be measured is normally placed. The luminance can be measured with a photographic light meter (photometer) with the light detecting surface pointing towards the light source. The light source for test (a) can be the normal room lighting suitably dimmed. The light source for tests (b) and (c) can be a photographic slide projector with a halogen projection lamp. The angle of projection should be at approximately 45° to the axis of the light measurement transducer of the instrument. The specified levels of illuminance can be achieved by placing the projector at different distances from the instrument. Other light sources can be used. Uneven light can be achieved by using a masked slide in the slide projector so that light and dark areas cover the test object. If the manufacturer specifies special uses for the instrument outside the severity levels given, tests at those levels shall be carried out (for example at 15 000 lx for sunlight).
+
+|Acceptance criteria
+|
+
+All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2. Alternative operations may be provided if the instrument can only perform correctly over a limited range of light intensity, for example:
+
+. the instrument is either made inoperative automatically or a visual or audible indication is provided automatically when outside the limits; or
+
+. the instrument is provided with a light source to ensure the limited range is maintained. If the light source fails (a) above applies.
+
+|===
+
+==== Acoustics
+
+[cols="h,a"]
+|===
+
+|Test method
+|Exposure to acoustic noise disturbances.
+
+|Applicability
+|Applicable for multi-dimensional measuring instruments with devices based on acoustic techniques.
+
+|Object of the test
+|Verification of compliance with the provisions in A.1.5 and R 129-1, 4.4.
+
+|Test procedure in brief
+|The EUT shall be subjected to acoustic noise disturbances under constant environmental conditions.
+
+|Test level
+|
+The EUT shall be tested as specified in A.1.5 at a sound pressure level of 100 dB at the nominal centre frequency (resonant frequency) of the transducer(s) employed on the EUT. The noise source shall be operated continuously throughout the measurement process using a sinusoidal waveform.
+
+For EUTs with multiple transducers, each one shall be subjected to the test separately.
+
+The noise source shall be positioned in such a way that it does not cause damage to the EUT or impede the normal use of the EUT as specified by the manufacturer. The noise source shall be directed toward and along the axis of the transducer used in the EUT (insofar as possible given the design of the EUT). The sound pressure shall be measured at the acoustic source with the EUT off. The acoustic source shall be placed at 1 m distance of the transducer used in the EUT. The test shall be conducted in a room large enough that there are no walls or objects other than testing equipment within 2 m of the EUT or acoustic source. The transducer in the EUT and acoustic source shall be at least 1 m from the floor. A small table can be used to support the equipment.
+
+The test equipment shall include:
+
+* acoustic source; and
+
+* sound pressure level meter.
+
+|Acceptance criteria
+|All functions shall operate as designed. The test results shall comply with the mpe specified in R 129-1, 4.1.2. Alternatively, the EUT shall recognise the interference and prevent any measurements from being taken or functions producing results.
+|===

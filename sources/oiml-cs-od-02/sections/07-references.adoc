@@ -1,0 +1,8 @@
+[bibliography]
+== References
+
+* [[[OIML_B_18,OIML B 18:2022]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2022]
+
+* [[[OIML_CS_OD_01,OIML-CS OD-01]]], span:organization[OIML], span:title[_Management Committee_], span:publisher[OIML]
+
+* [[[ISO_IEC_17043,ISO/IEC 17043:2023]]] _Conformity assessment - General requirements for proficiency testing_

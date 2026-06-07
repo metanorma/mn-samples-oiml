@@ -1,0 +1,21 @@
+== Management Committee interaction with the Test Laboratories Forum
+
+=== Developing, maintaining and approving the operating rules and procedures for the Test Laboratories Forum
+
+The Management Committee is responsible for developing, maintaining and approving the operating rules and procedures regarding
+
+. the roles and duties of the Test Laboratories Forum,
+
+. the criteria for membership of the Test Laboratories Forum,
+
+. the conduct of Test Laboratories Forum work, and
+
+. the responsibilities of the Executive Secretary in connection with the activities of the Test Laboratories Forum.
+
+The operating rules of the Test Laboratories Forum are specified in document OD-02 <<OIML_CS_OD_02>>. In accordance with 11.2.1 above, any proposed changes to the roles and duties of the Test Laboratories Forum will require a revision of OIML B 18 <<OIML_B_18>>.
+
+=== Interface with the Test Laboratories Forum
+
+The Management Committee may seek the advice of the Test Laboratories Forum on issues associated with the application of testing requirements specified in OIML Recommendations, interpretations, interlab comparison programs, etc. The Executive Secretary shall raise issues for consideration by the Test Laboratories Forum in accordance with document OD-02 <<OIML_CS_OD_02>>.
+
+The Test Laboratories Forum may identify issues or provide feedback to the Executive Secretary on items that are considered to be of relevance to the successful operation of the OIML-CS. The Executive Secretary will review the feedback/output from the Test Laboratories Forum and will raise the topic with the Management Committee for their consideration and action, as appropriate.

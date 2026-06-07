@@ -1,0 +1,17 @@
+== Units of measurement
+
+The following units of measurement and their symbols shall be used:
+
+[[table-1]]
+.Scale intervals and minimum dimension
+|===
+| |Unit |Symbol
+
+|Length: |metre |m
+| |centimetre |cm
+| |millimetre |mm
+
+|Volume: |cubic metre |stem:[m^3]
+| |cubic decimetre |stem:[dm^3]
+| |cubic centimetre |stem:[cm^3]
+|===

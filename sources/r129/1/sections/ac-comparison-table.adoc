@@ -1,0 +1,87 @@
+[[annex-c]]
+[appendix]
+== Comparison table
+
+[obligation=informative]
+
+[[table-c1]]
+.Comparison between OIML R 129-1:2020 and OIML R 129:2000
+|===
+|Reference |Description |Reference |Description |Remarks
+
+|1 |Scope |1 |Scope |Scope of the Recommendation amended to include the "volume of the smallest box by volume". Scope amended to include use of different measurement devices, each using a different method to measure separate dimensions of an object.
+
+|2 |Terminology |2 |Terminology |Definitions/terminology updated to align with requirements/formatting specified in OIML B 6-2 <<OIML_B_6_2>>.
+
+|2.1.1 |Multi-dimensional measuring instrument |2.1 |Multi-dimensional measuring instrument |Includes 'dimensions'.
+
+|2.1.1.1 |length | | |Definition added.
+
+|2.1.1.2 |width | | |Definition added.
+
+|2.1.1.3 |height | | |Definition added.
+
+| | |2.4 |processor |Deleted.
+
+|2.1.5 |Ancillary device |2.6 |Auxiliary devices |Name changed.
+
+|2.1.9 |Maximum measuring speed | | |Definition added.
+
+|2.1.10 |Minimum measuring speed | | |Definition added.
+
+|2.1.11 |Indication | | |Definition added.
+
+|2.1.12 |Measuring area | | |Definition added.
+
+|2.2.1 |Rectangular box |2.10 |Rectangular box |Definition amended to include "all dihedral angles as right angles" to provide clarity.
+
+|2.2.4 |Dimensional volume |2.13 |Volume |Definition remains the same, name changed.
+
+| | |2.14 |Weight |Deleted.
+
+|2.3.6 |Fault limit | | |Definition added.
+
+|2.5 |Other definitions |2.20-2.22 |Electronic terms |The terms applicable to software controlled instruments shall be as per OIML D 31 <<OIML_D_31_2008>>.
+
+|4.1.3 |Value of the fault limit | | |Added.
+
+|4.1.6 |Calculated quantities |4.5 |Calculated quantities |Requirement amended to ensure all calculated quantities are in mathematical agreement.
+
+|4.1.7 |Rules for the determination of errors |4.6 |Rules for the determination of errors |Requirements for instruments with extended indication device added.
+
+|4.2.1 |Rated operating conditions |5.1 |Rated operating conditions for influence factors |Relative humidity added as an environmental condition.
+
+| | |5.2 |Humidity |Deleted. See the remarks for 5.1 (2000 edition).
+
+|4.4 |Light and acoustic effects |5.4 |Light and acoustic effects |Provisions added for instruments capable of performing only across a limited range of light or acoustic effects.
+
+| | |5.5 |Tests |Moved to OIML R 129-2.
+
+|5.1.3 |Suitability for use | | |Added.
+
+|5.1.5 |Zero or ready adjustment |6.4 |Zero or ready adjustment |Clarification for semi-automatic instruments provided.
+
+|5.2.1 |General | | |Requirements for semi-automatic and automatic instruments added to provide clarity.
+
+|5.2.2 |Presentation of indications |7.2 |Clarity of indications |Requirement for printed numbers and symbols to be of minimum dimension.
+
+|5.2.4 |Value of the scale interval |7.4 |Value of the scale interval |Clarity provided regarding the requirements for instruments equipped with test mode that provides scale interval associated with each measured dimension.
+
+|5.2.5 |Decimal numbers |7.5 |Decimal numbers |Requirements clarified.
+
+|5.2.6 |Limits of indication |7.6 |Limits of indication |Flexibility provided for national responsible bodies. Requirements for measurements when the object or a portion of the object being measured is outside the measuring area added.
+
+|5.2.7 |Multi-interval instruments |7.7 |Multi-interval instruments |Requirements clarified.
+
+|5.2.8 |Multi-instrument system |7.8 |Multi-instrument system |Requirements simplified.
+
+|5.2.10 |Availability of indications | | |Requirements for indications made available to customers.
+
+| | |7.10 |Stability |Deleted.
+
+|B.1.1 |Interfaces |10.4 |Auxiliary devices interface |The requirements have been moved to Annex B, the mandatory Software Annex.
+
+|6 |Additional requirements for software controlled devices | | |New requirements applicable to legally relevant part of software controlled devices.
+
+|Annex B |Software | | |New mandatory Annex with requirements for software controlled measuring instruments.
+|===

@@ -1,0 +1,26 @@
+= Appeals, Resolution of Complaints and Disputes
+:docidentifier: OIML-CS PD-01 Edition 3
+:doctype: international-document
+:title-main-en: Appeals, Resolution of Complaints and Disputes
+:edition: 3
+:revdate: 2024-08-26
+:copyright-year: 2024
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-composition-boa.adoc[]
+include::sections/05-appeals.adoc[]
+include::sections/06-complaints.adoc[]
+include::sections/07-disputes.adoc[]
+include::sections/08-making-appeal.adoc[]
+include::sections/09-boa-procedure.adoc[]
+include::sections/10-references.adoc[]

@@ -1,0 +1,7 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains the requirements and the associated procedures for adding an OIML Issuing Authority in the OIML-CS, including the processes relating to the assessment of the OIML Issuing Authority, the relationship with the assessment of associated Test Laboratories (as detailed in <<OIML_CS_PD_04>>), the Review Committee review and Management Committee approval. It also contains the procedures relating to the extension or reduction of scope of an OIML Issuing Authority, suspension and withdrawal of an OIML Issuing Authority, and the periodic review of participation.
+
+These procedures relate to the framework for the OIML-CS as given in OIML B 18 <<OIML_B_18>>, the Operational Rules as given in <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and the Procedures as given in <<OIML_CS_PD_01>>, <<OIML_CS_PD_02>>, <<OIML_CS_PD_04>>, <<OIML_CS_PD_05>>, <<OIML_CS_PD_06>>, <<OIML_CS_PD_07>>, <<OIML_CS_PD_08>> and <<OIML_CS_PD_09>>.

@@ -1,0 +1,3 @@
+== Conduct of the work
+
+The MC, MC Working Groups, TLF and BoA shall perform their activities primarily by correspondence. Detailed arrangements will be provided in the respective OIML-CS Operational Documents and Procedural Documents. All documents, meeting reports, etc. shall be public, unless otherwise defined in the OIML-CS Operational Documents and Procedural Documents.

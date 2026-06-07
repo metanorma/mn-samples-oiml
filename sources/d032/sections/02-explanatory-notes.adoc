@@ -1,0 +1,9 @@
+== Explanatory notes
+
+=== Note 1 (Certification Bodies)
+
+In the context of the OIML-CS, Certification Bodies are those OIML Issuing Authorities that have been approved by the OIML-CS Management Committee.
+
+=== Note 2 (Applicability of requirements)
+
+When used in conjunction with the OIML-CS, the guidance and interpretations in this Document are applicable to OIML Issuing Authorities which are responsible for issuing OIML Certificates and associated OIML type evaluation reports resulting from type evaluations of measuring instruments on the basis of the relevant OIML Recommendation(s).

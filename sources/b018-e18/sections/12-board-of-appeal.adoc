@@ -1,0 +1,18 @@
+== Board of Appeal (BoA)
+
+The BoA is independent of the MC.
+
+[13.1] Composition
+
+. a Chairperson appointed by the CIML; and
+
+. four members appointed by the CIML.
+
+[13.2] The tasks of the BoA are to
+
+. manage appeals against decisions of the MC relating to
+
+. participation in the OIML-CS, and
+. Legal Metrology Experts and Management System Experts,
+
+. recommend solutions to any other dispute referred to it with regard to the application of the rules of the OIML-CS.

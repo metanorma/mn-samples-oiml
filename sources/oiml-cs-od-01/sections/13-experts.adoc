@@ -1,0 +1,88 @@
+== Legal Metrology Experts and Management System Experts
+
+=== General
+
+The Management Committee is responsible for approving and maintaining the lists of OIML Legal Metrology Experts and Management System Experts (team leaders) that will participate in the Accreditation Assessments or Peer Assessments of OIML Issuing Authorities and Test Laboratories, including the specification of the criteria that the experts have to fulfil. The Review Committee is used to provide advice in the form of a recommendation to the Management Committee on the approval of the Legal Metrology Experts and Management System Experts.
+
+NOTE: Management System Experts participate in Peer Assessments as the team leader (lead assessor) for the assessment. For Accreditation Assessments, the team leader (lead assessor) from the accreditation body fulfills that role.
+
+=== Specification of competence criteria for experts
+
+==== Legal Metrology Experts
+
+Legal Metrology Experts shall be independent and impartial, and shall not be an employee of a manufacturer of measuring instruments.
+
+Legal Metrology Experts shall demonstrate the following knowledge and skills:
+
+. knowledge of type evaluation procedures and/or testing procedures of the relevant category(ies) of instrument(s) or module(s), as specified in the relevant OIML Recommendation(s),
+
+. knowledge of the rules and processes of the OIML-CS,
+
+. communication skills appropriate to interact with all levels within an OIML IA or TL, and
+
+. note-taking and report-writing skills.
+
+Legal Metrology Experts may demonstrate their competency through:
+
+. relevant experience and/or qualifications concerning the type evaluation of relevant categories of measuring instruments;
+. relevant experience and/or qualifications concerning the testing of relevant categories of measuring instruments;
+. participation in training organised by the BIML or equivalent training organised by an accreditation body;
+. being a qualified assessor from an accreditation body; and/or, if applicable,
+. participation in additional training required by the Management Committee.
+
+The approved scope of the LME will be based upon their demonstrated skills, knowledge and competency with respect to type evaluation, test procedures and instrument category.
+
+==== Management System Experts
+
+Management System Experts shall be independent and impartial, and shall not be an employee of a manufacturer of measuring instruments.
+
+Management System Experts shall be knowledgeable in assessing quality management systems of OIML Issuing Authorities on the basis of ISO/IEC 17065 <<ISO_IEC_17065>> and/or ISO/IEC 17020 <<ISO_IEC_17020>>, and/or Test Laboratories on the basis of ISO/IEC 17025 <<ISO_IEC_17025>>. They shall also demonstrate the following knowledge and skills:
+
+. knowledge of assessment principles, practices and techniques, and general management system principles and tools,
+
+. knowledge of the rules and processes of the OIML-CS,
+
+. communication skills appropriate to interact with all levels within an OIML Issuing Authority or Test Laboratory,
+
+. assessment-management skills;
+
+. opening and closing meeting skills
+
+. interviewing skills, and
+
+. note-taking and report-writing skills.
+
+Management System Experts may demonstrate their competency through:
+
+. relevant experience and/or qualifications, e.g. an IRCA (International Register of Certified Auditors) registered team leader;
+. participation in training organised by the BIML or equivalent training organised by an accreditation body;
+. being a recognised team leader from an Accreditation Body footnote:*; and/or, if applicable,
+. participation in additional training required by the Management Committee.
+
+footnote:*[A team leader of an Accreditation Body, as defined in the Joint IAF-OIML Assessment Procedure <<OIML_IAF_AP>> or the Joint ILAC-OIML Assessment Procedure <<OIML_ILAC_AP>> automatically fulfils the competence requirements.]
+
+For assessing OIML Issuing Authorities, Management System Experts must also be able demonstrate that they are familiar with the requirements of the OIML-CS, OIML D 32 <<OIML_D_32>>, OIML D 37 <<OIML_D_37>> and the Joint OIML-IAF Assessment Procedure <<OIML_IAF_AP>>.
+
+For assessing Test Laboratories, Management System experts must also be able demonstrate that they are familiar with the requirements of the OIML-CS, OIML D 30 <<OIML_D_30>> and the Joint OIML-ILAC Assessment Procedure <<OIML_ILAC_AP_2>>.
+
+=== Approval of experts
+
+The procedure for applying to be a Legal Metrology Expert or a Management System Expert, and the subsequent Management Committee approval of experts, is detailed in PD-02 <<OIML_CS_PD_02>>.
+
+=== Maintenance and publication of expert list
+
+A list of Legal Metrology Experts and Management System Experts approved to serve as assessors for the relevant category of measuring instruments is maintained by the Executive Secretary and shall be available on the OIML-CS pages of the OIML website.
+
+In the case of an accreditation assessment the Executive Secretary may, with prior consent of the expert, provide to the relevant Accreditation Body the expert's curriculum vitae and other relevant information.
+
+The list of experts will be reviewed on a 3-yearly basis by the Management Committee to ensure that the status, scope and suitability of the experts is correct. Prior to the review the Executive Secretary shall contact each expert to determine if there has been any change to their status or if they request a change of scope.
+
+The review will confirm
+
+. if the expert wishes to remain on the list,
+
+. whether the expert wishes to change their scope, i.e. add or remove instrument categories from their scope of expertise, and
+
+. whether the expert continues to fulfil the criteria specified in 13.2.1 or 13.2.2, as appropriate, including participation in relevant activities.
+
+In accordance with PD-02, 10.2 <<OIML_CS_PD_02>>, advice from the Review Committee on the continued suitability of the experts will be sought by the Executive Secretary. This advice will be incorporated into the review conducted by the Management Committee.

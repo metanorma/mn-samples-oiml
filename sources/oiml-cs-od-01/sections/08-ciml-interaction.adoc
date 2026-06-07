@@ -1,0 +1,51 @@
+== Management Committee interaction with the CIML
+
+=== General
+
+In accordance with the requirements of OIML B 18, 11.5 a) <<OIML_B_18>> the Management Committee will report annually to the CIML. The report will provide information on the activities of the Management Committee, the results of the monitoring of the operation and effectiveness of the OIML-CS and will specify any proposals and/or recommendations that require approval by the CIML. The Executive Secretary shall prepare the annual report and the Chairperson shall present the report to the CIML at its annual meeting. The Management Committee shall be provided with the opportunity to review and comment on the report before it is submitted to the CIML.
+
+=== Content of the annual report
+
+The annual report shall contain information relating, but not limited, to
+
+. activities of the Management Committee and its Working Groups, including changes to Operational Documents and Procedural Documents, guidance, forms and templates,
+
+. categories of measuring instruments in the system and the respective Scheme,
+
+. functioning of the system, e.g. number of OIML Certificates issued, the number of OIML Certificates (OIML type evaluation/test reports) that have not been accepted including the reasons for non-acceptance,
+
+. appointment, rejection and suspension of OIML Issuing Authorities and Test Laboratories,
+
+. the number of OIML Issuing Authorities and Utilizers and their scopes,
+
+. continuing compliance of OIML Issuing Authorities and Test Laboratories with the rules of the system,
+
+. appointment of Legal Metrology Experts and Management System Experts,
+
+. a summary of appeals, including the content, nature and resolution to the greatest extent possible giving consideration to the privacy of the parties involved,
+
+. promotional activities,
+
+. finances (income and expenditure) of the OIML-CS, and
+
+. outlook for the next year with a focus on planned activities.
+
+A template for the annual report is provided on the OIML-CS pages of the OIML website.
+
+=== Proposals and Recommendations for CIML approval
+
+The annual report will contain proposals and recommendations of the Management Committee that require approval by the CIML regarding
+
+[[8-3a]] . changes to OIML B 18 <<OIML_B_18>>,
+
+. appointment of the Management Committee Chairperson and Deputy Chairperson, as appropriate,
+
+. including a new category of measuring instrument in the OIML-CS,
+
+. proposals to the CIML to extend or reduce the transition period from Scheme B to Scheme A for a measuring instrument category in the OIML-CS,
+
+. proposals on the transition of measuring instrument categories from Scheme A back to Scheme B,
+
+. maintaining an earlier version of an OIML Recommendation in the OIML-CS when an OIML Recommendation is revised, and
+
+. proposals for changes to strategy and/or policy (see <<section-9-strategy>> below).

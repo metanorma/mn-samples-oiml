@@ -1,0 +1,7 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains the procedures covering the transition of the OIML Basic Certificate System and the OIML Mutual Acceptance Arrangement (MAA) to the OIML-CS, including the use of existing OIML Basic and MAA certificates and their associated OIML type evaluation reports and previous test data to issue OIML certificates under the OIML-CS. It also covers the transition arrangements when a category of measuring instrument moves from Scheme B to Scheme A under the OIML-CS.
+
+These procedures relate to the framework for the OIML-CS, as given in OIML B 18 <<OIML_B_18>>, the Operational Rules as given in <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and the Procedures as given in <<OIML_CS_PD_01>>, <<OIML_CS_PD_02>>, <<OIML_CS_PD_03>>, <<OIML_CS_PD_04>>, <<OIML_CS_PD_05>>, <<OIML_CS_PD_06>> and <<OIML_CS_PD_08>>.

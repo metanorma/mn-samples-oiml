@@ -1,0 +1,339 @@
+== Determination of test levels
+
+=== Introduction
+
+==== {blank}
+
+This clause is intended as a guideline for OIML Technical Committees, Subcommittees and Project Groups to determine the test levels to verify the sustainable compliance of measuring instruments with their metrological requirements in their applicable operating and storage environment.
+
+This determination is not intended as a classification with strict boundaries necessitating special requirements, such as in the case of an accuracy classification.
+
+Moreover, this guideline does not interfere with the liberty of the Technical Committees, Subcommittees and Project Groups to provide for test levels that differ from those resulting from the other guidelines set out in this Document. Different test levels may be used in accordance with special limitations prescribed in the applicable Recommendation.
+
+==== {blank}
+
+The most common parameters determining the environment of measuring instruments can be subdivided into three main groups, which are generally considered mutually independent:
+
+. those establishing the climatic environment;
+. those establishing the mechanical environment; and
+. those establishing the electric, magnetic and electromagnetic environment.
+
+All measuring instruments will encounter variations in the environment as a consequence of normal changes in magnitude of one or more of the parameters mentioned.
+
+Since, in general, the parameters that determine the environment are mutually independent; an overall single classification based on increasing severity is not possible.
+
+For each of these three main groups, therefore, a separate classification is made. These classifications subsequently serve to choose the adequate test level.
+
+NOTE: The applicable Recommendation may require that the classification is indicated on the instrument.
+
+==== {blank}
+
+When selecting the level of immunity for environmental phenomena and the associated test levels for a particular category of instruments, the following aspects are to be taken into account:
+
+. the (typical) climatic, mechanical and electromagnetic environment;
+. the consequence and the social and societal impact of an inaccurate measurement;
+. the value of goods to be measured;
+. the potential risk of fraud;
+. the practical possibilities for industry to comply with the prescribed level; and
+. the possibility to repeat a measurement.
+
+=== Ambient classification and associated required severity of the climatic tests
+
+Several environmental classes covering most of the different climatic ambient conditions at the locations where measuring instruments are used have been defined as described below. This classification and the associated preferred test levels are presented in <<table-1>>.
+
+Extreme conditions are not included since the probability of occurrence of such conditions is considered low. An incidental occurrence of such an extreme situation shall be interpreted as a disturbance.
+
+NOTE: <<IEC60721-3-3>> and <<IEC60721-3-4>> provide additional information on climatic classification.
+
+[[table-1]]
+[cols="1,1,1,1,4"]
+|===
+| Class | Test level index (damp heat steady-state, <<table-8>>) | Test level index (damp heat cyclic, <<table-9>>) | Test level index (water, <<table-10>>) | Description
+
+| H1 | - | - | - | This class applies to instruments or parts of instruments typically used in temperature-controlled enclosed (weather protected) locations. The local humidity is not controlled. Where necessary, heating, cooling or humidification is used to maintain the required environmental conditions. Measuring instruments are not exposed to condensed water, precipitation, or ice formations. These conditions may apply in living rooms, continuously staffed offices, certain workshops, and other rooms for special applications.
+| H2 | 1 | 1 | - | This class applies to instruments or parts of instruments typically used in enclosed (weather protected) locations where the local climate is not controlled. Measuring instruments present may be subject to condensed water, water from sources other than rain and to ice formations. These conditions may apply in some publicly accessible areas in buildings, garages, cellars, certain workshops, factories, industrial plants, ordinary storage rooms for frost-resistant products, farm buildings, etc.
+| H3 | 1 | 2 | 2 | This class applies to instruments or parts of instruments used in open air locations excluding those in extreme climate zones such as polar and desert environments.
+|===
+
+NOTE: A comparison between steady-state and cyclic tests is presented in <<IEC60068-3-4>>.
+
+The test "Water" is mainly applicable to instruments or parts of instruments typically used in the open air and which, in their normal use, could be directly exposed to spraying water (rain, etc.). Examples are platforms of weighbridges or automatic radar speed measuring instruments.
+
+It is, therefore, advised only to require this class of water protection and implement the performance test 10.3 in Recommendations that are applicable to measuring instruments which typically will be used in an environment where this kind of exposure to water can be expected (see 4.4).
+
+==== Temperature
+
+The ambient temperature of a measuring instrument in use may vary considerably. This is highly dependent not only on the place on earth, ranging from arctic to tropical regions, but also considerably on indoor or outdoor use. Instruments typically used indoors in one country may typically be used outdoors in another country (for instance: residential gas and electricity meters). Therefore, no classification based on temperature ranges has been described in this Document.
+
+In general, the choice of the lower and upper temperature limits should preferably be left to national (or regional) legislation. When applying tests in order to verify the compliance with the required temperature range, the test levels should be in conformity with those specified in <<table-6>> and <<table-7>>.
+
+==== Humidity and water
+
+<<table-1>> presents the classification of the ambient related to the exposure to humidity and water and indicates the applicable test method and test level index.
+
+==== Atmospheric pressure (Test 10.4)
+
+Considering the ranges and variations in global terrestrial atmospheric pressure, only a few categories of measuring instruments due to their physical principles are likely to be influenced by these changes. This influence could either be on the zero-indication of the instrument (offset), on the span (curve) or on both.
+
+It is, therefore, advised only to require the evaluation of performance on atmospheric pressure variation in Recommendations that are applicable to measuring instruments which typically, due to their physical measuring principle, are expected to be sensitive to variations in atmospheric pressure (see 4.4).
+
+==== Sand and dust (Test 10.5)
+
+The referred test is mainly applicable to instruments or parts of instruments typically used in dusty warehouses and in the building industry (for instance production of concrete) or, in some climatic regions, in the open air.
+
+It is, therefore, advised only to require a measure of protection to withstand this influence and, consequently, implement the performance test 10.5 in Recommendations that are applicable to measuring instruments that can be expected to be typically used in sandy/dusty conditions (see 4.4).
+
+==== Salt mist (Test 10.6)
+
+The referred test is mainly applicable to instruments or parts of instruments that are typically used in a salty environment. Examples are measuring instruments on board of sea-going vessels or in the cheese industry.
+
+It is, therefore, advised only to require a measure of protection to withstand this influence and, consequently, implement the performance test 10.6 in Recommendations that are applicable to measuring instruments that can be expected to be typically used in a humid and salt environment (see 4.4).
+
+=== Ambient classification and associated required severity of mechanical tests
+
+[[table-2]]
+[cols="1,1,1,4"]
+|===
+| Class | Vibration (<<table-15>> and <<table-16>>) | Shock (<<table-17>>) | Description
+
+| M1 | - | - | This class applies to locations with vibration and shocks of low significance, e.g. for instruments fastened to light supporting structures subject to negligible vibrations and shocks transmitted from local blasting or pile-driving activities, slamming doors, etc.
+| M2 | 1 | 1 | This class applies to locations with significant or high levels of vibration and shock, e.g. transmitted from machines and passing vehicles in the vicinity or adjacent to heavy machines, conveyor belts, etc.
+| M3 | 2 | 2 | This class applies to locations where the level of vibration and shock is high or very high, e.g. where measuring instruments are directly mounted on machines, conveyor belts, etc.
+|===
+
+In 11.1, two vibration tests (random and sinusoidal) are described. In general, it should be avoided to prescribe both tests in one OIML Recommendation.
+
+Since vibration of a random nature is real life practice, it is expected that a performance test on the sensitivity of measuring instruments to random vibration covers the requirement for withstanding influences from environmental vibrations and should be the most commonly prescribed performance test in OIML Recommendations. The sinusoidal test shall be prescribed and applied only in those cases were the measuring instrument is expected to be typically subjected to sinusoidal vibrations. Therefore the implementation of the random vibration test is preferable for OIML Recommendations.
+
+For the selection of the appropriate test (random or sinusoidal), refer to <<IEC60068-3-8>>, in particular to (sub-)clauses 4.2, 7, 8.3, and 8.4 of that standard.
+
+It is strongly recommended not to try to convert sine vibration to random vibration or vice versa. There is no simple physical relationship between the two. The impact on the specimen will therefore be different.
+
+NOTE: Requirements concerning the transportation of a measuring instrument are outside the scope of this Document.
+
+=== Classification of EM environment and the associated required severity of electromagnetic tests
+
+==== General
+
+For the purpose of selecting the most adequate requirements and associated performance tests, a classification is made based on the expected electromagnetic environmental conditions of the measuring instrument and on its application (see 8.1.3).
+
+These conditions depend on the specific environment in which the instrument is expected to be installed (residential, general public, commercial, industrial, etc.), the concept of the measurement system and the use of the measurement system.
+
+A distinction in electromagnetic environment can be made on basis of differences in
+
+* either the kind of potential electromagnetic influence quantity in the environment and its intensity,
+* or the available potential entering paths of the influence quantity, which in turn are defined by the concept of measuring instrument or system.
+
+Furthermore one can distinguish between concepts with a more closed (isolated) structure and those with a more open electromagnetic architecture. In the latter case, the cabling layout of the instrument or system can considerably influence the sensitivity to influence quantities.
+
+For feasibility reasons and while for most instruments the above distinction is not trivial, only three (electromagnetic) classes and the associated requirements and test methods are presented for a limited number of potential sources of influence (which are considered to be the main potential electromagnetic influence quantities).
+
+The following groups of influence quantities are to be considered:
+
+. those caused by conducted EM phenomena (transmitted through power or data lines); and
+. those caused by radiation of EM phenomena (wireless transmission).
+
+(All of these influences can originate from various kinds of sources, for example remote instrumentation, action on the part of personnel or atmospheric disturbances.)
+
+NOTE: <<IECTR61000-2-5>> provides additional information on the classification concerning electromagnetic environment.
+
+[[table-3]]
+[cols="1,4"]
+|===
+| Class | Description
+
+| E1 | This class applies to measuring instruments used in locations where electromagnetic disturbances correspond to those likely to be found in a residential, commercial and light industrial environment.
+| E2 | This class applies to instruments used in locations where electromagnetic disturbances correspond to those likely to be found in industrial buildings.
+| E3 | This class applies to measuring instruments powered by the battery of a vehicle and exposed to electromagnetic disturbances which correspond to those likely to be found in any environment not considered hazardous for the general public.
+|===
+
+[[table-4]]
+[cols="1,1,1,1,3"]
+|===
+| Test level index for class E1 | Test level index for class E2 | Test level index for class E3 | Table | Description
+
+| 1 | 1 | n/a | <<table-18>> | DC mains voltage variation
+| n/a | 1 | n/a | <<table-19>> | Ripple on DC mains power
+| 1 | 1 | n/a | <<table-20>> | AC mains voltage variation
+| 1 | 1 | n/a | <<table-21>> | AC mains frequency variation
+| n/a | 1 | n/a | <<table-22>> | DC mains voltage dips, short interruptions and (short term) voltage variations
+| 1 | 2 | n/a | <<table-23>> | AC mains voltage dips, short interruptions and reductions
+| 2 or 3 footnote:[See 8.4.2.5] | 3 | n/a | <<table-24>> | AC mains frequency harmonics
+| 2 | 2 | n/a | <<table-25>> | VLF and LF disturbances on AC and DC mains
+| 2 | 3 | n/a | <<table-26>> | Bursts (transients) on AC and DC mains
+| 3 | 3 | n/a | <<table-27>> | Surges on AC and DC mains power lines
+| 2 | 3 | 2 | <<table-28>> | Bursts (transients) on signal, data and control lines
+| 3 | 3 | 2 | <<table-29>> | Surges on signal, data and control lines
+| 4 | 5 | n/a | <<table-30>> | AC mains power frequency electromagnetic field
+| 2 | 3 | 3 | <<table-31>> | Conducted (common mode) currents generated by RF EM fields
+| 3 | 3 | 3 | <<table-33>> | RF EM fields (general origin)
+| 3 or 4 footnote:[See 8.4.2.10] | 3 or 4 footnote:[See 8.4.2.10] | 3 or 4 footnote:[See 8.4.2.10] | <<table-34>> | RF EM fields (digital radio telephones and portable radio transceivers)
+| 3 | 3 | 3 | <<table-35>> | Electrostatic discharges
+| n/a | n/a | C or F | <<table-37>> | Voltage variations of a road vehicle battery
+| n/a | n/a | IV | <<table-38>> | Electrical transient conduction along supply lines of external 12V and 24V batteries
+| n/a | n/a | IV | <<table-39>> | Electrical transient conduction via lines other than supply lines for external 12V and 24V batteries
+| n/a | n/a | I+III | <<table-40>> | Battery voltage variations during cranking
+| n/a | n/a | I+II | <<table-41>> | Load dump test
+|===
+
+The conditions have been adapted from the basic Publication <<IECTR61000-2-5>>.
+
+==== Guidance for test level choice
+
+Some extra guidance for choosing the measure of immunity and the associated test level for some specific tests concerning electromagnetic environment is presented in 8.4.2.1--8.5.2.
+
+This information is provided as guidance only, giving some background on the choice of tests and the suggested test levels.
+
+===== Ripple on DC mains power (<<table-19>>)
+
+No requirements for class E1 and E3 have been suggested because this test only applies to DC mains power networks, which are almost exclusively applied in industrial environments.
+
+===== AC mains frequency variation (<<table-21>>)
+
+In general, the public AC mains supply networks are coupled, resulting in negligible variations in the frequency. Only in remote areas and in the case of local generators are the frequency changes of significance.
+
+Therefore, it is advised to only prescribe this test in OIML Recommendations in cases where, as a result of the physical principle of the measuring instruments, the frequency of the AC mains supply can have a significant influence on the performance of the instrument, for instance if an internal timebase of the instrument is derived from the mains power frequency (see also 4.4).
+
+===== Voltage dips, short interruptions and (short term) voltage variations on DC mains (<<table-22>>)
+
+No requirements for class E1 and E3 have been suggested because this test only applies to DC mains power networks, which are almost exclusively applied in industrial environments.
+
+===== AC mains voltage dips, short interruptions and voltage variations (<<table-23>>)
+
+Voltage dips in AC mains power supply networks commonly occur. Moreover, interruptions for half a cycle or less are characteristic. A measuring instrument shall withstand and be sufficiently immune to such dips and interruptions in order to comply with the provisions of 5.1.1.
+
+To evaluate compliance with the provisions of 5.1.1, the presented level 2 is considered the minimum test level required.
+
+The occurrence of voltage dips and short supply interruptions, in general, cannot be predicted. Especially in industrial environments these may occur and be persistent.
+
+It is reasonable to require instruments that are intended to be used in an industrial environment to withstand such dips and interruptions and, consequently, require them to be submitted to performance tests up to level 3 in order to avoid the risk of frequent interruption of instrument performance.
+
+When test level 2 applies, three tests shall be performed and when test level 3 applies, five tests shall be performed; all 3 or 5 tests presented in the applicable test level column shall be implemented in the applicable Recommendation since the response or failing of the EUT on one of the tests cannot be predicted from the responses on the other tests.
+
+===== AC mains frequency harmonics (<<table-24>>)
+
+Because of the increased use of small transformers and semiconductor switching devices in power converters, lighting systems, AC/DC converters, UPS systems and rectifiers, the distortions in public power supply networks have increased. Power supply companies are obliged for several reasons to keep the level of disturbance below certain limits.
+
+For harmonization reasons, for each harmonic an environment dependent compatibility level has been established.
+
+Immunity test levels require a certain margin. In <<IEC61000-4-13>> a factor 1.5 is used to create this margin.
+
+Immunity requirements and associated tests shall be implemented in OIML Recommendations for measuring instruments which are designed to be connected to an AC mains network.
+
+In the IEC standard, a further subdivision is made in the class E1 environment. Only in a purely residential environment is the test level index 2 considered applicable. For industrial and commercial environments the test level indexed 3 applies.
+
+Typical environments where relatively high levels of electromagnetic mains power harmonics can be expected are
+
+* heavy industry (for example: chloride production plants), and
+* high capacity rectifier stations.
+
+===== VLF and LF disturbances on mains power lines (Test method under development)
+
+Because of the increased use of power line communication (PLC) and switching semiconductors in power supply systems, VLF and LF differential mode disturbances tend to interfere with the mains power supply sine wave. Moreover, PLC and semiconductor switching devices tend to interfere with each other.
+
+Especially in cases where the waveform of the mains power line might directly influence the measuring instruments (for instance electrical energy meters) these tests should be applied.
+
+NOTE: At the time of the drafting of this Document, a test method for these disturbances is being developed by IEC/TC 77A/WG 6. The standard to be developed will be registered as <<IEC61000-4-19>> when published. OIML Technical Committees, Subcommittees and Project Groups are advised, after its publication, to study, take into account and refer to the contents of this new standard for specifying requirements and tests concerning VLF and LF disturbances on mains power lines.
+
+===== Bursts (transients) (<<table-26>> and <<table-28>>)
+
+The selection of the applicable immunity and the associated test level shall be based on the expected use of the measuring instrument and presented in the applicable Recommendation.
+
+Test level 1 applies to instruments operating in environments that are well protected against electromagnetic interferences (e.g. computer rooms); test level 2 applies to instruments operating in areas with a normal level of protection (class E1); and test level 3 applies to instruments operating in areas without special protection measures (e.g. industrial plants, class E2).
+
+===== Surges (<<table-27>> and <<table-29>>)
+
+The requirement on immunity to surges is applicable to all situations where the measuring instrument will be connected to the (AC or DC) mains power lines. In general, the requirement also applies where data cabling is connected. The length of all connected network cabling shall be taken into account in the decision on whether there is a need for testing. Only in situations where the interconnecting cabling between devices will never exceed 10 m, testing is not applicable. Where applicable, the requirement and associated tests shall be implemented in OIML Recommendations.
+
+===== Mains power frequency electromagnetic fields (<<table-30>>)
+
+This test shall only be prescribed in OIML Recommendations if a significant influence from external power frequency magnetic fields on the measurement results may be expected, as a consequence of the physical principle of the measuring instruments concerned. This includes instrumentation equipped with touch switches (also refer to 4.4).
+
+This test does not cover the frequency spectrum of harmonics of the power frequency, whose fields are normally more common and intense.
+
+NOTE: The WHO advises a protection level for whole body human exposure (general public) of 80 A/m (50 Hz) and of 400 A/m for occupational exposure (workers).
+
+NOTE: Small sources such as many types of the adapters used to power or load battery powered equipment tend to create electromagnetic fields exceeding the 80 A/m level, but these fields tend to diminish very rapidly with distance and only a few centimetres from the source could be reduced to 1 % of the original level.
+
+NOTE: Typical environments where a relatively high level electromagnetic field strength emanating from the mains power can be expected are
+
+* high and medium voltage mains power lines,
+* heavy industry,
+* static power converters (transformers), and
+* induction cooking.
+
+===== Radiated RF electromagnetic fields and resulting induced RF currents
+
+(Tables 3, 32, 33 and 34)
+
+The rationale for the advised test levels as presented in <<table-32>>--<<table-34>> is as follows:
+
+The frequency range presented in <<table-33>> is in use for many services. It also covers the VHF and part of the UHF broadcast transmitter bands. The maximum level of field strength which can be expected close to these transmitters may exceed 10 V/m in the general public area, but may be expected not to exceed the maximum exposure levels for human beings (general public) as advised by the WHO and implemented in the national legislation of many countries. Up to 400 MHz this maximum level is 27.5 V/m, increasing linearly with frequency from 400 MHz to about 45 V/m at 1 GHz.
+
+While such high field strengths may be expected in the neighbourhood of fences around transmitter sites, this is not a sufficient argument to select a test level exceeding 10 V/m. The following should also be taken into account:
+
+* in general the occurrence of a distortion is only incidental; and
+* the risk of actual exposure to the unintentional distortion is greatly diminished as a consequence of the following:
+
+** the field strength close to a transmitter reduces approximately proportionally to the square of the distance to the transmitter;
+
+** the optimum coupling (influence) only occurs when polarization of the source (transmitter) and the sensitive part or element of the exposed object (acting as a receiver) are in parallel and the transmission direction of the transmitter (perpendicular to the polarization) is in line with that of the receiver.
+
+Unforeseen incidental exposure to the above field strength levels probably therefore only occurs if a mobile measuring instrument in operation passes by such a powerful broadcast transmitter.
+
+The frequency ranges in <<table-34>> typically apply for PMR transceivers and digital mobile phones.
+
+To get an idea of the applicable field strengths, one should be aware that
+
+* a PMR transceiver may produce 10 V/m at 30 cm distance and may reach 30 V/m at 10 cm distance from the transceiver,
+* a 2 W GSM phone typically produces a field strength of 10 V/m (modulated wave) at a distance of 1 m from the transmitter. For an 8 W GSM this distance will be 2 m, and
+* a 200 W GSM base station typically produces a field strength of 10 V/m (modulated wave) at a distance of 10 m.
+
+For more details, consult Table G 1 in <<IEC61000-4-3>>.
+
+The maximum level of field strength which can be expected close to such radiating sources in areas accessible to the general public may exceed the level of 10 V/m, but may be expected not to exceed the maximum exposure levels for human beings (general public) as advised by the WHO. This maximum level of 27.5 V/m up to 400 MHz increases linearly with frequency from 400 MHz to 61 V/m at 2 GHz and is limited to 61 V/m level in the frequency range above 2 GHz.
+
+Therefore, the tests to be applied and specified in the applicable Recommendation cannot be related to only one specific environment. So, in order to verify compliance with the electromagnetic environment of use, the tests shall extend to a frequency range and an intensity level that only depend on
+
+* the possibility of a mobile phone being used in the close vicinity of the instrument, or
+* the location of a base station relative to the instrument,
+* the risk of fraud by using a mobile phone as a source of disturbance, and
+* the consequences of an error or disturbance.
+
+In the frequency bands between 960 MHz and 1.4 GHz and between 3 and 6 GHz the following should be taken into consideration.
+
+The larger radiating sources in these frequency bands mainly concern amateur radio stations creating field strengths up to 30 V/m at 10 m distance in the ranges (1.00-1.30) GHz, (3.3-3.5) GHz and (5.65-5.93) GHz (see <<IECTR61000-2-5>>, Table 25). This, however, concerns transmission using narrow beam antennas such as dish antennas for dish to dish beam connections including satellite uplinks. Such a field strength may only be measured in the main beam of the antenna. For this reason a rationale is needed for implementing tests in this frequency band.
+
+===== Electrostatic discharge (<<table-35>>)
+
+Since the human body may be charged to a maximum value of 15 kV in extreme conditions (very low relative humidity combined with synthetic fabrics and synthetic footwear), ESD tests of test level 4 are only necessary for instruments intended to be used under circumstances where such conditions are likely to exist. Measuring instruments that will be used in areas where the relative humidity exceeds 50 % should be tested by exposure up to and including test level 3.
+
+=== Additional guidance for battery powered instruments
+
+For selecting tests for battery powered measuring instruments a distinction shall be made based on the kind of battery applied.
+
+These different types are
+
+. disposable batteries,
+. general rechargeable batteries, and
+. batteries of road vehicles.
+
+==== {blank}
+
+In case of disposable and rechargeable batteries of a general nature, at present no international standards are available. The requirements are described briefly in 5.5 and the applicable tests in <<table-36>>.
+
+==== {blank}
+
+For instruments powered by the on-board battery of a road vehicle (environmental class E3), a series of special tests simulating disturbances associated with the road vehicle power supply is presented in 14.2 of this Document. These tests are based on the international standards series <<ISO7637-1>>, <<ISO7637-2>>, <<ISO7637-3>> and on <<ISO16750-2>>.
+
+According to clause 4 of <<ISO7637-1>>, that series of standards "provides a basis for mutual agreement between vehicle manufacturers and component suppliers, intended to assist rather than restrict them".
+
+Measuring instruments that are designed to be mounted on board a road vehicle may generally be mounted on any kind of vehicle. Therefore, in <<table-38>> and <<table-39>>, the most severe level of testing specified in the standard is indicated as being the preferred level. In the revised version of <<ISO7637-2>> the pulse voltage ranges have been upward extended. Since there is still some dispute about this extension, it is advised to wait before implementing the maximum levels presented in this 2011 edition of ISO 7637-2, but to use the former maximum level.
+
+The choice of the test level to be applied is not related to a specific environment, but merely to the impact of a disturbance and, where relevant, to the electromagnetic properties of the specific type of vehicle in which the instrument is used.
+
+The applicability of the test presented in <<table-39>> "Electrical transients conduction via other than supply lines" strongly depends on cable length and layout of the I/O lines. If the I/O lines of the applicable measuring instruments are limited to not more than 0.5 m, it is advised not to implement this test.
+
+The capacitive coupling clamp (CCC) method described in <<ISO7637-3>> is the only acceptable test method. The inductive coupling clamp (ICC) method should be omitted because the test result will strongly depend on the undefined input impedance of the EUT and therefore cannot be claimed to be sufficiently reproducible for metrological purposes.
+
+The test on battery voltage variations while a vehicle starter motor is energized (<<table-40>>), as derived from ISO 16750-2, was included in previous editions of ISO 7637-2 (pulse 4). This is also the case for the "load dump" test (former pulse 5). It should be noted that the latter may need to be implemented because certain regions (for example the EU) still require load dump transients to be taken into account.

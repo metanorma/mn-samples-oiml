@@ -1,0 +1,17 @@
+== Duties, roles and responsibilities of the TLF and its members
+
+=== Duties and responsibilities of the TLF
+
+The tasks of the TLF are defined in OIML B 18, 12.2 <<OIML_B_18>>.
+
+In respect of inter-laboratory comparison programs, as specified in OIML B 18, 12.2 d) <<OIML_B_18>>, the role of the TLF is to encourage inter-laboratory comparison programs amongst OIML Issuing Authorities and their Test Laboratories. For example, the TLF could encourage the development of an inter-laboratory comparison program at a regional level, with the support of the relevant Regional Legal Metrology Organization (RLMO). When encouraging the development of an inter-laboratory comparison program, the TLF should encourage the adoption of the applicable requirements of ISO/IEC 17043 <<ISO_IEC_17043>>.
+
+=== Obligations of Members
+
+Representatives from Test Laboratories are chosen to participate in the activities of the TLF for their technical and metrological expertise and knowledge of the relevant test procedures for a range of measuring instruments and modules.
+
+Members of the TLF are encouraged to participate in the activities of the TLF for the respective measuring instrument(s) or module(s) for which they have been designated as an expert.
+
+=== Executive Secretary
+
+The Executive Secretary provides the administrative and secretarial services to the TLF. This will include convening and chairing meetings of the TLF and reporting to the Management Committee.

@@ -1,0 +1,53 @@
+= Framework for the OIML Certification System (OIML-CS)
+:docidentifier: OIML B 18
+:series: B
+:docnumber: 18
+:edition: 2018
+:revdate: 2018-10-01
+:copyright-year: 2018
+:language: en
+:title-main-en: Framework for the OIML Certification System (OIML-CS)
+:title-main-fr: Cadre pour le Système de Certification OIML (OIML-CS)
+:doctype: international-basic-publication
+:docstage: 60
+:docsubstage: 60
+:secretariat: International Bureau of Legal Metrology
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-objectives.adoc[]
+
+include::sections/03-terminology.adoc[]
+
+include::sections/04-participation.adoc[]
+
+include::sections/05-governing-documents.adoc[]
+
+include::sections/06-standards.adoc[]
+
+include::sections/07-structure.adoc[]
+
+include::sections/08-ciml-responsibilities.adoc[]
+
+include::sections/09-biml-responsibilities.adoc[]
+
+include::sections/10-management-committee.adoc[]
+
+include::sections/11-test-laboratories-forum.adoc[]
+
+include::sections/12-board-of-appeal.adoc[]
+
+include::sections/13-conduct.adoc[]
+
+include::sections/14-operation.adoc[]
+
+include::sections/15-finance.adoc[]
+
+include::sections/16-references.adoc[]

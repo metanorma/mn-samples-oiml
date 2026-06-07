@@ -1,0 +1,17 @@
+== Scope and field of application
+
+=== {blank}
+
+This Document specifies general metrological requirements applicable to measuring instruments concerning environmental influences and describes tests for verifying the compliance of an instrument with these requirements.
+
+=== {blank}
+
+This Document shall be taken into account by OIML Technical Committees, Subcommittees and Project Groups when establishing performance requirements and tests for a specific category of measuring instruments concerning their sensitivity to influence quantities.
+
+NOTE: This Document does not cover requirements for measuring instruments which are not related to external influence quantities and which are to be covered by the specific OIML Recommendation. For example: requirements for zero-setting devices, totalizers, etc.
+
+NOTE: This Document does not address aspects such as safety or emission of electromagnetic phenomena from measuring instruments. The requirements for these aspects are beyond the OIML scope and should be taken into account in accordance with the applicable international, regional or national regulations.
+
+NOTE: This Document does not address aspects concerning transportation of measuring instruments while not in operation. Requirements concerning transportation-related durability, handling and maintenance aspects are beyond the OIML scope.
+
+NOTE: This Document does not address aspects of influences by remote protocols such as software routines. For those aspects, OIML Document D 31 General requirements for software controlled measuring instruments is applicable.
