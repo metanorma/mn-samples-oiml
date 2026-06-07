@@ -38,4 +38,6 @@ include::sections/06-evaluation.adoc[]
 
 include::sections/07-conclusions.adoc[]
 
+include::sections/08-references.adoc[]
+
 include::sections/aa-guidelines.adoc[]

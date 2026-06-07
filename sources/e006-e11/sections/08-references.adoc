@@ -1,0 +1,4 @@
+[bibliography]
+== References
+
+* [[[B3,OIML B 3:2011]]], span:organization[OIML], span:title[_OIML Basic Certificate System for OIML Type Evaluation of Measuring Instruments_], span:publisher[OIML], span:date.issued[2011]

@@ -6,21 +6,23 @@
 [bibliography]
 === Bibliography
 
-* [[[OIML_R_76_2006,OIML R 76:2006]]] _Non-automatic weighing instruments_
+* [[[OIML_R_76_2006,OIML R 76:2006]]], span:organization[OIML], span:title[_Non-automatic weighing instruments_], span:publisher[OIML], span:date.issued[2006]
 
-* [[[OIML_V_2_200_2012,OIML V 2-200:2012]]] _International Vocabulary of Metrology - Basic and General Concepts and Associated Terms (VIM)_
+* [[[OIML_V_2_200_2012,OIML V 2-200:2012]]], span:organization[OIML], span:title[_International Vocabulary of Metrology - Basic and General Concepts and Associated Terms (VIM)_], span:publisher[OIML], span:date.issued[2012]
 
-* [[[OIML_V_2_2013,OIML V 2:2013]]] _International Vocabulary of Terms in Legal Metrology (VIML)_
+* [[[OIML_V_1_2013,OIML V 1:2013]]], span:organization[OIML], span:title[_International Vocabulary of Terms in Legal Metrology (VIML)_], span:publisher[OIML], span:date.issued[2013]
 
-* [[[OIML_D_9_2004,OIML D 9:2004]]] _Principles of metrological supervision_
+* [[[OIML_D_9_2004,OIML D 9:2004]]], span:organization[OIML], span:title[_Principles of metrological supervision_], span:publisher[OIML], span:date.issued[2004]
 
-* [[[OIML_D_11_2008,OIML D 11:2008]]] _General requirements for electronic measuring instruments_
+* [[[OIML_D_11_2008,OIML D 11:2008]]], span:organization[OIML], span:title[_General requirements for electronic measuring instruments_], span:publisher[OIML], span:date.issued[2008]
 
-* [[[OIML_B_18_2028,OIML B 18:2018]]] _Framework for the OIML Certification System (OIML-CS)_
+* [[[OIML_B_18_2018,OIML B 18:2018]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2018]
 
-* [[[OIML_G_1_100_2008,OIML G 1-100:2008]]] _Guide to the Expression of Uncertainty in Measurement, BIPM, IEC, _IFCC, ISO, IUPAC, IUPAP, OIML_
+* [[[OIML_B_18_2028,hidden(OIML B 18:2018)]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2018]
 
-* [[[OIML_D_31_2008,OIML D 31:2008]]] _General requirements for software controlled measuring instruments_
+* [[[OIML_G_1_100_2008,OIML G 1-100:2008]]], span:organization[BIPM], span:organization[IEC], span:organization[IFCC], span:organization[ISO], span:organization[IUPAC], span:organization[IUPAP], span:organization[OIML], span:title[_Guide to the Expression of Uncertainty in Measurement_], span:publisher[OIML], span:date.issued[2008]
+
+* [[[OIML_D_31_2008,OIML D 31:2008]]], span:organization[OIML], span:title[_General requirements for software controlled measuring instruments_], span:publisher[OIML], span:date.issued[2008]
 
 * [[[ISO_8601_2004,ISO 8601:2004]]] _Data elements and interchange formats - Information interchange - Representation of dates and times_
 
@@ -52,14 +54,34 @@
 
 * [[[IEC_61000_4_6_2013,IEC 61000-4-6:2013]]] IEC Publication 61000-4-6:2013 _Electromagnetic compatibility (EMC) - Part 4-6: Testing and measurement techniques - Immunity to conducted disturbances, induced by radio-frequency fields_
 
-* [[[OIML_R_50_2014,OIML R 50:2014]]] OIML R 50:2014 _Continuous totalizing automatic weighing instruments (belt weighers)_
+* [[[OIML_R_50_2014,OIML R 50:2014]]], span:organization[OIML], span:title[_Continuous totalizing automatic weighing instruments (belt weighers)_], span:publisher[OIML], span:date.issued[2014]
 
-* [[[OIML_R_51_2006,OIML R 51:2006]]] _Automatic catchweighing instruments_
+* [[[OIML_R_51_2006,OIML R 51:2006]]], span:organization[OIML], span:title[_Automatic catchweighing instruments_], span:publisher[OIML], span:date.issued[2006]
 
-* [[[OIML_R_61_2017,OIML R 61:2017]]] _Automatic gravimetric filling instruments_
+* [[[OIML_R_61_2017,OIML R 61:2017]]], span:organization[OIML], span:title[_Automatic gravimetric filling instruments_], span:publisher[OIML], span:date.issued[2017]
 
-* [[[OIML_R_106,OIML R 106]]] _Automatic rail-weighbridges_
+* [[[OIML_R_106,OIML R 106]]], span:organization[OIML], span:title[_Automatic rail-weighbridges_], span:publisher[OIML]
 
-* [[[OIML R 107:2007,OIML R 107:2007]]]_Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers)_
+* [[[OIML R 107:2007,OIML R 107:2007]]], span:organization[OIML], span:title[_Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers)_], span:publisher[OIML], span:date.issued[2007]
 
-* [[[OIML_CS,OIML-CS]]]Procedural Document PD-05 (Edition 2) _Processing an OIML Type Evaluation Report and OIML Certificate_
+* [[[OIML_CS,OIML-CS]]], span:organization[OIML], span:title[_Procedural Document PD-05 (Edition 2): Processing an OIML Type Evaluation Report and OIML Certificate_], span:publisher[OIML]
+
+* [[[OIML_R_60_1,hidden(OIML R 60-1:2021)]]], span:organization[OIML], span:title[_Metrological regulation for load cells -- Part 1: Metrological and technical requirements_], span:publisher[OIML], span:date.issued[2021]
+
+* [[[OIML_R_60_2,hidden(OIML R 60-2:2021)]]], span:organization[OIML], span:title[_Metrological regulation for load cells -- Part 2: Metrological controls and performance tests_], span:publisher[OIML], span:date.issued[2021]
+
+* [[[R060-2,hidden(OIML R 60-2:2021)]]], span:organization[OIML], span:title[_Metrological regulation for load cells -- Part 2: Metrological controls and performance tests_], span:publisher[OIML], span:date.issued[2021]
+
+* [[[OIML_R_76_1,hidden(OIML R 76-1:2006)]]], span:organization[OIML], span:title[_Non-automatic weighing instruments -- Part 1: Metrological and technical requirements_], span:publisher[OIML], span:date.issued[2006]
+
+* [[[OIML_R_76_76_2006,hidden(OIML R 76:2006)]]], span:organization[OIML], span:title[_Non-automatic weighing instruments_], span:publisher[OIML], span:date.issued[2006]
+
+* [[[OIML_R_50_1,hidden(OIML R 50-1:2014)]]], span:organization[OIML], span:title[_Continuous totalizing automatic weighing instruments (belt weighers) -- Part 1: Metrological and technical requirements_], span:publisher[OIML], span:date.issued[2014]
+
+* [[[OIML_R_51_1,hidden(OIML R 51-1)]]], span:organization[OIML], span:title[_Automatic catchweighing instruments -- Part 1: Metrological and technical requirements_], span:publisher[OIML]
+
+* [[[OIML_R_61_1,hidden(OIML R 61-1:2017)]]], span:organization[OIML], span:title[_Automatic gravimetric filling instruments -- Part 1: Metrological and technical requirements_], span:publisher[OIML], span:date.issued[2017]
+
+* [[[OIML_R_106_1,hidden(OIML R 106-1)]]], span:organization[OIML], span:title[_Automatic rail-weighbridges -- Part 1: Metrological and technical requirements_], span:publisher[OIML]
+
+* [[[OIML_R_107_1,hidden(OIML R 107-1:2007)]]], span:organization[OIML], span:title[_Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers) -- Part 1: Metrological and technical requirements_], span:publisher[OIML], span:date.issued[2007]
