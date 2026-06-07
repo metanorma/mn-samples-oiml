@@ -17,3 +17,4 @@ sources/**/document.err.html
 sources/**/collection-output/
 sources/**/collection.err.html
 *.asciidoc.log*
+sources/**/document.rxl
