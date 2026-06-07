@@ -1,9 +1,9 @@
 [bibliography]
 == Bibliography
 
-* [[[R79,OIML R 79:2015]]], Labelling requirements for prepackages
+* [[[R79,OIML R 79:2015]]], span:organization[OIML], span:title[_Labelling requirements for prepackages_], span:publisher[OIML], span:date.issued[2015]
 
-* [[[R87,OIML R 87:2016]]], Quantity of product in prepackages
+* [[[R87,OIML R 87:2016]]], span:organization[OIML], span:title[_Quantity of product in prepackages_], span:publisher[OIML], span:date.issued[2016]
 
 * [[[ISO17000,ISO/IEC 17000:2004]]]
 
@@ -19,7 +19,7 @@
 
 * [[[ISO28,ISO/IEC Guide 28:2004]]]
 
-* [[[G14,OIML G 14:2011]]], Density measurement
+* [[[G14,OIML G 14:2011]]], span:organization[OIML], span:title[_Density measurement_], span:publisher[OIML], span:date.issued[2011]
 
 * [[[ISO9001,ISO 9001:2008]]]
 

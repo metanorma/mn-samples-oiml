@@ -3,11 +3,11 @@
 [bibliography]
 == Bibliography
 
-* [[[OIML_V_1_2012,OIML V 1:2012]]] International vocabulary of terms in legal metrology (VIML)
+* [[[OIML_V_1_2012,OIML V 1:2012]]], span:organization[OIML], span:title[_International vocabulary of terms in legal metrology (VIML)_], span:publisher[OIML], span:date.issued[2012]
 
-* [[[OIML_V_2_2012,OIML V 2:2012]]] International Vocabulary of Metrology -- Basic and general concepts and associated terms (VIM)
+* [[[OIML_V_2_2012,OIML V 2:2012]]], span:organization[OIML], span:title[_International Vocabulary of Metrology -- Basic and general concepts and associated terms (VIM)_], span:publisher[OIML], span:date.issued[2012]
 
-* [[[OIML_D_11_2013,OIML D 11:2013]]] General requirements for electronic measuring instruments
+* [[[OIML_D_11_2013,OIML D 11:2013]]], span:organization[OIML], span:title[_General requirements for electronic measuring instruments_], span:publisher[OIML], span:date.issued[2013]
 
 * [[[IEC_60068_2_1,IEC 60068-2-1]]] (2007-03) Environmental testing - Part 2-1: Tests - Test A: Cold
 
@@ -53,4 +53,4 @@
 
 * [[[ISO_80000_9_2009,ISO 80000-9:2009]]]  Quantities and units - Part 9: Physical chemistry and molecular physics
 
-* [[[SI_8th_2006,SI 8th Edition:2006]]] Système International des Unités (SI) 8th Edition:2006, Bureau International de Poids et Mesures
+* [[[SI_8th_2006,SI 8th Edition:2006]]], span:organization[BIPM], span:title[_Système International des Unités (SI)_], span:edition[8], span:publisher[BIPM], span:date.issued[2006]
