@@ -1,7 +1,7 @@
 [bibliography]
 == References
 
-* [[[Birkeland]]], span:title[_Legal metrology at the dawn of the 21st century_], span:organization[OIML], span:publisher[OIML], span:date.issued[1998-10], span:type[report]
+* [[[Birkeland]]], span:title[_Legal metrology at the dawn of the 21st century_], span:organization[OIML], span:publisher[OIML], span:date.issued[1998-10]
 * [[[VIM,OIML V 2-200:1993]]], span:organization[BIPM], span:organization[IEC], span:organization[IFCC], span:organization[ISO], span:organization[IUPAC], span:organization[IUPAP], span:organization[OIML], span:title[_International Vocabulary of Basic and General Terms in Metrology (VIM)_], span:edition[2], span:publisher[OIML], span:date.issued[1993]
 * [[[VIML,OIML V 1:2000]]], span:organization[OIML], span:title[_International Vocabulary of Terms in Legal Metrology (VIML)_], span:publisher[OIML], span:date.issued[2000]
 * [[[D1,OIML D 1:2004]]], span:organization[OIML], span:title[_Elements for a law on metrology_], span:publisher[OIML], span:date.issued[2004]
