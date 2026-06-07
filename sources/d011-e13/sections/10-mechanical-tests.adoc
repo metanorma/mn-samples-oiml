@@ -29,7 +29,7 @@ For both tests selection guidance can be found in <<IEC60068-3-8>>.
 | Total RMS level | 1.6 | *7* | 16 | m·s⁻²
 | ASD level 10-20 Hz | 0.05 | *1* | 5 | m²·s⁻³
 | ASD level 20-150 Hz | -3 | *-3* | -3 | dB/octave
-| Duration per axis | 4+| For each of the orthogonal directions the vibration exposure time shall be 2 minutes in each functional mode as defined in the applicable Recommendation or for a longer period if necessary for performing the measurement.
+| Duration per axis | For each of the orthogonal directions the vibration exposure time shall be 2 minutes in each functional mode as defined in the applicable Recommendation or for a longer period if necessary for performing the measurement. | | |
 |===
 
 Information to be presented in the applicable Recommendation, where relevant

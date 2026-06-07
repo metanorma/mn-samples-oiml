@@ -65,8 +65,8 @@ Information to be presented in the applicable Recommendation, where relevant
 |===
 | Test level index | 1
 
-.2+| Mains voltage footnote:[For three phase mains power supplies, the voltage variation is applicable for each of the phases successively.] footnote:[The values of stem:[U_nom] are those as marked on the measuring instrument. If a range is specified, stem:[U_{nom1}] concerns the highest and stem:[U_{nom2}] concerns the lowest value in the range. If only one nominal mains voltage value (stem:[U_nom]) is specified then stem:[U_{nom1} = U_{nom2} = U_nom].] | Upper limit | stem:[U_{nom1}] + 10 %
-| Lower limit | stem:[U_{nom2}] - 15 %
+| Mains voltage footnote:[For three phase mains power supplies, the voltage variation is applicable for each of the phases successively.] footnote:[The values of stem:[U_nom] are those as marked on the measuring instrument. If a range is specified, stem:[U_{nom1}] concerns the highest and stem:[U_{nom2}] concerns the lowest value in the range. If only one nominal mains voltage value (stem:[U_nom]) is specified then stem:[U_{nom1} = U_{nom2} = U_nom].] | Upper limit | stem:[U_{nom1}] + 10 %
+| | Lower limit | stem:[U_{nom2}] - 15 %
 |===
 
 [[table-21]]
@@ -84,8 +84,8 @@ Information to be presented in the applicable Recommendation, where relevant
 |===
 | Test level index | 1
 
-.2+| Mains frequency | Upper limit | stem:[f_{nom}] + 2 %
-| Lower limit | stem:[f_{nom}] - 2 %
+| Mains frequency | Upper limit | stem:[f_{nom}] + 2 %
+| | Lower limit | stem:[f_{nom}] - 2 %
 |===
 
 === Mains power disturbances
@@ -165,7 +165,7 @@ One of the following test levels may be specified:
 | | Duration | n/a | *25/30* footnote:[Values applicable for 50 Hz/60 Hz respectively.] | stem:[n_d] | cycles
 | Test e | Reduction to | n/a | *80* | stem:[x_e] | %
 | | Duration | n/a | *250/300* footnote:[Values applicable for 50 Hz/60 Hz respectively.] | stem:[n_e] | cycles
-| Short interruptions | Reduction to | 2+| 0 | stem:[x] | %
+| Short interruptions | Reduction to | 0 | 0 | stem:[x] | %
 |===
 
 Information to be presented in the applicable Recommendation, where relevant
@@ -228,7 +228,7 @@ Information to be presented in the applicable Recommendation, where relevant
 | Test procedure in brief | The test comprises exposure of the EUT to the specified disturbances for a time period sufficient for performing the required measurements.
 |===
 
-[cols="2,1,1,1,1,1,1"]
+[cols="2,1,1,1,1,1,1,1,1"]
 |===
 | Disturbance | Freq. (kHz) | Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | 2 | 3 | *4* | i footnote:["+i" and "stem:[x_n]" are variables and indicate that an alternative test level may be specified in the applicable Recommendation if accompanied by a rationale for such choice.] | unit (RMS value)
 
@@ -257,7 +257,7 @@ NOTE: For details on pulses to be introduced refer to <<IEC61000-4-19>> when pub
 | Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | *2* | *3* | 4 | i footnote:["+i" and "U" are variables and indicate that an alternative amplitude may be specified in the applicable Recommendation if accompanied by a rationale for such choice.] | unit
 
 | Amplitude (peak value) | 0.5 | *1* | *2* | 4 | U | kV
-| Repetition rate | 5+| 5 | | | | | kHz
+| Repetition rate | 5 | | | | | kHz
 |===
 
 Information to be presented in the applicable Recommendation, where relevant
@@ -278,7 +278,7 @@ Information to be presented in the applicable Recommendation, where relevant
 | Test procedure in brief | A surge generator as defined in the referred standard shall be used. The characteristics of the generator shall be verified before connecting the EUT. The test comprises exposure to electrical surges for which the rise time, pulse width, peak values of the output voltage/current on high/low impedance load and the minimum time interval between two successive pulses are defined in the referred standard. At least 3 positive and 3 negative surges shall be applied. On AC mains supply lines the surges shall be synchronized with the AC supply frequency and shall be repeated such that the injection of surges on all the 4 phase shifts: 0°, 90°, 180° and 270° with the mains frequency is covered. The injection network circuit depends on the applicable conductor and is defined in the referred standard. If the EUT is an integrating instrument, the test pulses shall be continuously applied during the measurement time.
 |===
 
-[cols="1,1,1,1,1,1,1"]
+[cols="1,1,1,1,1,1,1,1"]
 |===
 | Test level index (installation class) footnote:[The test level considered most appropriate and preferable for OIML Recommendations is presented in bold face.] | 1 | 2 | *3* | 4 | 5 footnote:[Depends on the class of the local power supply system.] | i footnote:["+i" and "stem:[U_n]" indicate that alternative voltage levels may be specified in the applicable Recommendation if accompanied by a rationale for such choice.] | unit
 
@@ -316,7 +316,7 @@ Information to be presented in the applicable Recommendation, where relevant
 | Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | *2* | *3* | 4 | i footnote:["+i" and "U" are variables and indicate that an alternative amplitude may be specified in the applicable Recommendation if accompanied by a rationale for such choice.] | unit
 
 | Amplitude (peak value) | 0.25 | *0.5* | *1* | 2 | U | kV
-| Repetition rate | 5+| 5 | | | | | kHz
+| Repetition rate | 5 | | | | | kHz
 |===
 
 Information to be presented in the applicable Recommendation, where relevant
@@ -338,7 +338,7 @@ Information to be presented in the applicable Recommendation, where relevant
 | Test procedure in brief | A surge generator as defined in the referred standard shall be used. The characteristics of the generator shall be verified before connecting the EUT. The test comprises exposure to electrical surges for which the rise time, pulse width, peak values of the output voltage/current on high/low impedance load and the minimum time interval between two successive pulses are defined in the referred standard. At least 3 positive and 3 negative surges shall be applied. The applicable injection network depends on the kind of wiring the surge is coupled into and is defined in the referred standard. If the EUT is an integrating instrument, the test pulses shall be continuously applied during the measurement time.
 |===
 
-[cols="1,1,1,1,1,1,1,1"]
+[cols="1,1,1,1,1,1,1,1,1"]
 |===
 | Test level index (installation class) footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 0 | 1 | 2 | *3* | 4 | 5 | i footnote:["+i" and "stem:[U_n]" indicate that an alternative voltage level may be specified in the applicable Recommendation if accompanied by a rationale for such choice.] | unit
 
