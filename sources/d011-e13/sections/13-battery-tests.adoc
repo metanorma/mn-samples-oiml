@@ -139,13 +139,11 @@ Verification of compliance with the provisions in 5.1.1 or 5.1.2 under the follo
 | The test comprises exposure to disturbances on the power voltage by direct coupling into the supply lines.
 |===
 
-[cols="2,1,1,1,1,1",options="header"]
+[cols="2,1,1,1,1,1"]
 |===
-| Test level index footnote:[In <<ISO7637-2>>, so called "test levels".] footnote:[In <<ISO7637-2>>, the former levels I and II were deleted because transients in road vehicles do not ensure a sufficient level of immunity.] footnote:[The referred standard is primarily intended as a basis for contracts between manufacturers of motor vehicles and electronic sub-assemblies. As instruments shall comply with the provisions in 5.1.1 or 5.1.2 in any type of car, test level IV is advised to incorporate in OIML Recommendations.] 2+| III 2+| IV footnote:[The advised values in bold, for the level indexed IV, concern the maximum levels as defined in <<ISO7637-2>> (2004). The values between brackets concern the maximum levels as defined in <<ISO7637-2>> (2011) (for additional information see 8.5.2).] .3+| unit
+| Test level index footnote:[In <<ISO7637-2>>, so called "test levels".] footnote:[In <<ISO7637-2>>, the former levels I and II were deleted because transients in road vehicles do not ensure a sufficient level of immunity.] footnote:[The referred standard is primarily intended as a basis for contracts between manufacturers of motor vehicles and electronic sub-assemblies. As instruments shall comply with the provisions in 5.1.1 or 5.1.2 in any type of car, test level IV is advised to incorporate in OIML Recommendations.] 2+| III 2+| IV footnote:[The advised values in bold, for the level indexed IV, concern the maximum levels as defined in <<ISO7637-2>> (2004). The values between brackets concern the maximum levels as defined in <<ISO7637-2>> (2011) (for additional information see 8.5.2).] | unit
 
-.2+| Test pulse
-2+| Pulse voltage stem:[U_s] 2+| Pulse voltage stem:[U_s]
-| stem:[U_"nom" =12 V] | stem:[U_"nom" =24 V] | stem:[U_"nom" =12 V] | stem:[U_"nom" =24 V]
+| Test pulse 2+| Pulse voltage stem:[U_s] (stem:[U_"nom"=12 V]) 2+| Pulse voltage stem:[U_s] (stem:[U_"nom"=24 V]) | unit
 
 | 2a | +37 | +37 | +50 (+112) | +50 (+112) | V
 | 2b footnote:[Test pulse 2b is only applicable if the electrical power circuitry of the measuring instrument can be interrupted by the master switch of the car.] | +10 | +20 | +10 | +20 | V
@@ -187,13 +185,13 @@ Information to be presented in the applicable Recommendation, where relevant
 |===
 2+| Test level index | I | II | III | IV footnote:[The text of the standard indicates that this standard is primarily intended as a basis for contracts between manufacturers of motor vehicles and electronic sub-assemblies. As instruments must comply with the provisions in 5.1.1 or 5.1.2 in any type of car, test level IV is advised for application in OIML Recommendations.] | unit
 
-.2+| stem:[U_"nom" = 12 V]
+| stem:[U_"nom" = 12 V]
 | pulse a: stem:[U_s] | -10 | -20 | -40 | -60 | V
-| pulse b: stem:[U_s] | +10 | +20 | +30 | +40 | V
+| | pulse b: stem:[U_s] | +10 | +20 | +30 | +40 | V
 
-.2+| stem:[U_"nom" = 24 V]
+| stem:[U_"nom" = 24 V]
 | pulse a: stem:[U_s] | -14 | -28 | -56 | -80 | V
-| pulse b: stem:[U_s] | +14 | +28 | +56 | +80 | V
+| | pulse b: stem:[U_s] | +14 | +28 | +56 | +80 | V
 |===
 
 Information to be presented in the applicable Recommendation, where relevant
