@@ -1,0 +1,18 @@
+*.log
+*.err
+*.abort
+.DS_Store
+.glm-ocr-cache/
+TODO
+Gemfile.lock
+_site
+relaton/
+
+# Metanorma build output
+sources/**/document.html
+sources/**/document.pdf
+sources/**/document.xml
+sources/**/document.presentation.xml
+sources/**/document.err.html
+sources/**/collection-output/
+*.asciidoc.log*
