@@ -10,7 +10,7 @@ the raw count output of the load cell will be evaluated under the terms of this 
 In addition, if the software modifies load cell performance, not exceeding the functions
 of analogue to digital conversion and the linearization of the load cell output,
 then that software shall be evaluated under the terms in this Recommendation and
-in accordance with OIML D 31 [8]. Any weighing instrument function shall be evaluated
+in accordance with <<OIML_D_31_2008>>. Any weighing instrument function shall be evaluated
 under other appropriate Recommendations for weighing instruments.
 
 Functionality of any software which is not covered by this Recommendation, e.g. functionalities
@@ -19,28 +19,28 @@ not evaluated. It may be required to undergo additional evaluations against othe
 requirements contained in the applicable OIML Recommendations for weighing instruments.
 
 The requirements which are relevant to the evaluation of load cells and provided
-in OIML D 31 [8] shall be fulfilled for the load cell by taking into account the
+in <<OIML_D_31_2008>> shall be fulfilled for the load cell by taking into account the
 following aspects.
 
 . In general, for load cells, the severity level I, examined with validation procedure
 A, is required.
 
 . For legally relevant software of digital load cells the following statements according
-to OIML D 31 [8] shall be applied.
+to <<OIML_D_31_2008>> shall be applied.
 
-.. The exception described in OIML D 31, 5.1.1 [8] for an imprint of the software
+.. The exception described in <<OIML_D_31_2008,clause="5.1.1">> for an imprint of the software
 identification is allowed.
 
 .. The level of conformity of manufactured devices to the approved type is according
-to OIML D 31, 5.2.5 (subclause a) [8].
+to <<OIML_D_31_2008,clause="5.2.5">>.
 
 .. Updating the legally relevant software of a load cell in the field is possible
-via verified or traced update according to OIML D 31, 5.2.6.2 and 5.2.6.3 [8].
+via verified or traced update according to <<OIML_D_31_2008,clause="5.2.6.2">>.
 
 .. The software documentation shall include descriptions according to the applicable
-requirements of OIML D 31, 6.1.1 [8].
+requirements of <<OIML_D_31_2008,clause="6.1.1">>.
 
-The validation procedures are described in OIML D 31, 6.4 [8].
+The validation procedures are described in <<OIML_D_31_2008,clause="6.4">>.
 
 === Inscriptions and presentation of load cell information
 
@@ -114,11 +114,11 @@ In addition to the information required in <<sec-6.2.2>>, the following informat
 may optionally be specified:
 
 . for a weighing instrument (for example a multiple range instrument according to
-OIML R 76 [1]), the relative stem:[v_{"min"}], stem:[Y], where
+<<OIML_R_76_2006>>), the relative stem:[v_{"min"}], stem:[Y], where
 stem:[Y = (E_{"max"} - E_{"min"}) // v_{"min"}] (see <<sec-3.5.15>>);
 
 . for a weighing instrument (for example a multi-interval instrument according to
-OIML R 76) [1], the relative DR, Z, where
+<<OIML_R_76_76_2006>>), the relative DR, Z, where
 stem:[Z = (E_{"max"} - E_{"min"}) // (2 xx DR)] (see <<sec-3.5.14>>) and the value
 of DR (see <<sec-3.5.10>>) is set at the maximum permissible minimum dead load output
 return according to R 60-2, 2.10.1;

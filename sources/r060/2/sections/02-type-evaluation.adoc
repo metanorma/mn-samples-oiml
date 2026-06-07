@@ -137,7 +137,7 @@ not differ between load cells and family and for digital load cells (R 60-1, 3.1
 with an additional digital converter that does not differ between load cells and
 family all applicable tests shall be performed on the load cell with the minimum,
 __μV/v__min as input for the analogue to digital converter (same principle as OIML
-R 76 _Non-automatic weighing instruments_ [1], Annex C, Table 12).
+<<OIML_R_76_2006>>, Annex C, Table 12).
 
 Notwithstanding this requirement, the criteria for assignment of a load cell to a
 family and the selection of test specimens found in <<sec-2.4.1;to!sec-2.4.5>> shall
@@ -183,13 +183,13 @@ its design and construction and the documentation shall be studied.
 
 In particular, the following aspects shall be examined:
 
-. accuracy classes and their symbols (R 60-1, 5.1.1 and 6.2.4.1);
+. accuracy classes and their symbols (<<OIML_R_60_1,clause="5.1.1">> and <<OIML_R_60_1,clause="6.2.4.1">>);
 
-. maximum number of load cell verification intervals (R 60-1, 5.1.2 and 6.2.4.5);
+. maximum number of load cell verification intervals (<<OIML_R_60_1,clause="5.1.2">> and <<OIML_R_60_1,clause="6.2.4.5">>);
 
 . load cell measuring ranges (R 60-1, 3.5.2);
 
-. apportioning of errors (R 60-1, 5.3.2 and 3.7.2);
+. apportioning of errors (<<OIML_R_60_1,clause="5.3.2">> and <<OIML_R_60_1,clause="3.7.2">>);
 
 . construction of load cells (R 60-1, 3.3);
 
@@ -324,7 +324,7 @@ consideration during the test(s).
 
 All time and date points shall be recorded such that the data can later be presented in test reports in
 absolute, not relative, units of local time and date. The date shall be recorded in the ISO 8601
-_Data elements and interchange formats - Information interchange - Representation of dates and times_ [9]
+<<ISO_8601_2004>>
 (Representation of dates and times) format of ccyy-mm-dd.
 
 NOTE: "cc" may be omitted in cases where there is no possible confusion as to the century.
@@ -444,7 +444,7 @@ and the humidity tests are conducted individually following completion of the ab
 [[sec-2.10.1]]
 ==== Determination of measurement error, repeatability error and temperature effect on minimum dead load output
 
-This test is applied to verify compliance with the provisions in R 60-1, 5.3, 5.4,
+This test is applied to verify compliance with the provisions in <<OIML_R_60_1,clause="5.3">>, <<OIML_R_60_1,clause="5.4">>,
 and R 60-1, 5.6.1.3.
 
 [[sec-2.10.1.1]]
@@ -770,11 +770,11 @@ under conditions of high humidity combined with cyclic temperature changes
 
 Applicable standards:
 
-IEC 60068-2-30 [10]: _Environmental testing – Part 2: Tests_
+<<IEC_60068_2_30_2005>>: _Environmental testing – Part 2: Tests_
 
 Test Db and guidance: Damp heat cyclic (12 + 12-hour) cycle
 
-IEC 60068-3-4 [11]: _Environmental testing - Part 2: Tests. Guidance for damp heat tests_
+<<IEC_60068_3_4_2001>>: _Environmental testing - Part 2: Tests. Guidance for damp heat tests_
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -910,9 +910,9 @@ Applicable standards:
 
 IEC 60068-2-78: _Environmental testing -- Part 2: Tests. Test Ca: Damp heat, steady state,_
 
-_Environmental testing - Part 2: Tests._ Test Cb: Damp heat, steady state, primarily for equipment [12].
+_Environmental testing - Part 2: Tests._ Test Cb: Damp heat, steady state, primarily for equipment <<IEC_60068_2_78_2012>>.
 
-IEC 60068-3-4: _Environmental testing -- Part 2: Tests. Guidance for damp heat tests_ [11].
+<<IEC_60068_3_4_2001>>.
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -1039,9 +1039,9 @@ power supply.
 
 Applicable standards:
 
-For load cells powered by AC mains: IEC/TR3 61000-2-1 [13], IEC 61000-4-1 (set-up) [14]
+For load cells powered by AC mains: <<IEC_61000_2_1_1990>>, <<IEC_61000_4_1>>
 
-For load cells powered by DC mains: IEC 61000-4-29 [15], IEC 61000-4-1 (set-up) [14]
+For load cells powered by DC mains: <<IEC_61000_4_29>>, <<IEC_61000_4_1>>
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -1087,9 +1087,9 @@ and R 60-1, 5.7.2.4 under conditions of short-time power reductions
 
 Applicable standards:
 
-For load cells powered by DC mains: IEC 61000-4-29 [15]; IEC 61000-4-1 [14]
+For load cells powered by DC mains: <<IEC_61000_4_29>>; <<IEC_61000_4_1>>
 
-For load cells powered by AC mains; IEC 61000-4-11 [16]; IEC 61000-6-1 [17]; IEC 61000-6-2 [18]
+For load cells powered by AC mains; <<IEC_61000_4_11>>; <<IEC_61000_6_1>>; <<IEC_61000_6_2>>
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -1136,7 +1136,7 @@ during conditions where electrical bursts are superimposed on the mains voltage.
 
 Applicable standards:
 
-IEC 61000-4-4 [19]: No. 5 (Test 2+| severity), No. 6 (Test instrumentation),
+<<IEC_61000_4_4_2012>>: No. 5 (Test 2+| severity), No. 6 (Test instrumentation),
 No. 7 (Test set-up), No. 8 (Test procedure).
 
 [cols="a,a",options="noheader,unnumbered"]
@@ -1177,7 +1177,7 @@ I/O and communication ports.
 
 Applicable standards:
 
-IEC 61000-4-5 [20]
+<<IEC_61000_4_5_2014>>
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -1246,7 +1246,7 @@ neighbourhood of the load cell.
 
 Applicable standard:
 
-IEC 61000-4-2 [21]: No. 6 (test generator), No. 7 (set-up), No. 8 (test procedure).
+<<IEC_61000_4_2_2008>>: No. 6 (test generator), No. 7 (set-up), No. 8 (test procedure).
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -1312,7 +1312,7 @@ under conditions of exposure to electromagnetic fields.
 
 Applicable standard:
 
-IEC 61000-4-3 [22]: No. 6 (test generator), No. 7 (test set-up), No. 8 (test procedure)
+<<IEC_61000_4_3>>: No. 6 (test generator), No. 7 (test set-up), No. 8 (test procedure)
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -1374,7 +1374,7 @@ Modulation: 80 % AM, stem:[1 "unitsml(kHz)"] sine wave.
 This test is conducted to verify compliance with the provisions in R 60-1, 5.7.2.5
 while exposed to electromagnetic fields
 
-Applicable standard: IEC 61000-4-6 [23]
+Applicable standard: <<IEC_61000_4_6_2013>>
 
 [cols="a,a",options="noheader,unnumbered"]
 |===
@@ -1538,8 +1538,8 @@ image::figure-3.svg[]
 ==== Preparation of certificate
 
 The OIML certificate shall be prepared according to the rules contained within
-OIML B 18 _Framework for the OIML Certification System (OIML-CS)_ [6] and OIML-CS
-Procedural DocumentPD-05 [29]. The certificate template (which may be downloaded
+<<OIML_B_18_2028>> and OIML-CS
+<<OIML_CS>>. The certificate template (which may be downloaded
 from the "Documentation" section under the OIML-CS part of the OIML website) shall
 be supplemented with the information as specified in Annex B. In addition,
 Annex C provides an example of the supplemental information that may be included

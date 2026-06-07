@@ -59,7 +59,7 @@ _(To be completed by the Evaluating Authority)_
 |===
 
 [[sec-5.2]]
-=== Suitability for testing (R 60-2, 2.3, 2.4)
+=== Suitability for testing (<<OIML_R_60_2,clause="2.3">>, <<OIML_R_60_2,clause="2.4">>)
 
 [cols="a,a,a,a",options="noheader,unnumbered"]
 |===
@@ -120,7 +120,7 @@ _(To be completed by the Evaluating Authority)_
 | e) Installation requirements (R 60-2, 2.5, d) | | |
 | f) Sealing plan | | |
 | g) Panel layout | | |
-| h) General information of the software (R 60-2, 2.5, g) | | | For details, see R 60-1, 6.1 
+| h) General information of the software (R 60-2, 2.5, g) | | | For details, see R 60-1, 6.1
 | i) Operating instructions (R 60-2, 2.5, e) | | |
 | j) Information supporting the manufacturer's assumption of compliance (R 60-2, 2.5, f) | | |
 
@@ -315,7 +315,7 @@ Unit (e.g. counts, digits, g, kg, t) in which the measurement result is displaye
 ^| 2.10.7 | Additional tests for analogue-active cells                  |
 |===
 
-==== Measurement range (R 60-1, 5.2, 5.5.2)
+==== Measurement range (<<OIML_R_60_1,clause="5.2">>, <<OIML_R_60_1,clause="5.5.2">>)
 
 [cols="a,a,a,a,a,a",options="header,unnumbered",headerrows=2]
 |===
@@ -432,26 +432,26 @@ Electronics power voltage (when applicable): input:text[]
 | | | | | | | | |
 ^| 0 | | | | | | | |
 ^| 0 | | | | | | >| ++*++ |
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
-| | | | | | | | | 
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
 |===
 
 [NOTE]
@@ -716,8 +716,8 @@ and the indications at the prior temperature, divided by the conversion factor, 
 
 === Creep (stem:[C_C]) and DR (stem:[C_{"DR"}])
 
-R 60-1, 5.5.1, 5.5.2 +
-R 60-2, 2.10.2, 2.10.3. Complete one sheet for each test temperature.
+<<OIML_R_60_1,clause="5.5.1">>, <<OIML_R_60_1,clause="5.5.2">> +
+<<OIML_R_60_2,clause="2.10.2">>, <<OIML_R_60_2,clause="2.10.3.">> Complete one sheet for each test temperature.
 
 [form]
 --
@@ -741,17 +741,17 @@ Conversion factor, stem:[f]: input:text[]
 
 | stem:[D_{"max"}] | | | | | | | | | | | | |
 
-| | | | | | | | | | | | | | 
-| | | | | | | | | | | | | | 
-| | | | | | | | | | | | | | 
-| | | | | | | | | | | | | | 
-| | | | | | | | | | | | | | 
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
 
 | (++*++) | | | | | | | stem:[D_{"max"}] | | | | | |
 
 | stem:[D_{"min"}] | | | | | | | | | | | | |
-| | | | | | | | | | | | | | 
-| | | | | | | | | | | | | | 
+| | | | | | | | | | | | | |
+| | | | | | | | | | | | | |
 
 | | | | | | | | (++***++) | | | | | |
 
@@ -820,7 +820,7 @@ obtained at 30 minutes (see 5.5.1).
 === Barometric pressure effects (stem:[C_P])
 
 R 60-1, 5.6.2 +
-R 60-2, 2.7.3.8, 2.10.4 +
+<<OIML_R_60_2,clause="2.7.3.8">>, <<OIML_R_60_2,clause="2.10.4">> +
 R 60-3, 2.1.6
 
 Complete one sheet for each test temperature.
@@ -1191,7 +1191,7 @@ NOTE: ++*++ Average initial minimum test load indication
 ===== Form 6.10.2 Humidity effects (SH) summary
 
 R 60-1, 5.6.3.2 +
-R 60-2, 2.7.3.9, 2.10.6 +
+<<OIML_R_60_2,clause="2.7.3.9">>, <<OIML_R_60_2,clause="2.10.6">> +
 R 60-3, 2.1.8
 
 [form]
@@ -1320,7 +1320,7 @@ error for the maximum test load applied.
 
 ==== Form 6.12 Power voltage variation
 
-R 60-1, 5.7.2.2, 5.7.2.3, 5.7.2.4 +
+<<OIML_R_60_1,clause="5.7.2.2">>, <<OIML_R_60_1,clause="5.7.2.3">>, <<OIML_R_60_1,clause="5.7.2.4">> +
 R 60-2, 2.10.7.4 +
 R 60-3, 2.2.2
 
@@ -1378,7 +1378,7 @@ cease to function
 2.2+| 2+| Initial run with main voltage 2+| lower limit main voltage - 15 % 2+| upper limit +10 %
 .2+| mpc +
 stem:[v_{"min"}]
-| Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss 
+| Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss | Indication (counts) | Time hh:mm:ss
 
 .2+|                  | stem:[D_{"min"}] | | | | | | .4+|
    | stem:[D_{"max"}] |                  | | | | |
@@ -1488,7 +1488,7 @@ Minimum test load, stem:[D_{"min"}]: input:text[]
 [align=right]
 PASS: &#x2610; FAIL: &#x2610;
 
-L = phase, N = neutral, PE = protective earth 
+L = phase, N = neutral, PE = protective earth
 
 Equipment used (supply sketch if necessary)
 
@@ -1626,7 +1626,7 @@ Minimum test load, stem:[D_{"min"}]: input:text[]
 2+| reference | 2+| 2+|
 2+| indicated | 2+| 2+|
 
-| Error [stem:[v_{"min"}]] 2+| | 2+| 2+| 
+| Error [stem:[v_{"min"}]] 2+| | 2+| 2+|
 
 3+| relative error [%] stem:[E_{"ii"}] | 2+| 2+|
 
@@ -1971,7 +1971,7 @@ Test load material: input:text[]
 5+^.^| test conditions rf current injection 2+| Observer's name:
 
 .4+^.^| output gained
-.2+^.^| &#x2610; 
+.2+^.^| &#x2610;
 3+| using actual loads 2+|
 3+| Test load: 2+| stem:[f_{"l"} = quad quad quad "unitsml(MHz)"]
 

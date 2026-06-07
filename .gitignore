@@ -3,7 +3,7 @@
 *.abort
 .DS_Store
 .glm-ocr-cache/
-TODO
+TODO*
 Gemfile.lock
 _site
 relaton/
@@ -15,4 +15,5 @@ sources/**/document.xml
 sources/**/document.presentation.xml
 sources/**/document.err.html
 sources/**/collection-output/
+sources/**/collection.err.html
 *.asciidoc.log*

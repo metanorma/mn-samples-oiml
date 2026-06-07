@@ -18,4 +18,4 @@ when imposed, may include type evaluation.
 The expanded uncertainty, stem:[U] (for coverage factor stem:[k = 2]), for the combination
 of the force-generating system and the indicating instrument used during the tests
 to observe the load cell output shall be less than 1/3 times the MPE of the load
-cell under test [OIML G 1-100 _Guide to the Expression of Uncertainty in Measurement_] [7].
+cell under test <<OIML_G_1_100_2008>>.

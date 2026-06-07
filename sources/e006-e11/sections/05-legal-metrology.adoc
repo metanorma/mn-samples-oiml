@@ -17,7 +17,7 @@ measuring instruments, each equipped with one or more devices or modules.
 
 [NOTE]
 ====
-OIML B 3 [2] contains the following definition for a "module":
+<<B3>> contains the following definition for a "module":
 
 [quote]
 ____
