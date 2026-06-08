@@ -14,7 +14,11 @@ sources/**/document.pdf
 sources/**/document.xml
 sources/**/document.presentation.xml
 sources/**/document.err.html
+sources/**/document.rxl
 sources/**/collection-output/
 sources/**/collection.err.html
+sources/**/sections/*.html
 *.asciidoc.log*
-sources/**/document.rxl
+*.pdf.err.lck
+*.pdf.xsl
+*_tmp
