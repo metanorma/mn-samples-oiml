@@ -21,18 +21,18 @@ Meaning of symbols used in this report:
 stem:[L]:: Indicated length
 stem:[W]:: Indicated width
 stem:[H]:: Indicated height
-stem:[L_\mathrm{T}]:: Length of the test object
-stem:[DL]:: Error, stem:[L - L_\mathrm{T}]
-stem:[W_\mathrm{T}]:: Width of the test object
-stem:[DW]:: Error, stem:[W - W_\mathrm{T}]
-stem:[H_\mathrm{T}]:: Height of the test object
-stem:[DH]:: Error, stem:[H - H_\mathrm{T}]
+stem:[L_(T)]:: Length of the test object
+stem:[DL]:: Error, stem:[L - L_(T)]
+stem:[W_(T)]:: Width of the test object
+stem:[DW]:: Error, stem:[W - W_(T)]
+stem:[H_(T)]:: Height of the test object
+stem:[DH]:: Error, stem:[H - H_(T)]
 mpe:: Maximum permissible error
 stem:[V]:: Volume indicated on the instrument
-stem:[V_\mathrm{calc}]:: stem:[L \times W \times H]
+stem:[V_(calc)]:: stem:[L times W times H]
 stem:[F]:: Conversion factor
 DW:: Dimensional weight indicated on the instrument
-DWcalc:: stem:[V \times F]
+DWcalc:: stem:[V times F]
 SF:: Significant fault
 
 The name(s) or symbol(s) of the unit(s) used to express test results shall be specified on each form.

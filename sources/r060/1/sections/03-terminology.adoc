@@ -202,7 +202,7 @@ method, manufacturing method);
 voltage, cable details); and
 
 . one or more load cell groups where all load cells within the group possess identical
-metrological characteristics (as listed in <<sec-5.1.5>> -- including: class; stem:[n_{"LC"}];
+metrological characteristics (as listed in <<sec-5.1.5>> -- including: class; stem:[n_("LC")];
 temperature rating, etc.).
 
 NOTE: The examples provided are not intended to be limiting.
@@ -217,10 +217,10 @@ subdivision of the load cell measuring range
 
 ==== load cell measuring range (for verification)
 
-range between the maximum load of the measuring range stem:[D_{"max"}] and minimum
-load of the measuring range stem:[D_{"min"}]
+range between the maximum load of the measuring range stem:[D_("max")] and minimum
+load of the measuring range stem:[D_("min")]
 
-load cell measuring range stem:[= (D_{"max"} - D_{"min"}])
+load cell measuring range stem:[= (D_("max") - D_("min")])
 
 ==== load cell output
 
@@ -232,13 +232,13 @@ load cell interval, expressed in units of mass, used in the test of the load cel
 for accuracy classification
 
 [[sec-3.5.5]]
-==== maximum capacity (stem:[E_{"max"}])
+==== maximum capacity (stem:[E_("max")])
 
 largest value of a quantity expressed in units of mass, which may be applied to a
 load cell
 
 [[sec-3.5.6]]
-==== maximum load of the measuring range (stem:[D_{"max"])
+==== maximum load of the measuring range (stem:[D_("max")])
 
 largest value of a quantity expressed in units of mass which can be introduced to
 a load cell under test
@@ -248,19 +248,19 @@ a load cell under test
 range of values of the quantity expressed in units of mass that may be applied to
 a load cell
 
-NOTE: maximum measuring range is the range between maximum capacity stem:[E_{"max"}]
-and minimum dead load stem:[E_{"min"}]
+NOTE: maximum measuring range is the range between maximum capacity stem:[E_("max")]
+and minimum dead load stem:[E_("min")]
 
-maximum measuring range stem:[= (E_{"max"} - E_{"min"})]
+maximum measuring range stem:[= (E_("max") - E_("min"))]
 
 [[sec-3.5.8]]
-==== maximum number of load cell verification intervals (stem:[n_{"LC"}])
+==== maximum number of load cell verification intervals (stem:[n_("LC")])
 
 maximum number of load cell verification intervals into which the maximum measuring
 range may be divided
 
 [[sec-3.5.9]]
-==== minimum dead load (stem:[E_{"min"}])
+==== minimum dead load (stem:[E_("min")])
 
 smallest value of a quantity (expressed in mass units) that may be applied to a load
 cell
@@ -269,16 +269,16 @@ cell
 ==== minimum dead load output return (DR)
 
 difference of load cell output, expressed in units of mass at the minimum dead load
-(stem:[D_{"min"}]), measured before and after application of a load of stem:[D_{"max"}]
+(stem:[D_("min")]), measured before and after application of a load of stem:[D_("max")]
 
 [[sec-3.5.11]]
-==== minimum load cell verification interval (stem:[v_{"min"}])
+==== minimum load cell verification interval (stem:[v_("min")])
 
 smallest load cell verification interval in units of mass into which the maximum
-measuring range (stem:[E_{"max"} - E_{"min"}]) can be divided
+measuring range (stem:[E_("max") - E_("min")]) can be divided
 
 [[sec-3.5.12]]
-==== minimum load of the measuring range (stem:[D_{"min"}])
+==== minimum load of the measuring range (stem:[D_("min")])
 
 smallest value of a quantity expressed in units of mass, applied to a load cell under
 test
@@ -299,12 +299,12 @@ NOTE: This ratio is used to describe multi-interval instruments.
 ==== relative minimum load cell verification interval (stem:[Y])
 
 ratio of the maximum measuring range, to the minimum load cell verification interval,
-stem:[v_{"min"}]
+stem:[v_("min")]
 
 NOTE: This ratio describes the resolution of the load cell independent from the load
 cell capacity.
 
-==== safe load limit (stem:[E_{"lim"}])
+==== safe load limit (stem:[E_("lim")])
 
 maximum load that can be applied without producing a permanent shift in the performance
 characteristics beyond those specified
@@ -317,10 +317,10 @@ load cell is capable of complying with the requirements
 [[sec-3.6]]
 === Illustration of certain definitions
 
-The terms that appear above the central horizontal line (related to parameters stem:[E_{"min"}]
-and stem:[E_{"max"}]) are parameters that are fixed by the design of the load cell.
-The terms that appear below that line (related to parameters stem:[D_{"min"}] and
-stem:[D_{"max"}]) are parameters that are variable, dependent on the conditions of
+The terms that appear above the central horizontal line (related to parameters stem:[E_("min")]
+and stem:[E_("max")]) are parameters that are fixed by the design of the load cell.
+The terms that appear below that line (related to parameters stem:[D_("min")] and
+stem:[D_("max")]) are parameters that are variable, dependent on the conditions of
 the test of a load cell (in particular, those load cells used in weighing instruments).
 
 .Illustration of certain definitions
@@ -328,9 +328,9 @@ image::figure-3.svg[]
 
 The following statements apply: (see also R 60-2, 2.7.3.4)
 
-. stem:[(D_{"max"} - D_{"min"})  (E_{"max"} - E_{"min"})]
+. stem:[(D_("max") - D_("min"))  (E_("max") - E_("min"))]
 
-. stem:[E_{"min"} <= D_{"min"} <= (0.1 E_{"max"})], and stem:[(0.9 E_{"max"}) <= D_{"max"} <= E_{"max"}]
+. stem:[E_("min") <= D_("min") <= (0.1 E_("max"))], and stem:[(0.9 E_("max")) <= D_("max") <= E_("max")]
 
 [heading="terms and definitions"]
 === Measurement and error terms
@@ -340,7 +340,7 @@ The following statements apply: (see also R 60-2, 2.7.3.4)
 change in load cell output occurring with time while under constant load and with
 all environmental conditions and other variables also remaining constant
 
-==== apportioning factor (stem:[p_{"LC"}])
+==== apportioning factor (stem:[p_("LC")])
 
 value of a dimensionless fraction expressed as a decimal (for example, 0.7) representing
 that portion of an error observed in the (weighing) instrument which is attributed
@@ -377,8 +377,8 @@ electrical representation issued by the load cell indicating that a fault condit
 ==== hysteresis error
 
 difference in load cell output readings for the same applied force between the reading
-obtained by increasing the load from minimum load (stem:[D_{"min"}]), and the reading
-obtained by decreasing the load from maximum load (stem:[D_{"max"}])
+obtained by increasing the load from minimum load (stem:[D_("min")]), and the reading
+obtained by decreasing the load from maximum load (stem:[D_("max")])
 
 ==== initial intrinsic error
 

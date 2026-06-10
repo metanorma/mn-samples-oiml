@@ -43,7 +43,7 @@ the formula:
 
 [stem%unnumbered]
 ++++
-s = sqrt{(sum_{i=1}^n (Y_i - bar Y)^2) / (n - 1)}
+s = sqrt{(sum_(i=1)^n (Y_i - bar Y)^2) / (n - 1)}
 ++++
 
 where:

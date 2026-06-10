@@ -13,7 +13,7 @@
 
 |1.1.2 |Software documentation | | |New requirements for software documentation to be submitted for type approval.
 
-|1.4.2 |Test objects |11.1.4.2 |Test objects |The dimensions of the test objects known to an expanded uncertainty - Changed to 1/3 mpe. An acceptable tolerance for the test objects for the product of stem:[N \times d] as stem:[\pm 1/3] d was specified. Requirements for test objects used on instruments with extended indication device.
+|1.4.2 |Test objects |11.1.4.2 |Test objects |The dimensions of the test objects known to an expanded uncertainty - Changed to 1/3 mpe. An acceptable tolerance for the test objects for the product of stem:[N times d] as stem:[+- 1/3] d was specified. Requirements for test objects used on instruments with extended indication device.
 
 |1.4.11 |Software evaluation | | |New requirements for software evaluation and evaluation methods.
 

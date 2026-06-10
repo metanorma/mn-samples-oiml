@@ -11,44 +11,44 @@ of test samples out of a load cell family.
 === {blank}
 
 Assume a family consisting of three groups of load cells, differing in class, maximum
-number of load cell verification intervals, stem:[n_{"LC"}], and maximum capacities,
-stem:[E_{"max"}]. The capacities, stem:[E_{"max"}], overlap between the groups according
+number of load cell verification intervals, stem:[n_("LC")], and maximum capacities,
+stem:[E_("max")]. The capacities, stem:[E_("max")], overlap between the groups according
 to the following example:
 
 Group 1::
 +
 --
-Class C, stem:[n_{"LC"} = 6000], stem:[Y = 18000], stem:[Z = 6000]
+Class C, stem:[n_("LC") = 6000], stem:[Y = 18000], stem:[Z = 6000]
 
-stem:[E_{"max"}]:stem:[50 "unitsml(kg)"],stem:[100 "unitsml(kg)"], stem:[300 "unitsml(kg)"]
+stem:[E_("max")]:stem:[50 "unitsml(kg)"],stem:[100 "unitsml(kg)"], stem:[300 "unitsml(kg)"]
  and  stem:[500 "unitsml(kg)"]
 --
 
 Group 2::
 +
 --
-Class C, stem:[n_{"LC"} = 3000], stem:[Y = 12000], stem:[Z = 4000]
+Class C, stem:[n_("LC") = 3000], stem:[Y = 12000], stem:[Z = 4000]
 
-stem:[E_{"max"}]: stem:[100 "unitsml(kg)"], stem:[300 "unitsml(kg)"], stem:[500 "unitsml(kg)"],
+stem:[E_("max")]: stem:[100 "unitsml(kg)"], stem:[300 "unitsml(kg)"], stem:[500 "unitsml(kg)"],
 stem:[5000 "unitsml(kg)"], stem:[10 "unitsml(t)"], stem:[30 "unitsml(t)"] and stem:[50 "unitsml(t)"]
 --
 
 Group 3::
 +
 --
-Class B, stem:[n_{"LC"} = 10000], stem:[Y = 25000], stem:[Z = 10000]
+Class B, stem:[n_("LC") = 10000], stem:[Y = 25000], stem:[Z = 10000]
 
-stem:[E_{"max"}]: stem:[500 "unitsml(kg)"], stem:[1000 "unitsml(kg)"] and stem:[4000 "unitsml(kg)"]
+stem:[E_("max")]: stem:[500 "unitsml(kg)"], stem:[1000 "unitsml(kg)"] and stem:[4000 "unitsml(kg)"]
 --
 
 [[sec-D.2.1]]
-==== Summarise and sort the load cells with respect to stem:[E_{"max"}] and accuracy as follows:
+==== Summarise and sort the load cells with respect to stem:[E_("max")] and accuracy as follows:
 
 [cols="a,a,a,a,a,a,a,a,a,a,a,a",options="noheader,unnumbered"]
 |===
 | Class
 
-stem:[n_{"LC"}]
+stem:[n_("LC")]
 
 Group
 
@@ -64,11 +64,11 @@ stem:[Z]
 
 &#x200c;
 
-2+| stem:[E_{"max"}, "unitsml(kg)"]
+2+| stem:[E_("max"), "unitsml(kg)"]
 
 &#x200c;
 
-stem:[v_{"min"}, "unitsml(kg)"]
+stem:[v_("min"), "unitsml(kg)"]
 
 5+^| ++--->++ highest
 
@@ -214,7 +214,7 @@ stem:[0.16]
 |===
 | Class
 
-stem:[n_{"LC"}]
+stem:[n_("LC")]
 
 Group
 
@@ -230,11 +230,11 @@ stem:[Z]
 
 &#x200c;
 
-2+| stem:[E_{"max"}, "unitsml(kg)"]
+2+| stem:[E_("max"), "unitsml(kg)"]
 
 &#x200c;
 
-stem:[v_{"min"}, "unitsml(kg)"]
+stem:[v_("min"), "unitsml(kg)"]
 
 5+| ++--->++ highest
 
@@ -396,7 +396,7 @@ in the group have been considered.
 |===
 | Class
 
-stem:[n_{"LC"}]
+stem:[n_("LC")]
 
 Group
 
@@ -412,11 +412,11 @@ stem:[Z]
 
 &#x200c;
 
-2+| stem:[E_{"max"}, "unitsml(kg)"]
+2+| stem:[E_("max"), "unitsml(kg)"]
 
 &#x200c;
 
-stem:[v_{"min"}, "unitsml(kg)"]
+stem:[v_("min"), "unitsml(kg)"]
 
 5+| ++--->++ highest
 
@@ -573,7 +573,7 @@ been considered.
 |===
 | Class
 
-stem:[n_{"LC"}]
+stem:[n_("LC")]
 
 Group
 
@@ -589,11 +589,11 @@ stem:[Z]
 
 &#x200c;
 
-2+| stem:[E_{"max"}, "unitsml(kg)"]
+2+| stem:[E_("max"), "unitsml(kg)"]
 
 &#x200c;
 
-stem:[v_{"min"}, "unitsml(kg)"]
+stem:[v_("min"), "unitsml(kg)"]
 
 5+| ++--->++ highest
 
@@ -757,7 +757,7 @@ groups have been considered.
 |===
 | Class
 
-stem:[n_{"LC"}]
+stem:[n_("LC")]
 
 Group
 
@@ -773,11 +773,11 @@ stem:[Z]
 
 &#x200c;
 
-2+| stem:[E_{"max"}, "unitsml(kg)"]
+2+| stem:[E_("max"), "unitsml(kg)"]
 
 &#x200c;
 
-stem:[v_{"min"}, "unitsml(kg)"]
+stem:[v_("min"), "unitsml(kg)"]
 
 5+| ++--->++ highest
 
@@ -931,16 +931,16 @@ according to R 60-2, 2.4.3 it is presumed to comply the requirements of this Rec
 
 After completing steps <<sec-D.2.2;to!sec-D.2.5>> and identifying the load cells,
 compare load cells of the same capacity from different groups. Identify the load
-cells with the highest accuracy class and highest stem:[n_{"LC"}] in each group
+cells with the highest accuracy class and highest stem:[n_("LC")] in each group
 (see shaded portion of table below). For those load cells of the same capacity but
 from different groups, identify only the one with the highest accuracy class and
-stem:[n_{"LC"}] and lowest stem:[v_{"min"}].
+stem:[n_("LC")] and lowest stem:[v_("min")].
 
 [cols="a,a,a,a,a,a,a,a,a,a,a,a",options="unnumbered"]
 |===
 | Class
 
-stem:[n_{"LC"}]
+stem:[n_("LC")]
 
 Group
 
@@ -955,11 +955,11 @@ Z
 
 &#x200c;
 
-2+| stem:[E_{"max"}, "unitsml(kg)"]
+2+| stem:[E_("max"), "unitsml(kg)"]
 
 &#x200c;
 
-stem:[v_{"min"}, "unitsml(kg)"]
+stem:[v_("min"), "unitsml(kg)"]
 
 5+| ++--->++ highest
 
@@ -1097,20 +1097,20 @@ stem:[0.16]
 | | | |
 |===
 
-Inspect the values of stem:[v_{"min"}], stem:[Y], and stem:[Z] for all cells of the
+Inspect the values of stem:[v_("min")], stem:[Y], and stem:[Z] for all cells of the
 same capacity.
 
-If any load cell of the same capacity has a lower stem:[v_{"min"}] or higher stem:[Y]
+If any load cell of the same capacity has a lower stem:[v_("min")] or higher stem:[Y]
 than the identified load cell, that load cell (or load cells) is also liable for
 partial evaluation testing, specifically the conduct of additional temperature effect
-on minimum dead load, stem:[E_{"min"}] and barometric pressure effect tests.
+on minimum dead load, stem:[E_("min")] and barometric pressure effect tests.
 
 If any load cell of the same capacity has a higher stem:[Y] than the selected load
 cell, that load cell (or load cells) is also liable for partial evaluation testing,
 specifically the conduct of additional creep and DR tests.
 
 In this example, the *load cells identified above also have the best characteristics
-of lowest stem:[v_{"min"}], highest stem:[Y] and highest stem:[Z].* This is normally
+of lowest stem:[v_("min")], highest stem:[Y] and highest stem:[Z].* This is normally
 the case, but not always.
 
 [[sec-D.2.7]]
@@ -1118,26 +1118,26 @@ the case, but not always.
 
 If applicable, select the load cell for humidity testing in accordance with
 R 60-2, 2.4.5, that being the load cell with the most severe characteristics, for
-example the greatest value of stem:[n_{"LC"}] or the lowest value of stem:[v_{"min"}].
+example the greatest value of stem:[n_("LC")] or the lowest value of stem:[v_("min")].
 
-In this example, the load cell with the greatest value of stem:[n_{"LC"}] or the
-lowest value of stem:[v_{"min"}] is the same load cell, therefore select:
+In this example, the load cell with the greatest value of stem:[n_("LC")] or the
+lowest value of stem:[v_("min")] is the same load cell, therefore select:
 
 *B10 - stem:[500 "unitsml(kg)"]* (humidity test required)
 
 NOTE: The other B10 load cells also possess the same qualifications and are possible
 choices. The stem:[500 "unitsml(kg)"] load cell was chosen because it is the smallest
 of the applicable B10 capacities. Although the C6 - stem:[50 "unitsml(kg)"] load
-cell has the lowest stem:[v_{"min"}] of stem:[0.0028], the B10 load cells have the
-highest stem:[n_{"LC"}], highest accuracy class, and the highest stem:[Y] and stem:[Z].
+cell has the lowest stem:[v_("min")] of stem:[0.0028], the B10 load cells have the
+highest stem:[n_("LC")], highest accuracy class, and the highest stem:[Y] and stem:[Z].
 
 [[sec-D.2.8]]
 ==== {blank}
 
 If applicable, select the load cell for the additional tests to be performed on digital
 load cells in accordance with R 60-2, 2.4.6, that being the load cell with the most
-severe characteristics, for example the greatest value of stem:[n_{"max"}] or the
-lowest value of stem:[v_{"min"}].
+severe characteristics, for example the greatest value of stem:[n_("max")] or the
+lowest value of stem:[v_("min")].
 
 2+h| *D.2.9* Summarising, the load cells selected for test are:
 

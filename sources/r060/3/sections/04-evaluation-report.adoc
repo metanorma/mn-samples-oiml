@@ -168,11 +168,11 @@ _(as provided by the manufacturer prior to the evaluation)_
 | | Unit | Range
 
 | Accuracy classes | |
-| Maximum number of verification intervals, stem:[n_{"LC"}] | |
-| Maximum capacity, stem:[E_{"max"}] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
-| Minimum capacity, stem:[E_{"min"}] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
-| Minimum load cell verification interval, stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
-| Minimum dead load output return, stem:[DR = 1//2 (E_{"max"} - E_{"min"})//Z] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Maximum number of verification intervals, stem:[n_("LC")] | |
+| Maximum capacity, stem:[E_("max")] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum capacity, stem:[E_("min")] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum load cell verification interval, stem:[v_("min") = (E_("max") - E_("min")) // Y] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum dead load output return, stem:[DR = 1//2 (E_("max") - E_("min"))//Z] | (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
 | Rated output | (stem:["unitsml(mV/V)"] or counts) |
 | Input impedance | stem:["unitsml(Ohm)"] |
 |===
@@ -220,10 +220,10 @@ This test report is issued for the following load cell:
 |===
 .2+h| Model designation .2+h| Serial number h| Maximum capacity h| Maximum number of load cell intervals h| Minimum load cell verification interval h| Minimum dead load output return
 
-| stem:[E_{"max"}] +
+| stem:[E_("max")] +
 (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
-| stem:[n_{"LC"}]
-| stem:[v_{"min"}] +
+| stem:[n_("LC")]
+| stem:[v_("min")] +
 (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
 | DR (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
 
@@ -295,11 +295,11 @@ Further information concerning adjustments:
 | Sealing of strain gauge application (e.g. hermetically, potted) 2+|
 | Digital load cell (Yes / no) 2+|
 | Accuracy classes 2+|
-| Maximum number of verification intervals, stem:[n_{"LC"}] 2+|
-| Maximum capacity, stem:[E_{"max"}] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
-| Minimum capacity, stem:[E_{"min"}] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
-| Minimum load cell verification interval, stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
-| Minimum dead load output return, stem:["DR" = 1/2 (E_{"max"} - E_{"min"})//Z] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Maximum number of verification intervals, stem:[n_("LC")] 2+|
+| Maximum capacity, stem:[E_("max")] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum capacity, stem:[E_("min")] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum load cell verification interval, stem:[v_("min") = (E_("max") - E_("min")) // Y] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
+| Minimum dead load output return, stem:["DR" = 1/2 (E_("max") - E_("min"))//Z] ^| (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"]) |
 | Rated output ^| (stem:["unitsml(mV/V)"] or counts) |
 | Input impedance footnote:[mandatory for strain gauge load cells] ^| stem:["unitsml(Ohm)"] |
 | Cable connection footnote:[mandatory for strain gauge load cells] | ^| 4-wire / 6-wire
@@ -332,10 +332,10 @@ Additional information concerning the type (connection equipment, interfaces, et
 2+| Loading designation: (refer to R 60-1, 6.2.4.2)
 
 Tension  Compression  Universal  Beam (shear)  Beam (bending)
-| Minimum dead load as: stem:[E_{"min"} =] |
-| Safe load limit as: stem:[E_{"lim"} =] |
+| Minimum dead load as: stem:[E_("min") =] |
+| Safe load limit as: stem:[E_("lim") =] |
 | Excitation voltage: &#x2610; AC &#x2610; DC |
-| Value of the apportionment factor, stem:[p_{"LC"}], if not equal to 0.7 |
+| Value of the apportionment factor, stem:[p_("LC")], if not equal to 0.7 |
 |===
 
 ==== Additional information of the test pattern for digital load cells
@@ -346,7 +346,7 @@ Tension  Compression  Universal  Beam (shear)  Beam (bending)
 | Interfaces: |
 | Output signal: |
 | Software identification: |
-| Value of the apportionment factor, stem:[p_{"LC"}], if not equal to 0.7 |
+| Value of the apportionment factor, stem:[p_("LC")], if not equal to 0.7 |
 |===
 
 ==== Relevant photographs taken during the examinations and tests
@@ -395,17 +395,17 @@ Tension  Compression  Universal  Beam (shear)  Beam (bending)
 | 6.2.1           | Serial number                                                       | | | _Not applicable_
 | 6.2.1           | Year of production                                                  | | | _Not applicable_
 | 6.2.2 / 6.2.4.1 | Accuracy class(es) and their symbols                                | | |
-| 6.2.4.5         | Maximum number of load cell verification intervals, stem:[n_{"LC"}] | | |
+| 6.2.4.5         | Maximum number of load cell verification intervals, stem:[n_("LC")] | | |
 | 6.2.2 / 6.2.4.2 | Type of load                                                        | | |
 | 6.2.2 / 6.2.4.3 | Working temperature designation                                     | | |
 | 6.2.2 / 6.2.4.4 | Humidity symbol "NH"                                                | | |
 | 6.2.2 / 6.2.4.4 | Humidity symbol "SH"                                                | | |
 | 6.2.2 / 6.2.4.4 | No humidity symbol or "CH"                                          | | |
-| 6.2.2 | Minimum dead load, stem:[E_{"min"}] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
-| 6.2.1 / 6.2.2 | Maximum capacity, stem:[E_{"max"}] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
-| 6.2.2 | Safe load limit, stem:[E_{"lim"}] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
-| 6.2.2 | Minimum load cell verification interval (stem:[v_{"min"}]) footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
-| 6.2.3, a | Relative stem:[v_{"min"}] (stem:[Y]) | | |
+| 6.2.2 | Minimum dead load, stem:[E_("min")] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.1 / 6.2.2 | Maximum capacity, stem:[E_("max")] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.2 | Safe load limit, stem:[E_("lim")] footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.2 | Minimum load cell verification interval (stem:[v_("min")]) footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
+| 6.2.3, a | Relative stem:[v_("min")] (stem:[Y]) | | |
 | 6.2.3, b | Minimum dead load output return DR footnote:[in units of (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])] | | |
 | 6.2.3, b | Relative DR (stem:[Z]) | | |
 | 6.2.2, l | Rated output | | |
@@ -413,7 +413,7 @@ Tension  Compression  Universal  Beam (shear)  Beam (bending)
 | 6.2.2, l | Input impedance | | |
 | 6.2.2, l | Cable connection footnote:[e.g. 4-wire / 6-wire cable] | | |
 | 6.2.2, l | Cable length footnote:[mandatory for strain gauge load cells with 4-wire connection] | | |
-| 6.2.2, k | Apportionment factor, stem:[p_{"LC"}] (if not equal to 0.7) | | |
+| 6.2.2, k | Apportionment factor, stem:[p_("LC")] (if not equal to 0.7) | | |
 | 6.2.2, l 6.2.3, c | Further information | | |
 |===
 
@@ -438,12 +438,12 @@ Further load cell information given by the manufacturer:
 .2+| Model designation
 | Maximum capacity | Minimum dead load | Maximum number of load cell intervals | Minimum load cell verification interval | Minimum dead load output return
 
-| stem:[E_{"max"}] +
+| stem:[E_("max")] +
 (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
-| stem:[E_{"min"}] +
+| stem:[E_("min")] +
 (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
-| stem:[n_{"LC"}]
-| stem:[v_{"min"}] +
+| stem:[n_("LC")]
+| stem:[v_("min")] +
 (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
 | DR (stem:["unitsml(g)", "unitsml(kg)", "unitsml(t)"])
 

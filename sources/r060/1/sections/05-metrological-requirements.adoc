@@ -26,12 +26,12 @@ Class A; Class B; Class C; Class D.
 [[sec-5.1.2]]
 ==== Maximum number of load cell verification intervals
 
-The maximum number of load cell verification intervals, stem:[n_{"LC"}], into which
-the maximum measuring range stem:[E_{"max"} - E_{"min"}] (see <<sec-3.5.8>>) can
+The maximum number of load cell verification intervals, stem:[n_("LC")], into which
+the maximum measuring range stem:[E_("max") - E_("min")] (see <<sec-3.5.8>>) can
 be divided in a measuring system shall be within the limits presented in <<table-1>>.
 
 [[table-1]]
-.Maximum number of load cell verification intervals (stem:[n_{"LC"}]) according to accuracy class
+.Maximum number of load cell verification intervals (stem:[n_("LC")]) according to accuracy class
 [cols="5*^",options="header"]
 |===
 | | Class A | Class B | Class C | Class D
@@ -41,7 +41,7 @@ be divided in a measuring system shall be within the limits presented in <<table
 
 ==== Minimum load cell verification interval
 
-The minimum load cell verification interval, stem:[v_{"min"}], shall be specified
+The minimum load cell verification interval, stem:[v_("min")], shall be specified
 by the manufacturer (see <<sec-3.5.11>> in combination with <<sec-3.5.15>>).
 
 [[sec-5.1.4]]
@@ -116,15 +116,15 @@ classification symbols, using an example, is shown in <<fig-4>>.
 
 === Measuring ranges
 
-==== Minimum load of the measuring range (stem:[D_{"min"}]) (see <<sec-3.5.12>>)
+==== Minimum load of the measuring range (stem:[D_("min")]) (see <<sec-3.5.12>>)
 
 The value of the smallest load applied to a load cell during test which is expressed
-in units of mass shall not be less than stem:[E_{"min"}] (see <<sec-3.5.9>>).
+in units of mass shall not be less than stem:[E_("min")] (see <<sec-3.5.9>>).
 
-==== Maximum load of the measuring range (stem:[D_{"max"}]) (see <<sec-3.5.6>>)
+==== Maximum load of the measuring range (stem:[D_("max")]) (see <<sec-3.5.6>>)
 
 The value of the largest load applied to a load cell during test which is expressed
-in units of mass shall not be greater than stem:[E_{"max"}] (see <<sec-3.5.5>>).
+in units of mass shall not be greater than stem:[E_("max")] (see <<sec-3.5.5>>).
 
 [[sec-5.3]]
 === Maximum permissible measurement errors
@@ -138,7 +138,7 @@ The MPE is applicable after increasing as well as decreasing the force applied
 ==== Maximum permissible errors for each accuracy class
 
 The maximum permissible measurement errors for each accuracy class are related to
-the maximum number of load cell verification intervals (stem:[n_{"LC"}]) specified
+the maximum number of load cell verification intervals (stem:[n_("LC")]) specified
 for the load cell (see <<sec-5.1.2>>) and to the actual value of the load cell verification
 interval, stem:[v].
 
@@ -147,8 +147,8 @@ interval, stem:[v].
 
 The MPE (see <<sec-3.7.10>>) on type evaluation shall be the values derived using
 the expressions contained in the left column of <<table-4>>. The apportioning factor,
-stem:[p_{"LC"}] shall be chosen and declared (if other than 0.7) by the manufacturer
-and shall be in the range of 0.3 to 0.8: (stem:[0.3 <= p_{"LC"} <= 0.8])
+stem:[p_("LC")] shall be chosen and declared (if other than 0.7) by the manufacturer
+and shall be in the range of 0.3 to 0.8: (stem:[0.3 <= p_("LC") <= 0.8])
 footnote:[Associated with apportionment of error provisions contained within OIML
 <<OIML_R_76_1,clause="3.5.1">> and <<OIML_R_76_1,clause="3.10.2.1">>; <<OIML_R_50_1,clause="2.2.33.2.2">>; <<OIML_R_51_1,clause="5.2.3.4">>;
 <<OIML_R_61_1,clause="5.2.3.3">>; <<OIML_R_106_1,clause="5.1.3.2">>; or <<OIML_R_107_1,clause="5.1.4.1">>, when load
@@ -163,13 +163,13 @@ representing the force introduced by the load applied.
 (+/-)
 4+| Load, stem:[m]
 | Class A | Class B | Class C | Class D
-| stem:[p_{"LC"} xx 0.5 " v"] | stem:[0 <= m <= 50000 " v"] | stem:[0 <= m <= 5000 " v"] | stem:[0 <= m <= 500 " v"] | stem:[0 <= m <= 50 " v"]
-| stem:[p_{"LC"} xx 1.0 " v"] | stem:[50000 " v" < m <= 200 000 " v"] | stem:[5000 " v" < m <= 20 000 " v"] | stem:[500 " v" < m <= 2 000 " v"] | stem:[50 " v" < m <= 200 " v"]
-| stem:[p_{"LC"} xx 1.5 " v"] | stem:[200000 " v" < m] | stem:[20000 " v" < m <= 100 000 " v"] | stem:[2000 " v" < m <= 10000 " v"] | stem:[200 " v" < m <= 1 000 " v"]
+| stem:[p_("LC") xx 0.5 " v"] | stem:[0 <= m <= 50000 " v"] | stem:[0 <= m <= 5000 " v"] | stem:[0 <= m <= 500 " v"] | stem:[0 <= m <= 50 " v"]
+| stem:[p_("LC") xx 1.0 " v"] | stem:[50000 " v" < m <= 200 000 " v"] | stem:[5000 " v" < m <= 20 000 " v"] | stem:[500 " v" < m <= 2 000 " v"] | stem:[50 " v" < m <= 200 " v"]
+| stem:[p_("LC") xx 1.5 " v"] | stem:[200000 " v" < m] | stem:[20000 " v" < m <= 100 000 " v"] | stem:[2000 " v" < m <= 10000 " v"] | stem:[200 " v" < m <= 1 000 " v"]
 |===
 
-The value of the apportioning factor, stem:[p_{"LC"}] shall appear on the OIML certificate,
-if the value is not equal to 0.7. If the apportioning factor, stem:[p_{"LC"}] is
+The value of the apportioning factor, stem:[p_("LC")] shall appear on the OIML certificate,
+if the value is not equal to 0.7. If the apportioning factor, stem:[p_("LC")] is
 not specified on the certificate then the value 0.7 shall be assumed. The maximum
 permissible error may be positive or negative and is applicable to both increasing
 and decreasing loads.
@@ -191,25 +191,25 @@ not be greater than the absolute value of the MPE for that load.
 [[sec-5.5.1]]
 ==== Creep
 
-The difference between the reading taken upon the application of a maximum load (stem:[D_{"max"}])
+The difference between the reading taken upon the application of a maximum load (stem:[D_("max")])
 and the reading observed within and after 30 minutes of exposure of 90 % to 100 %
-of stem:[E_{"max"}] shall not exceed 0.7 times the absolute value of MPE for the
+of stem:[E_("max")] shall not exceed 0.7 times the absolute value of MPE for the
 applied load.
 
 Regardless of any value declared by the manufacturer for the apportioning factor,
-stem:[p_{"LC"}], the MPE for creep shall be determined from stem:[table-4] using
-the apportioning factor, stem:[p_{"LC"} = 0.7].
+stem:[p_("LC")], the MPE for creep shall be determined from stem:[table-4] using
+the apportioning factor, stem:[p_("LC") = 0.7].
 
 The difference in readings taken after 20 minutes of exposure to 90 % to 100 % of
-stem:[E_{"max"}] and at 30 minutes of exposure to 90 % to 100 % of stem:[E_{"max"}]
+stem:[E_("max")] and at 30 minutes of exposure to 90 % to 100 % of stem:[E_("max")]
 shall not exceed 0.15 times the absolute value of MPE.
 
 ====
 Load cell class: C3 (declared by the manufacturer)
 
-Apportioning factor: stem:[p_{"LC"} = 0.7]
+Apportioning factor: stem:[p_("LC") = 0.7]
 
-Applied load: stem:[D_{"max"} = E_{"max"}] (test specification)
+Applied load: stem:[D_("max") = E_("max")] (test specification)
 
 Maximum difference between the reading stem:[= 0.7 xx (0.7 xx 1.5 v) = 0.735 v]
 ====
@@ -217,17 +217,17 @@ Maximum difference between the reading stem:[= 0.7 xx (0.7 xx 1.5 v) = 0.735 v]
 ====
 Load cell class: C3 (declared by the manufacturer)
 
-Apportioning factor: stem:[p_{"LC"} = 0.7]
+Apportioning factor: stem:[p_("LC") = 0.7]
 
-Applied load: stem:[D_{"max"} = E_{"max"}] (test specification)
+Applied load: stem:[D_("max") = E_("max")] (test specification)
 
 Maximum difference between the initial reading stem:[= 0.15 xx (0.7 xx 1.5 " v") = 0.1575 " v"]
 ====
 
 ==== Minimum dead load output return (DR) (see <<sec-3.5.10>>)
 
-The difference between the initial reading of the minimum load output (stem:[D_{"min"}])
-and the reading of stem:[D_{"min"}] at the conclusion of the creep test (<<sec-5.5.1>>),
+The difference between the initial reading of the minimum load output (stem:[D_("min")])
+and the reading of stem:[D_("min")] at the conclusion of the creep test (<<sec-5.5.1>>),
 shall not exceed half the value of the load cell verification interval
 (stem:[0.5 " v"]).
 
@@ -280,8 +280,8 @@ these ranges shall be at least:
 
 The minimum dead load output of the load cell over the temperature range, as specified
 in <<sec-5.6.1.1>> or <<sec-5.6.1.2>>, shall not vary by an amount greater than the
-apportioning factor, stem:[p_{"LC"}], times the minimum load cell verification interval,
-stem:[v_{"min"}], for any change in ambient temperature of:
+apportioning factor, stem:[p_("LC")], times the minimum load cell verification interval,
+stem:[v_("min")], for any change in ambient temperature of:
 
 [css text-indent:12.5mm]#stem:[2 "unitsml(degC)"] for load cells of class A;# +
 [css text-indent:12.5mm]#stem:[5 "unitsml(degC)"] for load cells of class B, C and D.#
@@ -289,7 +289,7 @@ stem:[v_{"min"}], for any change in ambient temperature of:
 ==== Barometric pressure
 
 The output of the load cell shall not vary by an amount greater than the minimum
-load cell verification interval, stem:[v_{"min"}], for any incremental change in
+load cell verification interval, stem:[v_("min")], for any incremental change in
 barometric pressure equivalent to stem:[1 "unitsml(kPa)"].
 
 [[sec-5.6.3]]
@@ -308,8 +308,8 @@ marking and not applicable to load cells marked NH or SH.
 
 The influence of exposure to temperature cycles specified in R 60-2, 2.10.5.12 <<R060-2,clause=2.10.5.12>> on
 the load cell output for minimum load shall not be greater than 4 % of the difference
-between the output on the maximum capacity, stem:[E_{"max"}], and that at the minimum
-dead load, stem:[E_{"min"}].
+between the output on the maximum capacity, stem:[E_("max")], and that at the minimum
+dead load, stem:[E_("min")].
 
 The influence of exposure to temperature cycles specified in R 60-2, 2.10.5.12 on
 the load cell output for the maximum load shall not be greater than the load cell
@@ -330,9 +330,9 @@ when exposed to conditions of relative humidity variations as specified in R 60-
 
 In addition to the other requirements of this Recommendation, analogue-active load
 cells shall comply with the following requirements. The MPE shall be determined using
-an apportioning factor, stem:[p_{"LC"}] greater than or equal to 0.7 and less than
-or equal to 0.8 (stem:[0.7 <= p_{"LC"} <= 0.8]) substituted for the apportioning
-factor, stem:[p_{"LC"}], that is declared by the manufacturer and applied to the
+an apportioning factor, stem:[p_("LC")] greater than or equal to 0.7 and less than
+or equal to 0.8 (stem:[0.7 <= p_("LC") <= 0.8]) substituted for the apportioning
+factor, stem:[p_("LC")], that is declared by the manufacturer and applied to the
 other requirements.
 
 If a digital load cell equipped with further data processing (<<sec-3.1.3.4>>) is
@@ -359,7 +359,7 @@ evaluated under the appropriate Recommendation for the complete instrument.
 Messages of significant faults should not be confused with other messages presented.
 
 NOTE: A fault in value that is equal to or smaller than the load cell minimum verification
-interval, stem:[v_{"min"}], is allowed.
+interval, stem:[v_("min")], is allowed.
 
 [[sec-5.7.1.2]]
 ===== Acting upon significant faults
@@ -421,8 +421,8 @@ the load cell output due to a disturbance and the load cell output without distu
 .Influence factors and disturbances
 [cols="<,^,^.^,^", options="header"]
 |===
-| Test | Subclause R 60-2, 2.10 test procedure | stem:[p_{"LC"}]
-footnote:[stem:[p_{"LC"} = 0.7] shall be used for analogue-active load cells during influence factors tests.]
+| Test | Subclause R 60-2, 2.10 test procedure | stem:[p_("LC")]
+footnote:[stem:[p_("LC") = 0.7] shall be used for analogue-active load cells during influence factors tests.]
 | Characteristic under test
 
 | Warm-up time | 2.10.7.3 .9+| 1.0 | Influence factor
@@ -441,4 +441,4 @@ footnote:[stem:[p_{"LC"} = 0.7] shall be used for analogue-active load cells dur
 When an analogue-active load cell is subjected to the span stability test specified
 in R 60-2, 2.10.7.11, the variation in the load cell span measurement results shall
 not exceed the greater of: half the load cell verification interval; or half the
-absolute value of the MPE for the applied test load stem:[D_{"max"}].
+absolute value of the MPE for the applied test load stem:[D_("max")].

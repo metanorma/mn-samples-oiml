@@ -10,13 +10,13 @@ with the following additional information:
 [cols="a,a,a,a,a",options="unnumbered,header"]
 |===
 | _Model designation_                     | | | |
-| Maximum capacity, stem:[E_{"max"}]      | | | |
+| Maximum capacity, stem:[E_("max")]      | | | |
 | Accuracy class                          | | | |
 | Maximum number of load cell             | | | |
-| verification intervals, stem:[n_{"LC"}] | | | |
+| verification intervals, stem:[n_("LC")] | | | |
 | Minimum load cell verification          | | | |
-| interval, stem:[v_{"min"}]              | | | |
-| Apportioning factor, stem:[p_{"LC"}]    | | | |
+| interval, stem:[v_("min")]              | | | |
+| Apportioning factor, stem:[p_("LC")]    | | | |
 |===
 
 Additional characteristics and identification, as applicable according to
@@ -53,19 +53,19 @@ to the certificate:
 
 | Classification | | C4 | | | |
 | Additional markings | | - | | | |
-| Maximum number of load cell verification intervals | stem:[n_{"LC"}] | stem:[4000] | | | |
-| Maximum capacity | stem:[E_{"max"}] | stem:[30000] | | | | stem:["unitsml(kg)"]
-| Minimum dead load, relative | stem:[E_{"min"} // E_{"max"}] | 0 | | | | %
-| Relative stem:[v_{"min"}] (ratio to minimum load cell verification interval) | stem:[Y = (E_{"max"} - E_{"min"}) // (v_{"min"})] | stem:[24000] | | | |
-| Relative DR (ratio to minimum dead load output return) | stem:[Z = (E_{"max"} - E_{"min"})// (2 xx DR)] | stem:[7500] | | | |
+| Maximum number of load cell verification intervals | stem:[n_("LC")] | stem:[4000] | | | |
+| Maximum capacity | stem:[E_("max")] | stem:[30000] | | | | stem:["unitsml(kg)"]
+| Minimum dead load, relative | stem:[E_("min") // E_("max")] | 0 | | | | %
+| Relative stem:[v_("min")] (ratio to minimum load cell verification interval) | stem:[Y = (E_("max") - E_("min")) // (v_("min"))] | stem:[24000] | | | |
+| Relative DR (ratio to minimum dead load output return) | stem:[Z = (E_("max") - E_("min"))// (2 xx DR)] | stem:[7500] | | | |
 | Rated output
-footnote:note1[For load cells with digital output this refers to the number of counts for stem:[E_{"max"}].]
+footnote:note1[For load cells with digital output this refers to the number of counts for stem:[E_("max")].]
 | | 2.5 | | | | stem:["unitsml(mV/V)"]
-footnote:note1[For load cells with digital output this refers to the number of counts for stem:[E_{"max"}].]
+footnote:note1[For load cells with digital output this refers to the number of counts for stem:[E_("max")].]
 | Maximum excitation voltage | | 30 | | | | stem:["unitsml(V)"]
-| Input impedance (for strain gauge load cells) | stem:[R_{"LC"}] | stem:[4000] | | | | stem:["unitsml(Ohm)"]
+| Input impedance (for strain gauge load cells) | stem:[R_("LC")] | stem:[4000] | | | | stem:["unitsml(Ohm)"]
 | Temperature rating | | -- 10/+ 40 | | | | stem:["unitsml(degC)"]
-| Safe overload, relative | stem:[E_{"lim"} // E_{"max"}] | 150 | | | | %
+| Safe overload, relative | stem:[E_("lim") // E_("max")] | 150 | | | | %
 | Cable length | | 3 | | | | stem:["unitsml(m)"]
 | Additional characteristics per <<OIML_R_60_1,clause="3.4.2">> and <<OIML_R_60_1,clause="5.1.5">>
 footnote:[For load cells with digital output this is not required.]

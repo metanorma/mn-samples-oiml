@@ -65,8 +65,8 @@ Information to be presented in the applicable Recommendation, where relevant
 |===
 | Test level index | 1
 
-| Mains voltage footnote:[For three phase mains power supplies, the voltage variation is applicable for each of the phases successively.] footnote:[The values of stem:[U_nom] are those as marked on the measuring instrument. If a range is specified, stem:[U_{nom1}] concerns the highest and stem:[U_{nom2}] concerns the lowest value in the range. If only one nominal mains voltage value (stem:[U_nom]) is specified then stem:[U_{nom1} = U_{nom2} = U_nom].] | Upper limit | stem:[U_{nom1}] + 10 %
-| | Lower limit | stem:[U_{nom2}] - 15 %
+| Mains voltage footnote:[For three phase mains power supplies, the voltage variation is applicable for each of the phases successively.] footnote:[The values of stem:[U_nom] are those as marked on the measuring instrument. If a range is specified, stem:[U_(nom1)] concerns the highest and stem:[U_(nom2)] concerns the lowest value in the range. If only one nominal mains voltage value (stem:[U_nom]) is specified then stem:[U_(nom1) = U_(nom2) = U_nom].] | Upper limit | stem:[U_(nom1)] + 10 %
+| | Lower limit | stem:[U_(nom2)] - 15 %
 |===
 
 [[table-21]]
@@ -84,8 +84,8 @@ Information to be presented in the applicable Recommendation, where relevant
 |===
 | Test level index | 1
 
-| Mains frequency | Upper limit | stem:[f_{nom}] + 2 %
-| | Lower limit | stem:[f_{nom}] - 2 %
+| Mains frequency | Upper limit | stem:[f_(nom)] + 2 %
+| | Lower limit | stem:[f_(nom)] - 2 %
 |===
 
 === Mains power disturbances
