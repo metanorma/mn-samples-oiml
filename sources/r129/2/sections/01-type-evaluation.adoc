@@ -53,9 +53,9 @@ Laboratory tests shall be performed in accordance with any limitations of use ma
 
 The test shall be carried out using appropriate test objects of various sizes and of stable dimensions. The test objects shall be opaque, rigid and with flat faces and well defined straight edges. Test objects may consist of rectangular boxes with dimensions which are known to an expanded uncertainty (coverage factor k=2) of not more than one-third of the mpe. The dimensions shall also be checked to the same uncertainty when used at the extreme values of the influence factors. The dimensions of these objects shall lie within the range of values bounded by the minimum and maximum dimensions measurable by the instrument. All adjacent faces and edges shall be perpendicular to each other.
 
-The dimensions of the test object shall be stem:[\mathrm{N} \times d] where N is a whole number and d is the value of the scale interval. An acceptable tolerance for the product of stem:[\mathrm{N} \times d] is stem:[\pm 1/3] d. For the different scale intervals, namely stem:[1, 2] or stem:[5 \times 10^n], stem:[\mathrm{N} = 10, 20], etc. would be suitable as a test object for all. This is applicable for type evaluation and verification tests.
+The dimensions of the test object shall be stem:[N times d] where N is a whole number and d is the value of the scale interval. An acceptable tolerance for the product of stem:[N times d] is stem:[+- 1/3] d. For the different scale intervals, namely stem:[1, 2] or stem:[5 times 10^n], stem:[N = 10, 20], etc. would be suitable as a test object for all. This is applicable for type evaluation and verification tests.
 
-Instruments may be equipped with an extended indication device or mode which displays the indication with a scale interval equal to, or less than, 1/5 d. Where an instrument has such a feature, and that feature is used during type evaluation or verification, the dimensions of the test object are not restricted to stem:[\mathrm{N} \times d] provided that the dimensions of the test object are known to at least 1/5 d.
+Instruments may be equipped with an extended indication device or mode which displays the indication with a scale interval equal to, or less than, 1/5 d. Where an instrument has such a feature, and that feature is used during type evaluation or verification, the dimensions of the test object are not restricted to stem:[N times d] provided that the dimensions of the test object are known to at least 1/5 d.
 
 ==== Acceptable indications
 
@@ -85,7 +85,7 @@ For automatic instruments, tests at the maximum and minimum speeds of relative m
 
 ==== Tests for multi-interval instruments
 
-For multi-interval instruments, tests shall be performed for all values of the scale interval, i.e. stem:[d_1, d_2, \dots, d_r].
+For multi-interval instruments, tests shall be performed for all values of the scale interval, i.e. stem:[d_1, d_2, ..., d_r].
 
 ==== Tests for different surfaces
 

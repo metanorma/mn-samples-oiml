@@ -59,7 +59,7 @@ without damaging them.
 
 . Serial number
 
-. Maximum capacity as: stem:[E_{"max"} = "(in units g, kg, t)"]
+. Maximum capacity as: stem:[E_("max") = "(in units g, kg, t)"]
 
 . Year of production
 
@@ -93,16 +93,16 @@ with a specific unit of measure, the unit (g, kg, t) shall also be specified.
 
 . Humidity symbol when required; see <<sec-6.2.4.4>>
 
-. Maximum capacity as: stem:[E_{"max"} =]
+. Maximum capacity as: stem:[E_("max") =]
 
-. Minimum dead load as: stem:[E_{"min"} =]
+. Minimum dead load as: stem:[E_("min") =]
 
-. Safe load limit as: stem:[E_{"lim"} =]
+. Safe load limit as: stem:[E_("lim") =]
 
-. Minimum load cell verification interval as stem:[v_{"min"}] (or relative minimum
+. Minimum load cell verification interval as stem:[v_("min")] (or relative minimum
 load cell verification interval, stem:[Y]) =
 
-. Value of the apportioning factor, stem:[p_{"LC"}], if not equal to 0.7; and
+. Value of the apportioning factor, stem:[p_("LC")], if not equal to 0.7; and
 
 . Other pertinent conditions that must be observed to obtain the specified performance
 (for example, electrical characteristics of the load cell such as output rating,
@@ -114,12 +114,12 @@ In addition to the information required in <<sec-6.2.2>>, the following informat
 may optionally be specified:
 
 . for a weighing instrument (for example a multiple range instrument according to
-<<OIML_R_76_2006>>), the relative stem:[v_{"min"}], stem:[Y], where
-stem:[Y = (E_{"max"} - E_{"min"}) // v_{"min"}] (see <<sec-3.5.15>>);
+<<OIML_R_76_2006>>), the relative stem:[v_("min")], stem:[Y], where
+stem:[Y = (E_("max") - E_("min")) // v_("min")] (see <<sec-3.5.15>>);
 
 . for a weighing instrument (for example a multi-interval instrument according to
 <<OIML_R_76_76_2006>>), the relative DR, Z, where
-stem:[Z = (E_{"max"} - E_{"min"}) // (2 xx DR)] (see <<sec-3.5.14>>) and the value
+stem:[Z = (E_("max") - E_("min")) // (2 xx DR)] (see <<sec-3.5.14>>) and the value
 of DR (see <<sec-3.5.10>>) is set at the maximum permissible minimum dead load output
 return according to R 60-2, 2.10.1;
 

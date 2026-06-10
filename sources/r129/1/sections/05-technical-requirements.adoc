@@ -80,7 +80,7 @@ For each indication of a quantity only one unit of measurement for that quantity
 
 ==== Value of the scale interval
 
-The value of all scale intervals shall be in the form stem:[1, 2] or stem:[5 \times 10^n] where n is a positive or negative whole number or zero.
+The value of all scale intervals shall be in the form stem:[1, 2] or stem:[5 times 10^n] where n is a positive or negative whole number or zero.
 
 The value of the scale interval shall be:
 
@@ -90,9 +90,9 @@ The value of the scale interval shall be:
 
 [[value-of-scale-c]] . variable (for example multi-interval) on one or more axes provided that:
 
-** if all three axes are multi-interval, then stem:[d_{x1} = d_{y1} = d_{z1}], stem:[d_{x2} = d_{y2} = d_{z2}], stem:[\dots], stem:[d_{xr} = d_{yr} = d_{zr}];
+** if all three axes are multi-interval, then stem:[d_(x1) = d_(y1) = d_(z1)], stem:[d_(x2) = d_(y2) = d_(z2)], stem:[...], stem:[d_(xr) = d_(yr) = d_(zr)];
 
-** if two axes are multi-interval, for example x and y, and z is fixed, then stem:[d_{x1} = d_{y1}], stem:[d_{x2} = d_{y2}], stem:[\dots], stem:[d_{xr} = d_{yr}], and instrument limitations such as object size, placement, etc. are clearly marked to define how to operate the instrument; and
+** if two axes are multi-interval, for example x and y, and z is fixed, then stem:[d_(x1) = d_(y1)], stem:[d_(x2) = d_(y2)], stem:[...], stem:[d_(xr) = d_(yr)], and instrument limitations such as object size, placement, etc. are clearly marked to define how to operate the instrument; and
 
 ** if only one axis is multi-interval, for example x, and y and z are fixed, then stem:[d_y = d_z] and instrument limitations such as object size, placement, etc. are clearly marked to define how to operate the instrument.
 
@@ -124,7 +124,7 @@ Displaying, storing, transmitting or printing the quantity value of any dimensio
 
 For each partial measuring range, the following apply:
 
-. the value of the scale interval of every partial measuring range must be less than the value of the scale interval of the subsequent partial measuring range stem:[(d_1 < d_2 < d_3 < \dots < d_r)];
+. the value of the scale interval of every partial measuring range must be less than the value of the scale interval of the subsequent partial measuring range stem:[(d_1 < d_2 < d_3 < ... < d_r)];
 
 . the maximum dimension of every partial measuring range must be equal to the minimum dimension of the subsequent partial measuring range (Min = Min~1~, Max = Max~r~, Max~1~ = Min~2~, etc.);
 
@@ -205,11 +205,11 @@ Instruments shall be clearly and permanently marked, either directly on the inst
 
 . maximum and minimum dimensions for each axis in the form Max=... Min=...;
 
-. if measurements are affected by means of relative movement between the object and the instrument, the maximum and minimum measuring speeds for which the instrument will measure correctly in the form stem:[V_\mathrm{max} = \dots \text{m/s}], stem:[V_\mathrm{min} = \dots \text{m/s}];
+. if measurements are affected by means of relative movement between the object and the instrument, the maximum and minimum measuring speeds for which the instrument will measure correctly in the form stem:[V_(max) = ... "unitsml(m/s)"], stem:[V_(min) = ... "unitsml(m/s)"];
 
-. scale interval(s) for each axis and range (multi-interval) in the form stem:[d = \dots]; and
+. scale interval(s) for each axis and range (multi-interval) in the form stem:[d = ...]; and
 
-. temperature limits (if other than stem:[-10\,\text{°C}] to stem:[+40\,\text{°C}]).
+. temperature limits (if other than stem:[-10 "unitsml(degC)"] to stem:[+40 "unitsml(degC)"]).
 
 ==== Technical specifications
 
@@ -237,7 +237,7 @@ Provision shall be made for the application of a verification mark either on a n
 
 . the part on which the mark is located shall not be removable from the instrument without damaging the mark; and
 
-. the size of the space shall be sufficient to contain the marks applied by the verifying authority: for example an area of at least stem:[200\,\text{mm}^2].
+. the size of the space shall be sufficient to contain the marks applied by the verifying authority: for example an area of at least stem:[200 "unitsml(mm^2)"].
 
 NOTE: If technical reasons restrict or limit the verification mark(s) to be fixed only in a "hidden" place (e.g. when an instrument in combination with another device is integrated in other equipment) this can be accepted if these marks are easily accessible, and if there is a legible notice provided on the instrument at a clearly visible place that provides direction to these marks or if its location is defined in the OIML certificate and OIML test report.
 

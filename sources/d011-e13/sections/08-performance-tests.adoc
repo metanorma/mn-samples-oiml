@@ -146,7 +146,7 @@ The following test and evaluation sequence is recommended when NSAa evaluation i
 . Establish the period of time needed per measurement;
 . Start the measurements under reference conditions;
 . Stop the measurements after the period of time established and keep the EUT switched on;
-. Determine the initial intrinsic error (stem:[E_{ii}]);
+. Determine the initial intrinsic error (stem:[E_(ii)]);
 . Record all indicated and registered values of interest;
 . Only when applicable: switch off the EUT (see note 1);
 . Activate the disturbance generator;

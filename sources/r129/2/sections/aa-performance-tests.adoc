@@ -326,7 +326,7 @@ NOTE: Values applicable for 50 Hz/60 Hz respectively.
 |Verification of compliance with the provisions in A.1.4 and R 129-1, 4.3 when an electrical burst is applied to the power line, input/output control circuits and communication lines.
 
 |Test procedure in brief
-|The EUT shall be subjected to electrical bursts of voltage spikes. The test shall be conducted under constant environmental conditions. The transient generator shall have an output impedance of 50 stem:[\Omega] and 1000 stem:[\Omega] and shall be adjusted before connecting the EUT. At least ten positive and ten negative randomly phased bursts of voltage spikes with a double exponential waveform shall be applied. Each spike shall have a rise time of 5 ns and a half amplitude duration of 50 ns. The burst length shall be 15 ms, the burst period (repetition time interval) shall be 300 ms.
+|The EUT shall be subjected to electrical bursts of voltage spikes. The test shall be conducted under constant environmental conditions. The transient generator shall have an output impedance of 50 stem:[Omega] and 1000 stem:[Omega] and shall be adjusted before connecting the EUT. At least ten positive and ten negative randomly phased bursts of voltage spikes with a double exponential waveform shall be applied. Each spike shall have a rise time of 5 ns and a half amplitude duration of 50 ns. The burst length shall be 15 ms, the burst period (repetition time interval) shall be 300 ms.
 
 |Test level
 |
@@ -335,7 +335,7 @@ The EUT shall be tested as specified in A.1.4 at the following amplitudes (peak 
 . 2 kV for power supply lines; and
 . 1 kV for input/output control circuits and communication lines.
 
-With a repetition frequency of the impulses of 5 kHz stem:[\pm] 20 %.
+With a repetition frequency of the impulses of 5 kHz stem:[+-] 20 %.
 
 |Acceptance criteria
 |If the instrument does not detect and react to a significant fault occurring as a consequence of the electrical bursts, then the fault shall not exceed the value defined in R 129-1, 2.3.7.
@@ -487,7 +487,7 @@ The EUT shall be tested as specified in A.1.4 at the following amplitudes (peak 
 |The test procedure involves the use of radio frequency EM current, simulating the influence of EM fields coupled or injected into the power ports and I/O ports of the EUT using coupling/decoupling devices as defined in the referred standard. The performance of the test equipment consisting of an RF generator, decoupling devices, attenuators, etc. shall be verified. The functional performance of the EUT is observed (e.g. displayed indications and/or error messages) while at least ten measurements are taken with the conducted radio-frequency fields applied.
 
 |Test level
-|The EUT shall be tested as specified in A.1.4 at a RF amplitude (50 stem:[\Omega]), 10 V (e.m.f), 80 % AM, 1 kHz sine wave over EM frequency range of 0.15-80 MHz.
+|The EUT shall be tested as specified in A.1.4 at a RF amplitude (50 stem:[Omega]), 10 V (e.m.f), 80 % AM, 1 kHz sine wave over EM frequency range of 0.15-80 MHz.
 
 |Acceptance criteria
 |If the instrument does not detect and react to a significant fault occurring as a consequence of the electromagnetic susceptibility of the instrument, then the fault shall not exceed the value defined in R 129-1, 2.3.7.

@@ -12,7 +12,7 @@ The applicable Recommendation shall specify, for each category or subcategory of
 
 NOTE: The applicable Recommendation may indicate that individual subcategories of measuring instruments may have different rated operating conditions, reference conditions and limits of disturbances.
 
-NOTE: Rated operating conditions are generally specified as a range (for example: stem:[-10\,\mathrm{°C}] to stem:[+40\,\mathrm{°C}]); reference conditions are generally specified as a single value with a range of variation (for example: stem:[23\,\mathrm{°C} \pm 2\,\mathrm{°C}]).
+NOTE: Rated operating conditions are generally specified as a range (for example: stem:[-10 "unitsml(degC)"] to stem:[+40 "unitsml(degC)"]); reference conditions are generally specified as a single value with a range of variation (for example: stem:[23 "unitsml(degC)" +- 2 "unitsml(degC)"]).
 
 NOTE: The reference conditions shall preferably be specified in accordance with <<IEC60068-1>>.
 

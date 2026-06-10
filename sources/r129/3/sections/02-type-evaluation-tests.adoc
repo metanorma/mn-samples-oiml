@@ -164,7 +164,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 Initial zeroing (Ready condition): [ ] yes [ ] no
 
 |===
-|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -178,7 +178,7 @@ Initial zeroing (Ready condition): [ ] yes [ ] no
 |===
 
 |===
-|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -194,7 +194,7 @@ Initial zeroing (Ready condition): [ ] yes [ ] no
 Initial zeroing (Ready condition): [ ] yes [ ] no
 
 |===
-|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -210,7 +210,7 @@ Initial zeroing (Ready condition): [ ] yes [ ] no
 Initial zeroing (Ready condition): [ ] yes [ ] no
 
 |===
-|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -226,7 +226,7 @@ Initial zeroing (Ready condition): [ ] yes [ ] no
 Initial zeroing (Ready condition): [ ] yes [ ] no
 
 |===
-|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -242,7 +242,7 @@ Initial zeroing (Ready condition): [ ] yes [ ] no
 Initial zeroing (Ready condition): [ ] yes [ ] no
 
 |===
-|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Run (units) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -294,7 +294,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 |===
 
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | | |
 |2 | | | | | | | | | | | | |
@@ -347,7 +347,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 
 .High temperature
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | | |
 |2 | | | | | | | | | | | | |
@@ -358,7 +358,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 
 .Low temperature
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | | |
 |2 | | | | | | | | | | | | |
@@ -410,7 +410,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 |===
 
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | | |
 |2 | | | | | | | | | | | | |
@@ -466,7 +466,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 |===
 
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -518,7 +518,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 |===
 
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc
 
 |1 | | | | | | | | | | | |
 |2 | | | | | | | | | | | |
@@ -570,7 +570,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 |===
 
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | | |
 |2 | | | | | | | | | | | | |
@@ -697,7 +697,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 |===
 
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | | |
 |2 | | | | | | | | | | | | |
@@ -767,7 +767,7 @@ Conveyor speed (m/min): [ ] Minimum [ ] Maximum [ ] Other ___
 |===
 
 |===
-|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_\mathrm{calc}] |DW |DWcalc |Pass/Fail
+|Test object ID |Initial zeroing (yes/no) |L |stem:[ΔL] |W |stem:[ΔW] |H |stem:[ΔH] |mpe |stem:[V] |stem:[V_(calc)] |DW |DWcalc |Pass/Fail
 
 |1 | | | | | | | | | | | | |
 |2 | | | | | | | | | | | | |

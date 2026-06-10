@@ -21,8 +21,8 @@ See 8.4.2.9 for applicability (also refer to 4.4).
 |===
 | Test level index footnote:[The test levels considered most appropriate and preferable for OIML Recommendations are presented in bold face.] | 1 | 2 | 3 | *4* | *5* | i footnote:["+i" and "stem:[H_xi]" are variables indicating that alternative field strength levels may be specified in the applicable Recommendation if accompanied by a rationale for such choice.] | unit footnote:[The magnetic field strength is expressed in A/m. 1 A/m corresponds to a free space magnetic flux density of 1.26 μT.]
 
-| Magnetic field strength: continuous field | 1 | 3 | 10 | *30* | *100* | stem:[H_{1i}] | A/m
-| Magnetic field strength: short duration (1 s to 3 s) | n/a | n/a | n/a | *300* | *1000* | stem:[H_{2i}] | A/m
+| Magnetic field strength: continuous field | 1 | 3 | 10 | *30* | *100* | stem:[H_(1i)] | A/m
+| Magnetic field strength: short duration (1 s to 3 s) | n/a | n/a | n/a | *300* | *1000* | stem:[H_(2i)] | A/m
 |===
 
 Information to be presented in the applicable Recommendation, where relevant

@@ -262,10 +262,10 @@ during the entire period of the test.
 ===== Measuring range limits
 
 With consideration given to the capability of the force-generating system, the minimum
-load, stem:[D_{"min"}], shall be as near as possible to but not less than the minimum
-dead load, stem:[E_{"min"}], and shall not be higher than a value equal to 10 % of
-stem:[E_{"max"}]. The maximum load, stem:[D_{"max"}], shall be not less than 90 %
-of stem:[E_{"max"}], nor shall it be greater than stem:[E_{"max"}] (refer to R 60-1, Figure 3).
+load, stem:[D_("min")], shall be as near as possible to but not less than the minimum
+dead load, stem:[E_("min")], and shall not be higher than a value equal to 10 % of
+stem:[E_("max")]. The maximum load, stem:[D_("max")], shall be not less than 90 %
+of stem:[E_("max")], nor shall it be greater than stem:[E_("max")] (refer to R 60-1, Figure 3).
 
 ===== Reference standards
 
@@ -340,12 +340,12 @@ measuring ranges complying with the following conditions:
 
 [stem%unnumbered]
 ++++
-n <= n_{"LC"}
+n <= n_("LC")
 ++++
 
 [stem%unnumbered]
 ++++
-v => v_{"min"}
+v => v_("min")
 ++++
 
 [[sec-2.8.2]]
@@ -418,17 +418,17 @@ time (approximately 20 s) is increased to 25 s (125 % of 20 s), MPE is reduced t
 [[sec-2.9.1]]
 ==== Creep
 
-A load of stem:[D_{"max"}] shall be applied as specified in <<sec-2.10.2.1;to!sec-2.10.2.7>>,
+A load of stem:[D_("max")] shall be applied as specified in <<sec-2.10.2.1;to!sec-2.10.2.7>>,
 at which time an initial reading shall be taken. The variation between the initial
-reading and subsequent readings of the load stem:[D_{"max"}], taken as specified
+reading and subsequent readings of the load stem:[D_("max")], taken as specified
 in <<sec-2.10.2.8>>, shall comply with the limits specified in R 60-1, 5.5.1.
 
 [[sec-2.9.2]]
 ==== Minimum dead load output return
 
-The difference between an initial reading at a load of stem:[D_{"min"}] (as specified
-in <<sec-2.10.3.1;to!sec-2.10.3.6>>) and a subsequent reading also of stem:[D_{"min"}]
-(taken after the application of a load of stem:[D_{"max"}] as specified in <<sec-2.10.3.7;to!sec-2.10.3.10>>)
+The difference between an initial reading at a load of stem:[D_("min")] (as specified
+in <<sec-2.10.3.1;to!sec-2.10.3.6>>) and a subsequent reading also of stem:[D_("min")]
+(taken after the application of a load of stem:[D_("max")] as specified in <<sec-2.10.3.7;to!sec-2.10.3.10>>)
 shall not exceed the value in specified in R 60-1, 5.5.2.
 
 [[sec-2.10]]
@@ -456,13 +456,13 @@ has been given to those conditions, prior to performing the following tests.
 ===== Insert load cell
 
 Insert the load cell into the force-generating system, load to the minimum test load,
-stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+stem:[D_("min")], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
 
 [[sec-2.10.1.3]]
 ===== Preload load cell
 
-Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
-three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+Preload the load cell by applying the maximum test load, stem:[D_("max")],
+three times, returning to the minimum test load, stem:[D_("min")], after each load
 application. Wait 5 minutes before commencing with further tests.
 
 ===== Check indicating instrument
@@ -475,7 +475,7 @@ Monitor the minimum test load output until stable.
 
 ===== Record indication
 
-Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+Record the indicating instrument indication at the minimum test load, stem:[D_("min")].
 
 [[sec-2.10.1.7]]
 ===== Test load points
@@ -488,7 +488,7 @@ be recorded.
 [[sec-2.10.1.8]]
 ===== Apply loads
 
-Apply increasing loads up to the maximum test load, stem:[D_{"max"}]. There shall
+Apply increasing loads up to the maximum test load, stem:[D_("max")]. There shall
 be at least five increasing load points, which shall include values at or near those
 at which the maximum permissible error changes, as listed in Table 4 in R 60-1, 5.3.2.
 
@@ -500,7 +500,7 @@ be recorded.
 
 ===== Decrease test loads
 
-Decrease the test loads to the minimum test load, stem:[D_{"min"}], using the same
+Decrease the test loads to the minimum test load, stem:[D_("min")], using the same
 load points as described in <<sec-2.10.1.8>>.
 
 [[sec-2.10.1.11]]
@@ -554,12 +554,12 @@ has been given to those conditions prior to performing the following tests.
 ===== Insert load cell
 
 Insert the load cell into the force-generating system, load to the minimum test load,
-stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+stem:[D_("min")], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
 
 ===== Preload load cell
 
-Preload the load cell by applying the maximum test load, stem:[D_{"max"}], three
-times, returning to the minimum test load, stem:[D_{"min"}], after each load application.
+Preload the load cell by applying the maximum test load, stem:[D_("max")], three
+times, returning to the minimum test load, stem:[D_("min")], after each load application.
 Wait one hour.
 
 ===== Check indicating instrument
@@ -572,12 +572,12 @@ Monitor the minimum test load output until stable.
 
 ===== Record indication
 
-Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+Record the indicating instrument indication at the minimum test load, stem:[D_("min")].
 
 [[sec-2.10.2.7]]
 ===== Apply load
 
-Apply a constant maximum test load, stem:[D_{"max"}] (between 90 % and 100 % of stem:[E_{"max"}]).
+Apply a constant maximum test load, stem:[D_("max")] (between 90 % and 100 % of stem:[E_("max")]).
 
 [[sec-2.10.2.8]]
 ===== Record indications
@@ -611,13 +611,13 @@ has been given to those conditions prior to performing the following test.
 ===== Insert load cell
 
 Insert the load cell into the force-generating system, load to the minimum test load,
-stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+stem:[D_("min")], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
 
 [[sec-2.10.3.3]]
 ===== Preload load cell
 
-Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
-three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+Preload the load cell by applying the maximum test load, stem:[D_("max")],
+three times, returning to the minimum test load, stem:[D_("min")], after each load
 application. Wait one hour before commencing any further tests.
 
 ===== Check indicating instrument
@@ -631,12 +631,12 @@ Monitor the minimum test load output until stable.
 [[sec-2.10.3.6]]
 ===== Record indication
 
-Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+Record the indicating instrument indication at the minimum test load, stem:[D_("min")].
 
 [[sec-2.10.3.7]]
 ===== Apply load
 
-Apply a constant maximum test load, stem:[D_{"max"}] (between 90 % and 100 % of stem:[E_{"max"}]).
+Apply a constant maximum test load, stem:[D_("max")] (between 90 % and 100 % of stem:[E_("max")]).
 
 [[sec-2.10.3.10]]
 ===== Record indications
@@ -648,7 +648,7 @@ the load for a 30-minute period.
 
 ===== Record data
 
-Record the time of initiation of unloading and return to the minimum test load, stem:[D_{"min"}].
+Record the time of initiation of unloading and return to the minimum test load, stem:[D_("min")].
 
 ===== Record indication
 
@@ -715,12 +715,12 @@ has been given to those conditions prior to performing the following test.
 ===== Insert load cell
 
 Insert the load cell into the force-generating system, load to the minimum test load,
-stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+stem:[D_("min")], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
 
 ===== Preload load cell
 
-Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
-three times, returning to the minimum test load, stem:[D_{"min"}], after each application.
+Preload the load cell by applying the maximum test load, stem:[D_("max")],
+three times, returning to the minimum test load, stem:[D_("min")], after each application.
 Wait 5 minutes before commencing any further tests.
 
 ===== Check indicating instrument
@@ -733,12 +733,12 @@ Monitor the minimum test load output until stable.
 
 ===== Record indication
 
-Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+Record the indicating instrument indication at the minimum test load, stem:[D_("min")].
 
 [[sec-2.10.5.7]]
 ===== Apply load
 
-Apply a maximum test load, stem:[D_{"max"}].
+Apply a maximum test load, stem:[D_("max")].
 
 ===== Record indications
 
@@ -748,7 +748,7 @@ shall be recorded.
 
 ===== Remove load
 
-Remove the test load to the minimum test load, stem:[D_{"min"}].
+Remove the test load to the minimum test load, stem:[D_("min")].
 
 [[sec-2.10.5.10]]
 ===== Record indication
@@ -826,8 +826,8 @@ to attain temperature stability (normally 1 to 2 hours).
 
 ===== Repeat test procedures
 
-Repeat <<sec-2.10.5.1;to!sec-2.10.5.11>> ensuring that the minimum test load, stem:[D_{"min"}],
-and the maximum test load, stem:[D_{"max"}], applied are the same as previously used.
+Repeat <<sec-2.10.5.1;to!sec-2.10.5.11>> ensuring that the minimum test load, stem:[D_("min")],
+and the maximum test load, stem:[D_("max")], applied are the same as previously used.
 
 [[sec-2.10.5.15]]
 ===== Determine the magnitude of humidity-induced variations
@@ -836,7 +836,7 @@ The difference between the average of the reading of the minimum load output and
 of the maximum output attributed to cyclic changes in humidity as determined using
 test procedures in <<sec-2.10.5>> shall not exceed the limits specified in R 60-1, 5.6.3.1.
 
-The difference between the average of the reading of the maximum load, stem:[D_{"max"}],
+The difference between the average of the reading of the maximum load, stem:[D_("max")],
 attributed to cyclic changes in humidity as determined using test procedures in <<sec-2.10.5>>
 shall not exceed the limits specified in R 60-1, 5.6.3.1.
 
@@ -854,12 +854,12 @@ has been given to those conditions prior to performing the following tests.
 ===== Insert load cell
 
 Insert the load cell into the force-generating system, load to the minimum test load,
-stem:[D_{"min"}], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
+stem:[D_("min")], and stabilise at stem:[20 "unitsml(degC)"] (stem:[pm 2 "unitsml(degC)"]).
 
 ===== Preload load cell
 
-Preload the load cell by applying the maximum test load, stem:[D_{"max"}],
-three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+Preload the load cell by applying the maximum test load, stem:[D_("max")],
+three times, returning to the minimum test load, stem:[D_("min")], after each load
 application. Wait 5 minutes before commencing any further tests.
 
 ===== Check indicating instrument
@@ -872,7 +872,7 @@ Monitor the minimum test load output until stable.
 
 ===== Record indication
 
-Record the indicating instrument indication at the minimum test load, stem:[D_{"min"}].
+Record the indicating instrument indication at the minimum test load, stem:[D_("min")].
 
 ===== Test load points
 
@@ -884,7 +884,7 @@ be recorded.
 [[sec-2.10.6.8]]
 ===== Apply loads
 
-Apply increasing loads up to the maximum test load, stem:[D_{"max"_x}]. There shall
+Apply increasing loads up to the maximum test load, stem:[D_("max"_x)]. There shall
 be at least five increasing load points which shall include loads approximating to
 the highest values in the applicable steps of maximum permissible measurement errors,
 as listed in Table 4 in R 60-1, 5.3.2.
@@ -898,7 +898,7 @@ be recorded.
 [[sec-2.10.6.10]]
 ===== Decrease load
 
-Decrease the test load to the minimum test load, stem:[D_{"min"}], using the same
+Decrease the test load to the minimum test load, stem:[D_("min")], using the same
 load points as described in <<sec-2.10.6.8>>.
 
 ===== Conduct damp heat, steady state test
@@ -998,7 +998,7 @@ and the corrected error, stem:[E_c], prior to rounding is:
 E_C = E - E_0 <= MPE
 ++++
 
-where stem:[E_0] is the error calculated at the minimum test load, stem:[D_{"min"}].
+where stem:[E_0] is the error calculated at the minimum test load, stem:[D_("min")].
 
 ===== Warm-up time
 
@@ -1010,8 +1010,8 @@ to the test.
 
 Insert the load cell into the force-generating system.
 
-Preload the load cell by applying a maximum test load, stem:[D_{"max"}], then, returning
-to the minimum test load, stem:[D_{"min"}], three times.
+Preload the load cell by applying a maximum test load, stem:[D_("max")], then, returning
+to the minimum test load, stem:[D_("min")], three times.
 
 Allow the load cell to rest for 5 minutes. Connect the load cell to the power supply
 and switch on.
@@ -1019,13 +1019,13 @@ and switch on.
 Record data:
 
 As soon as a measurement result can be obtained, record the minimum test load output
-and the maximum test load, stem:[D_{"max"}], applied.
+and the maximum test load, stem:[D_("max")], applied.
 
 Loading and unloading:
 
 The maximum test load output shall be determined at time intervals as close as possible
 to those specified in <<table-1>> in <<sec-2.8.3>> and recorded and the load should
-be returned to the minimum test load, stem:[D_{"min"}]. These measurements shall
+be returned to the minimum test load, stem:[D_("min")]. These measurements shall
 be repeated after 5, 15 and 30 minutes.
 
 For load cells of class A, the provisions of the operating manual for the time following
@@ -1066,9 +1066,9 @@ Battery power voltage variations:
 - lower power voltage: (specified by the manufacturer, below stem:["unitsml(V)"])
 
 The voltage, (stem:["unitsml(V)"]) is the value specified by the manufacturer. If a
-range of reference mains power voltage (stem:[V_{"min"}, V_{"max"}]) is specified,
-then the test shall be performed at an upper voltage limit of stem:[V_{"max"}] and
-a lower voltage limit of stem:[V_{"min"}].
+range of reference mains power voltage (stem:[V_("min"), V_("max")]) is specified,
+then the test shall be performed at an upper voltage limit of stem:[V_("max")] and
+a lower voltage limit of stem:[V_("min")].
 
 | Test procedure in brief
 | This test consists of subjecting the load cell to variations of power voltage.
@@ -1456,10 +1456,10 @@ the total duration of the test.
 
 Test loads:
 
-A minimum test load, stem:[D_{"min"}]; the same test load shall be used throughout
+A minimum test load, stem:[D_("min")]; the same test load shall be used throughout
 the test.
 
-A maximum test load, stem:[D_{"max"}]; the same test load shall be used throughout
+A maximum test load, stem:[D_("max")]; the same test load shall be used throughout
 the test.
 
 Number of measurements: At least 8.
@@ -1472,15 +1472,15 @@ Stabilise all factors at sufficiently constant ambient conditions.
 
 Each set of measurements shall consist of the following:
 
-. preload the load cell by applying the maximum test load, stem:[D_{"max"}],
-three times, returning to the minimum test load, stem:[D_{"min"}], after each load
+. preload the load cell by applying the maximum test load, stem:[D_("max")],
+three times, returning to the minimum test load, stem:[D_("min")], after each load
 application;
 
-. stabilise the load cell at the minimum test load, stem:[D_{"min"}];
+. stabilise the load cell at the minimum test load, stem:[D_("min")];
 
-. read the minimum test load output and apply the maximum test load, stem:[D_{"max"}].
+. read the minimum test load output and apply the maximum test load, stem:[D_("max")].
 Read the maximum test load output at time intervals as near as possible to those
-specified in <<table-1>> in <<sec-2.8.3>>, and return to the minimum test load, stem:[D_{"min"}].
+specified in <<table-1>> in <<sec-2.8.3>>, and return to the minimum test load, stem:[D_("min")].
 Repeat this four more times for accuracy class B or two more times for accuracy classes
 C and D;
 

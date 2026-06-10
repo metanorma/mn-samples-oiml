@@ -65,13 +65,13 @@ instrument that measures without the intervention of an operator
 
 measuring instrument having one dimensional measuring range for each axis which is divided into partial measuring ranges each with different scale intervals, with the measuring range determined automatically according to the dimension being measured
 
-==== maximum measuring speed stem:[(V_\mathrm{max})]
+==== maximum measuring speed stem:[(V_(max))]
 
 maximum speed at which the instrument will measure correctly
 
 NOTE: Only applicable to instruments where measurements are affected by means of relative movement between the object and the instrument.
 
-==== minimum measuring speed stem:[(V_\mathrm{min})]
+==== minimum measuring speed stem:[(V_(min))]
 
 minimum speed at which the instrument will measure correctly
 
@@ -103,7 +103,7 @@ length (L), width (W) or height (H), measured by the measuring instrument, of th
 [[section-dv]]
 ==== dimensional volume (Dim Vol or DV)
 
-volume of the smallest rectangular box which fully encloses the object, and is the product of the indicated values of length (L), width (W) and height (H) stem:[DV = L \times W \times H]
+volume of the smallest rectangular box which fully encloses the object, and is the product of the indicated values of length (L), width (W) and height (H) stem:[DV = L times W times H]
 
 ==== maximum dimension (Max)
 

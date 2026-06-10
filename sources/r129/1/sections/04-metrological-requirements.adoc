@@ -11,14 +11,14 @@ The lower limit of the minimum dimension for all values of the scale interval is
 |===
 |Scale interval (d) |Minimum dimension (Min) (lower limit)
 
-|stem:[d \leq] 2 cm |10 d
-|2 cm stem:[\lt] stem:[d \leq] 10 cm |20 d
-|10 cm stem:[\lt] d |50 d
+|stem:[d <=] 2 cm |10 d
+|2 cm stem:[<] stem:[d <=] 10 cm |20 d
+|10 cm stem:[<] d |50 d
 |===
 
 ==== Value of the mpe
 
-The mpe applicable to the measurement by the instrument of any of the three dimensions for initial and subsequent verification is stem:[\pm 1.0] d.
+The mpe applicable to the measurement by the instrument of any of the three dimensions for initial and subsequent verification is stem:[+- 1.0] d.
 
 ==== Value of the fault limit
 
@@ -62,15 +62,15 @@ Error of indication = Indication - Nominal dimensions of the test object
 
 Instruments shall be designed and manufactured such that they do not exceed the mpe when exposed to the following ranges of environmental conditions:
 
-. mains power voltage variations: stem:[-15\,\%] to stem:[+10\,\%] of nominal voltage;
+. mains power voltage variations: stem:[-15 %] to stem:[+10 %] of nominal voltage;
 
-. air temperature variations at the temperature limits stated in the descriptive markings; if no temperature limits are stated in the descriptive markings stem:[-10\,\text{°C}] to stem:[+40\,\text{°C}] applies;
+. air temperature variations at the temperature limits stated in the descriptive markings; if no temperature limits are stated in the descriptive markings stem:[-10 "unitsml(degC)"] to stem:[+40 "unitsml(degC)"] applies;
 
-. relative humidity of 85 % (non-condensing) at the high temperature limit of the instrument or stem:[40\,\text{°C}], whichever is lower.
+. relative humidity of 85 % (non-condensing) at the high temperature limit of the instrument or stem:[40 "unitsml(degC)"], whichever is lower.
 
 An electronic instrument powered by direct current shall either continue to function correctly or not indicate any quantity when the voltage is below the manufacturer's specified nominal voltage.
 
-If special temperature limits are stated in the descriptive markings, the range shall be at least stem:[30\,\text{°C}].
+If special temperature limits are stated in the descriptive markings, the range shall be at least stem:[30 "unitsml(degC)"].
 
 === Disturbances
 

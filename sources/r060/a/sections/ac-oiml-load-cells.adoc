@@ -29,19 +29,19 @@ section "6 Data sheet and dimensions" in this Annex).
 |===
 | Accuracy class | | C
 
-| Maximum number of load cell intervals stem:[n_{"LC"}] | | stem:[3000]
+| Maximum number of load cell intervals stem:[n_("LC")] | | stem:[3000]
 
 | Rated output | stem:["unitsml(mV/V)"] | 2
 
-| Maximum capacity stem:[E_{"max"}] | stem:["unitsml(kg)"] | 150 / 200 / 250 / 300 / 500 / 750
+| Maximum capacity stem:[E_("max")] | stem:["unitsml(kg)"] | 150 / 200 / 250 / 300 / 500 / 750
 
-| Minimum load cell verification interval stem:[v_{"min"} = (E_{"max"} - E_{"min"}) // Y] | stem:["unitsml(kg)"] | stem:[E_{"max"} // 15000]
+| Minimum load cell verification interval stem:[v_("min") = (E_("max") - E_("min")) // Y] | stem:["unitsml(kg)"] | stem:[E_("max") // 15000]
 
-| Minimum dead load output return stem:["DR" = 1//2 (E_{"max"} - E_{"min"})// Z] | stem:["unitsml(kg)"] | stem:[1//2 (E_{"max"} - E_{"min"}) // 5000]
+| Minimum dead load output return stem:["DR" = 1//2 (E_("max") - E_("min"))// Z] | stem:["unitsml(kg)"] | stem:[1//2 (E_("max") - E_("min")) // 5000]
 
 |===
 
-Dead load: xxx stem:[% cdot E_{"max"}]; Safe overload: xxx stem:[% cdot E_{"max"}]; Input impedance: xxx stem:["unitsml(Ohm)"]
+Dead load: xxx stem:[% cdot E_("max")]; Safe overload: xxx stem:[% cdot E_("max")]; Input impedance: xxx stem:["unitsml(Ohm)"]
 
 [[sec-C.3]]
 === Tests
@@ -95,7 +95,7 @@ Figure 2 - Name plate
 === Documentation
 
 ====
-* Test Report No. xxx; C3; stem:[Y = "xxx"]; stem:[Z = "xxx"]; stem:[E_{"max"} = "xxx" "unitsml(kg)"]; SN: xxx
+* Test Report No. xxx; C3; stem:[Y = "xxx"]; stem:[Z = "xxx"]; stem:[E_("max") = "xxx" "unitsml(kg)"]; SN: xxx
 
 * Datasheet No. Xxx
 
@@ -130,17 +130,17 @@ Specifications of the load cell family
 |===
 2+| Accuracy class according to OIML R 60 |                  | C
 | Rated output                            |                  | stem:["unitsml(mV/V)"]  | stem:[2.0 pm 0.2]
-| Maximum capacity                        | stem:[E_{"max"}] | stem:["unitsml(kg)"]    | 150 / 200 / 250 / 300 / 500 / 750
-| Max. number of load cell intervals      | stem:[n_{"LC"}]  |                         | stem:[3000]
-| Min. load cell verification interval    | stem:[v_{"min"}] | stem:["unitsml(kg)"]    | stem:[E_{"max"} // 15000]
-| Minimum dead load output return (MDLOR) | DR               | stem:["unitsml(kg)"]    | stem:[1//2 cdot E_{"max"} // 5000]
-| Minimum dead load                       |                  | stem:[% cdot E_{"max"}] | 0
-| Safe load limit                         |                  | stem:[% cdot E_{"max"}] | 150
-| Ultimate load                           |                  | stem:[% cdot E_{"max"}] | 300
-| Excitation voltage, recommended         | stem:[U_{"EXE"}] | V                       | 10-12 DC
+| Maximum capacity                        | stem:[E_("max")] | stem:["unitsml(kg)"]    | 150 / 200 / 250 / 300 / 500 / 750
+| Max. number of load cell intervals      | stem:[n_("LC")]  |                         | stem:[3000]
+| Min. load cell verification interval    | stem:[v_("min")] | stem:["unitsml(kg)"]    | stem:[E_("max") // 15000]
+| Minimum dead load output return (MDLOR) | DR               | stem:["unitsml(kg)"]    | stem:[1//2 cdot E_("max") // 5000]
+| Minimum dead load                       |                  | stem:[% cdot E_("max")] | 0
+| Safe load limit                         |                  | stem:[% cdot E_("max")] | 150
+| Ultimate load                           |                  | stem:[% cdot E_("max")] | 300
+| Excitation voltage, recommended         | stem:[U_("EXE")] | V                       | 10-12 DC
 | Excitation voltage, maximum             |                  | stem:["unitsml(V)"]     | 15 DC
-| Input resistance                        | stem:[R_{"LC"}]  | stem:["unitsml(Ohm)"]   | stem:[404 pm 10]
-| Output resistance                       | stem:[R_{"out"}] | stem:["unitsml(Ohm)"]   | stem:[350 pm 3]
+| Input resistance                        | stem:[R_("LC")]  | stem:["unitsml(Ohm)"]   | stem:[404 pm 10]
+| Output resistance                       | stem:[R_("out")] | stem:["unitsml(Ohm)"]   | stem:[350 pm 3]
 | Insulation resistance                   | RISO             | stem:["unitsml(MOhm)"]  | stem:[=> 2000]
 | Compensated temperature range           | stem:[T]         | stem:["unitsml(degC)"]  | stem:[-10...+40]
 | Load cell material                      |                  |                         | Aluminium
