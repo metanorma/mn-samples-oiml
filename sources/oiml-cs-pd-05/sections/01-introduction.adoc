@@ -1,4 +1,3 @@
-[heading=clause]
 == Introduction
 
 The OIML certification System (OIML-CS) has been established

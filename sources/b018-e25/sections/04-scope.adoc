@@ -1,5 +1,4 @@
 [[scope]]
-[heading=clause]
 == Scope
 
 === {blank}
