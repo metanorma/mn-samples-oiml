@@ -1,6 +1,6 @@
 = Clarifications and Interpretations of OIML-CS Documents
 :docidentifier: OIML-CS CID-01 Edition 6
-:doctype: oiml-cs-clarification-document
+:doctype: clarification-document
 :title-main-en: Clarifications and Interpretations of OIML-CS Documents
 :edition: 6
 :revdate: 2024-09-19
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:

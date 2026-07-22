@@ -1,6 +1,6 @@
 = Processing an application for an OIML Type Evaluation Report and OIML Certificate
 :docidentifier: OIML-CS PD-05 Edition 6 (Amendment 1)
-:doctype: oiml-cs-procedural-document
+:doctype: procedural-document
 :title-main-en: Processing an application for an OIML Type Evaluation Report and OIML Certificate
 :edition: 6
 :revdate: 2024-08-27
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:

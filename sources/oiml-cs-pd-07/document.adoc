@@ -1,6 +1,6 @@
 = Transition Arrangements under the OIML-CS
 :docidentifier: OIML-CS PD-07 Edition 4
-:doctype: international-document
+:doctype: procedural-document
 :title-main-en: Transition Arrangements under the OIML-CS
 :edition: 4
 :revdate: 2024-01-16
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:

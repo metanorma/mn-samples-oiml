@@ -1,6 +1,6 @@
 = Utilizers and Associates
 :docidentifier: OIML-CS PD-09 Edition 1
-:doctype: international-document
+:doctype: procedural-document
 :title-main-en: Utilizers and Associates
 :edition: 1
 :revdate: 2025-12-24
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:
