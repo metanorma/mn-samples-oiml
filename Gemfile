@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "metanorma-cli" #, github: "metanorma/metanorma-cli"
 gem "mn2pdf", ">=2.52"
+gem "metanorma-taste", github: "metanorma/metanorma-taste", branch: "main"
 
 # WARNING: only for testing
 # gem "html2doc", github: "metanorma/html2doc", branch: "main"

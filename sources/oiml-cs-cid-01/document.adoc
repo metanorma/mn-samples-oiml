@@ -1,6 +1,6 @@
 = Clarifications and Interpretations of OIML-CS Documents
 :docidentifier: OIML-CS CID-01 Edition 6
-:doctype: international-document
+:doctype: oiml-cs-clarification-document
 :title-main-en: Clarifications and Interpretations of OIML-CS Documents
 :edition: 6
 :revdate: 2024-09-19
