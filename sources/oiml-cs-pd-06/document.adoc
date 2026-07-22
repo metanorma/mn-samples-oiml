@@ -14,9 +14,15 @@
 :local-cache-only:
 
 include::sections/00-foreword.adoc[]
+
 include::sections/01-introduction.adoc[]
+
 include::sections/02-scope.adoc[]
+
 include::sections/03-terminology.adoc[]
+
 include::sections/04-use-of-certificates.adoc[]
+
 include::sections/05-misuse.adoc[]
+
 include::sections/06-references.adoc[]
