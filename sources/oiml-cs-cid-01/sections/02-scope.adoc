@@ -1,3 +1,4 @@
+[heading=clause]
 == Scope
 
 === {blank}

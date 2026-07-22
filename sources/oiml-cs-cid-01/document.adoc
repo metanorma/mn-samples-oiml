@@ -14,7 +14,11 @@
 :local-cache-only:
 
 include::sections/00-foreword.adoc[]
+
 include::sections/01-introduction.adoc[]
+
 include::sections/02-scope.adoc[]
+
 include::sections/03-clarifications.adoc[]
+
 include::sections/04-references.adoc[]

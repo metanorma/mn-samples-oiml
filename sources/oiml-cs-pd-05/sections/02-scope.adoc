@@ -1,3 +1,4 @@
+[heading=clause]
 == Scope
 
 This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
