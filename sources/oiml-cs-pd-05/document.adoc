@@ -15,21 +15,19 @@
 
 include::sections/00-foreword.adoc[]
 
-include::sections/01-introduction.adoc[]
+include::sections/01-scope.adoc[]
 
-include::sections/02-scope.adoc[]
+include::sections/02-terminology.adoc[]
 
-include::sections/03-terminology.adoc[]
+include::sections/03-scheme-b.adoc[]
 
-include::sections/04-scheme-b.adoc[]
+include::sections/04-scheme-a.adoc[]
 
-include::sections/05-scheme-a.adoc[]
+include::sections/05-registering.adoc[]
 
-include::sections/06-registering.adoc[]
+include::sections/06-incorrect-conclusions.adoc[]
 
-include::sections/07-incorrect-conclusions.adoc[]
-
-include::sections/08-modification.adoc[]
+include::sections/07-modification.adoc[]
 
 include::sections/annex-a.adoc[]
 
@@ -37,4 +35,4 @@ include::sections/annex-b.adoc[]
 
 include::sections/annex-c.adoc[]
 
-include::sections/09-references.adoc[]
+include::sections/08-references.adoc[]

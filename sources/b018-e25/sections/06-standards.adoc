@@ -2,10 +2,10 @@
 
 The standards applicable within the OIML-CS as defined by the Management Committee are
 
-a) OIML Recommendations and Documents,
+. OIML Recommendations and Documents,
 
-b) ISO/IEC conformity assessment standards, and
+. ISO/IEC conformity assessment standards, and
 
-c) other relevant international standards.
+. other relevant international standards.
 
 A complete list of the documents and standards identified by the Management Committee and accepted by the CIML is published and updated by the BIML on the OIML website.

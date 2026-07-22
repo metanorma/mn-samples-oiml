@@ -5,21 +5,21 @@
 
 The OIML-CS is a single Certification System with two Schemes:
 
-a) Scheme A, and
+. Scheme A, and
 
-b) Scheme B.
+. Scheme B.
 
 === {blank}
 
 Those categories of measuring instruments (including families of instruments, modules, or families of modules) for which the relevant OIML Recommendation specifies
 
-a) the metrological and technical requirements,
+. the metrological and technical requirements,
 
-b) the test procedures, including (where applicable) the selection of the instrument or module to be tested from the family of measuring instruments or family of modules under evaluation,
+. the test procedures, including (where applicable) the selection of the instrument or module to be tested from the family of measuring instruments or family of modules under evaluation,
 
-c) the OIML test report format, and
+. the OIML test report format, and
 
-d) the OIML type evaluation report format
+. the OIML type evaluation report format
 
 are automatically included in the OIML-CS.
 

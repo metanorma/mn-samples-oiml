@@ -4,13 +4,13 @@
 
 The OIML certificate number is divided into the following parts:
 
-a) the number and year of the edition of the relevant OIML Recommendation as specified in the latest published list of OIML Recommendations included in the OIML-CS;
+. the number and year of the edition of the relevant OIML Recommendation as specified in the latest published list of OIML Recommendations included in the OIML-CS;
 
-b) the letter "A" or "B" to signify that the OIML certificate has been issued under Scheme A or Scheme B respectively;
+. the letter "A" or "B" to signify that the OIML certificate has been issued under Scheme A or Scheme B respectively;
 
-c) a two-letter code indicating the Member State in which the OIML certificate was issued in accordance with the ISO country codes <<ISO_3166_1>> along with the number indicating the specific OIML Issuing Authority beginning with 1 (Example 1) and in the order as designated by the CIML Member; and
+. a two-letter code indicating the Member State in which the OIML certificate was issued in accordance with the ISO country codes <<ISO_3166_1>> along with the number indicating the specific OIML Issuing Authority beginning with 1 (Example 1) and in the order as designated by the CIML Member; and
 
-d) the last two figures of the year of issue of the OIML certificate followed by its two-digit sequential number for that particular year for each OIML Issuing Authority.
+. the last two figures of the year of issue of the OIML certificate followed by its two-digit sequential number for that particular year for each OIML Issuing Authority.
 
 NOTE 1: The number as defined in a) consists of the generic number of the OIML Recommendation (without indication of the parts) and the year of publication. Example: R 60/2000
 

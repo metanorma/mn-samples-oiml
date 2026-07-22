@@ -10,19 +10,19 @@ The manufacturer, or an authorised representative of the manufacturer, of a type
 
 The application shall include the following:
 
-a) the name and address of the manufacturer and, if appropriate, of the authorised representative;
+. the name and address of the manufacturer and, if appropriate, of the authorised representative;
 
-b) a statement that no concurrent application for OIML type evaluation has been made to any other OIML Issuing Authority;
+. a statement that no concurrent application for OIML type evaluation has been made to any other OIML Issuing Authority;
 
-c) a description of the type as distinct from other types, and any information related to testing; in the case of a family of instruments or modules, the description of the operation may include, as appropriate, information concerning each instrument or module that belongs to the family;
+. a description of the type as distinct from other types, and any information related to testing; in the case of a family of instruments or modules, the description of the operation may include, as appropriate, information concerning each instrument or module that belongs to the family;
 
-d) a description of the instrument's operation, including the manufacturer's operating instructions; in the case of a module, the description of the modules' operation may include, as appropriate, information concerning the characteristics of the category of instruments of which the module may be part and information concerning the conditions for compatibility between the various modules that compose the instrument, as defined in the relevant OIML Recommendation;
+. a description of the instrument's operation, including the manufacturer's operating instructions; in the case of a module, the description of the modules' operation may include, as appropriate, information concerning the characteristics of the category of instruments of which the module may be part and information concerning the conditions for compatibility between the various modules that compose the instrument, as defined in the relevant OIML Recommendation;
 
-e) a list of specified manufacturer's documentation, necessary and sufficient for the identification of the type submitted such as lists of modules (OIML D 11, 3.2 <<OIML_D_11>>) and (electronic) devices (OIML D 11, 3.3 <<OIML_D_11>>), serial or reference number for electronic components, software programs, etc.;
+. a list of specified manufacturer's documentation, necessary and sufficient for the identification of the type submitted such as lists of modules (OIML D 11, 3.2 <<OIML_D_11>>) and (electronic) devices (OIML D 11, 3.3 <<OIML_D_11>>), serial or reference number for electronic components, software programs, etc.;
 
-f) information on, or details of, the sample(s), representative of the production envisaged, to be submitted for tests and examinations on the basis of the relevant OIML Recommendations;
+. information on, or details of, the sample(s), representative of the production envisaged, to be submitted for tests and examinations on the basis of the relevant OIML Recommendations;
 
-g) if applicable, results of OIML test reports of previous OIML Type Evaluation(s) (see 4.3.3).
+. if applicable, results of OIML test reports of previous OIML Type Evaluation(s) (see 4.3.3).
 
 ==== {blank}
 
@@ -38,13 +38,13 @@ The OIML Issuing Authority receiving the application shall review it and may req
 
 The OIML Issuing Authority may refuse the application if any of the following conditions apply:
 
-a) the category of measuring instrument or module concerned is not included in the scope of the OIML Issuing Authority;
+. the category of measuring instrument or module concerned is not included in the scope of the OIML Issuing Authority;
 
-b) the type does not correspond to the category or module covered in the relevant OIML Recommendation;
+. the type does not correspond to the category or module covered in the relevant OIML Recommendation;
 
-c) the information required for the application (including any additional information and documents requested) is incomplete;
+. the information required for the application (including any additional information and documents requested) is incomplete;
 
-d) other clearly identified reasons.
+. other clearly identified reasons.
 
 ==== {blank}
 
@@ -112,41 +112,41 @@ All the OIML test reports will then be included in the OIML type evaluation repo
 
 Each OIML test report shall give, as specified in the relevant OIML Recommendation, the results of the various tests and examinations obtained for samples of the type. It shall include at least the following:
 
-a) a title: "OIML test report";
+. a title: "OIML test report";
 
-b) name and address of the Test Laboratory and the location where the tests and examinations were carried out, if different from the address of the laboratory;
+. name and address of the Test Laboratory and the location where the tests and examinations were carried out, if different from the address of the laboratory;
 
-c) unique identification of the OIML test report which shall be indicated on each page and a clear identification of the end of the OIML test report;
+. unique identification of the OIML test report which shall be indicated on each page and a clear identification of the end of the OIML test report;
 
-d) name and address of the applicant for the OIML Type Evaluation;
+. name and address of the applicant for the OIML Type Evaluation;
 
-e) reference (number and year of edition) to the relevant OIML Recommendation;
+. reference (number and year of edition) to the relevant OIML Recommendation;
 
-f) identification of the category as defined in the relevant OIML Recommendation (e.g. check weigher, fuel dispenser);
+. identification of the category as defined in the relevant OIML Recommendation (e.g. check weigher, fuel dispenser);
 
-g) identification of the designation of the type or the family, as appropriate;
+. identification of the designation of the type or the family, as appropriate;
 
-h) identification of specific samples tested;
+. identification of specific samples tested;
 
-i) for each test or examination, dates of testing;
+. for each test or examination, dates of testing;
 
-j) for each test or examination, place of testing;
+. for each test or examination, place of testing;
 
-k) for each test or examination, name or initials of the person who conducted the test or examination;
+. for each test or examination, name or initials of the person who conducted the test or examination;
 
-l) for each test or examination, the environmental conditions, as appropriate;
+. for each test or examination, the environmental conditions, as appropriate;
 
-m) for each test, a description of the test facilities;
+. for each test, a description of the test facilities;
 
-n) for each test or examination, information concerning the instrument or the simulation setup used for testing, especially in the case of a module or family of modules;
+. for each test or examination, information concerning the instrument or the simulation setup used for testing, especially in the case of a module or family of modules;
 
-o) identification of any authorised and agreed upon adjustments or modifications made to the sample or samples during the testing;
+. identification of any authorised and agreed upon adjustments or modifications made to the sample or samples during the testing;
 
-p) examination and test results including considerations on measurement uncertainties and a statement on traceability, if specified in the relevant OIML Recommendation;
+. examination and test results including considerations on measurement uncertainties and a statement on traceability, if specified in the relevant OIML Recommendation;
 
-q) for each test and examination, a conclusion (pass/fail) as to whether the samples meet the relevant requirement of the appropriate Recommendation;
+. for each test and examination, a conclusion (pass/fail) as to whether the samples meet the relevant requirement of the appropriate Recommendation;
 
-r) name(s), function(s) and signature(s) of person(s) authorising the OIML test report.
+. name(s), function(s) and signature(s) of person(s) authorising the OIML test report.
 
 ==== {blank}
 
@@ -162,13 +162,13 @@ NOTE: In some cases, translation of the OIML test report into additional languag
 
 The OIML test report may bear the OIML-CS logo subject to the following conditions:
 
-a) The format and specifications of the OIML-CS logo shall comply with the requirements of OIML B 20 <<OIML_B_20>>;
+. The format and specifications of the OIML-CS logo shall comply with the requirements of OIML B 20 <<OIML_B_20>>;
 
-b) OIML test reports bearing the OIML-CS logo shall clearly indicate the results of testing performed exclusively by an OIML-CS approved Test Laboratory and which are within their scope of accreditation or peer assessment;
+. OIML test reports bearing the OIML-CS logo shall clearly indicate the results of testing performed exclusively by an OIML-CS approved Test Laboratory and which are within their scope of accreditation or peer assessment;
 
-c) The OIML-CS logo shall not be used on test reports that include 'old test data', i.e. test reports issued under the Basic Certificate System, the OIML Mutual Acceptance Arrangement (MAA), or any other scheme; and
+. The OIML-CS logo shall not be used on test reports that include 'old test data', i.e. test reports issued under the Basic Certificate System, the OIML Mutual Acceptance Arrangement (MAA), or any other scheme; and
 
-d) An OIML test report bearing the OIML-CS logo shall clearly identify the results of testing which are required by the relevant OIML Recommendation and any results which are not from the relevant OIML Recommendation, e.g. tests in support of Additional National Requirements.
+. An OIML test report bearing the OIML-CS logo shall clearly identify the results of testing which are required by the relevant OIML Recommendation and any results which are not from the relevant OIML Recommendation, e.g. tests in support of Additional National Requirements.
 
 ==== {blank}
 
@@ -182,33 +182,33 @@ NOTE: The OIML type evaluation report is prepared according to the format specif
 
 The OIML type evaluation report shall give, as appropriate, the results of various tests and examinations obtained for samples of the type and shall be drawn up in the format provided in the relevant OIML Recommendation. It shall include at least the following:
 
-a) name and address of the OIML Issuing Authority which is responsible for issuing the report;
+. name and address of the OIML Issuing Authority which is responsible for issuing the report;
 
-b) name and address of the Test Laboratory(ies) identified according to the specific tests performed;
+. name and address of the Test Laboratory(ies) identified according to the specific tests performed;
 
-c) reference (number and year of edition) to the relevant OIML Recommendation;
+. reference (number and year of edition) to the relevant OIML Recommendation;
 
-d) identification of the category (e.g. check weigher, fuel dispenser);
+. identification of the category (e.g. check weigher, fuel dispenser);
 
-e) identification of the type (e.g. reference to specific designation, description of the instrument, external and internal photographs, marking, software, inscriptions, specifications, etc. including, if applicable, the accuracy class); in the case of a family of instruments or a module or family of modules, additional information according to 4.1.2 shall be provided;
+. identification of the type (e.g. reference to specific designation, description of the instrument, external and internal photographs, marking, software, inscriptions, specifications, etc. including, if applicable, the accuracy class); in the case of a family of instruments or a module or family of modules, additional information according to 4.1.2 shall be provided;
 
-f) identification of the specific samples tested;
+. identification of the specific samples tested;
 
-g) justification of the selection of samples, in particular in case of a family of instruments or modules or if specific requirements are mentioned in the relevant OIML Recommendation;
+. justification of the selection of samples, in particular in case of a family of instruments or modules or if specific requirements are mentioned in the relevant OIML Recommendation;
 
-h) identification of any authorised and agreed upon adjustments or modifications made to the sample or samples during the testing;
+. identification of any authorised and agreed upon adjustments or modifications made to the sample or samples during the testing;
 
-i) name and address of the manufacturer(s);
+. name and address of the manufacturer(s);
 
-j) name and address of the applicant for the OIML certificate;
+. name and address of the applicant for the OIML certificate;
 
-k) OIML test report(s);
+. OIML test report(s);
 
-l) identification of OIML test reports from a Manufacturer Test Laboratory which have been taken into account, if applicable;
+. identification of OIML test reports from a Manufacturer Test Laboratory which have been taken into account, if applicable;
 
-m) general conclusion as to whether the samples conform to the relevant OIML Recommendation;
+. general conclusion as to whether the samples conform to the relevant OIML Recommendation;
 
-n) annexed listing of the manufacturer's documentation submitted with the application for an OIML certificate and used for identification of the type submitted (see 4.1.2).
+. annexed listing of the manufacturer's documentation submitted with the application for an OIML certificate and used for identification of the type submitted (see 4.1.2).
 
 ==== {blank}
 
@@ -258,17 +258,17 @@ The OIML certificate shall be in English or in the national language of the OIML
 
 The OIML certificate shall have a unique OIML certificate number established according to the form specified in <<annex_b>>, indicating the following:
 
-a) the relevant OIML Recommendation with the year of publication;
+. the relevant OIML Recommendation with the year of publication;
 
-b) the character 'B' to denote Scheme B;
+. the character 'B' to denote Scheme B;
 
-c) the ISO country code <<ISO_3166_1>> of the Member State in which the OIML certificate was issued, supplemented by the indication of the numbering of the OIML Issuing Authority for the category of instruments concerned in that Member State;
+. the ISO country code <<ISO_3166_1>> of the Member State in which the OIML certificate was issued, supplemented by the indication of the numbering of the OIML Issuing Authority for the category of instruments concerned in that Member State;
 
-d) the year of issue;
+. the year of issue;
 
-e) a sequential two-digit number
+. a sequential two-digit number
 
-f) revision number.
+. revision number.
 
 ==== {blank}
 

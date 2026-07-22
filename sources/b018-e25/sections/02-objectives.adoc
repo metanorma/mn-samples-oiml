@@ -2,8 +2,8 @@
 
 The objectives of the OIML-CS are
 
-a) to promote the global harmonisation, uniform interpretation and implementation of legal metrological requirements for measuring instruments and/or modules,
+. to promote the global harmonisation, uniform interpretation and implementation of legal metrological requirements for measuring instruments and/or modules,
 
-b) to avoid unnecessary re-testing when obtaining national type evaluations and approvals, and to support the recognition of measuring instruments and/or modules under legal metrological control, while achieving and maintaining confidence in the results in support of facilitating the global trade of individual instruments, and
+. to avoid unnecessary re-testing when obtaining national type evaluations and approvals, and to support the recognition of measuring instruments and/or modules under legal metrological control, while achieving and maintaining confidence in the results in support of facilitating the global trade of individual instruments, and
 
-c) to establish rules and procedures for fostering mutual confidence among participating OIML Member States and Corresponding Members in the results of type evaluations that indicate conformity of measuring instruments and/or modules, under legal metrological control, to the metrological and technical requirements established in the applicable OIML Recommendation(s).
+. to establish rules and procedures for fostering mutual confidence among participating OIML Member States and Corresponding Members in the results of type evaluations that indicate conformity of measuring instruments and/or modules, under legal metrological control, to the metrological and technical requirements established in the applicable OIML Recommendation(s).
