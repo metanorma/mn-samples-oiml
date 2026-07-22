@@ -1,0 +1,21 @@
+== Registering an OIML certificate: Schemes A and B
+
+=== {blank}
+
+The OIML Issuing Authority shall send a copy of each OIML certificate it issues to the BIML (certificates@oiml.org) for registration in a protected PDF file format.
+
+=== {blank}
+
+The BIML shall send the OIML Issuing Authority an invoice for the registration fee. The OIML certificate will be added to the list of registered certificates but will be withdrawn if payment is not received from the OIML Issuing Authority within 3 months of the invoice date.
++
+NOTE 1: The BIML registration fee is set by the CIML.
++
+NOTE 2: The OIML Issuing Authority may choose to pass the BIML registration fee on to the owner of the OIML certificate. In this case, the exact amount in Euros shall be charged.
+
+=== {blank}
+
+Where national regulations do not permit the OIML Issuing Authority to pass the BIML registration fee on to the owner of the OIML certificate, the BIML shall invoice the owner of the OIML certificate instead of the OIML Issuing Authority. When the owner of the OIML certificate is invoiced, the OIML certificate will be added to the list of registered certificates when payment has been received.
+
+=== {blank}
+
+The registered OIML certificates are available on the OIML-CS web site. In addition, periodically, the BIML shall inform the Member States and other interested parties of the registration of OIML certificates through appropriate publications, including the OIML Bulletin.

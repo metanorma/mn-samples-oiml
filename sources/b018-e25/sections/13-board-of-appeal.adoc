@@ -1,0 +1,23 @@
+== Board of Appeal
+
+The Board of Appeal is independent of the Management Committee.
+
+=== Composition
+
+==== {blank}
+
+a) a Chairperson appointed by the CIML; and
+
+b) four members appointed by the CIML.
+
+=== Tasks
+
+The tasks of the Board of Appeal are to
+
+a) manage appeals against decisions of the Management Committee relating to
+
+i. participation in the OIML-CS, and
+
+ii. Legal Metrology Experts and Management System Experts,
+
+b) recommend solutions to any other dispute referred to it with regard to the application of the rules of the OIML-CS.

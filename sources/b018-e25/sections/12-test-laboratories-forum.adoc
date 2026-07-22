@@ -1,0 +1,23 @@
+== Test Laboratories Forum
+
+=== Composition
+
+==== {blank}
+
+a) one representative from each Test Laboratory, including Manufacturer Test Laboratories, listed in the Declarations of OIML Issuing Authorities; and
+
+b) the Executive Secretary.
+
+=== Tasks
+
+The tasks of the Test Laboratories Forum are to
+
+a) provide a platform for handling practical and/or technical questions pertaining to test specifications, test methods and test equipment detailed in standards (see clause 7) accepted for use in the OIML-CS,
+
+b) detail the way in which the tests specified in OIML Recommendations may be carried out so as to achieve the necessary reproducibility of test results,
+
+c) draw up "best practice" papers and/or propose amendments to OIML Recommendations relating to test specifications, test procedures and reporting of test results.
++
+NOTE: It is envisaged that the Test Laboratories Forum will focus on issues that are common across Recommendations, thereby supporting a consistent means of resolving issues across OIML technical work, and
+
+d) work towards the development of inter-laboratory comparison programs for the Test Laboratories of the OIML Issuing Authorities.

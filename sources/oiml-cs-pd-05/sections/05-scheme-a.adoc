@@ -1,0 +1,111 @@
+== Processing an OIML certificate under Scheme A
+
+=== Application
+
+==== {blank}
+
+The manufacturer of a type of measuring instrument or module, or an authorised representative of the manufacturer, may apply to an OIML Issuing Authority under Scheme A for an OIML certificate. The format of an OIML certificate can be found on the OIML-CS pages of the OIML website.
+
+==== {blank}
+
+The application shall include the information listed in 4.1.2.
+
+==== {blank}
+
+If results of previous type evaluation reports (4.1.2 (g)) are provided, they shall come from an OIML type evaluation report issued under Scheme A. The transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
+
+==== {blank}
+
+When applicable, the applicant shall also inform the OIML Issuing Authority which additional tests and examinations he is applying for on the basis of additional national requirements listed in the OIML-CS Declaration of a Utilizer or Associate (see clause 8 of PD-03 <<OIML_CS_PD_03>>).
+
+=== Consideration of the application by an OIML Issuing Authority
+
+==== {blank}
+
+The provisions in 4.2 apply.
+
+==== {blank}
+
+Referring to 4.3.3, previous OIML test reports shall come from OIML type evaluation reports issued under Scheme A.
+
+=== Tests and examinations
+
+==== {blank}
+
+The tests and examinations for OIML type evaluation shall be performed by either:
+
+a) a Test Laboratory, other than a Manufacturer Test Laboratory, listed in the OIML-CS Declaration of any OIML Issuing Authority; or
+
+b) Manufacturer Test Laboratories listed in the OIML-CS Declaration of the OIML Issuing Authority considering the application.
+
+==== {blank}
+
+The test procedures shall be consistent with those described in the relevant OIML Recommendation and/or the additional testing procedures for the additional national requirements included in the scope of the OIML-CS Declaration of a Utilizer or Associate.
+
+==== {blank}
+
+The test procedures may be abbreviated or omitted if the OIML Issuing Authority considers that the conclusions necessary for issuing the OIML type evaluation report may be drawn from a previous OIML type evaluation report issued under Scheme A.
+
+==== {blank}
+
+With respect to the requirements specified in subclauses 5.3.1, 5.3.2 and 5.3.3, the transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
+
+==== {blank}
+
+Where the scope of the Test Laboratory (supported by their ISO/IEC 17025 <<ISO_IEC_17025>> accreditation or peer assessment) allows for testing at sites or facilities outside its permanent control, the results of such testing may be used to issue an OIML test report.
+
+=== OIML Test Report(s)
+
+==== {blank}
+
+The provisions defined in 4.4.1, 4.4.3, 4.4.4, 4.4.5 and 4.4.6 above apply.
+
+==== {blank}
+
+Results of tests corresponding to the additional national requirements included in the OIML-CS Declaration of a Utilizer or Associate may be provided in separate test reports, or may be included in the OIML test reports issued for the tests and examinations conducted according to the relevant OIML Recommendation.
+
+==== {blank}
+
+All the OIML test reports will then be included in the OIML type evaluation report issued by the OIML Issuing Authority (see 5.5.1).
+
+==== {blank}
+
+With respect to the requirements specified in 5.4.1, 5.4.2 and 5.4.3, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+
+=== OIML Type Evaluation Report
+
+==== {blank}
+
+The OIML type evaluation report is prepared by the OIML Issuing Authority according to the format specified in the relevant OIML Recommendation, and includes all the relevant OIML test report(s).
+
+==== {blank}
+
+The provisions in 4.5.2, 4.5.4, 4.5.5, 4.5.6, 4.5.7 and 4.5.8 above apply to OIML type evaluation reports and OIML Issuing Authorities.
+
+==== {blank}
+
+The OIML-CS logo shall be affixed on the OIML type evaluation report.
+
+==== {blank}
+
+In the event that OIML test reports from a Manufacturer Test Laboratory are utilised, this must be prominently stated and the respective tests identified at the beginning of the OIML type evaluation report, together with the designation of the Manufacturer Test Laboratory.
+
+==== {blank}
+
+OIML Issuing Authorities shall only utilise OIML test reports from Manufacturer Test Laboratories where those Manufacturer Test Laboratories are listed in their OIML-CS Declaration.
+
+=== Issuance of an OIML certificate under Scheme A
+
+==== {blank}
+
+The provisions defined in 4.6.1, 4.6.3, 4.6.4 (see note below), 4.6.5, 4.6.6 and 4.6.7 above apply to OIML certificates issued under Scheme A, OIML type evaluation reports and OIML Issuing Authorities.
++
+NOTE: In 4.6.4 b) the character 'B' shall be replaced with the character 'A' to denote Scheme A.
+
+==== {blank}
+
+The OIML certificate shall be drawn up according to the requirements given in <<annex_a>> and the OIML certificate Template downloadable from the OIML-CS pages of the OIML website. It shall be signed by the responsible person within the OIML Issuing Authority and bear the OIML-CS logo.
+
+==== {blank}
+
+In the event that tests according to the additional national requirements included in the OIML-CS Declaration of a Utilizer or Associate have been conducted, a letter issued by the OIML Issuing Authority shall validate the conformity of the instrument to these requirements. A copy of such a letter shall be sent to the BIML with the OIML certificate.

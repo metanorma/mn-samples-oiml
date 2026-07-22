@@ -1,0 +1,24 @@
+[[annex_b]]
+[appendix]
+== OIML certificate number
+
+The OIML certificate number is divided into the following parts:
+
+a) the number and year of the edition of the relevant OIML Recommendation as specified in the latest published list of OIML Recommendations included in the OIML-CS;
+
+b) the letter "A" or "B" to signify that the OIML certificate has been issued under Scheme A or Scheme B respectively;
+
+c) a two-letter code indicating the Member State in which the OIML certificate was issued in accordance with the ISO country codes <<ISO_3166_1>> along with the number indicating the specific OIML Issuing Authority beginning with 1 (Example 1) and in the order as designated by the CIML Member; and
+
+d) the last two figures of the year of issue of the OIML certificate followed by its two-digit sequential number for that particular year for each OIML Issuing Authority.
+
+NOTE 1: The number as defined in a) consists of the generic number of the OIML Recommendation (without indication of the parts) and the year of publication. Example: R 60/2000
+
+NOTE 2: If one of the OIML Issuing Authorities in a Member State ceases to issue OIML certificates, its "serial number" shall not be allocated to any other OIML Issuing Authority.
+
+NOTE 3: As soon as a first OIML Issuing Authority is designated in a Member State and registered by the BIML, this first OIML Issuing Authority is identified by its country code associated to the serial number "1" (e.g. XX1). When a second OIML Issuing Authority is registered in the same country, it is identified by the same country code associated to the serial number "2" (e.g. XX2).
+
+NOTE 4: For revised OIML certificates, the same OIML certificate number shall be used as for the initial OIML certificate (see 7.1).
+
+.Example 1
+// TODO: Source the certificate-number example image from page 21 of the source PDF (Annex B).

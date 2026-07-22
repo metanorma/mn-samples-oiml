@@ -1,0 +1,19 @@
+== Introduction
+
+=== {blank}
+
+OIML B 18 Framework for the OIML Certification System (OIML-CS) <<OIML_B_18>> establishes the rules for a framework for the OIML-CS. OIML B 18 <<OIML_B_18>> is supplemented by Operational Documents <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and Procedural Documents PD-01 to PD-08.
+
+=== {blank}
+
+The Maintenance Group (MG) of the OIML-CS Management Committee (MC) is responsible for developing and maintaining the OIML-CS documents. The MC approves the Operational Documents and Procedural Documents, and the International Committee of Legal Metrology (CIML) approves OIML B 18 <<OIML_B_18>>.
+
+=== {blank}
+
+To avoid multiple editions of the OIML-CS documents where potential improvements or modifications have been identified, this document has been developed to provide a single point of reference for clarifications and interpretations of the OIML-CS documents. This document has been developed by the MG and approved by the OIML-CS MC. From time-to-time, the clarifications and interpretations will be incorporated into a new edition of the relevant OIML-CS document.
+
+=== {blank}
+
+The OIML-CS documents are available from the OIML website at:
+
+https://www.oiml.org/en/oiml-cs/documentation

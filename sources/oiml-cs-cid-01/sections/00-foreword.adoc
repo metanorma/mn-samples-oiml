@@ -1,0 +1,35 @@
+.Foreword
+
+This publication has been prepared by the OIML Certification System (OIML-CS) Executive Secretary.
+
+Edition 6 of OIML-CS CID-01 was approved for publication by the OIML-CS Management Committee via an online vote on 19 September 2024 and was published on 19 September 2024. This edition takes effect immediately upon publication.
+
+This publication is directly related to OIML B 18 Framework for the OIML Certification System (OIML-CS) and the Operational Documents and Procedural Documents of the OIML-CS.
+
+The text of this publication is based on the following documents:
+
+.Edition history
+|===
+|Edition |Document |Report on Voting/Acceptance
+
+|CID-01 Edition 1 |CID-01 Edition 1 |Published March 2020
+|CID-01 Edition 2 |CID-01 Edition 2 |Published 26 February 2021
+|CID-01 Edition 3 |CID-01 Edition 3 |Published 10 June 2021
+|CID-01 Edition 4 |CID-01 Edition 4 |Published 14 November 2022
+|CID-01 Edition 5 |CID-01 Edition 5 |Published 11 March 2024
+|CID-01 Edition 6 (draft) |OIML-CS_SC3_P1_SG3_N098 |Draft for MG 20240607
+|CID-01 Edition 6 (draft) |OIML-CS_SC1_P4_N143 |Draft for MC approval (20240819)
+|===
+
+Summary of changes from previous Edition:
+
+.Summary of changes from Edition 5
+|===
+|Document |Clauses/subclauses |Change
+
+|B 18 |4.2 |Use of a different OIML Recommendation in the example. Edition of OIML B 6 updated.
+
+|PD-03 |5.1 |Clarification of requirement for an Issuing Authority to be supported by a Test Laboratory with a corresponding scope.
+
+|PD-05 |4.3 & 5.3 |Clarification of requirement for an Issuing Authority to be supported by a Test Laboratory with a corresponding scope.
+|===

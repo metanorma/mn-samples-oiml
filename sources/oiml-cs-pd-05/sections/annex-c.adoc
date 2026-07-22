@@ -1,0 +1,7 @@
+[[annex_c]]
+[appendix,obligation=informative]
+== Example of the OIML-CS operation
+
+The following diagram uses the appropriate terminology. References in parenthesis refer to the definitions in clause 3 of OIML B 18 <<OIML_B_18>>.
+
+// TODO: Insert the OIML-CS operation diagram (page 22 of source PDF).

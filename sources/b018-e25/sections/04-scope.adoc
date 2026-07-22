@@ -1,0 +1,38 @@
+[[scope]]
+== Scope
+
+=== {blank}
+
+The OIML-CS is a single Certification System with two Schemes:
+
+a) Scheme A, and
+
+b) Scheme B.
+
+=== {blank}
+
+Those categories of measuring instruments (including families of instruments, modules, or families of modules) for which the relevant OIML Recommendation specifies
+
+a) the metrological and technical requirements,
+
+b) the test procedures, including (where applicable) the selection of the instrument or module to be tested from the family of measuring instruments or family of modules under evaluation,
+
+c) the OIML test report format, and
+
+d) the OIML type evaluation report format
+
+are automatically included in the OIML-CS.
+
+NOTE: The OIML test report format and the OIML type evaluation report format may be separate Parts of an OIML Recommendation or may be combined in the same Part of an OIML Recommendation.
+
+=== {blank}
+
+A category of measuring instrument is initially placed in Scheme B, with the intention that all categories of measuring instruments in the OIML-CS will transition to Scheme A two years after first being included in the OIML-CS.
+
+=== {blank}
+
+Concerning families of instruments, modules and families of modules, the relevant Recommendation(s) shall specify what can be considered as a family and/or a module as well as the specific metrological and technical requirements and test procedures applicable to such families/modules.
+
+=== {blank}
+
+A list of the categories of measuring instruments in the OIML-CS, with references to the relevant Recommendations, is maintained by the BIML and is permanently available to Member States, Corresponding Members, and other interested parties on the OIML website and on request.

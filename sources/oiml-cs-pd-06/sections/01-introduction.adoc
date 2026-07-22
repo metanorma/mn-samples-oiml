@@ -1,0 +1,15 @@
+== Introduction
+
+=== {blank}
+
+The OIML certification System (OIML-CS) has been established
+
+a) to promote the global harmonization, uniform interpretation and implementation of legal metrological requirements for measuring instruments and/or modules,
+
+b) to avoid unnecessary re-testing when obtaining national type evaluations and approvals, and to support the recognition of measuring instruments and/or modules under legal metrological control, while achieving and maintaining confidence in the results in support of facilitating the global trade of individual instruments, and
+
+c) to establish rules and procedures for fostering mutual confidence among participating OIML Member States and Corresponding Members in the results of type evaluations that indicate conformity of measuring instruments and/or modules, under legal metrological control, to metrological and technical requirements established in the applicable OIML Recommendation(s).
+
+=== {blank}
+
+OIML B 18 Framework for the OIML certification System (OIML-CS) <<OIML_B_18>> establishes the rules for a framework for the OIML-CS. OIML B 18 <<OIML_B_18>> is supplemented by a range of Operational Documents and Procedural Documents which are developed, maintained and approved by the OIML-CS Management Committee.

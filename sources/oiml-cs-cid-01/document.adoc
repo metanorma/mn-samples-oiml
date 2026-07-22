@@ -1,0 +1,20 @@
+= Clarifications and Interpretations of OIML-CS Documents
+:docidentifier: OIML-CS CID-01 Edition 6
+:doctype: international-document
+:title-main-en: Clarifications and Interpretations of OIML-CS Documents
+:edition: 6
+:revdate: 2024-09-19
+:copyright-year: 2024
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-clarifications.adoc[]
+include::sections/04-references.adoc[]

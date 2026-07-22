@@ -1,0 +1,33 @@
+[[annex_a]]
+[appendix]
+== Format for an OIML certificate
+
+=== {blank}
+
+The OIML certificate issued by an OIML Issuing Authority shall be either identical to the format presented in the OIML Certificate Template downloadable from the OIML-CS pages of the OIML website or based on that Format, including the essential elements. Bilingual Certificates in which the text is in English and another language may be issued.
+
+=== {blank}
+
+The OIML Certificate Template downloadable from the OIML-CS pages of the OIML website constitutes the first two pages of the OIML certificate. Additional pages shall be included in the OIML certificate to define the essential technical and metrological characteristics of the measuring instrument. A specific Format for these additional pages may be available in the relevant OIML Recommendation.
+
+=== {blank}
+
+In addition to the OIML-CS logo (see 4.6.2 and 5.6.2), the logo of the OIML Issuing Authority may be placed on the OIML certificate according to national rules.
+
+=== {blank}
+
+Since the OIML certificate number (see <<annex_b>>) includes the category only through the number of the OIML Recommendation, the module shall be clearly identified in the OIML certificate in the event that the OIML certificate concerns a module. This identification shall be made in the heading "designation of the module".
+
+Examples:
+
+a) Designation of the module: Indicating device
+
+b) Designation of the module: Electronic printer
+
+=== {blank}
+
+The identification of the certified type shall be defined as it is indicated on the instrument (marking) and shall be identical to that defined in the OIML type evaluation report.
+
+=== {blank}
+
+The reference number of the documentation file/folder for the certified type shall be indicated on the OIML certificate.

@@ -1,0 +1,24 @@
+[bibliography]
+== References
+
+* [[[OIML_B_18,OIML B 18:2022]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2022]
+
+* [[[OIML_CS_OD_01,OIML-CS OD-01]]], span:organization[OIML], span:title[_Management Committee_], span:publisher[OIML]
+
+* [[[OIML_CS_OD_02,OIML-CS OD-02]]], span:organization[OIML], span:title[_Test Laboratories Forum_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_01,OIML-CS PD-01]]], span:organization[OIML], span:title[_Appeals, Resolution of Complaints and Disputes_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_02,OIML-CS PD-02]]], span:organization[OIML], span:title[_Procedures to approve Legal Metrology experts and QMS experts_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_03,OIML-CS PD-03]]], span:organization[OIML], span:title[_Application and approval of OIML Issuing Authorities, Utilizers and Associates_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_04,OIML-CS PD-04]]], span:organization[OIML], span:title[_Assessment of Test Laboratories_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_05,OIML-CS PD-05]]], span:organization[OIML], span:title[_Processing an application for an OIML Type Evaluation Report and OIML Certificate_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_06,OIML-CS PD-06]]], span:organization[OIML], span:title[_Use of OIML Type Evaluation Reports and OIML Certificates_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_07,OIML-CS PD-07]]], span:organization[OIML], span:title[_Transition Arrangements under the OIML-CS_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_08,OIML-CS PD-08]]], span:organization[OIML], span:title[_Signing the OIML-CS Declaration_], span:publisher[OIML]

@@ -1,0 +1,28 @@
+= Processing an application for an OIML Type Evaluation Report and OIML Certificate
+:docidentifier: OIML-CS PD-05 Edition 6 (Amendment 1)
+:doctype: international-document
+:title-main-en: Processing an application for an OIML Type Evaluation Report and OIML Certificate
+:edition: 6
+:revdate: 2024-08-27
+:copyright-year: 2024
+:language: en
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+include::sections/01-introduction.adoc[]
+include::sections/02-scope.adoc[]
+include::sections/03-terminology.adoc[]
+include::sections/04-scheme-b.adoc[]
+include::sections/05-scheme-a.adoc[]
+include::sections/06-registering.adoc[]
+include::sections/07-incorrect-conclusions.adoc[]
+include::sections/08-modification.adoc[]
+include::sections/annex-a.adoc[]
+include::sections/annex-b.adoc[]
+include::sections/annex-c.adoc[]
+include::sections/09-references.adoc[]

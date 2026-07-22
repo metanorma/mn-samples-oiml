@@ -1,0 +1,69 @@
+== Modification of an OIML certificate: Schemes A and B
+
+=== Revision of an OIML certificate
+
+==== {blank}
+
+It may be necessary to revise an issued and registered OIML certificate for reasons such as
+
+a) to correct an error made by the applicant or the OIML Issuing Authority, or
+
+b) to modify the OIML certificate upon request of its owner, in particular when the certified type has been modified or when ownership of the OIML certificate is transferred to a new applicant.
+
+In such cases, the OIML Issuing Authority shall revise the OIML certificate using the same certificate number as for the initial OIML certificate, indicating in addition the revision number (Revision 1, Revision 2, etc. together with a statement explaining the reason for the amendment) and the date of issue, if appropriate. The revised OIML certificate has to be registered according to 6. A registration fee equal to that of the registration of an initial OIML certificate shall be required to be paid to the BIML for a revised OIML certificate, with the exception of revisions that are made to correct an error as specified in a) above.
+
+==== {blank}
+
+A statement shall indicate that the revised OIML certificate replaces the previous version(s) and summarise the reason(s) for the revision.
+
+==== {blank}
+
+In case of a modification according to 8.1.1 b), the revised OIML certificate shall include all the information from the previous revision(s). The revised OIML certificate shall indicate references to all the OIML type evaluation/test reports that have been used to determine conformity, including those attached to previous version(s) where still valid.
+
+==== {blank}
+
+When revising an OIML certificate, the OIML Issuing Authority is responsible for determining the list of tests and examinations to be performed on the modified instrument.
+
+==== {blank}
+
+In case a revised OIML certificate is issued to correct an error, when the revised OIML certificate is registered the previous OIML certificate shall be marked as being superseded in the lists maintained by the BIML.
+
+==== {blank}
+
+In case the revised OIML certificate concerns the transfer of ownership of an OIML certificate to a new applicant, the OIML Issuing Authority shall verify that the new applicant is in possession of all the technical documentation as defined in 4.1.2, and the relevant OIML type evaluation report and OIML test report(s). The OIML Issuing Authority should make any necessary inquiry, for example, with the bodies, to ensure the validity of the transfer.
+
+==== {blank}
+
+Previous versions of OIML certificates will remain on the OIML web site except in the case of the correction of errors (see 8.1.5)
+
+=== OIML certificates issued in parallel
+
+==== {blank}
+
+A new applicant may apply to the original OIML Issuing Authority to issue a new OIML certificate in parallel to the one previously issued to the original applicant provided that the new applicant is also in possession of all the technical documentation as defined in subclause 4.1.2, and of the existing OIML type evaluation report.
+
+==== {blank}
+
+The OIML Issuing Authority should make any necessary inquiry to ensure the validity of the application.
++
+NOTE: This includes, for example, the permission of the original applicant.
+
+==== {blank}
+
+The registration of the OIML certificate by the BIML is performed according to clause 6.
+
+=== Revision of an OIML Recommendation
+
+==== {blank}
+
+After revision of the relevant OIML Recommendation for a given category of measuring instrument(s) for which OIML certificates may be issued, the owner of an OIML certificate issued on the basis of the previous edition of the relevant OIML Recommendation may apply for updating his OIML certificate on the basis of the revised OIML Recommendation.
++
+NOTE: The OIML Issuing Authority must be approved by the Management Committee to issue OIML certificates in accordance with the revised OIML Recommendation.
+
+==== {blank}
+
+When reviewing the application, the OIML Issuing Authority is responsible for determining, depending on the modifications implemented in the revised OIML Recommendation, whether the type complies with the revised OIML Recommendation and, if applicable, defining the additional tests and examinations to be performed.
+
+==== {blank}
+
+Upon successful completion of any additional tests and examinations, a new OIML certificate and OIML type evaluation report shall be issued to the owner by the relevant OIML Issuing Authority. The registration of the OIML certificate by the BIML is performed according to clause 6.
