@@ -29,7 +29,7 @@ NOTE: There are currently no clarifications or interpretations applicable to OD-
 
 === Procedural Documents PD-01 to PD-08
 
-[%header,cols="10%,10%,55%,25%"]
+[%header,cols="10%,10%,10%,50%,20%"]
 |===
 |Procedural Document |Clause/Subclause |Paragraph/Figure/Table |Clarification/Interpretation |MC Decision Reference
 
