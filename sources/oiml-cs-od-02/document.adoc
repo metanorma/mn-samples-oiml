@@ -1,6 +1,6 @@
 = Test Laboratories Forum
 :docidentifier: OIML-CS OD-02 Edition 3
-:doctype: international-document
+:doctype: operational-document
 :title-main-en: Test Laboratories Forum
 :edition: 3
 :revdate: 2024-03-11
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:

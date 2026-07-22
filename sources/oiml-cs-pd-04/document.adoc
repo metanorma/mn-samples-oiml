@@ -1,6 +1,6 @@
 = Assessment and approval of Test Laboratories
 :docidentifier: OIML-CS PD-04 Edition 5
-:doctype: international-document
+:doctype: procedural-document
 :title-main-en: Assessment and approval of Test Laboratories
 :edition: 5
 :revdate: 2025-12-24
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:

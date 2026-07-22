@@ -1,6 +1,6 @@
 = Approval of Legal Metrology Experts and Management System Experts
 :docidentifier: OIML-CS PD-02 Edition 3
-:doctype: international-document
+:doctype: procedural-document
 :title-main-en: Approval of Legal Metrology Experts and Management System Experts
 :edition: 3
 :revdate: 2022-11-14
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:

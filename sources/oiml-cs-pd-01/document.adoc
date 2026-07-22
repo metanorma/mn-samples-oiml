@@ -1,6 +1,6 @@
 = Appeals, Resolution of Complaints and Disputes
 :docidentifier: OIML-CS PD-01 Edition 3
-:doctype: international-document
+:doctype: procedural-document
 :title-main-en: Appeals, Resolution of Complaints and Disputes
 :edition: 3
 :revdate: 2024-08-26
@@ -8,7 +8,7 @@
 :language: en
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: oiml
+:mn-document-class: oiml-cs
 :mn-output-extensions: xml,html,pdf,rxl
 :imagesdir: images
 :local-cache-only:
