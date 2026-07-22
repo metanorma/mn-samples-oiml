@@ -1,0 +1,9 @@
+== Scope
+
+This document is one of a series of Operational Documents and Procedural Documents that define the rules for the operation of the OIML-CS.
+
+This publication contains the requirements and the associated procedures for processing an OIML type evaluation/test report and an OIML certificate under the OIML-CS.
+
+These procedures relate to the framework for the OIML-CS, as given in OIML B 18 <<OIML_B_18>>, the Operational Rules as given in <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and the Procedures as given in <<OIML_CS_PD_01>>, <<OIML_CS_PD_02>>, <<OIML_CS_PD_03>>, <<OIML_CS_PD_04>>, <<OIML_CS_PD_06>>, <<OIML_CS_PD_07>> and <<OIML_CS_PD_08>>.
+
+Requirements regarding the use of the OIML and OIML-CS logos are specified in OIML B 20 <<OIML_B_20>>. This OIML Basic Publication is relevant for the interpretation of the following subclauses: 4.4.5, 4.5.3, 4.6.2, 5.5.3, 5.6.2 and A.3.

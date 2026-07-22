@@ -1,0 +1,143 @@
+== Management Committee
+
+=== Composition
+
+==== {blank}
+
+a) the CIML Member of an OIML Member State that has at least one OIML Issuing Authority or Utilizer may designate up to four representatives to participate in the Management Committee. One of the representatives shall be designated by the CIML Member as the "Management Committee Member" for the purposes of voting;
+
+b) the Representative of an OIML Corresponding Member that has at least one Associate may designate up to four representatives to participate in the Management Committee;
+
+c) a Chairperson, nominated from amongst the representatives from OIML Member States and appointed by the CIML;
+
+d) a Deputy Chairperson, nominated from amongst the representatives from OIML Member States and appointed by the CIML;
+
+e) an Executive Secretary;
+
+f) Secretaries (or their nominated representatives) of relevant OIML TCs/SCs as observers;
+
+g) representatives from Organisations in Liaison as observers; and
+
+h) representatives from OIML Member States or Corresponding Members that have expressed a clear intention to participate in the OIML-CS, with the agreement of the Chairperson, as observers.
+
+=== Duties of the Chairperson
+
+The principal duties of the Chairperson are to
+
+a) convene and preside over meetings of the Management Committee,
+
+b) determine the agenda for Management Committee meetings,
+
+c) represent the Management Committee between its meetings, and
+
+d) report to the CIML.
+
+=== Meetings and other activities
+
+In addition to its ongoing activities, the Management Committee shall meet at least once a year. At meetings of the Management Committee a delegation of up to three of the representatives from each OIML Member State and Corresponding Member participating in the OIML-CS may attend. For OIML Member States, the Management Committee Member designated by the CIML Member (see 11.1 a)) has the vote for that country (see 11.4.1 a)). The Chairperson can invite guests, e.g. guest speakers, to attend Management Committee meetings in support of the activities of the Management Committee.
+
+=== Voting
+
+==== Eligibility
+
+===== {blank}
+
+a) the Management Committee Member from each OIML Member State has a vote;
+
+b) the Chairperson and Deputy Chairperson have a vote, if their Member State is not otherwise represented in the Management Committee;
+
+c) the representatives from OIML Corresponding Members have a voice but do not have a vote;
+
+d) the Executive Secretary does not have a vote;
+
+e) secretaries (or their nominated representatives) of OIML TCs/SCs do not have a vote;
+
+f) representatives of Organisations in Liaison do not have a vote; and
+
+g) representatives from OIML Member States or Corresponding Members that have expressed a clear intention to participate in the OIML-CS do not have a vote.
+
+==== Decisions taken during a Management Committee meeting
+
+Approval, re-approval or suspension of an OIML Issuing Authority or a Test Laboratory requires the support of at least 80 % of the Management Committee Members from OIML Member States. All other proposals require the support of at least half of the Management Committee Members from OIML Member States.
+
+In exceptional cases, a Management Committee Member from an OIML Member State who is unable to be present at a Management Committee meeting may give a proxy either to another representative from their own country, or to another Management Committee Member.
+
+A Management Committee Member from an OIML Member State shall not hold more than two proxies (in additional to their own vote) at a Management Committee meeting.
+
+Abstentions are not considered as voting. A Management Committee Member from an OIML Member State who votes against a proposal or abstaining shall provide their reason(s) for doing so.
+
+==== Decisions taken outside a Management Committee meeting
+
+Decisions are normally taken during meetings. Between meetings, if the Chairperson so decides, voting can take place by correspondence.
+
+Approval, re-approval or suspension of an OIML Issuing Authority or a Test Laboratory requires the support of at least 80 % of the Management Committee Members from OIML Member States. Other decisions shall be valid when two-thirds of the votes cast by Management Committee Members from OIML Member States are in favour.
+
+Abstentions are not considered as votes cast. Management Committee Members who vote against a proposal shall provide their reasons for doing so.
+
+=== Duties and responsibilities
+
+The Management Committee is responsible for the operation of the OIML-CS under the authority of the CIML. The Management Committee shall
+
+a) report annually to the CIML,
+
+b) develop and make proposals to the CIML for changes in OIML-CS strategy and policy,
+
+c) promote and raise awareness of the OIML-CS and its schemes,
+
+d) make proposals to the CIML to extend or reduce the transition period from Scheme B to Scheme A for a measuring instrument category in the OIML-CS,
+
+e) make proposals to the CIML on the transition of measuring instrument categories from Scheme A back to Scheme B,
+
+f) make decisions on the participation of new OIML Issuing Authorities and Test Laboratories in a scheme,
+
+g) organise periodic reviews on the continuity of participation of OIML Issuing Authorities and Test Laboratories in a scheme,
+
+h) appoint the Review Committee Chairperson,
+
+i) approve and maintain the list of Legal Metrology Experts and Management System Experts,
+
+j) develop recommendations to the CIML for improvements/changes to B 18,
+
+k) develop, maintain and approve rules and procedures for the operation of the schemes in accordance with B 18,
+
+l) develop and maintain guidance documents, templates and forms in support of the rules and procedures of B 18,
+
+m) monitor the operation and effectiveness of the OIML-CS Schemes,
+
+n) establish working groups to enhance the efficiency of its operation,
+
+o) develop proposals for the content and functionality of the OIML-CS pages on the OIML website,
+
+p) define the roles and duties of the Executive Secretary, and
+
+q) develop and approve proposals for periodic reviews of OIML publications of relevance to the OIML-CS (see <<OIML_B_6_1>>).
+
+=== Review Committee
+
+The Review Committee is a sub-committee of the Management Committee.
+
+==== Composition
+
+===== {blank}
+
+a) a minimum of six members from the representatives of OIML Member States in the Management Committee (11.1 a));
+
+b) a Chairperson, from amongst the members from OIML Member States, appointed by the Management Committee; and
+
+c) the Executive Secretary.
+
+==== {blank}
+
+The tasks of the Review Committee are to
+
+a) review the documentation submitted by potential OIML Issuing Authorities and Test Laboratories, including accreditation certificates and assessment reports, peer assessment reports, etc. and to make recommendations to the Management Committee on the acceptance of potential OIML Issuing Authorities and Test Laboratories,
+
+b) review the documentation submitted by OIML Issuing Authorities and Test Laboratories for periodic reviews of the participation, and to make recommendations to the Management Committee on the continuation as OIML Issuing Authorities and Test Laboratories,
+
+c) make recommendations to the Management Committee on the validation of the Legal Metrology Experts and Management System Experts who will participate in accreditation or peer assessments of test laboratories, and
+
+d) make recommendations to the Management Committee on the validity of complaints.
+
+=== Working Groups
+
+The Management Committee may establish Working Groups, with clearly defined terms of reference, to advise it on matters related to the management of the OIML-CS or to enhance the efficiency of its operation.

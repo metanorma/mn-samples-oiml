@@ -1,0 +1,15 @@
+== Governing documents
+
+The governing documents for the OIML-CS are
+
+a) OIML B 18 Framework for the OIML Certification System (OIML-CS) (hereafter referred to as "B 18"), approved by the CIML;
+
+b) OIML-CS Clarification and Interpretation Document (numbered CID-01) developed, maintained and approved by the Management Committee,
+
+c) OIML-CS Operational Documents (numbered OD-xx) developed, maintained and approved by the Management Committee;
+
+d) OIML-CS Procedural Documents (numbered PD-xx) developed, maintained and approved by the Management Committee; and
+
+e) OIML-CS Guidance, Forms and Templates developed, maintained and approved by the Management Committee.
+
+In the event of a conflict, contradiction or inconsistency between the provisions of one of the above-mentioned documents and the provisions of another of the above-mentioned documents, the provisions of the document listed in a higher position shall take precedence over the provisions of the document listed in a lower position.

@@ -1,0 +1,9 @@
+== Scope
+
+=== {blank}
+
+This document provides clarifications and interpretations of OIML B 18 <<OIML_B_18>>, Operational Documents <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and Procedural Documents PD-01 to PD-08 agreed by the MC.
+
+=== {blank}
+
+The clarifications and interpretations provided in this document are intended as guidance and additional information and do not supersede the text in the current edition of the relevant OIML-CS document. These clarifications and interpretations may be incorporated into future editions of the relevant OIML-CS documents.

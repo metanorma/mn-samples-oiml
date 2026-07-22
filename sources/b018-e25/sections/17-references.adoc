@@ -1,0 +1,32 @@
+[bibliography]
+== References
+
+* [[[OIML_B_3,OIML B 3:2011]]], span:organization[OIML], span:title[_OIML Basic Certificate System for OIML Type Evaluation of Measuring Instruments_], span:publisher[OIML], span:date.issued[2011]
+
+* [[[OIML_B_10,OIML B 10:2011]]], span:organization[OIML], span:title[_Framework for a Mutual Acceptance Arrangement on OIML Type Evaluations_], span:publisher[OIML], span:date.issued[2011]
+
+* [[[ISO_IEC_17067,ISO/IEC 17067:2013]]], span:organization[ISO/IEC], span:title[_Conformity assessment — Fundamentals of product certification and guidelines for product certification schemes_], span:publisher[ISO/IEC], span:date.issued[2013]
+
+* [[[ISO_IEC_17000,ISO/IEC 17000:2020]]], span:organization[ISO/IEC], span:title[_Conformity assessment — Vocabulary and general principles_], span:publisher[ISO/IEC], span:date.issued[2020]
+
+* [[[OIML_R_76,OIML R 76:2006]]], span:organization[OIML], span:title[_Non-automatic weighing instruments_], span:publisher[OIML], span:date.issued[2006]
+
+* [[[ISO_IEC_17065,ISO/IEC 17065:2012]]], span:organization[ISO/IEC], span:title[_Conformity assessment — Requirements for bodies certifying products, processes and services_], span:publisher[ISO/IEC], span:date.issued[2012]
+
+* [[[OIML_CS_PD_04,OIML-CS PD-04]]], span:organization[OIML], span:title[_Assessment of Test Laboratories_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_05,OIML-CS PD-05]]], span:organization[OIML], span:title[_Processing an OIML Type Evaluation Report and OIML Certificate_], span:publisher[OIML]
+
+* [[[OIML_CS_PD_06,OIML-CS PD-06]]], span:organization[OIML], span:title[_Use of OIML Type Evaluation Reports and OIML Certificates_], span:publisher[OIML]
+
+* [[[OIML_V_2,OIML V 2-200:2012]]], span:organization[OIML], span:title[_International vocabulary of metrology — Basic and general concepts and associated terms (VIM)_], span:publisher[OIML], span:date.issued[2012]
+
+* [[[OIML_B_6_1,OIML B 6-1:2019]]], span:organization[OIML], span:title[_Directives for OIML technical work_], span:publisher[OIML], span:date.issued[2019]
+
+* [[[OIML_V_1,OIML V 1:2022]]], span:organization[OIML], span:title[_International vocabulary of terms in legal metrology (VIML)_], span:publisher[OIML], span:date.issued[2022]
+
+* [[[OIML_CS_PD_03,OIML-CS PD-03]]], span:organization[OIML], span:title[_Application and approval of OIML Issuing Authorities, Utilizers and Associates_], span:publisher[OIML]
+
+* [[[ISO_IEC_17025,ISO/IEC 17025:2017]]], span:organization[ISO/IEC], span:title[_General requirements for the competence of testing and calibration laboratories_], span:publisher[ISO/IEC], span:date.issued[2017]
+
+* [[[OIML_CS_PD_09,OIML-CS PD-09]]], span:organization[OIML], span:title[_Utilisers and Associates_], span:publisher[OIML]

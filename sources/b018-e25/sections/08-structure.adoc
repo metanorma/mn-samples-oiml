@@ -1,0 +1,17 @@
+== Structure
+
+=== {blank}
+
+The structure of the OIML-CS comprises:
+
+a) Management Committee;
+
+b) Review Committee, which is a sub-committee of the Management Committee;
+
+c) Test Laboratories Forum; and
+
+d) Board of Appeal.
+
+Figure 1 illustrates the structure of the OIML-CS within the OIML structure.
+
+// TODO: Insert Figure 1 — Structure of the OIML-CS within the OIML structure (page 17 of source PDF).

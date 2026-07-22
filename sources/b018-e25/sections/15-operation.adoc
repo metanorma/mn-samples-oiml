@@ -1,0 +1,51 @@
+== Operation of the OIML-CS
+
+=== {blank}
+
+A category of measuring instrument that is covered by a new or existing OIML Recommendation that fulfils the conditions mentioned in <<scope>> shall automatically be included in the OIML-CS in Scheme B.
+
+=== {blank}
+
+Two years after inclusion in the OIML-CS, the category of measuring instrument shall automatically transition to Scheme A. The Management Committee may propose to the CIML that a category of measuring instrument transitions to Scheme A in a time period less than two years.
+
+=== {blank}
+
+The Management Committee may propose to the CIML that a category of measuring instrument does not automatically transition after two years, e.g. suitable experts for assessments have yet to be identified, in which case a time period for transition will be defined.
+
+=== {blank}
+
+For both new and revised OIML Recommendations the BIML is responsible for publishing the appropriate information on the OIML-CS pages of the OIML website. This information includes the date on which the new or revised OIML Recommendation is published on the OIML website.
+
+=== {blank}
+
+When a revised edition of an OIML Recommendation is published, the earlier edition is maintained in the OIML-CS as long as the CIML, on a recommendation by the Management Committee, does not decide to withdraw the earlier edition from the OIML-CS.
++
+NOTE: The earlier edition may be maintained in order to accommodate situations where the earlier edition is still in use in certain countries.
+
+=== {blank}
+
+When a revised edition of an OIML Recommendation is published the revised edition of the Recommendation shall be included in the OIML-CS. A category of measuring instrument covered by the revised edition of the OIML Recommendation shall remain in the same Scheme (A or B as appropriate). An existing OIML Issuing Authority or Test Laboratory wishing to include the revised edition in its scope shall provide evidence of its competency in respect of the revised edition. Utilizers and Associates shall indicate their acceptance of OIML certificates and/or OIML type evaluation reports issued in accordance with the revised edition in their Declaration.
++
+NOTE 1: An OIML Issuing Authority may issue OIML certificates and OIML type evaluation reports for any edition of an OIML Recommendation that is within its scope and included in the OIML-CS.
++
+NOTE 2: A Test Laboratory may issue OIML test reports for any edition of an OIML Recommendation that is within its scope and included in the OIML-CS.
+
+=== {blank}
+
+It may be proposed by the Management Committee and decided by the CIML to move a certain category of measuring instrument from Scheme A back to Scheme B.
+
+=== {blank}
+
+The only valid version of an OIML certificate is the printed or electronic version issued by an OIML Issuing Authority. The validity of any OIML certificate (printed or electronic) can be verified with the copy of the OIML certificate registered and published on the OIML-CS pages of the OIML website.
+
+=== {blank}
+
+In the event that questions arise during the review of an OIML certificate and/or OIML type evaluation report, a Utilizer or Associate shall consult the relevant OIML Issuing Authority for clarification of the matter and take any further appropriate actions. If the test data are not accepted, written justification for denial shall be sent to the relevant OIML Issuing Authority, manufacturer and the Management Committee. The OIML Issuing Authority may subsequently appeal this decision to the Board of Appeal.
+
+=== {blank}
+
+OIML MAA certificates that were issued under the OIML MAA Certificate System are considered to remain valid. Utilizers and Associates in the OIML-CS may establish conditions for acceptance of these OIML MAA certificates and/or OIML MAA type evaluation reports in the Declaration defined in 3.10.
+
+=== {blank}
+
+OIML Basic certificates that were issued under the OIML Basic Certificate System are considered to remain valid. Utilizers, Associates and users may continue to accept these OIML Basic certificates and/or OIML Basic type evaluation reports on a voluntary basis.
