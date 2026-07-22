@@ -20,9 +20,9 @@ Since the OIML certificate number (see <<annex_b>>) includes the category only t
 
 Examples:
 
-a) Designation of the module: Indicating device
+. Designation of the module: Indicating device
 
-b) Designation of the module: Electronic printer
+. Designation of the module: Electronic printer
 
 === {blank}
 

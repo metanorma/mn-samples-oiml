@@ -6,9 +6,9 @@
 
 It may be necessary to revise an issued and registered OIML certificate for reasons such as
 
-a) to correct an error made by the applicant or the OIML Issuing Authority, or
+. to correct an error made by the applicant or the OIML Issuing Authority, or
 
-b) to modify the OIML certificate upon request of its owner, in particular when the certified type has been modified or when ownership of the OIML certificate is transferred to a new applicant.
+. to modify the OIML certificate upon request of its owner, in particular when the certified type has been modified or when ownership of the OIML certificate is transferred to a new applicant.
 
 In such cases, the OIML Issuing Authority shall revise the OIML certificate using the same certificate number as for the initial OIML certificate, indicating in addition the revision number (Revision 1, Revision 2, etc. together with a statement explaining the reason for the amendment) and the date of issue, if appropriate. The revised OIML certificate has to be registered according to 6. A registration fee equal to that of the registration of an initial OIML certificate shall be required to be paid to the BIML for a revised OIML certificate, with the exception of revisions that are made to correct an error as specified in a) above.
 

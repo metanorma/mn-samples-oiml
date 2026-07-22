@@ -2,15 +2,15 @@
 
 The CIML is responsible for
 
-a) appointing the Chairperson of the Management Committee,
+. appointing the Chairperson of the Management Committee,
 
-b) appointing the Deputy Chairperson of the Management Committee,
+. appointing the Deputy Chairperson of the Management Committee,
 
-c) appointing the Chairperson and members of the Board of Appeal,
+. appointing the Chairperson and members of the Board of Appeal,
 
-d) approving revisions to B 18, and
+. approving revisions to B 18, and
 
-e) approving proposals of the Management Committee concerning
+. approving proposals of the Management Committee concerning
 
 i. including a new category of measuring instrument in the OIML-CS,
 

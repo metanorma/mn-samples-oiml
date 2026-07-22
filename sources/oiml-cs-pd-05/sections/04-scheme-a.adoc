@@ -34,9 +34,9 @@ Referring to 4.3.3, previous OIML test reports shall come from OIML type evaluat
 
 The tests and examinations for OIML type evaluation shall be performed by either:
 
-a) a Test Laboratory, other than a Manufacturer Test Laboratory, listed in the OIML-CS Declaration of any OIML Issuing Authority; or
+. a Test Laboratory, other than a Manufacturer Test Laboratory, listed in the OIML-CS Declaration of any OIML Issuing Authority; or
 
-b) Manufacturer Test Laboratories listed in the OIML-CS Declaration of the OIML Issuing Authority considering the application.
+. Manufacturer Test Laboratories listed in the OIML-CS Declaration of the OIML Issuing Authority considering the application.
 
 ==== {blank}
 

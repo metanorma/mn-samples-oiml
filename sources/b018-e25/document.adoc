@@ -20,36 +20,34 @@
 
 include::sections/00-foreword.adoc[]
 
-include::sections/01-introduction.adoc[]
+include::sections/01-scope.adoc[]
 
 include::sections/02-objectives.adoc[]
 
 include::sections/03-terminology.adoc[]
 
-include::sections/04-scope.adoc[]
+include::sections/04-participation.adoc[]
 
-include::sections/05-participation.adoc[]
+include::sections/05-governing-documents.adoc[]
 
-include::sections/06-governing-documents.adoc[]
+include::sections/06-standards.adoc[]
 
-include::sections/07-standards.adoc[]
+include::sections/07-structure.adoc[]
 
-include::sections/08-structure.adoc[]
+include::sections/08-ciml-responsibilities.adoc[]
 
-include::sections/09-ciml-responsibilities.adoc[]
+include::sections/09-biml-responsibilities.adoc[]
 
-include::sections/10-biml-responsibilities.adoc[]
+include::sections/10-management-committee.adoc[]
 
-include::sections/11-management-committee.adoc[]
+include::sections/11-test-laboratories-forum.adoc[]
 
-include::sections/12-test-laboratories-forum.adoc[]
+include::sections/12-board-of-appeal.adoc[]
 
-include::sections/13-board-of-appeal.adoc[]
+include::sections/13-conduct.adoc[]
 
-include::sections/14-conduct.adoc[]
+include::sections/14-operation.adoc[]
 
-include::sections/15-operation.adoc[]
+include::sections/15-finance.adoc[]
 
-include::sections/16-finance.adoc[]
-
-include::sections/17-references.adoc[]
+include::sections/16-references.adoc[]

@@ -8,13 +8,13 @@ An OIML certificate issued by an OIML Issuing Authority under Scheme A or B of t
 
 The owner may use a registered OIML certificate and its associated OIML type evaluation report as follows:
 
-a) in support of an application for national or regional type approval in any country or group of countries; it is the responsibility of the applicant to give evidence upon request that the type presented for approval is identical to that identified on the OIML certificate;
+. in support of an application for national or regional type approval in any country or group of countries; it is the responsibility of the applicant to give evidence upon request that the type presented for approval is identical to that identified on the OIML certificate;
 +
 NOTE: If requested by the regional or national approval authority, the complete OIML type evaluation report shall be presented by, or on behalf of, the owner together with the OIML certificate.
 
-b) in support of the presentation of an individual instrument for initial verification in a country in which type approval is not required; it is the responsibility of the applicant to give evidence upon request that the instrument presented for verification is of the type that is identified on the OIML certificate;
+. in support of the presentation of an individual instrument for initial verification in a country in which type approval is not required; it is the responsibility of the applicant to give evidence upon request that the instrument presented for verification is of the type that is identified on the OIML certificate;
 
-c) to inform buyers, users, and other interested parties that the type of measuring instrument (represented by the tested samples) was found to conform to the requirements of the relevant Recommendation.
+. to inform buyers, users, and other interested parties that the type of measuring instrument (represented by the tested samples) was found to conform to the requirements of the relevant Recommendation.
 +
 NOTE 1: Such evidence of conformity (and the name of the OIML Issuing Authority which issued the OIML certificate) may be referred to or included in e.g. manufacturer's catalogues and other marketing literature (however, see <<use_of_certificates, 4.4 and 4.5>>).
 +
