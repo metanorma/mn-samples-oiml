@@ -1,0 +1,12 @@
+---
+# Subset used by the metanorma-cli release smoke gate (metanorma-cli#391):
+# two documents covering both doctype families, small enough for CI.
+metanorma:
+  source:
+    files:
+      - sources/b018-e25/document.adoc
+      - sources/oiml-cs-pd-01/document.adoc
+
+  collection:
+    organization: "OIML"
+    name: "OIML sample documents (CI smoke subset)"
