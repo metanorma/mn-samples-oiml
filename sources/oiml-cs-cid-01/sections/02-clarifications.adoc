@@ -1,24 +1,28 @@
+
+[%landscape]
+<<<
+
 == Clarification and interpretations
 
 === OIML B 18
 
-[%header,cols="10%,10%,55%,25%"]
+[cols="^.^10a,^.^15a,^.^55a,^.^25a",options="header,unnumbered"]
 |===
 |Clause/Subclause |Paragraph/Figure/Table |Clarification/Interpretation |MC Decision Reference
 
 |4.2
 |Note
-|At the time of writing many existing OIML Recommendations are published in three Parts, with the OIML test report format and the OIML type evaluation report format combined as a single Part of the Recommendation. For example, OIML R 50:2014 Continuous totalizing automatic weighing instruments (belt weighers). Part 3: Test report format +
-+
-All new and revised OIML Recommendations must be published in at least four Parts, with the OIML test report format and the OIML type evaluation report format as separate Parts of the Recommendation. For more information see OIML B 6:2023 Directives for OIML technical work. Part 1: Structures and procedures for the development of OIML publications. +
-+
+<|At the time of writing many existing OIML Recommendations are published in three Parts, with the OIML test report format and the OIML type evaluation report format combined as a single Part of the Recommendation. For example, OIML R 50:2014 _Continuous totalizing automatic weighing instruments (belt weighers). Part 3: Test report format_
+
+All new and revised OIML Recommendations must be published in at least four Parts, with the OIML test report format and the OIML type evaluation report format as separate Parts of the Recommendation. For more information see OIML B 6:2023 _Directives for OIML technical work. Part 1: Structures and procedures for the development of OIML publications_.
+
 Regardless of the structure of an OIML Recommendation, an OIML test report is issued by an OIML Test Laboratory, and an OIML type evaluation report is issued by an OIML Issuing Authority.
-|Eighth Management Committee Meeting 2023 – Action Item 8.8
+<.<|Eighth Management Committee Meeting 2023 – Action Item 8.8
 |===
 
 === Operational Documents OD-01 and OD-02
 
-[%header,cols="20%,20%,20%,20%,20%"]
+[cols="^.^20a,^.^20a,^.^20a,^.^20a,^.^20a",options="header,unnumbered"]
 |===
 |Operational Document |Clause/Subclause |Paragraph/Figure/Table |Clarification/Interpretation |MC Decision Reference
 
@@ -29,45 +33,50 @@ NOTE: There are currently no clarifications or interpretations applicable to OD-
 
 === Procedural Documents PD-01 to PD-08
 
-[%header,cols="10%,10%,10%,50%,20%"]
+[cols="^.^10a,^.^10a,^.^10a,^.^50a,^.^20a",options="header,unnumbered"]
 |===
 |Procedural Document |Clause/Subclause |Paragraph/Figure/Table |Clarification/Interpretation |MC Decision Reference
 
 |PD-03
 |5.2.2 & 5.2.3.5
-|-
-|At the Fourth Management Committee Meeting in June 2020 the Management Committee agreed to a set of contingencies to ensure that the OIML-CS could continue to function during the COVID pandemic. These contingencies were as follows: +
---
+|
+.2+<.<|At the Fourth Management Committee Meeting in June 2020 the Management Committee agreed to a set of contingencies to ensure that the OIML-CS could continue to function during the COVID pandemic. These contingencies were as follows:
+
 * Allowing the use of experts from accreditation bodies instead of Legal Metrology Experts.
 * Allowing remote assessments of OIML Issuing Authorities and Test Laboratories.
--- +
-As of 15 January 2024, the Management Committee has agreed to revoke the above contingencies. +
+
+As of 15 January 2024, the Management Committee has agreed to revoke the above contingencies.
+
 All assessment activities are to be conducted in accordance with the rules and requirements of the relevant Accreditation Body and the OIML-CS.
-|Online approval of revised OIML-CS Procedural Documents (Closing date 15 January 2024)
+
+Amendments have been made to OIML-CS PD-03 and OIML-CS PD-04 to provide additional flexibility to support the operational continuity and efficiency of the OIML-CS; particularly in the case of any future international travel restrictions that would impede the operation of the OIML-CS.
+
+.2+<.<|Online approval of revised OIML-CS Procedural Documents (Closing date 15 January 2024)
 
 |PD-04
 |5.2.2 & 5.2.3.5
-|-
-|Amendments have been made to OIML-CS PD-03 and OIML-CS PD-04 to provide additional flexibility to support the operational continuity and efficiency of the OIML-CS; particularly in the case of any future international travel restrictions that would impede the operation of the OIML-CS.
 |
 
 |PD-03
 |5.1
 |-
-|At all times, the scope of an OIML Issuing Authority must be supported by an approved Test Laboratory (listed in the OIML Issuing Authority's Declaration) for each category of measuring instrument included within that scope. +
-+
-As such, every OIML Issuing Authority application must be supported by use of an existing Test Laboratory, or via the submission of an accompanying application for a prospective Test Laboratory. The Test Laboratory may be internal, third-party or a Manufacturer Test Laboratory. +
-+
-If, at any time, the scope of an OIML Issuing Authority is not supported by an approved Test Laboratory for a category of instrument (listed in the OIML Issuing Authority's Declaration), the scope of the OIML Issuing Authority must be amended accordingly. +
-+
+<.<|At all times, the scope of an OIML Issuing Authority must be supported by an approved Test Laboratory (listed in the OIML Issuing Authority's Declaration) for each category of measuring instrument included within that scope.
+
+As such, every OIML Issuing Authority application must be supported by use of an existing Test Laboratory, or via the submission of an accompanying application for a prospective Test Laboratory. The Test Laboratory may be internal, third-party or a Manufacturer Test Laboratory.
+
+If, at any time, the scope of an OIML Issuing Authority is not supported by an approved Test Laboratory for a category of instrument (listed in the OIML Issuing Authority's Declaration), the scope of the OIML Issuing Authority must be amended accordingly.
+
 An OIML Issuing Authority is only permitted to issue OIML certificates and OIML type evaluation reports in accordance with their scope.
-|Management Committee online approval (Closing date 19 September 2024)
+<.<|Management Committee online approval (Closing date 19 September 2024)
 
 |PD-05
 |4.3 & 5.3
 |-
-|An OIML Issuing Authority may use test data from a Test Laboratory listed in their Declaration or a Test Laboratory (other than a Manufacturer Test Laboratory) listed in the Declaration of another OIML Issuing Authority. +
-+
+<.<|An OIML Issuing Authority may use test data from a Test Laboratory listed in their Declaration or a Test Laboratory (other than a Manufacturer Test Laboratory) listed in the Declaration of another OIML Issuing Authority.
+
 In either case, the scope of an OIML Issuing Authority must be supported by an approved Test Laboratory (listed in the OIML Issuing Authority's Declaration) for each category of measuring instrument included within that scope.
-|Management Committee online approval (Closing date 19 September 2024)
+<.<|Management Committee online approval (Closing date 19 September 2024)
 |===
+
+[%portrait]
+<<<
