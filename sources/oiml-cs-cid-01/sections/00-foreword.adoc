@@ -4,7 +4,7 @@ This publication has been prepared by the OIML Certification System (OIML-CS) Ex
 
 Edition 6 of OIML-CS CID-01 was approved for publication by the OIML-CS Management Committee via an online vote on 19 September 2024 and was published on 19 September 2024. This edition takes effect immediately upon publication.
 
-This publication is directly related to OIML B 18 Framework for the OIML Certification System (OIML-CS) and the Operational Documents and Procedural Documents of the OIML-CS.
+This publication is directly related to OIML B 18 _Framework for the OIML Certification System (OIML-CS)_ and the Operational Documents and Procedural Documents of the OIML-CS.
 
 The text of this publication is based on the following documents:
 
@@ -38,7 +38,7 @@ Summary of changes from previous Edition:
 
 === {blank}
 
-OIML B 18 Framework for the OIML Certification System (OIML-CS) <<OIML_B_18>> establishes the rules for a framework for the OIML-CS. OIML B 18 <<OIML_B_18>> is supplemented by Operational Documents <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and Procedural Documents PD-01 to PD-08.
+OIML B 18 _Framework for the OIML Certification System (OIML-CS)_ <<OIML_B_18>> establishes the rules for a framework for the OIML-CS. OIML B 18 <<OIML_B_18>> is supplemented by Operational Documents <<OIML_CS_OD_01>> and <<OIML_CS_OD_02>>, and Procedural Documents PD-01 to PD-08 <<OIML_CS_PD_04;to!OIML_CS_PD_08>>.
 
 === {blank}
 
