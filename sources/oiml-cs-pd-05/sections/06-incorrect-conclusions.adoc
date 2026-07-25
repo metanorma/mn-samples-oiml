@@ -1,5 +1,6 @@
 == OIML certificate issued on the basis of incorrect conclusions
 
+[[sec_7.1]]
 === {blank}
 
 The Executive Secretary shall consult with the relevant OIML Issuing Authority when documented and substantiated evidence is presented indicating that the tests providing the basis for issuing the OIML certificate were performed and/or interpreted incorrectly. In this instance the procedure detailed in clause 6 of PD-01 <<OIML_CS_PD_01>> shall be applied.
