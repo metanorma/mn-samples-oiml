@@ -12,7 +12,7 @@
 
 The tasks of the Test Laboratories Forum are to
 
-. provide a platform for handling practical and/or technical questions pertaining to test specifications, test methods and test equipment detailed in standards (see clause 7) accepted for use in the OIML-CS,
+. provide a platform for handling practical and/or technical questions pertaining to test specifications, test methods and test equipment detailed in standards (see <<sec_7>>) accepted for use in the OIML-CS,
 
 . detail the way in which the tests specified in OIML Recommendations may be carried out so as to achieve the necessary reproducibility of test results,
 

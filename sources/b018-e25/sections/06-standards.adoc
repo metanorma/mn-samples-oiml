@@ -1,3 +1,4 @@
+[[sec_7]]
 == Standards
 
 The standards applicable within the OIML-CS as defined by the Management Committee are

@@ -53,7 +53,7 @@ For participation in Scheme A, compliance of OIML Issuing Authorities and Test L
 
 ====== {blank}
 
-Where accreditation is chosen by the OIML Issuing Authority, the Accreditation Body that carries out the accreditation assessment shall participate in a mutual recognition arrangement among Accreditation Bodies (regional or international), for instance the International Accreditation Forum (IAF) Multilateral Recognition Arrangement (MLA) footnote:[The International Accreditation Forum (IAF) and the International Laboratory Accreditation Cooperation (ILAC) will be replaced by a new organisation, the Global Accreditation Cooperation Incorporated. The target date (known as the Transition Date) for the new organisation to become operational and to take over the roles of IAF and ILAC is provisionally January 2026.].
+Where accreditation is chosen by the OIML Issuing Authority, the Accreditation Body that carries out the accreditation assessment shall participate in a mutual recognition arrangement among Accreditation Bodies (regional or international), for instance the International Accreditation Forum (IAF) Multilateral Recognition Arrangement (MLA) footnote:note-one[The International Accreditation Forum (IAF) and the International Laboratory Accreditation Cooperation (ILAC) will be replaced by a new organisation, the Global Accreditation Cooperation Incorporated. The target date (known as the Transition Date) for the new organisation to become operational and to take over the roles of IAF and ILAC is provisionally January 2026.].
 
 ====== {blank}
 
@@ -63,7 +63,7 @@ The accreditation assessment team shall comply with the requirements specified i
 
 ====== {blank}
 
-The Accreditation Body that carries out the accreditation assessment of a Test Laboratory under the OIML-CS shall participate in a mutual recognition arrangement among Accrediting Bodies (regional or international), for instance the ILAC MRA (International Laboratory Accreditation Cooperation Mutual Recognition Arrangement)footnote:[See footnote 1.].
+The Accreditation Body that carries out the accreditation assessment of a Test Laboratory under the OIML-CS shall participate in a mutual recognition arrangement among Accrediting Bodies (regional or international), for instance the ILAC MRA (International Laboratory Accreditation Cooperation Mutual Recognition Arrangement)footnote:note-one[].
 
 ====== {blank}
 
@@ -75,20 +75,23 @@ The accreditation assessment team shall comply with the requirements specified i
 
 Where the OIML Issuing Authority and/or Test Laboratory has chosen peer assessment, the peer assessment team shall comply with the requirements specified in Procedural Documents <<OIML_CS_PD_03>> and <<OIML_CS_PD_04>>, as appropriate.
 
+[[sec_5.5]]
 === OIML Issuing Authority Declaration
 
 ==== {blank}
 
-OIML Issuing Authorities that have been accepted for participation in the OIML-CS (see 11.5 f)) sign a Declaration indicating their scope for issuing OIML certificates and OIML type evaluation reports under Scheme A and/or Scheme B. When an OIML Issuing Authority is accepted under Scheme A, the OIML Member State shall designate at least one Utilizer (see 5.6.1) for the respective category(ies) of measuring instrument(s).
+OIML Issuing Authorities that have been accepted for participation in the OIML-CS (see <<sec_11.5_f>>) sign a Declaration indicating their scope for issuing OIML certificates and OIML type evaluation reports under Scheme A and/or Scheme B. When an OIML Issuing Authority is accepted under Scheme A, the OIML Member State shall designate at least one Utilizer (see <<sec_5.6.1>>) for the respective category(ies) of measuring instrument(s).
 
 NOTE: The requirement to designate at least one Utilizer shall not apply when the OIML Member State does not regulate that particular category of measuring instrument in their country.
 
 === Utilizers and Associates
 
+[[sec_5.6.1]]
 ==== {blank}
 
 Utilizers sign a Declaration indicating their scope of acceptance of OIML certificates and/or OIML type evaluation reports issued under Scheme A and/or Scheme B. They may specify additional national requirements or special requirements which deviate from those in the relevant OIML Recommendation(s).
 
+[[sec_5.6.2]]
 ==== {blank}
 
 Associates sign a Declaration indicating their scope of acceptance of OIML certificates and/or OIML type evaluation reports issued under Scheme A and/or Scheme B. They may specify additional national requirements or special requirements which deviate from those in the relevant OIML Recommendation(s).
