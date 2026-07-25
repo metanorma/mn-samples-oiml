@@ -16,7 +16,7 @@ International Recommendations, Documents, Guides and Basic Publications are publ
 
 Additionally, the OIML publishes or participates in the publication of *Vocabularies (OIML V)* and periodically commissions legal metrology experts to write *Expert Reports (OIML E)*. Expert Reports are intended to provide information and advice, and are written solely from the viewpoint of their author, without the involvement of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do not necessarily represent the views of the OIML.
 
-This publication -- reference OIML B 18 Framework for the OIML Certification System (OIML-CS), edition 2025 (E) -- was developed by the OIML Certification System Management Committee. It was approved for final publication by the International Committee of Legal Metrology at its 60th meeting in October 2025. It replaces the previous edition dated 2022.
+This publication -- reference OIML B 18 _Framework for the OIML Certification System (OIML-CS), edition 2025 (E)_ -- was developed by the OIML Certification System Management Committee. It was approved for final publication by the International Committee of Legal Metrology at its 60th meeting in October 2025. It replaces the previous edition dated 2022.
 
 The OIML acknowledges that parts of the terminology, operational rules and organisational structure in this OIML Basic Publication and in the OIML-CS Operational and Procedural Documents were developed following discussions with the IEC and from documents developed and published by the IEC for the operation of their global Conformity Assessment Systems. The OIML thanks the IEC for granting the OIML permission to use its intellectual property and agreeing to explore opportunities for cooperation in areas of mutual interest.
 
@@ -39,7 +39,7 @@ The OIML-CS replaces the previous OIML Basic Certificate System <<OIML_B_3>> int
 
 === {blank}
 
-The OIML-CS is a voluntary system and all OIML Member States and Corresponding Members are free to participate. Participating in the OIML-CS, and signing a Declaration (see 5.5, 5.6.1 and 5.6.2), commits in principle the signatories to abide by the rules of the OIML-CS. This Framework establishes these rules whereby signatories voluntarily accept and utilise OIML type evaluation reports, when associated with an OIML certificate issued by an OIML Issuing Authority, for type approval or recognition in their national or regional metrological controls.
+The OIML-CS is a voluntary system and all OIML Member States and Corresponding Members are free to participate. Participating in the OIML-CS, and signing a Declaration (see <<sec_5.5>>, <<sec_5.6.1>> and <<sec_5.6.2>>), commits in principle the signatories to abide by the rules of the OIML-CS. This Framework establishes these rules whereby signatories voluntarily accept and utilise OIML type evaluation reports, when associated with an OIML certificate issued by an OIML Issuing Authority, for type approval or recognition in their national or regional metrological controls.
 
 === {blank}
 
@@ -53,4 +53,4 @@ A manufacturer or its authorised representative from any country may apply for t
 
 === {blank}
 
-This publication, OIML B 18 Framework for the OIML Certification System (OIML-CS), is supplemented by Operational Documents and Procedural Documents which are developed, maintained and approved by the OIML-CS Management Committee.
+This publication, OIML B 18 _Framework for the OIML Certification System (OIML-CS)_, is supplemented by Operational Documents and Procedural Documents which are developed, maintained and approved by the OIML-CS Management Committee.

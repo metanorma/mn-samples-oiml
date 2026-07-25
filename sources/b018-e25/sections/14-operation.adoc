@@ -16,19 +16,20 @@ The Management Committee may propose to the CIML that a category of measuring in
 
 For both new and revised OIML Recommendations the BIML is responsible for publishing the appropriate information on the OIML-CS pages of the OIML website. This information includes the date on which the new or revised OIML Recommendation is published on the OIML website.
 
+[[sec_15.5]]
 === {blank}
 
 When a revised edition of an OIML Recommendation is published, the earlier edition is maintained in the OIML-CS as long as the CIML, on a recommendation by the Management Committee, does not decide to withdraw the earlier edition from the OIML-CS.
-+
+
 NOTE: The earlier edition may be maintained in order to accommodate situations where the earlier edition is still in use in certain countries.
 
 === {blank}
 
 When a revised edition of an OIML Recommendation is published the revised edition of the Recommendation shall be included in the OIML-CS. A category of measuring instrument covered by the revised edition of the OIML Recommendation shall remain in the same Scheme (A or B as appropriate). An existing OIML Issuing Authority or Test Laboratory wishing to include the revised edition in its scope shall provide evidence of its competency in respect of the revised edition. Utilizers and Associates shall indicate their acceptance of OIML certificates and/or OIML type evaluation reports issued in accordance with the revised edition in their Declaration.
-+
-NOTE 1: An OIML Issuing Authority may issue OIML certificates and OIML type evaluation reports for any edition of an OIML Recommendation that is within its scope and included in the OIML-CS.
-+
-NOTE 2: A Test Laboratory may issue OIML test reports for any edition of an OIML Recommendation that is within its scope and included in the OIML-CS.
+
+NOTE: An OIML Issuing Authority may issue OIML certificates and OIML type evaluation reports for any edition of an OIML Recommendation that is within its scope and included in the OIML-CS.
+
+NOTE: A Test Laboratory may issue OIML test reports for any edition of an OIML Recommendation that is within its scope and included in the OIML-CS.
 
 === {blank}
 
@@ -44,7 +45,7 @@ In the event that questions arise during the review of an OIML certificate and/o
 
 === {blank}
 
-OIML MAA certificates that were issued under the OIML MAA Certificate System are considered to remain valid. Utilizers and Associates in the OIML-CS may establish conditions for acceptance of these OIML MAA certificates and/or OIML MAA type evaluation reports in the Declaration defined in 3.10.
+OIML MAA certificates that were issued under the OIML MAA Certificate System are considered to remain valid. Utilizers and Associates in the OIML-CS may establish conditions for acceptance of these OIML MAA certificates and/or OIML MAA type evaluation reports in the Declaration defined in <<sec_3.10>>.
 
 === {blank}
 

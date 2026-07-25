@@ -12,6 +12,8 @@ The structure of the OIML-CS comprises:
 
 . Board of Appeal.
 
-Figure 1 illustrates the structure of the OIML-CS within the OIML structure.
+<<figure-1>> illustrates the structure of the OIML-CS within the OIML structure.
 
-// TODO: Insert Figure 1 — Structure of the OIML-CS within the OIML structure (page 17 of source PDF).
+[[figure-1]]
+.Structure of the OIML-CS within the OIML structure
+image::figure-1.png[]

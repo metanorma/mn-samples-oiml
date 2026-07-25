@@ -16,8 +16,8 @@ The tasks of the Board of Appeal are to
 
 . manage appeals against decisions of the Management Committee relating to
 
-i. participation in the OIML-CS, and
+.. participation in the OIML-CS, and
 
-ii. Legal Metrology Experts and Management System Experts,
+.. Legal Metrology Experts and Management System Experts,
 
 . recommend solutions to any other dispute referred to it with regard to the application of the rules of the OIML-CS.
