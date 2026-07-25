@@ -21,6 +21,4 @@ NOTE: As soon as a first OIML Issuing Authority is designated in a Member State 
 NOTE: For revised OIML certificates, the same OIML certificate number shall be used as for the initial OIML certificate (see <<sec_7.1>>).
 
 [[fig-example_1]]
-[%unnumbered]
-.Example 1
 image::diagram-1.png[]
