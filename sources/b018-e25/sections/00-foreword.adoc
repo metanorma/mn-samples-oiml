@@ -29,28 +29,3 @@ Fax: 33 (0)1 42 82 17 27 +
 E-mail: biml@oiml.org +
 Internet: www.oiml.org
 
-== Introduction
-
-=== {blank}
-
-The OIML Certification System (hereafter referred to as the "OIML-CS") is a system for issuing, registering and using OIML type examination certificates (hereafter referred to as OIML certificates) and associated OIML type evaluation reports for types of measuring instruments (including families of measuring instruments, modules, or families of modules), based on the requirements of OIML Recommendations.
-
-The OIML-CS replaces the previous OIML Basic Certificate System <<OIML_B_3>> introduced in 1991, and also the OIML Mutual Acceptance Arrangement (MAA) <<OIML_B_10>> introduced in 2005. It aims to facilitate, accelerate and harmonise the work of national and regional bodies that are responsible for type evaluation and approval of measuring instruments subject to legal metrological control. In the same way, instrument manufacturers, who are required to obtain type approval in some countries in which they wish to sell their products, should benefit from the OIML-CS as it provides evidence that their instrument type complies with the requirements of the relevant OIML Recommendation(s). The OIML-CS may also help to promote the manufacture, marketing and use of measuring instruments that comply with OIML requirements for applications which are not subject to legal metrological control by a national metrology authority.
-
-=== {blank}
-
-The OIML-CS is a voluntary system and all OIML Member States and Corresponding Members are free to participate. Participating in the OIML-CS, and signing a Declaration (see <<sec_5.5>>, <<sec_5.6.1>> and <<sec_5.6.2>>), commits in principle the signatories to abide by the rules of the OIML-CS. This Framework establishes these rules whereby signatories voluntarily accept and utilise OIML type evaluation reports, when associated with an OIML certificate issued by an OIML Issuing Authority, for type approval or recognition in their national or regional metrological controls.
-
-=== {blank}
-
-The OIML-CS requires a type evaluation of sample(s) of measuring instruments which should be representative of the production. However, the type evaluation conducted within the OIML-CS does not include any formal evaluation to establish that the type is representative of the intended production. Such an evaluation, and the assessment of the conformity of the produced instruments to the certified type, may be addressed in other OIML publications.
-
-NOTE: The OIML-CS is classified to Scheme 1a defined in ISO/IEC 17067 <<ISO_IEC_17067>>.
-
-=== {blank}
-
-A manufacturer or its authorised representative from any country may apply for type evaluation and for an OIML certificate to be issued by an OIML Issuing Authority in any OIML Member State that participates in the OIML-CS. Likewise, any OIML certificate and/or its associated OIML type evaluation report may be accepted and utilised by any national issuing authority or national responsible body in any country.
-
-=== {blank}
-
-This publication, OIML B 18 _Framework for the OIML Certification System (OIML-CS)_, is supplemented by Operational Documents and Procedural Documents which are developed, maintained and approved by the OIML-CS Management Committee.
