@@ -8,11 +8,11 @@ The manufacturer of a type of measuring instrument or module, or an authorised r
 
 ==== {blank}
 
-The application shall include the information listed in 4.1.2.
+The application shall include the information listed in <<sec_4.1.2>>.
 
 ==== {blank}
 
-If results of previous type evaluation reports (4.1.2 (g)) are provided, they shall come from an OIML type evaluation report issued under Scheme A. The transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
+If results of previous type evaluation reports (<<sec_4.1.2_g>>) are provided, they shall come from an OIML type evaluation report issued under Scheme A. The transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
 
 ==== {blank}
 
@@ -22,14 +22,15 @@ When applicable, the applicant shall also inform the OIML Issuing Authority whic
 
 ==== {blank}
 
-The provisions in 4.2 apply.
-
+The provisions in <<sec_4.2>> apply.
+    
 ==== {blank}
 
-Referring to 4.3.3, previous OIML test reports shall come from OIML type evaluation reports issued under Scheme A.
+Referring to <<sec_4.3.3>>, previous OIML test reports shall come from OIML type evaluation reports issued under Scheme A.
 
 === Tests and examinations
 
+[[sec_5.3.1]]
 ==== {blank}
 
 The tests and examinations for OIML type evaluation shall be performed by either:
@@ -38,17 +39,19 @@ The tests and examinations for OIML type evaluation shall be performed by either
 
 . Manufacturer Test Laboratories listed in the OIML-CS Declaration of the OIML Issuing Authority considering the application.
 
+[[sec_5.3.2]]
 ==== {blank}
 
 The test procedures shall be consistent with those described in the relevant OIML Recommendation and/or the additional testing procedures for the additional national requirements included in the scope of the OIML-CS Declaration of a Utilizer or Associate.
 
+[[sec_5.3.3]]
 ==== {blank}
 
 The test procedures may be abbreviated or omitted if the OIML Issuing Authority considers that the conclusions necessary for issuing the OIML type evaluation report may be drawn from a previous OIML type evaluation report issued under Scheme A.
 
 ==== {blank}
 
-With respect to the requirements specified in subclauses 5.3.1, 5.3.2 and 5.3.3, the transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in subclauses <<sec_5.3.1>>, <<sec_5.3.2>> and <<sec_5.3.3>>, the transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
 
 ==== {blank}
 
@@ -56,32 +59,37 @@ Where the scope of the Test Laboratory (supported by their ISO/IEC 17025 <<ISO_I
 
 === OIML Test Report(s)
 
+[[sec_5.4.1]]
 ==== {blank}
 
-The provisions defined in 4.4.1, 4.4.3, 4.4.4, 4.4.5 and 4.4.6 above apply.
+The provisions defined in <<sec_4.4.1>>, <<sec_4.4.3>>, <<sec_4.4.4>>, <<sec_4.4.5>> and <<sec_4.4.6>> above apply.
 
+[[sec_5.4.2]]
 ==== {blank}
 
 Results of tests corresponding to the additional national requirements included in the OIML-CS Declaration of a Utilizer or Associate may be provided in separate test reports, or may be included in the OIML test reports issued for the tests and examinations conducted according to the relevant OIML Recommendation.
 
+[[sec_5.4.3]]
 ==== {blank}
 
-All the OIML test reports will then be included in the OIML type evaluation report issued by the OIML Issuing Authority (see 5.5.1).
+All the OIML test reports will then be included in the OIML type evaluation report issued by the OIML Issuing Authority (see <<sec_5.5.1>>).
 
 ==== {blank}
 
-With respect to the requirements specified in 5.4.1, 5.4.2 and 5.4.3, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in <<sec_5.4.1>>, <<sec_5.4.2>> and <<sec_5.4.3>>, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
 
 === OIML Type Evaluation Report
 
+[[sec_5.5.1]]
 ==== {blank}
 
 The OIML type evaluation report is prepared by the OIML Issuing Authority according to the format specified in the relevant OIML Recommendation, and includes all the relevant OIML test report(s).
 
 ==== {blank}
 
-The provisions in 4.5.2, 4.5.4, 4.5.5, 4.5.6, 4.5.7 and 4.5.8 above apply to OIML type evaluation reports and OIML Issuing Authorities.
+The provisions in <<sec_4.5.2>>, <<sec_4.5.4>>, <<sec_4.5.5>>, <<sec_4.5.6>>, <<sec_4.5.7>> and <<sec_4.5.8>> above apply to OIML type evaluation reports and OIML Issuing Authorities.
 
+[[sec_5.5.3]]
 ==== {blank}
 
 The OIML-CS logo shall be affixed on the OIML type evaluation report.
@@ -98,13 +106,14 @@ OIML Issuing Authorities shall only utilise OIML test reports from Manufacturer 
 
 ==== {blank}
 
-The provisions defined in 4.6.1, 4.6.3, 4.6.4 (see note below), 4.6.5, 4.6.6 and 4.6.7 above apply to OIML certificates issued under Scheme A, OIML type evaluation reports and OIML Issuing Authorities.
-+
-NOTE: In 4.6.4 b) the character 'B' shall be replaced with the character 'A' to denote Scheme A.
+The provisions defined in <<sec_4.6.1>>, <<sec_4.6.3>>, <<sec_4.6.4>> (see note below), <<sec_4.6.5>>, <<sec_4.6.6>> and <<sec_4.6.7>> above apply to OIML certificates issued under Scheme A, OIML type evaluation reports and OIML Issuing Authorities.
 
+NOTE: In <<sec_4.6.4_b>> the character 'B' shall be replaced with the character 'A' to denote Scheme A.
+
+[[sec_5.6.2]]
 ==== {blank}
 
-The OIML certificate shall be drawn up according to the requirements given in <<annex_a>> and the OIML certificate Template downloadable from the OIML-CS pages of the OIML website. It shall be signed by the responsible person within the OIML Issuing Authority and bear the OIML-CS logo.
+The OIML certificate shall be drawn up according to the requirements given in <<annex_a>> and the _OIML certificate Template_ downloadable from the OIML-CS pages of the OIML website. It shall be signed by the responsible person within the OIML Issuing Authority and bear the OIML-CS logo.
 
 ==== {blank}
 

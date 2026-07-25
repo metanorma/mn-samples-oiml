@@ -6,6 +6,7 @@
 
 The manufacturer, or an authorised representative of the manufacturer, of a type of measuring instrument or module may apply to an OIML Issuing Authority for an OIML certificate under Scheme B.
 
+[[sec_4.1.2]]
 ==== {blank}
 
 The application shall include the following:
@@ -22,18 +23,20 @@ The application shall include the following:
 
 . information on, or details of, the sample(s), representative of the production envisaged, to be submitted for tests and examinations on the basis of the relevant OIML Recommendations;
 
-. if applicable, results of OIML test reports of previous OIML Type Evaluation(s) (see 4.3.3).
+. [[sec_4.1.2_g]]if applicable, results of OIML test reports of previous OIML Type Evaluation(s) (see <<sec_4.3.3>>).
 
 ==== {blank}
 
 The applicants may also submit OIML test reports from a Test Laboratory listed in the OIML-CS Declaration of any OIML Issuing Authority in support of the claim that the instruments or modules meet the requirements of the relevant OIML Recommendation. The transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
 
+[[sec_4.2]]
 === Consideration of the application by the OIML Issuing Authority
 
 ==== {blank}
 
 The OIML Issuing Authority receiving the application shall review it and may request the applicant to provide additional information and documents prior to further processing of the application.
 
+[[sec_4.2.2]]
 ==== {blank}
 
 The OIML Issuing Authority may refuse the application if any of the following conditions apply:
@@ -48,17 +51,17 @@ The OIML Issuing Authority may refuse the application if any of the following co
 
 ==== {blank}
 
-In the first case mentioned in 4.2.2 the OIML Issuing Authority may, however, refer the applicant to an OIML Issuing Authority in another Member State, which may be capable of conducting the OIML Type Evaluation, without obligating the latter thereby.
+In the first case mentioned in <<sec_4.2.2>> the OIML Issuing Authority may, however, refer the applicant to an OIML Issuing Authority in another Member State, which may be capable of conducting the OIML Type Evaluation, without obligating the latter thereby.
 
 ==== {blank}
 
 The OIML Issuing Authority shall inform the applicant in writing of its decision concerning the acceptance or refusal of an application. If the application is refused, the reason shall be given.
-+
+
 NOTE: The OIML Issuing Authority may also request the applicant to provide any specialised equipment necessary to conduct the tests.
 
 ==== {blank}
 
-If the application is accepted, the OIML Issuing Authority shall inform the applicant of the rules of the OIML-CS and of the number of samples of the type that are required for testing. This number is usually specified in the relevant OIML Recommendation but, if not, it shall be mutually agreed upon by the Issuing Authority and the applicant. In certain cases, the OIML Issuing Authority may be satisfied with the results of OIML test reports of a previous OIML type evaluation (see 4.3.3) and, therefore, it may not be necessary to test new sample(s) of the type. The OIML Issuing Authority, however, shall obtain evidence that the type for which an OIML certificate is requested is identical to the previously evaluated type. If previous OIML test reports are accepted, the OIML type evaluation report or accompanying document shall indicate which previous results were accepted and utilised. The transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+If the application is accepted, the OIML Issuing Authority shall inform the applicant of the rules of the OIML-CS and of the number of samples of the type that are required for testing. This number is usually specified in the relevant OIML Recommendation but, if not, it shall be mutually agreed upon by the Issuing Authority and the applicant. In certain cases, the OIML Issuing Authority may be satisfied with the results of OIML test reports of a previous OIML type evaluation (see <<sec_4.3.3>>) and, therefore, it may not be necessary to test new sample(s) of the type. The OIML Issuing Authority, however, shall obtain evidence that the type for which an OIML certificate is requested is identical to the previously evaluated type. If previous OIML test reports are accepted, the OIML type evaluation report or accompanying document shall indicate which previous results were accepted and utilised. The transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
 
 ==== {blank}
 
@@ -78,21 +81,24 @@ The OIML Issuing Authority shall inform the applicant in writing of the approxim
 
 === Tests and examinations
 
+[[sec_4.3.1]]
 ==== {blank}
 
 The tests and examinations for OIML type evaluation shall be performed by Test Laboratories that are listed in the OIML-CS Declaration of any OIML Issuing Authority.
 
+[[sec_4.3.2]]
 ==== {blank}
 
 The test procedures shall be consistent with those described in the relevant OIML Recommendation.
 
+[[sec_4.3.3]]
 ==== {blank}
 
-The test procedures may be abbreviated or omitted if the OIML Issuing Authority considers that the conclusions necessary for issuing the OIML certificate and the OIML type evaluation report may be drawn from a previous OIML type evaluation, provided that they were carried out according to the requirements of 4.3.1 above. The conditions under which such OIML test reports may be considered shall be specified by documented requirements of the OIML Issuing Authority. If tests have been abbreviated or omitted, it shall be clearly indicated in the OIML type evaluation report (see 4.5.1).
+The test procedures may be abbreviated or omitted if the OIML Issuing Authority considers that the conclusions necessary for issuing the OIML certificate and the OIML type evaluation report may be drawn from a previous OIML type evaluation, provided that they were carried out according to the requirements of <<sec_4.3.1>> above. The conditions under which such OIML test reports may be considered shall be specified by documented requirements of the OIML Issuing Authority. If tests have been abbreviated or omitted, it shall be clearly indicated in the OIML type evaluation report (see <<sec_4.5.1>>).
 
 ==== {blank}
 
-With respect to the requirements specified in subclauses 4.3.1, 4.3.2 and 4.3.3, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in subclauses <<sec_4.3.1>>, <<sec_4.3.2>> and <<sec_4.3.3>>, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
 
 ==== {blank}
 
@@ -100,14 +106,16 @@ Where the scope of the Test Laboratory (supported by their ISO/IEC 17025 <<ISO_I
 
 === OIML Test Report(s)
 
+[[sec_4.4.1]]
 ==== {blank}
 
 The Test Laboratory conducting tests according to the relevant OIML Recommendation shall issue an OIML test report. In case there are several Test Laboratories conducting such tests, each Test Laboratory shall issue an OIML test report which includes the results of the tests it has conducted.
 
 ==== {blank}
 
-All the OIML test reports will then be included in the OIML type evaluation report issued by the OIML Issuing Authority (see 4.5).
+All the OIML test reports will then be included in the OIML type evaluation report issued by the OIML Issuing Authority (see <<sec_4.5>>).
 
+[[sec_4.4.3]]
 ==== {blank}
 
 Each OIML test report shall give, as specified in the relevant OIML Recommendation, the results of the various tests and examinations obtained for samples of the type. It shall include at least the following:
@@ -148,16 +156,19 @@ Each OIML test report shall give, as specified in the relevant OIML Recommendati
 
 . name(s), function(s) and signature(s) of person(s) authorising the OIML test report.
 
+[[sec_4.4.4]]
 ==== {blank}
 
 The OIML test report shall be dated, signed, and provided with a unique identification number by the responsible person of the Test Laboratory who authorises the report.
 
+[[sec_4.4.5]]
 ==== {blank}
 
 The OIML test report shall be in English or the national language of the Test Laboratory. Where the OIML test report is issued in a language other than English, an English translation shall be provided or authorised by the responsible OIML Issuing Authority.
-+
+
 NOTE: In some cases, translation of the OIML test report into additional languages may assist in national or regional interpretation and implementation.
 
+[[sec_4.4.6]]
 ==== {blank}
 
 The OIML test report may bear the OIML-CS logo subject to the following conditions:
@@ -172,12 +183,14 @@ The OIML test report may bear the OIML-CS logo subject to the following conditio
 
 ==== {blank}
 
-With respect to the requirements specified in 4.4.1 to 4.4.5, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in <<sec_4.4.1;to!sec_4.4.5>>, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
 
+[[sec_4.5]]
 === OIML type evaluation report
 
 NOTE: The OIML type evaluation report is prepared according to the format specified in the relevant OIML Recommendation, and includes all the relevant OIML test report(s).
 
+[[sec_4.5.1]]
 ==== {blank}
 
 The OIML type evaluation report shall give, as appropriate, the results of various tests and examinations obtained for samples of the type and shall be drawn up in the format provided in the relevant OIML Recommendation. It shall include at least the following:
@@ -190,7 +203,7 @@ The OIML type evaluation report shall give, as appropriate, the results of vario
 
 . identification of the category (e.g. check weigher, fuel dispenser);
 
-. identification of the type (e.g. reference to specific designation, description of the instrument, external and internal photographs, marking, software, inscriptions, specifications, etc. including, if applicable, the accuracy class); in the case of a family of instruments or a module or family of modules, additional information according to 4.1.2 shall be provided;
+. identification of the type (e.g. reference to specific designation, description of the instrument, external and internal photographs, marking, software, inscriptions, specifications, etc. including, if applicable, the accuracy class); in the case of a family of instruments or a module or family of modules, additional information according to <<sec_4.1.2>> shall be provided;
 
 . identification of the specific samples tested;
 
@@ -208,59 +221,71 @@ The OIML type evaluation report shall give, as appropriate, the results of vario
 
 . general conclusion as to whether the samples conform to the relevant OIML Recommendation;
 
-. annexed listing of the manufacturer's documentation submitted with the application for an OIML certificate and used for identification of the type submitted (see 4.1.2).
+. annexed listing of the manufacturer's documentation submitted with the application for an OIML certificate and used for identification of the type submitted (see <<sec_4.1.2>>).
 
+[[sec_4.5.2]]
 ==== {blank}
 
 The OIML type evaluation report shall be dated, signed by the responsible persons (e.g. evaluator and supervisors according to OIML D 32 <<OIML_D_32>> or OIML D 37 <<OIML_D_37>>) of the OIML Issuing Authority that performed the OIML type evaluation, and provided with a unique identification number.
 
+[[sec_4.5.3]]
 ==== {blank}
 
 The OIML-CS logo shall be affixed on the OIML type evaluation report.
 
+[[sec_4.5.4]]
 ==== {blank}
 
 The OIML type evaluation report shall be in English or the national language of the OIML Issuing Authority. Where the OIML type evaluation report is issued in a language other than English, an English translation shall be provided or authorised by the OIML Issuing Authority.
-+
+
 NOTE: In some cases, translation of the OIML type evaluation report into additional languages may assist in national or regional interpretation and implementation.
 
+[[sec_4.5.5]]
 ==== {blank}
 
-The OIML Issuing Authority shall keep on file a copy of the OIML type evaluation report and the information provided with the application (see also 4.5.6). By agreement with the applicant, the tested samples may be kept by the OIML Issuing Authority, the Test Laboratory(ies), or the applicant, the decision taking into account the size and, if appropriate, the commercial value of those samples.
+The OIML Issuing Authority shall keep on file a copy of the OIML type evaluation report and the information provided with the application (see also <<sec_4.5.6>>). By agreement with the applicant, the tested samples may be kept by the OIML Issuing Authority, the Test Laboratory(ies), or the applicant, the decision taking into account the size and, if appropriate, the commercial value of those samples.
 
+[[sec_4.5.6]]
 ==== {blank}
 
-If it is concluded that the samples meet all the requirements of the OIML Recommendation, an OIML certificate shall be issued in accordance with 4.6. If the samples do not meet the requirements, the applicant shall be informed in writing of the reason for the failure, and the OIML type evaluation report shall be given to the applicant, if requested.
+If it is concluded that the samples meet all the requirements of the OIML Recommendation, an OIML certificate shall be issued in accordance with <<sec_4.6>>. If the samples do not meet the requirements, the applicant shall be informed in writing of the reason for the failure, and the OIML type evaluation report shall be given to the applicant, if requested.
 
+[[sec_4.5.7]]
 ==== {blank}
 
-In the event that the samples failed a previous evaluation, the applicant may submit a new application with samples of a modified or newly identified type. New tests may be conducted but may be limited to those requirements for which the previous type was found not to comply only if evidence provided supports the conclusion that the instrument's performance for all other requirements is not likely to have been affected by the modification of the type. If the application applies to a type for which an OIML certificate has already been issued, the procedure in 7.1 applies.
+In the event that the samples failed a previous evaluation, the applicant may submit a new application with samples of a modified or newly identified type. New tests may be conducted but may be limited to those requirements for which the previous type was found not to comply only if evidence provided supports the conclusion that the instrument's performance for all other requirements is not likely to have been affected by the modification of the type. If the application applies to a type for which an OIML certificate has already been issued, the procedure in <<sec_7.1>> applies.
 
+[[sec_4.5.8]]
 ==== {blank}
 
 Fees for type evaluation and testing shall be collected by the OIML Issuing Authority and associated Test Laboratory(ies) in accordance with the national practice.
 
+[[sec_4.6]]
 === Issuance of an OIML certificate under Scheme B
 
+[[sec_4.6.1]]
 ==== {blank}
 
 If the type is found to conform to all the requirements of the relevant OIML Recommendation, an OIML certificate shall be issued after the completion of the type evaluation.
 
+[[sec_4.6.2]]
 ==== {blank}
 
 The OIML certificate shall be drawn up according to the requirements given in <<annex_a>> and the OIML certificate Template downloadable from the OIML-CS pages of the OIML website. It shall be signed by the responsible person within the OIML Issuing Authority. It shall bear the OIML-CS logo.
 
+[[sec_4.6.3]]
 ==== {blank}
 
 The OIML certificate shall be in English or in the national language of the OIML Issuing Authority. Where the OIML certificate is issued in a language other than English, an English translation shall be provided or authorised by the OIML Issuing Authority.
 
+[[sec_4.6.4]]
 ==== {blank}
 
 The OIML certificate shall have a unique OIML certificate number established according to the form specified in <<annex_b>>, indicating the following:
 
 . the relevant OIML Recommendation with the year of publication;
 
-. the character 'B' to denote Scheme B;
+. [[sec_4.6.4_b]]the character 'B' to denote Scheme B;
 
 . the ISO country code <<ISO_3166_1>> of the Member State in which the OIML certificate was issued, supplemented by the indication of the numbering of the OIML Issuing Authority for the category of instruments concerned in that Member State;
 
@@ -270,14 +295,17 @@ The OIML certificate shall have a unique OIML certificate number established acc
 
 . revision number.
 
+[[sec_4.6.5]]
 ==== {blank}
 
-The OIML certificate shall also include the identification number of the associated OIML type evaluation report and the identification number of the documentation file as indicated in the OIML Certificate Template downloadable from the OIML-CS pages of the OIML website.
+The OIML certificate shall also include the identification number of the associated OIML type evaluation report and the identification number of the documentation file as indicated in the _OIML Certificate Template_ downloadable from the OIML-CS pages of the OIML website.
 
+[[sec_4.6.6]]
 ==== {blank}
 
-The OIML certificate and the associated OIML type evaluation report and the OIML test report(s) shall be given to the applicant, who then becomes their owner. The OIML Issuing Authority shall keep a copy of the OIML certificate and the OIML type evaluation report and the OIML test report(s). (See clause 6 for registration by the BIML).
+The OIML certificate and the associated OIML type evaluation report and the OIML test report(s) shall be given to the applicant, who then becomes their owner. The OIML Issuing Authority shall keep a copy of the OIML certificate and the OIML type evaluation report and the OIML test report(s). (See <<sec_6>> for registration by the BIML).
 
+[[sec_4.6.7]]
 ==== {blank}
 
 The official date from which an OIML certificate under Scheme B can be issued by an OIML Issuing Authority for a given OIML Recommendation is the date from which the measuring instrument category and the OIML Recommendation is included in the OIML-CS.

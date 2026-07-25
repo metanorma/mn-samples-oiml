@@ -1,3 +1,4 @@
+[[sec_6]]
 == Registering an OIML certificate: Schemes A and B
 
 === {blank}
@@ -7,10 +8,10 @@ The OIML Issuing Authority shall send a copy of each OIML certificate it issues 
 === {blank}
 
 The BIML shall send the OIML Issuing Authority an invoice for the registration fee. The OIML certificate will be added to the list of registered certificates but will be withdrawn if payment is not received from the OIML Issuing Authority within 3 months of the invoice date.
-+
-NOTE 1: The BIML registration fee is set by the CIML.
-+
-NOTE 2: The OIML Issuing Authority may choose to pass the BIML registration fee on to the owner of the OIML certificate. In this case, the exact amount in Euros shall be charged.
+
+NOTE: The BIML registration fee is set by the CIML.
+
+NOTE: The OIML Issuing Authority may choose to pass the BIML registration fee on to the owner of the OIML certificate. In this case, the exact amount in Euros shall be charged.
 
 === {blank}
 
