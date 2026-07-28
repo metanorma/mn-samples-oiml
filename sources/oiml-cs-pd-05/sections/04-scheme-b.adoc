@@ -19,7 +19,7 @@ The application shall include the following:
 
 . a description of the instrument's operation, including the manufacturer's operating instructions; in the case of a module, the description of the modules' operation may include, as appropriate, information concerning the characteristics of the category of instruments of which the module may be part and information concerning the conditions for compatibility between the various modules that compose the instrument, as defined in the relevant OIML Recommendation;
 
-. a list of specified manufacturer's documentation, necessary and sufficient for the identification of the type submitted such as lists of modules (OIML D 11, 3.2 <<OIML_D_11>>) and (electronic) devices (OIML D 11, 3.3 <<OIML_D_11>>), serial or reference number for electronic components, software programs, etc.;
+. a list of specified manufacturer's documentation, necessary and sufficient for the identification of the type submitted such as lists of modules (<<OIML_D_11,clause=3.2>>) and (electronic) devices (<<OIML_D_11,clause=3.3>>), serial or reference number for electronic components, software programs, etc.;
 
 . information on, or details of, the sample(s), representative of the production envisaged, to be submitted for tests and examinations on the basis of the relevant OIML Recommendations;
 
@@ -27,7 +27,7 @@ The application shall include the following:
 
 ==== {blank}
 
-The applicants may also submit OIML test reports from a Test Laboratory listed in the OIML-CS Declaration of any OIML Issuing Authority in support of the claim that the instruments or modules meet the requirements of the relevant OIML Recommendation. The transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+The applicants may also submit OIML test reports from a Test Laboratory listed in the OIML-CS Declaration of any OIML Issuing Authority in support of the claim that the instruments or modules meet the requirements of the relevant OIML Recommendation. The transitional arrangements outlined in <<OIML_CS_PD_07,clause=5>> apply.
 
 [[sec_4.2]]
 === Consideration of the application by the OIML Issuing Authority
@@ -61,7 +61,7 @@ NOTE: The OIML Issuing Authority may also request the applicant to provide any s
 
 ==== {blank}
 
-If the application is accepted, the OIML Issuing Authority shall inform the applicant of the rules of the OIML-CS and of the number of samples of the type that are required for testing. This number is usually specified in the relevant OIML Recommendation but, if not, it shall be mutually agreed upon by the Issuing Authority and the applicant. In certain cases, the OIML Issuing Authority may be satisfied with the results of OIML test reports of a previous OIML type evaluation (see <<sec_4.3.3>>) and, therefore, it may not be necessary to test new sample(s) of the type. The OIML Issuing Authority, however, shall obtain evidence that the type for which an OIML certificate is requested is identical to the previously evaluated type. If previous OIML test reports are accepted, the OIML type evaluation report or accompanying document shall indicate which previous results were accepted and utilised. The transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+If the application is accepted, the OIML Issuing Authority shall inform the applicant of the rules of the OIML-CS and of the number of samples of the type that are required for testing. This number is usually specified in the relevant OIML Recommendation but, if not, it shall be mutually agreed upon by the Issuing Authority and the applicant. In certain cases, the OIML Issuing Authority may be satisfied with the results of OIML test reports of a previous OIML type evaluation (see <<sec_4.3.3>>) and, therefore, it may not be necessary to test new sample(s) of the type. The OIML Issuing Authority, however, shall obtain evidence that the type for which an OIML certificate is requested is identical to the previously evaluated type. If previous OIML test reports are accepted, the OIML type evaluation report or accompanying document shall indicate which previous results were accepted and utilised. The transitional arrangements outlined in <<OIML_CS_PD_07,clause=5>> apply.
 
 ==== {blank}
 
@@ -98,11 +98,11 @@ The test procedures may be abbreviated or omitted if the OIML Issuing Authority 
 
 ==== {blank}
 
-With respect to the requirements specified in subclauses <<sec_4.3.1>>, <<sec_4.3.2>> and <<sec_4.3.3>>, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in subclauses <<sec_4.3.1>>, <<sec_4.3.2>> and <<sec_4.3.3>>, the transitional arrangements outlined in <<OIML_CS_PD_07,clause=5>> apply.
 
 ==== {blank}
 
-Where the scope of the Test Laboratory (supported by their ISO/IEC 17025 <<ISO_IEC_17025>> accreditation or peer assessment) allows for testing at sites or facilities outside its permanent control, the results of such testing may be used to issue an OIML test report.
+Where the scope of the Test Laboratory (supported by their <<ISO_IEC_17025>> accreditation or peer assessment) allows for testing at sites or facilities outside its permanent control, the results of such testing may be used to issue an OIML test report.
 
 === OIML Test Report(s)
 
@@ -173,7 +173,7 @@ NOTE: In some cases, translation of the OIML test report into additional languag
 
 The OIML test report may bear the OIML-CS logo subject to the following conditions:
 
-. The format and specifications of the OIML-CS logo shall comply with the requirements of OIML B 20 <<OIML_B_20>>;
+. The format and specifications of the OIML-CS logo shall comply with the requirements of <<OIML_B_20>>;
 
 . OIML test reports bearing the OIML-CS logo shall clearly indicate the results of testing performed exclusively by an OIML-CS approved Test Laboratory and which are within their scope of accreditation or peer assessment;
 
@@ -183,7 +183,7 @@ The OIML test report may bear the OIML-CS logo subject to the following conditio
 
 ==== {blank}
 
-With respect to the requirements specified in <<sec_4.4.1;to!sec_4.4.5>>, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in <<sec_4.4.1;to!sec_4.4.5>>, the transitional arrangements outlined in <<OIML_CS_PD_07,clause=5>> apply.
 
 [[sec_4.5]]
 === OIML type evaluation report
@@ -226,7 +226,7 @@ The OIML type evaluation report shall give, as appropriate, the results of vario
 [[sec_4.5.2]]
 ==== {blank}
 
-The OIML type evaluation report shall be dated, signed by the responsible persons (e.g. evaluator and supervisors according to OIML D 32 <<OIML_D_32>> or OIML D 37 <<OIML_D_37>>) of the OIML Issuing Authority that performed the OIML type evaluation, and provided with a unique identification number.
+The OIML type evaluation report shall be dated, signed by the responsible persons (e.g. evaluator and supervisors according to <<OIML_D_32>> or <<OIML_D_37>>) of the OIML Issuing Authority that performed the OIML type evaluation, and provided with a unique identification number.
 
 [[sec_4.5.3]]
 ==== {blank}
