@@ -1,7 +1,7 @@
 [bibliography]
 == References
 
-* [[[OIML_B_18,OIML B 18:2022]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2022]
+* [[[OIML_B_18,OIML B 18]]], span:organization[OIML], span:title[_Framework for the OIML Certification System (OIML-CS)_], span:publisher[OIML], span:date.issued[2022]
 
 * [[[OIML_CS_OD_01,OIML-CS OD-01]]], span:organization[OIML], span:title[_Management Committee_], span:publisher[OIML]
 
@@ -21,14 +21,14 @@
 
 * [[[OIML_CS_PD_08,OIML-CS PD-08]]], span:organization[OIML], span:title[_Signing the OIML-CS Declaration_], span:publisher[OIML]
 
-* [[[OIML_B_20,OIML B 20:2019]]], span:organization[OIML], span:title[_Rules for the use of OIML logos_], span:publisher[OIML], span:date.issued[2019]
+* [[[OIML_B_20,OIML B 20]]], span:organization[OIML], span:title[_Rules for the use of OIML logos_], span:publisher[OIML], span:date.issued[2019]
 
-* [[[OIML_D_11,OIML D 11:2013]]], span:organization[OIML], span:title[_General Requirements for measuring instruments – Environmental conditions_], span:publisher[OIML], span:date.issued[2013]
+* [[[OIML_D_11,OIML D 11]]], span:organization[OIML], span:title[_General Requirements for measuring instruments – Environmental conditions_], span:publisher[OIML], span:date.issued[2013]
 
-* [[[ISO_IEC_17025,ISO/IEC 17025:2017]]], span:organization[ISO/IEC], span:title[_General requirements for the competence of testing and calibration laboratories_], span:publisher[ISO/IEC], span:date.issued[2017]
+* [[[ISO_IEC_17025,ISO/IEC 17025]]], span:organization[ISO/IEC], span:title[_General requirements for the competence of testing and calibration laboratories_], span:publisher[ISO/IEC], span:date.issued[2017]
 
-* [[[OIML_D_32,OIML D 32:2018]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17065 to assessment of certification bodies in legal metrology_], span:publisher[OIML], span:date.issued[2018]
+* [[[OIML_D_32,OIML D 32]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17065 to assessment of certification bodies in legal metrology_], span:publisher[OIML], span:date.issued[2018]
 
-* [[[OIML_D_37,OIML D 37:2022]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML Certification System_], span:publisher[OIML], span:date.issued[2022]
+* [[[OIML_D_37,OIML D 37]]], span:organization[OIML], span:title[_Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML Certification System_], span:publisher[OIML], span:date.issued[2022]
 
-* [[[ISO_3166_1,ISO 3166-1:2006]]], span:organization[ISO], span:title[_Codes for the representation of names of countries and their subdivisions — Part 1: Country codes_], span:publisher[ISO], span:date.issued[2006]
+* [[[ISO_3166_1,ISO 3166-1]]], span:organization[ISO], span:title[_Codes for the representation of names of countries and their subdivisions — Part 1: Country codes_], span:publisher[ISO], span:date.issued[2006]

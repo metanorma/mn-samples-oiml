@@ -12,7 +12,7 @@ The application shall include the information listed in <<sec_4.1.2>>.
 
 ==== {blank}
 
-If results of previous type evaluation reports (<<sec_4.1.2_g>>) are provided, they shall come from an OIML type evaluation report issued under Scheme A. The transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
+If results of previous type evaluation reports (<<sec_4.1.2_g>>) are provided, they shall come from an OIML type evaluation report issued under Scheme A. The transitional arrangements outlined in <<OIML_CS_PD_07,clause=6>> apply.
 
 ==== {blank}
 
@@ -51,11 +51,11 @@ The test procedures may be abbreviated or omitted if the OIML Issuing Authority 
 
 ==== {blank}
 
-With respect to the requirements specified in subclauses <<sec_5.3.1>>, <<sec_5.3.2>> and <<sec_5.3.3>>, the transitional arrangements outlined in clause 6 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in subclauses <<sec_5.3.1>>, <<sec_5.3.2>> and <<sec_5.3.3>>, the transitional arrangements outlined in <<OIML_CS_PD_07,clause=6>> apply.
 
 ==== {blank}
 
-Where the scope of the Test Laboratory (supported by their ISO/IEC 17025 <<ISO_IEC_17025>> accreditation or peer assessment) allows for testing at sites or facilities outside its permanent control, the results of such testing may be used to issue an OIML test report.
+Where the scope of the Test Laboratory (supported by their <<ISO_IEC_17025>> accreditation or peer assessment) allows for testing at sites or facilities outside its permanent control, the results of such testing may be used to issue an OIML test report.
 
 === OIML Test Report(s)
 
@@ -76,7 +76,7 @@ All the OIML test reports will then be included in the OIML type evaluation repo
 
 ==== {blank}
 
-With respect to the requirements specified in <<sec_5.4.1>>, <<sec_5.4.2>> and <<sec_5.4.3>>, the transitional arrangements outlined in clause 5 of PD-07 <<OIML_CS_PD_07>> apply.
+With respect to the requirements specified in <<sec_5.4.1>>, <<sec_5.4.2>> and <<sec_5.4.3>>, the transitional arrangements outlined in <<OIML_CS_PD_07,clause=5>> apply.
 
 === OIML Type Evaluation Report
 

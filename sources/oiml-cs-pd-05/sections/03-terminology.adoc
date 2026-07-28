@@ -1,3 +1,3 @@
 == Terminology and abbreviations
 
-The terminology and abbreviations defined in clause 3 of OIML B 18 <<OIML_B_18>> apply.
+The terminology and abbreviations defined in <<OIML_B_18,clause=3>> apply.
