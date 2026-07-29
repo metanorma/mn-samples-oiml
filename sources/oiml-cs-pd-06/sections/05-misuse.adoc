@@ -16,7 +16,7 @@ could result in the OIML certificate being deregistered by the BIML.
 
 In the event of a proposal to deregister the OIML certificate the owner of the
 OIML certificate may appeal this decision according to the procedure defined
-in Procedural Document PD-01 <<OIML_CS_PD_01>>.
+in Procedural Document <<OIML_CS_PD_01>>.
 
 === {blank}
 

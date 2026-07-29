@@ -22,7 +22,7 @@ in the applicable OIML Recommendation(s).
 
 === {blank}
 
-OIML B 18 _Framework for the OIML certification System (OIML-CS)_ <<OIML_B_18>>
-establishes the rules for a framework for the OIML-CS. OIML B 18 <<OIML_B_18>>
+<<OIML_B_18>> _Framework for the OIML certification System (OIML-CS)_
+establishes the rules for a framework for the OIML-CS. <<OIML_B_18>>
 is supplemented by a range of Operational Documents and Procedural Documents
 which are developed, maintained and approved by the OIML-CS Management Committee.
