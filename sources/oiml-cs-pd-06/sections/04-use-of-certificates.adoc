@@ -48,8 +48,7 @@ An OIML certificate shall not be used as proof of conformity of an individual
 instrument with the requirements of the relevant Recommendation.
 
 The OIML or OIML-CS logos shall not be affixed to an individual measuring instrument.
-Requirements regarding the use of the OIML and OIML-CS logo are specified in
-OIML B 20 <<OIML_B_20>>.
+Requirements regarding the use of the OIML and OIML-CS logo are specified in <<OIML_B_20>>.
 
 [[use_of_certificates]]
 === {blank}
@@ -81,7 +80,7 @@ of the matter and take any further appropriate actions. In case the test data
 are not accepted, written justification for denial shall be sent to the relevant
 OIML Issuing Authority, the manufacturer and the Executive Secretary. The OIML
 Issuing Authority may subsequently appeal this decision according to the procedure
-defined in Procedural Document PD-01 <<OIML_CS_PD_01>>.
+defined in Procedural Document <<OIML_CS_PD_01>>.
 
 === {blank}
 
