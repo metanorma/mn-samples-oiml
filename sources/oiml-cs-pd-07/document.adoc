@@ -1,5 +1,5 @@
 = Transition Arrangements under the OIML-CS
-:docidentifier: OIML-CS PD-07 Edition 4
+:docidentifier: OIML-CS PD-07
 :doctype: procedural-document
 :title-main-en: Transition Arrangements under the OIML-CS
 :edition: 2024

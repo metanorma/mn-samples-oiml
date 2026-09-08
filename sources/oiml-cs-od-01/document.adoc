@@ -1,5 +1,5 @@
 = Management Committee
-:docidentifier: OIML-CS OD-01 Edition 4
+:docidentifier: OIML-CS OD-01
 :doctype: operational-document
 :title-main-en: Management Committee
 :edition: 2024

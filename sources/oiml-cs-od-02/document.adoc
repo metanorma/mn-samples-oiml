@@ -1,5 +1,5 @@
 = Test Laboratories Forum
-:docidentifier: OIML-CS OD-02 Edition 3
+:docidentifier: OIML-CS OD-02
 :doctype: operational-document
 :title-main-en: Test Laboratories Forum
 :edition: 2024

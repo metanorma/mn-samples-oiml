@@ -1,5 +1,5 @@
 = Application and approval of OIML Issuing Authorities
-:docidentifier: OIML-CS PD-03 Edition 5
+:docidentifier: OIML-CS PD-03
 :doctype: procedural-document
 :title-main-en: Application and approval of OIML Issuing Authorities
 :edition: 2025
