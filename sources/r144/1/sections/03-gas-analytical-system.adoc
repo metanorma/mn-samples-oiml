@@ -6,7 +6,7 @@
 === General
 
 The gas analytical system consists of a means for sampling, preparation of samples,
-and measurement of the CO, NO, NO~2~ or NO~x~ concentration in the pipes and gas
+and measurement of the CO, NO, stem:[NO_2] or stem:[NO_x] concentration in the pipes and gas
 ducts of industrial enterprises, as well as a means for conveying the gas sample
 through a gas handling system. The gas analyzer incorporated in the gas handling
 system analyzes the sample and provides a signal related to the volume fraction of
