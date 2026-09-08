@@ -41,4 +41,4 @@ manifest:
     - fileref: 3/document.adoc
       identifier: R060-3
     - fileref: a/document.adoc
-      identifier: R060-annex-a
+      identifier: R060-A

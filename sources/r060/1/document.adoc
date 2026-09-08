@@ -37,7 +37,7 @@ include::sections/06-technical-requirements.adoc[]
 
 [bibliography]
 == Bibliography
-* [[[R060-2,repo:(current-metanorma-collection/R060-2)]]]
+* [[[R060-2,OIML R 60-2]]] _Load cell test procedures — Evaluation of metrological characteristics_
 
 * [[[OIML_V_1_2013,OIML V 1:2013]]] _International Vocabulary of Terms in Legal Metrology (VIML)_
 
@@ -48,3 +48,15 @@ include::sections/06-technical-requirements.adoc[]
 * [[[OIML_D_11_2008,OIML D 11:2008]]] _General requirements for electronic measuring instruments_
 
 * [[[OIML_B_18_2018,OIML B 18:2018]]] _Framework for the OIML Certification System (OIML-CS)_
+
+* [[[OIML_R_76_1,OIML R 76-1]]] _Nonautomatic weighing instruments — Part 1: Metrological and technical requirements — Tests_
+
+* [[[OIML_R_50_1,OIML R 50-1]]] _Continuous totalizing automatic weighing instruments_
+
+* [[[OIML_R_51_1,OIML R 51-1]]] _Automatic catchweighing instruments_
+
+* [[[OIML_R_61_1,OIML R 61-1]]] _Automatic gravimetric filling instruments_
+
+* [[[OIML_R_106_1,OIML R 106-1]]] _Automatic rail-weighbridges_
+
+* [[[OIML_R_107_1,OIML R 107-1]]] _Discontinuous totalizing automatic weighing instruments_
