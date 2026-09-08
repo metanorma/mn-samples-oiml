@@ -1,5 +1,5 @@
 = Signing a Declaration
-:docidentifier: OIML-CS PD-08 Edition 3
+:docidentifier: OIML-CS PD-08
 :doctype: procedural-document
 :title-main-en: Signing a Declaration
 :edition: 2024

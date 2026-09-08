@@ -1,5 +1,5 @@
 = Use of OIML Type Evaluation Reports and OIML Certificates
-:docidentifier: OIML-CS PD-06 Edition 4
+:docidentifier: OIML-CS PD-06
 :doctype: procedural-document
 :title-main-en: Use of OIML Type Evaluation Reports and OIML Certificates
 :edition: 2024

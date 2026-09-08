@@ -1,5 +1,5 @@
 = Appeals, Resolution of Complaints and Disputes
-:docidentifier: OIML-CS PD-01 Edition 3
+:docidentifier: OIML-CS PD-01
 :doctype: procedural-document
 :title-main-en: Appeals, Resolution of Complaints and Disputes
 :edition: 2024

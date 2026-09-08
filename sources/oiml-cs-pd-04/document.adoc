@@ -1,5 +1,5 @@
 = Assessment and approval of Test Laboratories
-:docidentifier: OIML-CS PD-04 Edition 5
+:docidentifier: OIML-CS PD-04
 :doctype: procedural-document
 :title-main-en: Assessment and approval of Test Laboratories
 :edition: 2025
