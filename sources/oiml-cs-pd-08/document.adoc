@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS PD-08 Edition 3
 :doctype: procedural-document
 :title-main-en: Signing a Declaration
-:edition: 3
+:edition: 2024
 :revdate: 2024-03-11
 :copyright-year: 2024
 :language: en

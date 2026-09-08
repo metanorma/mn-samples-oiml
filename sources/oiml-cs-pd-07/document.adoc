@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS PD-07 Edition 4
 :doctype: procedural-document
 :title-main-en: Transition Arrangements under the OIML-CS
-:edition: 4
+:edition: 2024
 :revdate: 2024-01-16
 :copyright-year: 2024
 :language: en

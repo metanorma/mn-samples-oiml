@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS PD-09 Edition 1
 :doctype: procedural-document
 :title-main-en: Utilizers and Associates
-:edition: 1
+:edition: 2025
 :revdate: 2025-12-24
 :copyright-year: 2025
 :language: en

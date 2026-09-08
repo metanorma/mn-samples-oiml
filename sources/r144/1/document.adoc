@@ -2,7 +2,8 @@
 :docidentifier: OIML R 144-1
 :docnumber: 144
 :partnumber: 1
-:edition: 2
+:edition: 2013
+:revdate: 2013-01-01
 :copyright-year: 2013
 :language: en
 :title-main-en: Instruments for continuous measurement of CO, NO~x~ in stationary source emissions.

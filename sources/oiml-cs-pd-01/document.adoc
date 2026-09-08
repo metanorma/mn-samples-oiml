@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS PD-01 Edition 3
 :doctype: procedural-document
 :title-main-en: Appeals, Resolution of Complaints and Disputes
-:edition: 3
+:edition: 2024
 :revdate: 2024-08-26
 :copyright-year: 2024
 :language: en
