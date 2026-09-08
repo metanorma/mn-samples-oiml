@@ -3,6 +3,10 @@
 :series: D
 :docnumber: 11
 :edition: 2013
+:revdate: 2013-01-01
+:copyright-year: 2013
+:docstage: 60
+:docsubstage: 60
 :language: en
 :doctype: international-document
 :title-main-en: General requirements for measuring instruments -- Environmental conditions

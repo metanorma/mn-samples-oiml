@@ -1,5 +1,5 @@
 = Framework for the OIML Certification System (OIML-CS)
-:docidentifier: OIML B 18:2025 (E)
+:docidentifier: OIML B 18:2025
 :series: B
 :docnumber: 18
 :edition: 2025

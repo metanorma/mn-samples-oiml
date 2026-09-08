@@ -1,5 +1,5 @@
 = Vessels for commercial transactions Amendment (2009)
-:docidentifier: Amendment (2009) to OIML R 138:2007
+:docidentifier: OIML R 138:2007+Amendment:2009
 :series: R
 :docnumber: 138
 :edition: 2009
