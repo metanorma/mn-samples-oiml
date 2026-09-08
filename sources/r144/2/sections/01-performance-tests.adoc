@@ -173,14 +173,14 @@ be carried out using the CGM with the largest volume fraction for the components
 to be determined according to <<sec-1.2>>.
 
 [[sec-1.10]]
-=== Influence of gas components other than CO, NO and NO~2~ (cross sensitivity) (R 144-1, 8.4.2)
+=== Influence of gas components other than CO, NO and stem:[NO_2] (cross sensitivity) (R 144-1, 8.4.2)
 
 The influence shall be determined by registering the measuring signal when the following
 gas mixtures are supplied to the input:
 
-* zero gas N~2~; then
-* each influencing gas alone in N~2~; and finally
-* each influencing gas together with CO, NO and NO~2~ in N~2~.
+* zero gas stem:[N_2]; then
+* each influencing gas alone in stem:[N_2]; and finally
+* each influencing gas together with CO, NO and stem:[NO_2] in stem:[N_2].
 
 The list of influencing components and their limit content are established by the
 manufacturer.

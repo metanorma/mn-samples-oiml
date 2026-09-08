@@ -5,10 +5,10 @@ bibdata:
   title:
     - language: en
       type: title-main
-      content: "Instruments for continuous measurement of CO, NO~x~ in stationary source emissions."
+      content: "Instruments for continuous measurement of CO, stem:[NO_x] in stationary source emissions."
     - language: fr
       type: title-main
-      content: "Instruments pour le mesurage continu de CO et NO~x~ dans les émissions de sources fixes."
+      content: "Instruments pour le mesurage continu de CO et stem:[NO_x] dans les émissions de sources fixes."
   type: collection
   docid:
     type: oiml

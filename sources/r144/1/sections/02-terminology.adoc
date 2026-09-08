@@ -8,8 +8,8 @@
 assembly to carry out specified gas analytical measurements (<<ISO_7504_2001>>)
 
 NOTE: In this Recommendation, a gas analytical system means a system that continuously
-measures the volume fraction of CO (carbon monoxide), NO (nitrogen monoxide ), NO~2~
-(nitrogen dioxide), or sum of nitrogen oxides (NO~x~), or measures only CO or only
+measures the volume fraction of CO (carbon monoxide), NO (nitrogen monoxide ), stem:[NO_2]
+(nitrogen dioxide), or sum of nitrogen oxides (stem:[NO_x]), or measures only CO or only
 NO and NO2, or NOx by analyzing the gas samples taken directly from the smokestack
 or gas pipe in industry. This system includes
 
@@ -44,7 +44,7 @@ assembly which enables qualitative and/or quantitative determinations (measureme
 of substances content on the basis of their chemical or physical properties (<<ISO_7504_2001>>)
 
 NOTE: A gas analyzer measures all components covered by this Recommendation
-(CO, NO, NO~2~, or NO~x~), or measures only CO, or only NO and NO~2~, or NO~x~.
+(CO, NO, stem:[NO_2], or stem:[NO_x]), or measures only CO, or only NO and stem:[NO_2], or stem:[NO_x].
 
 [[sec-2.5]]
 === input measurement signal
@@ -102,7 +102,7 @@ means to set the indication of the gas analyzer to zero
 === means for adjustment of a gas analyzer by the calibration gas mixture
 
 means to adjust the indication of the gas analyzer to the value of the CO, NO and
-NO~2~ volume fraction in a CGM
+stem:[NO_2] volume fraction in a CGM
 
 [[sec-2.10]]
 === internal adjustment means
@@ -124,7 +124,7 @@ being supplied to the input, is within the permissible limits.
 === response time
 
 time interval between the instant of a stepwise concentration change of the component
-being measured (CO, NO, NO~2~ or NO~x~) and the instant at which the signal reaches
+being measured (CO, NO, stem:[NO_2] or stem:[NO_x]) and the instant at which the signal reaches
 90 % of its stable value
 
 [[sec-2.13]]
@@ -200,7 +200,7 @@ continuous or incremental change over time in the indication, due to changes in 
 metrological properties of a measuring instrument (<<OIML_V_2_2012,clause=4.21>>)
 
 NOTE: In this Recommendation, "drift" means a change in the indication which occurs
-during a stated period of time at a given concentration of CO, NO and NO~2~ in a
+during a stated period of time at a given concentration of CO, NO and stem:[NO_2] in a
 sample to be analyzed.
 
 [[sec-2.24]]

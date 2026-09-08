@@ -73,7 +73,7 @@ The appropriate safety regulations shall be followed when handling the gases.
 [[sec-A.2.1]]
 ==== {blank}
 
-The volume fraction for the components to be determined in N~2~ in cylinders or in
+The volume fraction for the components to be determined in stem:[N_2] in cylinders or in
 a gas mixture obtained from the generator shall be given in parts per million (ppm)
 (see <<sec-4.1>>).
 
