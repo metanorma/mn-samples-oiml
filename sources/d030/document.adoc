@@ -1,5 +1,5 @@
 = Guide for the application of ISO/IEC 17025 to the assessment of Testing Laboratories involved in legal metrology
-:docidentifier: OIML D 30:2020
+:docidentifier: OIML D 30
 :docnumber: 30
 :edition: 2020
 :revdate: 2020-01-01

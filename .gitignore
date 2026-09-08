@@ -22,3 +22,5 @@ sources/**/sections/*.html
 *.pdf.err.lck
 *.pdf.xsl
 *_tmp
+sources/oimlsmart-extract/
+sources/.pipeline-state.json

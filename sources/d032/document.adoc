@@ -1,5 +1,5 @@
 = Guide for the application of ISO/IEC 17065 to assessment of certification bodies in legal metrology
-:docidentifier: OIML D 32:2018
+:docidentifier: OIML D 32
 :docnumber: 32
 :edition: 2018
 :revdate: 2018-01-01
