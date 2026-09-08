@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS OD-02 Edition 3
 :doctype: operational-document
 :title-main-en: Test Laboratories Forum
-:edition: 3
+:edition: 2024
 :revdate: 2024-03-11
 :copyright-year: 2024
 :language: en

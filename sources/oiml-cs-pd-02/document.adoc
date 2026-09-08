@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS PD-02 Edition 3
 :doctype: procedural-document
 :title-main-en: Approval of Legal Metrology Experts and Management System Experts
-:edition: 3
+:edition: 2022
 :revdate: 2022-11-14
 :copyright-year: 2022
 :language: en

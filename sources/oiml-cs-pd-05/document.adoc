@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS PD-05 Edition 6 (Amendment 1)
 :doctype: procedural-document
 :title-main-en: Processing an application for an OIML Type Evaluation Report and OIML Certificate
-:edition: 6
+:edition: 2024
 :revdate: 2024-08-27
 :copyright-year: 2024
 :language: en

@@ -2,7 +2,7 @@
 :docidentifier: OIML-CS CID-01 Edition 6
 :doctype: clarification-document
 :title-main-en: Clarifications and Interpretations of OIML-CS Documents
-:edition: 6
+:edition: 2024
 :revdate: 2024-09-19
 :copyright-year: 2024
 :language: en

@@ -2,7 +2,7 @@
 :docidentifier: OIML D 9
 :series: D
 :docnumber: 9
-:edition: 2
+:edition: 2004
 :revdate: 2004-01-01
 :copyright-year: 2004
 :language: en
