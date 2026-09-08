@@ -24,3 +24,4 @@ sources/**/sections/*.html
 *_tmp
 sources/oimlsmart-extract/
 sources/.pipeline-state.json
+.claude/
