@@ -1,0 +1,53 @@
+= Water meters for cold potable water and hot water
+:docidentifier: OIML R 49-1
+:series: R
+:docnumber: 49
+:partnumber: 1
+:edition: 2024
+:revdate: 2024
+:copyright-year: 2024
+:language: en
+:title-main-en: Water meters for cold potable water and hot water.
+:title-part-en: Metrological and technical requirements
+:title-main-fr: Compteurs d'eau potable froide et d'eau chaude.
+:title-part-fr: Exigences métrologiques et techniques
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 8
+:technical-committee: Measurement of quantities of fluids
+:subcommittee-number: 5
+:subcommittee: Water meters
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normative-references.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/04-metrological-requirements.adoc[]
+
+include::sections/05-electronic-devices.adoc[]
+
+include::sections/06-technical-requirements.adoc[]
+
+include::sections/07-metrological-controls.adoc[]
+
+include::sections/aa-performance.adoc[]
+
+include::sections/ab-checking-facilities.adoc[]
+
+include::sections/ac-permissible-errors.adoc[]
+
+include::sections/ad-requirements.adoc[]
+
+include::sections/ae-comparison-table.adoc[]
+
+include::sections/b0-bibliography.adoc[]

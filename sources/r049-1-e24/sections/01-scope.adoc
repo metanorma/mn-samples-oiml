@@ -1,0 +1,18 @@
+== Scope
+
+This part of OIML R 49 specifies the metrological and technical requirements
+for water meters for cold potable water and hot water flowing through a fully
+charged, closed conduit. These water meters incorporate devices which indicate
+the accumulated volume.
+
+In addition to water meters based on mechanical principles, this International
+Recommendation applies to devices based on electrical or electronic principles,
+and mechanical principles incorporating electronic devices, used to measure
+the volume of cold potable water and hot water.
+
+This International Recommendation also applies to electronic ancillary devices.
+Ancillary devices are optional. However, it is possible for national or regional
+regulations to render some ancillary devices mandatory in relation to the utilization
+of water meters.
+
+NOTE: Any national regulations apply in the country of use.

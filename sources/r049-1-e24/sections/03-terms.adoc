@@ -1,0 +1,696 @@
+
+[heading="terms and definitions"]
+== Terms and definitions
+
+[.boilerplate]
+--
+For the purposes of this International Recommendation, the following terms and
+definitions apply.
+
+NOTE: This terminology conforms to that used in <<ISO_IEC_Guide_99_2007>>, <<OIML_V_1_2022>>
+and <<OIML_D_11_2013>>. Modified versions of some terms defined in References
+[1], [7] and [8] are listed here.
+
+NOTE: The following terms are referenced in the other parts of the <<ISO_4064_2_2024>>
+series but are not cited within the main body of this Recommendation:
+{{tariff control device}}, {{pre-setting device}}, {{meter for two constant partners}},
+{{in-line meter}}, {{cartridge meter connection interface}},
+{{meter with exchangeable metrological module}}, {{connection interface for
+meters with exchangeable metrological modules}}, {{non-adjustable water meter}},
+{{adjustable water meter}}, {{initial intrinsic error}}, {{resolution of a displaying device}},
+{{overload flow rate}}, {{transitional flow rate}}, {{combination meter changeover flow rate}},
+{{minimum admissible temperature}}, {{maximum admissible temperature}}, {{working pressure}},
+{{test flow rate}}, {{nominal diameter}}, {{temperature stability}}, {{preconditioning}},
+{{recovery}}, {{automatic checking facility}}, {{permanent automatic checking facility}}
+type P automatic checking facility, {{intermittent automatic checking facility}}
+type I automatic checking facility, {{non-automatic checking facility}}
+type N checking facility.
+
+NOTE: Attention is drawn to the fact that the term "verification" or
+"initial verification" is equivalent to the term "conformity assessment"
+in the context of application of the European Measuring Instruments Directive.
+--
+
+[heading="terms and definitions"]
+=== Water meter and its constituents
+
+[[scls-3-1-1]]
+==== water meter
+
+instrument intended to measure, memorize, and display the volume of water passing
+through the {{measurement transducer}} at {{metering conditions}}
+
+NOTE: A water meter includes at least a measurement transducer, a calculator
+(including adjustment or correction devices, if present) and an indicating device.
+These three devices can be in different housings.
+
+NOTE: A water meter may be a {{combination meter}}.
+
+NOTE: In this Recommendation a water meter is also referred to as a "meter".
+
+==== measurement transducer
+
+part of the meter that transforms the {{flow rate}} or volume of water to be
+measured into signals which are passed to the {{calculator}} and includes the
+{{sensor}}
+
+NOTE: The measurement transducer may function autonomously or use an external
+power source and may be based on a mechanical, electrical or electronic principle.
+
+==== sensor
+
+element of a meter that is directly affected by a phenomenon, body or substance
+carrying a quantity to be measured
+
+[.source]
+<<ISO_IEC_Guide_99_2007,clause=3.8>>, "meter" replaces "measuring system"; original
+note removed; original examples removed, "Note" added.
+
+NOTE: For a water meter, the sensor may be a disc, piston, wheel or turbine
+element, the electrodes on an electromagnetic meter, or another element.
+The element senses the flow rate or volume of water passing through the meter
+and is referred to as a "flow sensor" or "volume sensor".
+
+==== calculator
+
+part of the meter that transforms the output signals from the
+{{measurement transducer,measurement transducer(s)}} and, possibly, from associated
+measuring instruments and stores the results in memory until they are used
+
+NOTE: The gearing is considered to be the calculator in a mechanical meter.
+
+NOTE: The calculator may be capable of communicating both ways with ancillary
+devices.
+
+[[scls-3-1-5]]
+==== indicating device
+
+part of the meter that provides an indication corresponding to the volume of
+water passing through the meter
+
+NOTE: For the definition of the term "indication", see <<ISO_IEC_Guide_99_2007,clause=4.1>>.
+
+NOTE: In this Recommendation, the volume of water passing through the meter
+refers to the accumulated volume.
+
+==== adjustment device
+
+part of the meter that allows an adjustment of the meter such that the error
+curve of the meter is generally shifted parallel to itself to fit in the envelope
+of the {{maximum permissible error,maximum permissible error(s)}}
+
+NOTE: For the definition of the term "adjustment of a measuring system",
+see <<ISO_IEC_Guide_99_2007,clause=3.11>>.
+
+==== correction device
+
+device connected to or incorporated in the meter for automatic correction of
+the volume of water at {{metering conditions}}, by taking into account the
+{{flow rate}} and/or the characteristics of the water to be measured and the
+pre-established calibration curves
+
+NOTE: For the definition of the term "correction", see <<ISO_IEC_Guide_99_2007,clause=2.53>>.
+
+[[scls-3-1-8]]
+==== ancillary device
+
+device intended to perform a specific function, directly involved in elaborating,
+transmitting or displaying measured values
+
+NOTE: For the definition of "measured value", see <<ISO_IEC_Guide_99_2007,clause=2.10>>.
+
+[NOTE]
+====
+The main ancillary devices are:
+
+. zero-setting device;
+
+. price-indicating device;
+
+. repeating indicating device;
+
+. printing device;
+
+. memory device;
+
+. tariff control device;
+
+. pre-setting device;
+
+. self-service device;
+
+. flow sensor movement detector (for detecting movement of the flow sensor before
+this is clearly visible on the indicating device);
+
+. remote or automatic reading device (which may be incorporated permanently
+or added temporarily).
+====
+
+NOTE: Depending on national regulations, ancillary devices may be subject to
+legal metrological control.
+
+==== tariff control device
+
+device that allocates measured values into different registers depending on
+tariff or other criteria, each register having the possibility to be read individually
+
+==== pre-setting device
+
+device that permits the selection of the quantity of water to be measured and
+which automatically stops the flow of water after the selected quantity has
+been measured
+
+==== associated measuring instrument
+
+instrument connected to the {{calculator}} or the {{correction device}} for
+measuring a quantity, characteristic of water, with a view to making a correction
+and/or a conversion
+
+==== meter for two constant partners
+
+meter that is permanently installed and only used for deliveries from one supplier
+to one customer
+
+==== in-line meter
+
+type of meter that is fitted into a closed conduit by means of the meter end
+connections provided
+
+NOTE: The end connections may be flanged or threaded.
+
+==== complete meter
+
+meter whose {{measurement transducer}}, {{calculator}}, and {{indicating device}}
+are not separable
+
+==== combined meter
+
+meter whose {{measurement transducer}}, {{calculator}}, and {{indicating device}}
+are separable
+
+==== combination meter
+
+meter comprising one large meter, one small meter, and a changeover device that,
+depending on the magnitude of the {{flow rate}} passing through the meter,
+automatically directs the flow through either the small or the large meter,
+or both
+
+NOTE: The meter reading is obtained from two independent totalizers, or from
+one totalizer which adds up the values from both meters.
+
+==== equipment under test
+alt:[EUT]
+
+{{complete meter}}, sub-assembly or {{ancillary device}} that is subjected to
+a test
+
+==== concentric meter
+
+type of meter that is fitted into a closed conduit by means of a manifold
+
+NOTE: The inlet and outlet passages of the meter and the manifold are coaxial
+at the interface between them.
+
+==== concentric meter manifold
+
+pipe fitting specific to the connection of a {{concentric meter}}
+
+==== cartridge meter
+
+type of meter that is fitted into a closed conduit by means of an intermediate
+fitting called a connection interface
+
+NOTE: The inlet and outlet passages of the meter and the connection interface
+are either concentric or axial (see <<OIML_R_49_4_2024>>).
+
+==== cartridge meter connection interface
+
+pipe fitting specific to the connection of an axial or concentric
+{{cartridge meter}}
+
+==== meter with exchangeable metrological module
+
+meter comprising a connection interface and an {{exchangeable metrological module}}
+from the same {{type approval}}
+
+==== exchangeable metrological module
+
+self-contained module comprising a {{measurement transducer}}, a {{calculator}}
+and an {{indicating device}}
+
+==== connection interface for meters with exchangeable metrological modules
+
+pipe fitting specific to the connection of exchangeable metrological modules
+
+==== non-adjustable water meter
+
+{{water meter}} whose indication cannot be altered in any way (e.g. without
+changing the internal dimensions and/or method of operation), and which has
+no {{adjustment device}} or {{correction device}}.
+
+NOTE: This category should also include mechanical meters with an internal adjustment
+device where the adjustment cannot be altered at initial verification stage
+as the meter would need to be dismantled.
+
+NOTE: The meter should not have a correction device, i.e. the indicating device
+of the meter should either be purely mechanical or be electronic but with a
+constant multiplying factor applied to the indication and set to the same value
+for all meters (such as a device which counts the number of rotations of the
+shaft and multiplies by a fixed value to give total volume passed).
+
+==== adjustable water meter
+
+{{water meter}} that is connected to or incorporates an adjustment and/or {{correction device}}
+
+==== software-controlled water meter
+
+{{water meter}} that incorporates and utilizes legally relevant software modules.
+
+[heading="terms and definitions"]
+=== Metrological characteristics
+
+[[scls-3-2-1]]
+==== actual volume
+alt:[stem:[V_a]]
+
+total volume of water passing through the meter, disregarding the time taken
+
+NOTE: This is the measurand.
+
+NOTE: The actual volume is calculated from a reference volume as determined
+by a suitable measurement standard, taking into account differences in metering
+conditions, as appropriate.
+
+[[scls-3-2-2]]
+==== indicated volume
+alt:[stem:[V_i]]
+
+volume of water indicated by the meter, corresponding to the actual volume
+
+==== primary indication
+
+indication which is subject to legal metrological control
+
+==== error
+
+measured quantity value minus a reference quantity value
+
+[.source]
+<<ISO_IEC_Guide_99_2007,clause=2.16>>, "error" replaces "measurement error";
+original notes removed; "Note 1" added, "Note 2" added.
+
+NOTE: For the application of this part of ISO 4064|OIML R 49, the indicated
+volume is considered as the measured quantity value and the actual volume as
+the reference quantity value. The difference between indicated volume and actual
+volume is referred to as: error (of indication).
+
+NOTE: In this Recommendation, the error (of indication) is expressed as a percentage
+of the actual volume, and is equal to: stem:[((V_"i" - V_"a") / V_"a") xx 100 %]
+
+==== maximum permissible error
+alt:[MPE]
+
+extreme value of measurement {{error}}, with respect to a known reference quantity
+value, permitted by specifications or regulations for a given meter
+
+[.source]
+<<ISO_IEC_Guide_99_2007,clause=4.26>>, "meter" replaces "measurement, measuring
+instrument, or measuring system"; original notes removed.
+
+==== intrinsic error
+
+{{error}} of a meter determined under {{reference condition,reference condition(s)}}
+
+[.source]
+<<OIML_D_11_2013,clause=3.8>>, "a meter" replaces "indication".
+
+==== initial intrinsic error
+
+{{intrinsic error}} of a meter as determined prior to
+{{performance test,performance test(s)}} and {{durability}} evaluations
+
+[.source]
+<<OIML_D_11_2013,clause=3.9>>, "meter" replaces "measuring instrument".
+
+==== fault
+
+difference between the {{error}} (of indication) and the {{intrinsic error}}
+of a meter
+
+[.source]
+<<OIML_D_11_2013,clause=3.10>>, "of indication" placed in parentheses; "meter"
+replaces "measuring instrument"; original notes removed.
+
+==== significant fault
+
+{{fault}} greater than the value specified in this part of ISO 4064|OIML R 49
+
+NOTE: See <<scls-5-1-2>>, which specifies the value of a significant fault.
+
+==== durability
+
+ability of a meter to maintain its performance characteristics over a period
+of use
+
+[.source]
+<<OIML_D_11_2013,clause=3.18>>, "meter" replaces "measuring instrument".
+
+==== metering conditions
+
+conditions of the water, the volume of which is to be measured, at the point
+of measurement
+
+[example]
+Water temperature, water pressure.
+
+==== first element of an indicating device
+
+element which, in an {{indicating device}} comprising several elements, carries
+the graduated scale with the verification scale interval
+
+==== verification scale interval
+
+lowest value scale division of the {{first element of an indicating device}}
+
+==== resolution of a displaying device
+
+smallest difference between displayed indications that can be meaningfully distinguished
+
+[.source]
+<<ISO_IEC_Guide_99_2007,clause=4.15>>, "Note 1" added.
+
+NOTE: For a digital indicating device, this is the change in the indication
+when the least significant digit changes by one step.
+
+[heading="terms and definitions"]
+=== Operating conditions
+
+==== flow rate
+alt:[stem:[Q]]
+
+stem:[Q = ("d"V)//("d"t)] where stem:[V] is {{actual volume}} and stem:[t] is
+the time taken for this volume to pass through the meter
+
+NOTE: <<ISO_4006_1991,clause=4.1.2>> prefers the use of the symbol stem:[q_"V"]
+for this quantity, but stem:[Q] is used in this Recommendation as it is well
+established in the industry.
+
+==== permanent flow rate
+alt:[stem:[Q_3]]
+
+highest {{flow rate}} within the {{rated operating condition,rated operating condition(s)}}
+at which the meter is to operate within the {{maximum permissible error,maximum permissible error(s)}}
+
+NOTE: In this Recommendation, flow rate is expressed in stem:["unitsml(m^3/h)"].
+See <<scls-4-1-3>>.
+
+==== overload flow rate
+alt:[stem:[Q_4]]
+
+highest {{flow rate}} at which the meter is to operate for a short period of
+time, within the {{maximum permissible error,maximum permissible error(s)}},
+while maintaining its metrological performance when it is subsequently operating
+within the {{rated operating condition,rated operating condition(s)}}
+
+NOTE: the definition of short period of time can vary between economies and/or
+applications, but for example stem:[2 "unitsml(h)"] in a stem:[24 "unitsml(h)"]
+period.
+
+==== transitional flow rate
+alt:[stem:[Q_2]]
+
+{{flow rate}} between the {{permanent flow rate}} and the {{minimum flow rate}}
+that divides the flow rate range into two zones, the upper flow rate zone and
+the lower flow rate zone, each characterized by its own
+{{maximum permissible error,maximum permissible error(s)}}
+
+==== minimum flow rate
+alt:[stem:[Q_1]]
+
+lowest {{flow rate}} at which the meter is to operate within the
+{{maximum permissible error,maximum permissible error(s)}}
+
+==== combination meter changeover flow rate
+alt:[stem:[Q_x]]
+
+{{flow rate}} at which the flow in the larger meter stops with decreasing flow
+rate (stem:[Q_{"x1"}]) or starts with increasing flow rate (stem:[Q_{"x2"}])
+
+==== minimum admissible temperature
+alt:[mAT]
+
+minimum water temperature that a meter can withstand permanently, within its
+{{rated operating condition,rated operating condition(s)}}, without deterioration
+of its metrological performance
+
+NOTE: mAT is the lower of the rated operating conditions for temperature.
+
+==== maximum admissible temperature
+alt:[MAT]
+
+maximum water temperature that a meter can withstand permanently, within its
+{{rated operating condition,rated operating condition(s)}}, without deterioration
+of its metrological performance
+
+NOTE: MAT is the upper of the rated operating conditions for temperature.
+
+==== maximum admissible pressure
+alt:[MAP]
+
+maximum internal pressure that a meter can withstand permanently, within its
+{{rated operating condition,rated operating condition(s)}}, without deterioration
+of its metrological performance
+
+==== working temperature
+stem:[T_"w"]
+
+water temperature in the pipe measured upstream of the meter
+
+==== working pressure
+stem:[p_"w"]
+
+average water pressure (gauge) in the pipe measured upstream and downstream
+of the meter
+
+==== pressure loss
+alt:[stem:[Delta p]]
+
+irrecoverable decrease in pressure, at a given {{flow rate}}, caused by the
+presence of the meter in the pipeline
+
+==== test flow rate
+
+mean {{flow rate}} during a test, calculated from the indications of a calibrated
+reference device
+
+==== nominal diameter
+alt:[DN]
+
+alphanumeric designation of size for components of a pipework system, which
+is used for reference purposes
+
+NOTE: The nominal diameter is expressed by the letters DN followed by a dimensionless
+whole number which is indirectly related to the physical size, in millimetres,
+of the bore or outside diameter of the end connections.
+
+NOTE: The number following the letters DN does not represent a measurable value
+and should not be used for calculation purposes except where specified in the
+relevant standard.
+
+NOTE: In those standards which use the DN designation system, any relationship
+between DN and component dimensions should be given, e.g. DN/OD or DN/ID.
+
+[heading="terms and definitions"]
+=== Test conditions
+
+==== influence quantity
+
+quantity that, in a direct measurement, does not affect the quantity that is
+actually measured, but affects the relation between the indication and the measurement result
+
+[.source]
+<<ISO_IEC_Guide_99_2007,clause=2.52>>, original examples and notes removed;
+"EXAMPLE" added.
+
+[example]
+The ambient temperature of the meter is an influence quantity, whereas the temperature of the water passing through the meter affects the measurand.
+
+==== influence factor
+
+{{influence quantity}} having a value which ranges within the
+{{rated operating condition,rated operating condition(s)}} of a meter specified
+in this part of ISO 4064|OIML R 49
+
+[.source]
+<<OIML_D_11_2013,clause=3.15.1>>, "meter" replaces "measuring instrument"; "specified
+in this part of ISO 4064|OIML R 49" is added; original notes removed.
+
+==== disturbance
+
+{{influence quantity}} having a value within the limits specified in this part
+of ISO 4064|OIML R 49, but outside the specified
+{{rated operating condition,rated operating condition(s)}} of the meter
+
+[.source]
+<<OIML_D_11_2013,clause=3.15.2>>, "this part of ISO 4064|OIML R 49" replaces
+"the applicable International Recommendation"; "meter" replaces "measuring instrument";
+original notes removed; "Note 1" added.
+
+NOTE: An influence quantity is a disturbance if the rated operating conditions
+for that influence quantity are not specified.
+
+==== rated operating condition
+alt:[ROC]
+
+operating condition requiring fulfilment during measurement in order that
+a meter perform as designed
+
+[.source]
+<<ISO_IEC_Guide_99_2007,clause=4.9>>, "requiring fulfilment" replaces
+"that must be fulfilled"; "meter" replaces "measuring instrument or measuring
+system"; "Note" replaces the original note.
+
+NOTE: The rated operating conditions specify intervals for the flow rate and
+for the influence quantities for which the errors (of indication) are required
+to be within the maximum permissible errors.
+
+==== reference condition
+
+operating condition prescribed for evaluating the performance of a meter or
+for comparison of measurement results
+
+[.source]
+<<ISO_IEC_Guide_99_2007,clause=4.11>>, "meter" replaces "measuring instrument
+or measuring system"; original notes removed.
+
+==== performance test
+
+test intended to verify whether the {{equipment under test}} is able to accomplish
+its intended functions
+
+[.source]
+<<OIML_D_11_2013,clause=3.21.4>>
+
+==== durability test
+
+test intended to verify whether the {{equipment under test}} is able to maintain
+its performance characteristics over a period of use
+
+[.source]
+<<OIML_D_11_2013,clause=3.21.5>>
+
+==== temperature stability
+
+condition in which all parts of the {{equipment under test}} have a temperature
+within stem:[3 "unitsml(degC)"] of each other, or as otherwise specified in
+the relevant specification of its final temperature
+
+==== preconditioning
+
+treatment of the {{equipment under test}} with the objective of eliminating
+or partially counteracting the effects of its previous history
+
+NOTE: Where called for, this is the first process in a test procedure.
+
+==== conditioning
+
+exposure of the {{equipment under test}} to an environmental condition
+({{influence factor}} or {{disturbance}}) in order to determine the effect of
+such a condition on it
+
+==== recovery
+
+treatment of the {{equipment under test}}, after {{conditioning}}, in order
+that its properties can be stabilized before measurement
+
+==== type evaluation
+
+systematic examination and testing of the performance of one or more specimens
+of an identified type of measuring instruments against documented requirements,
+the results of which are contained in the evaluation report, in order to determine
+whether the type may be approved
+
+==== type approval
+
+decision of legal relevance, based on the evaluation report, that the type of
+a measuring instrument complies with the relevant statutory requirements and
+is suitable for use in the regulated area in such a way that it is expected
+to provide reliable measurement results over a defined period of time
+
+[heading="terms and definitions"]
+=== Electronic and electrical equipment
+
+==== electronic device
+
+device employing electronic sub-assemblies and performing a specific function,
+usually manufactured as a separate unit and capable of being tested independently
+
+NOTE: An electronic device may be a complete meter or a part of a meter, e.g.
+as defined in <<scls-3-1-1>> to <<scls-3-1-5>> and <<scls-3-1-8>>.
+
+==== electronic sub-assembly
+
+part of an {{electronic device}}, employing {{electronic component,electronic
+component(s)}} and having a recognizable function of its own
+
+==== electronic component
+
+smallest physical entity that uses electron or hole conduction in semi-conductors,
+gases or in a vacuum
+
+[[scls-3-5-4]]
+==== checking facility
+
+facility that is incorporated in a meter and which enables
+{{significant fault,significant fault(s)}} to be detected and acted upon
+
+[.source]
+<<OIML_D_11_2013,clause=3.19>>, "meter" replaces "measuring instrument"; "Note 3" added.
+
+[NOTE]
+====
+Typically, checking facilities detect and act upon:
+
+* incorrect functioning of a specific device of the meter, and/or
+
+* disturbed communication between specific devices of the meter.
+====
+
+NOTE: "Act upon" refers to any adequate response by the measuring instrument
+(for example: a luminous signal, an acoustic signal, interruption or blocking
+of the measurement process, etc.).
+
+NOTE: The checking of a transmission device aims to verify whether all the information which is transmitted (and only that information) is fully received by the receiving equipment.
+
+==== automatic checking facility
+
+{{checking facility}} that operates without the intervention of an operator
+
+[.source]
+<<OIML_D_11_2013,clause=3.19.1>>.
+
+==== permanent automatic checking facility
+alt:[type P automatic checking facility]
+
+{{automatic checking facility}} that operates at each measurement cycle
+
+[.source]
+<<OIML_D_11_2013,clause=3.19.1.1>>, Synonym presentation.
+
+==== intermittent automatic checking facility
+alt:[type I automatic checking facility]
+
+{{automatic checking facility}} that operates at certain time intervals or per
+fixed number of measurement cycles
+
+[.source]
+<<OIML_D_11_2013,clause=3.19.1.2>>, Synonym presentation.
+
+==== non-automatic checking facility
+
+alt:[type N checking facility]
+
+{{checking facility}} that requires the intervention of an operator
+
+[.source]
+<<OIML_D_11_2013,clause=3.19.2>>, Synonym presentation.

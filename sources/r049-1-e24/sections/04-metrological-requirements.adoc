@@ -1,0 +1,254 @@
+== Metrological requirements
+
+=== Values of stem:[Q_1], stem:[Q_2], stem:[Q_3], and stem:[Q_4]
+
+==== {blank}
+
+The flow rate characteristics of a water meter shall be defined by the values
+of stem:[Q_1], stem:[Q_2], stem:[Q_3], and stem:[Q_4].
+
+==== {blank}
+
+A water meter shall be designated by the numerical value of stem:[Q_3] in stem:["unitsml(m^3/h)"] and the ratio stem:[Q_3//Q_1].
+
+[[scls-4-1-3]]
+==== {blank}
+
+The value of stem:[Q_3], expressed in stem:["unitsml(m^3/h)"], shall be chosen
+from the following list:
+
+[cols="5*",options="noheader,unnumbered"]
+|===
+| stem:[1]    | stem:[1.6]  | stem:[2.5]  | stem:[4]    | stem:[6.3]
+| stem:[10]   | stem:[16]   | stem:[25]   | stem:[40]   | stem:[63]
+| stem:[100]  | stem:[160]  | stem:[250]  | stem:[400]  | stem:[630]
+| stem:[1000] | stem:[1600] | stem:[2500] | stem:[4000] | stem:[6300]
+|===
+
+The list may be extended to higher or lower values in the series.
+
+[[scls-4-1-4]]
+==== {blank}
+
+The value of the ratio stem:[Q_3//Q_1] shall be chosen from the following list:
+
+[cols="5*",options="noheader,unnumbered"]
+|===
+| stem:[40]  | stem:[50]  | stem:[63]  | stem:[80]  | stem:[100]
+| stem:[125] | stem:[160] | stem:[200] | stem:[250] | stem:[315]
+| stem:[400] | stem:[500] | stem:[630] | stem:[800] | stem:[1000]
+|===
+
+The list may be extended to higher values in the series.
+
+NOTE: The values in <<scls-4-1-3>> and <<scls-4-1-4>> are taken from <<ISO_3_1973>>,
+R 5 and R 10 lines, respectively.
+
+==== {blank}
+
+The ratio stem:[Q_2//Q_1] shall be 1.6.
+
+==== {blank}
+
+The ratio stem:[Q_4//Q_3] shall be 1.25.
+
+[[scls-4-2]]
+=== Accuracy class and maximum permissible error
+
+==== General
+
+A water meter shall be designed and manufactured such that its errors (of indication)
+do not exceed the maximum permissible errors (MPEs) as defined in <<scls-4-2-2>>
+or <<scls-4-2-3>> under rated operating conditions.
+
+A water meter shall be designated as either accuracy class 1 or accuracy
+class 2, according to the requirements of <<scls-4-2-2>> or <<scls-4-2-3>>.
+
+The meter manufacturer shall specify the accuracy class.
+
+NOTE: Guidance for in-service meter MPE is provided in <<annex-c>>.
+
+[[scls-4-2-2]]
+==== Accuracy class 1 water meters
+
+The MPE for the upper flow rate zone (stem:[Q_2 <= Q <= Q_4]) is
+stem:[pm 1 %], for temperatures from stem:[0.1 "unitsml(degC)"] to
+stem:[30 "unitsml(degC)"], and stem:[pm 2 %] for temperatures greater than
+stem:[30 "unitsml(degC)"].
+
+The MPE for the lower flow rate zone (stem:[Q_1 <= Q < Q_2]) is stem:[pm 3 %]
+regardless of the temperature range.
+
+[[scls-4-2-3]]
+==== Accuracy class 2 water meters
+
+The MPE for the upper flow rate zone (stem:[Q_2 <= Q <= Q_4]) is stem:[pm 2 %],
+for temperatures from stem:[0.1 "unitsml(degC)"] to stem:[30 "unitsml(degC)"],
+and stem:[pm 3 %] for temperatures greater than stem:[30 "unitsml(degC)"].
+
+The MPE for the lower flow rate zone (stem:[Q_1 <= Q < Q_2]) is stem:[pm 5 %]
+regardless of the temperature range.
+
+==== Meter temperature classes
+
+The meters fall under water temperature classes corresponding to the various
+ranges, chosen by the manufacturer from the values given in <<table-1>>.
+
+The water temperature shall be measured at the inlet of the meter.
+
+[[table-1]]
+.Meter temperature classes
+[cols="1,1,1",options="header"]
+|===
+| Class | mAT stem:["unitsml(degC)"] | MAT stem:["unitsml(degC)"]
+| T30     | 0.1 | 30
+| T50     | 0.1 | 50
+| T70     | 0.1 | 70
+| T90     | 0.1 | 90
+| T130    | 0.1 | 130
+| T180    | 0.1 | 180
+| T30/70  | 30  | 70
+| T30/90  | 30  | 90
+| T30/130 | 30  | 130
+| T30/180 | 30  | 180
+|===
+
+[[scls-4-2-5]]
+==== Water meters with separable calculator and measurement transducer
+
+The calculator (including indicating device) and the measurement transducer
+(including flow sensor or volume sensor) of a water meter, where they are separable
+and interchangeable with other calculators and measurement transducers of the
+same or different designs, may be the subject of separate type approvals.
+The MPEs of the combined indicating device and measurement transducer shall
+not exceed the values given in <<scls-4-2-2>> or <<scls-4-2-3>> according to
+the accuracy class of the meter.
+
+==== Relative error of indication
+
+The relative error (of indication) is expressed as a percentage,
+and is equal to:
+
+stem:[((V_"i" - V_"a") / V_"a") xx 100 %] (1)
+
+where stem:[V_"a"] is as defined in <<scls-3-2-1>> and stem:[V_"i"] is as
+defined in <<scls-3-2-2>>.
+
+[[scls-4-2-7]]
+==== Reverse flow
+
+The manufacturer shall specify whether or not a water meter is designed to measure
+reverse flow.
+
+If a meter is designed to measure reverse flow, the volume passed during reverse
+flow shall either be subtracted from the indicated volume or the meter shall
+record it separately. The MPE of <<scls-4-2-2>> or <<scls-4-2-3>> shall be met
+for both forward and reverse flow. For meters designed to measure reverse flow,
+the permanent flow rate and the measuring range may be different in each direction.
+
+If a meter is not designed to measure reverse flow, the meter shall either prevent
+reverse flow or it shall withstand accidental reverse flow at a flow rate up
+to stem:[Q_3] without deterioration or change in its metrological properties
+for forward flow.
+
+==== Water temperature and water pressure
+
+The requirements relating to the MPEs shall be met for all temperature and pressure
+variations occurring within the rated operating conditions of a water meter.
+
+==== Absence of flow or of water
+
+The water meter totalization shall not change in the absence either of flow
+or of water.
+
+==== Static pressure
+
+A water meter shall be capable of withstanding the following test pressures
+without leakage or damage:
+
+. 1.6 times the maximum admissible pressure applied for stem:[15 "unitsml(min)"];
+. twice the maximum admissible pressure applied for stem:[1 "unitsml(min)"].
+
+=== Requirements for meters and ancillary devices
+
+==== Connections between electronic parts
+
+The connections between the measurement transducer, the calculator and the indicating
+device shall be reliable and durable in accordance with <<scls-5-1-4>>
+(see <<scls-B-2>>).
+
+These provisions shall also apply to connections between the primary and secondary
+devices of electromagnetic meters.
+
+NOTE: Definitions of primary and secondary devices of electromagnetic meters
+are given in <<ISO_4006_1991>>.
+
+==== Adjustment device
+
+A meter may be provided with an electronic adjustment device, which may replace
+a mechanical adjustment device.
+
+==== Correction device
+
+A meter may be fitted with correction devices; such devices are always considered
+as an integral part of the meter. The whole of the requirements which apply
+to the meter, in particular the MPEs specified in <<scls-4-2>>, are therefore
+applicable to the corrected volume at metering conditions.
+
+In normal operation, non-corrected volume shall not be displayed.
+
+A water meter with correction devices shall satisfy the performance tests of
+<<scls-A-5>>.
+
+All the parameters which are not measured and which are necessary for correcting
+shall be contained in the calculator at the beginning of the measurement operation.
+The type approval certificate may prescribe the possibility of checking parameters
+which are necessary for correctness at the time of verification of the correction
+device.
+
+The correction device shall not allow the correction of a pre-estimated drift,
+e.g. in relation to time or volume.
+
+Associated measuring instruments, if any, shall comply with the applicable
+International Standards or OIML International Recommendations. Their accuracy
+shall be good enough to permit the requirements on the meter to be met, as specified
+in <<scls-4-2>>.
+
+Associated measuring instruments shall be fitted with checking facilities
+(see <<scls-B-6>>).
+
+Correction devices shall not be used for adjusting the errors (of indication)
+of a water meter to values other than as close as practical to zero, even when
+these values are within the MPEs.
+
+Conditioning of the water at flow rates below stem:[Q_1] by means of a moving
+device, e.g. spring-loaded flow accelerator, shall not be permitted.
+
+==== Calculator
+
+All parameters necessary for the elaboration of indications that are subject
+to legal metrological control, such as a calculation table or correction polynomial,
+shall be present in the calculator at the beginning of the measurement operation.
+
+The calculator may be provided with interfaces permitting the coupling of peripheral
+equipment. When these interfaces are used, the hardware and software of a water
+meter shall continue to function correctly and the metrological functions of
+the meter shall not be capable of being affected.
+
+[[scls-4-3-5]]
+==== Indicating device
+
+The indicating device shall display the volume either continuously, periodically
+or on demand. It shall be readily available to read.
+
+==== Ancillary devices
+
+In addition to the indicating devices specified in <<scls-6-7-2>>, a water meter
+may include the ancillary devices specified in <<scls-3-1-8>>.
+
+Where national regulations permit, a remote reading device may be used for testing
+and verification and for remote reading of a water meter, provided that other
+means guarantee the satisfactory operation of the water meter.
+
+The addition of these devices, either temporary or permanent, shall not alter
+the metrological characteristics of the meter.

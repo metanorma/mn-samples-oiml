@@ -1,0 +1,10 @@
+[[annex-c]]
+[appendix]
+== Permissible errors in service and subsequent verification
+
+The MPEs of a water meter while in service should be twice the MPEs given in
+<<scls-4-2-2>> or <<scls-4-2-3>> according to the accuracy class of the meter.
+Although subsequent verification is not covered in the scope of this part of
+ISO 4064|OIML R 49, historically this has been found to be reasonable. Subsequent
+verification should be applied in accordance with national regulations for legal
+metrology.

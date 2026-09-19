@@ -1,0 +1,24 @@
+[bibliography]
+== Bibliography
+
+* [[[ISO_IEC_Guide_99_2007,ISO/IEC Guide 99:2007]]]
+
+* [[[ISO_3_1973,ISO 3:1973]]]
+
+* [[[ISO_4006_1991,ISO 4006:1991]]]
+
+* [[[ISO_4064_2_2024,ISO 4064-2:2024]]]
+
+* [[[OIML_R_49_4_2024,OIML R 49-4:2024]]], Water meters for cold potable water and hot water. Part 4: Type evaluation report format
+
+* [[[ISO_6817_1992,ISO 6817:1992]]]
+
+* [[[OIML_V_1_2022,OIML V 1:2022]]], International vocabulary of terms in legal metrology (VIML)
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]], General requirements for measuring instruments — Environmental conditions
+
+* [[[OIML_D_31_2023,OIML D 31:2023]]], General requirements for software controlled measuring instruments
+
+* [[[ISO_4064_5,ISO 4064-5:2024]]]
+
+* [[[ref10,10]]] Alexander Borchling, Corinna Kroner, Jens Tränckner; Effect of the sampling interval on the measurement accuracy of electronic water meters under real consumption conditions. Water Supply 1 December 2022; 22 (12): 8405-8417. doi: https://doi.org/10.2166/ws.2022.404
