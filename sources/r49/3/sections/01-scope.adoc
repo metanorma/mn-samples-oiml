@@ -1,0 +1,8 @@
+
+== Scope
+
+This part 3 of OIML R 49 specifies a test report format to be used in conjunction
+with OIML R 49-1 and OIML R 49-2 for water meters for cold potable water and
+hot water.
+
+

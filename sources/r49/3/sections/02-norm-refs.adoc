@@ -1,0 +1,10 @@
+
+[bibliography]
+== Normative references
+
+* [[[OIML_R_49_1,OIML R 49-1]]], _Water meters for cold potable water and hot water -- Part 1: Metrological and technical requirements_
+
+* [[[OIML_R_49_2,OIML R 49-2]]], _Water meters for cold potable water and hot water -- Part 2: Test procedures_
+
+* [[[OIML_R_49_4,OIML R 49-4]]], _Water meters for cold potable water and hot water -- Part 4: Type evaluation report format_
+

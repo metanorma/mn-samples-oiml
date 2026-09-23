@@ -1,0 +1,507 @@
+// OIML R 49-3:2024 (E), paginas 124 a 131 del PDF (= numeracion impresa): clausula 5
+// completa hasta 5.3 (tablas 85 a 90). Omitidos: cabeceras y pies corridos, numeros de
+// pagina, numeracion de clausulas y pies "Table N".
+
+== Initial verification report
+
+=== General
+
+The specific format layout for reporting initial verifications and subsequent
+verifications of water meters is left largely to the metrological authorities
+and the individual organisations carrying out verification tests. However, the
+report (records) shall contain the minimum information detailed in OIML R 49-1:2024,
+7.3 and OIML R 49-2:2024, 11.2.2.
+
+In addition to this, any special requirements and/or restrictions for initial
+verification detailed in the type approval certificate for the EUT shall be
+applied. A record of equipment and instrumentation used with calibration details
+(see <<table-2>> ) shall be kept.
+
+The following basic information should also be included in the verification
+report (record) followed by the results of the tests (three examples of how
+the report may be formatted are given below):
+
+=== Information concerning the EUT verified
+
+Type approval number of the EUT::
+
+Details of the EUT::
+
+Model number:::
+
+Accuracy class:::
+
+Meter designation/s stem:[Q_3]:::
+
+Ratio stem:[Q_3//Q_1]:::
+
+Maximum pressure loss stem:[Delta p_"max"]:::
+
+Flow rate at stem:[Delta p_"max"]:::
+
+Year of manufacture:::
+
+The manufacturer:::
+
+Authorised representative:::
+
+Address:::
+
+//-
+
+Testing laboratory::
+
+Authorised representative::
+
+Address::
+
+=== Initial verification test report (OIML R 49-2:2024, Clause 10)
+
+==== Example 1: Approved water meter (complete or combined) (OIML R 49-2:2024, 10.1)
+
+// Transcripcion de la imagen incrustada del original (cabecera del formulario;
+// la misma imagen se repite en cada seccion de ensayo).
+
+Application No::
+
+Model::
+
+Date::
+
+Observer::
+
+[%unnumbered,cols="4*",options="header"]
+|===
+|
+| At start
+| At end
+|
+
+| Ambient temperature:
+|
+|
+| stem:["unitsml(degC)"]
+
+| Ambient relative humidity:
+|
+|
+| %
+
+| Ambient atmospheric pressure:
+|
+|
+| stem:["unitsml(MPa)"]
+
+| Time:
+|
+|
+|
+|===
+
+*Error (of indication) tests*
+
+[cols="2*"]
+|===
+| EUT testing case (OIML R 49-2:2024, 8.1.8)
+|
+
+| Category for testing (OIML R 49-2:2024, <clause number>)
+| footnote:[Enter clause number according to one of the configuration categories for testing the EUT listed in OIML R 49-2:2024, 8.1.8.2 to 8.1.8.5.]
+
+| Test method:
+| Gravimetric/volumetric
+
+| Volume measures/weighbridge used -- stem:["unitsml(m^3)"] or stem:["unitsml(kg)"]:
+|
+
+| Water conductivity (electromagnetic induction meters only) -- stem:["unitsml(S/cm)"]:
+|
+
+| Length of straight pipe before meter (or manifold) -- stem:["unitsml(mm)"]
+|
+
+| Length of straight pipe after meter (or manifold) -- stem:["unitsml(mm)"]
+|
+
+| Nominal diameter DN of pipe before and after meter (or manifold) -- stem:["unitsml(mm)"]:
+|
+
+| Describe flow straightener installation if used:
+|
+|===
+
+Meter serial no.::
+
+Orientation (V, H, other)::
+
+Flow direction (see Requirement 1)::
+
+Location of indicating device (see Requirement 2)::
+
+[cols="10*",options="header"]
+|===
+| Nominal flow ratefootnote:[These flow rates shall be applied unless alternatives are specified in the type approval certificate.] +
+stem:["unitsml(m^3/h)"]
+| Actual flow rate +
+stem:[Q_"( )"] +
+stem:["unitsml(m^3/h)"]
+| Working pressure +
+stem:["unitsml(MPa)"] (stem:["unitsml(bar)"])
+| Working temperature +
+stem:["unitsml(degC)"]
+| Initial reading +
+stem:[V_"i"("i")] +
+stem:["unitsml(m^3)"]
+| Final reading +
+stem:[V_"i"("f")] +
+stem:["unitsml(m^3)"]
+| Indicated volume +
+stem:[V_"i"] +
+stem:["unitsml(m^3)"]
+| Actual volume +
+stem:[V_"a"] +
+stem:["unitsml(m^3)"]
+| Meter errorfootnote:[Calculations for the error (of indication) are described in OIML R 49-2:2024, Annex B.] +
+stem:[E_"c"] +
+%
+| MPEfootnote:[The maximum permissible error as defined in OIML R 49-1:2024, 4.2.2 or 4.2.3, according to the accuracy class of the meter.] +
+%
+
+| stem:[Q_1]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+| stem:[Q_2]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+| stem:[Q_3]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+10+| Comments:
+|===
+
+*Requirements*
+
+Requirement 1:: If the flow axis is vertical, the flow direction (from bottom
+to top or from top to bottom) shall be given.
+
+Requirement 2:: If the flow axis is horizontal and the meter has an indicating
+device which is integral with the body of the meter, the location of the indicating
+device (at the side or at the top of the meter) shall be given.
+
+==== Example 2: Approved calculator (including indicating device) (OIML R 49-2:2024, 10.2)
+
+// Transcripcion de la imagen incrustada del original (cabecera del formulario;
+// la misma imagen se repite en cada seccion de ensayo).
+
+Application No::
+
+Model::
+
+Date::
+
+Observer::
+
+[%unnumbered,cols="4*",options="header"]
+|===
+|
+| At start
+| At end
+|
+
+| Ambient temperature:
+|
+|
+| stem:["unitsml(degC)"]
+
+| Ambient relative humidity:
+|
+|
+| %
+
+| Ambient atmospheric pressure:
+|
+|
+| stem:["unitsml(MPa)"]
+
+| Time:
+|
+|
+|
+|===
+
+*Error (of indication) tests*
+
+[cols="2*"]
+|===
+| EUT testing case (OIML R 49-2:2024, 8.1.8)
+|
+
+| Category for testing (OIML R 49-2:2024, <clause number>)
+| footnote:[Enter clause number according to one of the configuration categories for testing the EUT listed in OIML R 49-2:2024, 8.1.8.2 to 8.1.8.5.]
+|===
+
+Meter serial no.::
+
+Orientation (V, H, other)::
+
+Flow direction (see Requirement 1)::
+
+Location of indicating device (see Requirement 2)::
+
+[cols="10*",options="header"]
+|===
+| Nominal flow ratefootnote:[These flow rates shall be applied unless alternatives are specified in the type approval certificate.] +
+stem:["unitsml(m^3/h)"]
+| Actual flow rate +
+stem:[Q_"( )"] +
+stem:["unitsml(m^3/h)"]
+| Applied pulse frequencyfootnote:[Other types of output signal may be appropriate according to the design of the water meter.] +
+stem:["unitsml(Hz)"]
+| Initial reading +
+stem:[V_"i"("i")] +
+stem:["unitsml(m^3)"]
+| Final reading +
+stem:[V_"i"("f")] +
+stem:["unitsml(m^3)"]
+| Total pulses injectedfootnote:[Other types of output signal may be appropriate according to the design of the water meter.] +
+stem:[T_"p"]
+| Indicated volume +
+stem:[V_"i"] +
+stem:["unitsml(m^3)"]
+| Actual volume +
+stem:[V_"a"] +
+stem:["unitsml(m^3)"]
+| Meter errorfootnote:[Calculations for the error (of indication) are described in OIML R 49-2:2024, Annex B.] +
+stem:[E_"c"] +
+%
+| MPEfootnote:[The maximum error (of indication) allowed for the calculator (including indicating device) is given in the type approval certificate.] +
+%
+
+| stem:[Q_1]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+| stem:[Q_2]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+| stem:[Q_3]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+10+| Comments:
+|===
+
+*Requirements*
+
+Requirement 1:: If the flow axis is vertical, the flow direction (from bottom
+to top or from top to bottom) shall be given.
+
+Requirement 2:: If the flow axis is horizontal and the meter has an indicating
+device which is integral with the body of the meter, the location of the indicating
+device (at the side or at the top of the meter) shall be given.
+
+==== Example 3: Approved measurement transducer (including flow or volume sensor) (OIML R 49-2:2024, 10.2)
+
+// Transcripcion de la imagen incrustada del original (cabecera del formulario;
+// la misma imagen se repite en cada seccion de ensayo).
+
+Application No::
+
+Model::
+
+Date::
+
+Observer::
+
+[%unnumbered,cols="4*",options="header"]
+|===
+|
+| At start
+| At end
+|
+
+| Ambient temperature:
+|
+|
+| stem:["unitsml(degC)"]
+
+| Ambient relative humidity:
+|
+|
+| %
+
+| Ambient atmospheric pressure:
+|
+|
+| stem:["unitsml(MPa)"]
+
+| Time:
+|
+|
+|
+|===
+
+*Error (of indication) tests*
+
+[cols="2*"]
+|===
+| EUT testing case (OIML R 49-2:2024, 8.1.8)
+|
+
+| Category for testing (OIML R 49-2:2024, <clause number>)
+| footnote:[Enter clause number according to one of the configuration categories for testing the EUT listed in OIML R 49-2:2024, 8.1.8.2 to 8.1.8.5.]
+
+| Test method:
+| Gravimetric/volumetric
+
+| Volume measures/weighbridge used -- stem:["unitsml(m^3)"] or stem:["unitsml(kg)"]:
+|
+
+| Water conductivity (electromagnetic induction meters only) -- stem:["unitsml(S/cm)"]:
+|
+
+| Length of straight pipe before meter (or manifold) -- stem:["unitsml(mm)"]
+|
+
+| Length of straight pipe after meter (or manifold) -- stem:["unitsml(mm)"]
+|
+
+| Nominal diameter DN of pipe before and after meter (or manifold) -- stem:["unitsml(mm)"]:
+|
+
+| Describe flow straightener installation if used:
+|
+|===
+
+Meter serial no.::
+
+Orientation (V, H, other)::
+
+Flow direction (see Requirement 1)::
+
+Location of indicating device (see Requirement 2)::
+
+[cols="11*",options="header"]
+|===
+| Nominal flow ratefootnote:[These flow rates shall be applied unless alternatives are specified in the type approval certificate.] +
+stem:["unitsml(m^3/h)"]
+| Actual flow rate +
+stem:[Q_"( )"] +
+stem:["unitsml(m^3/h)"]
+| Working pressure +
+stem:["unitsml(MPa)"] (stem:["unitsml(bar)"])
+| Working temperature +
+stem:["unitsml(degC)"]
+| Initial reading +
+stem:[V_"i"("i")] +
+stem:["unitsml(m^3)"]
+| Final reading +
+stem:[V_"i"("f")] +
+stem:["unitsml(m^3)"]
+| Total output pulsesfootnote:[Other types of output signal may be appropriate according to the design of the water meter.] +
+stem:[T_"p"]
+| Indicated volume +
+stem:[V_"i"] +
+stem:["unitsml(m^3)"]
+| Actual volume +
+stem:[V_"a"] +
+stem:["unitsml(m^3)"]
+| Meter errorfootnote:[Calculations for the error (of indication) are described in OIML R 49-2:2024, Annex B.] +
+stem:[E_"c"] +
+%
+| MPEfootnote:[The maximum error (of indication) allowed for the measurement transducer (including flow or volume sensor) is given in the type approval certificate.] +
+%
+
+| stem:[Q_1]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+| stem:[Q_2]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+| stem:[Q_3]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+11+| Comments:
+|===
+
+*Requirements*
+
+Requirement 1:: If the flow axis is vertical, the flow direction (from bottom
+to top or from top to bottom) shall be given.
+
+Requirement 2:: If the flow axis is horizontal and the meter has an indicating
+device which is integral with the body of the meter, the location of the indicating
+device (at the side or at the top of the meter) shall be given.

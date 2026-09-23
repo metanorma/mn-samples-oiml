@@ -1,0 +1,288 @@
+
+
+[.preface]
+== Test report format
+
+=== Explanatory notes
+
+For the purposes of this Recommendation, the terms and definitions given in
+OIML R 49-1 apply.
+
+Some symbols and abbreviated terms used in the tables are as follows.
+
++:: pass
+
+−:: fail
+
+n/a:: not applicable
+
+EUT:: equipment under test
+
+H:: horizontal
+
+MAP:: maximum admissible pressure
+
+MAT:: maximum admissible temperature
+
+MPE:: maximum permissible error
+
+V:: vertical
+
+==== Explanatory notes (continued)
+
+The name(s) or symbol(s) of the unit(s) used to express test results shall be
+specified in each form.
+
+For each test, the "SUMMARY OF TYPE EVALUATION" and the "CHECKLIST" shall be
+completed according to this example:
+
+[cols="3*",options="header,unnumbered"]
+|===
+| | P | F
+
+| when the instrument has passed the test: | ×  |
+| when the instrument has failed the test: |    | ×
+| when the test is not applicable:         | -- | --
+|===
+
+NOTE: *P* = Passed; *F* = Failed.
+
+The white spaces in boxes in the headings of the Report should always be filled
+according to the following example:
+
+[cols="4*",options="header,unnumbered"]
+|===
+|             | At start   | At end     |
+| Temp.:      | 20.5       | 21.1       | °C
+| Rel. h.:    |            |            | %
+| Date:       | 2022-01-29 | 2022-01-30 | yyyy-mm-dd
+| Time:       | 16:00:05   | 16:30:25   | hh:mm:ss
+| Bar. pres.: |            |            | hPa
+|===
+
+[NOTE]
+====
+Where Temp. = temperature
+
+Rel. h. = relative humidity
+====
+
+"Date" in the test reports refers to the date on which the test was performed.
+
+Section numbers in brackets refer to the corresponding subclauses of other parts
+of OIML R 49.
+
+=== Identification of the instrument
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.:    |   | Type designation: |
+| Identification no.: |   | Manufacturer:     |
+| Software version:   | 2+|
+| Report date:        | 2+|
+|===
+
+Documentation from the manufacturer
+
+(Record as necessary to identify the equipment under test)
+
+[cols="4*",options="header,unnumbered"]
+|===
+| System or module name
+| Drawing number or software reference
+| Issue level
+| Serial no.
+
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+Simulator documentation
+
+[cols="4*",options="header,unnumbered"]
+|===
+| System or module name
+| Drawing number or software reference
+| Issue level
+| Serial no.
+
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+==== Identification of the instrument (continued)
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.:    |   | Type designation: |
+| Identification no.: |   | Manufacturer:     |
+| Software version:   | 2+|
+| Report date:        | 2+|
+|===
+
+Simulator function (summary)
+
+(Simulator description and drawings, block diagram, etc. should be attached
+to the report if available).
+
+==== Identification of the instrument (continued)
+
+Description or other information pertaining to identification of the instrument:
+
+(_attach photograph here if available_)
+
+=== General information concerning the type
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.:    | | Type designation:   |
+| Identification no.: | | Manufacturer:       |
+| Software version:   | | Address:            |
+| Report date:        | | Testing laboratory: |
+2+| | Authorised representative |
+|===
+
+* [ ] Complete instrument
+* [ ] Module footnote:modnote[The test equipment (simulator or part of a complete
+instrument) connected to the module shall be defined in the test form(s) used.]
+
+[cols="1,3",options="unnumbered"]
+|===
+| Evaluation period: |
+| Date of report:    |
+| Observer:          |
+|===
+
+==== General information concerning the type (continued)
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.:    | | Type designation:   |
+| Identification no.: | | Manufacturer:       |
+| Software version:   | | Address:            |
+| Report date:        | | Testing laboratory: |
+2+| | Authorised representative |
+|===
+
+* [ ] Complete instrument
+* [ ] Modulefootnote:modnote[]
+
+Use this space to indicate additional remarks and/or information: other connected
+equipment, interfaces and load cells, choice of the manufacturer regarding protection
+against disturbances, etc.
+
+=== Information concerning the test equipment used for test
+
+Configuration for test
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.:    | | Type designation:   |
+| Identification no.: | | Manufacturer:       |
+| Software version:   | | Address:            |
+| Report date:        | | Testing laboratory: |
+2+| | Authorised representative |
+|===
+
+Use this space for additional information relating to equipment configuration,
+interfaces, data rates, load cells EMC protection options, etc., for the instrument
+and/or simulator.
+
+=== Selection of sample(s)
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.: | | Type designation: |
+| Identification no.: | | Manufacturer: |
+| Software version: | | Address: |
+| Report date: | | Testing laboratory: |
+2+| | Authorised representative |
+|===
+
+Use this space for additional information relating to the identification for
+the selection of sample(s), in particular in case of a family of instruments
+or modules or if specific requirements are mentioned in OIML R 49-1 and OIML R 49-2.
+
+=== Adjustments or modifications
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.: | | Type designation: |
+| Identification no.: | | Manufacturer: |
+| Software version: | | Address: |
+| Report date: | | Testing laboratory: |
+2+| | Authorised representative |
+|===
+
+Use this space for additional information relating to the identification of
+any authorised and agreed upon adjustments or modifications made to the sample
+or samples during the evaluation.
+
+=== Summary of type evaluation tests
+
+[cols="1,2,1,2",options="unnumbered"]
+|===
+| Application no.: | | Type designation: |
+| Identification no.: | | Manufacturer: |
+|===
+
+.Summary of type evaluation tests
+[cols="1,3,2",options="header"]
+|===
+| Test Report Number | Report page | Remarks footnoteblock:[ftb-a-7]
+
+| | Determination of intrinsic errors (of indication) (OIML R 49-1:2024, 7.2.3) |
+| | Water temperature test (OIML R 49-1:2024, 4.2.8) |
+| | Overload water temperature test (OIML R 49-1:2024, 7.2.5) |
+| | Water pressure test (OIML R 49-1:2024, 4.2.8) |
+| | Reverse flow test (OIML R 49-1:2024, 4.2.7) |
+| | Pressure loss test (OIML R 49-1:2024, 6.5) |
+| | Flow disturbance tests (OIML R 49-1:2024, 6.3.4) |
+| | Durability tests (OIML R 49-1:2024, 7.2.6) |
+| | Magnetic field testing (OIML R 49-1:2024, 7.2.8) |
+| | Tests on ancillary devices of a water meter (OIML R 49-1:2024, 4.3) |
+| | Environmental testing (OIML R 49-1, A.2) |
+| | Performance tests related to influence factors and disturbances (OIML R 49-1:2024, 7.2.12.2) |
+| | General requirements (OIML R 49-1, A.1) |
+| | Dry heat (non-condensing) (OIML R 49-1:2024, A.5) |
+| | Cold (OIML R 49-1:2024, A.5) |
+| | Damp heat, cyclic (condensing) (OIML R 49-1:2024, A.5) |
+| | Power supply variation (OIML R 49-1:2024, A.5) |
+| | Vibration (random) (OIML R 49-1:2024, A.5) |
+| | Mechanical shock (OIML R 49-1:2024, A.5) |
+| | AC mains voltage dips, short interruptions and voltage variations (OIML R 49-1:2024, A.5) |
+| | Bursts on signal lines (OIML R 49-1:2024, A.5) |
+| | Bursts (transients) on AC and DC mains (OIML R 49-1:2024, A.5) |
+| | Electrostatic discharge (OIML R 49-1:2024, A.5) |
+| | Radiated electromagnetic fields (OIML R 49-1:2024, A.5) |
+| | Conducted electromagnetic fields (OIML R 49-1:2024, A.5) |
+| | Surges on signal, data and control lines (OIML R 49-1:2024, A.5) |
+| | Surges on AC and DC mains power lines (OIML R 49-1:2024, A.5) |
+| | Static magnetic field (OIML R 49-1:2024, 7.2.8) |
+| | Absence of flow test (OIML R 49-1:2024, 4.2.9) |
+| | Mains power frequency electromagnetic fields test (OIML R 49-1:2024, A.5) |
+|===
+
+[[ftb-a-7]]
+[NOTE]
+--
+Use this column to record if the test report was issued:
+
+* Under the OIML Certificate System (OIML-CS), the OIML Mutual Acceptance Arrangement
+(MAA), or the OIML Certificate System scheme A or B. Where the test report was
+used as the basis for issuing an existing OIML certificate, the relevant OIML
+certificate number should be noted.
+* By a Manufacturer Test Laboratory (MTL).
+* Where the test report was issued outside the scope of an ISO/IEC 17025 accreditation,
+an explanation and justification of the use of the test report is required.
+--

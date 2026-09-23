@@ -1,0 +1,11 @@
+
+== Terms, definitions, symbols, and abbreviated terms
+
+[.boilerplate]
+--
+For the purposes of this Recommendation, the terms and definitions given in
+<<OIML_R_49_1>> apply.
+
+Some symbols and abbreviated terms used in the tables are given above under
+"Explanatory Notes".
+--

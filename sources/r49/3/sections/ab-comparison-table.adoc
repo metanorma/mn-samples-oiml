@@ -1,0 +1,66 @@
+// OIML R 49-3:2024 (E), pagina 133 del PDF: Anexo B (informativo).
+
+[appendix,obligation=informative]
+== Comparison table
+
+[cols="5*",options="header",headerrows=2]
+|===
+2+| OIML R 49-3:2024
+2+| OIML R 49-3:2013
+.2+| Remarks
+
+| Ref.
+| Description
+| Ref.
+| Description
+
+| -
+| Summary of type evaluation tests
+| -
+| -
+| New test report table
+
+| 4.2
+| General information concerning the test equipment
+| 4.3
+| General information concerning the test equipment
+| New Table
+
+<<table-2>> -- Listing of test equipment used in examinations and tests. +
+List of items of measuring equipment and test instruments used for the type examinations, and initial verifications deleted.
+
+| 4.4.11
+| Radiated electromagnetic field
+| 4.6.11
+| Radiated electromagnetic field
+| New requirements
+
+Test conditions increased to stem:[3000 "unitsml(MHz)"].
+
+| 4.5.12
+| Tests on ancillary devices of a water meter
+| 4.5.12
+| Tests on ancillary devices of a water meter
+| New rows added to <<table-48>> and <<table-49>>: +
+Ancillary device +
+Water meter
+
+| Annex B
+| Comparison Table
+| Annex B
+| Listing of test equipment used in examinations and tests
+| Deleted: +
+Table for Listing of test equipment used in examinations and tests
+
+| -
+| -
+| 4.4.2
+| Check list for water meter examinations and performance tests
+| Checklist moved to OIML R 49:2024 Part 4
+
+|
+|
+|
+|
+|
+|===
