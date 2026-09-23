@@ -1,0 +1,17 @@
+// Páginas 7 a 9 del PDF (OIML R 49-2:2024): secciones 1 a 5.
+// Continúa a partir del Foreword (página 6).
+// Se omiten la cabecera corrida "OIML R 49-2:2024 (E)", los números de página
+// y el título repetido al inicio de la página 7 (ya está en los metadatos).
+// La sección 6 (External examination), que empieza al final de la página 9,
+// queda pendiente por indicación del usuario.
+
+== Scope
+
+This Recommendation is applicable to the type evaluation and initial verification testing of water meters for cold potable water and hot water as defined in <<ISO_4064_1_2024>>|<<OIML_R_49_1_2024>>. OIML Certificates of conformity can be issued for water meters under the scope of the OIML Certificate System, provided that this Recommendation, <<ISO_4064_1_2024>>|<<OIML_R_49_1_2024>> and <<ISO_4064_3_2024>>|<<OIML_R_49_3_2024>> are used in accordance with the rules of the system.
+
+This Recommendation sets out details of the test programme, principles, equipment and procedures to be used for the type evaluation, and initial verification of a meter type.
+
+The provisions of this Recommendation also apply to ancillary devices, if required by national regulations.
+
+The provisions include requirements for testing the complete water meter and for testing the measurement transducer (including the flow or volume sensor) and the calculator (including the indicating device) of a water meter as separate units.
+

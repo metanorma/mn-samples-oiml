@@ -1,0 +1,142 @@
+
+// Páginas 93 a 95 del PDF (OIML R 49-2:2024): Annex F (Informative). Se omiten cabeceras corridas,
+// números de página y la numeración de cláusulas.
+
+[[annex-f]]
+[appendix,obligation=informative]
+== Maximum uncertainties in the measurement of influence factors and disturbances
+
+=== General
+
+<<annex-f-2>> to <<annex-f-10>> list the maximum uncertainties that may be applied
+to the various performance tests. It should be assumed that these uncertainties
+include a coverage factor stem:[k = 2].
+
+Where an influence quantity is stated as a nominal value with tolerances, e.g.
+stem:[55 "unitsml(degC)" pm 2 "unitsml(degC)"], the nominal value of the influence
+quantity (stem:[55 "unitsml(degC)"] in the example) is the intended value for
+the test. However, in order to comply with the stated tolerance for the influence
+quantity, the uncertainty of the measuring instrument which is used to measure
+that quantity shall be subtracted from the absolute value of the tolerance to
+obtain the actual tolerance limits to be applied during a test.
+
+[example]
+====
+If the air temperature has to be set to stem:[55 "unitsml(degC)" pm 2 "unitsml(degC)"]
+and the uncertainty of the temperature measuring instrument is stem:[0.4 "unitsml(degC)"],
+then the actual temperature during the test shall be
+stem:[55 "unitsml(degC)" pm 1.6 "unitsml(degC)"].
+====
+
+Where the influence quantity is given as a range, e.g. the ambient air temperature
+is stem:[15 "unitsml(degC)"] to stem:[25 "unitsml(degC)"], this implies that
+the influence from this effect is not significant. However, the air temperature
+should be at a steady value within that range, in this case at normal ambient
+temperature.
+
+[[annex-f-2]]
+=== Simulated signal inputs to calculator
+
+Resistance:: stem:[0.2 %] of applied resistance
+
+Current:: stem:[0.01 %] of applied current
+
+Voltage:: stem:[0.01 %] of applied voltage
+
+Pulse frequency:: stem:[0.01 %] of applied frequency
+
+=== Dry heat, damp heat (cyclic) and cold tests
+
+Water pressure:: stem:[5 %]
+
+Ambient air pressure:: stem:[0.5 "unitsml(kPa)"]
+
+Water temperature:: stem:[0.4 "unitsml(degC)"]
+
+Ambient air temperature:: stem:[0.4 "unitsml(degC)"]
+
+Humidity:: stem:[0.6 %]
+
+Time (stem:[t]) (Duration of application of influence quantity)::
+
+stem:[0 < t < 2 "unitsml(h)"]::: stem:[1 "unitsml(s)"]
+
+stem:[t > 2 "unitsml(h)"]::: stem:[10 "unitsml(s)"]
+
+=== Supply voltage variation
+
+Voltage (mains AC):: stem:[<= 0.2 %] of applied voltage
+
+Voltage (mains AC/DC.):: stem:[<= 0.2 %] of applied voltage
+
+Voltage (batteries):: stem:[<= 0.2 %] of applied voltage
+
+Mains frequency:: stem:[<= 0.2 %] of applied frequency
+
+Harmonic distortion:: stem:[<= 0.2 %] of applied current
+
+=== Mains frequency variation
+
+Mains voltage:: stem:[<= 0.2 %] of applied voltage
+
+Mains frequency:: stem:[<= 0.2 %] of applied frequency
+
+Harmonic distortion:: stem:[<= 0.2 %] of applied current
+
+=== Short time power reduction
+
+Applied voltage:: stem:[<= 0.2 %] of nominal mains voltage
+
+Mains frequency:: stem:[<= 0.2 %] of applied frequency
+
+Harmonic distortion:: stem:[<= 0.2 %] of applied current
+
+=== Electrical bursts
+
+Mains voltage:: stem:[<= 0.2 %] of applied voltage
+
+Mains frequency:: stem:[<= 0.2 %] of applied frequency
+
+Voltage transients:: stem:[<= 0.2 %] of peak voltage
+
+Time (stem:[t])::
+
+stem:[15 "unitsml(ms)" < t < 300 "unitsml(ms)"]::: stem:[<= 1 "unitsml(ms)"]
+
+stem:[5 "unitsml(ns)" < t < 50 "unitsml(ns)"]::: stem:[<= 1 "unitsml(ns)"]
+
+=== Electrostatic discharge
+
+Mains voltage:: stem:[<= 0.2 %] of applied voltage
+
+Mains frequency:: stem:[<= 0.2 %] of applied frequency
+
+Applied voltage:: stem:[<= x %]footnote:foot_f_9[These uncertainty values were not available at the time of publication.]
+of peak voltage
+
+Electrical charge:: stem:[<= x %]footnote:foot_f_9[]
+
+=== Electromagnetic interference
+
+Voltage:: stem:[<= 0.2 %] of applied voltage
+
+Frequency:: stem:[<= 0.2 %] of applied frequency
+
+Sweep rate:: stem:[<= 2.5 xx 10^(-4) "octave/s"]
+
+Field strength:: stem:[<= 0.2 %] of applied field strength
+
+Harmonic distortion:: stem:[<= 0.2 %] of applied current
+
+[[annex-f-10]]
+=== Mechanical vibration
+
+Frequency:: stem:[<= x "unitsml(Hz)"]footnote:foot_f_9[]
+
+Harmonic distortion:: stem:[<= x %]footnote:foot_f_9[]
+
+Acceleration:: stem:[<= x "unitsml(m/s^2)"]footnote:foot_f_9[]
+
+Linear displacement:: stem:[<= x "unitsml(mm)"]footnote:foot_f_9[]
+
+Time (stem:[t]):: stem:[<= x "unitsml(s)"]footnote:foot_f_9[]

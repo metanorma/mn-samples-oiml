@@ -1,0 +1,1559 @@
+// Páginas 15 a 39 del PDF (OIML R 49-2:2024): sección 7, Performance tests for all water meters.
+// Se omiten cabeceras corridas, números de página, numeración de cláusulas y los
+// números de ecuación (6) a (8), que Metanorma genera. Figuras en images/.
+
+[[cls-7]]
+== Performance tests for all water meters
+
+=== General
+
+During the performance tests, all relevant values, dimensions and observations
+shall be recorded.
+
+NOTE: For presentation of the results of type evaluation tests see <<cls-11>>.
+
+NOTE: The relevant sub-clauses of <<ISO_4064_1_2024>>|<<OIML_R_49_1_2024>> are shown
+in parentheses in the following.
+
+NOTE: For maximum uncertainties in the measurement of influence factors and
+disturbances see <<annex-f>>.
+
+[[scls-7-2]]
+=== Required conditions for all tests
+
+==== Water quality
+
+Water meter tests shall be carried out using water. The water shall be that
+of the public potable water supply or shall meet the same requirements.
+
+The water used for testing shall be maintained so as to not introduce additional
+substances, other than that supposed to be in the potable water supply, which
+might damage the meter or adversely affect its operation. It shall not contain
+air bubbles.
+
+If water is being recycled, measures shall be taken to prevent residual water
+in the meter from becoming harmful to human beings.
+
+==== General rules concerning test installation and location
+
+===== Freedom from spurious influences
+
+Test rigs shall be so designed, constructed, and used, that the performance
+of the rig itself shall not contribute significantly to the test error. To this
+end, high standards of rig maintenance, plus adequate supports and fittings,
+are necessary to prevent vibration of the meter, the test rig, and its accessories.
+
+The test rig environment shall be such that the reference conditions of the
+test are met (see <<cls-4>>).
+
+During the tests, the gauge pressure at the outlet of each water meter shall
+be at least stem:[0.03 "unitsml(MPa)"] (stem:[0.3 "unitsml(bar)"]) and shall
+be sufficient to prevent cavitation.
+
+It shall be possible to carry out test readings rapidly and easily.
+
+===== Group testing of meters
+
+Meters are tested either individually or in groups. In the latter case, the
+individual characteristics of the meters shall be precisely determined. The
+presence of any meter in the test rig shall not contribute significantly to
+the test error of any other meter.
+
+===== Location
+
+The environment chosen for meter tests shall be in accordance with the principles
+elaborated in <<OIML_G_13_1989>> and shall be free from disturbing influences
+(e.g. ambient temperature, vibration).
+
+[[scls-7-3]]
+=== Static pressure test (<<ISO_4064_1_2024,clause=4.2.10>>|<<OIML_R_49_1_2024,clause=4.2.10>>)
+
+==== Object of the test
+
+To verify that the water meter can withstand the specified hydraulic test pressure
+for the specified time without leakage or damage.
+
+==== Preparation
+
+. Install the meters in the test rig either singly or in groups.
+. Bleed the test rig pipework and the water meters of air.
+. Ensure that the test rig is free from leaks.
+. Ensure that the supply pressure is free from pressure pulsations.
+
+==== Test procedure
+
+[[scls-7-3-3-1]]
+===== In-line meters
+
+. Increase the hydraulic pressure to 1.6 times the maximum admissible pressure
+(MAP) of the meter and hold it for stem:[15 "unitsml(min)"].
+. Examine the meters for physical damage, for external leaks and for leaks into
+the indicating device.
+. Increase the hydraulic pressure to twice the MAP and hold this pressure level
+for stem:[1 "unitsml(min)"].
+. Examine the meters for physical damage, for external leaks and for leaks into
+the indicating device.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.1>>|<<OIML_R_49_3_2024,clause=4.3.1>>.
+
+Additional requirements follow:
+
+[arabic]
+. Increase and decrease the pressure gradually without pressure surges.
+. Apply only the reference temperatures for this test. For temperature classes
+T70 to T180 this test may be carried out at reference temperature
+stem:[50 "unitsml(degC)" pm 5 "unitsml(degC)"] only.
+. The flow rate shall be zero during the test.
+
+[[scls-7-3-3-2]]
+===== Concentric meters
+
+The test procedure in <<scls-7-3-3-1>>also applies to pressure testing of concentric
+water meters; however, the seals located at the concentric meter/manifold interface
+(see example in <<figure-e-1>> of <<annex-e>>) shall also be tested to ensure
+that undisclosed internal leaks between the inlet and outlet passages of the
+meter do not occur.
+
+When the pressure test is carried out, the meter and manifold shall be tested
+together. Requirements for testing concentric meters may vary according to the
+design; therefore an example of a test method is shown in <<figure-e-2>> and
+<<figure-e-3>> of <<annex-e>>.
+
+==== Acceptance criteria
+
+There shall be no leakage from the meter or leakage into the indicating device,
+or physical damage, resulting from any of the pressure tests specified in <<scls-7-3-3-1>>
+and <<scls-7-3-3-2>>.
+
+[[scls-7-4]]
+=== Determination of intrinsic errors (of indication) (<<ISO_4064_1_2024,clause=7.2.3>>|<<OIML_R_49_1_2024,clause=7.2.3>>)
+
+==== Object of the test
+
+To determine the intrinsic errors (of indication) of a water meter and the effects
+of the meter orientation on the error (of indication).
+
+[[scls-7-4-2]]
+==== Preparation
+
+===== Description of the test rig
+
+The method specified here for determining the meter errors (of indication) is
+the so-called "collection" method, in which the quantity of water passed through
+a water meter is collected in one or more collecting vessels and the quantity
+determined volumetrically or by weighing. Other methods may be used, provided
+the requirements of <<scls-7-4-2-2-6-1>> are met.
+
+The checking of the errors (of indication) consists in comparing the volume
+indications given by the meter under reference conditions against a calibrated
+reference device.
+
+For the purpose of these tests, at least one meter should be tested without
+its temporary ancillary devices attached (if any) unless the device is essential
+for the testing of the meter.
+
+The test rig consists, typically, of:
+
+. a water supply (non-pressurised tank, pressurised tank, pump, etc.);
+. pipework;
+. a calibrated reference device (calibrated volumetric tank, weighing system,
+reference meter, etc.);
+. means for measuring the time of the test;
+. devices for automating the tests (if required);
+. means for measuring water temperature;
+. means for measuring water pressure;
+. means to determine density, if necessary;
+. means to determine conductivity, if necessary.
+
+===== Pipework
+
+====== Description
+
+Pipework shall include:
+
+. a test section in which the meter(s) is (are) placed;
+. means for establishing the desired flow rate;
+. one or two isolating devices;
+. means for determining the flow rate;
+
+and if necessary:
+
+[start=5]
+. means for checking that the pipework is filled to a datum level before and
+after each test;
+. one or more air bleeds;
+. a non-return device;
+. an air separator;
+. a filter.
+
+During the test, flow leakage, flow input and flow drainage shall not be permitted
+either between the meter(s) and the reference device or from the reference device.
+
+====== Test section
+
+The test section shall include, in addition to the meter(s):
+
+. one or more pressure tappings for the measurement of pressure, of which one
+pressure tapping is situated upstream of, and close to, the (first) meter;
+. means for measuring the temperature of the water close to the entry to the
+(first) meter.
+
+The presence of any pipe components or devices placed in or near the measuring
+section shall not cause cavitation or flow disturbances capable of altering
+the performance of the meters or causing errors (of indication).
+
+====== Precautions to be taken during tests
+
+. Check that the operation of the test rig is such that, during a test, the
+actual volume of water that flows through the meter(s) is equal to that measured
+by the reference device.
+. Check that the pipe (e.g. the swan-neck in the outlet pipe) is filled to the
+same datum level at the beginning and at the end of the test.
+. Bleed all air from the interconnecting pipework and the meter(s). The manufacturer
+may recommend a procedure that ensures that all air is bled from the meter.
+. Take all precautions necessary to avoid the effects of vibration and shock.
+
+====== Special arrangements for the installation of meters
+
+[level=6]
+====== Avoidance of erroneous measurements
+
+The following reminder of the most frequent causes of erroneous measurements
+and the necessary precautions for the installation of water meters on the test
+bench is prompted by the need to achieve a test installation in which:
+
+. the hydrodynamic flow characteristics cause no discernible difference to the
+meter functioning when compared with hydrodynamic flow characteristics which
+are undisturbed; and
+. The expanded uncertainty of the method employed does not exceed the stipulated
+value (see <<scls-7-4-2-2-6-1>>).
+
+[level=6]
+====== Need for straight lengths of pipe or a flow straightener
+
+The accuracy of non-volumetric water meters can be affected by upstream disturbance
+caused, for example, by the presence of bends, tees, valves or pumps.
+
+In order to counteract these effects:
+
+. the meter shall be installed in accordance with the manufacturer's instructions;
+. the connecting pipework shall have an internal diameter matched to the relevant
+meter connection; and
+. if necessary, a flow straightener shall be installed upstream of the straight
+pipe length.
+
+[level=6]
+====== Common causes of flow disturbance
+
+A flow can be subject to two types of disturbance: velocity-profile distortion
+and swirl, both of which may affect the errors of indication of a water meter.
+
+Velocity-profile distortion is typically caused by an obstruction partially
+blocking the pipe, e.g. the presence of a partly closed valve or a misaligned
+flange joint. This can easily be eliminated by careful application of installation
+procedures.
+
+Swirl can be caused by two or more bends in different planes or by a single
+bend in combination with an eccentric reducer or partially closed valve. This
+effect can be controlled either by ensuring an adequate length of straight pipe
+upstream of the water meter, or by installing a flow straightening device, or
+by a combination of the two. However, where possible, these types of pipework
+configurations should be avoided.
+
+[[scls-7-4-2-2-4-4]]
+[level=6]
+====== Volumetric water meters
+
+Some types of water meter, e.g. volumetric water meters (i.e. involving measuring
+chambers with mobile walls), such as oscillating piston or nutating disc meters,
+are considered insensitive to upstream installation conditions; hence no special
+conditions are required.
+
+[level=6]
+====== Meters employing electromagnetic induction
+
+Meters employing electromagnetic induction as a measuring principle may be affected
+by the conductivity of the test water.
+
+The conductivity of the water used for testing this type of meter should be
+within the operational range of conductivity specified by the meter manufacturer.
+
+[level=6]
+====== Other measuring principles
+
+Other types of meters may require flow conditioning when measuring the errors
+of indication and in such cases the manufacturer's recommended installation
+requirements shall be followed (see <<scls-7-10>>). These installation requirements
+should be reported in the type approval certificate for a water meter.
+
+Concentric meters that are proven to be unaffected by manifold configuration
+(see <<scls-7-4-2-2-4-4>>) may be tested and used with any suitable manifold
+arrangement.
+
+====== Errors of test commencement and termination
+
+[level=6]
+====== General
+
+Adequate precautions shall be taken to reduce the uncertainties resulting from
+operation of test rig components during the test.
+
+Details of the precautions to be taken are given in <<scls-7-4-2-2-5-2>> and
+<<scls-7-4-2-2-5-3>> for two cases encountered in the "collection" method.
+
+[[scls-7-4-2-2-5-2]]
+[level=6]
+====== Tests with readings taken with the meter at rest
+
+This method is generally known as the standing-start-and-finish method.
+
+Flow is established by opening a valve, situated downstream of the meter, and
+it is stopped by closure of this valve. The meter is read when the registration
+is stationary.
+
+Time is measured between the start of the opening movement of the valve and
+the close of the closing movement. While flow is beginning and during the period
+of running at the specified constant flow rate, the error (of indication) of
+the meter varies as a function of the changes in flow rate (the error curve).
+
+While the flow is being stopped, the combination of the inertia of the moving
+parts of the meter and the rotational movement of the water inside the meter
+may cause an appreciable error to be introduced in certain types of meters and
+for certain test flow rates.
+
+It has not been possible, in this case, to determine a simple empirical rule
+which lays down conditions so that this error may always be negligible.
+
+In case of doubt, it is advisable:
+
+. to increase the volume and duration of the test;
+. to compare the results with those obtained by one or more other methods, and
+in particular the method specified in <<scls-7-4-2-2-5-3>>, which eliminates
+the causes of uncertainty given in the preceding.
+
+For some types of electronic water meters with pulse outputs that are used for
+testing, the response of the meter to changes in flow rate may be such that
+valid pulses are emitted after closure of the valve. In this case, means shall
+be provided to count these additional pulses.
+
+Where pulse outputs are used for testing meters, the correspondence of the volume
+indicated by the pulse count to the volume displayed on the indicating device
+shall be checked.
+
+[[scls-7-4-2-2-5-3]]
+[level=6]
+====== Tests with readings taken under stable flow conditions and diversion of flow
+
+This method is generally known as the flying-start-and-finish method.
+
+The measurement is carried out when flow conditions have stabilised.
+
+A switch diverts the flow into a calibrated vessel at the beginning of the measurement
+and diverts it away at the end.
+
+The meter is read while in motion.
+
+The reading of the meter is synchronised with the movement of the flow switch.
+
+The volume collected in the vessel is the actual volume passed.
+
+The uncertainty introduced into the volume may be considered negligible if the
+times of motion of the flow switch in each direction are identical within stem:[5 %]
+and if this time is less than stem:[1//50] of the total time of the test.
+
+====== Calibrated reference device
+
+[[scls-7-4-2-2-6-1]]
+[level=6]
+====== Expanded uncertainty of the value of measured actual volume
+
+When a test is conducted, the expanded uncertainty in the determination of the
+actual volume passing through a water meter shall not exceed one-fifth of the
+applicable maximum permissible error for type evaluation and one-third of the
+applicable maximum permissible error for initial verification.
+
+NOTE: The uncertainty of the measured actual volume does not include a contribution
+from the water meter.
+
+The estimated uncertainty shall be made according to <<ISO_IEC_Guide_98_3_2008>>
+with a coverage factor, stem:[k = 2].
+
+[level=6]
+====== Minimum volume of the calibrated reference device
+
+The minimum volume permitted depends on requirements determined by the test
+start and end effects (timing error), and the design of the indicating device
+(value of the verification scale interval).
+
+====== Major factors affecting the measurement of errors (of indication)
+
+[level=6]
+====== General
+
+Variations in the pressure, flow rate and temperature in the test rig, and uncertainties
+in the precision of measurement of these physical quantities, are the principal
+factors affecting the measurement of the errors (of indication) of a water meter.
+
+[level=6]
+====== Supply pressure
+
+The supply pressure shall be maintained at a constant value throughout the test
+at the chosen flow rate.
+
+When testing water meters which are designated stem:[Q_3 <= 16 "unitsml(m^3/h)"],
+at test flow rates stem:[<= 0.1 Q_3] constancy of pressure at the inlet of the
+meter (or at the inlet of the first meter of a group being tested) is achieved
+if the test rig is supplied through a pipe from a constant head tank. This ensures
+an undisturbed flow.
+
+Any other methods of supply shown not to cause pressure pulsations exceeding
+those of a constant head tank may be used (e.g. a pressurised tank).
+
+For all other tests, the pressure upstream of the meter shall not vary by more
+than stem:[10 %]. The maximum uncertainty (stem:[k = 2]) in the measurement
+of pressure shall be stem:[5 %] of the measured value.
+
+The estimated uncertainty shall be made according to <<ISO_IEC_Guide_98_3_2008>>
+with a coverage factor, stem:[k = 2].
+
+Pressure at the entrance to the meter shall not exceed the maximum admissible
+pressure for the meter.
+
+[level=6]
+====== Flow rate
+
+The flow rate shall be maintained at a constant value throughout the test at
+the chosen value.
+
+The relative variation in the flow rate during each test (not including starting
+and stopping) shall not exceed:
+
+stem:[pm 2.5 %] from stem:[Q_1] to stem:[Q_2] (exclusive);
+
+stem:[pm 5.0 %] from stem:[Q_2] (inclusive) to stem:[Q_4].
+
+The flow rate value is the actual volume passed during the test divided by the time.
+
+This flow rate variation condition is acceptable if the relative pressure variation
+(in flow to free air) or the relative variation of pressure loss (in closed
+circuits) does not exceed:
+
+stem:[pm 5 %] from stem:[Q_1] to stem:[Q_2] (exclusive);
+
+stem:[pm 10 %] from stem:[Q_2] (inclusive) to stem:[Q_4].
+
+[level=6]
+====== Temperature
+
+During a test, the temperature of the water shall not change by more than
+stem:[5 "unitsml(degC)"].
+
+The maximum uncertainty (stem:[k = 2]) in the measurement of temperature shall
+not exceed stem:[1 "unitsml(degC)"].
+
+The estimated uncertainty shall be made according to <<ISO_IEC_Guide_98_3_2008>>
+with a coverage factor, stem:[k = 2].
+
+[[scls-7-4-2-2-7-5]]
+[level=6]
+====== Orientation of water meter(s)
+
+. If the meters are marked "H", mount the connecting pipework with the flow
+axis in the horizontal plane during the test. The indicating device shall be
+positioned on top.
+. If the meters are marked "V", mount the connecting pipework with the flow
+axis in the vertical plane during the test:
+.. at least one meter from the sample shall be mounted with the flow axis vertical,
+with flow direction from bottom to top;
+.. at least one meter from the sample shall be mounted with the flow axis vertical,
+with flow direction from top to bottom;
+. If the meters are not marked "H" or "V":
+.. at least one meter from the sample shall be mounted with the flow axis vertical,
+with flow direction from bottom to top;
+.. at least one meter from the sample shall be mounted with the flow axis vertical,
+with flow direction from top to bottom;
+.. at least one meter from the sample shall be mounted with the flow axis at
+an intermediate angle to the vertical and horizontal (angle and flow direction
+chosen at the discretion of the body responsible for type approval);
+.. the remaining meters from the sample shall be mounted with the flow axis
+horizontal.
+.. where the meters have an indicating device which is integral with the body
+of the meter, at least one of the horizontally mounted meters shall be oriented
+with the indicating device positioned at the side, at least one of the horizontally
+mounted meters shall be oriented with the indicating device positioned at the
+bottom, and the remaining meters shall be oriented with the indicating device
+positioned at the top.
+. The tolerance on the position of the flow axis for all meters, whether horizontal,
+vertical or at an intermediate angle, shall be stem:[pm 5 "unitsml(deg)"].
+
+Where fewer than four meters are presented to test, supplementary meters shall
+be taken from the basis population or the same meter shall be tested in different
+positions.
+
+==== Combination meters
+
+===== General
+
+For a combination meter, the test method specified in <<scls-7-4-2-2-5-3>>,
+in which readings of the combination meter are taken at an established flow
+rate, ensures that the change-over device is functioning correctly for both
+increasing and decreasing flow rates. The test method specified in <<scls-7-4-2-2-5-2>>,
+in which readings of the meter are taken at rest, should not be used for this
+test as it does not allow the determination of the error (of indication) after
+regulating the test flow rate for decreasing flow rates for combination meters.
+
+===== Test method for the determination of change-over flow rates (<<ISO_4064_1_2024,clause=7.2.3>>|<<OIML_R_49_1_2024,clause=7.2.3>>)
+
+. Starting from a flow rate that is less than the change-over flow rate stem:[Q_(x2)],
+the flow rate is increased in successive steps of stem:[5 %] of the assumed
+value of stem:[Q_(x2)] until flow rate stem:[Q_(x2)] is achieved as defined
+in <<ISO_4064_1_2024,clause=3.3.6>>|<<OIML_R_49_1_2024,clause=3.3.6>>. The value of stem:[Q_(x2)] is taken
+as the average of the values of indicated flow rate just before and just after
+change-over occurs.
+. Starting from a flow rate that is greater than the change-over flow rate stem:[Q_(x1)],
+the flow rate is decreased in successive steps of stem:[5 %] of the assumed
+value of stem:[Q_(x1)] until flow rate stem:[Q_(x1)] is achieved as defined
+in <<ISO_4064_1_2024,clause=3.3.6>>|<<OIML_R_49_1_2024,clause=3.3.6>> . The value of stem:[Q_(x1)] is taken
+as the average of the values of indicated flow rate just before and just after
+change-over occurs.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.2>>|<<OIML_R_49_3_2024,clause=4.3.2>>.
+
+[[scls-7-4-4]]
+==== Test procedure
+
+. Determine the intrinsic errors (of indication) of a water meter (in the measurement
+of the actual volume), for at least the following flow rates, the error at each
+flow rate being measured three times for <<item-7-4-4-a-1>>, <<item-7-4-4-a-2>> and <<item-7-4-4-a-5>>
+and twice for the other flow rate ranges:
++
+--
+. [[item-7-4-4-a-1]]stem:[Q_1] to stem:[1.1 Q_1];
+. [[item-7-4-4-a-2]]stem:[Q_2] to stem:[1.1 Q_2];
+. stem:[0.33 xx (Q_2 + Q_3)] to stem:[0.37 xx (Q_2 + Q_3)];
+. stem:[0.67 xx (Q_2 + Q_3)] to stem:[0.74 xx (Q_2 + Q_3)];
+. [[item-7-4-4-a-5]]stem:[0.9 Q_3] to stem:[Q_3];
+. stem:[0.95 Q_4] to stem:[Q_4];
+
+Three measured values are always required for <<item-7-4-4-a-1>>, <<item-7-4-4-a-2>> and <<item-7-4-4-a-5>>,
+since it is at these flow rates that the repeatability is calculated.
+--
+. and for combination meters:
+.. stem:[0.85 Q_(x1)] to stem:[0.95 Q_(x1)];
+.. stem:[1.05 Q_(x2)] to stem:[1.15 Q_(x2)].
+. Test the water meter without its supplementary devices attached (if any).
+. During a test, hold all other influence factors at reference conditions.
+. Measure the errors (of indication) at other flow rates if the shape of the
+error curve indicates that the MPE may be exceeded.
+. Calculate the relative error (of indication) for each flow rate in accordance
+with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.3>>|<<OIML_R_49_3_2024,clause=4.3.3>>.
+
+Where the initial error curve is close to the maximum permissible error at a
+point other than at stem:[Q_1], stem:[Q_2] or stem:[Q_3], if this error is shown
+to be typical of the meter type, the body responsible for type approval may
+choose to define an additional flow rate for verification to be included in
+the type approval certificate.
+
+It is recommended that the characteristic error curve for each water meter be
+plotted in terms of error against flow rate, so that the general performance
+of the water meter over its flow rate range can be evaluated.
+
+The meter shall be tested at the reference temperature(s) given in <<cls-4>>.
+Where there are two reference temperatures, the tests shall be done at both
+temperatures. The MPE appropriate to the test temperature shall apply.
+
+==== Acceptance criteria
+
+. The relative errors (of indication) observed for each of the flow rates shall
+not exceed the maximum permissible errors given in
+<<ISO_4064_1_2024,clause=4.2.2>>|<<OIML_R_49_1_2024,clause=4.2.2>> or 4.2.3. If the error observed
+on one or more meters is greater than
+the maximum permissible error at one flow rate only, then if only two results
+have been taken at that flow rate, the test at that flow rate shall be repeated;
+the test shall be declared satisfactory if two out of the three results at that
+flow rate lie within the maximum permissible error and the arithmetic mean of
+the results for the three tests at that flow rate lies within the maximum permissible
+error.
+. If all the errors (of indication) of the water meter have the same sign, within
+the complete measuring range (stem:[Q_1] to stem:[Q_4]), the water meter shall
+meet the requirements of <<item-10-1-4-b>>.
+. The standard deviation for <<item-7-4-4-a-1>>, <<item-7-4-4-a-2>> and <<item-7-4-4-a-5>>
+shall not exceed one-third of the maximum permissible errors given in
+<<ISO_4064_1_2024,clause=4.2.2>>|<<OIML_R_49_1_2024,clause="4.2.2 or 4.2.3">>.
+. The following equation for the calculation of the (population) standard deviation
+shall be used:
++
+--
+[stem]
+++++
+s = sqrt(1/n sum_(i=1)^n (E_(m(i)) - bar(E)_m)^2)
+++++
+
+where
+
+stem:[s]:: Population standard deviation
+
+stem:[E_(m(i))]:: Relative error (of indication) at flow rate stem:[i]
+
+stem:[bar(E)_m]:: Average relative error (of indication) at flow rate stem:[i]
+
+stem:[n]:: Number of tests
+--
+
+==== Interchange test on all types of cartridge meters and meters with exchangeable metrological modules (<<ISO_4064_1_2024,clause=7.2.7>>|<<OIML_R_49_1_2024,clause=7.2.7>>)
+
+===== Object of the test
+
+To confirm that the cartridge meters or meters with exchangeable metrological
+modules are insensitive to the influence of connection interfaces produced in
+series production.
+
+===== Preparation
+
+Two cartridge meters or exchangeable metrological modules and five connection
+interfaces are selected from the number of meters presented for approval.
+
+Correct matching of a cartridge meter with a connection interface or an exchangeable
+metrological module with a connection interface, respectively, shall be checked
+prior to test. Moreover, the matching of the required marking on a cartridge
+meter or an exchangeable metrological module and a connection interface shall
+be checked. Adaptors are not permitted.
+
+===== Test procedure
+
+. Two cartridge meters or exchangeable metrological modules shall be tested
+in five connection interfaces of every compatible interface type, resulting
+in 10 accuracy curves for each type of compatible interface. The test flow rates
+shall be in accordance with the specifications in <<scls-7-4-4>>.
+. During a test, hold all other influence factors at reference conditions.
+. Calculate the relative error of indication for each flow rate in accordance
+with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.4>>|<<OIML_R_49_3_2024,clause=4.3.4>>.
+
+===== Acceptance criteria
+
+. All accuracy curves shall be positioned within the MPE at all times.
+. Error variation within the five tests shall be within stem:[0.5 "times" "MPE"]
+if standard connection interfaces are being used, within stem:[1.0 "times" "MPE"]
+if identical connection interfaces with identical connection dimensions to the
+standard interfaces but with different body shapes and flow patterns (valve
+meter and tap meter connection interfaces) are being used.
+
+[[scls-7-5]]
+=== Water temperature test (<<ISO_4064_1_2024,clause=4.2.8>>|<<OIML_R_49_1_2024,clause=4.2.8>>)
+
+==== Object of the test
+
+To measure the effects of water temperature on the errors (of indication) of a meter.
+
+==== Preparation
+
+Apply the installation and operational requirements specified in <<scls-7-4-2>>.
+
+==== Test procedure
+
+Measure the error (of indication) of at least one meter at flow rate stem:[Q_2]
+with the inlet temperature held at stem:[10 "unitsml(degC)" pm 5 "unitsml(degC)"]
+for temperature classes T30 to T180 and stem:[30 "°C"_(0 "°C")^(+5 "°C")] for
+temperature classes T30/70 to T30/180. All other influence factors are maintained
+at reference conditions.
+
+Measure the error (of indication) of at least one meter at flow rate stem:[Q_2]
+with the inlet temperature held at the maximum admissible temperature (MAT)
+(<<ISO_4064_1_2024,table=1>>|<<OIML_R_49_1_2024,table=1>>) of the meter with a tolerance of
+stem:[{::}_(-5 "°C")^(0 "°C")] and all other influence factors maintained at
+reference conditions.
+
+. Calculate the relative error (of indication) for each inlet water temperature
+in accordance with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.5>>|<<OIML_R_49_3_2024,clause=4.3.5>>.
+
+==== Acceptance criteria
+
+The relative error (of indication) of the meter shall not exceed the applicable
+maximum permissible error.
+
+[[scls-7-6]]
+=== Overload water temperature test (<<ISO_4064_1_2024,clause=7.2.5>>|<<OIML_R_49_1_2024,clause=7.2.5>>)
+
+==== Object of the test
+
+To verify that a meter's performance is not affected after exposure to an elevated,
+overload, water temperature, as required in <<ISO_4064_1_2024,clause=7.2.5>>|<<OIML_R_49_1_2024,clause=7.2.5>>.
+
+This test only applies to meters with a stem:["MAT" >= 50 "unitsml(degC)"].
+
+==== Preparation
+
+Apply the installation and operational requirements specified in <<scls-7-4-2>>.
+
+The test is to be performed on at least one meter.
+
+==== Test procedure
+
+. Expose the meter to a flow of water at the reference flow rate at a temperature
+of stem:["MAT" + 10 "unitsml(degC)" pm 2.5 "unitsml(degC)"] for a period of
+stem:[1 "unitsml(h)"] after the meter has reached temperature stability.
+. After recovery, measure the error (of indication) of the meter at flow rate
+stem:[Q_2] at the reference temperature.
+. Calculate the relative error (of indication) in accordance with <<annex-b>>.
+. During the test, the reference conditions for all other influence quantities
+shall be maintained.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.5>>|<<OIML_R_49_3_2024,clause=4.3.5>>.
+
+==== Acceptance criteria
+
+. The meter functionality with regard to volume totalisation shall remain unaffected.
+. Additional functionality, as indicated by the manufacturer, shall remain unaffected.
+. The error (of indication) of the meter shall not exceed the applicable MPE.
+
+[[scls-7-7]]
+=== Water pressure test (<<ISO_4064_1_2024,clause=4.2.8>>|<<OIML_R_49_1_2024,clause=4.2.8>>)
+
+==== Object of the test
+
+To measure the effects of internal water pressure on the errors (of indication)
+of a meter.
+
+==== Preparation
+
+The installation and operational requirements specified in <<scls-7-4-2>> shall
+apply.
+
+==== Test procedure
+
+Measure the error (of indication) of at least one meter at a flow rate of stem:[Q_2]
+with the inlet pressure held firstly at stem:[0.03 "unitsml(MPa)"]
+(stem:[0.3 "unitsml(bar)"]) stem:[({::}_(0)^(+5 %))] and then at the maximum
+admissible pressure (MAP) stem:[({::}_(-10 %)^(0))].
+
+. During each test, all other influence factors shall be maintained at reference
+conditions.
+. Calculate the relative error (of indication) for each inlet water pressure
+in accordance with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.6>>|<<OIML_R_49_3_2024,clause=4.3.6>>.
+
+==== Acceptance criteria
+
+The relative errors (of indication) of the meter shall not exceed the applicable
+maximum permissible error.
+
+[[scls-7-8]]
+=== Reverse flow test (<<ISO_4064_1_2024,clause=4.2.7>>|<<OIML_R_49_1_2024,clause=4.2.7>>)
+
+==== Object of the test
+
+To verify that a meter satisfies the requirement of <<ISO_4064_1_2024,clause=4.2.7>>|<<OIML_R_49_1_2024,clause=4.2.7>> when reverse flow occurs.
+
+A meter which is designed to measure reverse flow shall record the reverse flow
+volume accurately.
+
+A meter which allows reverse flow, but which is not designed to measure it,
+shall be subjected to reverse flow. The errors shall subsequently be measured
+for forward flow, to check that there is no degradation in metrological performance
+caused by reverse flow.
+
+A meter which is designed to prevent reverse flow (e.g. by means of an integral
+non-return valve) is subjected to the application of the maximum admissible
+pressure of the meter applied to the outlet connection and the measurement errors
+are subsequently measured for forward flow to ensure that there is no degradation
+in metrological performance caused by the pressure acting on the meter.
+
+==== Preparation
+
+The installation and operational requirements specified in <<scls-7-4-2>> shall
+apply.
+
+==== Test procedure
+
+[[scls-7-8-3-1]]
+===== Meters designed to measure reverse flow
+
+. Measure the error (of indication) of at least one meter at each of the following
+reverse flow rate ranges:
+.. stem:[Q_1] to stem:[1.1 Q_1];
+.. stem:[Q_2] to stem:[1.1 Q_2];
+.. stem:[0.9 Q_3] to stem:[Q_3].
+. During each test, all other influence factors shall be maintained at reference
+conditions.
+. Calculate the relative error (of indication) for each flow rate in accordance
+with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.7.2>>|<<OIML_R_49_3_2024,clause=4.3.7.2>>.
+. In addition, the following tests shall be carried out with the application
+of reverse flow: pressure loss test <<scls-7-9>>, flow disturbance test <<scls-7-10>>,
+and durability test <<scls-7-11>>.
+
+[[scls-7-8-3-2]]
+===== Meters not designed to measure reverse flow
+
+. Subject the meter to a reverse flow of stem:[0.9 Q_3] for stem:[1 "unitsml(min)"].
+. Measure the error (of indication) of at least one meter at the following forward
+flow rate ranges:
+.. stem:[Q_1] to stem:[1.1 Q_1];
+.. stem:[Q_2] to stem:[1.1 Q_2];
+.. stem:[0.9 Q_3] to stem:[Q_3].
+. During each test, all other influence factors shall be maintained at reference
+conditions.
+. Calculate the relative error (of indication) for each flow rate in accordance
+with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.7.3>>|<<OIML_R_49_3_2024,clause=4.3.7.3>>.
+
+[[scls-7-8-3-3]]
+===== Meters which prevent reverse flow
+
+. Meters which prevent reverse flow should be subjected to the maximum admissible
+pressure in the reverse flow direction for stem:[1 "unitsml(min)"].
+. Check that there is no significant leak past the valve.
+. Measure the error (of indication) of at least one meter in the following forward
+flow rate ranges:
+.. stem:[Q_1] to stem:[1.1 Q_1];
+.. stem:[Q_2] to stem:[1.1 Q_2];
+.. stem:[0.9 Q_3] to stem:[Q_3].
+. During each test, all other influence factors shall be maintained at reference
+conditions.
+. Calculate the relative error (of indication) for each flow rate in accordance
+with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.7.4>>|<<OIML_R_49_3_2024,clause=4.3.7.4>>.
+
+==== Acceptance criteria
+
+In the tests specified in <<scls-7-8-3-1>>, <<scls-7-8-3-2>> and <<scls-7-8-3-3>>,
+the relative error (of indication) of the meter shall not exceed the applicable
+maximum permissible error.
+
+[[scls-7-9]]
+=== Pressure loss test (<<ISO_4064_1_2024,clause=6.5>>|<<OIML_R_49_1_2024,clause=6.5>>)
+
+==== Object of the test
+
+To determine the maximum pressure loss through a water meter at any flow rate
+between stem:[Q_1] and stem:[Q_3].
+
+To verify the maximum pressure loss is less than the maximum value acceptable
+for the pressure loss class of the meter (see <<ISO_4064_1_2024,table=5>>|<<OIML_R_49_1_2024,table=5>>). The pressure loss is defined as the pressure lost by the flowing fluid
+passing through the water meter under test, the water meter consisting of the
+meter, associated manifolds (for concentric meters) and connections, but excluding
+the pipework making up the test section. The test is required for forward flow
+and where appropriate for reverse flow (see <<scls-7-8-3-1>>).
+
+==== Equipment for pressure loss test
+
+The equipment needed to carry out pressure loss tests consists of a measuring
+section of pipework containing the water meter under test and means for producing
+the stipulated constant flow rate through the meter. The same constant flow
+rate means as that employed for the measuring of the errors (of indication),
+specified in <<scls-7-4-2>>, is generally used for pressure-loss tests.
+
+The upstream and downstream pipe lengths, with their end connections and pressure
+tappings, plus the water meter under test, constitute the measuring section.
+
+Pressure tappings of similar design and dimensions shall be fitted to the inlet
+and outlet pipes of the measuring section. Pressure tappings should be drilled
+at right angles to the pipe wall at the appropriate point. Tappings should not
+be more than stem:[4 "unitsml(mm)"] or less than stem:[2 "unitsml(mm)"] in diameter.
+If the pipe diameter is less than or equal to stem:[25 "unitsml(mm)"], the tappings
+should be as close to stem:[2 "unitsml(mm)"] in diameter as possible. The diameter
+of the holes shall remain constant for a distance of not less than two tapping
+diameters before breaking into the pipe. The holes drilled through the pipe
+wall shall be free from burrs at the edges where they break through into the
+inlet and outlet pipe bores. Edges shall be sharp with neither a radius nor
+a chamfer.
+
+A single pressure tapping may be provided and would be suitable for most tests.
+To provide more robust data, four or more pressure tappings can be fitted around
+the pipe circumference in each measurement plane. These would be interconnected
+by means of tee-shaped connectors to give a true mean static pressure at the
+pipe cross-section. The design of a triple-tee arrangement is shown, for example,
+in <<ISO_5167_1_2003,figure=1>>.
+
+Guidance on the design of pressure tappings is given in <<annex-g>>.
+
+The meter shall be installed in accordance with the manufacturer's instructions
+and the upstream and downstream connecting pipes in contact with the water meter
+shall have the same internal nominal diameter matched to the relevant meter
+connection. A difference in the diameter of the connecting pipes and that of
+the meter may result in an incorrect measurement.
+
+The upstream and downstream pipes should be round and of smooth bore to minimise
+pressure loss in the pipe. The minimum dimensions for installing the tappings
+are shown in <<figure-1>>. The upstream tapping should be positioned a distance
+of at least stem:[10 D], where stem:[D] is the internal pipe diameter, downstream
+of the entrance to avoid errors being introduced by the entry connection and
+be positioned at least stem:[5 D] upstream of the meter to avoid any errors
+introduced by the entry to the meter. The downstream tapping should be at least
+stem:[10 D] downstream of the meter to allow pressure to recover following any
+restrictions within the meter and at least stem:[5 D] upstream of the end of
+the test section to avoid any effect of downstream fittings.
+
+[[figure-1]]
+.Pressure loss test: layout of measuring section
+image::figure-1.png[]
+
+[%key]
+
+1:: differential manometer stem:[L_1 >= 10 D]
+
+2:: water meter (plus manifold, for concentric meters) stem:[L_2 >= 5 D]
+
+stem:["P"_1], stem:["P"_2]:: planes of the pressure tappings stem:[L_3 >= 10 D]
+
+a:: Flow direction. stem:[L_4 >= 5 D]
+
+b:: Measuring section. Where stem:[D] is the internal diameter of the pipe-work
+
+
+These specifications give minimum lengths and longer lengths are acceptable.
+Each group of pressure tappings in the same plane shall be connected by a leak-free
+tube to one side of a differential pressure measuring device, e.g. a differential
+pressure transmitter or manometer. Provision shall be made for clearing air
+from the measuring device and connecting tubes. The maximum pressure loss shall
+be measured with a maximum expanded uncertainty of stem:[5 %] of the maximum
+pressure loss acceptable for the pressure loss class of the meter, with a coverage
+factor of stem:[k = 2].
+
+==== Test procedure
+
+===== Determination of installed pressure loss
+
+The meter should be installed in the measuring section in the test facility.
+Flow is established and all air purged from the test section. Adequate back
+pressure should be ensured at the downstream pressure tapping at the maximum
+flow rate stem:[Q_3]. As a minimum, a static pressure downstream of the meter
+under test of stem:[100 "unitsml(kPa)"] (stem:[1 "unitsml(bar)"]) is recommended
+to avoid cavitation or air release. All air should be removed from the pressure
+tappings and transmitter connecting pipes. The fluid should be allowed to stabilise
+at the required temperature. While monitoring the differential pressure, the
+flow should be varied between stem:[Q_1] and stem:[Q_3]. The flow rate showing
+the largest pressure loss, stem:[Q_"t"], should be noted along with the measured
+pressure loss and fluid temperature. Normally stem:[Q_"t"] will be found to
+be equal to stem:[Q_3]. For combination meters, the maximum pressure loss often
+occurs just before stem:[Q_(x2)].
+
+===== Determination of pressure loss attributable to test section
+
+As some pressure is lost due to friction in the test section pipe between the
+pressure tappings, this should be determined and subtracted from the measured
+pressure loss across the meter. If the pipe diameter, roughness and length between
+the tappings are known, the pressure loss may be calculated from standard pressure
+loss formulae. It may, however, be more effective to measure the pressure loss
+across the pipes. The test section can be rearranged as shown in <<figure-2>>.
+
+This is done by joining the upstream and downstream pipe faces together in the
+absence of the meter (carefully avoiding joint protrusion into the pipe bore
+or misalignment of the two faces), and measuring the pressure loss of the pipe
+measuring section for the specified flow rate.
+
+The absence of the water meter will shorten the measuring section. If telescopic
+sections are not fitted on the test rig, the gap may be filled by inserting
+downstream of the measuring section either a temporary pipe of the same length
+as the water meter, or the water meter itself.
+
+Measure the pressure loss for the pipe lengths at the previously determined
+flow rate stem:[Q_"t"].
+
+[[figure-2]]
+.Pressure loss test
+====
+.Pipe pressure loss
+image::figure-2a.png[]
+
+.(Pipe and water meter) pressure loss
+image::figure-2b.png[]
+====
+
+[%key]
+1:: differential manometer
+2:: water meter in downstream position (or temporary pipe)
+3:: water meter
+
+stem:["P"_1], stem:["P"_2]:: planes of the pressure tappings
+
+stem:[Delta p_1]:: pressure loss of up- and downstream pipe lengths +
+stem:[Delta p_1 = (Delta p_(L_2) + Delta p_(L_3))]
+
+stem:[Delta p_2]:: pressure loss of up- and downstream pipe lengths and water meter +
+stem:[Delta p_2 = (Delta p_(L_2) + Delta p_(L_3) + Delta p_"meter")]
+
+stem:[Delta p_"meter"]:: stem:[Delta p_2 - Delta p_1 = (Delta p_(L_2) + Delta p_(L_3) + Delta p_"meter") - (Delta p_(L_2) + Delta p_(L_3)) = Delta p_"meter"]
+
+a:: Flow direction.
+
+b:: Measuring section.
+
+==== Calculation of the actual stem:[Delta p] of a water meter
+
+Calculate the pressure loss, stem:[Delta p_"t"], of the water meter at stem:[Q_"t"]
+by making the subtraction
+
+[stem]
+++++
+Delta p_"t" = Delta p_("m+p") - Delta p_"p"
+++++
+
+where
+
+stem:[Delta p_("m+p")]:: is the measured pressure loss at stem:[Q_"t"] with
+the meter in place;
+
+stem:[Delta p_"p"]:: is the pressure loss measured without the meter at stem:[Q_"t"].
+
+If the measured flow rate either during the test or during the determination
+of the pipe pressure loss is not equal to the selected test flow rate, the measured
+pressure loss can be corrected to that expected at stem:[Q_"t"] by reference
+to the square law formula as follows:
+
+[stem]
+++++
+Delta p_(Q_"t") = frac(Q_"t"^2)(Q_"meas"^2) Delta p_(Q_"meas")
+++++
+
+where
+
+stem:[Delta p_(Q_"t")]:: is the calculated pressure loss at stem:[Q_"t"];
+
+stem:[Delta p_(Q_"meas")]:: is the measured pressure loss at a flow rate stem:[Q_"meas"].
+
+If the pressure loss is being measured across a combination meter, this formula
+only applies if the condition of the changeover device is the same at a flow
+rate of stem:[Q_"t"] as it was at the measured flow rate. Note that the pipe
+pressure loss and the meter and pipe pressure loss shall be corrected to the
+same flow rate before the meter pressure loss stem:[Delta p_"t"] is calculated.
+
+Complete the test report in <<ISO_4064_3_2024,clause=4.3.8>>|<<OIML_R_49_3_2024,clause=4.3.8>>. Note the
+water temperature, stem:[Delta p_"t"], and stem:[Q_"t"].
+
+==== Acceptability criteria
+
+The pressure loss of the meter shall not exceed the maximum value acceptable
+for the pressure loss class of the meter at any flow rate between stem:[Q_1]
+and stem:[Q_3] inclusive.
+
+[[scls-7-10]]
+=== Flow disturbance tests (<<ISO_4064_1_2024,clause=6.3.4>>|<<OIML_R_49_1_2024,clause=6.3.4>>)
+
+==== Object of the tests
+
+To verify that a meter complies with the requirements of <<ISO_4064_1_2024,clause=6.3.4>>|<<OIML_R_49_1_2024,clause=6.3.4>> for forward flow and where appropriate for reverse flow (see
+<<scls-7-8-3-1>>).
+
+The effects on the error (of indication) of a water meter of the presence of
+specified, common types of disturbed flow upstream and downstream of the meter
+are measured.
+
+NOTE: Types 1 and 2 flow disturbers are used in tests to create left-handed
+(sinistrorsal) and right-handed (dextrorsal) rotational velocity fields (swirl),
+respectively. The flow disturbance is of a type usually found downstream of
+two stem:[90 "unitsml(deg)"] bends directly connected at right angles. A Type
+3 disturbance device creates an asymmetric velocity profile usually found downstream
+of a protruding pipe joint, single bend or a gate valve not fully opened.
+
+==== Preparation
+
+In addition to the installation and operational requirements specified in <<scls-7-4-2>>,
+the conditions specified in <<scls-7-10-3>> shall be applied.
+
+[[scls-7-10-3]]
+==== Test procedure
+
+. Using the flow disturbers of types 1, 2, and 3 specified in <<annex-h>>, determine
+the error (of indication) of the meter at flow rates between stem:[Q_2] and
+stem:[1.1 Q_2], and between stem:[0.9 Q_3] and stem:[Q_3], for each of the installation
+conditions shown in <<annex-c>>.
+. During each test, all other influence factors shall be maintained at reference
+conditions.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.9>>|<<OIML_R_49_3_2024,clause=4.3.9>>.
+
+Additional requirements follow.
+
+[arabic]
+. For meters where the manufacturer has specified installation lengths of straight
+pipe of at least stem:[15 "times" "DN"] upstream and stem:[5 "times" "DN"] downstream
+of the meter, where DN is the nominal diameter, no external flow straighteners
+are allowed.
+. When a minimum straight pipe length of 5 times DN downstream of
+the meter is specified by the manufacturer, only tests 1, 3 and 5 shown in <<annex-c>>
+shall be performed.
+. Where meter installations with external flow straighteners are to be used,
+the manufacturer shall specify the straightener model, its technical characteristics
+and its position in the installation relative to the water meter.
+. Devices within the water meter having flow straightening functions shall not
+be considered to be a "straightener" in the context of these tests.
+. Some types of water meter which have been proven to be unaffected by flow
+disturbances upstream and downstream of the meter may be exempted from this
+test by the body responsible for type approval.
+. The straight lengths upstream and downstream of the meter depend on the flow
+profile sensitivity class of the meter and shall be in accordance with <<ISO_4064_1_2024>>|<<OIML_R_49_1_2024>>, Tables 2 and 3, respectively.
+
+==== Acceptance criteria
+
+The relative error (of indication) of the meter shall not exceed the applicable
+maximum permissible error for any of the flow disturbance tests.
+
+[[scls-7-11]]
+=== Durability tests (<<ISO_4064_1_2024,clause=7.2.6>>|<<OIML_R_49_1_2024,clause=7.2.6>>)
+
+==== General
+
+During durability tests, the rated operating conditions of the meter shall be
+met. Where a combination meter consists of individual meters that have been
+previously approved, only the discontinuous combination meters (additional test)
+(see <<table-1>>) is required. The test is required for forward flow and where
+appropriate for reverse flow (see <<scls-7-8-3-1>>).
+
+The orientation(s) of the meters under test shall be set with reference to the
+meter orientation(s) claimed by the manufacturer.
+
+The same meters shall be submitted to the discontinuous and continuous tests.
+
+[[scls-7-11-2]]
+==== Discontinuous flow test
+
+===== Object of the test
+
+To verify that a water meter is durable when subjected to cyclic flow conditions.
+
+This test is applied only to meters with stem:[Q_3 <= 16 "unitsml(m^3/h)"] and
+combination meters.
+
+The test consists of subjecting the meter to the specified number of starting
+and stopping flow rate cycles of short duration, the constant test flow rate
+phase of each cycle being kept at the prescribed flow rate throughout the duration
+of the test (see <<scls-7-11-2-3-2>>). For the convenience of laboratories,
+the test can be divided up into periods of at least stem:[6 "unitsml(h)"].
+
+===== Preparation
+
+====== Description of the installation
+
+The installation consists of:
+
+. a water supply (non-pressurised, pressurised tank; pump; etc.);
+. pipework.
+
+====== Pipework
+
+The meters can be arranged in series or in parallel, or the two systems can
+be combined.
+
+In addition to the meter(s), the piping system consists of:
+
+. one flow-regulating device (per line of meters in series, if necessary);
+. one or more isolating valves;
+. a device for measuring the temperature of the water upstream of the meters;
+. devices for checking the flow rate, the duration of cycles and the number
+of cycles;
+. one flow-interrupting device for each line of meters in series;
+. devices for measuring pressure at the inlet and outlet.
+
+The various devices shall not cause cavitation phenomena or other types of parasitic
+wear of the meter(s).
+
+====== Precautions to be taken
+
+The meter(s) and connecting pipes shall be suitably bled of air.
+
+The flow variation during the repeated opening and closing operations shall
+be progressive, so as to prevent water hammer.
+
+====== Flow rate cycle
+
+A complete cycle comprises the following four phases:
+
+. a period from zero to the test flow rate;
+. a period at constant test flow rate;
+. a period from the test flow rate to zero;
+. a period at zero flow rate.
+
+===== Test procedure
+
+====== General
+
+. [[item-7-11-2-3-1-a]]Before commencing the discontinuous durability test, measure the errors (of
+indication) of the meter(s) as specified in <<scls-7-4>> and at the same flow
+rates as in <<scls-7-4-4>>.
+. Mount the meters either singly or in groups in the test rig in the same orientations
+as those used in determination of the intrinsic errors (of indication)
+(<<scls-7-4-2-2-7-5>>).
+. During the tests, maintain the meters within their rated operating conditions
+and with the pressure downstream of the meters high enough to prevent cavitation
+in the meters.
+. Adjust the flow rate to within the specified tolerances.
+. Run the meter(s) at the conditions shown in <<table-1>>.
+. Following the discontinuous durability test, measure the final errors (of
+indication) of the meters as specified in <<scls-7-4>> and at the same flow
+rates as in <<scls-7-4-4>>.
+. [[item-7-11-2-3-1-g]]Calculate the final relative error (of indication) for each flow rate in accordance
+with <<annex-b>>.
+. For each flow rate, subtract the value of the intrinsic error (of indication)
+obtained at step <<item-7-11-2-3-1-a>> from the error (of indication) obtained at step <<item-7-11-2-3-1-g>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.10.1>>|<<OIML_R_49_3_2024,clause=4.3.10.1>> for
+meters with stem:[Q_3 <= 16 "unitsml(m^3/h)"] and <<ISO_4064_3_2024,clause=4.3.10.3>>|<<OIML_R_49_3_2024,clause=4.3.10.3>> for combination meters.
+
+[[scls-7-11-2-3-2]]
+====== Tolerance on flow rate
+
+The relative variation of the flow values shall not exceed stem:[pm 10 %] outside
+the opening, closing, and stoppage periods. The meter(s) on test may be used
+to check the flow rate.
+
+====== Tolerance on test timing
+
+The tolerance on the specified duration of each phase of the flow cycle shall
+not exceed stem:[pm 10 %].
+
+The tolerance on the total test duration shall not exceed stem:[pm 5 %].
+
+====== Tolerance on the number of cycles
+
+The number of cycles shall not be less than that stipulated, but shall not exceed
+this number by more than stem:[1 %].
+
+====== Tolerance on discharged volume
+
+The volume discharged throughout the test shall be equal to half the product
+of the specified test flow rate and the total theoretical duration of the test
+(operating periods plus transient and stoppage periods) with a tolerance of
+stem:[pm 5 %].
+
+This precision can be obtained by sufficiently frequent corrections of the instantaneous
+flows and operating periods.
+
+====== Test readings
+
+During the test, the following readings from the test rig shall be recorded
+at least once every stem:[24 "unitsml(h)"] period, or once for every shorter
+period if the test is so divided:
+
+. line pressure upstream of the meter(s) under test;
+. line pressure downstream of the meter(s) under test;
+. line temperature upstream of the meter(s) under test;
+. flow rate through the meter(s) under test;
+. duration of the four phases of the cycle of the discontinuous flow test;
+. number of cycles;
+. indicated volumes of the meter(s) under test.
+
+[[table-1]]
+.Durability tests
+[cols="9*",options="header"]
+|===
+| Temperature class
+| Permanent flow rate +
+stem:[Q_3] +
+stem:["unitsml(m^3/h)"]
+| Test flow-rate
+| Test water temperature +
+stem:[t_"test" "unitsml(degC)" pm 5 "unitsml(degC)"]
+| Type of test
+| Number of interrupts
+| Time of pauses
+| Time of test at test flow rate
+| Duration of start-up and rundown
+
+.4+| T30 and T50
+.2+| stem:[<= 16]
+| stem:[Q_3]
+| 20
+| Discontinuous
+| stem:[100000]
+| stem:[15 "unitsml(s)"]
+| stem:[15 "unitsml(s)"]
+| stem:[0.15 [Q_3\]]footnote:[stem:[[Q_3\]] Is the number equal to the value of stem:[Q_3] expressed in stem:["unitsml(m^3/h)"].] stem:["unitsml(s)"] with a minimum of stem:[1 "unitsml(s)"]
+
+| stem:[Q_4]
+| 20
+| Continuous
+| --
+| --
+| stem:[100 "unitsml(h)"]
+| --
+
+.2+| stem:[> 16]
+| stem:[Q_3]
+| 20
+| Continuous
+| --
+| --
+| stem:[800 "unitsml(h)"]
+| --
+
+| stem:[Q_4]
+| 20
+| Continuous
+| --
+| --
+| stem:[200 "unitsml(h)"]
+| --
+
+.4+| All other temperature classes
+.2+| stem:[<= 16]
+| stem:[Q_3]
+| 50
+| Discontinuous
+| stem:[100000]
+| stem:[15 "unitsml(s)"]
+| stem:[15 "unitsml(s)"]
+| stem:[0.15 [Q_3\]]footnote:[stem:[[Q_3\]] Is the number equal to the value of stem:[Q_3] expressed in stem:["unitsml(m^3/h)"].] stem:["unitsml(s)"] with a minimum of stem:[1 "unitsml(s)"]
+
+| stem:[Q_4]
+| stem:[0.9 "times" "MAT"]
+| Continuous
+| --
+| --
+| stem:[100 "unitsml(h)"]
+| --
+
+.2+| stem:[> 16]
+| stem:[Q_3]
+| 50
+| Continuous
+| --
+| --
+| stem:[800 "unitsml(h)"]
+| --
+
+| stem:[Q_4]
+| stem:[0.9 "times" "MAT"]
+| Continuous
+| --
+| --
+| stem:[200 "unitsml(h)"]
+| --
+
+| Combination meters (additional test)footnote:[Where a combination meter consists of meters that have been previously approved, only the discontinuous test for combination meters (additional test) is required. The specified temperature for tests for combination meters assumes that the meter is of class T30 or T50. If it were of other classes, the reference temperature would be stem:[50 "unitsml(degC)"].]
+| stem:[> 16]
+| stem:[Q >= 2 Q_(x2)]
+| 20
+| Discontinuous
+| stem:[50000]
+| stem:[15 "unitsml(s)"]
+| stem:[15 "unitsml(s)"]
+| stem:[3 "unitsml(s)"] to stem:[6 "unitsml(s)"]
+
+| Combination meters (where small meter has not been pre-approved)
+| stem:[> 16]
+| stem:[0.9 Q_(x1)]
+| 20
+| Continuous
+| --
+| --
+| stem:[200 "unitsml(h)"]
+| --
+|===
+
+===== Acceptance criteria after discontinuous durability test
+
+====== For accuracy class 1 water meters
+
+. The variation in the error curve shall not exceed stem:[2 %] for flow rates
+in the lower zone (stem:[Q_1 <= Q < Q_2]), and stem:[1 %] for flow rates in
+the upper zone (stem:[Q_2 <= Q <= Q_4]). For the purpose of determining these
+requirements, the mean values of the errors (of indication) at each flow rate
+shall apply.
+. The curves shall not exceed a maximum error limit of:
+* stem:[pm 4 %] for flow rates in the lower zone (stem:[Q_1 <= Q < Q_2]); and
+* stem:[pm 1.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for T30 meters; or
+* stem:[pm 2.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for meters other than T30.
+
+====== For accuracy class 2 water meters
+
+. The variation in the error curve shall not exceed stem:[3 %] for flow rates
+in the lower zone (stem:[Q_1 <= Q < Q_2]), or stem:[1.5 %] for flow rates in
+the upper zone (stem:[Q_2 <= Q <= Q_4]). For the purpose of determining these
+requirements, the mean values of the errors (of indication) at each flow rate
+shall apply.
+. The curves shall not exceed a maximum error limit of:
+* stem:[pm 6 %] for flow rates in the lower zone (stem:[Q_1 <= Q < Q_2]); and
+* stem:[pm 2.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for T30 meters; or
+* stem:[pm 3.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for meters other than T30.
+
+[[scls-7-11-3]]
+==== Continuous flow test
+
+===== Object of the test
+
+To verify the durability of a water meter when subjected to continuous, permanent,
+and overload flow conditions.
+
+The test consists of subjecting the meter to a constant flow rate of stem:[Q_3]
+or stem:[Q_4] for a specified duration. In addition, where the small meter of
+a combination meter has not been pre-approved, the combination meter shall be
+subjected to a continuous flow test as shown in <<table-1>>. For the convenience
+of laboratories, the test can be divided up into periods of at least
+stem:[6 "unitsml(h)"].
+
+===== Preparation
+
+====== Description of the installation
+
+The installation consists of:
+
+. a water supply (non-pressurised or pressurised tank, pump, etc.);
+. pipework.
+
+====== Pipework
+
+In addition to the meter(s) to be tested, the pipework comprises:
+
+. a flow-regulating device;
+. one or more isolating valves;
+. a device for measuring the water temperature at the meter inlet;
+. means for checking the flow rate and duration of the test;
+. devices for measuring pressure at the inlet and outlet.
+
+The different devices shall not cause cavitation phenomena or other types of
+parasitic wear of the meter(s).
+
+====== Precautions to be taken
+
+The meter and connecting pipes shall be suitably bled of air.
+
+===== Test procedure
+
+====== General
+
+. [[item-7-11-3-3-1-a]]Before commencing the continuous durability test, measure the errors (of indication)
+of the meter(s) as specified in <<scls-7-4>> and at the same flow rates as in
+<<scls-7-4-4>>.
+. Mount the meter(s) either singly or in groups in the test rig in the same
+orientations as those used in the determination of the intrinsic error (of indication)
+tests (<<scls-7-4-2-2-7-5>>).
+. Run the meter(s) at the conditions shown in <<table-1>>.
+. Throughout the durability tests, the meter(s) shall be held within their rated
+operating conditions and the pressure at the outlet of each meter shall be high
+enough to prevent cavitation.
+. After the continuous durability test(s), measure the errors (of indication)
+of the meter(s) as specified in <<scls-7-4>> and at the same flow rates.
+. [[item-7-11-3-3-1-f]]Calculate the relative error (of indication) for each flow rate in accordance
+with <<annex-b>>.
+. For each flow rate, subtract the error (of indication) obtained at step <<item-7-11-3-3-1-a>>
+from the error (of indication) obtained at step <<item-7-11-3-3-1-f>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.10.2>>|<<OIML_R_49_3_2024,clause=4.3.10.2>>.
+
+====== Tolerance on flow rate
+
+The flow rate shall be kept constant throughout the test at a predetermined level.
+
+The relative variation of the flow rate values during each test shall not exceed
+stem:[pm 10 %] (except when starting and stopping).
+
+====== Tolerance on test timing
+
+The specified duration of the test is a minimum value.
+
+====== Tolerance on discharged volume
+
+The volume indicated at the end of the test shall not be less than that determined
+from the product of the specified test flow rate and the specified duration
+of the test.
+
+====== Test readings
+
+During the test, the following readings from the test rig shall be recorded
+at least once every stem:[24 "unitsml(h)"] period, or once for every shorter
+period if the test is so divided:
+
+. water pressure upstream of the meter(s) under test;
+. water pressure downstream of the meter(s) under test;
+. water temperature upstream of the meter(s) under test;
+. flow rate through the meter(s) under test;
+. indicated volume of the meter(s) under test.
+
+===== Acceptance criteria after continuous durability test
+
+====== For accuracy class 1 water meters
+
+. The variation in the error curve shall not exceed stem:[2 %] for flow rates
+in the lower zone (stem:[Q_1 <= Q < Q_2]), and stem:[1 %] for flow rates in
+the upper zone (stem:[Q_2 <= Q <= Q_4]). For the purpose of determining these
+requirements, the mean values of the errors (of indication) at each flow rate
+shall apply.
+. The curves shall not exceed a maximum error limit of:
+* stem:[pm 4 %] for flow rates in the lower zone (stem:[Q_1 <= Q < Q_2]); and
+* stem:[pm 1.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for T30 meters; or
+* stem:[pm 2.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for meters other than T30.
+
+====== For accuracy class 2 water meters
+
+. The variation in the error curve shall not exceed stem:[3 %] for flow rates
+in the lower zone (stem:[Q_1 <= Q < Q_2]), and stem:[1.5 %] for flow rates in
+the upper zone (stem:[Q_2 <= Q <= Q_4]). For the purpose of determining these
+requirements, the mean values of the errors (of indication) at each flow rate
+shall apply.
+. The curves shall not exceed a maximum error limit of:
+* stem:[pm 6 %] for flow rates in the lower zone (stem:[Q_1 <= Q < Q_2]); and
+* stem:[pm 2.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for T30 meters; or
+* stem:[pm 3.5 %] for flow rates in the upper zone (stem:[Q_2 <= Q <= Q_4])
+for meters other than T30.
+
+[[scls-7-12]]
+=== Magnetic field testing
+
+All water meters where the mechanical components may be influenced by a static
+magnetic field (e.g. equipped with a magnetic coupling in the drive to the readout
+or with a magnet-driven pulse output) and all meters with electronic components
+shall be tested to show that they are able to withstand the influence of a static
+magnetic field.
+
+This shall be tested according to the provisions of <<scls-8-16>>.
+
+=== Tests on ancillary devices of a water meter
+
+==== Object of the test
+
+To verify that a meter complies with the requirements in <<ISO_4064_1_2024,clause=4.3.6>>|<<OIML_R_49_1_2024,clause=4.3.6>>.
+
+The following two types of test are required.
+
+. Where ancillary devices can be attached temporarily to the meter, e.g. for
+testing or data transmission purposes, the error of indication of the meter
+shall be measured with the ancillary device(s) fitted to ensure that the errors
+of indication do not exceed the MPEs.
+. For permanently fitted and temporarily fitted ancillary devices, the indications
+of volume from the ancillary device/s shall be checked to ensure that the readings
+do not differ from those of the primary indication.
+
+==== Preparation
+
+. Apply the installation and operational requirements specified in <<scls-7-4-2>>.
+. Temporary ancillary devices shall be fitted either by the manufacturer or
+in accordance with the manufacturer's instructions.
+. Where the output from a ancillary device is an electric signal consisting
+of a pulse stream in which a single pulse corresponds to a finite volume, the
+pulses may be totalled on an electronic totaliser which, when connected, has
+no significant influence on the electrical signal.
+
+==== Test procedure
+
+. Determine the indication error of the meter with the temporary ancillary device
+fitted, in accordance with <<scls-7-4-4>>.
+. Compare the readings from the temporarily or permanently fitted ancillary
+device with those of the primary indicating device.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.12>>|<<OIML_R_49_3_2024,clause=4.3.12>>.
+
+==== Acceptance criteria
+
+. The error (of indication) of the meter with the temporary ancillary device
+fitted shall not exceed the applicable maximum permissible error.
+. For both permanent and temporarily fitted ancillary devices, the volume indications
+from the ancillary device(s) shall not differ from those of the visual display
+by more than the value of the verification scale interval.
+
+=== Environmental testing
+
+Depending on the meter technology and construction, there are appropriate levels
+of testing to meet environmental conditions. The relevant tests specified in
+<<cls-8>> and <<ISO_4064_1_2024,annex=A>>|<<OIML_R_49_1_2024,annex=A>> shall be applied as
+appropriate. It is specified in <<scls-8-1-8>> that these tests do not apply
+to meters of purely mechanical construction.
+
+=== Software evaluation
+
+The relevant evaluation methods specified in <<annex-i>> shall be applied as
+appropriate to software-controlled water meters. These evaluation methods do
+not apply to meters of purely mechanical construction.

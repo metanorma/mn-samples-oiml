@@ -1,0 +1,77 @@
+
+// Páginas 90 a 92 del PDF (OIML R 49-2:2024): Annex E (Informative). Se omiten cabeceras corridas y
+// números de página. Figuras E.1 a E.3 en images/.
+
+[[annex-e]]
+[appendix,obligation=informative]
+== Examples of methods and components used for testing concentric water meters
+
+<<figure-e-1>> shows an example of a manifold connection for a concentric water
+meter.
+
+[[figure-e-1]]
+.Example of a manifold connection for a concentric water meter
+image::figure-e1.png[]
+
+[%key]
+
+1:: concentric water meter
+
+2:: concentric water meter manifold (part view)
+
+a:: Water flow out.
+
+b:: Water flow in.
+
+A special pressure test manifold such as that shown in the example in <<figure-e-2>>
+may be used to test the meter. To ensure that the seals are operating at their
+'worst case' during the test, the sealing face dimensions of the pressure test
+manifold should be at the appropriate limits of their manufacturing tolerances,
+in accordance with the design dimensions specified by the manufacturer.
+
+Before being submitted for type evaluation, the meter manufacturer may be required
+to seal the meter at a point above the location of the inner seal of the meter/manifold
+interface, by a means suited to the meter design. When the concentric meter
+is fitted to the pressure test manifold and pressurised, it is necessary to
+be able to see the source of any leak flowing from the pressure test manifold
+outlet and to distinguish between it and that issuing from an incorrectly fitted
+sealing device. <<figure-e-3>> shows an example of a design of plug suited to
+many meter designs, but any other suitable means may be used.
+
+[[figure-e-2]]
+.Example of a manifold for pressure testing concentric meter seals
+image::figure-e2.png[]
+
+[%key]
+
+1:: position of inner seal
+
+a:: Pressure
+
+b:: Path of leakage water passing seal
+
+[[figure-e-3]]
+.Example of a plug for pressure testing concentric meter seals
+image::figure-e3.png[]
+
+[%key]
+
+1:: meter outer seal
+
+2:: meter
+
+3:: meter inner seal
+
+4:: test plug [see enlarged detail in b)]
+
+5:: manifold
+
+6:: O-ring grooves
+
+7:: tapping for withdrawal bolt
+
+8:: 4–6 gashes, equi-spaced
+
+9:: "witness" leakage hole
+
+a:: Pressure

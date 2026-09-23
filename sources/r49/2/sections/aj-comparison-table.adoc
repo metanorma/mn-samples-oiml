@@ -1,0 +1,45 @@
+
+// Página 112 del PDF (OIML R 49-2:2024): Annex J (Informative). Se omiten cabeceras corridas y
+// números de página.
+
+[appendix,obligation=informative]
+== Comparison table
+
+[cols="5*",options="header"]
+|===
+2+| OIML R 49-2:2024
+2+| OIML R 49-2:2013
+| Remarks
+
+| Ref.
+| Description
+| Ref.
+| Description
+|
+
+| 8.12.3(1
+| Radiated electromagnetic field
+| 8.12.3 (1
+| Radiated electromagnetic field
+| New frequency range requirements
+
+Test conditions increased to stem:[3000 "unitsml(MHz)"].
+
+| 10.1.4
+| -
+| 10.1.4 (b
+| For non-adjustable water meters, statistical means may be used to demonstrate that a batch of water meters complies with this requirement when the error at the maximum of the error distribution, Figure 4, does not exceed one-half of the maximum permissible error at flowrate stem:[Q_2] or stem:[Q_3].
+| New requirement for non-adjustable water meters.
+
+| -
+| -
+| 7.15
+| Software evaluation
+| New requirement for software
+
+| -
+| -
+| Annex I
+| Software evaluation for software-controlled water meters
+| New mandatory Annex for Software
+|===

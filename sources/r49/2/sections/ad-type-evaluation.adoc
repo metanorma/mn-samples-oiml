@@ -1,0 +1,72 @@
+// Páginas 88 y 89 del PDF (OIML R 49-2:2024): Annex D (Mandatory). Se omiten cabeceras corridas,
+// números de página y la numeración de cláusulas.
+
+[[annex-d]]
+[appendix,obligation=normative]
+== Type evaluation of a family of water meters
+
+=== Families of water meters
+
+This Annex describes the criteria to be applied by the body responsible for
+type approval in deciding whether a group of water meters can be considered
+to be from the same family for type approval purposes, where only selected meter
+sizes are to be tested.
+
+=== Definition
+
+A family of meters is a group of water meters of different sizes and/or different
+flow rates, in which all the meters shall have the following characteristics:
+
+* the same manufacturer;
+* geometric similarity of the wetted parts;
+* the same metering principle;
+* the same ratios stem:[Q_3 // Q_1];
+* the same accuracy class;
+* the same temperature class;
+* the same electronic device for each meter size;
+* a similar standard of design and component assembly;
+* the same materials for those components that are critical to the performance
+of the meter;
+* the same installation requirements relative to the meter size, e.g. stem:[10 D]
+(pipe diameter) of straight pipe upstream of the meter and stem:[5 D] of straight
+pipe downstream of the meter.
+
+=== Meter selection
+
+When considering which sizes of a family of water meters should be tested, the
+following rules shall be followed.
+
+. The body responsible for type approval shall declare the reasons for including
+and omitting particular meter sizes from testing.
+. The smallest meter in any family of meters shall always be tested.
+. Meters which have the most extreme operating parameters within a family, shall
+be considered for testing, e.g. the largest flow rate range, the highest peripheral
+(tip) speed of moving parts, etc.
+. If practical, the largest meter in any family of meters should always be tested
+for determination of intrinsic of errors (<<scls-7-4>>).
+. Durability tests (<<scls-7-11>>) will only be required on the meter size where
+the highest wear is expected. For meters with no moving parts in the measurement
+transducer, the smallest size shall be selected for durability tests.
+. Tests in more than one orientation are only required in the meter size for
+which the durability test is carried out.
+. All performance tests relating to influence quantities and disturbances shall
+be carried out on one size from a family of meters.
+. The static pressure test (<<scls-7-3>>), determination of intrinsic errors
+(<<scls-7-4>>), water temperature test (<<scls-7-5>>), overload water temperature
+test (<<scls-7-6>>), water pressure test (<<scls-7-7>>), reverse flow test (<<scls-7-8>>),
+pressure loss test (<<scls-7-9>>), flow disturbance test (<<scls-7-10>>), magnetic
+field test (<<scls-8-16>>), and absence of flow test (<<scls-8-17>>) are required
+for the smallest size meter and one other size (If there are only two meter
+sizes in the family, tests <<scls-7-5>>, <<scls-7-6>>, <<scls-7-7>>, <<scls-7-8>>,
+<<scls-7-9>>, <<scls-7-10>>, <<scls-8-16>>, <<scls-8-17>> are not required on
+the largest size). For families with five or more sizes a third size shall be
+tested for static pressure test (<<scls-7-3>>), determination of intrinsic errors
+(<<scls-7-4>>). If a family of meters are stem:[>= "DN300"], it is only necessary
+to test one size of meter.
+. In all cases, any meter having stem:[Q_3] more than two times greater than
+the stem:[Q_3] of the largest meter tested shall not be approved as part of a family.
+. Where a meter size is required for flow disturbance tests (<<scls-7-10>>)
+it shall be the meter of the shortest length.
+. If a meter has more than one ratio stem:[Q_3 // Q_1] at least the largest
+ratio should be tested. However, depending on the shape of the error curve,
+additional ratios may be tested.

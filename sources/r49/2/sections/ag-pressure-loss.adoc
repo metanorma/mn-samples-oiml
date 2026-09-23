@@ -1,0 +1,75 @@
+
+// Páginas 96 a 98 del PDF (OIML R 49-2:2024): Annex G (Informative). Se omiten cabeceras corridas,
+// números de página y la numeración de cláusulas. Figuras G.1 a G.3 en images/.
+
+[[annex-g]]
+[appendix,obligation=informative]
+== Pressure loss test pressure tappings, hole and slot details
+
+=== General
+
+The pressure loss of a water meter may be determined from measurements of the
+differential pressure across a water meter at the stipulated flow rate. It is
+obtained using the method specified in <<scls-7-9>>.
+
+=== Design of measuring section pressure tappings
+
+Pressure tappings of similar design and dimensions should be fitted to the inlet
+and outlet pipes of the measuring section.
+
+Pressure tappings may consist of holes drilled through the pipe wall or may
+be in the form of an annular slit in the pipe wall, in either case perpendicular
+to the pipe axis. There should be at least four such pressure tapping holes,
+equally spaced in one plane around the pipe circumference.
+
+Recommended designs for pressure tappings are given in <<figure-g-1>>, <<figure-g-2>>,
+and <<figure-g-3>>.
+
+Other means such as a ring or balance chamber may also be used.
+
+=== Pressure tappings, hole and slit details
+
+Holes drilled through the pipe wall should be perpendicular to the pipe axis.
+Tappings should not be more than stem:[4 "unitsml(mm)"] or less than
+stem:[2 "unitsml(mm)"] in diameter. If the pipe diameter is less than or equal
+to stem:[25 "unitsml(mm)"], the tappings should be as close to stem:[2 "unitsml(mm)"]
+in diameter as possible. The diameter of the holes should remain constant for
+a distance of not less than twice the tapping diameter before breaking into
+the pipe. The holes drilled through the pipe wall should be free from burrs
+at the edges where they break through into the inlet and outlet pipe bores.
+The edges should be sharp: they should have neither a radius nor a chamfer.
+
+Slits should be perpendicular to the pipe axis and should have dimensions as follows:
+
+* width stem:[b] equal to stem:[0.08 D] but neither less than stem:[2 "unitsml(mm)"]
+nor greater than stem:[4 "unitsml(mm)"];
+* depth stem:[h] greater than stem:[2 b].
+
+[[figure-g-1]]
+.Example of drilled hole type of pressure tapping with ring chamber, suitable for small/medium diameter test sections
+image::figure-g1.png[]
+
+[%key]
+1:: ring chamber
+
+[[figure-g-2]]
+.Example of slit type of pressure tapping with ring chamber, suitable for small/medium diameter test sections
+image::figure-g2.png[]
+
+[%key]
+1:: ring chamber
+
+[[figure-g-3]]
+.Example of drilled hole type of pressure tapping with connections between tappings to give mean static pressure, suitable for medium or large diameter test sections
+image::figure-g3.png[]
+
+[%key]
+A:: cross-section through pipe and pressure tappings
+B:: detail of pressure tapping and boss
+stem:[y]:: vertical axis
+stem:[x]:: horizontal axis
+1:: tee
+2:: flexible hose or copper pipe
+3:: pressure tapping (see B)
+4:: isolating cock
+a:: To manometer.

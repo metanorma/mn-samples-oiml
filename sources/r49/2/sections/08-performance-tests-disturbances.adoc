@@ -1,0 +1,1517 @@
+// Páginas 39 a 67 del PDF (OIML R 49-2:2024): sección 8, Performance tests related to influence
+// factors and disturbances. Se omiten cabeceras corridas, números de página, la página 51 (en
+// blanco en el original) y la numeración de cláusulas. Figura en images/.
+
+[[cls-8]]
+== Performance tests related to influence factors and disturbances
+
+=== General requirements (<<ISO_4064_1_2024,clause=A.1>>|<<OIML_R_49_1_2024,clause=A.1>>)
+
+==== Overview
+
+This clause defines the performance tests which are intended to verify that
+water meters perform and function as intended in a specified environment and
+under specified conditions. Each test indicates, where appropriate, the reference
+conditions for determining the intrinsic error.
+
+These performance tests are additional to the tests specified in <<cls-7>> and
+apply to complete meters, to separable parts of a water meter, and, if required,
+to ancillary devices. The tests are required depending on the environmental
+or electromagnetic class of meter as specified in <<scls-8-1-2>> and <<scls-8-1-3>>and
+the type of meter construction or design as specified in <<scls-8-1-8>>.
+
+When the effect of one influence quantity is being evaluated, all other influence
+quantities are to be held at the reference conditions (see <<cls-4>>).
+
+The type evaluation tests specified in this clause may be carried out in parallel
+with the tests specified in <<cls-7>>, using examples of the same model of the
+water meter, or its separable parts.
+
+[[scls-8-1-2]]
+==== Environmental classification
+
+For each performance test, typical test conditions are indicated; they correspond
+to the mechanical and climatic environmental conditions to which water meters
+are exposed: see <<ISO_4064_1_2024,clause=A.2>>|<<OIML_R_49_1_2024,clause=A.2>>.
+
+[[scls-8-1-3]]
+==== Electromagnetic classification
+
+Water meters with electronic devices are divided into two electromagnetic environmental
+classes: E1 for instruments operating in protected areas; and E2 for instruments
+operating in areas without any special protection. See <<ISO_4064_1_2024,clause=A.3>>|<<OIML_R_49_1_2024,clause=A.3>>.
+
+==== Reference conditions (<<ISO_4064_1_2024,clause=7.1>>|<<OIML_R_49_1_2024,clause=7.1>>)
+
+Reference conditions are listed in <<cls-4>>.
+
+These reference conditions should only be applied if no reference conditions
+are specified by a relevant regional or national standard designed to meet specific
+conditions. If specified by such a standard, then the criteria contained therein
+should be applied.
+
+==== Test volumes for measuring error (of indication) of a water meter
+
+Some influence quantities should have a constant effect on the error of indication
+of a water meter and not a proportional effect related to the measured volume.
+
+In other tests, the effect of the influence quantity applied to a water meter
+is related to the measured volume. In these cases, in order to be able to compare
+results obtained in different laboratories, the test volume for measuring the
+error of indication of the meter shall correspond to that delivered in
+stem:[1 "unitsml(min)"] at the overload flow rate stem:[Q_4].
+
+However, some tests may require more than stem:[1 "unitsml(min)"], in which
+case they shall be carried out in the shortest possible time, taking into consideration
+the measurement uncertainty.
+
+==== Influence of the water temperature (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+Dry heat, cold, and damp heat tests are concerned with measuring the effects
+of ambient air temperature on the performance of the meter. However, the presence
+of the measurement transducer, filled with water, may also influence heat dissipation
+in electronic components.
+
+There are two options for the testing.
+
+. [[item-8-1-6-a]]The meter has water passing through it at the reference flow rate and the
+error (of indication) of the meter is measured with the electronic parts and
+the measurement transducer subjected to the reference conditions.
+. A simulation of the measurement transducer is used for testing all electronic
+components. These simulated tests shall replicate the effects caused by the
+presence of water for those electronic devices which are normally attached to
+the flow sensor, and the reference conditions shall be applied during the tests.
+
+Option <<item-8-1-6-a>> is recommended.
+
+==== Requirements for environmental tests
+
+The following requirements are associated with the environmental tests and the
+relevant IEC standards to be applied are listed in the appropriate subclauses
+of this part of ISO 4064|OIML R 49:
+
+. preconditioning of the equipment under test (EUT);
+. any deviations in the procedure from the relevant IEC standard;
+. initial measurements;
+. state of the EUT during conditioning;
+. severity levels, values of the influence factor and duration of exposure;
+. measurements required and/or the loading during conditioning;
+. recovery of the EUT;
+. final measurements;
+. acceptance criteria for the EUT passing a test.
+
+Where no IEC standard exists for a specific test, the essential requirements
+for the test are given in this part of ISO 4064|OIML R 49.
+
+[[scls-8-1-8]]
+==== Equipment under test (<<ISO_4064_1_2024,clause=7.2.12.3>>|<<OIML_R_49_1_2024,clause=7.2.12.3>>)
+
+===== General
+
+For the purpose of testing, the EUT shall be categorised as one of the cases,
+A to E, according to the technology specified in <<scls-8-1-8-2>> to <<scls-8-1-8-5>>
+and the following requirements shall apply:
+
+Case A:: No performance test (as mentioned in this subclause) is required.
+
+Case B:: The EUT is the complete meter or combined meter: the test shall be
+carried out with water flowing in the volume or flow sensor and the meter operating
+as designed.
+
+Case C:: The EUT is the measurement transducer (including the flow or volume
+sensor): the test shall be carried out with water flowing in the volume or flow
+sensor and the meter operating as designed.
+
+Case D:: The EUT is the electronic calculator (including the indicating device)
+or the ancillary device: the test shall be carried out with water flowing in
+the volume or flow sensor and the meter operating as designed.
+
+Case E:: The EUT is the electronic calculator (including the indicating device)
+or the ancillary device: the test may be carried out with simulated measurement
+signals without water in the volume or flow sensor.
+
+The body responsible for type approval may apply an appropriate category, A
+to E, for approval testing of meters having technology which is not included
+in <<scls-8-1-8-2>> to <<scls-8-1-8-5>>.
+
+[[scls-8-1-8-2]]
+===== Positive displacement meters and turbine water meters
+
+. The meter is not fitted with electronic devices: Case A
+. The measurement transducer and the electronic calculator including the indicating
+device are in the same housing: Case B
+. The measurement transducer is separate from the electronic calculator, but
+not fitted with electronic devices: Case A
+. The measurement transducer is separate from the electronic calculator, and
+fitted with electronic devices: Case C
+. The electronic calculator including the indicating device is separate from
+the measurement transducer and simulation of the measurement signals is not
+possible: Case D
+. The electronic calculator including the indicating device is separate from
+the measurement transducer and simulation of the measurement signals is possible:
+Case E
+
+===== Electromagnetic water meters
+
+. The measurement transducer and the electronic calculator including the indicating
+device are in the same housing: Case B
+. The flow sensor, consisting only of the pipe, the coil and the two meter electrodes,
+is without any additional electronic devices: Case A
+. The measurement transducer including the flow sensor is separate from the
+electronic calculator and in one housing: Case C
+. The electronic calculator including the indicating device is separate from
+the measurement transducer and simulation of the measurement signals is not
+possible: Case D
+. The electronic calculator including the indicating device is separate from
+the measurement transducer and simulation of the measurement signals is possible:
+Case E
+
+===== Ultrasonic water meters, Coriolis water meters, fluidic water meters
+
+. The measurement transducer and the electronic calculator including the indicating
+device are in the same housing: Case B
+. The measurement transducer is separate from the electronic calculator and
+fitted with electronic devices: Case C
+. The electronic calculator including the indicating device is separate from
+the measurement transducer and simulation of the measurement signals is not
+possible: Case D
+. The electronic calculator including the indicating device is separate from
+the measurement transducer and simulation of the measurement signals is possible:
+Case E
+
+[[scls-8-1-8-5]]
+===== Ancillary devices
+
+. The ancillary device is part of the water meter, a part of the measurement
+transducer or part of the electronic calculator: Cases A to E
+. The ancillary device is separate from the meter, but not fitted with electronic
+devices: Case A
+. The ancillary device is separate from the meter, a simulation of the input
+signals is not possible: Case D
+. The ancillary device is separate from the meter, a simulation of the input
+signals is possible: Case E
+
+==== Determination of required tests
+
+Apply the flow chart in <<figure-3>> to determine which tests are required.
+
+[[figure-3]]
+.Flow chart to determine the tests required in <<scls-8-5>> and <<scls-8-8>> to <<scls-8-15>>. Some test refer to <<OIML_D_11_2013>>
+image::figure-3.png[]
+
+=== Dry heat (non-condensing) (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>, during the application of high ambient temperatures as in
+<<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+
+==== Preparation
+
+Follow the test arrangements specified in <<IEC_60068_2_2_2007>>.
+
+Guidance on testing arrangements is given in <<IEC_60068_3_1_2023>> and <<IEC_60068_1_2013>>.
+
+==== Test procedure (in brief)
+
+. No pre-conditioning is required.
+. Measure the error (of indication) of the EUT at the reference flow rate and
+at the following test conditions:
+.. at the reference air temperature of stem:[20 "unitsml(degC)" pm 5 "unitsml(degC)"],
+before conditioning the EUT;
+.. at an air temperature of stem:[55 "unitsml(degC)" pm 2 "unitsml(degC)"],
+after the EUT has been stabilised at this temperature for a period of
+stem:[2 "unitsml(h)"];
+.. at the reference air temperature of stem:[20 "unitsml(degC)" pm 5 "unitsml(degC)"],
+after recovery of the EUT.
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. During the application of the test conditions, check that the EUT is functioning
+correctly.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_3_2024,clause=4.4.1>>.
+
+Additional requirements follow.
+
+[start=6]
+. If the measurement transducer is included in the EUT, and it is necessary
+to have water in the flow sensor, the water temperature shall be held at the
+reference temperature.
+. When measuring the errors (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+
+==== Acceptance criteria
+
+During the application of the test conditions:
+
+. all the functions of the EUT shall operate as designed;
+. the relative error (of indication) of the EUT, at the test conditions, shall
+not exceed the maximum permissible error of the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>).
+
+=== Cold (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>, during the application of low ambient temperatures as in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_60068_2_1_2007>>.
+
+Guidance on testing arrangements is given in <<IEC_60068_3_1_2023>> and <<IEC_60068_1_2013>>.
+
+==== Test procedure (in brief)
+
+. Do not pre-condition the EUT.
+. Measure the error (of indication) of the EUT at the reference flow rate and
+at the reference air temperature.
+. Stabilise the air temperature at either stem:[-25 "unitsml(degC)" pm 3 "unitsml(degC)"]
+(environmental classes O and M) or stem:[+5 "unitsml(degC)" pm 3 "unitsml(degC)"]
+(environmental class B) for a period of stem:[2 "unitsml(h)"].
+. Measure the error (of indication) of the EUT at the reference flow rate at
+an air temperature of either stem:[-25 "unitsml(degC)" pm 3 "unitsml(degC)"]
+(environmental classes O and M) or stem:[+5 "unitsml(degC)" pm 3 "unitsml(degC)"]
+(environmental class B).
+. After recovery of the EUT, measure the error (of indication) of the EUT at
+the reference flow rate and at the reference air temperature.
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. During the application of the test conditions, check that the EUT is functioning
+correctly.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.2>>|<<OIML_R_49_3_2024,clause=4.4.2>>.
+
+Additional requirements follow.
+
+. If it is necessary to have water in the flow sensor, the water temperature
+shall be held at the reference temperature.
+. When measuring the errors (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+
+==== Acceptance criteria
+
+During the application of the stabilised test conditions:
+
+. all the functions of the EUT shall operate as designed; and
+. the relative error (of indication) of the EUT, at the test conditions, shall
+not exceed the maximum permissible error of the upper flow rate zone (<<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>).
+
+=== Damp heat, cyclic (condensing) (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, after applying conditions of high humidity, combined with
+cyclic temperature changes as in <<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_60068_2_30_2005>>.
+
+Guidance on testing arrangements is given in <<IEC_60068_3_4_2023>>.
+
+==== Test procedure (in brief)
+
+Follow the requirements for the performance of the test equipment, conditioning
+and recovery of the EUT, and exposure of the EUT to cyclic temperature changes
+under damp heat conditions specified in <<IEC_60068_2_30_2005>> and <<IEC_60068_3_4_2023>>.
+
+The test program consists of steps <<item-8-4-3-a>> to <<item-8-4-3-g>>.
+
+. [[item-8-4-3-a]]Pre-condition the EUT.
+. Expose the EUT to cyclic temperature variations between the lower temperature
+of stem:[25 "unitsml(degC)" pm 3 "unitsml(degC)"] and the upper temperature
+of stem:[55 "unitsml(degC)" pm 2 "unitsml(degC)"] (environmental classes O and
+M) or stem:[40 "unitsml(degC)" pm 2 "unitsml(degC)"] (environmental class B).
+Maintain the relative humidity above stem:[95 %] during the temperature changes
+and during the phases at low temperature, and at stem:[93 % pm 3 %] at the upper
+temperature phases. Condensation should occur on the EUT during the temperature rise.
++
+--
+The stem:[24 "unitsml(h)"] cycle consists of:
+
+.. temperature rise over stem:[3 "unitsml(h)"];
+.. temperature maintained at upper value until stem:[12 "unitsml(h)"] from the
+start of the cycle;
+.. temperature taken down to the lower value within stem:[3 "unitsml(h)"] to
+stem:[6 "unitsml(h)"], the rate of fall during the first stem:[1 "unitsml(h)"]
+stem:[30 "unitsml(min)"] being such that the lower value would be reached in
+stem:[3 "unitsml(h)"];
+.. temperature maintained at lower value until the stem:[24 "unitsml(h)"] cycle
+is completed.
+--
+.  [[item-8-4-3-c]]Allow the EUT to recover.
+. After recovery, check that the EUT is functioning correctly.
+. Measure the error (of indication) of the EUT at the reference flow rate.
+. Calculate the relative error (of indication) in accordance with <<annex-b>>.
+. [[item-8-4-3-g]]Complete the test report in
+<<ISO_4064_3_2024,clause=4.4.3>>|<<OIML_R_49_3_2024,clause=4.4.3>>.
+
+Additional requirements follow.
+
+[start=8]
+. The power supply to the EUT shall be switched off during steps <<item-8-4-3-a>>
+to <<item-8-4-3-c>>.
+. The stabilising period before and recovery after the cyclic exposure shall
+be such that all parts of the EUT are within stem:[3 "unitsml(degC)"] of their
+final temperature.
+. When measuring the error (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+
+==== Acceptance criteria
+
+After the application of the disturbance and recovery:
+
+. all the functions of the EUT shall operate as designed;
+. either the difference between any indication before the test and the indication
+after the test shall not exceed one-half of the maximum permissible error in
+the upper flow rate zone or the EUT shall detect and act upon a significant
+fault, in compliance with <<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.
+
+[[scls-8-5]]
+=== Power supply variation (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Water meters powered by direct AC or by AC/DC converters (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+===== Object of the test
+
+To verify that electronic devices which operate at a nominal value of mains
+voltage, stem:[U_"nom"], at a nominal frequency, stem:[f_"nom"], comply with
+the provisions of <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>, during static deviations
+of the AC (single-phase) mains power supply, applied in accordance with the
+requirements of <<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>.
+
+===== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_11_2020>>, <<IEC_61000_2_1_1990>>,
+<<IEC_61000_2_2_2002>>, <<IEC_61000_4_1_2016>>, and <<IEC_60654_2_1979>>.
+
+===== Test procedure (in brief)
+
+. Expose the EUT to power voltage variations and subsequently to power supply
+frequency variations, while the EUT is operating under reference conditions.
+. Measure the error (of indication) of the EUT during the application of the
+upper mains voltage limit, stem:[U_"nom" + 10 %] (single voltage).
+. Measure the error (of indication) of the EUT during the application of the
+upper mains frequency limit, stem:[f_"nom" + 2 %].
+. Measure the error (of indication) of the EUT during the application of the
+lower mains voltage limit, stem:[U_"nom" - 15 %] (single voltage).
+. Measure the error (of indication) of the EUT during the application of the
+lower mains frequency limit, stem:[f_"nom" - 2 %].
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. Check that the EUT is functioning correctly during the application of each
+power supply variation.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.4.2>>|<<OIML_R_49_3_2024,clause=4.4.4.2>>.
+
+Additional requirements follow.
+
+. During the measurement of the error (of indication), the EUT shall be subjected
+to the reference flow rate (<<ISO_4064_1_2024,clause=7.1>>|<<OIML_R_49_1_2024,clause=7.1>>).
+. When measuring the errors (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+
+===== Acceptance criteria
+
+During the application of the influence factor:
+
+. all the functions of the EUT shall operate as designed;
+. the relative error of indication of the EUT, at the test conditions, shall
+not exceed the maximum permissible error of the upper flow rate zone
+(see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>).
+
+==== Water meters powered by external DC voltage or by primary DC batteries (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+===== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>> during static deviations of the DC power supply voltage, applied
+in accordance with the requirements of <<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>.
+
+===== Preparation
+
+At the time of publication, no references to IEC standards for test methods
+can be given.
+
+===== Test procedure
+
+. Expose the EUT to power voltage variations, while the EUT is operating under
+reference conditions.
+. Measure the error (of indication) of the EUT, during the application of the
+maximum operating voltage of the battery, as specified by the water meter supplier,
+for a battery or the DC voltage at which the EUT has been manufactured to automatically
+detect high-level conditions for an external DC supply.
+. Measure the error (of indication) of the EUT, during the application of the
+minimum operating voltage of the battery, as specified by the water meter supplier,
+for a battery or the DC voltage at which the EUT has been manufactured to automatically
+detect low-level conditions for an external DC supply.
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. Check that EUT is functioning correctly during the application of each power
+supply variation.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.4.3>>|<<OIML_R_49_3_2024,clause=4.4.4.3>>.
+
+Additional requirements follow.
+
+[start=7]
+. During the measurement of the error (of indication) the EUT shall be subjected
+to the reference flow rate.
+. When measuring the errors (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+
+===== Acceptance criteria
+
+During the application of the voltage variations:
+
+. all the functions of the EUT shall operate as designed;
+. the relative error (of indication) of the EUT at the test conditions shall
+not exceed the maximum permissible error of the upper flow rate zone
+(see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>).
+
+==== Interruption in battery supply
+
+===== Object of the test
+
+To verify that a water meter complies with the requirements in
+<<ISO_4064_1_2024,clause=5.2.4.3>>|<<OIML_R_49_1_2024,clause=5.2.4.3>>,
+during replacement of the supply battery.
+
+This test only applies to meters utilising a replaceable battery supply.
+
+===== Test procedure
+
+. Ensure that the meter is operational.
+. Remove the battery for a period of stem:[1 "unitsml(h)"] and then reconnect it.
+. Interrogate the functions of the meter.
+. Complete the section reference in
+<<ISO_4064_1_2024,clause=5.2.4>>|<<OIML_R_49_1_2024,clause=5.2.4>> in
+<<ISO_4064_3_2024,clause=4.4.4.3>>|<<OIML_R_49_3_2024,clause=4.4.4.3>>.
+
+===== Acceptance criteria
+
+After the application of the test conditions:
+
+. all the functions of the EUT shall operate as designed;
+. the value of the totalisation or the stored values shall remain unchanged.
+
+=== Vibration (random) (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, after the application of random vibrations (see <<ISO_4064_1_2024,clause=A.1>>|<<OIML_R_49_1_2024,clause=A.1>>).
+
+This test is applicable only to meters for mobile installations (environmental
+class M).
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_60068_2_64_2008_AMD1_2019_CSV>>
+and <<IEC_60068_2_47_2005>>.
+
+==== Test procedure (in brief)
+
+. [[item-8-6-3-a]]Mount the EUT on a rigid fixture by its normal mounting means, such that the
+gravitational force acts in the same direction as it would in normal use. However,
+if the gravitational effect is insignificant, and the meter is not marked "H"
+or "V", the EUT may be mounted in any position.
+. [[item-8-6-3-b]]Apply random vibrations over the frequency range of stem:[10 "unitsml(Hz)"]
+to stem:[150 "unitsml(Hz)"] to the EUT, in three, mutually perpendicular axes
+in turn, for a period of at least stem:[2 "unitsml(min)"] per axis.
+. [[item-8-6-3-c]]Allow the EUT a period for recovery.
+. Examine the EUT for correct functioning.
+. Measure the error (of indication) of the EUT at the reference flow rate.
+. Calculate the relative error (of indication) in accordance with <<annex-b>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.5>>|<<OIML_R_49_3_2024,clause=4.4.5>>.
+
+Additional requirements follow.
+
+[start=8]
+. Where the flow sensor is included in the EUT, it shall not be filled with
+water during the application of the disturbance.
+. The power supply to the EUT is switched off during steps <<item-8-6-3-a>>, <<item-8-6-3-b>>
+and <<item-8-6-3-c>>.
+. During the application of the vibrations the following conditions shall be met:
+* Total RMS level: stem:[7 "unitsml(m/s^2)"];
+* acceleration spectral density (ASD) level stem:[10 "unitsml(Hz)"] to
+stem:[20 "unitsml(Hz)"]: stem:[1 "unitsml(m^2/s^3)"];
+* ASD level stem:[20 "unitsml(Hz)"] to stem:[150 "unitsml(Hz)"]: stem:[-3 "dB/octave"].
+. When measuring the errors (of indication) of the EUT, the installation and
+operational conditions specified in <<scls-7-4-2>> shall be followed and the
+reference conditions shall be applied unless otherwise specified. Test meters
+not marked "V" shall be mounted with the flow axis in the horizontal orientation.
+Meters with two reference temperatures are only tested at the lower reference
+temperature.
+
+==== Acceptance criteria
+
+After the application of the vibrations and recovery:
+
+. all functions of the EUT shall operate as designed;
+. either the difference between any indication before the test and the indication
+after the test shall not exceed one-half of the maximum permissible error in
+the upper flow rate zone or the EUT shall detect and act upon a significant
+fault, in compliance with <<ISO_4064_1_2024,clause=B>>|<<OIML_R_49_1_2024,clause=B>>.
+
+=== Mechanical shock (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, after the application of the mechanical shock test (dropping
+on to face) as in <<ISO_4064_1_2024,clause=A.1>>|<<OIML_R_49_1_2024,clause=A.1>>.
+
+This test is applicable only to meters for mobile installations (environmental
+class M).
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_60068_2_31_2008>> and <<IEC_60068_2_47_2005>>.
+
+==== Test procedure (in brief)
+
+. [[item-8-7-3-a]]The EUT shall be placed on a rigid, level surface in its normal position of
+use and tilted towards one bottom edge until the opposite edge of the EUT is
+stem:[50 "unitsml(mm)"] above the rigid surface. However, the angle made by
+the bottom of the EUT and the test surface shall not exceed stem:[30 "unitsml(deg)"].
+. [[item-8-7-3-b]]Allow the EUT to fall freely on to the test surface.
+. [[item-8-7-3-c]]Repeat steps <<item-8-7-3-a>> and <<item-8-7-3-b>> for each bottom edge.
+. Allow the EUT a period for recovery.
+. Examine the EUT for correct functioning.
+. Measure the error (of indication) of the EUT at the reference flow rate.
+. Calculate the relative error (of indication) in accordance with <<annex-b>>.
+. Complete the test report in
+<<ISO_4064_3_2024,clause=4.4.6>>|<<OIML_R_49_3_2024,clause=4.4.6>>.
+
+Additional requirements follow.
+
+[lowerroman]
+. Where the flow sensor is part of the EUT, it shall not be filled with water
+during the application of the disturbance.
+. The power supply to the EUT shall be switched off during steps <<item-8-7-3-a>>,
+<<item-8-7-3-b>>, and <<item-8-7-3-c>>.
+. When measuring the errors (of indication) of the EUT, the installation and
+operational conditions specified in <<scls-7-4-2>> shall be followed and the
+reference conditions shall be applied. Test meters not marked "V" shall be mounted
+with the flow axis in the horizontal orientation. Meters with two reference
+temperatures are only tested at the lower reference temperature.
+
+==== Acceptance criteria
+
+After the application of the disturbance and recovery:
+
+. all the functions of the EUT shall operate as designed;
+. either the difference between any indication before the test and the indication
+after the test shall not exceed one-half of the maximum permissible error in
+the upper flow rate zone or the EUT shall detect and act upon a significant
+fault, in compliance with <<ISO_4064_1_2024,clause=B>>|<<OIML_R_49_1_2024,clause=B>>.
+
+[[scls-8-8]]
+=== AC mains voltage dips, short interruptions and voltage variations (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a mains powered water meter complies with the provisions of
+<<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>,
+during the application of short-time, mains
+voltage interruptions and reductions as in
+<<ISO_4064_1_2024,table=A.1>>|<<OIML_R_49_1_2024,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_11_2020>>,
+<<IEC_61000_6_1_2016>>, and <<IEC_61000_6_2_2016>>
+
+==== Test procedure (in brief)
+
+===== Voltage interruptions
+
+. Measure the error (of indication) of the EUT before applying power reduction test.
+. Measure the error (of indication) of the EUT during the application of at
+least 10 voltage interruptions.
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. Subtract the error (of indication) of the meter measured before applying the
+power reductions from that measured during the application of the power reductions.
+. Examine the EUT for correct functioning.
+. Complete the test report in
+<<ISO_4064_3_2024,clause=4.4.7>>|<<OIML_R_49_3_2024,clause=4.4.7>>.
+
+Additional requirements follow.
+
+[start=7]
+. A test generator is used which is suitable to reduce the amplitude of the
+AC mains voltage for a defined period of time.
+. The performance of the test generator shall be verified before connecting the EUT.
+. Voltage interruptions are applied throughout the period required to measure
+the error (of indication) of the EUT.
+. Voltage interruptions: the supply voltage is reduced from its nominal value,
+stem:[U_"nom"], to zero voltage, for the duration stated in <<table-2>>.
++
+[[table-2]]
+.Voltage interruption
+[cols="2*"]
+|===
+| Reduction to:
+| stem:[0 %]
+
+| Duration:
+| 250 cycles (stem:[50 "unitsml(Hz)"]) +
+300 cycles (stem:[60 "unitsml(Hz)"])
+|===
+. Voltage interruptions are applied in groups of 10.
+. Each individual voltage interruption is initiated, terminated and repeated
+at zero crossings of the supply voltage.
+. The mains voltage interruptions are repeated at least 10 times with a time
+interval of at least stem:[10 "unitsml(s)"] between each group of interruptions.
+This sequence is repeated throughout the duration of the measurement of the
+error (of indication) of the EUT.
+. During the measurement of the error (of indication) the EUT shall be subjected
+to the reference flow rate.
+. When measuring the errors (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+. When the EUT is designed to operate over a range of supply voltage, voltage
+interruptions shall be initiated from the mean voltage of the range.
+
+===== Voltage reductions
+
+. Measure the error (of indication) of the EUT before applying power reduction test.
+. Measure the error (of indication) of the EUT during the application of at
+least 10 voltage reductions with an interval of at least stem:[10 "unitsml(s)"].
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. Subtract the error (of indication) of the meter measured before applying the
+power reductions from that measured during the application of the power reductions.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.7>>|<<OIML_R_49_3_2024,clause=4.4.7>>.
+
+Additional requirements follow.
+
+[start=7]
+. A test generator is used which is suitable to reduce the amplitude of the
+AC mains voltage for a defined period of time.
+. The performance of the test generator shall be verified before connecting the EUT.
+. Voltage reductions are applied throughout the period required to measure the
+error (of indication) of the EUT.
+. Voltage reductions: the supply voltage is reduced from nominal voltage to
+the stated percentage of the nominal voltage for the duration stated in <<table-3>>.
++
+[[table-3]]
+.Voltage reductions
+[cols="4*",options="header"]
+|===
+| Test
+| Test a
+| Test b
+| Test c
+
+| Reduction to:
+| stem:[0 %]
+| stem:[0 %]
+| stem:[70 %]
+
+| Duration:
+| 0.5 cycles
+| 1 cycle
+| 25 cycles (stem:[50 "unitsml(Hz)"]) +
+30 cycles (stem:[60 "unitsml(Hz)"])
+|===
+. Voltage reductions are applied in groups of 10.
+. Each individual voltage reduction is initiated, terminated and repeated at
+zero crossings of the supply voltage.
+. The mains voltage reductions are repeated at least 10 times with a time interval
+of at least stem:[10 "unitsml(s)"] between each group of reductions. This sequence
+is repeated throughout the duration of the measurement of the error (of indication)
+of the EUT.
+. During the measurement of the error (of indication) the EUT shall be subjected
+to the reference flow rate.
+. When measuring the errors (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+. When the EUT is designed to operate over a range of supply voltage, voltage
+reductions shall be initiated from the mean voltage of the range.
+
+==== Acceptance criteria
+
+. After the application of the short-time power reductions all the functions
+of the EUT shall operate as designed.
+. The difference between the relative error (of indication) obtained during
+the application of the short time power reductions and that obtained at the
+same flow rate before the test, under reference conditions, shall not exceed
+one-half of the maximum permissible error in the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the EUT shall detect and act upon a significant
+fault in compliance with <<ISO_4064_1_2024,clause=B>>|<<OIML_R_49_1_2024,clause=B>>.
+
+=== Bursts on signal lines (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter containing electronics and provided with input/output
+(I/O) and communication ports (including its external cables) complies with
+the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, under conditions
+where electrical bursts are superimposed on I/O and communication port as in
+<<ISO_4064_1_2024,table=A.1>>|<<OIML_R_49_1_2024,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_4_2012>> and <<IEC_61000_4_1_2016>>.
+
+==== Test procedure (in brief)
+
+. Measure the error (of indication) of the EUT before applying the electrical bursts.
+. Measure the error (of indication) of the EUT during the application of bursts
+of transient voltage spikes, of double exponential waveform.
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. Subtract the error (of indication) of the meter measured before applying the
+bursts from that measured during the application of the bursts.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.8>>|<<OIML_R_49_3_2024,clause=4.4.8>>.
+
+Additional requirements follow.
+
+[start=7]
+. A burst generator shall be used with the performance characteristics as specified
+in the cited standard.
+. The characteristics of the generator shall be verified before connecting to
+the EUT.
+. Each spike shall have an amplitude (positive or negative) of stem:[0.5 "unitsml(kV)"]
+for environmental class E1 instruments or stem:[1 "unitsml(kV)"] for environmental
+class E2 instruments (see <<scls-8-1-3>>), phased randomly, with a rise time
+of stem:[5 "unitsml(ns)"] and a half amplitude duration of stem:[50 "unitsml(ns)"].
+. The burst length shall be stem:[15 "unitsml(ms)"] and the burst repetition
+rate shall be stem:[5 "unitsml(kHz)"].
+. The injection network on the mains shall contain blocking filters to prevent
+the burst energy from being dissipated in the mains.
+. For the coupling of the bursts into the I/O and communication lines, a capacitive
+coupling clamp as defined in the standard shall be used.
+. The duration of the test shall not be less than stem:[1 "unitsml(min)"] for
+each amplitude and polarity.
+. During the measurement of the error (of indication) the EUT shall be operated
+at the reference flow rate.
+. When measuring the error (of indication), the installation and operational
+conditions of the EUT, specified in <<scls-7-4-2>>, shall be followed and the
+reference conditions shall be applied unless otherwise specified. Test meters
+not marked "V" shall be mounted with the flow axis in the horizontal orientation.
+Meters with two reference temperatures are only tested at the lower reference
+temperature.
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as designed.
+. The difference between the relative error of indication, obtained during the
+application of the bursts and that obtained at the same flow rate before the
+test, under reference conditions, shall not exceed one-half of the maximum permissible
+see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the
+EUT shall detect and act upon a significant fault in compliance with
+<<ISO_4064_1_2024,clause=B>>|<<OIML_R_49_1_2024,clause=B>>.
+
+=== Bursts (transients) on AC and DC mains (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that the EUT containing electronics and powered by AC or DC mains
+voltage, complies with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>,
+under conditions where electrical bursts are superimposed on the mains voltage
+as in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_4_2012>> and <<IEC_61000_4_1_2016>>.
+
+==== Test procedure (in brief)
+
+. Measure the error (of indication) of the EUT before applying the electrical bursts.
+. Measure the error (of indication) of the EUT during the application of bursts
+of transient voltage spikes, of double exponential waveform.
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. Subtract the error (of indication) of the meter measured before applying the
+bursts from that measured during the application of the bursts.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.9>>|<<OIML_R_49_3_2024,clause=4.4.9>>.
+
+Additional requirements follow.
+
+[start=7]
+. A burst generator shall be used with the performance characteristics as specified
+in the cited standard.
+. The characteristics of the generator shall be verified before connecting to
+the EUT.
+. Each spike shall have an amplitude (positive or negative) of stem:[1 "unitsml(kV)"]
+for environmental class E1 instruments or stem:[2 "unitsml(kV)"] for environmental
+class E2 instruments (see <<scls-8-1-3>>), phased randomly, with a rise time
+of stem:[5 "unitsml(ns)"] and a half amplitude duration of stem:[50 "unitsml(ns)"].
+. The burst length shall be stem:[15 "unitsml(ms)"] and the burst repetition
+rate shall be stem:[5 "unitsml(kHz)"].
+. All bursts shall be applied asynchronously in common mode (asymmetrical voltage)
+during the measurement of the error (of indication) of the EUT.
+. The duration of the test shall not be less than stem:[1 "unitsml(min)"] for
+each amplitude and polarity.
+. During the measurement of the error (of indication) the EUT shall be operated
+at the reference flow rate.
+. When measuring the error (of indication), the installation and operational
+conditions of the EUT, specified in <<scls-7-4-2>>, shall be followed and the
+reference conditions shall be applied unless otherwise specified. Test meters
+not marked "V" shall be mounted with the flow axis in the horizontal orientation.
+Meters with two reference temperatures are only tested at the lower reference
+temperature.
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as designed.
+. The difference between the relative error of indication, obtained during the
+application of the bursts and that obtained at the same flow rate before the
+test, under reference conditions, shall not exceed one-half of the maximum permissible
+error in the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>)
+or the EUT shall detect and act upon a significant fault in compliance with
+<<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.
+
+=== Electrostatic discharge (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>> during the application of direct and indirect electrostatic
+discharges as in <<ISO_4064_1_2024,table=A.1>>|<<OIML_R_49_1_2024,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_2_2008>>.
+
+==== Test procedure (in brief)
+
+. Measure the error (of indication) of the EUT before applying the electrostatic
+discharges.
+. Charge a stem:[150 "unitsml(pF)"] capacitor by means of a suitable DC voltage
+source, then discharge the capacitor through the EUT by connecting one terminal
+of the supporting chassis to earth and the other via a stem:[330 "unitsml(Ohm)"]
+resistor to surfaces of the EUT which are normally accessible to the operator.
+. The following conditions shall be applied:
+.. include the paint penetration method, if appropriate;
+.. for each contact discharge, a voltage of stem:[6 "unitsml(kV)"] shall be applied;
+.. for each air discharge, a voltage of stem:[8 "unitsml(kV)"] shall be applied;
+.. for direct discharges, the air discharge method shall be used where the manufacturer
+has declared a coating to be insulating;
+.. at each test location, at least 10 direct discharges shall be applied at
+intervals of at least stem:[10 "unitsml(s)"] between discharges, during the
+same measurement or simulated measurement;
+.. for indirect discharges, a total of 10 discharges shall be applied on the
+horizontal coupling plane and a total of 10 discharges for each of the various
+positions of the vertical coupling plane.
+. Measure the error (of indication) of the EUT during the application of electrostatic
+discharges.
+. Calculate the relative error (of indication) for each test condition in accordance
+with <<annex-b>>.
+. Determine if the significant fault has been exceeded by subtracting the error
+(of indication) of the meter measured before applying the electrostatic discharges
+from that measured after applying the electrostatic discharges.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.10>>|<<OIML_R_49_3_2024,clause=4.4.10>>.
+
+Additional requirements follow.
+
+[start=9]
+. When measuring the error (of indication) the EUT shall be subjected to the
+reference flow rate.
+. When measuring the error (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+. In cases where a specific meter design is expected to be no less susceptible
+to disturbances at zero flow rate than if operated at the reference conditions
+for flow rate, the body responsible for type approval shall be free to choose
+a flow rate of zero during the electrostatic discharge test.
+. For EUT not equipped with an earth terminal, the EUT shall be fully discharged
+between discharges.
+. Contact discharge is the preferred test method. Air discharges shall be used
+where contact discharge cannot be applied.
+.. Direct application
++
+--
+In the contact discharge mode to be carried out on conductive surfaces, the
+electrode shall be in contact with the EUT.
+
+In the air discharge mode on insulated surfaces, the electrode is moved towards
+the EUT and the discharge occurs by spark.
+--
+.. Indirect application
++
+--
+The discharges are applied in the contact mode to coupling planes mounted in
+the vicinity of the EUT.
+--
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as designed.
+. The difference between the relative error (of indication), obtained during
+the application of the electrostatic discharges and that obtained before the
+test, at the same flow rate, under reference conditions, shall not exceed one-half
+of the maximum permissible error in the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the EUT shall detect and act upon a significant fault in
+compliance with <<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.
+. For tests at zero flow rate, the water meter totalisation shall not change
+by more than the value of the least significant digit of the indicating device.
+
+[[scls-8-12]]
+=== Radiated electromagnetic fields (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, during the application of radiated electromagnetic fields
+as in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_3_2020>> or
+<<IEC_61000_4_20_2022>>. However, the test procedure specified in <<scls-8-12-3>>
+is a modified procedure applicable to integrating instruments which totalise
+the measurand.
+
+[[scls-8-12-3]]
+==== Test procedure (in brief)
+
+. [[item-8-12-3-a]]Measure the intrinsic error (of indication) of the EUT at reference conditions
+before applying the electromagnetic field.
+. [[item-8-12-3-b]]Apply the electromagnetic field in accordance with the requirements of <<item-8-12-3-l>>
+to <<item-8-12-3-o>> in the following.
+. Start a new measurement of the error (of indication) for the EUT.
+. Step the carrier frequency until the next carrier frequency (see <<table-4>>)
+is reached in accordance with requirements of <<item-8-12-3-o>> in the following.
+. Stop the measurement of the error (of indication) for the EUT.
+. [[item-8-12-3-f]]Calculate the relative error (of indication) of the EUT in accordance with
+<<annex-b>>.
+. Calculate the fault by subtracting the intrinsic error (of indication) from
+step <<item-8-12-3-a>> from the error (of indication) from step <<item-8-12-3-f>>. Determine whether the fault
+is a significant fault.
+. Change the polarisation of the antenna.
+. [[item-8-12-3-i]]Examine the EUT for correct functioning.
+. Repeat steps <<item-8-12-3-b>> to <<item-8-12-3-i>>.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.11>>|<<OIML_R_49_3_2024,clause=4.4.11>>.
+
+Additional requirements follow.
+
+[start=12]
+. [[item-8-12-3-l]]The EUT, and its external cables of at least stem:[1.2 "unitsml(m)"] length,
+shall be subjected to radiated electromagnetic fields at field strengths of
+either stem:[3 "unitsml(V/m)"] for environmental class E1 instruments or
+stem:[10 "unitsml(V/m)"] for environmental class E2 instruments (see <<scls-8-1-3>>).In
+accordance with <<IEC_61000_4_3_2020>> or <<IEC_61000_4_20_2022>>, the frequency
+range for this radiated electromagnetic fields test is stem:[26 "unitsml(MHz)"]
+to stem:[3 "unitsml(GHz)"], or stem:[80 "unitsml(MHz)"] to stem:[3 "unitsml(GHz)"]
+when the test for frequencies in the lower range in <<scls-8-13>> is applicable.
+. The test is performed as several partial scans with a vertical antenna and
+several partial scans with a horizontal antenna. Recommended start and stop
+frequencies for each scan are listed in <<table-4>>. Test to be carried out
+according to <<IEC_61000_4_3_2020>> or <<IEC_61000_4_20_2022>>.
+. Each intrinsic error (of indication) is determined by commencing at a start
+frequency and terminating when the next highest frequency of <<table-4>> is reached.
+. [[item-8-12-3-o]]During each scan, the frequency shall be changed in steps of stem:[1 %] of
+the actual frequency, until the next frequency in <<table-4>> is reached. The
+dwell time at each stem:[1 %] step shall be identical. However, the dwell time
+shall be equal for all carrier frequencies in the scan and shall be sufficient
+for the EUT to be exercised and able to respond at each frequency.
+. The error (of indication) measurements shall be carried out with all of the
+scans listed in <<table-4>>.
+. When measuring the error (of indication), the EUT shall be subjected to the
+reference flow rate.
+. When measuring the error (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+. If a specific meter design is expected to be no less susceptible to radiated
+electromagnetic fields specified in <<scls-8-12>> at zero flow rate than if
+operated at the reference conditions for flow rate, the body responsible for
+type approval shall be free to choose a flow rate of zero during the electromagnetic
+susceptibility test.
+
+[[table-4]]
+.Start and stop carrier frequencies (Radiated electromagnetic fields)
+[cols="4*",options="header"]
+|===
+| stem:["unitsml(MHz)"]
+| stem:["unitsml(MHz)"]
+| stem:["unitsml(MHz)"]
+| stem:["unitsml(MHz)"]
+
+| 26
+| 160
+| 600
+| stem:[2500]
+
+| 40
+| 180
+| 700
+| stem:[3000]
+
+| 60
+| 200
+| 800
+|
+
+| 80
+| 250
+| 934
+|
+
+| 100
+| 350
+| stem:[1000]
+|
+
+| 120
+| 400
+| stem:[1400]
+|
+
+| 144
+| 435
+| stem:[2000]
+|
+
+| 150
+| 500
+| stem:[2400]
+|
+|===
+
+NOTE: Break points are approximate.
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as designed.
+. The difference between the relative error (of indication) measured during
+the application of each carrier frequency band and that obtained at the same
+flow rate before the test, under reference conditions, shall not exceed one-half
+of the maximum permissible error in the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the EUT shall detect and act upon a significant fault in
+compliance with <<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.
+. During tests applied at zero flow rate, the water meter totalisation shall
+not change by more than the value of the least significant digit of the indicating
+device
+
+[[scls-8-13]]
+=== Conducted electromagnetic fields (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify compliance with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, during the application of conducted electromagnetic fields as in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+
+Meters not having at least one conducting cable or port (for power supply or
+signals) that can couple with the equipment providing the disturbing RF field
+are exempt from this test.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_6_2023>>. However,
+the test procedure specified in <<scls-8-13-3>> is a modified procedure applicable
+to integrating instruments which totalise the measurand.
+
+[[scls-8-13-3]]
+==== Test procedure (in brief)
+
+. [[item-8-13-3-a]]Measure the intrinsic error (of indication) of the EUT at reference conditions
+before applying the electromagnetic field.
+. Apply the electromagnetic field in accordance with the requirements of <<item-8-13-3-j>>
+to <<item-8-13-3-n>> in the following.
+. Start a new measurement of the error (of indication) for the EUT.
+. Step the carrier frequency until the next carrier frequency (see <<table-5>>)
+is reached in accordance with the requirements of <<item-8-13-3-n>> in the following.
+. Stop the measurement of the error (of indication) for the EUT.
+. Calculate the relative error (of indication) of the EUT in accordance with
+<<annex-b>>.
+. [[item-8-13-3-f]]Calculate the fault by subtracting the intrinsic error (of indication) from
+step <<item-8-13-3-a>> from the error (of indication) from step <<item-8-13-3-f>>.
+Determine whether the fault is a significant fault.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.12>>|<<OIML_R_49_3_2024,clause=4.4.12>>.
+
+Additional requirements follow.
+
+[start=10]
+. [[item-8-13-3-j]]The EUT shall be subjected to conducted electromagnetic fields at RF amplitude
+of either stem:[3 "unitsml(V)"] (electromotive force, e.m.f.) for environmental
+class E1 instruments, or stem:[10 "unitsml(V)"] (e.m.f.) for environmental class
+E2 instruments (see <<scls-8-1-3>>).
+. The frequency range for this conducted electromagnetic fields test is
+stem:[0.15 "unitsml(MHz)"] to stem:[80 "unitsml(MHz)"] in accordance with
+<<IEC_61000_4_6_2023>>.
+. Recommended start and stop frequencies for each scan are listed in <<table-5>>.
+. Each intrinsic error (of indication) is determined by commencing at a start
+frequency and terminating when the next highest frequency of <<table-5>> is reached.
+. [[item-8-13-3-n]]During each scan, the frequency shall be changed in steps of stem:[1 %] of
+the actual frequency, until the next frequency in <<table-5>> is reached. The
+dwell time at each stem:[1 %] step shall be identical. However, the dwell time
+shall be equal for all carrier frequencies in the scan and shall be sufficient
+for the EUT to be exercised and able to respond at each frequency.
+. The error (of indication) measurements shall be carried out with all of the
+scans listed in <<table-5>>.
+. When measuring the error (of indication), the EUT shall be subjected to the
+reference flow rate.
+. When measuring the error (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+. If a specific meter design is expected to be no less susceptible to conducted
+electromagnetic fields specified in <<scls-8-13>> at zero flow rate than if
+operated at the reference conditions for flow rate, the body responsible for
+type approval shall be free to choose a flow rate of zero during the electromagnetic
+susceptibility test.
+
+[[table-5]]
+.Start and stop carrier frequencies (Conducted electromagnetic fields)
+[cols="4*",options="header"]
+|===
+| stem:["unitsml(MHz)"]
+| stem:["unitsml(MHz)"]
+| stem:["unitsml(MHz)"]
+| stem:["unitsml(MHz)"]
+
+| 0.15
+| 1.1
+| 7.5
+| 50
+
+| 0.30
+| 2.2
+| 14
+| 80
+
+| 0.57
+| 3.9
+| 30
+|
+|===
+
+NOTE: Break points are approximate.
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as designed.
+. The difference between the relative error (of indication) measured during
+the application of each carrier frequency band and that obtained at the same
+flow rate before the test, under reference conditions, shall not exceed one-half
+of the maximum permissible error in the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the EUT shall detect and act upon a significant fault in
+compliance with <<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.
+. During tests applied at zero flow rate, the water meter totalisation shall
+not change by more than the value of the least significant digit of the indicating
+device.
+
+=== Surges on signal, data and control lines (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the requirements in <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, under conditions where electrical surges are superimposed
+on I/O and communication ports as in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_5_2014>>.
+
+==== Test procedure (in brief)
+
+. Measure the error (of indication) of the EUT before applying the surges.
+. The surges have to be applied line to line and line(s) to earth. When testing
+line to earth, the test voltage shall be applied successively between each of
+the lines and earth, if there is no other specification.
+. Measure the error (of indication) of the EUT after the application of surge
+transient voltages.
+. Calculate the relative error (of indication) for each condition.
+. Subtract the error (of indication) of the meter measured before applying the
+surges from that measured after the application of the surges.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.13>>|<<OIML_R_49_3_2024,clause=4.4.13>>.
+
+Additional requirements follow.
+
+[start=8]
+. A surge generator shall be used with the performance characteristics as specified
+in the cited standard. The test consists of exposure to surges for which the
+rise time, pulse width, peak values of the output voltage/current on high/low
+impedance load and minimum time interval between two successive pulses are defined
+in the cited standard.
+. The characteristics of the generator shall be verified before connecting the EUT.
+. The test pulses shall be continuously applied during the measuring time.
+. This test is only applicable for environmental class E2, for which the surge
+transient voltage on line to line is stem:[1 "unitsml(kV)"], and on line to
+earth is stem:[2 "unitsml(kV)"].
++
+--
+NOTE: On unbalanced lines, the test on line to earth is normally undertaken
+with primary protection.
+--
+. This test is applicable to long signal lines (lines longer than stem:[30 "unitsml(m)"]
+or those lines partially or fully installed outside the buildings regardless
+of their length).
+. At least three positive and three negative surges shall be applied.
+. During the measurement of the error (of indication) the EUT shall be subjected
+to the reference flow rate.
+. When measuring the error (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as designed.
+. The difference between the relative error of indication obtained after the
+application of the surge transient voltages and that obtained before the test
+shall not exceed one-half of the maximum permissible error in the upper flow
+rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the EUT shall detect and act
+upon a significant fault in compliance with <<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.
+
+[[scls-8-15]]
+=== Surges on AC and DC mains power lines (<<ISO_4064_1_2024,clause=A.5>>|<<OIML_R_49_1_2024,clause=A.5>>)
+
+==== Object of the test
+
+To verify that a water meter complies with the requirements in <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, under conditions where electrical surges are superimposed
+on the mains voltage as in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+
+==== Preparation
+
+Follow the testing arrangements specified in <<IEC_61000_4_5_2014>>.
+
+==== Test procedure (in brief)
+
+. Measure the error (of indication) of the EUT before applying the surge transient
+voltages.
+. If not otherwise specified, the surges have to be applied synchronised to
+the voltage phase at the zero-crossing and the peak value of the AC voltage
+wave (positive and negative).
+. The surges have to be applied line to line and line(s) to earth. When testing
+line to earth the test voltage shall be applied successively between each of
+the lines and earth, if there is no other specification.
+. Measure the error (of indication) of the EUT after the application of surge
+transient voltages.
+. Calculate the relative error (of indication) for each condition.
+. Subtract the error (of indication) of the meter measured before applying the
+surges from that measured after the application of the surges.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.14>>|<<OIML_R_49_3_2024,clause=4.4.14>>.
+
+Additional requirements follow.
+
+. A surge generator shall be used with the performance characteristics as specified
+in the cited standard. The test consists of exposure to surges for which the
+rise time, pulse width, peak values of the output voltage/current on high/low
+impedance load and minimum time interval between two successive pulses are defined
+in the cited standard.
+. The characteristics of the generator shall be verified before connecting the EUT.
+. The test pulses shall be continuously applied during the measuring time.
+. This test is only applicable for environmental class E2, for which the surge
+transient voltage on line to line is stem:[1 "unitsml(kV)"], and on line to
+earth is stem:[2 "unitsml(kV)"].
+. On AC mains supply lines at least three positive and three negative surges
+shall be applied synchronously with AC supply voltage in angles stem:[0 "unitsml(deg)"],
+stem:[90 "unitsml(deg)"], stem:[180 "unitsml(deg)"] and stem:[270 "unitsml(deg)"].
+. On DC power lines, at least three positive and three negative surges shall
+be applied.
+. During the measurement of the error (of indication) the EUT shall be subjected
+to the reference flow rate.
+. When measuring the error (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Test meters not marked "V" shall
+be mounted with the flow axis in the horizontal orientation. Meters with two
+reference temperatures are only tested at the lower reference temperature.
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as designed.
+. The difference between the relative error of indication obtained after the
+application of the surge transient voltages and that obtained before the test
+shall not exceed one-half of the maximum permissible error in the upper flow
+rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the EUT shall detect and act
+upon a significant fault in compliance with <<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.
+
+[[scls-8-16]]
+=== Static magnetic field (<<ISO_4064_1_2024,clause=7.2.8>>|<<OIML_R_49_1_2024,clause=7.2.8>>)
+
+==== Test conditions
+
+Test conditions shall be applied as set out below.
+
+[cols="2*"]
+|===
+| Influence factor:
+| influence of a static magnetic field
+
+| Type of magnet:
+| ring magnet
+
+| External diameter:
+| stem:[70 "unitsml(mm)" pm 5 "unitsml(mm)"]
+
+| Internal diameter:
+| stem:[32 "unitsml(mm)" pm 5 "unitsml(mm)"]
+
+| Thickness:
+| stem:[15 "unitsml(mm)" pm 1 "unitsml(mm)"]
+
+| Material:
+| anisotropic ferrite
+
+| Magnetisation method:
+| axial (1 north and 1 south)
+
+| Retentivity:
+| stem:[385 "unitsml(mT)"] to stem:[400 "unitsml(mT)"]
+
+| Coercive force:
+| stem:[100 "unitsml(kA/m)"] to stem:[140 "unitsml(kA/m)"]
+
+| Intensity of magnetic field:
+|
+
+| Less than stem:[1 "unitsml(mm)"] from the surface:
+| stem:[90 "unitsml(kA/m)"] to stem:[100 "unitsml(kA/m)"]
+
+| At stem:[20 "unitsml(mm)"] from the surface:
+| stem:[20 "unitsml(kA/m)"] to stem:[25 "unitsml(kA/m)"]
+|===
+
+NOTE: stem:[1 "tesla" = 10^4 "gauss"].
+
+==== Object of the test
+
+To verify that a water meter – with electronic components and/or where mechanical
+parts may be influenced by the static magnetic field (see <<scls-7-12>>) – complies
+with the requirements in <<ISO_4064_1_2024,clause=7.2.8>>|<<OIML_R_49_1_2024,clause=7.2.8>>.
+
+==== Preparation
+
+The water meter shall be made operational in accordance with the rated operating
+conditions.
+
+==== Test procedure in brief
+
+. The permanent magnet is placed in contact with the EUT at a position where
+the action of a static magnetic field is likely to cause errors of indication
+that exceed the MPE and alter the correct functioning of the EUT. The location
+of this position is derived by trial and error and by acknowledging the type
+and construction of the EUT, and/or previous experience. Different positions
+of the magnet may be investigated.
+. When a test position is identified, the magnet is immobilised at that position
+and the error (of indication) of the EUT is measured at flow rate, stem:[Q_3].
+. When measuring the error (of indication), the installation and operational
+conditions specified in <<scls-7-4-2>> shall be followed and the reference conditions
+shall be applied unless otherwise specified. Meters not marked "V" shall only
+be tested with the flow axis in horizontal orientation. Meters with two reference
+temperatures shall only be tested at the lowest reference temperature.
+. The position of the magnet, and its orientation relative to the EUT, shall
+be measured and recorded for each test position.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.3.11>>|<<OIML_R_49_3_2024,clause=4.3.11>>.
+
+==== Acceptance criteria
+
+During the application of the test conditions:
+
+. all the functions of the EUT shall operate as designed;
+. the relative error (of indication) of the EUT, at the test conditions, shall
+not exceed the maximum permissible error of the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>).
+
+[[scls-8-17]]
+=== Absence of flow test
+
+==== Object of the test
+
+To verify that there is no change in the indication of the meter in the absence
+of either flow or water, according to the provisions in <<ISO_4064_1_2024,clause=4.2.9>>|<<OIML_R_49_1_2024,clause=4.2.9>>.
+
+This test is only required for electronic water meters or water meters with
+electronic flow or volume sensors.
+
+==== Preparation
+
+Apply the installation and operational requirements specified in <<scls-7-4-2>>.
+
+==== Test procedure
+
+. Fill the meter with water, purging out all air.
+. Ensure there is no flow through the measurement transducer.
+. Observe the meter index for stem:[15 "unitsml(min)"].
+. Fully discharge the water from the meter.
+. Observe the meter index for stem:[15 "unitsml(min)"].
+. During the test, the reference conditions for all influence quantities other
+than flow rate shall be maintained.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.15>>|<<OIML_R_49_3_2024,clause=4.4.15>>.
+
+==== Acceptance criteria
+
+The water meter totalisation shall not change by more than the value of the
+verification scale interval during each test interval.
+
+=== Mains power frequency electromagnetic fields test
+
+==== Object of the test
+
+To verify compliance with the provisions of <<ISO_4064_1_2024,clause=5.1.1>>|<<OIML_R_49_1_2024,clause=5.1.1>>, during and after the application of power frequency magnetic fields.
+
+==== Preparation
+
+Follow the testing arrangement specified in <<IEC_61000_4_8_2009>>.
+
+==== Test procedure
+
+. [[item-8-18-3-a]]Measure the error (of indication) of the EUT at reference conditions before
+applying the electromagnetic field.
+. Apply the continuous electromagnetic field in accordance with the requirements.
+. Measure the error (of indication) of the EUT at reference conditions during
+applying the electromagnetic field.
+. [[item-8-18-3-d]]Calculate the relative error (of indication) of the EUT in accordance with
+<<annex-b>>.
+. [[item-8-18-3-e]]Calculate the fault by subtracting the intrinsic error (of indication) from
+step <<item-8-18-3-a>> from the error (of indication) from step <<item-8-18-3-d>>. Determine whether the fault
+is a significant fault.
+. Examine the EUT for correct functioning.
+. (Optional or use value <<item-8-18-3-a>>) Measure the error (of indication) of the EUT
+at reference conditions before applying the electromagnetic field.
+. Apply the short duration electromagnetic field in accordance with the requirements.
+. Measure the error (of indication) of the EUT at reference conditions after
+applying the short duration electromagnetic field.
+. Examine the EUT for correct functioning.
+. Complete the test report in <<ISO_4064_3_2024,clause=4.4.16>>|<<OIML_R_49_3_2024,clause=4.4.16>>.
+
+Additional requirements follow.
+
+[start=12]
+. A test generator shall be used with the performance characteristics as specified
+in the cited standard.
+. During the measurement of the error (of indication) the EUT shall be subjected
+to the reference flow rate.
+. Expose the EUT in all three axis.
+. Test level 4 complies to E1; Test level 5 complies to E2.
+. Power mains frequency shall be measured at stem:[50 "unitsml(Hz)"] and
+stem:[60 "unitsml(Hz)"].
+
+==== Acceptance criteria
+
+. After the application of the disturbance, all the functions of the EUT shall
+operate as intended.
+. The difference between the relative error indication obtained during the application
+of the continuous and that obtained at the same flow rate prior to testing under
+reference conditions shall not exceed one-half of the maximum permissible error
+in the upper flow rate zone (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>) or the
+EUT shall detect and respond to a significant fault in accordance with <<ISO_4064_1_2024,annex=B>>|<<OIML_R_49_1_2024,annex=B>>.

@@ -1,0 +1,49 @@
+
+[[cls-11]]
+== Presentation of results
+
+=== Object of the reports
+
+To record and present the work carried out by the testing laboratory, including
+the results of the tests and examinations and all relevant information accurately,
+clearly and unambiguously, in the format given in <<ISO_4064_3_2024>>|<<OIML_R_49_3_2024>>.
+
+Implementation of the test report format as set out in <<ISO_4064_3_2024>>|<<OIML_R_49_3_2024>>
+is informative with regard to implementation of this part of ISO 4064|OIML R
+49 in national regulations; however, its implementation is mandatory in the
+Framework for the OIML Certification System of <<OIML_B_18_2018>> applicable to water
+meters in conformity with this part of ISO 4064|OIML R 49.
+
+=== Identification and test data to be included in records
+
+==== Type evaluation
+
+The record of a type evaluation shall contain:
+
+. a precise identification of the test laboratory and the meter tested;
+. reference to the calibration history of all instrumentation and measuring
+devices used for the tests;
+. exact details of the conditions during which the various tests were carried
+out, including any specific test conditions advised by the manufacturer;
+. the results and conclusions of the tests, as required in this part of ISO
+4064|OIML R 49 (ISO 4064-2|OIML R 49-2);
+. the limitations applying to the application of separately approved measurement
+transducers and calculators.
+
+==== Initial verification
+
+The record of an initial verification test for an individual meter shall include
+as a minimum:
+
+. identification of the testing laboratory:
+.. name and address;
+. identification of the meter tested:
+.. name and address of the manufacturer or the trademark used;
+.. accuracy class;
+.. temperature class;
+.. meter designation stem:[Q_3];
+.. ratios stem:[Q_3 // Q_1];
+.. maximum pressure loss (and corresponding flow rate);
+.. year of manufacture and the serial number of the meter tested;
+.. type or model;
+.. the results and conclusions of the tests.
