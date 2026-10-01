@@ -1,0 +1,38 @@
+
+
+== Introduction
+
+The "Test report format", the subject of OIML R 49-3, aims at presenting, in
+a standardised format, the results of the various tests and examinations to
+which a type of a [insert instrument type, e.g. non-automatic weighing instrument]
+shall be submitted with a view to its approval.
+
+The "Test report" is a record of the results of the tests carried out on the
+instrument. The "test report" forms have been produced based on the tests detailed
+in the performance test procedures (OIML R 49-2).
+
+The "information concerning the test equipment used for type evaluation" shall
+cover all test equipment which has been used in determining the test results
+given in a report. The information may be a short list containing essential
+data (name, type, reference number for purpose of traceability). For example:
+
+* Verification standards (accuracy or accuracy class, and no.);
+* Simulator for testing of modules (name, type, traceability and no.);
+* Climatic test and static temperature chamber (name, type and no.);
+* Electrical tests, bursts (name of the instrument, type and no.);
+* Description of the procedure of field calibration for the electromagnetic
+susceptibility test.
+
+All metrology services or laboratories evaluating types of water meters for
+cold potable water and hot water according to OIML R 49-1 and R 49-2 or to national
+or regional regulations based on OIML R 49-1 and R 49-2 are strongly advised
+to use this "Test report format", directly or after translation into a language
+other than English or French. Its direct use in English or in French, or in
+both languages, is even more strongly recommended whenever test results may
+be transmitted by the country performing these tests to the approving authorities
+of another country, under bi- or multi-lateral cooperation agreements. In the
+framework of the OIML Certification System (OIML-CS), use of the "Test report
+format" is mandatory.
+
+<<cls-4>> shows the required format of a type evaluation report for a complete
+or combined water meter.
