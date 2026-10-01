@@ -1,0 +1,159 @@
+// Páginas 68 a 74 del PDF (OIML R 49-2:2024): secciones 9 (Test program for type evaluation),
+// 10 (Tests for initial verification) y 11 (Presentation of results). Se omiten cabeceras
+// corridas, números de página y la numeración de cláusulas. Figura en images/.
+
+== Test program for type evaluation
+
+=== Number of samples required
+
+For each meter type, the numbers of complete meters or their separable parts
+to be tested during type examination shall be as shown in <<ISO_4064_1_2024,table=7>>|<<OIML_R_49_1_2024,table=7>>.
+
+Additional meters can be submitted in order to conduct the durability test and
+the other performance tests in parallel, if agreed with the notified body or
+body responsible for type approval.
+
+=== Performance test applicable to all water meters
+
+<<table-7>> gives a program for testing all water meters for type evaluation.
+The tests shall be carried out on at least the number of samples given in <<ISO_4064_1_2024,table=6>>|<<OIML_R_49_1_2024,table=6>>, according to the meter designation, except
+where explicitly stated in the appropriate subclause.
+
+Tests 1-9 may be carried out in any order. Tests 10 to 13 shall be carried out
+in the prescribed order. Test 14 shall be carried out before tests 10to 13.
+If an additional batch of meters of the number given in <<ISO_4064_1_2024,table=6>>|<<OIML_R_49_1_2024,table=6>>, according to the meter designation, is supplied, then
+tests 10-14 may be carried out in parallel to the other tests.
+
+[[table-7]]
+.Performance test program for all water meter types
+[cols="3*",options="header"]
+|===
+| Test
+| Subclause
+| Number of meters
+
+3+| Tests which may be carried out in any order
+
+| 1 Static pressure
+| <<scls-7-3>>
+| All
+
+| 2 Error (of indication)
+| <<scls-7-4>>
+| All, stem:[>= 1] ieao
+
+| 3 Absence of flowfootnote:[ieao: in each applicable orientation]
+| <<scls-8-17>>
+| stem:[>= 1]
+
+| 4 Water temperature
+| <<scls-7-5>>
+| stem:[>= 1]
+
+| 5 Overload water temperaturefootnote:[This test is only required for electronic water meters or water meters with electronic devices.]
+| <<scls-7-6>>
+| stem:[>= 1]
+
+| 6 Water pressure
+| <<scls-7-7>>
+| stem:[>= 1]
+
+| 7 Reverse flow
+| <<scls-7-8>>
+| stem:[>= 1]
+
+| 8 Pressure loss
+| <<scls-7-9>>
+| stem:[>= 1]
+
+| 9 Flow disturbance
+| <<scls-7-10>>
+| stem:[>= 1]
+
+3+| Tests to be carried out in the order given
+
+| 10 Discontinuous flow durability test at stem:[Q_3]footnote:[This test only applies to meters with a stem:["MAT" >= 50 "unitsml(degC)"].] or at stem:[Q >= 2 Q_(x2)]footnote:[Only for meters with stem:[Q_3 > 16 "unitsml(m^3/h)"].]
+| <<scls-7-11-2>>
+| All, stem:[>= 1] ieao
+
+| 11 Continuous flow durability test at stem:[Q_3]footnote:[Only for meters with stem:[Q_3 <= 16 "unitsml(m^3/h)"].]
+| <<scls-7-11-3>>
+| All, stem:[>= 1] ieao
+
+| 12 Continuous flow durability test at stem:[Q_4]
+| <<scls-7-11-3>>
+| All, stem:[>= 1] ieao
+
+| 13 Continuous flow durability test at stem:[0.9 Q_(x1)]footnote:[Specific test for combination meters.]
+| <<scls-7-11-3>>
+| All, stem:[>= 1] ieao
+
+3+| Test to be carried out before tests 10 to 13
+
+| 14 Magnetic field testingfootnote:[For combination meters where the small meter has not been previously approved.]footnote:[For all meters with electronic components and mechanical meters equipped with a magnetic coupling in the drive to the readout or any other mechanism which may be affected by the external application of a magnetic field (<<scls-7-12>>).]
+| <<scls-8-16>>
+| stem:[>= 1]
+|===
+
+[[scls-9-3]]
+=== Performance tests applicable to electronic water meters, mechanical water meters fitted with electronic devices, and their separable parts
+
+In addition to the tests listed in <<table-7>>, the performance tests listed
+in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>> shall be applied to electronic
+water meters and mechanical water meters fitted with electronic devices. The
+tests listed in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>> may be carried out
+in any order.
+
+NOTE: The number of meters to be supplied is given in <<ISO_4064_1_2024,clause=7.2.2,table=7>>|<<OIML_R_49_1_2024,clause=7.2.2,table=7>>.
+
+One meter shall be submitted to all the applicable tests listed in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>, according to its environmental classification. No substitutions
+of any remaining meters shall be permitted. The meter shall not fail any of
+the tests applied to it.
+
+Where the meter is fitted with checking facilities, the same meter shall also
+fulfil the requirements for checking facilities specified in <<annex-a>>.
+
+=== Type evaluation of separable parts of a water meter
+
+The compatibility of separable parts of a water meter shall be evaluated by
+the body responsible for type approval and the following rules shall be applied.
+
+. The type approval certificate for a separately approved measurement transducer
+(including flow or volume sensor) shall state the type or types of approved
+calculator (including indicating device) with which it can be combined.
+. The type approval certificate for a separately approved calculator (including
+indicating device) shall state the type or types of approved measurement transducer
+(including flow or volume sensor) with which it can be combined.
+. The type approval certificate for a combined meter shall state which type
+or types of approved calculator (including indicating device) and approved measurement
+transducer (including flow or volume sensor) can be combined.
+. The maximum permissible errors for the calculator (including indicating device)
+or measurement transducer (including flow or volume sensor) shall be declared
+by the manufacturer when it is submitted for type examination.
+. The arithmetic sum of the MPEs of an approved calculator (including indicating
+device) and an approved measurement transducer (including flow or volume sensor)
+shall not exceed the MPEs for a complete water meter (see <<ISO_4064_1_2024,clause=4.2>>|<<OIML_R_49_1_2024,clause=4.2>>).
+. Measurement transducers (including flow or volume sensor) of mechanical water
+meters, mechanical water meters fitted with electronic devices and electronic
+water meters shall be subjected to the applicable performance tests listed in
+<<table-7>> and in <<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+. Calculators (including indicating device) of mechanical water meters, mechanical
+water meters fitted with electronic devices and electronic water meters shall
+be subjected to the applicable performance tests listed in <<table-7>> and in
+<<ISO_4064_1_2024,annex=A,table=A.1>>|<<OIML_R_49_1_2024,annex=A,table=A.1>>.
+. Wherever possible, the test conditions applied during the type evaluation
+of a complete water meter shall be applied to the separable parts of a water
+meter. Where this is not possible for certain test conditions, simulated conditions,
+of equivalent severity and duration, shall be applied.
+. The performance test requirements of <<cls-6>> and <<cls-7>> shall be met
+where applicable.
+. The results of the type evaluation tests of separable parts of a water meter
+shall be declared in a report of similar format to that for a complete water
+meter (see <<ISO_4064_3_2024>>|<<OIML_R_49_3_2024>>).
+
+=== Families of water meters
+
+When a family of water meters is submitted for type evaluation, the criteria
+in <<annex-d>> shall be applied by the body responsible for type approval in
+deciding if the meters conform to the definition of "a family" and in selecting
+which meter sizes are to be tested.

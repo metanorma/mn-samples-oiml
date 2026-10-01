@@ -1,0 +1,273 @@
+// Páginas 9 a 14 del PDF (OIML R 49-2:2024): sección 6, External examination.
+// Se omiten cabeceras corridas, números de página, numeración de cláusulas y
+// los números de ecuación (1) a (5), que Metanorma genera.
+
+[[cls-6]]
+== External examination
+
+=== General
+
+During the external examination, all relevant values, dimensions, and observations
+shall be recorded.
+
+NOTE: For presentation of the results of type examinations, see <<cls-11>>.
+
+NOTE: The relevant subclauses of <<ISO_4064_1_2024>>|<<OIML_R_49_1_2024>> are shown
+in parentheses in the following.
+
+=== Object of the examination
+
+To verify that a water meter meets the requirements of <<ISO_4064_1_2024>>|<<OIML_R_49_1_2024>> with respect to the design of the indicating device, the marking
+of the meter and the application of protection devices.
+
+=== Preparation
+
+Linear measurements that have to be taken of a meter shall be made using traceable,
+calibrated measuring devices.
+
+The actual or apparent dimensions of the scales of the indicating device shall
+be taken without removing the meter lens or disassembling the meter.
+
+NOTE: A travelling microscope (cathetometer) can be used to measure the width,
+spacing and height of the scale divisions and the height of the numerals.
+
+=== Examination procedures
+
+==== General
+
+The following aspects of a meter design shall be examined on at least one meter
+from the sample.
+
+Either the same meter sample may be used for all the external examinations or
+different meters from the samples submitted may be used for some of the examinations.
+
+==== Marks and inscriptions (<<ISO_4064_1_2024,clause=6.6>>|<<OIML_R_49_1_2024,clause=6.6>>)
+
+. Verify that a place is provided for affixing the verification mark which is
+visible without dismantling the water meter.
+. Verify that the water meter is clearly and indelibly marked with the information
+presented in <<ISO_4064_1_2024,clause=6.6.2>>|<<OIML_R_49_1_2024,clause=6.6.2>>.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.6.1>>|<<OIML_R_49_1_2024,clause=6.6.1>> and
+6.6.2 (r) in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+[[scls-6-4-3]]
+==== Indicating device (<<ISO_4064_1_2024,clause=6.7>>|<<OIML_R_49_1_2024,clause=6.7>>)
+
+===== Function (<<ISO_4064_1_2024,clause=6.7.1.1>>|<<OIML_R_49_1_2024,clause=6.7.1.1>>)
+
+. Verify that the indicating device provides an easily read, reliable and unambiguous
+visual indication of the indicated volume.
+. Verify that the indicating device includes visual means for testing and calibration.
+. If the indicating device includes additional elements for testing and calibration
+by other methods, e.g. for automatic testing and calibration, record the type(s)
+of device.
+. If the meter is a combination meter with two indicating devices, <<scls-6-4-3>>
+applies to both indicating devices.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.1.1>>|<<OIML_R_49_1_2024,clause=6.7.1.1>> in
+<<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+===== Unit of measurement, symbol, and its placement (<<ISO_4064_1_2024,clause=6.7.1.2>>|<<OIML_R_49_1_2024,clause=6.7.1.2>>)
+
+. Verify that the indicated volume of water is expressed in cubic metres.
+. Verify that the symbol stem:["unitsml(m^3)"] appears on the dial or immediately
+adjacent to the numbered display.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.1.2>>|<<OIML_R_49_1_2024,clause=6.7.1.2>> in
+<<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+===== Indicating range (<<ISO_4064_1_2024,clause=6.7.1.3>>|<<OIML_R_49_1_2024,clause=6.7.1.3>>)
+
+. Verify that the indicating device is able to record the indicated volume in
+cubic metres given in <<ISO_4064_1_2024,table=5>>|<<OIML_R_49_1_2024,table=5>> corresponding
+to the permanent flow rate stem:[Q_3] without passing through zero.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.1.3>>|<<OIML_R_49_1_2024,clause=6.7.1.3>>,
+in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+===== Colour coding for indicating devices (<<ISO_4064_1_2024,clause=6.7.1.4>>|<<OIML_R_49_1_2024,clause=6.7.1.4>>)
+
+. Verify that either:
+.. the colour black is used to indicate the cubic metre and its multiples; and
+.. the colour red is used to indicate sub-multiples of a cubic metre; and
+.. the colours are applied either to the pointers, indexes, numbers, wheels
+discs, dials or aperture frames;
+.. or other means of indicating the cubic metre are used in which there is no
+ambiguity in distinguishing between the primary indication and alternative displays,
+e.g. sub-multiples for verification and testing.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.1.4>>|<<OIML_R_49_1_2024,clause=6.7.1.4>>,
+in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+===== Types of indicating device (<<ISO_4064_1_2024,clause=6.7.2>>|<<OIML_R_49_1_2024,clause=6.7.2>>)
+
+[[scls-6-4-3-5-1]]
+====== Type 1 -- Analogue device (<<ISO_4064_1_2024,clause=6.7.2.1>>|<<OIML_R_49_1_2024,clause=6.7.2.1>>)
+
+. If a type 1 indicating device has been used, verify that volume is indicated by:
+* either continuous movement of one or more pointers moving relative to graduated
+scales;
+* or continuous movement of one or more circular scales or drums, each passing
+an index.
+. Verify that the value expressed in cubic metres for each scale division is
+of the form stem:[10^n], where stem:[n] is a positive or a negative whole number
+or zero, thereby establishing a system of consecutive decades.
+. Verify that each scale is either graduated in values expressed in cubic metres
+or accompanied by a multiplication factor (stem:[xx 0.001]; stem:[xx 0.01];
+stem:[xx 1]; stem:[xx 10]; stem:[xx 100]; stem:[xx 1000], etc.).
+. Verify that the rotational movements of the pointers or circular scales are
+clockwise.
+. Verify that the linear movement of the pointers or scales is from left to right.
+. Verify that the movement of the numbered roller indicators is upwards.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.2.1>>|<<OIML_R_49_1_2024,clause=6.7.2.1>>,
+in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+[[scls-6-4-3-5-2]]
+====== Type 2 -- Digital device (<<ISO_4064_1_2024,clause=6.7.2.2>>|<<OIML_R_49_1_2024,clause=6.7.2.2>>)
+
+. Verify that the indicated volume is given by a line of digits, appearing in
+one or more apertures.
+. Verify that the advance of one digit is completed while the digit of the next
+immediately lower decade changes from 9 to 0.
+. Verify that the actual or apparent height of the digits is at least
+stem:[4 "unitsml(mm)"].
+. For non-electronic devices:
++
+--
+. verify that the movement of the numbered roller indicators (drums) is upwards;
+. if the lowest value decade has a continuous movement, verify that the aperture
+is large enough to permit a digit to be read without ambiguity.
+
+For electronic devices:
+
+. verify that for non-permanent displays the volume can be displayed at any
+time for at least stem:[10 "unitsml(s)"];
+. check the entire display visually in the following sequence:
+.. for seven segment type verify that all the elements can be correctly displayed
+(e.g. an "eights" test),
+.. for seven segment type verify that all the elements can be blanked (a "blanks"
+test),
+.. for graphical displays use an equivalent test to verify that display faults
+cannot result in any digit being misinterpreted,
+.. verify that each step of the sequence lasts at least stem:[1 "unitsml(s)"].
+--
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.2.2>>|<<OIML_R_49_1_2024,clause=6.7.2.2>> in
+<<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+====== Type 3 -- Combination of analogue and digital devices (<<ISO_4064_1_2024,clause=6.7.2.3>>|<<OIML_R_49_1_2024,clause=6.7.2.3>>)
+
+. If the indicating device is a combination of type 1 and 2 devices, verify
+that the respective requirements of each apply (see <<scls-6-4-3-5-1>> and
+<<scls-6-4-3-5-2>>).
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.2.3>>|<<OIML_R_49_1_2024,clause=6.7.2.3>> in
+<<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+===== Verification devices -- First element of an indicating device -- Verification scale interval (<<ISO_4064_1_2024,clause=6.7.3>>|<<OIML_R_49_1_2024,clause=6.7.3>>)
+
+====== General requirements (<<ISO_4064_1_2024,clause=6.7.3.1>>|<<OIML_R_49_1_2024,clause=6.7.3.1>>)
+
+. Verify that the indicating device has the means for visual, non-ambiguous
+verification testing and calibration.
+. Note whether the visual verification display has a continuous or a discontinuous
+movement.
+. Note whether, in addition to the visual verification display, the indicating
+device includes provisions for rapid testing by the inclusion of complementary
+elements (e.g. star wheels or discs), providing signals through externally attached
+sensors. Note the relationship, stated by the manufacturer, between the visual
+indication of volume and the signals emitted by these complementary devices.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.3.1>>|<<OIML_R_49_1_2024,clause=6.7.3.1>> in
+<<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+====== Visual verification display (<<ISO_4064_1_2024,clause=6.7.3.2>>|<<OIML_R_49_1_2024,clause=6.7.3.2>>)
+
+[level=6]
+====== Value of the verification scale interval (<<ISO_4064_1_2024,clause=6.7.3.2.1>>|<<OIML_R_49_1_2024,clause=6.7.3.2.1>>)
+
+. Verify that the value of the verification scale interval, expressed in cubic
+metres, is of the form stem:[1 xx 10^n], or stem:[2 xx 10^n], or stem:[5 xx 10^n],
+where stem:[n] is a positive or negative whole number, or zero.
+. For analogue and digital indicating devices with continuous movement of the
+first element, verify that the verification scale interval is formed from the
+division into 2, 5 or 10 equal parts of the interval between two consecutive
+digits of the first element.
+. For analogue and digital indicating devices with continuous movement of the
+first element, verify that numbering is not applied to the divisions between
+consecutive digits of the first element.
+. For digital indicating devices with discontinuous movement of the first element,
+the verification scale interval is the interval between two consecutive digits
+or incremental movements of the first element.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.3.2.1>>|<<OIML_R_49_1_2024,clause=6.7.3.2.1>>
+in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+[level=6]
+====== Form of the verification scale (<<ISO_4064_1_2024,clause=6.7.3.2.2>>|<<OIML_R_49_1_2024,clause=6.7.3.2.2>>)
+
+. If the indicating device has continuous movement of the first element, check
+that the apparent scale spacing is not less than stem:[1 "unitsml(mm)"] and
+not more than stem:[5 "unitsml(mm)"].
+. Verify that the scale consists of:
+* either lines of equal thickness not exceeding one-quarter of the scale spacing
+and differing only in length;
+* or contrasting bands of a constant width equal to the scale spacing.
+. Verify that the apparent width of the pointer at its tip does not exceed one-quarter
+of the scale spacing.
+. Verify that the apparent width of the pointer at its tip does not exceed
+stem:[0.5 "unitsml(mm)"].
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.3.2.2>>|<<OIML_R_49_1_2024,clause=6.7.3.2.2>>,
+in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+[level=6]
+====== Resolution of the indicating device (<<ISO_4064_1_2024,clause=6.7.3.2.3>>|<<OIML_R_49_1_2024,clause=6.7.3.2.3>>)
+
+. Note the value of the verification scale interval, stem:[delta V "unitsml(m^3)"]
+. Calculate the actual volume stem:[V_a] in stem:["unitsml(m^3)"] passed during
+stem:[90 "unitsml(min)"] at the minimum flow rate stem:[Q_1], from
++
+[stem]
+++++
+V_a = Q_1 xx 1.5
+++++
+. Calculate the resolution error stem:[epsilon_r] of the indicating device,
+expressed as a percentage, from:
+.. for continuous movement of the first element:
++
+[stem]
+++++
+epsilon_r = frac(0,5 delta V + 0,5 delta V)(V_a) xx 100 % = frac(delta V)(V_a) xx 100 %
+++++
+.. For discontinuous movement of the first element:
++
+[stem]
+++++
+epsilon_r = frac(delta V + delta V)(V_a) xx 100 % = frac(2 delta V)(V_a) xx 100 %
+++++
+. Verify that for accuracy class 1 meters, the value of the verification scale
+interval is small enough to ensure that the resolution error stem:[epsilon_r]
+of the indicating device does not exceed stem:[0.25 %] of the actual volume
+required during stem:[90 "unitsml(min)"] at the minimum flow rate, stem:[Q_1].
++
+[stem]
+++++
+epsilon_r <= 0.25 %
+++++
+. Verify that for accuracy class 2 meters, the verification scale interval is
+small enough to ensure that the resolution error stem:[epsilon_r] of the indicating
+device does not exceed stem:[0.5 %] of the actual volume required during
+stem:[90 "unitsml(min)"] at the minimum flow rate, stem:[Q_1].
++
+[stem]
+++++
+epsilon_r <= 0.5 %
+++++
+. Complete the section reference <<ISO_4064_1_2024,clause=6.7.3.2.3>>|<<OIML_R_49_1_2024,clause=6.7.3.2.3>>
+in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.
+
+When the display of the first element is continuous, an allowance shall be made
+for a maximum error in each reading of not more than half of the verification
+scale interval.
+
+When the display of the first element is discontinuous, an allowance shall be
+made for a maximum error in each reading of not more than one digit of the verification
+scale.
+
+==== Protection devices (<<ISO_4064_1_2024,clause=6.8>>|<<OIML_R_49_1_2024,clause=6.8>>)
+
+. Verify that the water meter includes protection devices as specified in <<ISO_4064_1_2024,clause=6.8>>|<<OIML_R_49_1_2024,clause=6.8>>.
+. Complete the section reference <<ISO_4064_1_2024,clause=6.8.1>>|<<OIML_R_49_1_2024,clause=6.8.1>> and
+<<ISO_4064_1_2024,clause=6.8.2.3>>|<<OIML_R_49_1_2024,clause=6.8.2.3>> in <<ISO_4064_3_2024,clause=4.4.1>>|<<OIML_R_49_4_2024,clause=3.1>>.

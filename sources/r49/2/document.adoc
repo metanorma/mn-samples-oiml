@@ -1,0 +1,71 @@
+= Water meters for cold potable water and hot water -- Part 2: Test methods
+:docidentifier: OIML R 49-2
+:series: R
+:docnumber: 49
+:partnumber: 2
+:edition: 2024
+:revdate: 2024
+:copyright-year: 2024
+:language: en
+:title-main-en: Water meters for cold potable water and hot water.
+:title-part-en: Test methods
+:title-main-fr: Compteurs d'eau potable froide et d'eau chaude.
+:title-part-fr: Méthodes d'essai
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 8
+:technical-committee: Measurement of quantities of fluids
+:subcommittee-number: 5
+:subcommittee: Water meters
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-norm-refs.adoc[]
+
+include::sections/03-terms-and-defs.adoc[]
+
+include::sections/04-reference-conditions.adoc[]
+
+include::sections/05-symbols.adoc[]
+
+include::sections/06-external-examination.adoc[]
+
+include::sections/07-performance-tests-water-meters.adoc[]
+
+include::sections/08-performance-tests-disturbances.adoc[]
+
+include::sections/09-test-program.adoc[]
+
+include::sections/10-tests-initial-verification.adoc[]
+
+include::sections/11-results.adoc[]
+
+include::sections/aa-type-examination.adoc[]
+
+include::sections/ab-relative-error.adoc[]
+
+include::sections/ac-requirements.adoc[]
+
+include::sections/ad-type-evaluation.adoc[]
+
+include::sections/ae-examples.adoc[]
+
+include::sections/af-uncertainties.adoc[]
+
+include::sections/ag-pressure-loss.adoc[]
+
+include::sections/ah-flow-disturbers.adoc[]
+
+include::sections/ai-software-evaluation.adoc[]
+
+include::sections/aj-comparison-table.adoc[]
+
+include::sections/b0-bibliography.adoc[]

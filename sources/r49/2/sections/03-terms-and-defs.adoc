@@ -1,0 +1,8 @@
+
+== Terms and definitions
+
+[.boilerplate]
+--
+For the purposes of this Recommendation, the terms and definitions given in
+<<ISO_4064_1_2024>>|<<OIML_R_49_1_2024>> apply.
+--
