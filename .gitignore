@@ -7,6 +7,9 @@ TODO*
 Gemfile.lock
 _site
 relaton/
+test.*
+_untracked-files/
+iev/
 
 # Metanorma build output
 sources/**/document.html
