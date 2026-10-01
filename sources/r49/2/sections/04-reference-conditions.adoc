@@ -1,0 +1,46 @@
+// Página 9 del PDF (OIML R 49-2:2024): sección 4, Reference conditions.
+// Toda expresión matemática va completa dentro de stem:[...] (AsciiMath):
+// magnitudes, números, signos (pm, xx, <=) y el símbolo %.
+// Unidades con "unitsml(...)" dentro del stem (Plurimath, "Working with UnitsML").
+
+[[cls-4]]
+== Reference conditions
+
+All applicable influence quantities, except for the influence quantity being
+tested, shall be held at the following values during type evaluation tests on
+a water meter. However, for influence factors and disturbances for electronic
+water meters, it is permissible to use the reference conditions defined in the
+applicable IEC standard:
+
+Flow rate:: stem:[0.7 xx (Q_2 + Q_3) pm 0.03 xx (Q_2 + Q_3)]
+
+Water temperature:: T30, T50 is stem:[20 "unitsml(degC)" pm 5 "unitsml(degC)"] +
+T70 to T180 is stem:[20 "unitsml(degC)" pm 5 "unitsml(degC)"] and
+stem:[50 "unitsml(degC)" pm 5 "unitsml(degC)"] +
+T30/70 to T30/180 is stem:[50 "unitsml(degC)" pm 5 "unitsml(degC)"]
+
+Water pressure:: Within rated operating conditions +
+(see <<ISO_4064_1_2024,clause=6.4>>|<<OIML_R_49_1_2024,clause=6.4>>)
+
+Ambient temperature range:: stem:[15 "unitsml(degC)"] to stem:[25 "unitsml(degC)"]
+
+Ambient relative humidity range:: stem:[25 %] to stem:[75 %]
+
+Ambient atmospheric pressure range:: stem:[86 "unitsml(kPa)"] to
+stem:[106 "unitsml(kPa)"] [stem:[0.86 "unitsml(bar)"] to stem:[1.06 "unitsml(bar)"]]
+
+Power supply voltage (mains AC):: Nominal voltage, stem:[U_"nom" pm 5 %]
+
+Power supply frequency:: Nominal frequency, stem:[f_"nom" pm 2 %]
+
+Power supply voltage (battery):: A voltage stem:[V] in the range
+stem:[U_"bmin" <= V <= U_"bmax"]
+
+During each test, the temperature and relative humidity shall not vary by more
+than stem:[5 "unitsml(degC)"] or stem:[10 %], respectively, within the reference
+range. The reference conditions are permitted to deviate from the defined tolerance
+values during the performance tests if evidence can be given to the body responsible
+for type approval that the type of meter under consideration is not affected
+by the deviation of the condition in question. The actual values of the deviating
+condition, however, shall be measured and documented as part of the performance
+test documentation.

@@ -1,0 +1,61 @@
+
+// Páginas 86 y 87 del PDF (OIML R 49-2:2024): Annex C (Mandatory). Se omiten cabeceras corridas y
+// números de página. Figura C.1 con sus 12 subfiguras en images/.
+
+[[annex-c]]
+[appendix,obligation=normative]
+== Installation requirements for flow disturbance tests
+
+Installation requirements for flow disturbance tests are shown in <<figure-c-1>>.
+The straightener may be a straightener assembly consisting of a straightener
+and a straight length between it and the flowmeter.
+
+[[figure-c-1]]
+.Installation requirements for flow disturbance tests
+====
+.Test 1: without a straightener
+image::figure-c1-test1.png[]
+
+.Test 1A: with a straightener
+image::figure-c1-test1a.png[]
+
+.Test 2: without a straightener
+image::figure-c1-test2.png[]
+
+.Test 2A: with a straightener
+image::figure-c1-test2a.png[]
+
+.Test 3: without a straightener
+image::figure-c1-test3.png[]
+
+.Test 3A: with a straightener
+image::figure-c1-test3a.png[]
+
+.Test 4: without a straightener
+image::figure-c1-test4.png[]
+
+.Test 4A: with a straightener
+image::figure-c1-test4a.png[]
+
+.Test 5: without a straightener
+image::figure-c1-test5.png[]
+
+.Test 5A: with a straightener
+image::figure-c1-test5a.png[]
+
+.Test 6: without a straightener
+image::figure-c1-test6.png[]
+
+.Test 6A: with a straightener
+image::figure-c1-test6a.png[]
+====
+
+[%key]
+.Flow disturbance scheme
+
+1:: type 1 disturber -- swirl generator sinistrorsal
+2:: meter
+3:: straight length
+4:: straightener
+5:: type 2 disturber -- swirl generator dextrorsal
+6:: type 3 disturber -- velocity profile flow disturber

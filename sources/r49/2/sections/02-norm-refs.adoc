@@ -1,0 +1,61 @@
+
+[bibliography]
+== Normative references
+
+* [[[IEC_60068_2_1,IEC 60068-2-1]]], _Environmental testing — Part 2-1: Tests — Test A: Cold_
+
+* [[[IEC_60068_2_2,IEC 60068-2-2]]], _Environmental testing — Part 2-2: Tests — Test B: Dry heat_
+
+* [[[IEC_60068_2_30,IEC 60068-2-30]]], _Environmental testing — Part 2-30: Tests — Test Db: Damp heat, cyclic (12 h + 12 h cycle)_
+
+* [[[IEC_60068_2_31,IEC 60068-2-31]]], _Environmental testing — Part 2-31: Tests — Test Ec: Rough handling shocks, primarily for equipment-type specimens_
+
+* [[[IEC_60068_2_47,IEC 60068-2-47]]], _Environmental testing — Part 2-47: Tests — Mounting of specimens for vibration, impact and similar dynamic tests_
+
+* [[[IEC_60068_2_64,IEC 60068-2-64]]], _Environmental testing — Part 2-64: Tests — Test Fh: Vibration, broadband random and guidance_
+
+* [[[IEC_60068_3_4,IEC 60068-3-4]]], _Environmental testing — Part 3-4: Supporting documentation and guidance — Damp heat tests_
+
+* [[[IEC_60654_2,IEC 60654-2]]], _Operating conditions for industrial process measurement and control equipment — Part 2: Power_
+
+* [[[IEC_61000_2_1,IEC 61000-2-1]]], _Electromagnetic compatibility (EMC) — Part 2: Environment — Section 1: Description of the environment — Electromagnetic environment for low-frequency conducted disturbances and signaling in public power supply systems_
+
+* [[[IEC_61000_2_2,IEC 61000-2-2]]], _Electromagnetic compatibility (EMC) — Part 2-2: Environment — Compatibility levels for low-frequency conducted disturbances and signaling in public low-voltage power supply systems_
+
+* [[[IEC_61000_4_1,IEC 61000-4-1]]], _Electromagnetic compatibility (EMC) — Part 4-1: Testing and measurement techniques — Overview of IEC 61000-4 series_
+
+* [[[IEC_61000_4_2,IEC 61000-4-2]]], _Electromagnetic compatibility (EMC) — Part 4-2: Testing and measurement techniques — Electrostatic discharge immunity test_
+
+* [[[IEC_61000_4_3,IEC 61000-4-3]]], _Electromagnetic compatibility (EMC) — Part 4-3: Testing and measurement techniques — Radiated, radio frequency, electromagnetic field immunity test_
+
+* [[[IEC_61000_4_4,IEC 61000-4-4]]], _Electromagnetic compatibility (EMC) — Part 4-4: Testing and measurement techniques — Electrical fast transient/burst immunity test_
+
+* [[[IEC_61000_4_5,IEC 61000-4-5]]], _Electromagnetic compatibility (EMC) — Part 4-5: Testing and measurement techniques — Surge immunity test_
+
+* [[[IEC_61000_4_6,IEC 61000-4-6]]], _Electromagnetic compatibility (EMC) — Part 4-6: Testing and measurement techniques — Immunity to conducted disturbances, induced by radio-frequency fields_
+
+* [[[IEC_61000_4_8,IEC 61000-4-8]]], _Electromagnetic compatibility (EMC) - Part 4-8: Testing and measurement techniques - Power frequency magnetic field immunity test_
+
+* [[[IEC_61000_4_11,IEC 61000-4-11]]], _Electromagnetic compatibility (EMC) — Part 4-11: Testing and measurement techniques — Voltage dips, short interruptions and voltage variations immunity tests_
+
+* [[[IEC_61000_4_20,IEC 61000-4-20]]], _Electromagnetic compatibility (EMC) - Part 4-20: Testing and measurement techniques - Emission and immunity testing in transverse electromagnetic (TEM) waveguides_
+
+* [[[IEC_61000_6_1,IEC 61000-6-1]]], _Electromagnetic compatibility (EMC) — Part 6-1: Generic standards — Immunity for residential, commercial and light-industrial environments_
+
+* [[[IEC_61000_6_2,IEC 61000-6-2]]], _Electromagnetic compatibility (EMC) — Part 6-2: Generic standards — Immunity for industrial environments_
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]], _General requirements for measuring instruments -Environmental conditions_
+
+* [[[OIML_G_13,OIML G 13]]], _Planning of metrology and testing laboratories_
+
+* [[[ISO_4064_1_2024,ISO 4064-1:2024]]], _Water meters for cold potable water and hot water — Part 1: Metrological and technical requirements_
+
+* [[[ISO_4064_3_2024,ISO 4064-3:2024]]], _Water meters for cold potable water and hot water — Part 3: Test report format_
+
+* [[[OIML_R_49_1_2024,OIML R 49-1:2024]]], _Water meters for cold potable water and hot water. Part 1: Metrological and technical requirements_
+
+* [[[OIML_R_49_3_2024,OIML R 49-3:2024]]], _Water meters for cold potable water and hot water. Part 3: Test report format_
+
+* [[[OIML_R_49_4_2024,OIML R 49-4:2024]]], _Water meters for cold potable water and hot water. Part 4: Type evaluation report format_
+
+* [[[ISO_IEC_Guide_98_3_2008,ISO/IEC Guide 98-3:2008]]], _Uncertainty of measurement — Part 3: Guide to the expression of uncertainty in measurement (GUM:1995)_
