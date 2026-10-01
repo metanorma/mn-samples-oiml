@@ -1,0 +1,4 @@
+[bibliography]
+== Normative references
+
+* [[[iso4064_2_2024,ISO 4064-2:2024]]]
