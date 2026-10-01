@@ -1,0 +1,222 @@
+
+
+[[cls-5]]
+== Water meters equipped with electronic devices
+
+[[scls-5-1]]
+=== General requirements
+
+[[scls-5-1-1]]
+==== {blank}
+
+A water meter equipped with electronic devices shall be designed and manufactured
+in such a way that significant faults do not occur when it is exposed to the
+disturbances specified in <<scls-A-5>>.
+
+[[scls-5-1-2]]
+==== {blank}
+
+A significant fault shall have a value not less than one half of the MPE in
+the upper flow rate zone.
+
+The following faults are not considered to be significant faults:
+
+. faults arising from simultaneous and mutually independent causes in the meter
+itself or in its checking facilities;
+
+. transitory faults, i.e. temporary variations in the indication which cannot
+be interpreted, memorized or transmitted as a measurement result.
+
+[[scls-5-1-3]]
+==== {blank}
+
+A water meter with electronic devices shall be provided with checking facilities,
+see <<scls-3-5-4>> definition, selected from <<annex-b>>. The meter manufacturers
+shall declare which checking facilities are provided with the meter.
+
+All water meters equipped with checking facilities shall prevent or detect reverse
+flow, as specified in <<scls-4-2-7>>.
+
+[[scls-5-1-4]]
+==== {blank}
+
+A water meter is presumed to comply with the requirements in <<scls-4-2>> and
+<<scls-5-1-1>> if it passes the design inspection and performance tests specified
+in <<scls-7-2-12-1>> and <<scls-7-2-12-2>> in the following conditions:
+
+. the number of meters submitted shall comply with <<scls-7-2-2>>;
+. at least one of these meters is submitted to the whole set of tests;
+. no meter fails any test.
+
+[[scls-5-1-5]]
+==== Sampling interval
+
+For electronic water meters the sampling interval shall be appropriate in order
+to support the user application and billing period and not exceed stem:[10 "unitsml(s)"].
+The sampling interval range shall be indicated in the product documentation
+available to the user or indicated on the meter, either physically inscribed
+or via menus accessible on the display.
+
+NOTE: For billing periods of 1 month or longer, the influence of a sampling
+interval of stem:[10 "unitsml(s)"] or less has been found to have no significant
+impact on the averaged error of the meter <<ref10>>
+
+[[scls-5-1-6]]
+==== Test mode
+
+Electronic water meters or mechanical water meters incorporating an electronic
+indicating device may be placed into a specific mode of operation called test
+mode. The test mode shall not alter the ability of the meter to meet the acceptance
+criteria of any performance tests specified in this International Recommendation
+and in <<ISO_4064_2_2024>> and may only differ from the specifications set out
+in this International Recommendation and in <<ISO_4064_2_2024>> for the following
+aspects:
+
+* Switch the resolution of the indicating device to achieve or exceed requirements
+of <<scls-6-7-3-2-3>>
+
+* Switch to a shorter sampling interval than in service operation to achieve
+or exceed requirements of <<scls-6-7-3-2-3>>, <<scls-7-2>>, <<scls-7-3>>
+
+* Activate output transmission in pulses or digital data format to the test
+laboratory data acquisition system
+
+The test mode may only be used during tests requiring determination of the error
+(of indication) of the meter. Following the use of test mode for testing purposes
+the meter shall be able to be placed into an operational/service mode and sealed.
+
+The manufacturer shall provide the necessary equipment and/or procedures to
+the test laboratories and national authorities to enable them to initiate the
+test mode.
+
+[[scls-5-1-7]]
+==== Software requirements
+
+For software-controlled water meters, the requirements of <<annex-d>> shall
+apply.
+
+[[scls-5-2]]
+=== Power supply
+
+[[scls-5-2-1]]
+==== General
+
+Three different kinds of basic power supplies for water meters with electronic
+devices are covered by this Recommendation:
+
+. external power supply;
+. non-replaceable battery;
+. replaceable battery.
+
+These three types of power supplies may be used alone or in combination.
+The requirements for each type of power supply are specified in <<scls-5-2-2>>
+to <<scls-5-2-4>>.
+
+[[scls-5-2-2]]
+==== External power supply
+
+
+[[scls-5-2-2-1]]
+===== {blank}
+
+A water meter with electronic devices shall be designed such that in the event
+of an external power supply failure (AC or DC), the meter indication of volume
+just before failure is not lost, and remains accessible for a minimum of one
+year. The corresponding memorization shall occur at least either once per day
+or for every volume equivalent to stem:[10 "unitsml(min)"] of flow at stem:[Q_3].
+
+
+[[scls-5-2-2-2]]
+===== {blank}
+
+Any other properties or parameters of a meter shall not be affected by an
+interruption of the electrical supply.
+
+During short-time voltage interruptions or reductions, the meter shall continue
+to operate accurately or employ the use of checking facilities to respond to
+any significant fault caused by the interruption or reduction.
+
+Compliance with this requirement does not necessarily ensure that the meter
+continues to register volume during a longer-term power supply failure.
+
+NOTE: Refer to <<ISO_4064_2_2024,clause=8.8>> for short-time voltage interruptions
+and reductions.
+
+NOTE: For the purposes of this clause, a 'power supply failure' is considered
+to be an interruption or reduction of voltage supply for a period of time greater
+than that specified in <<ISO_4064_2_2024,clause=8.8>>.
+
+[[scls-5-2-2-3]]
+===== {blank}
+
+The power supply connections at a meter shall be capable of being secured from
+tampering.
+
+[[scls-5-2-2-4]]
+===== Nominal value of mains voltage and frequency
+
+The manufacturer shall declare the nominal value of mains voltage and frequency.
+
+[[scls-5-2-3]]
+==== Non-replaceable battery
+
+
+[[scls-5-2-3-1]]
+===== {blank}
+
+The manufacturer shall ensure that the expected lifetime of the battery is such
+that a meter functions correctly for at least one year longer than the operational
+lifetime of the meter.
+
+[[scls-5-2-3-2]]
+===== {blank}
+
+A low battery or exhausted battery indicator or a meter replacement date shall
+be indicated on the meter. If the register display gives an indication of
+"low battery", there shall be at least 180 days of useful life for the register
+display from the time "low battery" indication is displayed to end of life.
+
+NOTE: It is anticipated that a combination of specified maximum allowable total
+volume registered, displayed volume, indicated operational lifetime, remote
+reading, extreme temperatures and, if necessary, water conductivity will be
+considered when specifying a battery and during type evaluation.
+
+[[scls-5-2-4]]
+==== Replaceable battery
+
+
+[[scls-5-2-4-1]]
+===== {blank}
+
+Where the electrical power supply is a replaceable battery, the manufacturer
+shall give precise rules for the replacement of the battery.
+
+[[scls-5-2-4-2]]
+===== {blank}
+
+A low battery or exhausted battery indicator or a battery replacement date shall
+be indicated on the meter. If the register display gives an indication of
+"low battery", there shall be at least 180 days of useful life for the register
+display from the time "low battery" indication is displayed to end of life.
+
+[[scls-5-2-4-3]]
+===== {blank}
+
+The properties and parameters of a meter shall not be affected by the interruption
+of the electrical supply when the battery is replaced.
+
+NOTE: It is anticipated that a combination of specified maximum allowable total
+volume registered, displayed volume, indicated operational lifetime, remote
+reading, extreme temperatures and, if necessary, water conductivity will be
+considered when specifying a battery and during type evaluation.
+
+[[scls-5-2-4-4]]
+===== {blank}
+
+Replacement of the battery shall be carried out in a way that does not necessitate
+breaking the seal required for statutory metrological inspections.
+
+[[scls-5-2-4-5]]
+===== {blank}
+
+The battery compartment shall be capable of being secured from tampering.

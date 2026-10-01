@@ -1,0 +1,534 @@
+[[annex-d]]
+[appendix]
+== Requirements for software-controlled water meters
+
+[[scls-D-1]]
+=== Overview
+
+The requirements set out in this annex are based on <<OIML_D_31_2023>>.
+The requirements specified in this annex apply:
+
+* Only to the legally relevant parts of a water meter, e.g. software, parameters,
+the measured quantity value, measurement result and measurement data; and
+* Equally to non-dynamic and dynamic modules of legally relevant software.
+
+The manufacturer is responsible for producing water meters and legally relevant
+software that conforms to the approved type and the documentation submitted
+for type evaluation.
+
+Means described in <<scls-D-2-1>> and <<scls-D-3-1>> shall be provided to allow
+for the evaluation of conformity.
+
+The terms used in this annex conform to the terms and definitions specified
+in <<OIML_D_31_2023>>.
+
+[[scls-D-2]]
+=== General requirements
+
+[[scls-D-2-1]]
+==== Software identification
+
+Legally relevant software modules of a water meter and/or its components shall
+be clearly and uniquely identified with the software version. The identification
+may consist of more than one part, but at least one part shall be dedicated
+to the legal purpose.
+
+The identification shall be inextricably linked to the software itself and shall
+be displayed or printed either:
+
+. on command;
+. during operation; and/or
+. at start up for a water meter that can be turned off and on again.
+
+If an electronic sub-assembly/device has neither a display nor a printer, the
+identification shall be sent via a communication interface in order to be
+displayed/printed on another electronic sub-assembly/device.
+
+As an exception, an imprint or indelible sticker of the software identification
+on the instrument/electronic device shall be an acceptable solution if it satisfies
+all of the following conditions:
+
+[start=4]
+. the user interface does not have any control capability to activate the indication
+of the software identification on the display, or the display does not technically
+allow the identification of the software to be shown (analogue indicating device
+or electromechanical counter);
+. the instrument/electronic device does not have an interface to communicate
+the software identification; and
+. after production of the instrument/electronic device, a change of the software
+is not possible, or only possible if the hardware or a hardware component is
+also changed.
+
+In this case, the manufacturer of the hardware component is responsible for
+ensuring that the software identification is correctly marked on the concerned
+instrument/electronic device. If the software is modified in any way, a new
+software identification is required.
+
+The software identification and the means of identification shall be stated
+in the [OIML certificate / type approval certificate]. Instructions on how to
+display or print the software identification shall be in the
+[OIML certificate / type approval certificate].
+
+Each water meter in use shall conform to the approved type. The software identification enables surveillance personnel and persons affected by the measurement to determine whether the water meter under consideration conforms to the approved type.
+
+[[scls-D-2-2]]
+==== Correctness of metrological algorithms and functions
+
+The measuring algorithms and functions of the water meter and/or its components
+shall be appropriate and functionally correct.
+
+It shall be possible to evaluate algorithms and functions either by:
+
+. Analysis of the documentation and validation of the design (AD)
+. Verification by functional testing of metrological functions (VFTM); and/or
+. Verification by functional testing of software functions (VFTSw).
+
+All legally relevant metrological algorithms, functions and parameters shall
+be documented. No hidden or undocumented functions or parameters shall exist.
+
+[[scls-D-2-3]]
+==== Software securing and protection
+
+Software shall be protected in such a way that evidence of any intervention
+(e.g. software updates, parameters changes) shall be available (e.g. in an audit
+trail, see <<scls-D-2-4>>). Software shall be secured against unauthorised modification,
+loading, or changes by swapping the memory device.
+
+Mechanical sealing or other technical means may be necessary to secure measuring
+instruments. Audit trails are considered to be part of the legally relevant
+software and should be protected as such.
+
+Only clearly documented functions (see <<scls-D-2-5>>) may be activated by the
+user interface, which do not influence the metrological characteristics of the
+instrument.
+
+Parameters that fix the legally relevant characteristics of the water meter
+shall be protected against unauthorised modification. Legally relevant parameters
+shall be secured and protected in such a way that evidence of modifications
+and intervention shall be available.
+
+In the case of dynamic software modules of legally relevant software with predefined
+parameters, these shall be considered as a part of the software and treated
+as such. This entails logging of all parameter changes in an audit trail.
+
+If applicable it shall also be possible to transmit the current parameter settings
+and data containing evidence of interventions to the verification software.
+
+[[scls-D-2-4]]
+==== Audit trails
+
+Audit trails and event counters are part of the legally relevant software and
+shall be secured and protected as such. It shall not be possible to delete or
+inadmissibly change the data of the audit trail or event counter and it shall
+not be possible to exchange the audit trails or the value of the event counter
+when the software is updated.
+
+The audit trail shall contain at minimum the following information:
+
+. timestamp of the event or intervention;
+. the nature of the event or intervention;
+. the success/failure of the intervention or update;
+. in the case of a software update:
+.. software identification of the installed version;
+.. software identification of the previous installed version;
+
+. in the case of a parameter change:
+.. identification of the changed parameter;
+.. the old and new values of the changed parameter; and
+
+. the identification of the downloading party if available.
+
+The audit trail or value of the event counter shall be displayed or printed
+on command and, if applicable, transmitted to the verification software.
+The [OIML certificate / type approval certificate] shall describe how the audit
+trail or the value of the event counter may be displayed or printed and specify
+if the audit trail or event counter is part of a remote verification procedure.
+
+The storage device for the audit trail shall have a sufficient capacity to ensure
+that the information is available for the life of the meter. If the audit trail
+has no more capacity an appropriate response is required i.e., either the oldest
+entry may be deleted, or no other update or parameter change shall be possible
+without breaking a metrological seal.
+
+[[scls-D-2-5]]
+==== Prevention of misuse
+
+A water meter shall be constructed in such a way that possibilities for unintentional, accidental, or intentional misuse are minimal. Only clearly documented functions are allowed to be activated by the user and communication interfaces, which shall be realised in such a way that it does not facilitate fraudulent use.
+
+All inputs from the user interface shall be handled by a protective interface.
+Any function that can be activated by the user interface shall:
+
+. be clearly documented; and
+. not be able to inadmissibly influence the legally relevant characteristics
+of the water meter.
+
+All inputs from communication interfaces shall be handled by a protective interface.
+Any function that can be activated through a communication interface shall:
+
+[start=3]
+. be clearly documented; and
+. not be able to influence the legally relevant characteristics of the water
+meter remotely such as through a remote verification procedure or a software
+download.
+
+The presentation of the measurement result shall be accessible and unambiguous
+for all parties affected by the measurement result.
+
+[[scls-D-2-6]]
+==== Support of fault and defect detection
+
+Software may be involved in the checking facilities used for the detection of
+faults and defects and to act upon significant faults and significant defects
+or to prevent them from occurring. In such a case, this software is considered
+legally relevant.
+
+If software is involved in the detection of significant faults or significant
+defects, the software-controlled water meter shall be made inoperative automatically,
+or automatically raise an alarm. The alarm may be visual, audible or transmittable
+to the person in control of the water meter (i.e. the water utility company).
+The alarm shall continue until such time as an authorised person takes action
+to resolve the fault or defect, the water meter acts upon the fault or defect,
+or it is otherwise resolved.
+
+The documentation to be submitted for type evaluation shall contain a list of
+parameters and their valid and controlled ranges which may generate faults and
+which will be detected by the software including the expected reaction and,
+if necessary for understanding the detection algorithm, its description.
+
+[[scls-D-3]]
+=== Requirements specific for configurations
+
+[[scls-D-3-1]]
+==== Specification and separation of legally relevant components and interfaces
+
+[[scls-D-3-1-1]]
+===== General
+
+This requirement applies if the water meter and/or its components or software
+modules have interfaces for communicating with other electronic devices, with
+the user, or with other (non-legally relevant) software modules next to the
+legally-relevant components/modules.
+
+Legally-relevant components of a water meter -- whether software or hardware
+-- shall not be inadmissibly influenced by other components of the measuring
+system.
+
+[[scls-D-3-1-2]]
+===== Separation of constituents of a measuring system
+
+Components of a water meter that perform functions which are legally relevant
+shall be identified, clearly defined, and documented. These form the legally
+relevant part of the measuring system.
+
+It shall be demonstrated that the legally-relevant functions and data of components
+cannot be inadmissibly influenced by commands received via an interface.
+This implies that there is an unambiguous assignment of each command to all
+initiated functions or data changes in the component.
+
+[[scls-D-3-1-3]]
+===== Separation of software modules
+
+All software modules (programs, subroutines, objects, etc.) that perform legally
+relevant functions or that contain legally relevant data domains form the legally
+relevant software part of a water meter. This part shall be made identifiable
+as described in <<scls-D-2-1>>.
+
+If the separation of the software modules is not possible, the software is legally-relevant as a whole.
+
+If the legally relevant software part communicates with other software parts,
+a software interface shall be defined implemented. All communication shall be
+performed exclusively via this interface. The legally relevant software part
+and the interface shall be clearly documented. All legally relevant functions
+and data domains of the software shall be described to enable a type approval
+authority to decide on correct software separation.
+
+The interface consists of program code and dedicated data domains. Defined coded
+commands or data are exchanged between the software parts by storing to the
+dedicated data domain by one software part and reading from it by the other.
+Reading and writing program code is part of the software interface.
+
+The data domain forming the software interface, including the code that exports
+from the legally-relevant part to the interface data domain and the code that
+imports from the interface to the legally relevant part, shall be clearly defined
+and documented. The declared software interface shall not be circumvented.
+
+There shall be an unambiguous assignment of each command to all initiated functions
+or data changes in the legally relevant part of the software. Commands that
+communicate through the software interface shall be declared and documented.
+Only documented commands are allowed to be activated through the software interface.
+The manufacturer shall state the completeness of the documentation of commands.
+
+Where legally relevant software has been separated from non-relevant software,
+the legally relevant software shall have priority using the resources over
+non-relevant software. The measurement task (realised by the legally relevant
+software part) shall not be delayed or blocked by other tasks.
+
+When dynamic modules of legally relevant software have facilities for continuous
+learning that allow dynamic parameter changes during use, the manufacturer shall
+clarify the facilities and its priorities to the whole legally relevant software,
+especially in reference to the measuring functions.
+
+[[scls-D-3-2]]
+==== Shared indications
+
+Software that realises the indication of measurement values and other
+legally-relevant information belongs to the legally-relevant part.
+
+A display or printout may be employed for presenting both information from the
+legally relevant part of the software and other information. The information
+generated by the legally relevant information shall always be readable, and
+clearly distinguishable from other information.
+
+[[scls-D-3-3]]
+==== Data storage
+
+[[scls-D-3-3-1]]
+===== General
+
+Hardware and software, whether incorporated into the water meter or connected
+to it externally, that is intended to be used for the storage of measurement
+results and/or measurement data shall be subject to the requirements specified
+in <<scls-D-3-3-1>> to <<scls-D-3-3-3>>.
+
+The measurement result and measurement data includes all associated data necessary
+for future legally relevant use (see <<OIML_D_31_2023>> for relevant terms and
+definitions).
+
+[[scls-D-3-3-2]]
+===== Protection of stored data
+
+Stored measurement results and measurement data shall be protected to guarantee
+the authenticity, integrity and, if necessary, correctness of the information
+concerning the time of measurement. Where timestamps are required, they shall
+either be read from an internal clock or synchronized with legal time. The setting
+of the time and date shall be secured.
+
+The software that displays or further processes measurement results and measurement
+data shall check the authenticity and integrity of the data after having read
+them from storage.
+
+Software modules that prepare measurement results and measurement data for storage,
+or that check data after reading are considered part of the legally relevant
+software.
+
+If a modification or corruption is detected, the stored measurement results
+and measurement data shall be discarded or marked unusable.
+
+[[scls-D-3-3-3]]
+===== Automatic storage
+
+Measurement results and measurement data shall be stored automatically.
+
+The storage device shall have sufficient permanency to ensure that measurement
+results and measurement data are not corrupted under normal storage conditions.
+There shall be sufficient memory storage for the intended application.
+
+[[scls-D-3-3-4]]
+===== Deletion of stored data
+
+It shall not be possible to delete the accumulated volume measured and indicated
+by the water meter.
+
+[[scls-D-3-4]]
+==== Data transmission
+
+[[scls-D-3-4-1]]
+===== General
+
+If applicable, hardware and software, whether incorporated into the water meter
+or connected to it externally, that is intended to be used for the transmission
+of measurement results and/or measurement data shall be subject to the requirements
+specified in <<scls-D-3-4-1>> and <<scls-D-3-4-2>>.
+
+The measurement result and measurement data includes all associated data necessary
+for future legally relevant use (see <<OIML_D_31_2023>> for relevant terms and
+definitions).
+
+Requirements concerning the transmission of measurement results and/or measurement
+data via communication networks are subject to national regulations.
+
+NOTE: In some jurisdictions transmission of data via communication networks
+is not subject to legal metrology requirements. National regulations may instead
+specify compliance with data transmissions standards such as EN 13757
+_Communication systems for meters_.
+
+[[scls-D-3-4-2]]
+===== Protection of transmitted data
+
+Transmitted measurement results and measurement data shall be protected to guarantee
+the authenticity, integrity and, if necessary, correctness of the information
+concerning the time of measurement. Where timestamps are required, they shall
+either be read from an internal clock or synchronized with legal time. The setting
+of the time and date shall be secured.
+
+The software that displays or further processes measurement results and measurement
+data shall check the authenticity and integrity of the data after having received
+them from a transmission channel.
+
+Software modules that prepare measurement results and measurement data for transmission, or that check data after reading or receiving are considered part of the legally relevant software.
+
+If a modification or corruption is detected, the transmitted measurement results
+and measurement data shall be discarded or marked unusable.
+
+When transferring measurement results and measurement data through an open network,
+it is necessary to apply cryptographic methods. Confidentiality keys employed
+for this purpose shall be kept secret and secured in the water meter, electronic
+devices, or sub-assemblies involved in the transmission. Means shall be provided
+whereby these keys can only be input or read if a seal is broken.
+
+Transmitted measurement results and measurement data shall be traceable back
+to the measurement process and water meter (or component) that generated them.
+
+[[scls-D-3-4-3]]
+===== Transmission delay or interruption
+
+Measurement results and measurement data (such as the accumulated totalized
+volume) shall not be inadmissibly influenced by a transmission delay or interruption.
+If network services become unreliable or unavailable, no measurement results
+and measurement data shall be lost.
+
+[[scls-D-3-5]]
+==== Indications from dynamic modules of legally relevant software
+
+Where water meters incorporate or are dependent upon dynamic modules of legally
+relevant software, this information shall be indicated and made available to
+any parties interested in the measurement result(s) produced by that water meter.
+
+Where a measurement result is the product of a measurement process that incorporates
+or is dependent upon dynamic modules of legally relevant software, the indication
+of the measurement result shall include information regarding the use of those
+modules in the measurement process. This may be achieved by the use of a short
+statement, clearly understood markings, symbols or other indications.
+
+Where measurement data is produced as a result of algorithms of dynamic modules
+of legally relevant software, the measurement data shall be marked or indicated
+as such.
+
+[[scls-D-4]]
+=== Maintenance and reconfiguration
+
+[[scls-D-4-1]]
+==== General
+
+Only versions of legally-relevant software that conform to the approved type
+are allowed for use.
+
+In addition, download and installation of legally relevant software is allowed
+if the requirements in the download procedures described in either <<scls-D-4-2>>
+or <<scls-D-4-3>> are met.
+
+The use of verified updates, traced updates and required download procedure(s)
+are subject to national regulations.
+
+[[scls-D-4-2]]
+==== Verified update
+
+A verified update is the procedure of changing software (i.e. exchange with
+another approved version or re-installation of an existing version) in a verified
+device or component after which the subsequent verification by an authorised
+person is necessary.
+
+The software to be updated can be loaded locally, i.e. directly on the water
+meter or remotely via a network. A seal needs to be broken for the update to
+take effect.
+
+Loading and installation may be two different steps or combined into one, depending
+on the needs of the technical solution.
+
+Means shall be implemented to check the effectiveness of the update (e.g. in-person
+inspection).
+
+After the update of the legally-relevant software of a water meter, the water
+meter is not allowed to be employed for legal purposes before a verification
+of the water meter has been performed and the securing means have been renewed.
+
+[[scls-D-4-3]]
+==== Traced update
+
+A traced update is the procedure of changing software in a verified device or
+component after which the subsequent verification by a responsible person on
+site is not necessary. This means the traced update shall not affect existing
+parameters or the accuracy of the measurement. The following conditions shall
+apply:
+
+. [[item-D-4-3-a]]Traced update of software shall be automatic. Upon completion
+of the update procedure, the software protection environment shall be at the
+same level as required by the [OIML certificate / type approval certificate].
+. Technical means shall be employed to guarantee the authenticity of the loaded
+software.
+. Technical means shall be employed to ensure the integrity of the loaded software,
+i.e. that it has not been inadmissibly changed before loading.
+. Appropriate technical means shall be employed to ensure that traced updates
+are adequately traceable within the water meter.
+. If the loaded software fails the authenticity check, the water meter shall
+discard it and use the previous version of the software or switch to an inoperable
+mode.
+. [[item-D-4-3-f]]The water meter shall have a sub-assembly/electronic device
+for the user or owner to express his/her consent. It shall be possible to enable
+and disable this sub-assembly/electronic device, e.g. by means of a switch that
+can be sealed or by a parameter. If the sub-assembly/electronic device is enabled,
+each download shall be initiated by the user or owner. If it is disabled, no
+activity by the user or owner is necessary to perform a download.
+. If the requirements of <<item-D-4-3-a>> through <<item-D-4-3-f>> cannot be
+fulfilled, it is still possible to update the legally non-relevant software
+part. In this case, the following requirements shall be met:
+.. there is a distinct separation between the legally relevant and non-relevant
+software according to <<scls-D-3-1>>;
+.. the whole legally-relevant software part cannot be updated without breaking
+a seal; and
+.. it is stated in the [OIML certificate / type approval certificate] that updating
+of the legally non-relevant part is acceptable.
+
+
+An audit trail shall be employed to ensure that traced updates of legally relevant
+software are adequately recorded and traceable within the water meter for subsequent
+verification and surveillance or inspection. The water meter shall be capable
+of presenting the recorded data upon request from an authorised person.
+The traceability means and records are part of the legally-relevant software
+and shall be protected as such. See <<scls-D-2-4>> and <<scls-D-2-5>> for specific
+requirements.
+
+[[scls-D-5]]
+=== Software documentation
+
+All program functions shall be explained in the documentation of the water meter,
+including relevant data structures and software interfaces of the legally relevant
+part of the software that is implemented in the water meter. All commands and
+their effects shall be completely described in the software documentation.
+
+The manufacturer shall submit all such documentation to allow for a reasonable
+evaluation of the legally relevant software. The documentation shall include:
+
+. a description of the legally-relevant software and how the requirements are
+met;
+. a list of the software modules that belong to the legally-relevant part;
+. a declaration that all legally relevant functions are included in the description;
+. a description of the software interfaces of the legally-relevant software
+part and of the commands and data flows via this interface, including a statement
+of completeness;
+. a description of the generation of the software identification;
+. the software identification and instructions for obtaining it from a water
+meter in use;
+. a list of parameters to be protected and a description of protection means;
+. a description of suitable system configuration and minimal required resources;
+. a description of security means of the operating system (password, etc. if
+applicable);
+. a description of the (software) protection method(s);
+. an overview of the system hardware, e.g. topology block diagram, type of computer(s),
+type of network, etc. Where a hardware component is deemed legally-relevant
+or where it performs legally relevant functions, this should also be identified;
+. a description of the user interface, menus, and dialogues;
+. a list of commands of each hardware interface of the water meter / electronic
+device(s) / sub-assembly(ies), including a statement of completeness;
+. a description of the accuracy of the algorithms (e.g. volume calculation,
+rounding algorithms, etc.);
+. if realised in the software:
+.. a description of the audit trail and instructions on how to access the audit
+trail;
+.. a list of durability errors that are detected by the software and a description
+of the detecting algorithms;
+.. a list of faults and/or defects that are detected and a description of the
+detecting algorithm;
+
+. a description of data sets stored or transmitted; and
+. the operating manual.

@@ -1,0 +1,601 @@
+
+[[cls-6]]
+== Technical requirements
+
+[[scls-6-1]]
+=== Materials and construction of water meters
+
+[[scls-6-1-1]]
+==== {blank}
+
+A water meter shall be manufactured from materials of adequate strength and
+durability for the purpose for which it is to be used.
+
+[[scls-6-1-2]]
+==== {blank}
+
+A water meter shall be manufactured from materials which shall not be adversely
+affected by the water temperature variations, within the working temperature
+range (see <<scls-6-4>>).
+
+[[scls-6-1-3]]
+==== {blank}
+
+All parts of a water meter in contact with the water flowing through it shall
+be manufactured from materials which are conventionally known to be non-toxic,
+non-contaminating, and biologically inert and according to national regulations.
+
+[[scls-6-1-4]]
+==== {blank}
+
+The complete water meter shall be manufactured from materials which are resistant
+to internal and external corrosion or which are protected by a suitable surface
+treatment.
+
+[[scls-6-1-5]]
+==== {blank}
+
+A water meter indicating device shall be protected by a transparent window.
+A cover of a suitable type may also be provided as additional protection.
+
+[[scls-6-1-6]]
+==== {blank}
+
+Where there is a risk of condensation forming on the underside of the window
+of a water meter indicating device, the water meter shall incorporate devices
+for prevention or elimination of condensation.
+
+[[scls-6-1-7]]
+==== {blank}
+
+A water meter shall be of such design, composition, and construction that it
+does not facilitate the perpetration of fraud.
+
+[[scls-6-1-8]]
+==== {blank}
+
+A water meter shall be fitted with a metrologically controlled display.
+The display shall be readily accessible to the customer, without requiring the
+use of a tool.
+
+[[scls-6-1-9]]
+==== {blank}
+
+A water meter shall be of such design, composition, and construction that it
+does not exploit the MPE or favour any party.
+
+[[scls-6-2]]
+=== Adjustment and correction
+
+[[scls-6-2-1]]
+==== {blank}
+
+A water meter may be fitted with an adjustment device, and/or a correction device.
+Any adjustment and/or correction shall be performed in such a way as to adjust
+the errors (of indication) of the water meter to values as close as practical
+to zero so that the meter may not exploit the MPE or systematically favour any
+party.
+
+[[scls-6-2-2]]
+==== {blank}
+
+If these devices are mounted on the outside of the water meter, provision for
+sealing shall be made (see <<scls-6-8-2>>).
+
+[[scls-6-3]]
+=== Installation conditions
+
+NOTE: <<ISO_4064_5>> specify requirements for meter installation.
+
+[[scls-6-3-1]]
+==== {blank}
+
+The water meter shall be installed such that it is completely filled with water
+under normal conditions.
+
+[[scls-6-3-2]]
+==== {blank}
+
+Under specific installation conditions, a strainer or filter, fitted at the
+inlet of a meter or in the upstream pipeline, may be required.
+
+Installation engineers should note that solid particles collect in a water meter,
+e.g. following work on the pipework upstream from the meter.
+
+NOTE: National regulations can apply. See also <<ISO_4064_5,clause=6.3>>.
+
+[[scls-6-3-3]]
+==== {blank}
+
+Provision may be made on a water meter to allow it to be correctly levelled
+during installation.
+
+NOTE: This can be a flat vertical or horizontal surface against which a temporary
+or permanent level indicating device (e.g. a spirit level) can be placed.
+
+[[scls-6-3-4]]
+==== {blank}
+
+If the accuracy of a water meter is affected by disturbances in the upstream
+or downstream pipeline (e.g. due to the presence of bends, valves or pumps),
+the water meter shall be provided with a sufficient number of straight pipe
+lengths, with or without a flow straightener, as specified by the manufacturer,
+so that the indications of the installed water meter meet the requirements of
+<<scls-4-2-2>> or <<scls-4-2-3>>
+with respect to MPEs and according to the accuracy class of the meter.
+
+[[scls-6-3-5]]
+==== {blank}
+
+A water meter shall be able to withstand the influence of disturbed velocity
+fields as defined in the test procedures in <<ISO_4064_2_2024>>. During the
+application of these flow disturbances, the error (of indication) shall meet
+the requirements of <<scls-4-2-2>> or <<scls-4-2-3>>.
+
+Where a water meter may be manufactured and supplied with different lengths
+(as declared by the manufacturer), the meter with the shortest length shall
+be tested in order to demonstrate compliance with the requirements of <<scls-4-2-2>>
+or <<scls-4-2-2>>. Some types of water meter which have been proven to be unaffected
+by flow disturbances upstream and downstream of the meter may be exempted from
+this test by the body responsible for type approval. A meter manufacturer shall
+specify the flow profile sensitivity class in accordance with <<table-2>> and
+<<table-3>>.
+
+Any specific flow conditioning section, including straightener and/or straight
+lengths, to be used shall
+be prescribed by the manufacturer.
+
+[[table-2]]
+.Sensitivity to irregularity in the upstream velocity field classes (U)
+[cols="^,^,^",options="header"]
+|===
+| Class | Required straight length +
+stem:[xx"DN"] | Straightener needed
+
+| U0   | 0  | No
+| U3   | 3  | No
+| U5   | 5  | No
+| U10  | 10 | No
+| U15  | 15 | No
+| U0S  | 0  | Yes
+| U3S  | 3  | Yes
+| U5S  | 5  | Yes
+| U10S | 10 | Yes
+|===
+
+[[table-3]]
+.Sensitivity to irregularity in the downstream velocity fields classes (D)
+[cols="^,^,^",options="header"]
+|===
+| Class | Required straight length +
+stem:[xx"DN"] | Straightener needed
+
+| D0  | 0 | No
+| D3  | 3 | No
+| D5  | 5 | No
+| D0S | 0 | Yes
+| D3S | 3 | Yes
+|===
+
+[[scls-6-4]]
+=== Rated operating conditions
+
+The rated operating conditions for a water meter shall be as reported in <<table-4>>.
+
+[[table-4]]
+.Rated operating conditions for a water meter
+[cols="1,1"]
+|===
+| Flow rate range: | stem:[Q_1] to stem:[Q_3] inclusive.
+
+| Ambient temperature range: | stem:[+5 "unitsml(degC)"] to stem:[+55 "unitsml(degC)"].
+
+| Water temperature range: | refer to <<table-1>>.
+
+| Ambient relative humidity range: | 0 % to 100 %, except for remote indicating devices where the
+range shall be 0 % to 93 %.
+
+| Pressure range:footnote:[The unit bar may be used where national regulations permit.]
+| stem:[0.03 "unitsml(MPa)"] (stem:[0.3 "unitsml(bar)"]) to at least stem:[1 "unitsml(MPa)"] (stem:[10 "unitsml(bar)"]), except for
+meters of stem:["DN" >= 500], where the maximum admissible pressure
+(MAP) shall be at least stem:[0.6 "unitsml(MPa)"] (stem:[6 "unitsml(bar)"]).
+|===
+
+[[scls-6-5]]
+=== Pressure loss
+
+The pressure loss through a water meter, including its filter or strainer and/or
+straightener, where either of these forms an integral part of the water meter,
+shall not be greater than stem:[0.063 "unitsml(MPa)"] (stem:[0.63 "unitsml(bar)"])
+between stem:[Q_1] and stem:[Q_3].
+
+The pressure loss class is selected by the manufacturer from the values in <<table-5>>
+(which follow <<ISO_3_1973>>, R 5): for a given pressure loss class, the pressure
+loss through a water meter, including its filter or strainer and/or straightener,
+where either of these forms an integral part of the water meter, shall not be
+greater than the specified maximum pressure loss between stem:[Q_1] and stem:[Q_3].
+Meters with non return devices may be tested for pressure loss without such
+devices being fitted where they do not form an integral part of the water meter.
+
+A concentric meter, of any type and measuring principle, shall be tested together
+with its respective
+manifold.
+
+[[table-5]]
+.Pressure-loss classes
+[cols="^2,^,^",headerrows=2]
+|===
+.2+| Class 2+| Maximum pressure loss
+| stem:["unitsml(MPa)"] | stem:["unitsml(bar)"]
+
+| stem:[Delta p quad 63] | 0.063 | 0.63
+| stem:[Delta p quad 40] | 0.040 | 0.40
+| stem:[Delta p quad 25] | 0.025 | 0.25
+| stem:[Delta p quad 16] | 0.016 | 0.16
+| stem:[Delta p quad 10] | 0.010 | 0.10
+|===
+
+Straighteners, as specified in <<scls-6-3>>, are not considered to be integral
+parts of a meter.
+
+For some meters, over the flow rate range stem:[Q_1 <= Q <= Q_3], the highest
+pressure loss does not occur at stem:[Q_3].
+
+[[scls-6-6]]
+=== Marks and inscriptions
+
+[[scls-6-6-1]]
+==== {blank}
+
+A place shall be provided for affixing the verification mark(s) (see <<OIML_V_1_2022,clause=3.04>>),
+which shall be visible without dismantling the water meter after it has been
+placed on the market or put into use.
+
+[[scls-6-6-2]]
+==== {blank}
+
+A water meter shall be clearly and indelibly marked with the following information,
+either grouped or distributed, on the casing, the indicating device dial, an
+identification plate or the meter cover, if it is not detachable. These markings
+shall be visible without dismantling the water meter after the instrument has
+been placed on the market or put into use.
+
+NOTE: In the case of a combination meter, the markings in the following refer
+to the combination meter considered as a single meter.
+
+. Unit of measurement.
+. Accuracy class, where it differs from accuracy class 2.
+. Numerical value of stem:[Q_3] and the ratio stem:[Q_3//Q_1]: if the meter
+measures reverse flow and the values of stem:[Q_3] and the ratio stem:[Q_3//Q_1]
+are different in the two directions, both values of stem:[Q_3] and stem:[Q_3//Q_1]
+shall be inscribed; the direction of flow to which each pair of values refers
+shall be clear. The ratio stem:[Q_3//Q_1] may be expressed as R, e.g. "`R160`".
+If the meter has different values of stem:[Q_3//Q_1] in horizontal and vertical
+positions, both values of stem:[Q_3//Q_1] shall be inscribed, and the orientation
+to which each value refers shall be clear.
+. Type approval sign according to national regulations.
+. Name or trademark of the manufacturer.
+. Year of manufacture, the last two digits of the year of manufacture, or the
+month and year of manufacture.
+. Serial number (as near as possible to the indicating device).
+. Direction of flow, by means of an arrow (shown on both sides of the body or
+on one side only provided the direction of flow arrow is easily visible under
+all circumstances).
+. Maximum admissible pressure (MAP) if it exceeds stem:[1 "unitsml(MPa)"]
+(stem:[10 "unitsml(bar)"]) or stem:[0.6 "unitsml(MPa)"] (stem:[6 "unitsml(bar)"])
+for stem:["DN" >= 500].
+. Letter V and/or H, if the meter can only be operated in the vertical position
+and/or horizontal position with the indicating device positioned on the top.
+. The temperature class as specified in <<table-1>> where it differs from T30.
+. The pressure loss class where it differs from stem:[Delta p] 63.
+. The installation sensitivity class where it differs from U0/D0.
+
+For a water meter with electronic devices, the following additional inscriptions
+shall be applied where appropriate.
+
+[start=14]
+. For an external power supply: the voltage and frequency.
+. For a replaceable battery: the latest date by which the battery shall be replaced.
+. For a non-replaceable battery: the latest date by which the meter shall be replaced.
+. Environmental classification.
+. Electromagnetic environmental class.
+
+The environmental classification and electromagnetic environmental class may
+be given on a separate datasheet, unambiguously related to the meter by a unique
+identification, and not on the meter itself.
+
+An example of the required marks and inscriptions for a meter without electronic
+devices follows.
+
+[example]
+====
+A meter with the following characteristics:
+
+* stem:[Q_3 = 2.5 "unitsml(m^3/h)"];
+* stem:[Q_3//Q_1 = 200];
+* horizontal mounting;
+* temperature class 30;
+* pressure loss class stem:[Delta p quad 63];
+* maximum admissible pressure: stem:[1 "unitsml(MPa)"] (stem:[10 "unitsml(bar)"]);
+* flow profile sensitivity class U0/D0
+* serial number: 123456;
+* year of manufacture: 2008;
+* manufacturer ABC,
+
+would be marked as follows:
+
+stem:[Q_3] 2.5; R200; H; stem:[->]; 123456; 08; ABC
+====
+
+[[scls-6-7]]
+=== Indicating device
+
+[[scls-6-7-1]]
+==== General requirements
+
+[[scls-6-7-1-1]]
+===== Function
+
+The indicating device of a water meter shall provide an easily read, reliable,
+and unambiguous visual indication of the indicated volume. A combination meter
+may have two indicating devices, the sum of which provides the indicated volume.
+
+The indicating device shall include visual means for testing and calibration.
+
+The indicating device may include additional elements for testing and calibration
+by other methods, e.g. for automatic testing and calibration.
+
+[[scls-6-7-1-2]]
+===== Unit of measurement, symbol, and its placement
+
+The indicated volume of water shall be expressed in cubic metres. The symbol
+stem:["unitsml(m^3)"] shall appear on the dial or immediately adjacent to the
+numbered display.
+
+If units of measurement outside the SI are required or allowed by a country's
+national regulations, these units of measurement shall be considered acceptable
+for indications in that country. In international trade, the officially agreed
+equivalents between these units of measurement and those of the SI shall be
+used.
+
+[[scls-6-7-1-3]]
+===== Indicating range
+
+The indicating device shall be able to at least display the indicated volume
+in cubic metres given in <<table-6>> without passing through zero. When the
+displayed volume exceeds the water meter indicating range, the display shall
+pass through zero.
+
+[[table-6]]
+.Indicating range of a water meter
+[cols="^,^",headerrows=2]
+|===
+| stem:[Q_3]                 | Minimum indicating range
+| stem:["unitsml(m^3/h)"]    | stem:["unitsml(m^3)"]
+| stem:[Q_3 <= 6.3]          | stem:[9999]
+| stem:[6.3 < Q_3 <= 63]     | stem:[99999]
+| stem:[63 < Q_3 <= 630]     | stem:[999999]
+| stem:[630 < Q_3 <= 6\ 300] | stem:[9999999]
+|===
+
+<<table-6>> may be expanded to larger values of stem:[Q_3].
+
+[[scls-6-7-1-4]]
+===== Colour coding for indicating devices
+
+The colour black should be used to indicate the cubic metre and its multiples.
+
+The colour red should be used to indicate sub-multiples of a cubic metre.
+
+These colours shall be applied to either pointers, indexes, numbers, wheels,
+discs, dials or to the aperture frames.
+
+Other means of indicating the cubic metre, its multiples and its sub-multiples
+may be used for a water meter provided there is no ambiguity in distinguishing
+between the primary indication and alternative displays, e.g. sub-multiples
+for verification and testing.
+
+[[scls-6-7-2]]
+==== Types of indicating device
+
+Any of the following types shall be used.
+
+[[scls-6-7-2-1]]
+===== Type 1 -- Analogue device
+
+The indicated volume is indicated by continuous movement of
+
+. one or more pointers moving relative to graduated scales, or
+. one or more circular scales or drums each passing an index.
+
+The value expressed in cubic metres for each scale division shall be of the
+form stem:[10^n], where stem:[n] is a positive or negative whole number or zero,
+thereby establishing a system of consecutive decades. Each scale shall either
+be graduated in values expressed in cubic metres or accompanied by a multiplication
+factor (stem:[xx0.001]; stem:[xx0.01]; stem:[xx0.1]; stem:[xx1]; stem:[xx10];
+stem:[xx100]; stem:[xx1\ 000], etc.).
+
+Rotational movement of the pointers or circular scales shall be clockwise.
+
+Linear movement of pointers or scales shall be left to right.
+
+Movement of numbered roller indicators (drums) shall be upwards.
+
+[[scls-6-7-2-2]]
+===== Type 2 -- Digital device
+
+The indicated volume is given by a line of adjacent digits appearing in one
+or more apertures. The advance of a given digit shall be completed while the
+digit of the next immediately lower decade changes from 9 to 0. The apparent
+height of the digits shall be at least stem:[4 "unitsml(mm)"].
+
+For non-electronic devices:
+
+. movement of numbered roller indicators (drums) shall be upwards;
+. if the lowest value decade has a continuous movement, the aperture shall be
+large enough to permit a digit to be read unambiguously.
+
+For electronic devices:
+
+[start=3]
+. either permanent or non-permanent displays are permitted -- for non-permanent
+displays, the volume shall be able to be displayed at any time for at least
+stem:[10 "unitsml(s)"];
+. the meter shall provide visual checking of the entire display which shall
+have the following sequence:
++
+--
+[arabic]
+. for seven segment type displaying all the elements (e.g. an "`eights`" test);
+. for seven segment type blanking all the elements (a "`blanks`" test);
+. for graphical displays an equivalent test to demonstrate that display faults
+cannot result in any digit being misinterpreted.
+--
+
+Each step of the sequence shall last at least stem:[1 "unitsml(s)"]. This display
+test is initiated after a command by the user interface or is part of the cycling
+procedure that shows the different display modes.
+
+[[scls-6-7-2-3]]
+===== Type 3 -- Combination of analogue and digital devices
+
+The indicated volume is given by a combination of type 1 and type 2 devices
+and the respective requirements of each shall apply.
+
+[[scls-6-7-3]]
+==== Verification devices -- First element of an indicating device -- Verification scale interval
+
+[[scls-6-7-3-1]]
+===== General requirements
+
+Every indicating device shall provide means for visual, non-ambiguous verification
+testing and calibration.
+
+The visual verification display may have either a continuous or a discontinuous
+movement.
+
+In addition to the visual verification display, an indicating device may include
+provisions for rapid testing by the inclusion of complementary elements
+(e.g. star wheels or discs), providing signals through externally attached sensors.
+Such a provision may also be used for leak detection.
+
+[[scls-6-7-3-2]]
+===== Visual verification displays
+
+[[scls-6-7-3-2-1]]
+====== Value of the verification scale interval
+
+The value of the verification scale interval expressed in cubic metres shall
+be of the form: stem:[1 xx 10^n], stem:[2 xx 10^n]
+or stem:[5 xx 10^n], where stem:[n] is a positive or negative whole number,
+or zero.
+
+For analogue and digital indicating devices with continuous movement of the
+first element, the verification scale may be formed from the division into
+2, 5 or 10 equal parts of the interval between two consecutive digits of the
+first element. Numbering shall not be applied to these divisions.
+
+For digital indicating devices with discontinuous movement of the first element,
+the verification scale interval is the interval between two consecutive digits
+or incremental movements of the first element.
+
+[[scls-6-7-3-2-2]]
+====== Form of the verification scale
+
+On indicating devices with continuous movement of the first element, the apparent
+scale spacing shall be not less than stem:[1 "unitsml(mm)"] and not more than
+stem:[5 "unitsml(mm)"]. The scale shall consist of either:
+
+. lines of equal thickness not exceeding one-quarter of the scale spacing and
+differing only in length; or
+. contrasting bands of a constant width equal to the scale spacing.
+
+The apparent width of the pointer at its tip shall not exceed one-quarter of
+the scale spacing and in no case shall it be greater than stem:[0.5 "unitsml(mm)"].
+
+[[scls-6-7-3-2-3]]
+====== Resolution of the indicating device
+
+The subdivisions of the verification scale shall be small enough to ensure that
+the resolution error of the indicating device does not exceed 0.25 % for accuracy
+class 1 meters, and 0.5 % for accuracy class 2 meters, of the volume passed
+during stem:[90 "unitsml(min)"] at the minimum flow rate stem:[Q_1].
+
+Additional verification elements may be used provided that the uncertainty of
+reading is not greater than 0.25 % of the test volume for accuracy class 1 meters
+and 0.5 % of the test volume for accuracy class 2 meters and that the correct
+functioning of the register is checked.
+
+When the display of the first element is continuous, an allowance shall be made
+for a maximum error in each reading of not more than half the verification scale
+interval.
+
+When the display of the first element is discontinuous, an allowance shall be
+made for a maximum error in each reading of not more than one digit of the verification scale.
+
+NOTE: See <<ISO_4064_2_2024,clause=6.4.3.6.2.3>> for the calculation of the
+resolution error.
+
+[[scls-6-7-3-3]]
+===== Combination meters
+
+For combination meters with two indicating devices, <<scls-6-7-3-1>> and <<scls-6-7-3-2>> apply to both indicating devices.
+
+[[scls-6-8]]
+=== Protection devices
+
+[[scls-6-8-1]]
+==== General
+
+A water meter shall include protection devices which can be sealed so as to
+prevent, both before and after correct installation of the water meter, dismantling
+or modification of the meter, its adjustment device or its correction device,
+without damaging these devices. In the case of combination meters, this requirement
+applies to both meters.
+
+The display of the total quantity supplied or the displays from which the total
+quantity supplied can be derived shall not be resettable while the meter is
+in service to a single customer.
+
+[[scls-6-8-2]]
+==== Electronic sealing devices
+
+[[scls-6-8-2-1]]
+===== {blank}
+
+When access to parameters that influence the determination of the results of
+measurements is not protected by mechanical sealing devices, the protection
+shall fulfil the following provisions.
+
+. [[item-6-8-2-1-a]]Access shall only be allowed to authorised people, e.g.
+by means of a code (password) or of a special device (e.g. a hard key).
+The code shall be capable of being changed.
+. It shall be possible for evidence of an intervention to be available for a
+period of time as defined in national regulations. The record shall include
+the date and a characteristic element identifying the authorized person making
+the intervention [see <<item-6-8-2-1-a>>]. If deletion of a previous intervention
+is necessary to permit a new record, the oldest record shall be deleted.
+
+[[scls-6-8-2-2]]
+===== {blank}
+
+For meters with parts which may be disconnected one from another by the user
+and which are interchangeable, the following provisions shall be fulfilled:
+
+. it shall not be possible to access parameters that participate in the determination
+of results of measurements through disconnected points unless the provisions
+in <<scls-6-8-2-1>> are fulfilled;
+. interposing any device which may influence the accuracy shall be prevented
+by means of electronic and data-processing securities or, if this is not possible,
+by mechanical means.
+
+[[scls-6-8-2-3]]
+===== {blank}
+
+For meters with parts which may be disconnected one from another by the user
+and which are not interchangeable, the provisions of <<scls-6-8-2-2>> shall
+apply. Moreover, these meters shall be provided with devices or means which
+do not allow them to operate if the various parts are not connected according
+to the approved type. They shall be provided with a device that prevents any
+measurement after any unauthorized disconnection and subsequent reconnection
+by the user.
