@@ -1,0 +1,147 @@
+== Explanatory notes
+
+[%unnumbered,cols="1,7",options="header"]
+|===
+| Symbol | Meaning
+
+| {plus} | pass
+| −      | fail
+| n/a    | not applicable
+| EUT    | equipment under test
+| H      | horizontal
+| MAP    | maximum admissible pressure
+| MAT    | maximum admissible temperature
+| MPE    | maximum permissible error
+| V      | vertical
+|===
+
+<<<
+
+=== Identification of the instrument
+
+include::../common-content/application-large.adoc[]
+
+Documentation from the manufacturer
+
+(Record as necessary to identify the equipment under test)
+
+[%unnumbered,cols="3,3,1,2",options="header"]
+|===
+| System or module name
+| Drawing number or software reference
+| Issue level
+| Serial no.
+
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+Simulator documentation (if applicable)
+
+[%unnumbered,cols="3,3,1,2",options="header"]
+|===
+| System or module name
+| Drawing number or software reference
+| Issue level
+| Serial no.
+
+| | | |
+| | | |
+| | | |
+| | | |
+|===
+
+<<<
+
+=== Identification of the instrument (continued)
+
+include::../common-content/application-large.adoc[]
+
+Simulator function (summary) (if applicable)
+
+Simulator description and drawings, block diagram, etc. should be attached to
+the report if available.
+
+<<<
+
+=== Identification of the instrument (continued)
+
+include::../common-content/application-large.adoc[]
+
+Description or other information pertaining to identification of the instrument
+(attach photographs and images):
+
+<<<
+
+=== General information concerning the type
+
+include::../common-content/application-large.adoc[]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Complete instrument
+| ☐ Modulefootnote:[The test equipment (simulator or part of a complete instrument)
+connected to the module shall be defined in the test form(s) used.]
+|===
+
+[%unnumbered,cols="1,2"]
+|===
+| Evaluation period: |
+| Date of report:    |
+| Observer:          |
+|===
+
+<<<
+
+=== General information concerning the type (continued)
+
+include::../common-content/application-large.adoc[]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Complete instrument
+| ☐ Modulefootnote:[The test equipment (simulator or part of a complete instrument)
+connected to the module shall be defined in the test form(s) used.]
+|===
+
+Use this space to indicate additional remarks and/or information: other connected
+equipment, interfaces, choice of the manufacturer regarding protection against
+disturbances, etc.
+
+<<<
+
+=== Configuration for type evaluation
+
+include::../common-content/application-small.adoc[]
+
+Use this space for additional information relating to equipment configuration,
+interfaces, data rates, EMC protection options, etc., for the instrument and/or
+simulator.
+
+<<<
+
+=== Selection of sample(s)
+
+include::../common-content/application-small.adoc[]
+
+Use this space for additional information relating to the identification for
+the selection of sample(s), in particular in case of a family of instruments
+or modules or if specific requirements are mentioned in OIML R 49-1 and -2.
+
+<<<
+
+=== Adjustments or modifications
+
+include::../common-content/application-small.adoc[]
+
+Use this space for additional information relating to the identification of
+any authorised and agreed upon adjustments or modifications made to the sample
+or samples during the evaluation.

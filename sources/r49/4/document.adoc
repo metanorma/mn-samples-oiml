@@ -1,0 +1,34 @@
+= Water meters for cold potable water and hot water -- Part 4: Type evaluation report format
+:docidentifier: OIML R 49-4
+:series: R
+:docnumber: 49
+:partnumber: 4
+:edition: 2024
+:revdate: 2024
+:copyright-year: 2024
+:language: en
+:title-main-en: Water meters for cold potable water and hot water
+:title-part-en: Type evaluation report format
+:title-main-fr: Compteurs d'eau potable froide et d'eau chaude
+:title-part-fr: Format du rapport d'évaluation de type
+:doctype: international-recommendation
+:docstage: 60
+:docsubstage: 60
+:mn-document-class: iso
+:technical-committee-number: 8
+:technical-committee: Measurement of quantities of fluids
+:subcommittee-number: 5
+:subcommittee: Water meters
+:toclevels-pdf: 2
+:mn-document-class: oiml
+:mn-output-extensions: xml,html,pdf,rxl
+:imagesdir: images
+:local-cache-only:
+
+include::sections/00-prefatory-content.adoc[]
+
+include::sections/01-explanatory-notes.adoc[]
+
+include::sections/02-summary-test-reports.adoc[]
+
+include::sections/03-checklist.adoc[]
