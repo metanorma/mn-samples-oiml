@@ -1,0 +1,41 @@
+
+[cols="9*"]
+|===
+| Actual flowrate +
+stem:[Q_"( )"] +
+stem:["unitsml(m^3/h)"]
+| Initial supply pressure +
+stem:["unitsml(MPa)"] (stem:["unitsml(bar)"])
+| Water temp. +
+stem:[T_"w"] +
+stem:["unitsml(degC)"]
+| Initial reading +
+stem:[V_"i"(i)] +
+stem:["unitsml(m^3)"]
+| Final reading +
+stem:[V_"i"(f)] +
+stem:["unitsml(m^3)"]
+| Indicated volume +
+stem:[V_"i"] +
+stem:["unitsml(m^3)"]
+| Actual volume +
+stem:[V_"a"] +
+stem:["unitsml(m^3)"]
+| Meter error +
+stem:[E_"m"] +
+%
+| MPE footnote:[For a complete water meter this is the maximum permissible error as defined in OIML R 49-1:2024, 4.2.2 or 4.2.3 according to the accuracy class of the meter. If the EUT is a separable sub-assembly, the MPE shall be defined by the manufacturer (OIML R 49-2:2024, 9.4). For acceptance criteria refer to OIML R 49-2:2024, 7.4.5] +
+%
+
+| | | | | | | | |
+| | | | | | | | |
+
+| footnote:[Perform a third test if stem:[Q = Q_1], stem:[Q_2] or stem:[Q_3]
+or if the first or second test is outside the MPE (OIML R 49-2:2024, 7.4.5)]
+| | | | | | | |
+
+6+| | stem:[bar(E)_"m2"] | |
+6+| | stem:[bar(E)_"m3"] | |
+|===
+
+NOTE: The error variation (see OIML R 49-2:2024, 7.4.6.4) shall be checked

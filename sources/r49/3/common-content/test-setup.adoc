@@ -1,0 +1,12 @@
+
+[cols="2*",options="header"]
+|===
+<| Test method: | Gravimetric/volumetric
+
+| Volume measures/weighbridge used -- stem:["unitsml(m^3)"] or stem:["unitsml(kg)"]:        |
+| Water conductivity (electromagnetic induction meters only) -- stem:["unitsml(S/cm)"]:     |
+| Length of straight pipe before meter (or manifold) -- stem:["unitsml(mm)"]:               |
+| Length of straight pipe after meter (or manifold) -- stem:["unitsml(mm)"]:                |
+| Nominal diameter DN of pipe before and after meter (or manifold) -- stem:["unitsml(mm)"]: |
+| Describe flow straightener installation if used:                                          |
+|===
