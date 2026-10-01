@@ -1,0 +1,4 @@
+
+== Symbols, units and equations
+
+Equations, symbols and their units, concerning the calculation of the error (of indication) of a water meter used in this part of ISO 4064|OIML R 49, are given in <<annex-b>>.

@@ -1,0 +1,290 @@
+
+// Páginas 81 a 85 del PDF (OIML R 49-2:2024): Annex B (Mandatory). Se omiten cabeceras corridas,
+// números de página y la numeración de cláusulas y de ecuaciones (B.1) a (B.9).
+
+[[annex-b]]
+[appendix,obligation=normative]
+== Calculating the relative error (of indication) of a water meter
+
+=== General information
+
+This annex defines the formulae to be applied during type evaluation and verification
+tests, when calculating the error (of indication) of a:
+
+. complete water meter;
+. separable calculator (including indicating device);
+. separable measurement transducer (including flow or volume sensor).
+
+=== Calculation of the error (of indication)
+
+When either a measurement transducer (including flow or volume sensor) or a
+calculator (including indicating device) of a water meter is submitted for separable
+type approval, error (of indication) measurements are carried out only on these
+separable parts of the meter.
+
+For a measurement transducer (including flow or volume sensor), the output signal
+(pulse, current, voltage or encoded) is measured by a suitable instrument.
+
+For the calculator (including indicating device), the characteristics of simulated
+input signals (pulse, current, voltage or encoded) should replicate those of
+the measurement transducer (including flow or volume sensor).
+
+The error (of indication) of the EUT is calculated according to what is considered
+to be the reference volume added during a test, compared with the equivalent
+volume of either the simulated input signal to the calculator (including indicating
+device), or the actual output signal from the measurement transducer (including
+flow or volume sensor), measured during the same test period.
+
+Unless exempted by the metrological authority, a measurement transducer (including
+flow or volume sensor) and a compatible calculator (including indicating device)
+have separate type approvals, and shall be tested together as a combined water
+meter during initial verification (see <<cls-10>>). Therefore, the calculation
+for the error (of indication) is the same as for a complete water meter.
+
+=== Calculation of the relative error (of indication)
+
+[[annex-b-3-1]]
+==== Complete water meter
+
+[stem]
+++++
+E_("m"(i)(i = 1, 2 ... n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("m"(i)(i= 1,2,..n))]:: is the relative error (of indication), expressed
+as a percentage, of a complete water meter at a flow rate stem:[i]
+(stem:[i = 1, 2 ... n]);
+
+stem:[V_"a"]:: is the reference (or simulated) volume passed, during the test
+period stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"i"]:: is the volume added to (or subtracted from) the indicating device,
+during the test period stem:[t_"d"], stem:["unitsml(m^3)"].
+
+==== Combined water meter
+
+A combined water meter shall be treated as a complete water meter (<<annex-b-3-1>>)
+for the purpose of calculating the error (of indication).
+
+==== Calculator (including indicating device)
+
+===== Calculation of the relative error (of indication) of a calculator (including indicating device) tested with a simulated pulse input signal
+
+[stem]
+++++
+E_("c"(i)(i = "…..." n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("c"(i)(i= 1, 2 ..n))]:: is the relative error (of indication), expressed
+as a percentage, of the calculator (including indicating device) at a flow rate
+stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"i"]:: is the volume registered by the indicating device, added during
+the test period stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"a" = C_"p" T_"p"]:: is the water volume equivalent to the total number
+of volume pulses injected into the indicating device during the test period
+stem:[t_"d"], stem:["unitsml(m^3)"];
+
+in which
+
+stem:[C_"p"]:: is the constant equating a nominal volume of water to each pulse,
+stem:["m"^3 "/pulse"];
+
+stem:[T_"p"]:: is the total number of volume pulses injected during the test
+period stem:[t_"d"], pulses
+
+===== Calculation of the relative error (of indication) of a calculator (including indicating device) tested with a simulated current input signal
+
+[stem]
+++++
+E_("c"(i)(i = 1, 2 ... n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("c"(i)(i= 1, 2 ..n))]:: is the relative error (of indication), expressed
+as a percentage, of the calculator (including indicating device) at a flow rate
+stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"i"]:: is the volume registered by the indicating device, added during
+the test period stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"a" = C_I I_"t" t_"d"]:: is the water volume equivalent to the average
+signal current injected into the calculator during the test period stem:[t_"d"],
+stem:["unitsml(m^3)"];
+
+in which
+
+stem:[C_I]:: is the constant relating the current signal to the flow rate,
+stem:["unitsml(m^3*h^-1*mA^-1)"];
+
+stem:[t_"d"]:: is the duration time of the test period, stem:["unitsml(h)"];
+
+stem:[I_"t"]:: is the average current input signal during the test period stem:[t_"d"],
+stem:["unitsml(mA)"].
+
+===== Calculation of the relative error (of indication) of a calculator (including indicating device) tested with a simulated voltage input signal
+
+[stem]
+++++
+E_("c"(i)(i = 1, 2 ... n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("c"(i)(i= 1, 2 ...n))]:: is the relative error (of indication), expressed
+as a percentage, of the calculator (including indicating device) at a flow rate
+stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"i"]:: is the volume registered by the indicating device, added during
+the test period stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"a" = C_U U_"c" t_"d"]:: is the water volume equivalent to the average
+signal voltage injected into the calculator during the test period stem:[t_"d"],
+(stem:["unitsml(m^3)"]);
+
+in which
+
+stem:[C_U]:: is the constant relating the voltage input signal to the flow rate,
+stem:["unitsml(m^3*h^-1*V^-1)"];
+
+stem:[t_"d"]:: is the duration time of the test period, stem:["unitsml(h)"];
+
+stem:[U_"c"]:: is the average value of the voltage input signal during the test
+period stem:[t_"d"], stem:["unitsml(V)"].
+
+===== Calculation of the relative error (of indication) of a calculator (including indicating device) tested with a simulated, encoded input signal
+
+[stem]
+++++
+E_("c"(i)(i = 1, 2 ... n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("c"(i)(i= 1, 2 ...n))]:: is the relative error (of indication), expressed
+as a percentage, of the calculator (including indicating device) at a flow rate
+stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"a"]:: is the water volume equivalent to the numerical value of the
+encoded input signal, injected into the indicating device during the test period
+stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"i"]:: is the volume registered by the indicating device, added during
+the test period stem:[t_"d"], stem:["unitsml(m^3)"].
+
+==== Measurement transducer (including flow or volume sensor)
+
+===== Calculation of the relative error (of indication) of a measurement transducer (including flow or volume sensor) with a pulse output signal
+
+[stem]
+++++
+E_("t"(i)(i = "…..." n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("t"(i)(i= 1, 2 ...n))]:: is the relative error (of indication), expressed
+as a percentage, of a measurement transducer (including flow or volume sensor)
+at a flow rate stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"a"]:: is the reference volume of water collected during the test period
+stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"i" = C_"p" T_"p"]:: is the water volume equivalent to the total number
+of volume pulses emitted from the measurement transducer during the test period
+stem:[t_"d"], stem:["unitsml(m^3)"];
+
+in which
+
+stem:[C_"p"]:: is the constant equating a nominal volume of water to each output
+pulse, stem:["m"^3 "/pulse"];
+
+stem:[T_"p"]:: is the total number of volume pulses emitted during the test
+period stem:[t_"d"], pulses.
+
+===== Calculation of the relative error (of indication) of a measurement transducer (including flow or volume sensor) with a current output signal
+
+[stem]
+++++
+E_("t"(i)(i = 1, 2 ... n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("t"(i)(i= 1, 2 ...n))]:: is the relative error (of indication), expressed
+as a percentage, of a measurement transducer (including flow or volume sensor)
+at a flow rate stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"a"]:: is the reference volume of water collected during the test period
+stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"i" = C_I I_"t" t_"d"]:: is the water volume equivalent to the average
+current output signal emitted from the measurement transducer (including flow
+or volume sensor) during the test period stem:[t_"d"], stem:["unitsml(m^3)"];
+
+in which
+
+stem:[C_I]:: is the constant relating the output signal current to the flow
+rate, stem:["unitsml(m^3*h^-1*mA^-1)"];
+
+stem:[t_"d"]:: is the duration time of the test period, stem:["unitsml(h)"];
+
+stem:[I_"t"]:: is the average current output signal emitted during the test
+period stem:[t_"d"], stem:["unitsml(mA)"].
+
+===== Calculation of the relative error (of indication) of a measurement transducer (including flow or volume sensor) with a voltage output signal
+
+[stem]
+++++
+E_("t"(i)(i = 1, 2 ... n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("t"(i)(i= 1, 2 ...n))]:: is the relative error (of indication), expressed
+as a percentage, of a measurement transducer (including flow or volume sensor)
+at a flow rate stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"a"]:: is the reference volume of water collected during the test period
+stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"i" = C_U t_"d" U_"t"]:: is the volume of water equivalent to the average
+signal voltage emitted by the measurement transducer (including flow or volume
+sensor) and its duration, measured during the test period stem:[t_"d"],
+(stem:["unitsml(m^3)"]);
+
+in which
+
+stem:[C_U]:: is the constant relating the voltage output signal emitted to the
+flow rate, stem:["unitsml(m^3*h^-1*V^-1)"];
+
+stem:[t_"d"]:: is the duration time of the test period, stem:["unitsml(h)"];
+
+stem:[U_"t"]:: is the average voltage output signal emitted during the test
+period stem:[t_"d"], stem:["unitsml(V)"].
+
+===== Calculation of the relative error (of indication) of a measurement transducer (including flow or volume sensor) with an encoded output signal
+
+[stem]
+++++
+E_("t"(i)(i = 1, 2 ... n)) = (V_"i" - V_"a")/V_"a" xx 100 %
+++++
+
+where
+
+stem:[E_("t"(i)(i= 1, 2 ...n))]:: is the relative error (of indication), expressed
+as a percentage, of a measurement transducer (including flow or volume sensor)
+at a flow rate stem:[i] (stem:[i = 1, 2 ... n]);
+
+stem:[V_"a"]:: is the reference volume of water collected during the test period
+stem:[t_"d"], stem:["unitsml(m^3)"];
+
+stem:[V_"i"]:: is the volume of water equivalent to the numerical value of the
+encoded output signal emitted from the measurement transducer (including flow
+or volume sensor) during the test period stem:[t_"d"], stem:["unitsml(m^3)"].
