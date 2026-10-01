@@ -1,0 +1,538 @@
+
+== Summary of test report(s)
+
+Use the table below to summarise the tests report(s) used to support the type
+evaluation:
+
+[%unnumbered,cols="3,2,2,2,3",options="header"]
+|===
+| Test report number | Issued by | Date issued | Version number
+| Remarksfootnoteblock:[fn-test-report-remarks]
+
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+|===
+
+[[fn-test-report-remarks]]
+[NOTE]
+--
+Use this column to record if the test report was issued:
+
+* under the OIML Basic Certificate System, the OIML Mutual Acceptance Arrangement
+(MAA) or the OIML Certification System Scheme A or B, where the test report
+was used as the basis for issuing an existing OIML certificate, the relevant
+OIML certificate number should be noted.
+* By a Manufacturer's Test Laboratory (MTL).
+* Where the test report was issued outside the scope of an ISO/IEC 17025 accreditation,
+an explanation and justification of the use of the test report is required.
+--
+
+<<<
+
+=== Summary of appraisal of test data (where applicable)
+
+Use this page to record the appraisal of test data [reference OIML-CS PD-05
+and PD-07]:
+
+<<<
+
+=== Summary of the checklist
+
+For each test, the "Summary of the checklist" and the "Checklist" shall be completed
+according to this example:
+
+[%unnumbered,cols="4,^,^",options="header"]
+|===
+|                                          | Passed | Failed
+| when the instrument has passed the test: | X      |
+| when the instrument has failed the test: |        | X
+| when the test is not applicable:         | /      | /
+|===
+
+Summary of the checklist:
+
+[%unnumbered,cols="3,1,1,2",options="header"]
+|===
+| Requirements | Passed | Failed | Remarks
+
+| Metrological requirements +
+R 49-1, clause 4
+| | |
+
+| Requirements for electronic instruments +
+R 49-1, clause 5
+| | |
+
+| Technical requirements +
+R 49-1, clause 6
+| | |
+
+| Metrological controls +
+R 49-1, clause 7
+| | |
+
+| Test procedures +
+R 49-2
+| | |
+
+| Overall results
+| | |
+|===
+
+<<<
+
+include::../common-content/application-small.adoc[]
+
+Use this space to detail remarks from the summary of the checklist.
+
+<<<
+
+[%unnumbered,cols="15a,45a,3a,3a,34a"]
+|===
+5+| *External examination for all water meters*
+
+5+| *_Requirements for meters and ancillary devices_*
+
+| *OIML R 49-1: 2024 subclause*
+| *Requirement*
+| *{plus}*
+| *−*
+| **Remarks**footnote:[Use continuation sheet if necessary.]
+
+| 4.3.1
+| Requirements for meters and ancillary devices
+
+The connections between the measurement transducer, the calculator and the indicating
+device shall be reliable and durable in accordance with OIML R 49-1:2024, 5.1.4
+and Annex B2.
+
+These provisions shall also apply to connections between the primary and secondary
+devices of electromagnetic meters
+| | |
+
+| 4.3.2
+| Adjustment device
+
+A meter may be provided with an electronic adjustment device, which may replace
+a mechanical adjustment device.
+| | |
+
+| 4.3.3
+| Correction device
+
+A meter may be fitted with correction devices; such devices are always considered
+as an integral part of the meter. The whole of the requirements which apply
+to the meter, in particular the MPEs specified in OIML R 49-1:2024, 4.2, are
+therefore applicable to the corrected volume at metering conditions.
+
+In normal operation, non-corrected volume shall not be displayed.
+
+A water meter with correction devices shall satisfy the performance tests of
+OIML R 49-1:2024, Annex A5.
+
+All the parameters which are not measured and which are necessary for correcting
+shall be contained in the calculator at the beginning of the measurement operation.
+
+The correction device shall not allow the correction of a pre-estimated drift,
+e.g., in relation to time or volume.
+
+Associated measuring instruments shall be fitted with checking facilities, as
+specified in OIML R 49-1:2024, Annex B6.
+
+Correction devices shall not be used for adjusting the errors (of indication)
+of a water meter to values other than as close as practical to zero, even when
+these values are within the MPEs.
+
+Conditioning of the water at flow rates below stem:[Q_1] by means of a moving
+device, e.g. spring-loaded flow accelerator, shall not be permitted.
+| | |
+|===
+
+<<<
+
+[%unnumbered,cols="15a,45a,3a,3a,34a"]
+|===
+| 4.3.4
+| Calculator
+
+All parameters necessary for the elaboration of indications that are subject
+to legal metrological control, such as a calculation table or correction polynomial,
+shall be present in the calculator at the beginning of the measurement operation.
+
+The calculator may be provided with interfaces permitting the coupling of peripheral
+equipment. When these interfaces are used, the hardware and software of a water
+meter shall continue to function correctly and the metrological functions of
+the meter shall not be capable of being affected.
+| | |
+
+| 4.3.5
+| Indicating device
+
+The indicating device shall display the volume either continuously, periodically
+or on demand. It shall be readily available to read.
+| | |
+
+| 4.3.6
+| In addition to the indicating devices specified in 6.7.2, a water meter may
+include the ancillary devices specified in 3.1.8.
+
+Where national regulations permit, a remote reading device may be used for testing
+and verification and for remote reading of a water meter, provided that other
+means guarantee the satisfactory operation of the water meter.
+
+The addition of these devices, either temporary or permanent, shall not alter
+the metrological characteristics of the meter.
+| | |
+
+| 5
+| *Water meters equipped with electronic devices*
+| | |
+
+| 5.1
+| A water meter equipped with electronic devices shall be designed and manufactured
+in such a way that significant faults do not occur when it is exposed to the
+disturbances specified in OIML R 49-1:2024, Annex A5.
+| | |
+
+| 5.1.2
+| A significant fault shall have a value equal to one half of the MPE in the
+upper flow rate zone.
+| | |
+
+| 5.1.3
+| A water meter with electronic devices shall be provided with the checking
+facilities specified in OIML R 49-1:2024, Annex B, except in the case of non-resettable
+measurements between two constant partners.
+| | |
+|===
+
+<<<
+
+[%unnumbered,cols="15a,45a,3a,3a,34a"]
+|===
+|
+| All water meters equipped with checking facilities shall prevent or detect
+reverse flow, as specified in OIML R 49-1:2024, 4.2.7.
+| | |
+
+| 5.1.4
+| A water meter is presumed to comply with the requirements in OIML R 49-1:2024,
+4.2 and 5.1.1 if it passes the design inspection and performance tests specified
+in OIML R 49-1:2024, 7.2.12.1 and 7.2.12.2 in the following conditions:
+
+. the number of meters submitted shall comply with OIML R 49-1:2024, 7.2.2;
+
+. at least one of these meters is submitted to the whole set of tests;
+
+. no meter fails any test.
+| | |
+
+| 5.1.5
+| Sampling interval
+
+For electronic water meters or mechanical water meters incorporating an electronic
+indicating device the sampling interval shall be appropriate in order to support
+the user application and billing period and therefore shall not exceed 10 seconds.
+
+The sampling interval range shall be indicated in the product documentation
+available to the user or indicated on the meter, either physically inscribed
+or via menus accessible on the display.
+| | |
+
+| 5.1.6
+| Test mode
+
+Electronic water meters or mechanical water meters incorporating an electronic
+indicating device may be placed into a specific mode of operation called test
+mode. The test mode should not alter the ability of the meter to meet the acceptance
+criteria of any performance tests specified in this part of the standard and
+in OIML R 49-2: 2024 and may only differ from the specifications set out in
+this part of the standard and in OIML R 49-2:2024 for the following aspects:
+
+* Switch the resolution of the indicating device to achieve or exceed requirements
+of OIML R 49-1:2024, 6.7.3.2.3
+
+* Switch to a shorter sampling interval than in service operation to achieve
+or exceed requirements of OIML R 49-1:2024, 6.7.3.2.3, and OIML R 49-1:2024, 7.2, 7.3
+| | |
+|===
+
+<<<
+
+[%unnumbered,cols="15a,45a,3a,3a,34a"]
+|===
+|
+| * Activate output transmission in pulses or digital data format to the test
+laboratory data acquisition system.
+
+Test mode may only be used during tests to determine the error (of indication)
+of the meter. Following the use of test mode for testing purposes the meter
+shall be able to be placed into an operational/service mode and sealed.
+
+The manufacturer shall provide the necessary equipment and/or procedures to
+the test laboratories and national authorities to initiate test mode.
+| | |
+
+| 5.1.7
+| Software
+
+For software-controlled water meters, the requirements of OIML R 49-1:2024,
+Annex D shall apply.
+| | |
+
+5+| *External power supply*
+
+| 5.2.2.1
+| Water meters with electronic devices shall be designed such that in the event
+of an external power supply failure (AC or DC), the meter indication of volume
+just before failure is not lost and remains accessible for a minimum of one year.
+
+The corresponding memorisation shall occur at least either once per day or for
+every volume equivalent to stem:[10 "unitsml(min)"] of flow at stem:[Q_3].
+| | |
+
+| 5.2.2.2
+| Any other properties or parameters of a meter shall not be affected by an
+interruption of the electrical supply.
+
+Meters shall employ means to ensure continued and accurate operation during
+a short power supply interruption.
+
+Compliance with this requirement does not necessarily ensure that the meter
+continues to register volume during a longer-term power supply failure.
+| | |
+
+| 5.2.2.4
+| Nominal value of mains voltage and frequency
+
+The manufacturer shall declare the nominal value of mains voltage and frequency.
+| | |
+
+| 5.2.3
+| Non-replaceable battery
+
+The power supply connections at a meter shall be capable of being secured from
+tampering.
+| | |
+
+| 5.2.3.1
+| The manufacturer shall ensure that the expected lifetime of the battery is
+such that a meter functions correctly for at
+| | |
+|===
+
+<<<
+
+[%unnumbered,cols="15a,45a,3a,3a,34a"]
+|===
+| | least one year longer than the operational lifetime of the meter.
+| | |
+
+| 5.2.3.2
+| A low battery or exhausted battery indicator or a meter replacement date shall
+be indicated on the meter. If the register display gives an indication of "low
+battery", there shall be at least 180 days of useful life for the register display
+from the time "low battery" indication is displayed to end of life.
+| | |
+
+| 5.2.4.1
+| Replaceable battery
+
+Where the electrical power supply is a replaceable battery, the manufacturer
+shall give precise rules for the replacement of the battery.
+| | |
+
+| 5.2.4.2
+| A low battery or exhausted battery indicator or a battery replacement date
+shall be indicated on the meter. If the register display gives an indication
+of "low battery", there shall be at least 180 days of useful life for the register
+display from the time "low battery" indication is displayed to end of life.
+| | |
+
+| 5.2.4.3
+| The properties and parameters of a meter shall not be affected by the interruption
+of the electrical supply when the battery is replaced.
+| | |
+
+| 5.2.4.4
+| Replacement of the battery shall be carried out in a way that does not necessitate
+breaking the seal required for statutory metrological inspections.
+| | |
+
+| 5.2.4.5
+| The battery compartment shall be capable of being secured from tampering.
+| | |
+
+5+| *Materials and construction of water meters*
+
+| 6.1.1
+| A water meter shall be manufactured from materials of adequate strength and
+durability for the purpose for which it is to be used.
+| | |
+
+| 6.1.2
+| A water meter shall be manufactured from materials which shall not be adversely
+affected by the water temperature variations, within the working temperature
+range (see OIML R 49-1:2024, 6.4).
+| | |
+
+| 6.1.3
+| All parts of a water meter in contact with the water flowing through it shall
+be manufactured from materials which are conventionally known to be non-toxic,
+non-contaminating, and biologically inert and according to national regulations.
+| | |
+
+| 6.1.4
+| The complete water meter shall be manufactured from materials which are resistant
+to internal and external
+| | |
+|===
+
+<<<
+
+[%unnumbered,cols="15a,45a,3a,3a,34a"]
+|===
+|
+| corrosion or which are protected by a suitable surface treatment.
+| | |
+
+| 6.1.5
+| A water meter indicating device shall be protected by a transparent window.
+A cover of a suitable type may also be provided as additional protection.
+| | |
+
+| 6.1.6
+| Where there is a risk of condensation forming on the underside of the window
+of a water meter indicating device, the water meter shall incorporate devices
+for the prevention or elimination of condensation.
+| | |
+
+| 6.1.7
+| A water meter shall be of such design, composition, and construction that
+it does not facilitate the perpetration of fraud.
+| | |
+
+| 6.1.8
+| A water meter shall be fitted with a metrologically controlled display. The
+display shall be readily accessible to the customer, without requiring the use
+of a tool.
+| | |
+
+| 6.1.9
+| A water meter shall be of such design, composition, and construction that
+it does not exploit the MPE or favour any party.
+| | |
+
+5+| *Adjustment and correction*
+
+| 6.2.1
+| A water meter may be fitted with an adjustment device, and/or a correction
+device. Any adjustment and/or correction shall be performed in such a way as
+to adjust the errors (of indication) of the water meter to values as close as
+practical to zero so that the meter may not exploit the MPE or systematically
+favour any party.
+| | |
+
+| 6.2.2
+| If these devices are mounted on the outside of the water meter, provision
+for sealing shall be made (see 6.8.2).
+| | |
+
+| 6.3
+| Installation
+| | |
+
+| 6.3.1
+| The water meter shall be installed such that it is completely filled with
+water under normal conditions.
+| | |
+
+| 6.3.2
+| Under specific installation conditions, a strainer or filter, fitted at the
+inlet of a meter or in the upstream pipeline, may be required.
+
+Note that solid particles collect in a water meter, e.g. following work on the
+pipework upstream from the meter.
+| | |
+
+| 6.3.3
+| Provision may be made on a water meter to allow it to be correctly levelled
+during installation.
+| | |
+
+| 6.3.4
+| If the accuracy of a water meter is affected by disturbances in the upstream
+or downstream pipeline (e.g. due to the presence of bends, valves or pumps),
+the water meter shall
+| | |
+|===
+
+<<<
+
+[%unnumbered,cols="15a,45a,3a,3a,34a"]
+|===
+|
+| be provided with a sufficient number of straight pipe lengths, with or without
+a flow straightener, as specified by the manufacturer, so that the indications
+of the installed water meter meet the requirements of OIML R 49-1, 4.2.2 or
+4.2.3 with respect to MPEs and according to the accuracy class of the meter.
+| | |
+
+| 6.3.5
+| A water meter shall be able to withstand the influence of disturbed velocity
+fields as defined in the test procedures in OIML R 49-2:2024. During the application
+of these flow disturbances, the error (of indication) shall meet the requirements
+of OIML R 49-1, 4.2.2 or 4.2.3.
+
+Where a water meter may be manufactured and supplied with different lengths
+(as declared by the manufacturer), the meter with the shortest length shall
+be tested in order to demonstrate compliance with the requirements of OIML R
+49-1, 4.2.2 or 4.2.3.
+
+A meter manufacturer shall specify the flow profile sensitivity class in accordance
+with OIML R 49-1, Table 2 and Table 3.
+
+Any specific flow conditioning section, including straightener and/or straight
+lengths, to be used shall be prescribed by the manufacturer.
+| | |
+
+| 6.4
+| 6.4 Rated operating conditions
+
+The rated operating conditions for a water meter shall be as reported in OIML
+R 49-1, Table 4.
+| | |
+
+| 6.5
+| Pressure loss
+
+Row given further down the checklist to be completed.
+| | |
+
+| 6.6
+| Marks and inscriptions
+
+Rows given further down the checklist to be completed.
+| | |
+|===
