@@ -1,0 +1,396 @@
+[[cls-7]]
+== Metrological controls
+
+[[scls-7-1]]
+=== Reference conditions
+
+All influence quantities, except for the influence quantity being tested, shall
+be held to their reference conditions. The reference conditions
+(including their tolerances) are given in <<ISO_4064_2_2024,clause=4>>.
+Values are specified for flow rate, water temperature, water pressure,
+ambient temperature, ambient relative humidity, and ambient atmospheric pressure.
+
+[[scls-7-2]]
+=== Type evaluation and approval
+
+[[scls-7-2-1]]
+==== External examination
+
+Before undergoing type evaluation tests, each type of water meter submitted
+shall be examined externally to ensure that it complies with the provisions
+of the relevant preceding clauses of this part of ISO 4064|OIML R 49.
+
+[[scls-7-2-2]]
+==== Number of samples
+
+The evaluation tests shall be made on the minimum number of samples of each
+type shown in <<table-7>> as a function of the water meter designation stem:[Q_3]
+of the type presented.
+
+The body responsible for type evaluation may request further specimens.
+
+[[table-7]]
+.Minimum number of water meters to be tested
+[cols="^,^",headerrows=3]
+|===
+| Meter designation
+.3+| Minimum number of meters to be tested for all meter types, excluding the
+tests required for meters with electronic devices
+
+| stem:[Q_3]
+
+| stem:["unitsml(m^3/h)"]
+
+| stem:[Q_3 <= 160] | 3
+| stem:[160 < Q_3 <= 1\ 600] | 2
+| stem:[1\ 600 < Q_3] | 1
+|===
+
+The requirements of <<scls-4-2-2>> or <<scls-4-2-3>> shall apply to all the
+meters tested, according to the accuracy class of the meter.
+
+For type approval of a water meter with electronic devices, five samples shall
+be supplied for the tests specified in <<annex-a>>, which may be different samples
+from those supplied for other testing, with at least one meter being subjected
+to all the appropriate tests. The same meter shall be subjected to all testing,
+except in circumstances where not doing so can be justified by the organization
+performing the type evaluation.
+
+[[scls-7-2-3]]
+==== Errors (of indication)
+
+The errors (of indication) of a water meter (in the measurement of the actual
+volume) shall be determined at least at the following nominal flow rates:
+
+. stem:[Q_1];
+. stem:[Q_2];
+. stem:[0.35 (Q_2 + Q_3)];
+. stem:[0.7 (Q_2 + Q_3)];
+. stem:[Q_3];
+. stem:[Q_4];
+
+and for combination meters:
+
+[start=7]
+. stem:[0.9 Q_"x1"];
+. stem:[1.1 Q_"x2"].
+
+The errors (of indication) observed for each of the above flow rates shall not
+exceed the MPEs given in <<scls-4-2-2>> or <<scls-4-2-3>>.
+
+NOTE: See <<ISO_4064_2_2024, 7.4.4>> for the permitted flow rate ranges and
+<<ISO_4064_2_2024,clause=7.4.4;and!clause=7.4.5>> for the required number of
+measurements at each flow rate.
+
+Meters shall be tested in the orientations corresponding to their marking or
+lack thereof.
+
+NOTE: See <<ISO_4064_2_2024,clause=7.4.2.2.7.5>> for testing orientations.
+
+[[scls-7-2-4]]
+==== Repeatability
+
+A meter shall be repeatable: the standard deviation of three measurements at
+the same flow rate shall not exceed one-third of the MPEs given in <<scls-4-2-2>>
+or <<scls-4-2-3>>. Tests shall be carried out at nominal flow rates of stem:[Q_1],
+stem:[Q_2], and stem:[Q_3].
+
+[[scls-7-2-5]]
+==== Overload water temperature
+
+A water meter with stem:["MAT" >= 50 "unitsml(degC)"] shall be capable of withstanding a water temperature of stem:["MAT" + 10 "unitsml(degC)"] for stem:[1 "unitsml(h)"]. The test is specified in <<ISO_4064_2_2024,clause=7.6>>.
+
+[[scls-7-2-6]]
+==== Durability
+
+[[scls-7-2-6-1]]
+===== General
+
+A water meter shall undergo the durability tests specified in <<ISO_4064_2_2024,clause=7.11>>.
+
+After each of these tests, the errors of the water meter shall again be measured
+at the flow rates given in <<scls-7-2-3>> and the criteria given in <<scls-7-2-6-2>>
+or <<scls-7-2-6-3>> shall be applied.
+
+The orientation(s) of a meter on test shall be set with reference to the meter
+orientation(s) claimed by the manufacturer.
+
+NOTE: For families of meters, refer to <<ISO_4064_2_2024,annex=D>> for meter
+selection.
+
+[[scls-7-2-6-2]]
+===== Accuracy class 1 water meter
+
+For an accuracy class 1 water meter, the variation in the error (of indication)
+curve shall not exceed 2 % for flow rates in the lower flow rate zone
+(stem:[Q_1 <= Q < Q_2]), and 1 % for flow rates in the upper flow rate zone
+(stem:[Q_2 <= Q <= Q_4]).
+
+For flow rates in the lower flow rate zone (stem:[Q_1 <= Q < Q_2]), the error
+(of indication) curve shall not exceed a maximum error limit of stem:[pm 4 %]
+for all temperature classes. For flow rates in the upper flow rate zone
+(stem:[Q_2 <= Q <= Q_4]), the error (of indication) curve shall not exceed a
+maximum error limit of stem:[pm 1.5 %] for meters of temperature class T30 and
+stem:[pm 2.5 %] for all other temperature classes.
+
+For the purpose of these requirements the mean values of the errors (of indication)
+shall apply.
+
+[[scls-7-2-6-3]]
+===== Accuracy class 2 water meter
+
+For an accuracy class 2 water meter, the variation in the error (of indication)
+curve shall not exceed 3 %
+for flow rates in the lower flow rate zone (stem:[Q_1 <= Q < Q_2]), and
+1.5 % for flow rates in the upper flow rate zone (stem:[Q_2 <= Q <= Q_4]).
+
+For flow rates in the lower flow rate zone (stem:[Q_1 <= Q < Q_2]), the error
+(of indication) curve shall not exceed a maximum error limit of stem:[pm 6 %]
+for all temperature classes. For flow rates in the upper flow rate zone
+(stem:[Q_2 <= Q <= Q_4]), the error (of indication) curve shall not exceed a
+maximum error limit of stem:[pm 2.5 %] for meters of temperature class T30 and
+stem:[pm 3.5 %] for all other temperature classes.
+
+For the purpose of these requirements the mean values of the errors (of indication)
+shall apply.
+
+[[scls-7-2-7]]
+==== Interchange error
+
+It shall be demonstrated that cartridge meters and exchangeable metrological
+modules for water meters with exchangeable metrological modules are independent
+of the connection interfaces they are made for as far as their metrological
+performance is concerned. The cartridge meters and exchangeable metrological
+modules shall be tested in accordance with the test laid down in
+<<ISO_4064_2_2024,clause=7.4.6>>.
+
+The orientation(s) of a meter on test shall be set with reference to the meter
+orientation(s) claimed by the manufacturer.
+
+[[scls-7-2-8]]
+==== Static magnetic field
+
+It shall be demonstrated that a water meter is not affected by a static magnetic
+field. A test shall apply to all water meters where the mechanical components
+may be influenced by a magnetic field, and for all meters with electronic components.
+The test is specified in <<ISO_4064_2_2024,clause=7.12>>. The purpose of the
+test is to ensure compliance with the provisions of <<scls-4-2>> in the presence
+of static
+magnetic fields.
+
+[[scls-7-2-9]]
+==== Documentation
+
+[[scls-7-2-9-1]]
+===== {blank}
+
+The application for type approval of a water meter or a calculator
+(including indicating device) or a measurement transducer shall include the
+following documents:
+
+. a description giving the technical characteristics and the principle of operation;
+. a drawing or photograph of the complete water meter or calculator or measurement transducer;
+. a list of the parts with a description of their constituent materials when these parts have a metrological influence;
+. an assembly drawing with identification of the different parts;
+. for meters fitted with correction devices, a description of how the correction parameters are determined;
+. a drawing showing the location of seals and verification mark(s);
+. a drawing of regulatory markings;
+. for combination meters that comprise approved meters, the test reports for those meters;
+. optionally, a user guide and installation manual.
+
+[[scls-7-2-9-2]]
+===== {blank}
+
+In addition, the application for type approval of a water meter with electronic
+devices shall include:
+
+. a functional description of the various electronic devices;
+. a flow diagram of the logic, showing the functions of the electronic devices;
+. any document or evidence which shows that the design and construction of the
+water meter with electronic devices comply with the requirements of this part
+of ISO 4064:2024|OIML R 49:2024, in particular <<scls-5-1>>. See <<annex-b>>
+for checking facilities information.
+
+[[scls-7-2-9-3]]
+===== {blank}
+
+The applicant seeking type approval shall provide the body responsible for the
+evaluation with a meter or a calculator (including indicating device) or a
+measurement transducer which is representative of the final type, in addition
+to the sample(s) provided as per <<scls-7-2-2>>.
+
+Additional specimens of the type may be considered necessary by the body responsible
+for the type evaluation to estimate the reproducibility of the measurements.
+
+[[scls-7-2-10]]
+==== Type approval certificate
+
+The following information shall appear on the type approval certificate or in
+its annexes:
+
+. name and address of the recipient of the certificate;
+. name and address of the manufacturer, if it is not the recipient;
+. type and/or commercial designation;
+. sufficient information to identify the meter type, e.g. drawing, photograph
+or description;
+. principal metrological and technical characteristics;
+. type approval mark;
+. period of validity;
+. environmental classification, if applicable (see <<scls-A-2>>);
+. information on the location of marks for type approval, initial verification
+and sealing (e.g. a picture or drawing);
+. list of documents accompanying the type approval certificate;
+. specific remarks.
+
+When applicable, the version of the metrological part of the evaluated software
+shall be indicated in the type approval certificate or in its annexes (technical file).
+
+[[scls-7-2-11]]
+==== Modification of an approved type
+
+[[scls-7-2-11-1]]
+===== {blank}
+
+The recipient of the type approval shall inform the body responsible for the
+approval of any modification or addition which concerns an approved type.
+
+[[scls-7-2-11-2]]
+===== {blank}
+
+Modifications and additions shall be subject to a supplementary type approval
+when they influence, or are likely to influence, the measurement results or
+a meter's regulatory conditions of use. The body that approved the initial type
+shall decide to what extent the examinations and tests specified in the following
+shall be carried out on the modified type in relation to the nature of the modification.
+
+[[scls-7-2-11-3]]
+===== {blank}
+
+If the body that approved the initial type judges that the modifications or
+additions are not likely to influence the measurement results, this body shall
+allow, in writing, the modified meters to be presented for initial verification
+without granting a supplementary type approval.
+
+A new or supplementary type approval shall be issued whenever the modified type
+no longer fulfils the provisions of the initial type approval.
+
+[[scls-7-2-12]]
+==== Type evaluation of a water meter with electronic devices
+
+[[scls-7-2-12-1]]
+===== Design inspection
+
+In addition to the requirements specified in the preceding paragraphs, a water
+meter with electronic devices shall be subject to design inspection. This examination
+of documents aims at verifying that the design of electronic devices and their
+checking facilities, if applicable, comply with the provisions of this part
+of ISO 4064|OIML R 49, 5 in particular. It includes:
+
+. an examination of the mode of construction and of the electronic sub-systems
+and components used, to verify their appropriateness for their intended use;
+. consideration of faults likely to occur, to verify that in all considered
+cases these devices comply with the provisions of <<scls-5-1>>. See <<annex-b>>
+for checking facilities information;
+. verification of the presence and effectiveness of the test device(s) for the
+checking facilities, if required.
+
+[[scls-7-2-12-2]]
+===== Performance
+
+[[scls-7-2-12-2-1]]
+====== General
+
+A water meter shall comply with the provisions of <<scls-4-2>> and <<scls-5-1-1>>
+with regard to influence quantities.
+
+[[scls-7-2-12-2-2]]
+====== Performance under the effect of influence factors
+
+When subjected to the effect of influence factors as provided for in <<annex-a>>,
+a water meter shall continue to operate correctly and the errors (of indication)
+shall not exceed the applicable MPEs.
+
+[[scls-7-2-12-2-3]]
+====== Performance under the effect of disturbances
+
+When subjected to external disturbances as provided for in <<annex-a>>, a water
+meter shall continue to operate correctly, or significant faults shall be detected
+and acted upon by means of a checking facility.
+
+[[scls-7-2-12-2-4]]
+====== Equipment under test
+
+Where the electronic devices form an integral part of a water meter, tests shall
+be carried out on the complete water meter.
+
+If the electronic devices of a water meter are in a separate housing, their
+electronic functions may be tested independently of the measurement transducer
+of the water meter by simulated signals representative of the normal operation
+of the meter, in which case the electronic devices shall be tested in their
+final housing.
+
+In all cases, ancillary devices may be tested separately.
+
+[[scls-7-3]]
+=== Initial verification
+
+[[scls-7-3-1]]
+==== {blank}
+
+In general, only water meters which have been approved either as complete meters
+or as separately approved calculator (including indicating device) and measurement
+transducer (including flow or volume sensor), subsequently assembled into a
+combined meter, shall be eligible for initial verification.
+
+Any special requirements for initial verification testing, detailed in the type
+approval certificate, shall be applied.
+
+[[scls-7-3-2]]
+==== {blank}
+
+A water meter shall undergo the initial verification tests indicated in the
+following. This verification shall be carried out after type approval has been
+granted.
+
+The water meter shall be shown to be capable of withstanding the following test
+pressure without leakage or damage: 1.6 times the maximum admissible pressure
+applied for stem:[1 "unitsml(min)"] <<ISO_4064_2_2024,clause=10.1.2>>.
+
+[[scls-7-3-3]]
+==== {blank}
+
+Water meters of the same size and the same type may be tested in series; however,
+in this case the requirement of <<ISO_4064_2_2024,clause=10.1.3,locality:step=d>>
+concerning water meter outlet pressure shall be met for each water meter and
+there shall be no significant interaction between water meters.
+
+Upstream and downstream straight lengths (and straighteners if required) shall
+be in accordance with the flow profile sensitivity class of the meter.
+
+[[scls-7-3-4]]
+==== {blank}
+
+The errors (of indication) of a water meter in the measurement of actual volume
+shall be determined for at least the following nominal flow rates:
+
+. stem:[Q_1];
+. stem:[Q_2];
+. stem:[Q_3];
+. for combination meters, stem:[1.1 Q_"x2"].
+
+NOTE: See <<ISO_4064_2_2024,clause=10.1.3,locality:step=g>> for the permitted
+flow rate ranges.
+
+However, depending on the shape of the error curve, additional flow rates may
+be specified in the type approval certificate.
+
+During a test, the water temperature shall be as required in <<ISO_4064_2_2024,clause=10.1.3,locality:step=e>>.
+
+All other influence factors shall be held within the rated operating conditions.
+
+[[scls-7-3-5]]
+==== {blank}
+
+The errors (of indication) determined at each of the above flow rates shall
+not exceed the MPEs given in <<scls-4-2-2>> or <<scls-4-2-3>> and shall not
+exploit the MPE or systematically favour any party.

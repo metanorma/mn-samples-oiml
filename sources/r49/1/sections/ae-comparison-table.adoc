@@ -1,0 +1,244 @@
+[%landscape]
+<<<
+
+[[annex-e]]
+[appendix,obligation="informative"]
+== Comparison table
+
+[[table-E-1]]
+[cols="1,2,1,2,6",options="unnumbered",headerrows=2]
+|===
+2+| OIML R 49-1:2024 2+| OIML R 49-1:2013 .2+| Remarks
+
+| Ref. | Description | Ref. | Description
+
+| 3 | Terms and definitions | | | Notes 1 to 3 added.
+
+| 3.1.5 | indicating device | 3.1.5 | indicating device
+a| New note added.
+
+NOTE: In this International Standard, the volume of water passing through the
+meter refer to the accumulated volume.
+
+| 3.1.22 | meter with exchangeable metrological module | 3.1.22 | meter with exchangeable metrological module
+a| Definition changed.
+
+meter comprising a connection interface and an exchangeable metrological module (3.1.23) from the same type approval (3.4.13)
+
+| 3.1.25 | non-adjustable water meter | 3.1.25 | non-adjustable water meter
+a| New definition.
+
+meter whose indication cannot be altered in any way (e.g. without changing the
+internal dimensions and/or method of operation), and which has no adjustment
+device or correction device.
+
+NOTE: This category should also include mechanical meters with an internal adjustment
+device where the adjustment cannot be altered at initial verification stage
+as the meter would need to be dismantled.
+
+NOTE: The meter should not have a correction device, i.e. the indicating device
+of the meter should either be purely mechanical or be electronic but with a
+constant multiplying factor applied to the indication and set to the same value
+for all meters (such as a device which counts the number of rotations of the
+shaft and multiplies by a fixed value to give total volume passed).
+
+| 3.1.26 | adjustable water meter | 3.1.26 | adjustable water meter
+a| New definition.
+
+Meter that is connected to or incorporates an adjustment and/or correction device.
+
+| 3.1.27 | = | 3.1.27 | software-controlled water meter
+a| New definition.
+
+water meter (3.1.1) that incorporates and utilizes legally relevant software
+modules
+
+| 3.3.3 | overload flow rate | 3.3.3 | overload flow rate
+a| New note added.
+
+NOTE: the definition of short period of time can vary between economies and/or
+applications, but for example stem:[2 "unitsml(h)"] in a stem:[24 "unitsml(h)"] period.
+
+| 3.5.4 | checking facility | 3.5.4 | checking facility
+a| Notes changed.
+
+NOTE: Typically, checking facilities detect and act upon:
+
+* incorrect functioning of a specific device of the measuring instrument, and/or
+* disturbed communication between specific devices of the measuring instrument.
+
+NOTE: "`Act upon`" refers to any adequate response by the measuring instrument
+(for example: a luminous signal, an acoustic signal, interruption or blocking
+of the measurement process, etc.).
+
+| 3.6 | Use of certain terms within the European Economic Area | | =
+a| Deleted.
+
+Moved to Note 3 in under clause 3 Terms and definitions
+
+| 5.1.3 | Water meters equipped with electronic devices | 5.1.3 | Water meters equipped with electronic devices
+a| Requirement changed.
+
+A water meter with electronic devices shall be provided with checking facilities, see 3.5.4 definition, selected from <<annex-b>>. The meter manufacturers shall declare which checking facilities are provided with the meter.
+
+| 5.1.5 | Sampling interval | - | -
+a| New requirement.
+
+For electronic water meters the sampling interval shall be appropriate in order
+to support the user application and billing period and shall not exceed
+stem:[10 "unitsml(s)"]. The sampling interval range shall be indicated in the
+product documentation available to the user or indicated on the meter, either
+physically inscribed or via menus accessible on the display.
+
+NOTE: For billing periods of 1 month or longer, the influence of a sampling
+interval of stem:[10 "unitsml(s)"] or less has been found to have no significant
+impact on the averaged error of the meter.
+
+| 5.1.6 | Test mode | - | -
+a| New requirement.
+
+Electronic water meters or mechanical water meters incorporating an electronic
+indicating device may be placed into a specific mode of operation called test
+mode. The test mode shall not alter the ability of the meter to meet the acceptance
+criteria tests specified in this part of the standard and in OIML R 49-2 and
+may only differ from the specifications set out in this part of the standard
+and in OIML R 49-2 for the following aspects:
+
+Switch the resolution of the indicating device to achieve or exceed requirements
+of 6.7.3.2.3.
+
+Switch to a shorter sampling interval than in service operation to achieve or
+exceed requirements of 6.7.3.2.3, 7.2, 7.3.
+
+Activate output transmission in pulses or digital data format to the test laboratory
+data acquisition system.
+
+The test mode may only be used during tests requiring determination of the error
+(of indication) of the meter Following the use of test mode for testing purposes
+the meter shall be able to be placed into an operational/service mode, sealed
+and verified as required by national regulations.
+
+The manufacturer shall provide the necessary equipment and/or procedures to
+the test laboratories and national authorities to enable them to initiate the
+test mode.
+
+| 5.1.7 | Software requirements | - | -
+a| New requirement.
+
+For software-controlled water meters, the requirements of <<annex-d>> shall apply.
+
+| 5.2.2.2 | External power supply | 5.2.2.2 | External power supply
+a| Requirements and notes changed.
+
+Any other properties or parameters of a meter shall not be affected by an
+interruption of the electrical supply.
+
+During short-time voltage interruptions or reductions, the meter shall continue
+to operate accurately or employ the use of checking facilities to respond to
+any significant fault caused by the interruption or reduction.
+
+Compliance with this requirement does not necessarily ensure that the meter
+continues to register volume during a longer-term power supply failure.
+
+NOTE: Refer to OIML R 49-2, 8.8 for short-time voltage interruptions and reductions.
+
+NOTE: For the purposes of this clause, a "`power supply failure`" is considered
+to be an interruption or reduction of voltage supply for a period of time greater
+than that specified in OIML R 49-2, 8.8.
+
+| 5.2.2.4 | Nominal value of mains voltage and frequency The manufacturer shall
+declare the nominal value of mains voltage and frequency. | - | -
+a| New requirement.
+
+Nominal value of mains voltage and frequency.
+
+The manufacturer shall declare the nominal value of mains voltage and frequency.
+
+| 6.2 | Adjustment and correction | 6.2 | Adjustment and correction | Requirement changed.
+
+| 6.5 | Pressure loss | 6.5 | Pressure loss
+a| Requirement changed.
+
+New addition:
+
+"`Meters with non return devices may be tested for pressure loss without such
+devices being fitted where they do not form an integral part of the water meter.
+
+A concentric meter, of any type and measuring principle, shall be tested together
+with its respective manifold`".
+
+| 6.6.2 j) | Marks and inscriptions | 6.6.2 j) | Marks and inscriptions
+a| Requirement changed.
+
+Letter V and/or H, if the meter can only be operated in the vertical position
+and/or horizontal position with the indicating device positioned on the top.
+
+| 6.7.1.3 | Indicating range | 6.7.1.3 | Indicating range
+a| New requirement.
+
+New addition:
+
+"`When the indicated volume has reached the maximum value given in Table 5,
+the displays shall roll past zero`".
+
+| 6.7.2.2 | Type 2 {mdash} Digital device | 6.7.2.2 | Type 2 {mdash} Digital device
+a| Requirement changed.
+
+New addition:
+
+"`This display test is initiated after a command by the user interface or is
+part of the cycling procedure that shows the different display modes`".
+
+| 7.2.3 | Errors (of indication) | 7.2.3 | Errors (of indication)
+a| Requirement changed.
+
+Deleted: "`If all the relative errors (of indication) of a water meter have
+the same sign, at least one of the errors shall not exceed one half of the MPE.
+In all cases this requirement shall be applied equitably with respect to the
+water supplier and the consumer (see also 4.3.3, paragraphs 3 and 8).
+
+If a meter is`"
+
+New addition in NOTE:
+
+"`shall be tested in the orientations corresponding to their marking or lack of.`"
+
+| 7.2.6.1 | General | 7.2.6.1 | General
+a| Requirement changed.
+
+Deleted:
+
+"`simulating service conditions.`"
+
+| 7.3.5 | - | 7.3.5 | -
+a| Requirement changed.
+
+The errors (of indication) determined at each of the above flow rates shall
+not exceed the MPEs given in <<scls-4-2-2>> or <<scls-4-2-3>> and shall not
+exploit the MPE or systematically favour any party.
+
+| - | - | 7.3.6 | - | Requirement deleted.
+
+| Annex A.5 | Performance tests Table A.1 | Annex A5 | Performance tests Table A.1
+a| Two new test requirements in Table A.1:
+
+8.16 Static magnetic field
+
+8.17 Absence of flow test
+
+| Annex B | Checking facilities | Annex B | Checking facilities | Changed from "`Mandatory`" to "`Informative`".
+
+| Annex B.1 | Action on checking facilities | Annex B.1 | Action on checking facilities
+a| Deleted from Annex B.1
+
+The visible or audible alarm is not allowed in the case of two constant partners, non-resettable and non-prepaid measurements, where checking facilities are used, unless this alarm is transferred to a remote station.
+
+| Annex D.2.3 | = | Annex B.2.3 | = | Note changed to sentence
+
+| Annex B.5 | Checking facilities for ancillary devices | Annex B.5 | Checking facilities for the associated measuring instruments | New clause heading added
+
+| Annex D | Requirements for software-controlled water meters | - | - | New Normative Annex.
+|===
+
+[%portrait]
+<<<
