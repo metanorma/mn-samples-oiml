@@ -1,0 +1,43 @@
+
+= Automatic instruments for weighing road vehicles in motion and measuring axle loads -- Part 1: Metrological and technical requirements - Tests
+:docnumber: 134
+:partnumber: 1
+:edition: 2006
+:copyright-year: 2006
+:language: en
+:title-main-en: Automatic instruments for weighing road vehicles in motion and measuring axle loads
+:title-part-en: Metrological and technical requirements - Tests
+:title-main-fr: Instruments à fonctionnement automatique pour le pesage des véhicules routiers en mouvement et le mesurage des charges à l'essieu
+:title-part-fr: Exigences métrologiques et techniques - Essais
+:doctype: international-standard
+:docstage: 60
+:docsubstage: 60
+:technical-committee-number: 9
+:technical-committee: Instruments for measuring mass and density
+:subcommittee-number: 2
+:subcommittee: Automatic weighing instruments
+:mn-document-class: oiml
+:mn-output-extensions: xml,html
+:local-cache-only:
+
+include::sections/00-preface.adoc[]
+
+include::sections/01-general.adoc[]
+
+include::sections/02-metrological-requirements.adoc[]
+
+include::sections/03-technical-requirements.adoc[]
+
+include::sections/04-requirements-electronic-instruments.adoc[]
+
+include::sections/05-metrological-controls.adoc[]
+
+include::sections/06-test-methods.adoc[]
+
+include::sections/aa-test-procedures.adoc[]
+
+include::sections/ab-practical-instructions.adoc[]
+
+include::sections/ac-general-guidelines.adoc[]
+
+include::sections/b0-bibliography.adoc[]

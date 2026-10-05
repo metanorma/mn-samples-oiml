@@ -1,0 +1,298 @@
+
+== METROLOGICAL CONTROLS
+
+The metrological controls of WIM instruments shall, in agreement with national
+legislation, consist of the following:
+
+* type approval;
+
+* initial verification;
+
+* subsequent verification;
+
+* in-service inspection.
+
+Tests should be applied uniformly by the metrological authority and should form
+a uniform program.
+
+Guidance for the conduct of type evaluation and initial verification is provided
+in OIML International Documents D 19 [9] and D 20 [10] respectively.
+
+[[scls-5-1]]
+=== Type approval
+
+[[scls-5-1-1]]
+==== Documentation
+
+The application for type evaluation shall include documentation which provides
+the following information:
+
+* metrological characteristics of the instrument;
+
+* a standard set of specifications for the instrument;
+
+* a functional description of the components and devices;
+
+* drawings, diagrams and general software information (if applicable), explaining
+the construction and operation;
+
+* any document or other evidence demonstrating that the design and construction
+of the instrument complies with the requirements of this Recommendation.
+
+==== General requirements
+
+Type evaluation shall be carried out on at least one, and normally not more
+than three, WIM instruments that represent the definitive type. At least one
+of the instruments shall be completely installed at a typical site and at least
+one of the instruments or the major component of an instrument shall be submitted
+in a form suitable for simulation testing in a laboratory. The evaluation shall
+consist of the tests specified in <<scls-5-1-3>>.
+
+[[scls-5-1-3]]
+==== Type evaluation
+
+The submitted documents shall be examined and tests carried out to verify that
+the WIM instruments comply with the:
+
+* metrological requirements in <<cls-2>>, particularly with reference to the
+appropriate limits of error when using the range of reference vehicles (<<scls-6-5>>)
+and operating conditions specified by the manufacturer;
+
+* technical requirements in <<cls-3>>;
+
+* requirements for electronic instruments in <<cls-4>>.
+
+The appropriate metrological authority shall:
+
+* conduct the tests in a manner which prevents unnecessary commitment of resources;
+
+* permit the results of these tests to be assessed for initial verification
+when the same instrument is involved;
+
+* ensure that an instrument used in non-automatic (static) operation in accordance
+with <<scls-2-2-2>>, meets the weighing performance test requirements of OIML
+R 76-1 [8].
+
+NOTE: The appropriate metrological authority is advised to accept, with the
+consent of the applicant, test data obtained from other metrological authorities
+without repeating the tests.
+
+===== In-motion tests
+
+A complete WIM instrument shall be tested:
+
+* in accordance with the test methods in <<cls-6>>, using the range of reference
+vehicles specified in <<scls-6-5>>;
+
+* under the rated operating conditions in accordance with the type specification.
+
+===== Evaluation of errors and deviation for automatic weighing
+
+[[scls-5-1-3-2-1]]
+====== Vehicle mass
+
+For determination of the vehicle mass, the error for automatic weighing shall
+be the indicated reference vehicle mass observed and recorded (<<scls-6-12>>)
+as appropriate, minus the conventional true value of the reference vehicle mass
+as defined in <<scls-6-7>> as appropriate. The maximum permissible error shall
+be as specified in <<scls-2-1-1>> for initial verification and as appropriate
+for the class of the instrument.
+
+====== Single-axle load or axle-group load
+
+The requirements in this subclause are only applicable to instruments to be
+used in applications where the single-axle load or axle-group load is required.
+
+[[scls-5-1-3-2-2-1]]
+[level=6]
+====== Single-axle load
+
+The single-axle load errors and deviations for automatic weighing of reference
+vehicles shall be determined as follows:
+
+. [[item-5-1-3-2-2-1-a]]In-motion tests with the two-axle rigid reference vehicle. The error for automatic
+weighing shall be the indicated single-axle load observed and recorded (<<scls-6-9>>)
+as appropriate, minus the conventional true value of the static reference single-axle
+load (<<scls-6-8>>) as appropriate. The maximum permissible errors shall be
+as specified in <<scls-2-2-1-2-1>> for initial verification and as appropriate
+for the accuracy class of the instrument.
+. [[item-5-1-3-2-2-1-b]]In-motion tests with all other reference vehicle axle types. The deviation
+for automatic weighing shall be the indicated single-axle load observed and
+recorded (<<scls-6-9>>) as appropriate, minus the corrected mean single-axle
+load (<<scls-6-11>>) as appropriate. The maximum permissible deviation shall
+be as specified in <<scls-2-2-1-2-2>> for initial verification and as appropriate
+for the accuracy class of the instrument.
+
+[[scls-5-1-3-2-2-2]]
+[level=6]
+====== Axle-group load
+
+For axle-group load, the deviation for automatic weighing shall be determined
+as follows:
+
+. For WIM instruments which determine and indicate the loads independent of
+single-axles or axle-groups by summation of individual axle load errors in accordance
+with national regulations for axle-group load (see <<scls-T-3-1-7>>).
+. For WIM instruments which automatically determine and indicate single-axle
+loads and axle-group loads separately by the indicated axle-group load observed
+and recorded (<<scls-6-9>>) as appropriate, minus the corrected mean axle-group
+load (<<scls-6-11>>) as appropriate.
+
+The maximum permissible deviation shall be as specified in <<scls-2-2-1-2-2>>
+for initial verification and as appropriate for the class of the instrument,
+if required, with different accuracy classes for single-axle loads and axle-group
+loads.
+
+===== Simulation tests
+
+Influence factors shall be applied during simulation tests in a manner that
+will reveal an alteration of the weighing result for any weighing process to
+which the WIM instrument could be applied, in accordance with clauses <<scls-2-7>>
+and <<cls-4>>.
+
+[[scls-5-1-3-3-1]]
+====== Apportioning of errors
+
+Where modules of an instrument or system are tested separately the following
+requirements apply.
+
+The error limits applicable to a module which is examined separately are equal
+to a fraction, stem:[p_i], of the maximum permissible errors or the allowed
+variations of the indication of the complete instrument. The fractions for any
+module have to be taken for the same accuracy class as for the complete instrument
+incorporating the part.
+
+The fractions stem:[p_i] shall satisfy the following equation:
+
+[stem%unnumbered]
+++++
+p_1^2 + p_2^2 + p_3^2 + .... <= 1
+++++
+
+The fraction, stem:[p_i], shall be chosen by the manufacturer of the module
+and shall be verified by an appropriate test, taking into account the following
+conditions:
+
+* For purely digital devices, stem:[p_i] may be equal to 0;
+
+* For weighing modules, stem:[p_i] may be equal to 1;
+
+* For all other modules (including digital load cells), stem:[p_i] shall not
+exceed 0.8 and shall not be less than 0.3, when more than one module contributes
+to the effect in question.
+
+For mechanical structures including weighbridges evidently designed and manufactured
+according to sound engineering practice, an overall fraction stem:[p_i = 0.5]
+may be applied without any test, e.g. when levers are made of the same material
+and when the chain of levers has two planes of symmetry (longitudinal and transversal).
+
+If the metrological characteristics of the load cell or other major component
+have been evaluated in accordance with the requirements of OIML R 60 [7] or
+any other applicable Recommendation, that evaluation shall be used to aid type
+evaluation if so requested by the applicant.
+
+==== Provision of means for testing
+
+For the purposes of testing, the applicant may be required to furnish the metrological
+authority with the test vehicles, material, qualified personnel and a control
+instrument. The instrument under test may be used as the control instrument
+provided that it complies with the requirements in <<scls-6-2-1>>.
+
+==== Place of testing
+
+WIM instruments submitted for type approval may be tested at the following places:
+
+* on a site at which all necessary tests can be conducted and agreed upon between
+the metrological authority and the applicant;
+
+* at a laboratory considered appropriate by the metrological authority;
+
+* at any other suitable place mutually agreed upon between the metrological
+authority and the applicant.
+
+[[scls-5-2]]
+=== Initial verification
+
+==== Tests
+
+WIM instruments shall be tested to verify that they comply with the requirements
+in clauses 2 (except <<scls-2-7>>) and 3 for any vehicle(s) and product(s) loaded on
+a vehicle for which they are intended and when operated under normal conditions
+of use.
+
+Tests shall be carried out by the appropriate metrological authority, in-situ,
+in a normal installation. The WIM instrument shall be installed so that an automatic
+weighing operation will be the same for testing as it is for a normal operation.
+
+The appropriate metrological authority shall conduct the tests in a manner that
+prevents an unnecessary commitment of resources. In appropriate situations and
+to avoid duplicating tests previously performed on the instrument for type evaluation
+under <<scls-5-1-3>>, the authority may use the results of observed tests for
+initial verification.
+
+===== In-motion tests
+
+In-motion tests shall be conducted:
+
+* in accordance with the descriptive markings (<<scls-3-9>>);
+
+* under the rated conditions for which the instrument is intended;
+
+* in accordance with the test methods in <<cls-6>>, with the exception that
+the reference vehicles shall be the types of vehicle(s) and product(s) that
+the instrument is intended to weigh. However, for instruments to be used in
+applications where the axle load is required, the test utilizing the two-axle
+rigid reference vehicle must be conducted.
+
+===== In-motion test error evaluation
+
+====== Vehicle mass
+
+For all reference vehicle types, the error for automatic weighing shall be as
+specified in <<scls-5-1-3-2-1>>.
+
+====== Single-axle load or axle-group load
+
+The requirements in this subclause are only applicable to instruments to be
+used in applications where the single-axle load or the axle-group load is required.
+
+[level=6]
+====== Single-axle load
+
+. For in-motion tests with the two-axle rigid reference vehicle, the error for
+automatic weighing shall be as specified in <<item-5-1-3-2-2-1-a>>.
+. For in-motion tests with all other reference vehicle types, the error for
+automatic weighing shall be as specified in <<item-5-1-3-2-2-1-b>>.
+
+[level=6]
+====== Axle-group load
+
+The error for automatic weighing shall be as specified in <<scls-5-1-3-2-2-2>>
+for axle-group load.
+
+==== Provision of means for testing
+
+For the purposes of testing, the applicant may be required to furnish the metrological
+authority with the test vehicles, material, qualified personnel and a control
+instrument. The instrument under test may be used as the control instrument
+provided that it complies with the requirements in <<scls-6-2-1>>.
+
+==== Place of testing
+
+Initial verification tests shall be conducted entirely at the place of installation,
+and during testing the instrument shall include all parts which form the assembly
+as intended for normal use.
+
+[[scls-5-3]]
+=== Subsequent metrological control
+
+==== Subsequent verification
+
+Subsequent verification shall be carried out in accordance with the same provisions
+as in <<scls-5-2>> for initial verification.
+
+==== In-service inspection
+
+In-service inspection shall be carried out in accordance with the same provisions
+as in <<scls-5-2>> for initial verification, with the exception that the in-service limits
+of error in <<scls-2-2>> shall be applied.

@@ -1,0 +1,325 @@
+
+== Bibliography
+
+Below are references to Publications of the International Electrotechnical Commission
+(IEC), the International Organization for Standardization (ISO) and the OIML,
+where mention is made in this Recommendation.
+
+[%unnumbered,cols="1,6a,8a",options="header"]
+|===
+| Ref.
+| Standards and reference documents
+| Description
+
+| [1]
+| International Vocabulary of Basic and General Terms in Metrology (VIM) (1993)
+| Vocabulary, prepared by a joint working group consisting of experts appointed
+by BIPM, IEC, IFCC, ISO, IUPAC, IUPAP and OIML.
+
+| [2]
+| International Vocabulary of Terms in Legal Metrology, OIML, Paris (2000)
+| Vocabulary including only the concepts used in the field of legal metrology.
+These concepts concern the activities of the legal metrology service, the relevant
+documents as well as other problems linked with this activity. Also included
+in this Vocabulary are certain concepts of a general character which have been
+drawn from the VIM.
+
+| [3]
+| OIML B 3 (2003)
+
+OIML Certificate System for Measuring Instruments (formerly OIML P 1)
+| Provides rules for issuing, registering and using OIML Certificates of conformity.
+
+| [4]
+| OIML D 11 (2004)
+
+General requirements for electronic measuring instruments
+| Contains general requirements for electronic measuring instruments.
+
+| [5]
+| OIML R 111 (2004)
+
+Weights of classes stem:["E"_1], stem:["E"_2], stem:["F"_1], stem:["F"_2], stem:["M"_1],
+stem:["M"_(1-2)], stem:["M"_2], stem:["M"_(2-3)] and stem:["M"_3]
+| Provides the principal physical characteristics and metrological requirements
+for weights used with and for the verification of weighing instruments and weights
+of a lower class.
+
+| [6]
+| OIML D 28 (2004)
+
+Conventional value of the result of weighing in air
+| Provides the definition of the quantity "conventional mass" (conventional
+value of the result of weighing in air) as it is used for the characterization
+of weights and its relation to the physical quantities mass and density and
+the evaluation of its uncertainty.
+
+| [7]
+| OIML R 60 (2000)
+
+Metrological regulation for load cells
+| Provides the principal static characteristics and static evaluation procedures
+for load cells used in the evaluation of mass.
+
+| [8]
+| OIML R 76-1 (2006) Non-automatic weighing instruments.
+| Provides the principal physical characteristics and metrological requirements
+for the verification of non-automatic weighing instruments.
+
+| [9]
+| OIML D 19 (1988)
+
+Pattern evaluation and pattern approval
+| Provides advice, procedures and influencing factors on pattern evaluation
+and pattern approval.
+
+| [10]
+| OIML D 20 (1988)
+
+Initial and subsequent verification of measuring instruments and processes
+| Provides advice, procedures and influencing factors on the choice between
+alternative approaches to verification and the procedures to be followed in
+the course of verification.
+
+| [11]
+| IEC 60068-2-1 (1990-05) with amendments 1 (1993-02) and 2 (1994-06)
+
+Environmental testing, Part 2: Tests, Test A: Cold
+| Concerns cold tests on both non heat dissipating and heat dissipating equipment
+under test (EUT).
+
+| Ref.
+| Standards and reference documents
+| Description
+
+| [12]
+| IEC 60068-2-2 (1974-01) with amendments 1 (1993-02) and 2 (1994-05)
+
+Environmental testing Part 2: Tests, Test B: Dry heat
+| Contains test Ba: dry heat for non heat dissipating specimen with sudden change
+of temperature; test Bb dry heat for non heat dissipating specimen with gradual
+change of temperature; tests Bc: dry heat for heat dissipating specimen with
+sudden change of temperature; test Bd dry heat for heat dissipating specimen
+with gradual change of temperature.
+
+The 1987 reprint includes IEC No. 62-2-2A.
+
+| [13]
+| IEC 60068-3-1 (1974-01) {plus}
+
+Supplement A (1978-01):
+
+Environmental testing Part 3
+
+Background information, Section 1:
+
+Cold and dry heat tests
+| Gives background information for Tests A: Cold (IEC 68-2-1), and Tests B:
+Dry heat (IEC 68-2-2). Includes appendices on the effect of: chamber size on
+the surface temperature of a specimen when no forced air circulation is used;
+airflow on chamber conditions and on surface temperatures of test specimens;
+wire termination dimensions and material on surface temperature of a component;
+measurements of temperature, air velocity and emission coefficient.
+
+Supplement A gives additional information for cases where temperature stability
+is not achieved during the test.
+
+| [14]
+| IEC 60068-2-78 (2001-08)
+
+Environmental testing - Part 2-78:
+
+Tests - Test Cab: Damp heat, steady state
+
+(IEC 60068-2-78 replaces the following withdrawn standards:
+
+IEC 60068-2-3, test Ca and
+
+IEC 60068-2-56, test Cb)
+| Provides a test method for determining the suitability of electro-technical
+products, components or equipment for transportation, storage and use under
+conditions of high humidity. The test is primarily intended to permit the observation
+of the effect of high humidity at constant temperature without condensation
+on the specimen over a prescribed period.
+
+This test provides a number of preferred severities of high temperature, high
+humidity and test duration. The test can be applied to both heat-dissipating
+and non-heat dissipating specimens. The test is applicable to small equipment
+or components as well as large equipment having complex interconnections with
+test equipment external to the chamber, requiring a setup time which prevents
+the use of preheating and the maintenance of specified conditions during the
+installation period.
+
+| [15]
+| IEC 60068-3-4 (2001-08)
+
+Environmental testing - Part 3-4:
+
+Supporting documentation and guidance - Damp heat tests
+| Provides the necessary information to assist in preparing relevant specifications,
+such as standards for components or equipment, in order to select appropriate
+tests and test severities for specific products and, in some cases, specific
+types of application. The object of damp heat tests is to determine the ability
+of products to withstand the stresses occurring in a high relative humidity
+environment, with or without condensation, and with special regard to variations
+of electrical and mechanical characteristics. Damp heat tests may also be utilized
+to check the resistance of a specimen to some forms of corrosion attack.
+
+| Ref.
+| Standards and reference documents
+| Description
+
+| [16]
+| IEC 61000-2-1 (1990-05)
+
+Electromagnetic compatibility (EMC) Part 2: Environment Section 1
+| Description of the environment - Electromagnetic environment for low-frequency
+conducted disturbances and signaling in public power supply systems.
+
+| [17]
+| IEC 61000-4-1 (2000-04)
+
+Basic EMC Publication
+
+Electromagnetic compatibility (EMC)
+
+Part 4: Testing and measurement techniques. Section 1: Overview of IEC 61000-4 series
+| Gives applicability assistance to the users and manufacturers of electrical
+and electronic equipment on EMC standards within the IEC 61000-4 series on testing
+and measurement techniques. Provides general recommendations concerning the
+choice of relevant tests.
+
+| [18]
+| IEC 60654-2 (1979-01), with amendment 1 (1992-09)
+
+Operating conditions for industrial-process measurement and control equipment -
+Part 2: Power
+| Gives the limiting values for power received by land-based and offshore industrial
+process measurement and control systems or parts of systems during operation.
+
+| [19]
+| IEC 61000-4-11 (2004-03)
+
+Electromagnetic compatibility (EMC)
+
+Part 4-11: Testing and measuring techniques - Voltage dips, short interruptions
+and voltage variations immunity tests
+| Defines the immunity test methods and range of preferred test levels for electrical
+and electronic equipment connected to low-voltage power supply networks for
+voltage dips, short interruptions, and voltage variations. This standard applies
+to electrical and electronic equipment having a rated input current not exceeding
+stem:[16 "unitsml(A)"] per phase, for connection to stem:[50 "unitsml(Hz)"]
+or stem:[60 "unitsml(Hz)"] AC networks. It does not apply to electrical and
+electronic equipment for connection to stem:[400 "unitsml(Hz)"] AC networks.
+Tests for these networks will be covered by future IEC standards. The object
+of this standard is to establish a common reference for evaluating the immunity
+of electrical and electronic equipment when subjected to voltage dips, short
+interruptions and voltage variations. It has the status of a Basic EMC Publication
+in accordance with IEC Guide 107.
+
+| [20]
+| IEC 61000-4-4 (2004-07)
+
+Electromagnetic compatibility (EMC)
+
+Part 4-4: Testing and measurement techniques - Electrical fast transient/burst
+immunity test
+| Establishes a common and reproducible reference for evaluating the immunity
+of electrical and electronic equipment when subjected to electrical fast transient/burst
+on supply, signal, control and earth ports. The test method documented in this
+part of IEC 61000-4 describes a consistent method to assess the immunity of
+an equipment or system against a defined phenomenon.
+
+The standard defines:
+
+* test voltage waveform;
+* range of test levels;
+* test equipment;
+* verification procedures of test equipment;
+* test setup; and
+* test procedure.
+
+The standard gives specifications for laboratory and post-installation tests.
+
+| Ref.
+| Standards and reference documents
+| Description
+
+| [21]
+| IEC 61000-4-5 (2001-04) consolidated edition 1.1 (Including Amendment 1 and
+Correction 1)
+
+Electromagnetic compatibility (EMC)- Part 4-5: Testing and measurement techniques -
+Surge immunity test
+| Relates to the immunity requirements, test methods, and range of recommended
+test levels for equipment to unidirectional surges caused by over-voltages from
+switching and lightning transients. Several test levels are defined which relate
+to different environment and installation conditions. These requirements are
+developed for and are applicable to electrical and electronic equipment. Establishes
+a common reference for evaluating the performance of equipment when subjected
+to high-energy disturbances on the power and inter-connection lines.
+
+| [22]
+| IEC 61000-4-2 (1995-01) with amendment 1 (1998-01) and amendment 2 (2000-11)
+
+Consolidated Edition: IEC 61000-4-2 (2001-04) Ed. 1.2
+
+Basic EMC Publication.
+
+Electromagnetic Compatibility (EMC) - Part 4: Testing and measurement techniques -
+Section 2: Electrostatic discharge immunity test. Basic EMC Publication
+|
+
+| [23]
+| IEC 61000-4-3 Consolidated Edition 2.1 (including amendment 1) (2002-09)
+
+Electromagnetic Compatibility (EMC) - Part 4: Testing and measurement techniques -
+Section 3: Radiated, radio-frequency, electromagnetic field immunity test
+|
+
+| [24]
+| IEC 61000-4-6 (2003-05) with amendment 1 (2004-10)
+
+Electromagnetic compatibility (EMC)
+
+Part 4: Testing and measurement techniques. Section 6: Immunity to conducted
+disturbances, induced by radio-frequency fields
+| Relates to the conducted immunity requirements of electrical and electronic
+equipment to electromagnetic disturbances coming from intended radio-frequency
+(RF) transmitters in the frequency range stem:[9 "unitsml(kHz)"]-stem:[80 "unitsml(MHz)"].
+Equipment not having at least one conducting cable (such as mains supply, signal
+line or earth connection), which can couple the equipment to the disturbing
+RF fields is excluded. This standard does not intend to specify the tests to
+be applied to particular apparatus or systems. Its main aim is to give a general
+basic reference to all concerned product committees of the IEC. The product
+committees (or users and manufacturers of equipment) remain responsible for
+the appropriate choice of the test and the severity level to be applied to their
+equipment.
+
+| [25]
+| ISO 16750-2 (2003)
+
+Road vehicles - Environmental conditions and testing for electrical and electronic
+equipment - Part 2: Electrical loads
+|
+
+| Ref.
+| Standards and reference documents
+| Description
+
+| [26]
+| ISO 7637-2 (2004)
+
+Road vehicles - Electrical disturbance by conduction and coupling - Part 2:
+Electrical transient conduction along supply lines only
+|
+
+| [27]
+| ISO 7637-3 (1995) with correction 1 (1995)
+
+Road vehicles - Electrical disturbance by conduction and coupling - Part 3:
+Passenger cars and light commercial vehicles with nominal 12 V supply voltage
+and commercial vehicles with 24 V supply voltage - electrical transient transmission
+by capacitive and inductive coupling via lines other than supply lines
+|
+|===

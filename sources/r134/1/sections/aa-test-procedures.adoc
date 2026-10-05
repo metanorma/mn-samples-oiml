@@ -1,0 +1,2185 @@
+
+[[annex-a]]
+[appendix,obligation=normative]
+== Test procedures for automatic instruments for weighing road vehicles in motion and measuring axle-loads
+
+[[scls-A-1]]
+=== EXAMINATION FOR TYPE APPROVAL
+
+[[scls-A-1-1]]
+==== Documentation (<<scls-5-1-1>>)
+
+Review the documentation that is submitted, including necessary photographs,
+drawings, diagrams, general software information, relevant technical and functional
+description of main components, devices, etc. to determine if it is adequate
+and correct. Consider the operational manual.
+
+==== Compare construction with documentation (<<scls-5-1-1>>)
+
+Examine the various devices of the WIM instrument to ensure compliance with
+the documentation.
+
+==== Technical requirements (3)
+
+Examine the instrument for conformity with the technical requirements according
+to the checklist in the test report format in OIML R 134-2.
+
+==== Functional requirements (<<scls-4-3>> and 4.4)
+
+Examine the instrument for conformity with the functional requirements according
+to the checklist given in the test report format in OIML R 134-2.
+
+[[scls-A-2]]
+=== EXAMINATION FOR INITIAL VERIFICATION
+
+==== Compare construction with documentation (<<scls-5-2>>)
+
+Examine the instrument for conformity with the requirements in <<scls-3-9>> for the approved
+type.
+
+==== Descriptive markings (<<scls-3-9>>)
+
+Check the descriptive markings according to the checklist in the test report
+format in OIML R 134-2.
+
+==== Verification marks (<<scls-3-9>>) and securing devices (<<scls-3-7>>)
+
+Check the arrangement for verification marks and securing according to the checklist
+in the test report in OIML R 134-2.
+
+=== GENERAL TEST CONDITIONS
+
+==== Voltage supply
+
+Power up the equipment under test (EUT) for a time period equal to or greater
+than the warm-up time specified by the manufacturer and maintain the EUT energized
+for the duration of each test.
+
+==== Zero-setting
+
+Adjust the EUT as closely as practicable to zero prior to each test, and do
+not readjust it at any time during the test, except to reset it if a significant
+fault has occurred.
+
+Certain tests require the automatic zero-setting and zero-tracking devices to
+be in operation (or not in operation). Where there is no specific requirement
+to this effect, the automatic zero-setting and zero-tracking devices shall be
+switched off. When this is done it shall be mentioned in the test report.
+
+==== Temperature
+
+The tests shall be performed at a steady ambient temperature, usually normal
+room temperature unless otherwise specified. The temperature is deemed to be
+steady when the difference between the extreme temperatures noted during the
+test does not exceed one-fifth of the temperature range of the instrument without
+being greater than stem:[5 "unitsml(degC)"], and the rate of change does not
+exceed stem:[5 "unitsml(degC)"] per hour. Note that this requirement does not
+apply to in-motion tests.
+
+The handling of the instrument shall be such that no condensation of water occurs
+on the instrument.
+
+==== Recovery
+
+After each test, allow the instrument to recover sufficiently before the following
+test.
+
+[[scls-A-3-5]]
+==== Indication with a scale interval not greater than stem:[0.2 d]
+
+If an instrument has a device for displaying the indication with a scale interval
+of stem:[0.2 d] or less, this device may be used to calculate the error. If
+such a device is used, it should be noted in the test report.
+
+==== Control instruments and test standards
+
+===== Control instrument (<<scls-6-2>>)
+
+Control instruments meeting the requirements of <<scls-6-2>> shall be used for weighing
+the vehicles. Where necessary, standard test weights meeting the requirements
+of <<scls-6-4-1>> may be used to assess the rounding error.
+
+[[scls-A-3-6-2]]
+===== Use of standard weights to assess rounding error
+
+====== General method to assess error prior to rounding
+
+For instruments with digital indication having a scale interval stem:[d], changeover
+points may be used to interpolate between scale intervals, i.e. to determine
+the indication of the instrument, prior to rounding, as follows:
+
+At a certain load, stem:[L], the indicated value, stem:[I], is noted. Additional
+weights, of say stem:[0.1 d], are successively added until the indication of
+the instrument is increased unambiguously by one scale interval (stem:[I + d]).
+The additional load, stem:[Delta L], added to the load receptor gives the indication,
+stem:[P], prior to rounding by using the following formula:
+
+[stem]
+++++
+P = I + 0.5 d - Delta L
+++++
+
+The error prior to rounding is:
+
+[stem]
+++++
+E = P - L = I + 0.5 d - Delta L - L
+++++
+
+[example]
+====
+An instrument with a scale interval, stem:[d], of stem:[10 "unitsml(kg)"] is
+loaded with stem:[1000 "unitsml(kg)"] and thereby indicates stem:[1000 "unitsml(kg)"].
+After adding successive weights of stem:[1 "unitsml(kg)"], the indication changes
+from stem:[1000 "unitsml(kg)"] to stem:[1010 "unitsml(kg)"] at an additional
+load of stem:[3 "unitsml(kg)"]. Inserted in the above formula, these observations
+give:
+
+[stem]
+++++
+P = (1000 + 5 - 3) "unitsml(kg)" = 1002 "unitsml(kg)"
+++++
+
+Thus the true indication prior to rounding is stem:[1002 "unitsml(kg)"], and
+the error is:
+
+[stem]
+++++
+E = (1002 - 1000) "unitsml(kg)" = 2 "unitsml(kg)"
+++++
+====
+
+====== Correction for error at zero
+
+Evaluate the error at zero load, stem:[E_0], by the method of A.3.5.2.1.
+
+Evaluate the error at load stem:[L], stem:[E], by the method of A.3.5.2.1.
+
+The corrected error prior to rounding, stem:[E_"c"], is:
+
+[stem]
+++++
+E_"c" = E - E_0
+++++
+
+[example]
+====
+If, for the example in A.3.5.2.1, the error calculated at zero load was:
+
+[stem]
+++++
+E_0 = + 1 "unitsml(kg)"
+++++
+
+then the corrected error is:
+
+[stem]
+++++
+E_"c" = + 2 - (+1) = + 1 "unitsml(kg)"
+++++
+====
+
+=== TEST PROGRAM
+
+==== Type approval (<<scls-5-1>>)
+
+Clauses <<scls-A-1>> and, <<scls-A-5>> to <<scls-A-9>> shall normally be applied for type approval.
+
+<<scls-A-5-2>> may be omitted if the instrument under test is not an integral control
+instrument.
+
+The tests in <<scls-A-6>> to <<scls-A-8>> may be performed with static load, with a vehicle movement
+simulator (switches) used if necessary for the calculation of the weighing results.
+
+==== Initial verification (<<scls-5-2>>)
+
+<<scls-A-2>> and <<scls-A-9>> shall be applied for initial verification tests.
+
+If the WIM instrument under test is to be used as an integral control instrument
+the tests in <<scls-A-5-2>> shall also be applied.
+
+The test in <<scls-A-9>> shall include all dynamic in-motion effects corresponding to
+normal operation of the instrument.
+
+[[scls-A-5]]
+=== PERFORMANCE TESTS DURING TYPE EVALUATION
+
+==== Zero-setting (<<scls-3-3-1>>)
+
+===== Range of zero-setting
+
+[[scls-A-5-1-1-1]]
+====== Initial zero-setting
+
+The initial zero-setting range is the sum of the positive and negative portions
+of the initial zero-setting range. If the load receptor cannot readily be removed,
+only the positive part of the initial zero-setting range need be considered.
+
+. Positive range:
++
+With the load receptor empty, set the instrument to zero. Place a test load
+on the load receptor and switch the instrument off and then back on. Continue
+this process until, after placing a load on the load receptor and switching
+the instrument off and on, it does not reset to zero. The maximum load that
+can be re-zeroed is the positive portion of the initial zero-setting range.
+. Negative range:
+.. Remove any load from the load receptor and set the instrument to zero. Then,
+if possible, remove the load receptor (platform) from the instrument. If, at
+this point, the instrument can be reset to zero by switching it off and back
+on, the mass of the non-essential components is used as the negative portion
+of the initial zero-setting range.
+.. If the instrument cannot be reset to zero with the load receptor (platform)
+removed, add weights to any live part of the scale until the instrument indicates
+zero again.
+.. [[item-A-5-1-1-1_3]]Then remove the weights and, after each weight is removed, switch the instrument
+off and back on. The maximum load that can be removed while the instrument can
+still be reset to zero by switching it off and on is the negative portion of
+the initial zero-setting range.
+.. The initial zero-setting range is the sum of the positive and negative portions.
+.. Alternatively, if it is not possible to test the negative range of initial
+zero-setting by removing the load receptor (platform) of the instrument, then
+before proceeding to step <<item-A-5-1-1-1_3>> above, apply a test load greater than the permissible
+negative portion of the initial zero-setting range which can be calculated from
+the result of the positive range test.
+.. If it is not possible to test the negative portion of the initial zero-setting
+range by these methods then only the positive part of the initial zero-setting
+range need be considered.
+.. Reassemble or adjust the instrument for normal use after the above tests.
+
+====== Semi-automatic zero-setting
+
+This test shall not be carried out during the span stability test.
+
+This test is performed in the same manner as described in <<scls-A-5-1-1-1>>,
+except that the zero-setting device is used rather than switching the instrument
+on and off.
+
+====== Automatic zero-setting
+
+This test shall not be carried out during the span stability test.
+
+Remove the non-essential parts of the load receptor or re-adjust the instrument
+as described in <<scls-A-5-1-1-1>> and place weights on the live part of the
+scale until it indicates zero.
+
+Remove weights in small amounts and after each weight is removed allow the instrument
+to operate through the appropriate part of the automatic cycle so as to see
+if the instrument is reset to zero automatically.
+
+The maximum load that can be removed so the instrument can still be reset to
+zero is the zero-setting range.
+
+[[scls-A-5-1-2]]
+===== Accuracy of zero-setting
+
+[[scls-A-5-1-2-1]]
+====== Semi-automatic zero-setting
+
+The accuracy of the zero-setting device is tested by setting the instrument
+to zero and then determining the additional load at which the indication changes
+from zero to one scale interval above zero. The error at zero is calculated
+according to the description in A.3.5.2.1.
+
+[[scls-A-5-1-2-2]]
+====== Automatic zero-setting or zero-tracking
+
+The indication is brought outside of the automatic range. Then the additional
+load at which the indication changes from one scale interval to the next above
+is determined and the error is calculated according to the description in A.3.5.2.1.
+It is assumed that the error at zero load would be equal to the error at the
+load in question.
+
+[[scls-A-5-2]]
+==== Non-automatic tests of the integral control instrument (<<scls-3-4>>)
+
+NOTE: The tests in this subclause are to be performed on the integral control
+instrument in-situ at the time of type approval or verification.
+
+===== Zero-setting
+
+====== Accuracy of zero-setting (<<scls-3-4-1>>)
+
+Determination of the accuracy of zero-setting is carried out as described in
+<<scls-A-5-1-2-1>> or <<scls-A-5-1-2-2>>, as appropriate.
+
+===== Determination of weighing performance
+
+====== Preloading
+
+Before the first weighing test, the WIM instrument shall be preloaded once to
+near Max.
+
+[[scls-A-5-2-2-2]]
+====== Static weighing test (<<scls-6-3>>)
+
+Apply loads from zero up to and including Max, and then remove the loads back
+to zero. When determining the initial intrinsic error, at least ten different
+load values are selected, and for other weighing tests at least five are selected.
+The values of the loads selected shall include Max and Min, and values at or
+near those at which the maximum permissible error (MPE) changes.
+
+It should be noted that when loading or unloading weights the load must be respectively
+increased or decreased in a uniform progression.
+
+The maximum permissible errors shall be the appropriate values from <<scls-2-2-2>>
+for initial verification.
+
+===== Eccentricity test (<<scls-3-4-2>> and <<scls-6-3-3>>)
+
+Apply a load equal to stem:[1//3 "Max"] on each half of the load receptor. On
+an instrument with a load receptor having stem:[n] points of support with stem:[n > 4]
+the fraction stem:[1 // (n - 1)] of Max shall applied to each point of support.
+
+The errors shall not exceed the appropriate maximum permissible errors from
+<<scls-2-2-2>> for initial verification.
+
+===== Discrimination test (<<scls-3-4-3>>)
+
+The following tests are performed with three different loads, e.g. Min,
+stem:[0.5 xx "Max"], and Max.
+
+A load plus sufficient substitution material (e.g. 10 times stem:[0.1 d]) is
+placed on the load receptor. The additional material is then successively removed
+until the indication, stem:[I], is decreased unambiguously by one scale interval,
+stem:[I - d]. Replace substitution material equivalent to stem:[0.1 d] and then
+a load equal to stem:[1.4 d] shall be gently placed on the load receptor and
+the result shall be increased by one scale interval above the initial indication,
+stem:[I + d].
+
+[[scls-A-5-2-5]]
+===== Repeatability test (<<scls-3-4-4>> and <<scls-6-3-4>>)
+
+Two series of weighings shall be performed, one with a load of about stem:[50 %]
+and one with a load close to stem:[100 %] of Max. Each series shall consist
+of at least three weighings. Readings shall be taken when the instrument is
+loaded, and when the unloaded instrument has come to rest between weighings.
+In the case of a zero deviation between the weighings, the instrument shall
+be reset to zero, without determining the error at zero. The true zero position
+need not be determined between the weighings.
+
+If the instrument is provided with automatic zero-setting or zero-tracking,
+it shall be in operation during the test.
+
+For initial verification, one test with about stem:[50 %] of Max is sufficient
+with no more than three weighings.
+
+[[scls-A-6]]
+=== ADDITIONAL FUNCTIONALITY
+
+==== Warm-up time test (<<scls-4-3-4>>)
+
+This test is to verify that metrological performance is maintained in the period
+immediately after switch on. The method is to check that automatic operation
+is inhibited until a stable indication is obtained and to verify that zero and
+span errors comply with the requirements during the first 30 minutes of operation.
+
+Other test methods which verify that metrological performance is maintained
+during the first 30 minutes of operation may be used.
+
+[arabic]
+. Disconnect the instrument from the power supply for a period of at least 8
+hours prior to the test.
+. Reconnect the instrument and switch on while observing the indicating device.
+. Verify that it is not possible to initiate automatic weighing or printout
+until the indication has stabilized or until completion of the warm-up time
+if it is specified by the manufacturer (<<scls-4-3-4>>).
+. As soon as the indication of the indicating device has stabilized, set the
+instrument to zero if this is not done automatically.
+. [[item-A-6-1_5]]Determine the error of zero-setting by the method of A.3.5.2.1 and record
+this error as stem:[E_(0"I")] (error of initial zero-setting) at first and as
+stem:[E_0] when repeating this step.
+. [[item-A-6-1_6]]Apply a load close to Max. Determine the error by the method of A.3.5.2.1
+and A.3.5.2.2.
+. Verify that:
+* the zero indication error, stem:[E_(0"I")], is not greater than stem:[0.25 d]
+(<<scls-3-3-1>>);
+* the span error is not greater than the maximum permissible error specified
+in <<scls-2-2-2>> for initial verification.
+. Repeat stages <<item-A-6-1_5>> and <<item-A-6-1_6>> after 5, 15 and 30 minutes.
+. After each time interval verify that:
+* the zero variation error (stem:[E_0 - E_(0"I")]) is not greater than
+stem:[0.25 d xx p_i];
+* the span error is not greater than the maximum permissible error specified
+in <<scls-2-2-2>> for initial verification.
+
+==== Agreement between indicating and printing devices (<<scls-2-6>>)
+
+If the instrument has more than one indicating device, the indications of the
+various devices (both indicating and printing) are compared during the test.
+
+[[scls-A-6-3]]
+==== Operating speed (<<scls-3-5-9>>)
+
+Verify that the automatic indication and printing of the operating speed contain
+a clear warning message if the speed is outside the specified range.
+
+=== INFLUENCE FACTOR AND DISTURBANCE TESTS
+
+==== Test conditions
+
+Further guidance on the metrological performance testing requirements for influence
+quantities and disturbances is provided in the appropriate reference standards
+as indicated for each test and in OIML D 11 [4].
+
+===== General requirements
+
+Instruments for determining the vehicle mass, the single-axle load and/or the
+axle-group load shall comply with the influence factor and disturbance tests
+conditions and requirements specified in this Annex.
+
+Influence factor and disturbance tests are intended to verify that instruments
+can perform and function as intended in the environment and under the conditions
+specified. Each test indicates, where appropriate, the reference condition under
+which the intrinsic error is determined.
+
+It is not possible to apply these tests to an instrument that is performing
+an automatic operation. The instrument shall therefore be subjected to the influence
+factors or disturbances under static conditions or simulated operation as defined
+herein. The permissible effects of the influence factors or disturbances, under
+these conditions, are specified for each case.
+
+When the effect of one influence factor is being evaluated, all other factors
+are to be held relatively constant, at a value close to normal. After each test
+the instrument shall be allowed to recover sufficiently before the following test.
+
+Where parts of the instrument are examined separately, errors shall be apportioned
+in accordance with <<scls-5-1-3-3-1>>.
+
+The operational status of the instrument or simulator shall be recorded for
+each test.
+
+When an instrument is connected in other than a normal configuration, the procedure
+shall be mutually agreed on by the approving authority and the applicant.
+
+===== Simulator requirements
+
+====== General
+
+If a simulator is used to test a module, the repeatability and stability of
+the simulator should make it possible to determine the performance of the module
+with at least the same accuracy as when a complete instrument is tested with
+weights, the mpe to be considered being those applicable to the module. If a
+simulator is used, this shall be noted in the Test Report Format and its traceability
+referenced.
+
+====== Interfaces (<<scls-4-3-5>>)
+
+Susceptibility that would result from the use of electronic interfaces to other
+equipment shall be simulated in the tests. For this purpose it is sufficient
+to connect stem:[3 "unitsml(m)"] of interface cable terminated to simulate the
+interface impedance of the other equipment.
+
+====== Documentation
+
+Simulators shall be defined in terms of hardware and functionality by reference
+to the instrument under test, and by any other documentation necessary to ensure
+reproducible test conditions. This information shall be attached to, or shall
+be traceable from, the test report.
+
+[[scls-A-7-2]]
+==== Influence factor tests (<<scls-2-7>>)
+
+[%unnumbered,cols="6,2,2",headerrows=2]
+|===
+3+| Summary of tests
+| Test | Conditions applied | §
+
+| Static temperatures
+| MPE footnote:[maximum permissible error]
+| <<scls-A-7-2-1>>
+
+| Temperature effect on no-load indication
+| MPE
+| <<scls-A-7-2-2>>
+
+| Damp heat, steady-state
+| MPE
+| <<scls-A-7-2-3>>
+
+| AC mains voltage variations
+| MPE
+| <<scls-A-7-2-4>>
+
+| DC mains voltage variations, including rechargeable battery if the battery
+can be fully (re)charged during the operation of the instrument
+| MPE
+| <<scls-A-7-2-5>>
+
+| Battery voltage variations (DC), including non-rechargeable, and rechargeable
+battery if (re)charging of the battery during the operation of the instrument
+is not possible
+| MPE
+| <<scls-A-7-2-6>>
+
+| Voltage variations in stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] road
+vehicle batteries
+| MPE
+| <<scls-A-7-2-7>>
+|===
+
+[[scls-A-7-2-1]]
+===== Static temperatures (<<scls-2-7-1-1>>)
+
+Static temperature tests are carried out according to Basic Standard IEC Publication
+60068-2-1 [11], IEC Publication 60068-2-2 [12] and 60068-3-1 [13], and according
+to <<table-8>>.
+
+[[table-8]]
+[cols="3*",options="header"]
+|===
+| Environmental phenomena
+| Test specification
+| Test setup
+
+.5+^.^| Temperature
+| Reference of stem:[20 "unitsml(degC)"]
+|
+
+| Specified high for 2 hours
+| IEC 60068-2-2
+
+| Specified low for 2 hours
+| IEC 60068-2-1
+
+| Temperature of stem:[5 "unitsml(degC)"], if the specified low temperature
+is stem:[<= 0 "unitsml(degC)"]
+| IEC 60068-2-1
+
+| Reference of stem:[20 "unitsml(degC)"]
+|
+|===
+
+NOTE: Use IEC 60068-3-1 for background information
+
+NOTE: The static temperatures test is considered as one test.
+
+Supplementary information to the IEC test procedures:
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-1>>
+under conditions of dry heat (non-condensing) and cold. The test in <<scls-A-7-2-2>>
+may be conducted during this test.
+
+Preconditioning:: 16 hours
+
+Condition of the EUT:: EUT is connected to the voltage supply and "on" for a
+time period equal to or greater than the warm-up time specified by the manufacturer.
+Voltage supply is to be "on" for the duration of the test. The zero-setting
+and zero-tracking facilities shall be enabled as for normal operation. If the
+test is performed together with <<scls-A-7-2-2>>, automatic zero-setting and zero-tracking
+shall not be in operation.
+
+Stabilization:: 2 hours at each temperature under "free air" conditions. "Free
+air" conditions mean a minimum air circulation to keep the temperature at a
+stable level.
+
+Temperature:: As specified in <<scls-2-7-1-1>>
+
+Temperature sequence::
++
+--
+. At the reference temperature of stem:[20 "unitsml(degC)"];
+. At the specified high temperature;
+. At the specified low temperature;
+. At a temperature of stem:[5 "unitsml(degC)"], if the specified low temperature
+is below stem:[10 "unitsml(degC)"]; and
+. At the reference temperature.
+--
+
+Barometric pressure:: Changes in barometric pressure shall be taken into account.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: Adjust the EUT as close to zero indication as practicable
+prior to the test (if an automatic zero-tracking device is connected, adjust
+it to a value near zero). The EUT shall not be readjusted at any time during
+the test.
++
+--
+After stabilization at the reference temperature and again at each specified
+temperature, apply at least five different test loads or simulated loads and record:
+
+. date and time;
+. temperature;
+. relative humidity;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+--
+
+Maximum allowable variations:: All functions shall operate as designed. All
+errors shall be within the maximum permissible errors specified in <<scls-2-2-2>>
+for initial verification.
+
+[[scls-A-7-2-2]]
+===== Temperature effect on the no-load indication (<<scls-2-7-1-2>>)
+
+Currently, there are no applicable standards. This test shall be conducted as
+described below.
+
+The instrument shall be set to zero and then changed to the prescribed highest
+and lowest temperatures as well as to stem:[5 "unitsml(degC)"] if applicable.
+After stabilization the error of the zero indication shall be determined.
+
+The change in zero indication per stem:[5 "unitsml(degC)"] shall be calculated.
+The changes in these errors per stem:[5 "unitsml(degC)"] are calculated for
+any two consecutive temperatures of this test.
+
+This test may be performed together with the temperature test in <<scls-A-7-2-1>>. The
+errors at zero shall then be additionally determined immediately before changing
+to the next temperature and after the 2 hour period after the instrument has
+reached stability at this temperature.
+
+NOTE: Preloading is not allowed before these measurements.
+
+If the instrument is provided with automatic zero-setting or zero-tracking,
+it shall not be in operation.
+
+Condition of the EUT:: EUT connected to the voltage supply and "on" for a time
+period equal to or greater than the warm-up time specified by the manufacturer.
+Voltage supply is to be "on" for the duration of the test.
+
+[[scls-A-7-2-3]]
+===== Damp heat, steady state (<<scls-4-3-3>>)
+
+Damp heat, steady state tests are carried out according to Basic Standard IEC
+Publication 60068-2-78 [14] and IEC Publication 60068-3-4 [15], and according
+to <<table-9>>.
+
+[[table-9]]
+[cols="3*",options="header"]
+|===
+| Environmental phenomena
+| Test specification
+| Test setup
+
+| Damp heat, +
+steady state
+| Upper limit temperature and relative humidity of stem:[85 %] for 48 hours
+| IEC 60068-2-78 +
+IEC 60068-3-4
+|===
+
+NOTE: Use IEC 60068-3-4 for guidance for damp heat tests.
+
+Supplementary information to the IEC test procedures:
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-1>>
+under conditions of high humidity and constant temperature.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: EUT is connected to the voltage supply and "on" for a
+time period equal to or greater than the warm-up time specified by the manufacturer.
+The zero-setting and zero-tracking facilities shall be enabled as for normal
+operation.
++
+The handling of the EUT shall be such that no condensation of water occurs on
+the EUT.
+
+Stabilization:: 3 hours at reference temperature and stem:[50 %] humidity.
++
+2 days at the upper limit temperature as specified in <<scls-2-7-1-1>>.
+
+Temperature:: Reference temperature (stem:[20 "unitsml(degC)"] or the mean value
+of the temperature range whenever stem:[20 "unitsml(degC)"] is outside this
+range) and at the upper limit as specified in <<scls-2-7-1-1>>.
+
+Temperature-humidity 48 hour sequence::
++
+--
+. Reference temperature of stem:[20 "unitsml(degC)"] at stem:[50 %] humidity;
+. Upper limit temperature at stem:[85 %] humidity;
+. Reference temperature of stem:[20 "unitsml(degC)"] at stem:[50 %] humidity.
+--
+
+Barometric pressure:: Changes in barometric pressure shall be taken into account.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: After stabilization of the EUT at reference temperature and
+stem:[50 %] humidity, apply at least five different test loads or simulated
+loads and record:
++
+--
+. date and time;
+. temperature;
+. relative humidity;
+. test load;
+. other indications (as applicable);
+. errors;
+. functional performance.
+
+Increase the temperature in the chamber to the upper limit and increase the
+relative humidity to stem:[85 %]. Maintain the EUT at no load for a period of
+48 hours. Following the 48 hours, apply the same test loads or simulated loads
+and record the data as indicated above.
+
+Decrease the relative humidity to stem:[50 %] and decrease the temperature in
+the chamber to the reference temperature. After stabilization of the EUT, apply
+the same test loads or simulated loads and record the data as indicated above.
+
+Allow full recovery of the EUT before any other tests are performed.
+--
+
+Maximum allowable variations:: All errors shall be within the maximum permissible
+errors specified in <<scls-2-2-2>> for initial verification.
+
+[[scls-A-7-2-4]]
+===== AC mains voltage variations (<<scls-2-7-2>>)
+
+AC mains voltage supply variation tests are carried out according to Basic Standard
+IEC Publication 61000-2-1 [16] and IEC Publication 61000-4-1 [17], and according
+to <<table-10>>.
+
+[[table-10]]
+[cols="4*^.^",options="header"]
+|===
+| Environmental phenomena
+2+| Test specification
+| Test setup
+
+.4+| AC mains voltage variation
+2+| stem:[U_"nom"]
+.4+| IEC 61000-2-1 +
+IEC 61000-4-1
+
+| Upper limit:
+| stem:[1.10 xx U_"nom"] or stem:[1.10 xx U_"max"]
+
+| Lower limit:
+| stem:[0.85 xx U_"nom"] or stem:[0.85 xx U_"min"]
+
+2+| stem:[U_"nom"]
+|===
+
+NOTE: Where an instrument is powered by a three phase supply, the voltage variations
+shall apply for each phase successively.
+
+Supplementary information to the IEC test procedures:
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-1>>
+under conditions of AC mains voltage variations.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: The EUT is connected to the AC mains supply and "on"
+for a time period equal to or greater than the warm-up time specified by the
+manufacturer. Adjust the EUT as close to zero indication as practicable prior
+to the test and do not readjust at anytime during the test except to reset if
+a significant fault has been detected.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: The EUT shall be tested with a test or simulated load at
+or near Min and with one test load or simulated load between stem:[50 %] and
+the maximum capacity of the EUT.
++
+--
+Stabilize the EUT at the nominal voltage and record the following data:
+
+. date and time;
+. temperature;
+. relative humidity;
+. AC voltage supply;
+. test loads;
+. indications (as applicable);
+. errors;
+. functional performance.
+
+Repeat the test for each of the voltages defined in IEC 61000-4-1 in section
+5 (noting the need in certain cases for the test weighing to be repeated at
+both ends of the voltage range) and record the indications.
+--
+
+Maximum allowable variations:: All functions shall operate as designed. All
+errors shall be within the maximum permissible errors specified in <<scls-2-2-2>>
+for initial verification.
+
+[[scls-A-7-2-5]]
+===== DC mains voltage variations (<<scls-2-7-2>>)
+
+Instruments operating from DC mains voltage supply, including rechargeable battery
+if recharging of the battery during the operation of the instrument is possible,
+shall fulfill the tests in <<scls-A-7-2>>, with the exception of <<scls-A-7-2-4>> which is to
+be replaced by the test according to Basic Standard IEC Publication 60654-2 [18]
+and according to <<table-11>>.
+
+[[table-11]]
+[cols="4*^.^",options="header"]
+|===
+| Environmental phenomena
+2+| Test specification
+| Test setup
+
+.4+| DC mains voltage variations
+2+| stem:[U_"nom"]
+.4+| IEC 60654-2
+
+| Upper limit:
+| stem:[1.20 xx U_"nom"] or stem:[1.20 xx U_"max"]
+
+| Lower limit:
+| minimum operating voltage +
+(see <<scls-2-7-2>>)
+
+2+| stem:[U_"nom"]
+|===
+
+NOTE: If a voltage-range is marked, use the average value as nominal stem:[U_"nom"].
+
+Supplementary information to the IEC test procedures:
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-1>>
+under conditions of DC mains voltage variations.
+
+Pre-condition:: None
+
+Condition of the EUT:: The EUT is connected to the DC mains voltage supply and
+"on" for a time period equal to or greater than the warm-up time specified by
+the manufacturer. Adjust the EUT as close to zero indication as practicable,
+prior to the test and do not readjust at any time during the test except to
+reset if a significant fault has been indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: Stabilize the EUT at the nominal voltage and record the following
+data at no load and with one load or simulated load:
++
+--
+. date and time;
+. temperature;
+. relative humidity;
+. DC voltage supply;
+. test loads;
+. indications (as applicable);
+. errors;
+. functional performance.
+
+Repeat the test for each of the voltages defined in IEC 60654-2 and record the
+indications.
+--
+
+Maximum allowable variations:: All functions shall operate as designed. All
+errors shall be within the maximum permissible errors specified in <<scls-2-2-2>>
+for initial verification.
+
+[[scls-A-7-2-6]]
+===== Battery voltage supply (DC), not mains connected, including non-rechargeable battery voltage supply and also including rechargeable battery supply if (re)charging of battery voltage supply during the operation of the instrument is not possible (<<scls-2-7-2>>)
+
+Battery-powered instruments shall fulfill the tests in <<scls-A-7-2>>, with the exception
+of <<scls-A-7-2-4>> and <<scls-A-7-2-5>> and <<scls-A-7-2-6>> which are to be replaced by the test in <<table-12>>.
+
+[[table-12]]
+[cols="3*^.^",options="header"]
+|===
+| Environmental phenomena
+| Test specification
+| Test setup
+
+.3+| Battery voltage variations
+| stem:[U_"nom"]
+.3+| No reference to standards for this test.
+
+| Minimum operating voltage (see <<scls-2-7-2>>)
+
+| stem:[U_"nom"]
+|===
+
+NOTE: If a voltage range is marked, use the average value as nominal stem:[U_"nom"].
+
+Supplementary test information:
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-1>>
+under conditions of voltage variations of a fully charged battery.
+
+Pre-condition:: None
+
+Condition of the EUT:: The EUT is connected to the battery voltage supply and
+"on" for a time period equal to or greater than the warm-up time specified by
+the manufacturer. Adjust the EUT as close to zero indication as practicable,
+prior to the test and do not readjust at any time during the test except to
+reset if a significant fault has been indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: Stabilize the EUT at the nominal voltage and record the following
+data at no load and with one load or simulated load:
++
+--
+. date and time;
+. temperature;
+. relative humidity;
+. battery voltage supply;
+. test loads;
+. indications (as applicable);
+. errors;
+. functional performance.
+
+Reduce the voltage supply to the EUT until the instrument ceases to function
+properly according to the specifications and metrological requirements, and
+record the indications.
+--
+
+Maximum allowable variations:: All functions shall operate as designed. All
+errors shall be within the maximum permissible errors specified in <<scls-2-2-2>>
+for initial verification.
+
+[[scls-A-7-2-7]]
+===== Voltage variations from stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] road vehicle batteries (<<scls-2-7-2>>)
+
+Road vehicle battery operated instruments shall fulfill the tests in <<scls-A-7-2>>,
+with the exception of <<scls-A-7-2-4>> which is to be replaced by the following test
+conducted in accordance with ISO 16750-2 [25] and according to <<table-13>>.
+
+[[table-13]]
+[cols="5*^.^",options="header",headerrows=2]
+|===
+.2+| Environmental phenomena
+3+| Test specification
+.2+| Test setup
+
+| stem:[U_"nom"] | Upper limit | Lower limit
+
+.2+| stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] road vehicle battery voltage variation
+| stem:[12 "unitsml(V)"] | stem:[16 "unitsml(V)"] | stem:[9 "unitsml(V)"]
+.2+| ISO 16750-2
+| stem:[24 "unitsml(V)"] | stem:[32 "unitsml(V)"] | stem:[16 "unitsml(V)"]
+|===
+
+NOTE: The nominal voltage, stem:[U_"nom"], of the electrical system in road
+vehicles is usually stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"], but the
+practical voltage at the battery connection points can vary considerably.
+
+Supplementary information to the ISO test procedures:
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-1>>
+under conditions of road vehicle battery voltage variations.
+
+Preconditioning:: None
+
+Condition of the EUT:: The EUT is connected to the voltage supply and "on" for
+a time period equal to or greater than the warm-up time specified by the manufacturer.
+Adjust the EUT as close to zero indication as practicable, prior to the test
+and do not readjust at any time during the test except to reset if a significant
+fault has been indicated.
+
+Number of test cycles:: At least one cycle for each functional mode.
+
+Test information:: Stabilize the EUT at the nominal voltage and record the following
+data at no load and with one load or simulated load:
++
+--
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test loads;
+. indications (as applicable);
+. errors;
+. functional performance.
+
+Reduce the voltage supply to the EUT until the instrument clearly ceases to
+function properly according to the specifications and metrological requirements,
+and record the indication.
+--
+
+Maximum allowable variations:: All functions shall operate as designed. All
+errors shall be within the maximum permissible errors specified in <<scls-2-2-2>>
+for initial verification.
+
+==== Disturbance tests (<<scls-4-1-2>>)
+
+[%unnumbered,cols="6,2,2",headerrows=2]
+|===
+3+| Summary of tests
+| Test | Condition applied | §
+
+| AC mains voltage short time power reduction
+| sffootnote:[value of the significant fault (see <<scls-T-4-2-7>>)]
+| <<scls-A-7-3-1>>
+
+| Electrical fast transients/burst immunity on mains supply lines and on I/O
+circuits and communication lines
+| sf
+| <<scls-A-7-3-2>>
+
+| Electrical surges on mains supply lines and on I/O circuits and communication lines
+| sf
+| <<scls-A-7-3-3>>
+
+| Electrostatic discharge
+| sf
+| <<scls-A-7-3-4>>
+
+| Immunity to electromagnetic fields
+| sf
+| <<scls-A-7-3-5>>
+
+| Electrical transient conduction for instruments powered by stem:[12 "unitsml(V)"]
+or stem:[24 "unitsml(V)"] road vehicle batteries
+| sf
+| <<scls-A-7-3-6>>
+|===
+
+[[scls-A-7-3-1]]
+===== Short time power reduction
+
+AC mains short time power reduction (voltage dips and short interruptions) tests
+are carried out according to Basic Standard IEC Publication 61000-4-11 [19]
+and according to <<table-14>>.
+
+[[table-14]]
+[cols="5*^.^",options="header"]
+|===
+| Environmental phenomena
+3+| Test specification
+| Test setup
+
+.7+| Voltage dips and short interruptions
+| Test
+| Reduction of amplitude to
+| Duration / number of cycles
+.7+| IEC 61000-4-11
+
+| Test a
+| stem:[0 %]
+| 0.5
+
+| Test b
+| stem:[0 %]
+| 1
+
+| Test c
+| stem:[40 %]
+| 10
+
+| Test d
+| stem:[70 %]
+| 25/30footnote:[These values are for stem:[50 "unitsml(Hz)"] /stem:[60 "unitsml(Hz)"],
+respectively]
+
+| Test e
+| stem:[80 %]
+| 250/300footnote:[These values are for stem:[50 "unitsml(Hz)"] /stem:[60 "unitsml(Hz)"],
+respectively]
+
+| Short interruption
+| stem:[0 %]
+| 250
+|===
+
+NOTE: A test generator suitable to reduce for a defined period of time the amplitude
+of one or more half cycles (at zero crossings) of the AC mains voltage shall
+be used. The test generator shall be adjusted before connecting the EUT. The
+mains voltage reductions shall be repeated 10 times with an interval of at least
+10 seconds.
+
+Supplementary information to the IEC test procedures
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under conditions of short time mains voltage interruptions and reductions while
+observing the weight indication of a single static load.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: The EUT is connected to the voltage supply and "on" for
+a time period equal to or greater than the warm-up time specified by the manufacturer.
+Adjust the EUT as close to zero indication as practicable, prior to the test.
+Zero-setting functions shall not be in operation and are not to be adjusted
+at any time during the test except to reset if a significant fault has been
+indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: The EUT shall be tested with one small static test load.
++
+--
+Stabilize all factors at nominal reference conditions. Apply one load or simulated
+load and record:
+
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance
+
+In accordance with the test specification in <<table-14>>, interrupt the voltages
+to the corresponding durations / number of cycles and conduct the test as detailed
+in IEC 61000-4-11 section 8.2.1. During interruption observe the effect on the
+EUT and record as appropriate.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d] (<<scls-T-4-2-7>>), or the EUT shall detect and react to a significant
+fault.
+
+[[scls-A-7-3-2]]
+===== Electrical fast transients/burst immunity on the mains supply lines and on the I/O circuits and communication lines
+
+Electrical fast transients/burst immunity tests are carried out at the positive
+and the negative polarities for at least 1 minute at each polarity in accordance
+with the Basic Standard IEC Publication 61000-4-4 [20] and according to <<table-15>>
+and <<table-16>>.
+
+[[table-15]]
+[cols="3*^.^",options="header"]
+|===
+| Environmental phenomena
+| Test specification
+| Test setup
+
+| Fast transient common mode
+| stem:[0.5 "unitsml(kV)"] (peak) +
+stem:[5//50 "unitsml(ns)"] stem:[T_1//T_"h"] +
+stem:[5 "unitsml(kHz)"] rep. frequency
+| IEC 61000-4-4
+|===
+
+NOTE: Applicable only to ports or interfacing with cables whose total length
+may exceed stem:[3 "unitsml(m)"] according to the manufacturer's functional
+specification.
+
+[[table-16]]
+[cols="3*^.^",options="header"]
+|===
+| Environmental phenomena
+| Test specification
+| Test setup standard
+
+| Fast transient common mode
+| stem:[1 "unitsml(kV)"] (peak) +
+stem:[5//50 "unitsml(ns)"] stem:[T_1 //T_"h"] +
+stem:[5 "unitsml(kHz)"] rep. frequency
+| IEC 61000-4-4
+|===
+
+NOTE: DC supply lines, not applicable to battery-operated appliance that cannot
+be connected to the mains while in use.
+
+NOTE: A coupling/decoupling network shall be applied for testing AC supply ports.
+
+Supplementary information to the IEC test procedures
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under conditions where fast transients are superimposed separately on the mains
+voltage, and on the I/O circuits and communication lines (if any), while observing
+the indications for one static test load.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: The performance of the test generator shall be verified
+before connecting the EUT.
++
+The EUT is connected to the voltage supply and "on" for a time period equal
+to or greater than the warm-up time specified by the manufacturer. Adjust the
+EUT as close to zero indication as practicable, prior to the test. Zero-setting
+functions shall not be in operation and are not to be adjusted at any time during
+the test except to reset if a significant fault has been indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: Both positive and negative polarity of the bursts shall be
+applied. The duration of the test shall not be less than one minute for each
+amplitude and polarity. The injection network on the mains shall contain blocking
+filters to prevent the burst energy being dissipated in the mains. For the coupling
+of the bursts into the input/output and communication lines, a capacitive coupling
+clamp as defined in the reference standard shall be used.
++
+--
+Before any test stabilize the EUT under constant environmental conditions. Apply
+one small static test load and record:
+
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d] (<<scls-T-4-2-7>>), or the EUT shall detect and react to a
+significant fault.
+
+[[scls-A-7-3-3]]
+===== Electrical surges on mains supply lines and on I/O circuits and communication (signal) lines
+
+Electrical surge tests are carried out according to Basic Standard IEC Publication
+IEC 61000-4-5 [21] and according to <<table-17>>.
+
+[[table-17]]
+[cols="3*^.^",options="header"]
+|===
+| Environmental phenomena | Test specification | Test setup
+
+| Surges on mains supply lines and on I/O circuits and communication lines
+a| stem:[0.5 "unitsml(kV)"] (peak) line to line
+
+stem:[1.0 "unitsml(kV)"] line to earth
+
+. 3 positive and 3 negative surges applied synchronously with AC supply voltage
+in angles stem:[0 "unitsml(deg)"], stem:[90 "unitsml(deg)"], stem:[180 "unitsml(deg)"]
+and stem:[270 "unitsml(deg)"].
+. 3 positive and 3 negative surges applied on DC supply lines and on I/O circuits
+and communication lines.
+| IEC 61000-4-5
+|===
+
+NOTE: This test is only applicable in those cases where the risk of a significant
+influence of surges can be expected such as outdoor installations and/or indoor
+installations connected to long communication and signal lines (lines longer
+than stem:[30 "unitsml(m)"] or those lines partially or fully installed outside
+the buildings regardless of their length). It is also applicable to DC powered
+instruments if the voltage supply comes from a DC network.
+
+Supplementary information to the IEC test procedures
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under conditions where electrical surges are applied separately to the mains
+supply lines, and to the I/O circuits and communication lines (if any), while
+observing the indications for one static test load.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: The characteristics of the test generator shall be verified
+before connecting the EUT.
++
+The EUT is connected to the voltage supply and "on" for a time period equal
+to or greater than the warm-up time specified by the manufacturer. Adjust the
+EUT as close to zero indication as practicable, prior to the test. Zero-setting
+functions shall not be in operation and are not to be adjusted at any time during
+the test except to reset if a significant fault has been indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: The test consists of exposure to surges for which the rise
+time, pulse width, peak values of the output voltage/current on high/low impendence
+load and minimum time interval between two successive pulses are defined in
+IEC 61000-4-5.
++
+--
+The injection network depends on the lines the surge is coupled to and is defined
+in IEC 61000-4-5.
+
+The EUT shall be tested with one small static test load.
+
+Before any test stabilize the EUT under constant environmental conditions. Apply
+one load or simulated load and record:
+
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d] (<<scls-T-4-2-7>>), or the EUT shall detect and react to a significant
+fault.
+
+[[scls-A-7-3-4]]
+===== Electrostatic discharge
+
+Electrostatic discharge tests are carried out according to Basic Standard IEC
+Publication 61000-4-2 [22] and according to <<table-18>>.
+
+[[table-18]]
+[cols="4*^.^",options="header"]
+|===
+| Environmental phenomena
+2+| Test specification
+| Test setup
+
+.3+| Electrostatic discharge
+| Test voltage
+| Levels^(1)^
+.3+| IEC 61000-4-2
+
+| contact discharge
+| stem:[6 "unitsml(kV)"]
+
+| air discharge
+| stem:[8 "unitsml(kV)"]
+|===
+
+NOTE: Tests shall be performed at the specified lower levels, starting with
+stem:[2 "unitsml(kV)"] and proceeding with stem:[2 "unitsml(kV)"] steps up to
+and including the level specified above in accordance with IEC 61000-4-2.
+
+NOTE: The stem:[6 "unitsml(kV)"] contact discharge shall be applied to conductive
+accessible parts. Metallic contacts, e.g. in battery compartments or in socket
+outlets are excluded from this requirement.
+
+Supplementary information to the IEC test procedures
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under conditions where electrostatic discharges are applied while observing
+the weight indication for one small static test load.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: The performance of the test generator shall be verified
+before connecting the EUT.
++
+The EUT is connected to the voltage supply and "on" for a time period equal
+to or greater than the warm-up time specified by the manufacturer. Adjust the
+EUT as close to zero indication as practicable, prior to the test. Zero-setting
+functions shall not be in operation and are not to be adjusted at any time during
+the test except to reset if a significant fault has been indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: Contact discharge is the preferred test method. 20 discharges
+(10 with positive and 10 with negative polarity) shall be applied on each accessible
+metal part of the enclosure. The time interval between successive discharges
+shall be at least 10 seconds. In the case of a non conductive enclosure, discharges
+shall be applied on the horizontal or vertical coupling planes as specified
+in the reference standard. Air discharges shall be used where contact discharges
+cannot be applied.
++
+--
+Before any test stabilize the EUT under constant environmental conditions. Apply
+one small static test load and record:
+
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d] (<<scls-T-4-2-7>>), or the EUT shall detect and react to a significant
+fault.
+
+[[scls-A-7-3-5]]
+===== Immunity to electromagnetic fields
+
+====== Immunity to radiated electromagnetic fields
+
+Radiated, radio-frequency, electromagnetic (EM) field immunity tests (radio-frequency
+EM fields higher than stem:[80 "unitsml(MHz)"]) are carried out in accordance
+to Basic Standard IEC Publication 61000-4-3 [23] and according to <<table-19>>.
+
+[[table-19]]
+[cols="4*^.^",options="header"]
+|===
+| Environmental phenomena
+2+| Test specification
+| Test setup
+
+.3+| Radiated electromagnetic field
+| Frequency ranges +
+(stem:["unitsml(MHz)"])
+| Field strength (stem:["unitsml(V*m^-1)"])
+.3+| IEC 61000-4-3
+
+| stem:[80] to stem:[2000]^(1)^
+.2+| 10
+
+| 26 to 80^(2)^
+
+| Modulation
+3+| stem:[80 %] AM, stem:[1 "unitsml(kHz)"] sine wave
+|===
+
+NOTE: IEC 61000-4-3 only specifies test levels above stem:[80 "unitsml(MHz)"].
+For frequencies in the lower range the test methods for conducted radio frequency
+disturbances according to A.7.3.4.2 are recommended.
+
+NOTE: For EUTs having no mains or other I/O ports available so that the test
+according to A.7.3.4.2 cannot be applied, the lower limit of the radiation test
+is stem:[26 "unitsml(MHz)"].
+
+Supplementary information to the IEC test procedures
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under conditions of specified radiated electromagnetic fields applied while
+observing the weight indication for one small static test load.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: The performance of the test generator shall be verified
+before connecting the EUT.
++
+The EUT is connected to the voltage supply and "on" for a time period equal
+to or greater than the warm-up time specified by the manufacturer. Adjust the
+EUT as close to zero indication as practicable, prior to the test. Zero-setting
+functions shall not be in operation and are not to be adjusted at any time during
+the test except to reset if a significant fault has been indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: The EUT shall be exposed to EM field strength as specified
+in <<table-19>>. The frequency ranges to be considered are swept with the modulated
+carrier. The performance of the EUT shall be verified.
++
+--
+Before any test stabilize the EUT under constant environmental conditions. Apply
+one small static test load and record:
+
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d] (<<scls-T-4-2-7>>), or the EUT shall detect and react to a significant
+fault.
+
+====== Immunity to conducted electromagnetic field tests
+
+Conducted, radio-frequency, electromagnetic field (EM) immunity tests (radio-frequency
+EM fields lower than stem:[80 "unitsml(MHz)"]) are carried out in accordance
+to Basic Standard IEC Publication 61000-4-6 [24] and according to <<table-20>>.
+
+[[table-20]]
+[cols="4*^.^",options="header"]
+|===
+| Environmental phenomena
+2+| Test specification
+| Test setup
+
+.2+| Conducted electromagnetic field
+| Frequency range +
+stem:["unitsml(MHz)"]
+| RF amplitude (50 ohms) +
+stem:["unitsml(V)"] (e.m.f)
+.2+| IEC 61000-4-6
+
+| 0.15 to 80
+| stem:[10 "unitsml(V)"]
+
+| Modulation
+3+| stem:[80 %] AM, stem:[1 "unitsml(kHz)"] sine wave
+|===
+
+NOTE: This test is not applicable when the EUT has no mains or other input port.
+
+Supplementary information to the IEC test procedures
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under conditions of specified conducted electromagnetic fields applied while
+observing the weight indication for one small static test load.
+
+Preconditioning:: None required.
+
+Condition of the EUT:: The performance of the test generator shall be verified
+before connecting the EUT.
++
+The EUT is connected to the voltage supply and "on" for a time period equal
+to or greater than the warm-up time specified by the manufacturer. Adjust the
+EUT as close to zero indication as practicable, prior to the test. Zero-setting
+functions shall not be in operation and are not to be adjusted at any time during
+the test except to reset if a significant fault has been indicated.
+
+Number of test cycles:: At least one cycle.
+
+Test information:: Before any test stabilize the EUT under constant environmental
+conditions. Apply one small static test load and record:
++
+--
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d] (<<scls-T-4-2-7>>), or the EUT shall detect and react to a significant
+fault.
+
+[[scls-A-7-3-6]]
+===== Electrical transient conduction for instruments powered by a road vehicle battery
+
+====== Electrical transient conduction along supply lines of stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] batteries
+
+Transient immunity tests along supply lines of stem:[12 "unitsml(V)"] and
+stem:[24 "unitsml(V)"] vehicle batteries are carried out in accordance to ISO
+7637-2 [26] and according to <<table-21>>.
+
+[[table-21]]
+[cols="5*^.^",options="header"]
+|===
+| Environmental phenomena
+3+| Test specification
+| Test setup
+
+.7+| Conduction along stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] supply lines
+.2+| Test pulse
+2+| Pulse voltage, stem:[U_"s"]
+.7+| ISO 7637-2
+
+| stem:[U_"nom" = 12 "unitsml(V)"]
+| stem:[U_"nom" = 24 "unitsml(V)"]
+
+| 2a | stem:[+50 "unitsml(V)"]  | stem:[+50 "unitsml(V)"]
+| 2b | stem:[+10 "unitsml(V)"]  | stem:[+20 "unitsml(V)"]
+| 3a | stem:[-150 "unitsml(V)"] | stem:[-200 "unitsml(V)"]
+| 3b | stem:[+100 "unitsml(V)"] | stem:[+200 "unitsml(V)"]
+| 4  | stem:[-7 "unitsml(V)"]   | stem:[-16 "unitsml(V)"]
+|===
+
+NOTE: Test pulse 2b is only applicable if the instrument is connected to the
+battery via the main (ignition) switch of the car, i.e. if the manufacturer
+has not specified that the instrument is to be connected directly (or by its
+own main switch) to the battery.
+
+Supplementary information to the ISO test procedures
+
+Applicable standards:: ISO 7637-2 § 5.6.2: Test pulse 2a + b, +
+§ 5.6.3: Test pulse 3a + 3b, +
+§ 5.6.4: Test pulse 4.
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under the following conditions while observing the weight indication for one
+small static test load:
++
+--
+* transients due to a sudden interruption of currents in a device connected
+in parallel with the device under test due to the inductance of the wiring harness
+(pulse 2a);
+* transients from DC motors acting as generators after the ignition is switched
+off (pulse 2b);
+* transients on the supply lines, which occur as a result of the switching processes
+(pulses 3a and 3b);
+* voltage reductions caused by energizing the starter-motor circuits of internal
+combustion engines (pulse 4).
+--
+
+Preconditioning:: None
+
+Condition of the EUT:: The EUT is connected to the voltage supply and "on" for
+a time period equal to or greater than the warm-up time specified by the manufacturer.
+Adjust the EUT as close to zero indication as practicable prior to the test.
+Zero-setting functions shall not be in operation and are not be adjusted at
+any time during the test except to reset if a significant fault has been indicated.
+
+Stabilization:: Before any test stabilize the EUT under constant environmental
+conditions.
+
+Test information:: The EUT is exposed to conducted disturbances (on the supply
+voltage by direct brief coupling on supply lines) of the strength and character
+as specified in <<table-21>>. With the static load in place record:
++
+--
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+
+Repeat the test weighing for the defined voltages and record the indications.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d] (<<scls-T-4-2-7>>), or the EUT shall detect and react to a significant
+fault.
+
+====== Transient conduction by capacitive and inductive coupling via lines other than supply lines
+
+Transient immunity tests via lines other than supply lines for stem:[12 "unitsml(V)"]
+or stem:[24 "unitsml(V)"] road vehicle batteries are carried out in accordance
+with ISO 7637-3 [27] and according to <<table-22>>.
+
+[[table-22]]
+[cols="5*^.^",options="header"]
+|===
+| Environmental phenomena
+3+| Test specification
+| Test setup
+
+.4+| Electrical transient conduction via lines other than supply lines
+.2+| Test pulse
+2+| Pulse voltage, stem:[U_"s"]
+.4+| ISO 7637-3
+
+| stem:[U_"nom" = 12 "unitsml(V)"]
+| stem:[U_"nom" = 24 "unitsml(V)"]
+
+| a | stem:[-60 "unitsml(V)"] | stem:[-80 "unitsml(V)"]
+| b | stem:[+40 "unitsml(V)"] | stem:[+80 "unitsml(V)"]
+|===
+
+Supplementary information to the ISO test procedures:
+
+Applicable standards:: ISO 7637-3, § 4.5: Test pulses a and b.
+
+Object of the test:: To verify compliance with the provisions in <<scls-4-1-2>>
+under conditions of transients which occur on other lines as a result of the
+switching processes (pulses a and b), under the following conditions while observing
+the weight indication for one small static test load.
+
+Preconditioning:: None
+
+Condition of the EUT:: The EUT is connected to the voltage supply and "on" for
+a time period equal to or greater than the warm-up time specified by the manufacturer.
+Adjust the EUT as close to zero indication as practicable prior to the test.
+Zero-setting functions shall not be in operation and are not to be adjusted
+at any time during the test except to reset if a significant fault has been
+indicated.
+
+Stabilization:: Before any test stabilize the EUT under constant environmental
+conditions.
+
+Weighing test:: The EUT is exposed to conducted disturbances (bursts of voltage
+spikes by capacitive and inductive coupling via lines other than supply lines)
+of the strength and character as specified in <<table-22>>. With the static
+load in place record:
++
+--
+. date and time;
+. temperature;
+. relative humidity;
+. voltage supply;
+. test load;
+. indications (as applicable);
+. errors;
+. functional performance.
+
+Repeat the test weighing for the defined voltages and record the indications.
+--
+
+Maximum allowable variations:: The difference between the indication due to
+the disturbance and the indication without the disturbance either shall not
+exceed stem:[1 d], or the EUT shall detect and react to a significant fault.
+
+[[scls-A-8]]
+=== Span stability test (4.4.3)
+
+[%unnumbered,cols="3*^",headerrows=2]
+|===
+3+| Summary of test
+| Test | Condition applied | §
+
+| Span stability
+| ½ absolute MPEfootnote:[Maximum permissible error on initial verification
+given in <<scls-2-2-2>>.]
+| <<scls-A-8>>
+|===
+
+NOTE: The maximum permissible error for the zero point shall also be taken into
+consideration.
+
+Test method:: Span stability.
+
+Object of the test:: To verify compliance with the provisions in 4.4.3 after
+the EUT has been subjected to the performance tests.
+
+Reference to standard:: No reference to international standards can be given
+at the present time.
+
+Test procedure in brief:: The test consists of observing the variations of the
+error of the EUT or simulator under sufficiently constant ambient conditions
+(reasonably constant conditions in a normal laboratory environment) at various
+intervals: before, during and after the EUT has been subjected to performance tests.
++
+--
+The performance tests shall include the temperature test and, if applicable,
+the damp heat test. Other performance tests listed in this Annex may be performed.
+
+The EUT shall be disconnected twice from the mains power supply (or battery
+supply where fitted) for at least 8 hours during the period of the test. The
+number of disconnections may be increased if so specified by the manufacturer
+or at the discretion of the approval authority in the absence of any specification.
+
+In the conduct of this test, the operating instructions for the instrument as
+supplied by the manufacturer shall be considered.
+--
+
+Test severity:: Test duration: 28 days or the time period necessary to conduct
+the performance tests, whichever is less.
+
+Time, stem:[t], between tests (days):: stem:[0.5 <= t <= 10].
+
+Test load:: Near maximum capacity, Max; the same test weights shall be used
+throughout the test.
+
+Maximum allowable variations:: The variation in the errors of indication shall
+not exceed half the absolute value of the maximum permissible error in <<scls-2-2-2>>
+for initial verification for the test load applied on any of the stem:[n] measurements.
+
+Number of tests, stem:[n]:: At least eight, except where the differences of
+the results indicate a trend more than half the allowable variation specified,
+the measurements shall be continued until the trend comes to rest or reverses
+itself, or until the error exceeds the maximum allowable variation.
+
+Precondition:: None required.
+
+Test equipment:: Verified mass standards or simulated loads.
+
+Condition of the EUT:: The EUT is connected to the voltage supply and "on" for
+a time period equal to or greater than the warm-up time specified by the manufacturer.
++
+The EUT shall be stabilized at sufficiently constant ambient conditions after
+switch-on for at least five hours, and at least 16 hours after the temperature
+and damp heat tests have been performed.
+
+Test sequence:: Stabilize all factors at sufficiently constant ambient conditions.
++
+--
+Adjust the EUT as close to zero as possible.
+
+Automatic zero-tracking shall be made inoperative and any automatic built-in
+span adjustment device shall be made inoperative.
+
+Apply the test load (or simulated load) and determine the error.
+
+After the first measurement immediately repeat zeroing and loading four times
+to determine the average value of the error. For the subsequent measurements
+perform only one, unless either the result is outside the specified tolerance
+or the range of the five readings of the initial measurement is more than stem:[0.1 d].
+
+Record the following data:
+
+. date and time;
+. temperature;
+. relative humidity;
+. test load;
+. indications (as applicable);
+. errors;
+. changes in test location,
+
+and apply all necessary corrections resulting from variations in temperature,
+etc. between the various measurements.
+
+Allow full recovery of the EUT before any other tests are performed.
+--
+
+[[scls-A-9]]
+=== PROCEDURE FOR IN-MOTION TESTS
+
+==== General
+
+Note the accuracy classes required for the vehicle mass (VM) and, if required,
+for axle load and axle-group load.
+
+Ensure that the desired scale interval and the maximum capacity comply with
+<<scls-2-3>>. Check that the minimum capacity complies with <<scls-2-4>>.
+
+For type approval, tests shall be carried out in accordance with the requirements
+of this Recommendation, and especially the requirements in <<scls-5-1>> and <<scls-A-1>>.
+
+For initial verification, tests shall be carried out in accordance with the
+requirements of this Recommendation, and especially the requirements in <<scls-5-2>> and <<scls-A-2>>.
+
+For subsequent and in-service verification, tests shall be carried out in accordance
+with the requirements of this Recommendation, and especially the requirements in <<scls-5-3>>.
+
+In determining the single-axle load, and if required, the axle-group load, the
+conditions specified in <<scls-2-5>> and, if appropriate the requirements of
+national regulations should be taken into account.
+
+[[scls-A-9-2]]
+==== Control instrument
+
+Establish whether or not the WIM instrument is to be used as an integral control
+instrument. If it is an integral control instrument then it shall comply with
+<<scls-6-2-1>> and be tested, using the static weighing test method in <<scls-6-3>>,
+in accordance with <<scls-A-5-2>>.
+
+If vehicles have to be moved over some distance from a separate control instrument
+to the EUT, the conditions must be closely controlled. Differences in weather
+conditions may cause errors which will not be determinable and so this should
+be avoided where possible. Consideration shall also be given to the amount of
+fuel used and any possible effects that this could have on the reference values.
+
+==== Weighing
+
+===== Static weighing
+
+If the WIM instrument is provided with a static weighing mode, the static weighing
+test detailed in <<scls-A-9-3-1-1>> shall be applied. When the instrument has been tested
+according to the test in <<scls-A-9-2>> then those results may be used.
+
+[[scls-A-9-3-1-1]]
+====== Static weighing test
+
+Apply test loads from zero up to and including Max, then remove the test loads
+back to zero. Where the size of the load receptor prevents loading to Max, the
+reduced load should be noted. However, where a reduced load is used, it shall
+be at least stem:[50 %] of Max. At least ten different load values shall be
+selected. The values of the loads selected shall include Max and Min, and values
+at or near those at which the maximum permissible error changes.
+
+It should be noted that when loading or unloading weights, the load must be
+respectively increased or decreased in a uniform progression.
+
+Ensure that the error is recorded at each change in load and calculate the errors
+according to A.3.5.2. Record the errors and compare them to the limits in <<scls-2-2-2>>
+as appropriate for initial verification or in-service inspection.
+
+[[scls-A-9-3-1-2]]
+====== Full-draught weighing of reference vehicles
+
+For testing instruments to be used for determining the vehicle mass (VM), select
+the required number of reference vehicles as specified in <<scls-6-5>>, and
+conduct the following tests:
+
+. [[item-A-9-3-1-2-a]]The conventional true value (T.1.9) of the unloaded reference vehicle mass
+shall be determined by full-draught weighing of the unloaded reference vehicles
+on the control instrument.
+. The conventional true value (T.1.9) of the loaded reference vehicle mass shall
+be determined by:
+* loading the unloaded reference vehicles in <<item-A-9-3-1-2-a>> above with standard test loads; or
+* full-draught weighing of the loaded reference vehicles on the control instrument.
+
+[[scls-A-9-3-1-3]]
+====== Determining static reference single-axle loads for the two-axle rigid reference vehicle
+
+For testing instruments to be used in applications where the single-axle loads
+are required, the conventional true value of the static reference single-axle
+loads shall be determined for the two-axle rigid reference vehicle by including
+a minimum of two different axle loads using the following method:
+
+. Weigh each axle of the static two-axle rigid reference vehicle in turn on
+the control instrument specified in <<scls-6-2-2>> and record the indicated
+single-axle load. After both axles have been weighed, calculate the vehicle
+mass by the summation of the recorded values for the two axle loads and record
+the VM value. This operation shall be conducted five times with the vehicle
+facing in the same direction, and a further five times with the vehicle facing
+in the opposite direction.
+. For each of the above weighing operations, ensure that the vehicle is stationary,
+with the wheels on the axle being weighed fully supported by the load receptor,
+the engine switched off, the gear in neutral and the brakes released. Use wheel
+chocks, if necessary, to prevent vehicle motion.
++
+--
+. Calculate the mean static reference single-axle load for each axle on the
+two-axle rigid vehicle according to the following:
++
+[stem]
+++++
+bar("Axle")_i = (sum_1^10 "Axle"_i)/10
+++++
++
+where
++
+
+stem:[i]:: is the single-axle rank
+
+10:: is the number of weighments of each static axle
+
+stem:["Axle"_i]:: is the recorded load for that axle
+. Add the two mean single-axle loads to determine the mean of the static vehicle mass:
++
+[stem]
+++++
+bar("VM") = sum_(i-1)^2 bar("Axle")_i
+++++
++
+Alternatively, use the recorded values for the vehicle mass calculated after
+each vehicle weighment as described above and calculate the mean of the static
+two-axle reference vehicle mass according to the following:
++
+[stem]
+++++
+bar("VM") = (sum_1^10 "VM")/10
+++++
+. [[item-A-9-3-1-3_3]]Calculate the corrected mean single-axle loads as follows:
++
+[stem]
+++++
+bar("CorrAxle")_i = bar("Axle")_i xx "VM"_"ref"/bar("VM")
+++++
++
+where
++
+
+stem:["VM"_"ref"]:: is the conventional true value of each reference vehicle
+mass determined by full-draught weighing in <<scls-6-7>>.
+. [[item-A-9-3-1-3_4]]For the purposes of this Recommendation, the conventional true value of the
+static reference single-axle loads (see <<scls-T-3-1-10>>) for the two-axle rigid reference
+vehicle shall be the respective corrected mean single-axle load as calculated
+in <<item-A-9-3-1-3_3>> above.
+. Traceability of the conventional true value of the single-axle loads on the
+static reference two-axle rigid vehicle is provided by the fact that the sum
+of the two corrected mean static reference single-axle loads equals the conventional
+true value of the reference vehicle mass determined by full-draught weighing
+(<<scls-6-7>>) on a suitable control instrument (<<scls-6-2-1>>):
++
+[stem]
+++++
+"VM"_"ref" = sum_(i-1)^2 bar("CorrAxle")_i
+++++
+
+The static reference single-axle loads shall be determined with the vehicle
+unloaded and loaded appropriately such that the axle loads cover, as far as
+practicable, the weighing range of the instrument. A minimum of two different
+axle loads, e.g. one near Min and one near Max (respectively at the maximum
+permissible axle load of the two-axle rigid reference vehicle) shall be tested.
+--
+
+[[scls-A-9-3-2]]
+===== In-motion tests
+
+Prior to any test, adjust the instrument under test in-situ and in accordance
+with the manufacturer's specifications.
+
+All weighing operations shall be started with the reference vehicle positioned
+in advance of the approach apron at a distance sufficient for the vehicle to
+be traveling at a steady speed before arriving at the apron.
+
+Test runs shall be conducted using the two-axle rigid reference vehicle plus
+a minimum of two other reference vehicles (<<scls-6-5>>) with each vehicle unloaded
+and loaded.
+
+The speed of the vehicle shall be kept as constant as feasible during each in-motion
+test run.
+
+For each vehicle and loading condition at least five test runs shall be performed
+with three test runs made over the center of the load receptor, one test run
+made to the left side of the load receptor, and one test run made to the right
+side of the load receptor.
+
+The five test runs shall be conducted at the following speeds that are within
+the range of speeds for which the instrument is to be evaluated:
+
+. near maximum operating speed, stem:[v_"max"] (<<scls-T-3-4-2>>);
+. near minimum operating speed, stem:[v_"min"] (<<scls-T-3-4-3>>);
+. [[item-A-9-3-2-c]]near the center of the range of operating speeds (<<scls-T-3-4-4>>).
+
+[[scls-A-9-3-2-1]]
+====== Vehicle mass measurement
+
+Record the vehicle masses as they are displayed or printed (<<scls-6-12>>) by
+the instrument under test, and calculate the errors according to the vehicle
+reference weights determined in <<scls-A-9-3-1-2>>.
+
+No error shall exceed the applicable maximum permissible error for the specified
+accuracy class in <<scls-2-1-1>>.
+
+====== Axle load measurement
+
+The procedures in this subclause are only applicable to instruments to be used
+in applications where the single-axle load or the axle-group load is required.
+
+[level=6]
+====== In-motion test with the two-axle rigid vehicle (<<item-5-1-3-2-2-1-a>>)
+
+[arabic]
+. In accordance with <<scls-6-6>> and <<scls-6-9>> record the two single-axle loads of the two-axle
+rigid vehicle as they are indicated or printed by the instrument under test.
+Calculate the difference (error) in each recorded single-axle load of the two-axle
+rigid vehicle and its respective static reference single-axle load (<<scls-A-9-3-1-3>>).
+. The maximum difference (error) between any recorded single-axle load and the
+conventional true value of the static reference single-axle loads (<<scls-A-9-3-1-3>>)
+shall not exceed the applicable maximum permissible errors in <<scls-2-2-1-2-1>>
+for the specified accuracy class.
+
+[[scls-A-9-3-2-2-2]]
+[level=6]
+====== In-motion tests with all other reference vehicle types (<<item-5-1-3-2-2-1-b>>)
+
+[arabic]
+. As specified in <<scls-6-6>>, <<scls-6-9>> and <<scls-A-9-3-2>>, conduct the tests,
+record the single-axle loads and, if required, the axle-group loads of the vehicle
+as they are indicated or printed by the instrument under test. If no criteria
+for defining various axle-groups have been set by national regulations (<<scls-T-3-1-7>>),
+all recorded axle loads shall be considered as single-axle loads (<<scls-T-3-1-9>>).
+For each reference vehicle (except the two-axle rigid) and its loading condition,
+calculate the mean single-axle loads and, if required, the mean axle-group loads
+of the test runs specified in <<scls-A-9-3-2>> according to the following equations:
++
+--
+[stem]
+++++
+bar("Axle")_i = (sum_1^n "Axle"_i)/n
+++++
+
+where
+
+stem:[i]:: is the single-axle rank
+
+stem:[n]:: is the number of test runs
+
+stem:["Axle"_i]:: is the recorded load for that axle
+
+and
+
+[stem]
+++++
+bar("Group")_i = (sum_1^n "Group"_i)/n
+++++
+
+where
+
+stem:[i]:: is the group rank; may be zero
+
+stem:[n]:: is the number of test runs
+
+stem:["Group"_i]:: is the recorded load for that axle-group
+--
+. Use the values indicated or printed by the instrument under test according
+to <<item-A-9-3-2-c>> and recorded as specified in <<scls-6-12>> for the vehicle
+mass and calculate the mean of the reference vehicle mass according to the following:
++
+--
+[stem]
+++++
+bar("VM") = (sum_1^n "VM"_i)/n
+++++
+
+Alternatively, add the mean single-axle loads and axle-group loads to determine
+the mean of the vehicle mass:
+
+[stem]
+++++
+bar("VM") = sum_(i=1)^q bar("Axle")_i + sum_(i=0)^g bar("Group")_i
+++++
+
+where
+
+stem:[q]:: is the number of single axles on the vehicle
+
+stem:[g]:: is the number of axle-groups on the vehicle, which may be zero
+--
+. [[item-A-9-3-2-2-2_3]]Calculate the corrected mean single-axle loads and,
+if required, the corrected mean axle-group load(s) as follows:
++
+--
+[stem]
+++++
+bar("CorrAxle")_i = bar("Axle")_i xx "VM"_"ref"/bar("VM") qquad bar("CorrGroup")_i = bar("Group")_i xx "VM"_"ref"/bar("VM")
+++++
+
+where
+
+stem:["VM"_"ref"]:: is the conventional true value of the reference vehicle
+mass determined by full-draught weighing in <<scls-6-7>>.
+--
+. To provide traceability, the sum of the corrected mean single-axle loads and
+axle-group loads for the reference vehicle should be equal to the conventional
+true value of the reference vehicle mass:
++
+--
+[stem]
+++++
+"VM"_"ref" = sum_(i=1)^q bar("CorrAxle")_i + sum_(i=0)^g bar("CorrGroup")_i
+++++
+
+where
+
+stem:[q]:: is the number of single axles on the vehicle
+
+stem:[g]:: is the number of axle-groups on the vehicle, which may be zero
+--
+. Calculate the deviation of each single-axle load from the respective corrected
+mean single-axle load and, if required, the deviation of each axle-group load
+from the respective (if more than one axle-group) corrected mean axle-group load:
++
+--
+[stem]
+++++
+"DevAxle"_i = "Axle"_i - bar("CorrAxle")_i
+++++
+
+[stem]
+++++
+"DevGroup"_i = "Group"_i - bar("CorrGroup")_i
+++++
+--
+. No deviation shall exceed the appropriate maximum permissible deviation as
+specified in <<scls-2-2-1-2-2>> for the applicable accuracy class.
+. For future reference only (to quantify any difference in the fraction of the
+vehicle mass carried on each of the two-axle rigid reference vehicle's single
+axles when determined by static (<<item-A-9-3-1-3_4>>) and by in-motion (<<item-A-9-3-2-2-2_3>>)
+weighing), also perform the calculations above (1-5) for all test runs of the
+two-axle rigid reference vehicle, unloaded and loaded. Include these results
+in the test report so that this data will not be lost. These results shall not
+be used in lieu of those from <<scls-A-9-3-2-1>> for evaluating the WIM instrument being
+tested.
+
+====== Operating speed measurement (<<scls-2-10>>)
+
+[level=6]
+====== Test of operating speed interlock (<<scls-A-6-3>>)
+
+To test the functioning of the operating speed interlock, test runs with one
+of the reference vehicles shall be made at speeds outside the range of operating
+speeds:
+
+. at a speed of at least stem:[5 %] in excess of the maximum operating speed,
+stem:[v_"max"];
+. at a speed of at least stem:[5 %] below the minimum operating speed, stem:[v_"min"]
+(if applicable).
+
+The instrument shall detect the above conditions and not indicate or print any
+mass or load values unless there is a clear warning message on the indication
+and/or the printout (<<scls-3-5-9>>).
+
+[[scls-A-9-3-2-4-2]]
+[level=6]
+====== Test of operating speed (<<scls-3-5-9>>)
+
+To determine and test the operating speed during an in-motion test, conduct
+six test runs of the unloaded two-axle rigid reference vehicle over the lateral
+center of the load receptor at constant speed. Three runs shall be near maximum
+operating speed, stem:[v_"max"], and three additional runs shall be just above
+minimum operating speed, stem:[v_"min"].
+
+The reference value (conventional true value) for speed to be used in calculating
+the error in the indicated operating speed for each test run shall be the quotient
+of the measured axle spacing (to the nearest stem:[10 "unitsml(mm)"]) of the
+static two-axle rigid reference vehicle divided by the measured time interval
+(to the nearest millisecond) between arrival at a defined location (e.g. the
+leading edge) on the load receptor by the front and the rear axle of the moving
+two-axle rigid reference vehicle.
+
+No error in the indicated operating speed shall exceed stem:[1 "unitsml(km/h)"].
+
+====== Test of vehicle recognition device interlock (<<scls-3-5-7>>)
+
+The correct function of the device shall be tested by the following test procedure
+if:
+
+. the WIM instrument automatically determine axle-group loads; or
+. a maximum number of axles per vehicle is given on the plate; or
+. the length of the weigh zone is given on the plate.
+
+Connect two of the reference vehicles together with a suitable towing device
+(strap or chain) to form a combination vehicle that has an overall length greater
+than the minimum, or otherwise specified (B.4), apron length. Have the front
+vehicle tow the connected rear vehicle (with driver onboard) over the full length
+of the weigh zone at a speed near the maximum operating speed, stem:[v_"max"],
+with the instrument operating in automatic mode.
+
+The instrument shall:
+
+. determine the correct axle-group loads or detect a failure;
+. detect the exceeding of the maximum number of axles;
+. detect the fact that all of the wheels of the vehicle being weighed were not
+within the weigh zone throughout the weighing operation and not indicate or
+print any mass or load values unless there is a clear warning message on the
+indication and/or the printout.

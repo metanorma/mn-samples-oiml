@@ -1,0 +1,297 @@
+
+[[cls-6]]
+== TEST METHODS
+
+=== Test procedures
+
+==== Vehicle mass
+
+For the vehicle mass a complete WIM instrument shall be tested for compliance
+with the requirements specified in <<scls-2-1-1>> using the range of vehicles
+specified in <<scls-6-5>>, and if applicable also the integral control instrument
+(<<scls-6-2-1>>) shall be tested.
+
+==== Single-axle load and axle-group load
+
+For single-axle loads and, if required, for axle-group loads a complete WIM
+system shall be tested for compliance with the metrological requirements in:
+
+* <<item-2-2-1-2-a>> using a two-axle rigid vehicle for the static reference
+axle load specified in <<scls-A-9-3-1-3>>; and
+
+* <<item-2-2-1-2-b>> using the range of reference vehicles specified in <<scls-6-5>>.
+
+[[scls-6-2]]
+=== Control instrument
+
+A control instrument for determining the conventional true value of each reference
+vehicle mass shall be available for testing. The control instrument may either
+be separate or integral.
+
+[[scls-6-2-1]]
+==== Integral control instrument
+
+The WIM instrument under test may be used as the control instrument provided that it:
+
+* has an appropriate scale interval or scale interval for stationary load (<<scls-2-9>>);
+and
+
+* complies with the requirements in <<scls-3-4>>.
+
+[[scls-6-2-2]]
+==== Separate control instrument
+
+===== Control instrument for full-draught vehicle weighing
+
+A separate control instrument, capable of being used to determine the conventional
+true value of each reference vehicle mass by full-draught weighing when stationary,
+shall ensure the determination of the conventional true value of each reference
+vehicle's mass to an error not greater than one-third of whichever is the smaller
+of the appropriate MPE for in-motion tests in <<scls-2-1-1>>.
+
+==== Control instrument for static reference single-axle load of the two-axle rigid vehicle
+
+As appropriate, a separate or integral control instrument, capable of being
+used to determine the conventional true value of the static reference single-axle
+loads by individual axle measurement when stationary, shall be used for tests
+with the two-axle rigid reference vehicle.
+
+The control instrument used for determining the static reference axle loads shall:
+
+* be able to support the entire contact area of all the tyres on the individual
+axle being weighed;
+
+* ensure the determination of the conventional true value of the static reference
+axle loads of the two-axle rigid reference vehicle to an error not greater than
+one-third of whichever is the smaller of the appropriate MPE for in-motion tests
+in <<scls-2-2-1-2-1>>.
+
+* be provided with approach and exit aprons in the same plane as the load receptor
+which shall extend to a length sufficient to fully support the two-axle rigid
+vehicle being weighed. The aprons shall have no longitudinal slope and not more
+than stem:[1 %] of transverse slope. Where this specification cannot be achieved,
+alternative means may be provided to ensure that all of the wheels of the reference
+vehicle are within stem:[pm 3 "unitsml(mm)"] of a horizontal or transversely-sloped
+plane passing through the load receptors during the weighing operations.
+
+[[scls-6-3]]
+=== Static weighing test for integral control instruments
+
+This test is applicable if the WIM instrument being verified is to be used as
+the control instrument for measuring the static reference axle loads of the
+two-axle rigid vehicle.
+
+==== Test loads
+
+Errors shall be determined for test loads of:
+
+. [[item-6-3-1-a]]minimum capacity;
+. [[item-6-3-1-b]]maximum capacity;
+. at least two loads in between <<item-6-3-1-a>> and <<item-6-3-1-b>>.
+
+==== Distribution of test loads
+
+Except for eccentricity tests, standard weights or masses shall be evenly distributed
+on the load receptor.
+
+[[scls-6-3-3]]
+==== Eccentricity tests
+
+Tests shall be carried out without excessive stacking or overlapping of the
+load on the load receptor provided that the conditions are practical and safe.
+
+[[scls-6-3-4]]
+==== Repeatability tests
+
+The repeatability error has to be determined with a load of about stem:[50 %]
+of Max which is placed 3 times on the load receptor.
+
+=== Verification standards
+
+[[scls-6-4-1]]
+==== Weights
+
+The standard weights or standard masses used for the type examination or verification
+of an instrument shall principally meet the metrological requirements of OIML
+R 111 [6]. The error of the standard weights or masses used shall not be greater
+than one-third of the maximum permissible error for the load, as specified in
+<<table-5>> for initial verification.
+
+==== Substitution of standard weights
+
+The test shall be carried out only during verification and at the place of use
+taking <<scls-A-5-2-2-2>> into account.
+
+When testing instruments at the place of use (application), instead of standard
+weights any other constant load may be used, provided that standard weights
+of at least stem:[50 %] of Max are used. Instead of stem:[50 %] of Max, the
+portion of standard weights may be reduced to:
+
+* stem:[35 %] of Max if the repeatability error is stem:[<= 0.3 d]; or
+
+* stem:[20 %] of Max if the repeatability error is stem:[<= 0.2 d].
+
+The repeatability error (<<scls-6-3-4>>) shall be checked at a load of about
+the value at which the substitution is made, by placing this load three times
+on the load receptor. The results of the repeatability test (<<scls-A-5-2-5>>) may be
+used if the test loads have a comparable mass.
+
+If the instrument is provided with an automatic zero-setting or zero-tracking
+device, it may be in operation during the tests, except for the temperature
+test. The error at zero point is then determined according to <<scls-A-5-1-2>>.
+
+[[scls-6-5]]
+=== Reference vehicles
+
+The type and number of reference vehicles to be used for testing shall represent
+the range of vehicles available in the appropriate Member State and for which
+the instrument is intended. Vehicle classification according to axle arrangement
+shall be accomplished using the available WIM-system axle-count and axle spacing
+information. In addition to a two-axle rigid vehicle, there shall be a minimum
+of two other different reference vehicles. Different axle configurations, tractor/trailer
+configurations, tractor/trailer linkage systems and suspension systems shall
+be used, as appropriate.
+
+When a particular instrument is tested using a limited range of vehicle types
+(e.g. air suspension systems only), this should be noted in the type approval
+certificate.
+
+A minimum of two other reference vehicles shall be selected from the three listed
+below:
+
+* one three/four-axle rigid;
+
+* one four-or more axle articulated;
+
+* one two/three-axle rigid vehicle and a two/three-axle draw-bar trailer.
+
+The two-axle rigid vehicle shall be used as the reference vehicle for determining
+the conventional true value of static reference single-axle loads and as one
+of the reference vehicles for in-motion tests.
+
+The other reference vehicles shall be selected to cover, as far as practicable,
+the weighing range for which the instrument is approved.
+
+The reference vehicles shall be used for tests in the unloaded and loaded condition
+(A.9.3.1).
+
+Vehicles carrying liquid loads or other products that that may be subjected
+to fluctuations in their center of gravity when the vehicle moves, shall be
+used as reference vehicles only if the WIM instrument will be applied subsequently
+for determining the mass, or the loads of single-axles and/or axle-group of
+such vehicles. If the WIM instrument is not intended for this use, it shall
+bear the marking "not to be used to weigh vehicles carrying liquids or other
+products that may be subjected to fluctuations in their center of gravity by
+vehicle movement".
+
+If the WIM instrument is intended to be used for determining the vehicle mass,
+the single-axle loads or the axle-group loads of vehicles with conventional
+steel leaf spring suspension, tests shall be carried out on vehicles with at
+least one such single-axle and one such axle-group suspension type. If the WIM
+instrument is not intended for this use, it shall bear the marking "not to be
+used to weigh vehicles with conventional steel leaf spring suspension".
+
+[[scls-6-6]]
+=== Number of in-motion tests
+
+Each reference vehicle (the two-axle rigid plus two or more others) shall undertake
+at least five test runs at each of three different speeds as detailed <<scls-A-9-3-2>>
+when unloaded and when loaded. Thus at least 90 reference vehicle runs are required
+for any testing session. If appropriate, a higher number of in-motion test runs
+may be conducted, in accordance with national regulations.
+
+[[scls-6-7]]
+=== Conventional true value of the reference vehicle mass
+
+The conventional true value of each reference vehicle mass, unloaded and loaded,
+shall be determined using full-draught weighing, as detailed in <<scls-A-9-3-1-2>>.
+
+[[scls-6-8]]
+=== Conventional true value of the static reference single-axle load
+
+The conventional true value of the static reference single-axle loads for the
+two-axle rigid reference vehicle, unloaded and loaded, shall be determined using
+the method detailed in <<scls-A-9-3-1-3>>.
+
+[[scls-6-9]]
+=== Indicated single-axle load and axle-group load
+
+The indication or printout of the single-axle load and, if required, the axle-group
+load following an automatic weighing operation shall be observed and recorded.
+
+[[scls-6-10]]
+=== Mean single-axle load and mean axle-group load
+
+The mean single-axle load shall be the sum of the indicated or printed axle
+loads obtained for each single axle on the reference vehicle during an in-motion
+test, divided by the number of single-axle load values recorded for each respective
+single axle.
+
+The mean axle-group load shall be the sum of the indicated or printed axle-group
+loads recorded for each defined axle-group on the reference vehicle during an
+in-motion test, divided by the number of load values recorded for each respective
+axle-group.
+
+[[scls-6-11]]
+=== Corrected mean of the single-axle load and the axle-group load
+
+The corrected mean of the axle loads for each single-axle or axle-group on a
+reference vehicle shall be the mean (<<scls-6-10>>) of the recorded values (<<scls-6-9>>)
+for the respective single-axles and axle-groups on the reference vehicle during
+an in-motion test, corrected proportionally (<<item-A-9-3-2-2-2_3>>) in relation to the
+systematic error of the instrument used for determining the recorded values.
+
+[[scls-6-12]]
+=== Indicated mass of the vehicle
+
+The vehicle mass following an automatic weighing operation shall be indicated
+and recorded. Where possible, the procedures in <<scls-A-3-5>> and <<scls-A-3-6-2>>
+shall be used to eliminate rounding errors included in any digital indication.
+
+[[scls-6-13]]
+=== Indicated operating speed
+
+The instrument shall indicate and record the operating speed following an in-motion
+test (<<scls-3-5-2>>). Alternatively, the procedure given in <<scls-A-9-3-2-4-2>>
+shall be used to determine the operating speed and the error.
+
+=== Examination and tests of electronic instruments
+
+The examination and testing of an electronic weighing instrument is intended
+to verify compliance with the applicable requirements of this Recommendation
+and especially the requirements for electronic instruments in <<cls-4>>.
+
+==== Examination
+
+An electronic weighing instrument shall be examined to obtain a general appraisal
+of its design and construction.
+
+==== Performance tests
+
+An electronic weighing instrument or electronic device, as appropriate, shall
+be tested as specified in <<annex-a>> to determine its correct operation.
+
+Tests are to be conducted on the whole instrument except when the size and/or
+configuration of the instrument does not lend itself to testing as a unit. In
+such cases, the separate electronic devices shall be subjected to testing. It
+is not intended that electronic devices be further dismantled for separate testing
+of components. In addition, an examination shall be carried out on the fully
+operational weighing instrument or, if necessary, on the electronic devices
+in a simulated setup that sufficiently represents the weighing instrument. The
+equipment shall continue to function correctly as specified in <<annex-a>>.
+
+==== Span stability tests
+
+The instrument shall be subjected to span stability tests at various intervals
+before, during and after being subjected to performance tests.
+
+When an instrument is subjected to the span stability test specified in <<scls-A-8>>:
+
+* the maximum allowable variation in the errors of indication shall not exceed
+half the absolute value of the maximum permissible error in <<scls-2-2-2>> for
+initial verification for the test load applied on any of the stem:[n] measurements.
+
+* where the differences of the results indicate a trend more than half the allowable
+variation specified above, the test shall be continued until the trend comes
+to rest or reverses itself, or until the error exceeds the maximum allowable
+variation.
