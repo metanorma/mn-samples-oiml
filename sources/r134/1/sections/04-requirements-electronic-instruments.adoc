@@ -1,0 +1,130 @@
+
+[[cls-4]]
+== REQUIREMENTS FOR ELECTRONIC INSTRUMENTS
+
+Electronic instruments shall comply with the following requirements, in addition
+to the applicable requirements of all other clauses.
+
+=== General requirements
+
+[[scls-4-1-1]]
+==== Rated operating conditions
+
+Electronic weighing instruments shall be designed and manufactured so that they
+do not exceed the maximum permissible errors under rated operating conditions.
+
+[[scls-4-1-2]]
+==== Disturbances
+
+Electronic weighing instruments shall be designed and manufactured so that when
+they are exposed to disturbances either:
+
+. [[item-4-1-2-a]]significant faults do not occur; or
+. significant faults are detected and acted upon as specified in <<scls-4-3-1>>.
+
+NOTE: A fault equal to or less than stem:[1 d] is allowed irrespective of the
+value of the error of indication.
+
+[[scls-4-1-3]]
+==== Durability
+
+The requirements in <<scls-4-1-1>> and <<scls-4-1-2>> shall be met durably in
+accordance with the intended use of the instrument.
+
+==== Evaluation for compliance
+
+A type of an electronic weighing instrument is presumed to comply with the requirements
+in <<scls-4-1-1>>, <<scls-4-1-2>> and <<scls-4-1-3>> if it passes the examination
+and tests specified in <<annex-a>>.
+
+=== Application
+
+The requirements in <<scls-4-1-2>> may be applied separately to:
+
+. each individual cause of significant fault; and/or
+. [[item-4-2-b]]each part of the electronic instrument.
+
+The choice of whether <<item-4-1-2-a>> or <<item-4-2-b>> is applied is left
+to the manufacturer.
+
+[[scls-4-3]]
+=== Functional requirements
+
+[[scls-4-3-1]]
+==== Acting upon a significant fault
+
+When a significant fault has been detected, the instrument shall either be made
+in-operative automatically, or a visual or audible indication shall be provided
+and shall continue until the user takes action or the fault disappears.
+
+==== Switch-on procedure
+
+Upon switch-on, a special procedure such as a display test facility which is
+automatically initiated at switch-on of indication (in the case of electronic
+instruments permanently connected to the mains at switch-on of indication) shall
+be performed that shows all relevant signs of the indicator in their active
+and non-active states sufficiently long to be checked by the operator. This
+is not applicable for non-segmented displays, on which failures become evident,
+for example screen-displays, matrix-displays, etc.
+
+[[scls-4-3-3]]
+==== Influence factors
+
+An electronic weighing instrument shall comply with the requirements of <<scls-2-7>>,
+and in addition it shall maintain its metrological and technical characteristics
+at a relative humidity of stem:[85 %] at the upper limit of the temperature
+range of the instrument.
+
+[[scls-4-3-4]]
+==== Warm-up time
+
+During the warm-up time of an electronic weighing instrument, there shall be
+no indication or transmission of the weighing result and automatic operation
+shall be inhibited.
+
+[[scls-4-3-5]]
+==== Interface
+
+An instrument may be equipped with communication interfaces (<<scls-T-2-7>>) enabling
+the coupling of the instrument to external equipment and user interfaces (<<scls-T-2-8>>)
+permitting the exchange of information between a human user and the instrument.
+When an interface is used, the instrument shall continue to function correctly
+and its metrological functions (including all metrologically relevant parameters
+and software) shall not be influenced.
+
+===== Interface documentation
+
+The documentation on the instrument interfaces shall include:
+
+. A list of all commands (e.g. menu items);
+. Description of the software interface;
+. A list of all commands together;
+. A brief description of their meaning and their effect on the functions and
+data of the instrument.
+
+[[scls-4-3-5-2]]
+===== Securing of interfaces
+
+Communication and user interfaces shall not allow the legally relevant software
+and functions of the instrument and its measurement data to be inadmissibly
+influenced by other interconnected instruments, or by disturbances acting on
+the interface.
+
+An interface through which the functions mentioned above cannot be performed
+or initiated, need not be secured. Other interfaces shall be secured as follows:
+
+. Data shall be protected (e.g. with a protective interface as defined in <<scls-T-2-9>>)
+against accidental or deliberate interference during the transfer;
+. All functions in the software interface shall be subject to the requirements
+for securing software in <<scls-3-8-2>>;
+. All functions in the hardware interface shall be subject to the requirements
+for securing hardware in <<scls-3-8>>;
+. It shall be easily possible to verify the authenticity and integrity of data
+transmitted to and from the WIM instrument;
+. Functions performed or initiated by other connected instruments through the
+interfaces shall meet the appropriate requirements of this Recommendation.
+
+Other instruments required by national regulations to be connected to the interfaces
+of a WIM instrument shall be secured to automatically inhibit the operation
+of the WIM instrument for reasons of the non-presence or improper functioning
+of the required device.

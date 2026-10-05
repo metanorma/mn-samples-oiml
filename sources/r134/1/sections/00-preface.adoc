@@ -1,0 +1,733 @@
+
+== Foreword
+
+The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental
+organization whose primary aim is to harmonize the regulations and metrological
+controls applied by the national metrological services, or related organizations,
+of its Member States. The main categories of OIML publications are:
+
+* *International Recommendations (OIML R),* which are model regulations that
+establish the metrological characteristics, required of certain measuring instruments
+and which specify methods and equipment for checking their conformity. OIML
+Member States shall implement these Recommendations to the greatest possible extent;
+
+* *International Documents (OIML D),* which are informative in nature and which
+are intended to harmonize and improve work in the field of legal metrology;
+
+* *International Guides (OIML G),* which are also informative in nature and
+which are intended to give guidelines for the application of certain requirements
+to legal metrology; and
+
+* *International Basic Publications (OIML B),* which define the operating rules
+of the various OIML structures and systems.
+
+OIML Draft Recommendations, Documents and Guides are developed by Technical
+Committees or Subcommittees which comprise representatives from the Member States.
+Certain international and regional institutions also participate on a consultation
+basis. Cooperative agreements have been established between the OIML and certain
+institutions, such as ISO and the IEC, with the objective of avoiding contradictory
+requirements. Consequently, manufacturers and users of measuring instruments,
+test laboratories, etc. may simultaneously apply OIML publications and those
+of other institutions.
+
+International Recommendations, Documents, Guides and Basic Publications are
+published in English (E) and translated into French (F) and are subject to periodic
+revision.
+
+Additionally, the OIML publishes or participates in the publication of *Vocabularies
+(OIML V)* and periodically commissions legal metrology experts to write *Expert
+Reports (OIML E)*. Expert Reports are intended to provide information and advice,
+and are written solely from the viewpoint of their author, without the involvement
+of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do
+not necessarily represent the views of the OIML.
+
+This publication – reference OIML R 134-1, Edition 2006 – was developed by Technical
+Subcommittee TC 9/SC 2. It was approved for final publication by the International
+Committee of Legal Metrology in 2006 and will be submitted to the International
+Conference of Legal Metrology in 2008 for formal sanction. This edition supersedes
+the previous edition dated 2003.
+
+OIML Publications may be downloaded from the OIML web site in the form of PDF
+files. Additional information on OIML Publications may be obtained from the
+Organization's headquarters:
+
+Bureau International de Métrologie Légale +
+11, rue Turgot - 75009 Paris - France +
+Telephone: +33 (0)1 48 78 12 82 +
+Fax: +33 (0)1 42 82 17 27 +
+E-mail: biml@oiml.org +
+Internet: www.oiml.org
+
+[.preface]
+== Terminology
+
+The terminology used in this Recommendation conforms to the _International Vocabulary
+of Basic and General Terms in Metrology_ (VIM) [1], the _International Vocabulary
+of Legal Metrology_ (VIML) [2], the _OIML Certificate System for Measuring
+Instruments_ [3], and to OIML D 11 _General requirements for electronic measuring
+instruments_ [4]. In addition, for the purposes of this Recommendation, the
+following definitions apply.
+
+=== GENERAL DEFINITIONS
+
+[[scls-T-1-1]]
+==== Weighing instrument
+
+Measuring instrument used to determine the mass of a body by using the action
+of gravity on the body.
+
+NOTE: In this Recommendation "mass" (or "weight value") is preferably used in
+the sense of "conventional mass" or "conventional value of the result of weighing
+in air" according to OIML R 111 [5] and OIML D 28 [6], whereas "weight" is preferably
+used for an embodiment (= material measure) of mass that is regulated in regard
+to its physical and metrological characteristics.
+
+The instrument may also be used to determine other mass-related quantities,
+magnitudes, parameters or characteristics (e.g. axle load and axle-group load
+of a vehicle).
+
+According to its method of operation, a weighing instrument is classified as
+an automatic or non-automatic instrument.
+
+==== Automatic weighing instrument
+
+Instrument that weighs without the intervention of an operator and that follows
+a predetermined program of automatic processes characteristic of the instrument.
+
+==== Automatic instrument for weighing road vehicles in motion
+
+Automatic weighing instrument, having a load receptor (<<scls-T-2-3>>) and aprons (<<scls-T-2-2-1>>),
+that determines the vehicle mass (<<scls-T-3-1-5>>), axle loads (<<scls-T-3-1-8>>), and if applicable
+the axle-group loads (<<scls-T-3-1-11>>) of a road vehicle while the vehicle is crossing
+over the load receptor of the weighing instrument.
+
+==== Control instrument
+
+Weighing instrument used to determine the static reference vehicle mass of the
+reference vehicles and the static single-axle loads of a two-axle rigid reference
+vehicle.
+
+The control instruments used as a reference instrument during testing may be:
+
+* separate from the instrument being tested; or
+
+* integral, when a static weighing mode is provided by the instrument being tested.
+
+==== Conventional true value (of a quantity)
+
+Value attributed to a particular quantity (e.g. reference vehicle mass or single-axle
+load of a two-axle rigid reference vehicle) and accepted, by convention, as
+having an uncertainty appropriate for a given purpose. [VIM 1.20]
+
+==== Metrological authority
+
+Legal entity (i.e. the verification, and/or issuing authority) designated or
+formally accepted by the government to be responsible for ascertaining that
+the automatic weighing instrument satisfies all or some specific requirements
+of this Recommendation.
+
+=== CONSTRUCTION
+
+NOTE: In this Recommendation the term "device" is applied to any part which
+uses any means to perform one or more specific functions.
+
+[[scls-T-2-1]]
+==== Controlled weighing area
+
+Place specified for the operation of instruments for weighing road vehicles
+in motion, which are installed in conformity with the requirements given in
+<<annex-b>>.
+
+[[scls-T-2-2]]
+==== Weigh zone
+
+Zone of the road comprising the load receptor with aprons in advance of and
+beyond each end of the load receptor in the direction of travel of the vehicle
+being weighed.
+
+[[scls-T-2-2-1]]
+===== Apron
+
+Part of the weigh zone that is not the load receptor but which is located on
+either end of the load receptor and that provides a straight, approximately-level,
+smooth track in the direction of travel of the vehicle being weighed.
+
+[[scls-T-2-3]]
+==== Load receptor
+
+Part of the weigh zone which receives the wheel loads of a vehicle and which
+realizes a change in the balance of the instrument when a wheel load is placed
+upon it.
+
+==== Electronic instrument
+
+Instrument equipped with electronic devices.
+
+===== Electronic device
+
+Device comprised of electronic sub-assemblies and that performs a specific function.
+An electronic device is usually manufactured as a separate unit and may be capable
+of being independently tested.
+
+===== Electronic sub-assembly
+
+Part of an electronic device comprised of electronic components and that has
+a recognizable function of its own.
+
+===== Electronic component
+
+Smallest physical entity that uses electron or hole conduction in semiconductors,
+gases, or in a vacuum.
+
+==== Module
+
+Identifiable part of an instrument that performs a specific function or functions,
+and that can be separately evaluated according to the metrological and technical
+performance requirements in the relevant Recommendation. The modules of a weighing
+instrument are subject to specified partial error limits.
+
+NOTE: Typical modules of a weighing instrument are: load cell, indicator, data
+processing device, etc.
+
+===== Indicating device
+
+Part of the instrument that displays the value of a weighing result in units
+of mass and other related values (e.g. speed).
+
+===== Printing device
+
+Means to produce hard copies of the weighing results.
+
+===== Load cell
+
+Force transducer which, after taking into account the effects of the acceleration
+of gravity and air buoyancy at the location of its use, measures mass by converting
+the measured quantity (mass) into another measured quantity (output) [OIML R 60] [7].
+
+==== Software
+
+===== Legally relevant software
+
+Program(s), data and type-specific parameters that belong to the measuring instrument
+or device, and that define or fulfill functions which are subject to legal control.
+
+Examples of legally relevant software are:
+
+* final results of the measurement including the decimal sign and the unit;
+
+* identification of the weighing range and the load receptor (if several load
+receptors have been used).
+
+The following types of legally relevant software can be distinguished:
+
+* type-specific; and
+
+* device-specific.
+
+===== Legally relevant parameter
+
+Parameter of a measuring instrument or a module subject to legal control. The
+following types of legally relevant parameters can be distinguished: type-specific
+parameters and device-specific parameters.
+
+[[scls-T-2-6-4]]
+===== Type-specific parameter
+
+Legally relevant parameter with a value that depends on the type of instrument
+only. They are fixed at type approval of the instrument.
+
+Examples of type-specific parameters are:
+
+* parameters used for weight value calculation;
+
+* stability analysis or price calculation and rounding;
+
+* software identification.
+
+===== Device-specific parameter
+
+Legally relevant parameter with a value that depends on the individual instrument.
+Such parameters comprise calibration parameters (e.g. span adjustments or corrections)
+and configuration parameters (e.g. maximum capacity, minimum capacity, units
+of measurement, etc.). They are adjustable or selectable only in a special operational
+mode of the instrument. They may be classified as those that should be secured
+(unalterable) and those that may be accessed (settable parameters) by an authorized
+person.
+
+===== Software identification
+
+Sequence of readable characters of software that is inextricably linked to the
+software (e.g. version number, checksum).
+
+===== Data storage
+
+Storage used for keeping data ready after completion of the measurement for
+later legally relevant purposes.
+
+[[scls-T-2-7]]
+==== Communication interface
+
+Electronic, optical, radio or other hardware or software interface that enables
+information to be automatically passed between instruments and modules.
+
+[[scls-T-2-8]]
+==== User interface
+
+Interface that enables information to be passed between a human user and the
+instrument or its hardware or software components, e.g. switch, keyboard, mouse,
+display, monitor, printer, touch screen, etc.
+
+[[scls-T-2-9]]
+==== Protective interface
+
+Interface that prevents the introduction of any data into the data processing
+device of the instrument which may:
+
+* display data that are not clearly defined and that could be taken as being
+a measurement result;
+
+* falsify displayed, processed or stored measurement results or primary indications;
+
+* adjust the instrument or change any adjustment factor.
+
+==== Ancillary devices
+
+===== Zero-setting device
+
+Device for setting the indication to zero when there is no load on the load receptor.
+
+===== Non-automatic zero-setting device
+
+Zero-setting device that must be operated manually.
+
+===== Semi-automatic zero-setting device
+
+Zero-setting device that operates automatically following a manual command.
+
+===== Automatic zero-setting device
+
+Zero-setting device that operates automatically and without the intervention
+of an operator.
+
+===== Zero-tracking device
+
+Device for maintaining the zero indication within certain limits automatically.
+
+=== METROLOGICAL CHARACTERISTICS
+
+==== Weighing
+
+===== Full-draught weighing
+
+Determining the mass of a vehicle that is entirely supported on the load receptor.
+
+===== Partial weighing
+
+Weighing a vehicle in two or more parts successively on the same load receptor.
+
+===== Weighing-in-motion (WIM)
+
+Process of determining the vehicle mass, the axle load, and if applicable, the
+axle-group load of a moving vehicle (i.e. a vehicle crossing over the load receptor
+of the weighing instrument) by measurement and analysis of the dynamic vehicle
+tyre forces.
+
+===== Static weighing
+
+Weighing vehicles or test loads that are stationary.
+
+[[scls-T-3-1-5]]
+===== Vehicle mass (VM)
+
+Total mass of the vehicle combination including all connected components.
+
+===== Axle
+
+Axis comprising two or more wheel assemblies with centers of rotation lying
+approximately on a common axis extending the full width of the vehicle and oriented
+transversely to the nominal direction of travel of the vehicle.
+
+[[scls-T-3-1-7]]
+===== Axle-group
+
+Two or more axles included in a defined group and their respective interspaces
+(or axle spacing).
+
+NOTE: The criteria for defining various axle-groups may be set by national regulations.
+
+[[scls-T-3-1-8]]
+===== Axle load
+
+Fraction of the vehicle mass that is supported via the axle on the load receptor
+at the time of weighing.
+
+[[scls-T-3-1-9]]
+===== Single-axle load
+
+Axle load which is not part of an axle-group load. For the purposes of this
+Recommendation, if no criteria for defining various axle-groups have been specified
+(<<scls-T-3-1-7>>), all recorded axle loads (<<scls-6-9>>) shall be considered as single-axle
+loads.
+
+[[scls-T-3-1-10]]
+===== Static reference single-axle load
+
+Single-axle load of known conventional true value determined statically (<<scls-T-6-1>>)
+for a two-axle rigid vehicle.
+
+[[scls-T-3-1-11]]
+===== Axle-group load
+
+Sum of all axle loads in a defined group of axles; a fraction of the vehicle
+mass imposed on the axle-group at the time of weighing.
+
+NOTE: The criteria for defining various axle-groups may be set by national regulations.
+
+===== Tyre load
+
+Portion of the vehicle mass imposed upon the tyre at the time of weighing, expressed
+in the units of mass.
+
+===== Dynamic vehicle tyre force
+
+Component of the time-varying force applied perpendicularly to the road surface
+by the tyre(s) on a wheel of a moving vehicle. In addition to the action of
+gravity, this force can also include dynamic effects of other influences on
+the moving vehicle.
+
+===== Wheel load
+
+Sum of the tyre loads on all tyres included in the wheel assembly on one end
+of an axle; a wheel assembly may have a single tyre or dual tyres.
+
+==== Capacity
+
+===== Maximum capacity (Max)
+
+Maximum weighing-in-motion capacity of the load receptor without totalizing.
+
+===== Minimum capacity (Min)
+
+Value of the load below which the weighing-in-motion results before totalizing
+may be subject to an excessive relative error.
+
+===== Weighing range
+
+Range between the minimum and maximum capacities.
+
+==== Scale interval, stem:[d]
+
+Value expressed in units of mass for weighing-in-motion that is the difference
+between two consecutive indicated or printed values.
+
+===== Scale interval for stationary load
+
+Value, expressed in units of mass, for stationary weighing vehicles or test
+weights that is the difference between two consecutive indicated or printed values.
+
+==== Speed
+
+===== Operating speed, stem:[v]
+
+Average velocity of the vehicle being weighed as it moves over the load receptor.
+
+[[scls-T-3-4-2]]
+===== Maximum operating speed, stem:[v_"max"]
+
+Greatest velocity of a vehicle that the instrument is designed to weigh-in-motion
+and above which the weighing results may be subject to an excessive relative error.
+
+[[scls-T-3-4-3]]
+===== Minimum operating speed, stem:[v_"min"]
+
+Lowest velocity of a vehicle that the instrument is designed to weigh-in-motion
+and below which the weighing results may be subject to an excessive relative error.
+
+[[scls-T-3-4-4]]
+===== Operating speed range
+
+Set of values specified by the manufacturer between the minimum and maximum
+operating speeds at which a vehicle may be weighed-in-motion.
+
+===== Maximum transit speed
+
+Maximum speed that a vehicle can travel on the weigh zone without producing
+a shift in the performance characteristics of a weighing instrument beyond those
+specified.
+
+==== Warm-up time
+
+Time between the moment at which power is applied to an instrument and the moment
+at which the instrument is capable of complying with the requirements.
+
+==== Durability
+
+Ability of an instrument to maintain its performance characteristics over a
+period of use.
+
+==== Final weight value
+
+Weighing value that is achieved when an automatic operation is ended and the
+instrument is completely at rest.
+
+NOTE: This definition is only applicable to static weighing and not to weighing-in-motion.
+
+==== Stable equilibrium
+
+Condition of the instrument such that the recorded weighing values show no more
+than two adjacent values of each weighing cycle; with one of them being the
+final weight value. This condition is only valid for each separate weighing
+cycle and not for a group of cycles.
+
+==== Discrimination
+
+Ability of an instrument to react to small variations of load. The discrimination
+threshold, for a given load, is the value of the smallest additional load that,
+when gently deposited on or removed from the load receptor, causes a perceptible
+change in the indication.
+
+=== INDICATIONS AND ERRORS
+
+==== Indications of an instrument
+
+Value of a quantity provided by a measuring instrument.
+
+NOTE: "Indication", "indicate" or "indicating" include both displaying and/or
+printing.
+
+[[scls-T-4-1-1]]
+===== Primary indications
+
+Indications, signals and symbols that are subject to requirements of this Recommendation.
+
+===== Secondary indications
+
+Indications, signals and symbols that are not primary indications.
+
+==== Methods of indication
+
+===== Digital indication
+
+Indication in which the scale marks are a sequence of aligned figures that do
+not permit interpolation to a fraction of the scale interval.
+
+===== Analog indication
+
+Indication enabling the evaluation of the equilibrium position to a fraction
+of the scale interval.
+
+==== Reading
+
+[[scls-T-4-3-1]]
+===== Reading by simple juxtaposition
+
+Reading of the weighing result by simple juxtaposition of consecutive figures
+giving the weighing result, without the need for calculation.
+
+===== Overall inaccuracy of reading
+
+Overall inaccuracy of reading of an instrument with analog indication is equal
+to the standard deviation of the same indication, the reading of which is carried
+out under normal conditions of use by several observers.
+
+==== Errors
+
+===== Error (of indication)
+
+Indication of an instrument minus the (conventional) true value. [VIM 5.20]
+
+===== Intrinsic error
+
+Error of an instrument determined under reference conditions. [VIM 5.24]
+
+===== Initial intrinsic error
+
+Intrinsic error of an instrument as determined prior to performance tests and
+durability evaluations.
+
+===== Maximum permissible error, MPE
+
+Extreme values of an error permitted by specifications or regulations between
+the indication of a weighing instrument and the corresponding true value, as
+determined by reference standard mass, at zero or no load, in the reference
+position. [VIM 5.21]
+
+===== Maximum permissible deviation, MPD
+
+Maximum permissible deviation of any single-axle load, or if applicable, any
+axle-group load from the respective corrected mean of the single-axle load or
+the axle-group load.
+
+===== Fault
+
+Difference between the error of indication and the intrinsic error of a weighing
+instrument.
+
+Principally, a fault is the result of an undesired change of data contained
+in or flowing through an electronic instrument. In this Recommendation a "fault"
+is a numerical value.
+
+[[scls-T-4-2-7]]
+===== Significant fault
+
+Fault greater than stem:[1 d].
+
+The following are not considered to be significant faults:
+
+* faults that result from simultaneous and mutually independent causes in the
+instrument or in its checking facility;
+
+* faults that make it impossible to perform any measurement;
+
+* transitory faults that are momentary variations in the indications which cannot
+be interpreted, memorized or transmitted as a measurement result;
+
+* faults that are so serious that they will inevitably be noticed by those interested
+in the measurement.
+
+===== Span stability
+
+Capability of an instrument to maintain the difference between the indication
+at maximum capacity and the indication at zero within specified limits over
+a period of use.
+
+===== Rounding error
+
+Difference between a digital measurement result (indicated or printed) and the
+value of that measurement result with an analog indication.
+
+===== Repeatability error
+
+Difference between the highest and lowest results of successive measurements
+of the same load carried out under the same conditions of measurement. [VIM 3.6]
+
+[NOTE]
+====
+Repeatability conditions include:
+
+* the same measurement procedure;
+
+* the same operator;
+
+* the same measuring instrument, used under the same conditions;
+
+* the same location;
+
+* repetition over a short period of time.
+====
+
+===== Corrected result (mean axle- and axle-group load)
+
+Result of a measurement after algebraic correction for systematic error. [VIM 3.4]
+
+=== INFLUENCES AND REFERENCE CONDITIONS
+
+==== Influence quantity
+
+Quantity that is not the measurand but that affects the result of the measurement.
+
+===== Influence factor
+
+Influence quantity having a value within the specified rated operating conditions
+of the instrument.
+
+===== Disturbance
+
+Influence quantity having a value that falls within the limits specified in
+this International Recommendation but that falls outside the rated operating
+conditions of the instrument.
+
+==== Rated operating conditions
+
+Conditions of use which give the ranges of the influence quantities for which
+the metrological characteristics are intended to lie within the specified maximum
+permissible errors.
+
+==== Reference conditions
+
+Conditions of use prescribed for testing the performance of a measuring instrument
+or for intercomparison of results of measurements.
+
+NOTE: The reference conditions generally include reference values or reference
+ranges for influence quantities affecting the measuring instrument. [VIM 5.7]
+
+=== TESTS
+
+[[scls-T-6-1]]
+==== Static test
+
+Test with standard weights or a load that remains stationary on the load receptor
+to determine an error.
+
+==== In-motion test
+
+Test with reference vehicles that are in motion on the load receptor to determine
+an error or deviation.
+
+==== Simulation test
+
+Test carried out on a complete instrument or part of an instrument in which
+any part of the weighing operation is simulated.
+
+==== Performance test
+
+Test to verify that the equipment under test (EUT) is capable of accomplishing
+its specified functions.
+
+=== VEHICLES
+
+==== Vehicle
+
+Loaded or unloaded road vehicle that is recognized by the instrument as a vehicle
+to be weighed.
+
+==== Rigid vehicle
+
+Road vehicle with a single chassis that includes neither coupling nor trailer,
+and that has two or more axles located along the length of the chassis that
+are oriented perpendicularly to the normal direction of travel of the vehicle.
+
+==== Reference vehicle
+
+Vehicles having a known conventional true value (T.1.9) of:
+
+* mass, and single-axle load of a two-axle rigid vehicle; and
+
+* mass of other vehicles used for in-motion tests (<<scls-6-5>>),
+
+determined on a control instrument (T.1.8).
+
+=== Abbreviations and symbols
+
+[%unnumbered,cols="1,5",options="header"]
+|===
+| Symbols | Meaning
+
+| stem:[I] | Indication
+| stem:[I_n] | stem:[n]th indication
+| stem:[L] | Load
+| stem:[Delta L] | Additional load to next changeover point
+| stem:[P] | stem:[I + 1//2 d - Delta L] = Indication prior to rounding (digital indication)
+| stem:[E] | stem:[I - L] or stem:[P - L] = Error
+| stem:[E %] | stem:[(P - L) // L %]
+| stem:[E_0] | Error at zero load
+| stem:[d] | Actual scale interval
+| stem:[p_i] | Fraction of the MPE applicable to a module of the instrument which is examined
+separately
+| MPE | Maximum permissible error
+| EUT | Equipment under test
+| sf | Significant fault
+| Max | Maximum capacity of the weighing instrument
+| Min | Minimum capacity of the weighing instrument
+| stem:[U_"nom"] | Nominal voltage value marked on the instrument
+| stem:[U_"max"] | Highest value of a voltage range marked on the instrument
+| stem:[U_"min"] | Lowest value of a voltage range marked on the instrument
+| stem:[v] | Operating speed
+| stem:[v_"min"] | Minimum operating speed
+| stem:[v_"max"] | Maximum operating speed
+| stem:[v_"min"], stem:[v_"max"] | Operating speed range
+| DC | Direct current
+| AC | Alternating current
+| VM | Vehicle mass
+| WIM | Weigh-in-motion
+|===

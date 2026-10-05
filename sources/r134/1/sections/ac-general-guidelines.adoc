@@ -1,0 +1,80 @@
+
+
+[[annex-c]]
+[appendix,obligation=informative]
+== General guidelines for the installation and operation of automatic instruments for weighing road vehicles in motion and measuring axle loads
+
+[[annex-c-1]]
+=== Apron characteristics
+
+To achieve the necessary levels of accuracy (with the exception of WIM instruments
+for full-draught weighing) the minimum requirements for the apron smoothness
+should include the following:
+
+. for stem:[8 "unitsml(m)"] in advance of and beyond the load receptor, the
+apron surface should be within a tolerance of stem:[pm 3 "unitsml(mm)"] from
+the level or transversely-sloped plane that includes the load receptor; and
+. the surface of the apron outside the stem:[8 "unitsml(m)"] length of apron
+beyond the load receptor should be within a tolerance of stem:[pm 6 "unitsml(mm)"]
+from the level or transversely-sloped plane that includes the load receptor.
+
+=== Apron compliance checks
+
+Compliance with the apron geometry and characteristics specified above and in
+<<annex-b>> should be determined by a suitably qualified person at a specified
+period (e.g. if concrete is used, 30 days after apron construction is complete,
+to allow for the adverse effects of shrinkage in the concrete during curing)
+and before the site is first used.
+
+A level datum should be taken at a suitable point within the apron minimum area
+(i.e. the "stem:[16 "unitsml(m)"] area") and its position marked on the drawing
+in the test report format. Its position should be determined by taking elevations
+using a precise level and staff, and choosing the point which minimizes the
+extent of any remedial work having regard to the requirements specified above.
+
+A stem:[400 "unitsml(mm)" xx 400 "unitsml(mm)"] (nominal) grid of level control
+points should be marked out durably on the aprons for stem:[8 "unitsml(m)"]
+either side of the load receptor(s). A stem:[1 "unitsml(m)" xx 1 "unitsml(m)"]
+(nominal) grid of level control points should be marked out on the remainder
+of the aprons. Setting out lines for the control points should be shown on the
+drawing in the test report format. Elevations should be taken on all those points
+using the precise level and staff.
+
+If concrete is used, a simple stability check should be undertaken to monitor
+any changes in apron elevation under an axle load. A loaded two-axle vehicle,
+with a rear axle loading as near to the maximum capacity of the WIM instrument
+as feasible, should pass at a low speed along the approximate lateral center
+of the concrete aprons. Elevations should be taken at the corners of each slab
+making up the apron at each transverse joint to ensure that as the vehicle crosses
+the joint, no movement in elevation is outside the tolerances specified in <<annex-c-1>>.
+
+=== Routine durability checks
+
+Surface level compliance checks should be repeated using the same level control
+points at time intervals specified by national legislation.
+
+NOTE: There are a number of factors (e.g. level of usage, construction of aprons,
+etc.) which should be taken into consideration when specifying the time interval
+between compliance checks.
+
+=== Spilt material and ice
+
+Care should be taken in the design and operation of the installation to ensure
+that, as far as possible, a build-up of spilt material and ice on the weigh
+zone of the instrument either does not occur, or is removed regularly.
+
+=== Overhead structures
+
+Load receptors should not be installed beneath a loading or conveying mechanism
+from which loose material might fall.
+
+=== Tare weighing
+
+The time between tare weighing and gross weighing operations associated with
+a particular load should be minimal.
+
+=== Notice of speed restrictions
+
+There should be means to ensure that all drivers of vehicles that cross the
+load receptor are aware of the minimum and maximum operating speeds at which
+they can proceed.

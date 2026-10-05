@@ -1,0 +1,50 @@
+
+[[annex-b]]
+[appendix,obligation=normative]
+== Practical instructions for the installation of automatic instruments for weighing road vehicles in motion and measuring axle loads
+
+=== Installation and operation
+
+The installation requirements are subject to change, in recognition of future
+technical developments.
+
+=== Weigh zone
+
+The weigh zone (<<scls-T-2-2>>) shall comprise a load receptor with an apron on both ends.
+
+=== Apron construction
+
+The aprons (<<scls-T-2-2-1>>) in advance of and beyond the load receptor shall consist
+of a stable, load bearing structure made of concrete or an equally durable material
+resting on a suitable foundation to provide a straight, smooth, approximately-level
+plane surface to support all tyres of a vehicle simultaneously as the vehicle
+approaches and passes over the load receptor.
+
+NOTE: <<annex-c>> gives an example of an apron specification which may be used
+to construct aprons which have been shown to respect the conditions in this
+Annex. This example should be considered when specifying aprons.
+
+=== Apron geometry
+
+Each of these aprons shall have a minimum length of stem:[16 "unitsml(m)"].
+However, prior to beginning any test, the Member State in which this Recommendation
+is being used may specify a different apron length (shorter or longer) which
+is deemed adequate to fully support simultaneously all wheels of the longest
+vehicle type that will be weighed by the instrument to be tested (see <<scls-3-5-7>>)
+as it approaches and passes over the load receptor. A reasonably smooth and
+level road surface shall be provided in advance of the approach apron of sufficient
+length and width for the test vehicle to reach a steady test speed before arriving
+at the apron.
+
+The aprons shall be permitted to have a transverse slope, not exceeding stem:[1 %],
+for drainage purposes. To minimize load transfer between axles of the vehicle,
+the aprons shall have no longitudinal slope. The load receptor shall be mounted
+in the same plane as the aprons.
+
+If no lateral guide system is used (<<scls-3-5-8>>), the aprons shall have sufficient
+width throughout their length to extend transversely a minimum of stem:[300 "unitsml(mm)"]
+beyond each lateral edge of the load receptor and the width of the load receptor
+shall be clearly marked over the whole length of the aprons.
+
+The apron (and load receptor) shall have sufficient width to fully support the
+widest vehicle that will be weighed by the instrument.

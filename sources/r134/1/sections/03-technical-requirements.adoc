@@ -1,0 +1,505 @@
+
+[[cls-3]]
+== TECHNICAL REQUIREMENTS
+
+=== Suitability for use
+
+WIM instruments shall be designed to suit the vehicles, site and method of operation
+for which they are intended.
+
+=== Security of operation
+
+==== Fraudulent use
+
+WIM instruments shall have no characteristics likely to facilitate their fraudulent
+use.
+
+==== Accidental breakdown and maladjustment
+
+An instrument shall be so constructed that an accidental breakdown or maladjustment
+of control elements likely to disturb its correct functioning cannot take place
+without its effect being evident.
+
+==== Interlocks
+
+Interlocks shall prevent or indicate the operation of the instrument outside
+the specified working conditions. Interlocks are called for:
+
+* minimum operating voltage (<<scls-2-7-2>>);
+
+* vehicle recognition (<<scls-3-5-7>>);
+
+* wheel position on the load receptor (<<scls-3-5-8>>);
+
+* direction of travel (<<scls-3-5-8>>);
+
+* range of operating speeds (<<scls-3-5-9>>).
+
+==== Use as a non-automatic weighing instrument
+
+In addition to complying with the requirements of OIML R 76-1 [8] for non-automatic
+instruments, an instrument that can operate in a non-automatic mode shall be
+equipped with the means for enabling non-automatic operation that prevents both
+automatic operation and in-motion weighing.
+
+==== Automatic operation
+
+WIM instruments shall be designed to provide a level of confidence that their
+accuracy and operation comply with the requirements of this Recommendation for
+a period of at least one year of normal use.
+
+Any malfunction shall be automatically and clearly indicated (e.g. by a fault
+indication or by automatic switch off). The documentation supplied with the
+instrument (<<scls-A-1-1>>) shall include a description of how this requirement is met.
+
+The level of confidence shall take account of uncertainties of measurement,
+significant faults and failure of the instrument.
+
+=== Zero-setting devices
+
+[[scls-3-3-1]]
+==== Accuracy of the zero-setting device
+
+WIM instruments shall be provided with a zero-setting device, which may be automatic
+or semi-automatic.
+
+A zero-setting device shall be capable of setting zero to within stem:[pm 0.25 d]
+and shall have a range of adjustment not exceeding stem:[4 %] of the maximum
+capacity. The range of adjustment of the initial zero-setting device shall not
+exceed stem:[20 %] of the maximum capacity.
+
+A semi-automatic zero-setting device shall not be operable during automatic
+operation.
+
+An automatic and a semi-automatic zero-setting device shall function only when
+the instrument is in stable equilibrium.
+
+==== Zero-tracking device
+
+A zero-tracking device shall operate only when:
+
+* the indication is at zero;
+
+* the instrument is in stable equilibrium;
+
+* the corrections are not more than stem:[0.5 d] per second; and
+
+* within a range of stem:[4 %] of Max around the actual zero.
+
+[[scls-3-4]]
+=== Use as an integral control instrument
+
+WIM instruments to be used as control instruments, for the purposes of determining
+the vehicle mass or the static reference vehicle axle loads, shall meet the
+requirements of:
+
+* <<scls-3-4-1>> to <<scls-3-4-4>> inclusive; and
+
+* <<scls-6-2-1>>.
+
+[[scls-3-4-1]]
+==== Zero-setting
+
+WIM instruments shall be capable of setting zero to within stem:[pm 0.25] of
+the scale interval for a stationary load (<<scls-2-9>>).
+
+[[scls-3-4-2]]
+==== Eccentric loading
+
+The indications for different positions of the load shall comply with the maximum
+permissible errors in <<scls-2-2-2>> for initial verification for the given load.
+
+[[scls-3-4-3]]
+==== Discrimination
+
+An additional load that is equal to 1.4 times the scale interval for a stationary
+load, when gently placed on or withdrawn from each load receptor in turn when
+at equilibrium at any load, shall change the initial indication.
+
+[[scls-3-4-4]]
+==== Repeatability
+
+The difference between the results of several weighings of the same load shall
+not be greater than the absolute value of the maximum permissible error of the
+instrument for that load.
+
+=== Indicating, printing and data storage devices
+
+==== Quality of indication
+
+Reading of the primary indications (see <<scls-T-4-1-1>>) shall be reliable, easy and
+unambiguous under conditions of normal use:
+
+* the overall inaccuracy of reading of an analog indicating device shall not
+exceed stem:[0.2 d];
+
+* the figures, units and designations forming the primary indications shall
+be of a size, shape and clarity for reading to be easy.
+
+The indication shall be the self-indicating type and shall bear the name or
+symbol of the appropriate unit of mass. The scales, numbering and printing shall
+permit the figures which form the results to be read by simple juxtaposition
+(see <<scls-T-4-3-1>>).
+
+[[scls-3-5-2]]
+==== Indication and printout for normal operation
+
+The minimum indication or printout resulting from each normal weighing operation
+shall be dependent upon the application of the instrument.
+
+For normal operation the scale interval of indications or printouts for the
+vehicle mass, the single-axle load or the axle-group load shall be the scale
+interval, stem:[d], in accordance with <<scls-2-3>>.
+
+The results shall bear the name or symbol of the appropriate unit of mass in
+accordance with <<scls-2-8>>.
+
+For WIM instruments to be used in applications concerned only with determining
+the vehicle mass, the minimum printout shall be the vehicle mass, the date and
+the time, and the operating speed with an associated clear warning message,
+if applicable. The individual axle or axle-group loads shall not be printed
+without an associated clear warning that these results are not verified.
+
+For WIM instruments to be used in applications where only individual axle loads
+are required, the minimum printout shall be the single-axle loads, the vehicle
+mass, the date and the time, and the operating speed with an associated clear
+warning message, if applicable. The criteria for defining axle-groups need not
+be specified for the instrument. The vehicle mass and the axle-group loads shall
+not be printed without an associated clear warning that these results are not
+verified.
+
+For WIM instruments to be used in applications where axle-group loads are required,
+the minimum printout shall be the single-axle loads (when appropriate), the
+axle-group loads, the vehicle mass, the date and the time, and the operating
+speed with an associated clear warning message, if applicable. The criteria
+for defining axle-groups shall be specified for the instrument. The vehicle
+mass shall not be printed without an associated clear warning that these results
+are not verified.
+
+==== Limits of indication
+
+WIM instruments shall not indicate or print the single-axle loads, axle-group
+loads or the vehicle mass when the single-axle load (partial weighment) is less
+than Min or greater than stem:["Max" + 9 d] without giving a clear warning on
+the indication and/or the printout.
+
+==== Printing device
+
+Printing shall be clear and permanent for the intended use. Printed figures
+shall be at least stem:[2 "unitsml(mm)"] high.
+
+If printing takes place, the name or the symbol of the unit of measurement shall
+be either to the right of the value or above a column of values, or placed in
+accordance with national regulations.
+
+[[scls-3-5-5]]
+==== Data storage
+
+Measurement data may be stored in a memory of the instrument (hard drive) or
+on external storage for subsequent indication, printing, data transfer, totalizing,
+etc. In this case, the stored data shall be adequately protected against intentional
+and unintentional changes during the transmission and/or storage process and
+shall contain all relevant information necessary to reconstruct an earlier measurement.
+
+For securing stored data, the following apply:
+
+. The appropriate requirements for securing in <<scls-3-6>> and in <<scls-3-8>>;
+. Software transmission and downloading process shall be secured in accordance
+with the requirements in <<scls-3-6>>;
+. External storage device identification and security attributes shall ensure
+integrity and authenticity;
+. Exchangeable storage media for storing measurement data need not be sealed
+provided that the stored data is secured by a specific checksum or key code;
+. When storage capacity is exhausted, new data may replace oldest data provided
+that the owner of the old data has given authority to overwrite the old data.
+
+==== Totalizing device
+
+WIM instruments may be provided with a totalizing device which operates:
+
+* automatically, in which case the instrument shall be provided with a vehicle
+recognition device (<<scls-3-5-7>>); or
+
+* semi-automatically (i.e. it operates automatically following a manual command).
+
+[[scls-3-5-7]]
+==== Vehicle recognition device
+
+WIM instruments which are able to operate without the intervention of an operator
+shall be provided with a vehicle recognition device. The device shall detect
+the presence of a vehicle in the weigh zone (<<scls-T-2-2>>) and shall detect when the
+whole vehicle has been weighed. WIM instruments shall not indicate or print
+the vehicle mass unless all of the wheels of the vehicle have been weighed.
+
+[[scls-3-5-8]]
+==== Vehicle guide device
+
+WIM instruments shall not indicate or print the vehicle mass, the single-axle
+load, or the axle-group load if any of the wheels of that vehicle did not pass
+fully over the load receptor. Alternatively, a lateral guide system may be used
+to ensure that all the wheels of the vehicle pass fully over the load receptor.
+
+If only one direction of travel is specified for an instrument, an error message
+shall be given or the instrument shall not indicate or print the vehicle mass,
+the single-axle load, or the axle-group load if a vehicle travels in the wrong
+direction. Alternatively, barriers or other traffic control methods may be used
+to prevent vehicles traveling in the wrong direction.
+
+[[scls-3-5-9]]
+==== Operating speed (<<scls-6-13>>)
+
+The WIM instrument shall not indicate or print the mass or axle load values
+for any vehicle that has traveled over the load receptor at a speed outside
+the specified range of operating speeds without an associated clear warning
+message that these results are not verified.
+
+The operating speed shall be indicated and printed if applicable in
+stem:["unitsml(km/h)"], rounded to the nearest stem:[1 "unitsml(km/h)"], as
+part of every vehicle weighing record.
+
+[[scls-3-6]]
+=== Software
+
+The legally relevant software used in WIM instruments must be present in such
+a form in the instrument that alteration of the software is not possible without
+breaking a seal, or any change in the software can be signaled automatically
+by means of an identification code. National legislation may specify the securing
+that is required.
+
+The software documentation on the instrument shall include:
+
+. A description of the legally relevant software;
+. A description of the accuracy of the measuring algorithms (e.g. programming modes);
+. A description of the user interface, menus and dialogues;
+. The unambiguous software identification;
+. A description of the embedded software;
+. An overview of the system hardware, e.g. topology block diagram, type of computer(s),
+source code for software functions, etc., if not described in the operating manual;
+. Means of securing software;
+. The operating manual.
+
+==== Means of securing software
+
+The following means of securing legally relevant software apply:
+
+. [[item-3-6-1-a]]Access shall only be allowed to authorized people, e.g. by means of a code
+(key-word) or of a special device (hard key, etc.); the code must be changeable;
+. It shall be possible for the interventions to be memorized and it shall be
+possible to access and display this information; the records shall include the
+date and a means of identifying the authorized person making the intervention
+(see <<item-3-6-1-a>> above); the traceability of the interventions shall be assured for at
+least the period of time in between periodical verifications depending on national
+regulations. Records may not be overwritten, and if the storage capacities for
+records are exhausted, no further intervention shall be possible without breaking
+a physical seal;
+. Downloading of legally relevant software shall only be possible through an
+appropriate protective interface (<<scls-T-2-9>>) connected to the instrument;
+. The software shall be assigned with appropriate software identification (<<scls-T-2-6-4>>).
+This software identification shall be adapted in the case of every software
+change that may affect the functions and accuracy of the instrument;
+. Functions that are performed or initiated via a software interface shall meet
+the relevant requirements and conditions of <<scls-4-3-5>>.
+
+[[scls-3-7]]
+=== Installation
+
+==== General
+
+WIM instruments shall be manufactured and installed so as to minimize any adverse
+effects of the installation environment. The space between the weighing instrument
+and the ground shall allow all covered parts of the load receptor to be kept
+free from all debris or other matter that could affect the accuracy of the WIM.
+Where particular details of installation have an effect on the weighing operation
+(e.g. site levels, length of aprons), these details shall be recorded in the
+test report.
+
+WIM instruments for determining vehicle mass, axle loads, and if applicable
+axle-group loads shall comply with the installation requirements specified in
+<<annex-b>>.
+
+==== Drainage
+
+If the weighing mechanism is contained in a pit, there shall be provision for
+drainage to ensure that no portion of the instrument becomes submerged or partially
+submerged in water or any other liquid.
+
+==== Heating
+
+If the operation of the weighing mechanism is installed in low temperature climate
+environments, there shall be provision for heating to ensure that the devices
+operate within the operating conditions specified by the manufacturer.
+
+[[scls-3-8]]
+=== Securing of components, interfaces and preset controls
+
+==== General
+
+Components, interfaces, software devices and preset controls that are not intended
+to be adjusted or removed by the user shall be fitted with a securing means
+or shall be enclosed. When enclosed, it shall be possible to seal the enclosure.
+National legislation may specify the securing that is required.
+
+The seals should, in all cases, be easily accessible. Securing should be provided
+on all parts of the measuring system which cannot be materially protected in
+any other way against operations liable to affect the measurement accuracy.
+
+Any device for changing the parameters of measurement results, particularly
+for correction and calibration, shall be sealed.
+
+[[scls-3-8-2]]
+==== Means of securing
+
+Securing shall be provided by hardware, passwords or similar software means
+provided that:
+
+. The requirements for securing software in <<scls-3-6>> apply;
+. Transmission of legally relevant data via interfaces shall be secured against
+intentional, unintentional and accidental changes in accordance with the requirements
+of <<scls-4-3-5-2>>;
+. The securing possibilities available in an instrument shall be such that separate
+securing of the settings is possible;
+. Stored data shall be secured against intentional, unintentional and accidental
+changes in accordance with the requirements of <<scls-3-5-5>>.
+
+[[scls-3-9]]
+=== Descriptive markings
+
+WIM instruments shall bear the following basic markings, variable according
+to national regulations.
+
+==== Markings shown in full
+
+* identification mark of the manufacturer
+
+* identification mark of the importer (if applicable)
+
+* type designation of the instrument
+
+* serial number of the instrument (on each load receptor, if applicable)
+
+* not to be used to weigh liquid products (if applicable)
+
+* maximum transit speed stem:["unitsml(km/h)"]
+
+* direction of weighing (if applicable)
+
+* scale interval for stationary load (if applicable) stem:["unitsml(kg)"] or
+stem:["unitsml(t)"]
+
+* power supply voltage stem:["unitsml(V)"]
+
+* power supply frequency stem:["unitsml(Hz)"]
+
+* temperature range (when not stem:[-10 "unitsml(degC)"] to stem:[+40 "unitsml(degC)"])
+stem:["unitsml(degC)"]
+
+* software identification (if applicable)
+
+==== Markings shown in code
+
+* accuracy class vehicle mass 0.2, 0.5, 1, 2, 5 or 10
+
+* accuracy class single-axle (where applicable) A, B, C, D, E or F
+
+* accuracy class axle-group (where applicable) A, B, C, D, E or F
+
+* maximum capacity Max = ..... stem:["unitsml(kg)"] or stem:["unitsml(t)"]
+
+* minimum capacity Min = ..... stem:["unitsml(kg)"] or stem:["unitsml(t)"]
+
+* scale interval stem:[d] = ..... stem:["unitsml(kg)"] or stem:["unitsml(t)"]
+
+* maximum operating speed stem:[v_"max"] = ..... stem:["unitsml(km/h)"]
+
+* minimum operating speed stem:[v_"min"] = ..... stem:["unitsml(km/h)"]
+
+* maximum number of axles per vehicle (where applicable) stem:[A_"max"]
+
+* type approval sign in accordance with national requirements
+
+==== Supplementary markings
+
+Depending upon the particular use of the instrument, one or more supplementary
+markings may be required on type approval by the metrological authority issuing
+the type approval certificate. For example, the designation of the liquid(s)
+which the instrument is designed to weigh (if applicable), or where a particular
+instrument is verified using a limited range of vehicles (e.g. air suspension
+systems only, three/four axle rigid vehicles only), then this should be marked
+on the instrument.
+
+==== Presentation of descriptive markings
+
+Descriptive markings shall be indelible and of a size, shape and clarity that
+permit legibility under normal conditions of use of the instrument.
+
+Descriptive markings may be either in the national language or in the form of
+adequate, internationally agreed and published pictograms or signs.
+
+Markings shall be grouped together in a clearly visible place on the instrument,
+either on a descriptive plate or sticker fixed permanently near the indicating
+device, or on a non-removable part of the instrument itself. In case of a plate
+or sticker which is not destroyed when removed, a means of securing shall be
+provided, e.g. a non removable control mark that can be applied.
+
+It shall be possible to seal the plate bearing the markings, unless it cannot
+be removed without being destroyed.
+
+As an alternative, all applicable markings above may be shown on a programmable
+display which is controlled by software provided that:
+
+* at least Max, Min and stem:[d] shall be displayed as long as the instrument
+is switched on;
+
+* the other markings may be shown on manual command;
+
+* this shall be described in the type approval certificate.
+
+In this case, means shall be provided for any access to reprogramming of the
+markings to be automatically and non-erasably recorded and made evident by an
+audit trail, e.g. by traceable access software such as an event logger providing
+a record of the changes or an event counter providing a non-resettable counter
+of any changes.
+
+These programmable display markings need not be repeated on the data plate,
+if they are shown on or indicated near the display of the weighing result, with
+the exception of the following markings which shall be shown on the data plate:
+
+* type and class designation of the instrument;
+
+* name or identification mark of the manufacturer;
+
+* type approval number;
+
+* voltage supply;
+
+* voltage supply frequency;
+
+* pneumatic/hydraulic pressure, (if applicable).
+
+=== Verification marks
+
+==== Position
+
+A place shall be provided for the application of verification marks. This place
+shall:
+
+* be such that the part on which the marks are located cannot be removed from
+the instrument without damaging the marks;
+
+* permit the easy application of the marks without changing the metrological
+qualities of the instrument;
+
+* be visible when the instrument is in service.
+
+==== Mounting
+
+WIM instruments required to bear verification marks shall have a verification
+mark support located as specified above, which shall ensure the conservation
+of the marks as follows:
+
+* when the mark is made with a stamp, the support may consist of a strip of
+lead or any other material with similar qualities inserted into a plate fixed
+to the instrument or a cavity bored into the instrument;
+
+* when the mark consists of an adhesive transfer, a space shall be provided
+for this purpose.

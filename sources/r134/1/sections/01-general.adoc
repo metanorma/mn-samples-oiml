@@ -1,0 +1,48 @@
+
+== GENERAL
+
+=== Scope
+
+This International Recommendation specifies the requirements and test methods
+for automatic instruments for
+weighinfootnote:[In this Recommendation, the term, "weighing" is as defined in <<scls-T-1-1>>.]
+road vehicles in motion, hereinafter referred to as "WIM instruments" that are
+used to determine the vehicle
+massfootnote:[Total mass of the vehicle combination including all connected components (see <<scls-T-3-1-5>>).],
+the axle
+loadsfootnote:[Fraction of the vehicle mass that is supported via the axle on the load receptor at the time of weighing (see <<scls-T-3-1-8>>).],
+and if applicable the axle-group
+loadsfootnote:[In determining the single-axle load, and if required the axle-group load, the conditions in <<scls-2-5>> and, if appropriate the requirements of national regulation should be taken into account.]
+of road vehicles when the vehicles are weighed in
+motionfootnote:["Weighed in motion" means that the mass of the vehicle was determined while the vehicle was crossing over the load receptor of the WIM instrument.].
+
+It provides standardized requirements and test procedures to evaluate the metrological
+and technical characteristics of such instruments in a uniform and traceable way.
+
+NOTE: It is advisable for national legislation to prescribe more extensive verification
+methods than those prescribed in this Recommendation when WIM instruments are
+to used in a fully automatic mode for enforcement purposes (without the presence
+of a police officer).
+
+=== Application
+
+This Recommendation applies to WIM instruments:
+
+* which are installed in a controlled weighing area (<<scls-T-2-1>>);
+
+* which are used for determining and indicating the vehicle mass, the single-axle
+loads, and if applicable the axle-group loads of a road vehicle in motion; and
+
+* which are installed where the vehicle speed is controlled.
+
+This Recommendation does not apply to WIM instruments that:
+
+* determine individual axle loads by multiplying a single wheel load of an axle
+by two; or
+
+* are installed on-board vehicles to measure axle load.
+
+=== Terminology
+
+The terminology given in the Terminology section shall be considered as part
+of this Recommendation.
