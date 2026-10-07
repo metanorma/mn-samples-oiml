@@ -1,0 +1,12 @@
+
+[%unnumbered,cols="3,3,2,^2,^2,2"]
+|===
+|                           |  |          | At start | At end |
+| Application no.:          | >| Temp.:   |          |        | stem:["unitsml(degC)"]
+| Type designation:         | >| Rel. h.: |          |        | %
+| Observer:                 | >| Date:    |          |        | yyyy-mm-dd
+| Scale interval, stem:[d]: | >| Time:    |          |        | hh:mm:ss
+| Resolution during test: +
+(smaller than stem:[d])
+| >| | | |
+|===

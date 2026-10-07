@@ -1,0 +1,875 @@
+
+== DISTURBANCES (4.1.2, A.7.3)
+
+=== Short time power reduction (A.7.3.1)
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="5,2,1"]
+|===
+| Marked nominal voltage, stem:[U_"nom"], or voltage range:
+|
+| stem:["unitsml(V)"]
+|===
+
+[%unnumbered,cols="^2,^2,^2,^2,^2,^2,^1,^3",headerrows=3]
+|===
+.3+| Load
+4+| Disturbance
+3+| Result
+
+.2+| Amplitude +
+(% of
+stem:[U_"nom"]footnote:[If a voltage-range is marked, use the average value as the reference stem:[U_"nom"]])
+.2+| Duration +
+(cycles)
+.2+| Number of disturbances
+.2+| Repetition interval +
+(s)
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks)
+
+|
+4+| without disturbance
+| | |
+
+| | 0 | 0.5 | | | | |
+| | 0 | 1 | | | | |
+| | 40 | 10 | | | | |
+
+| | 70 | 25 / 30
+footnote:[These values are for stem:[50 "unitsml(Hz)"] / stem:[60 "unitsml(Hz)"],
+respectively]
+| | | | |
+
+| | 80 | 250 / 300
+footnote:[These values are for stem:[50 "unitsml(Hz)"] /
+stem:[60 "unitsml(Hz)"], respectively]
+| | | | |
+
+| | 0 | 250 | | | | |
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+NOTE: If significant faults are detected and acted upon, or if the EUT fails,
+the test point at which this occurs shall be recorded.
+
+Remarks:
+
+<<<
+
+=== Electrical fast transients/burst immunity on the mains supply lines and on the I/O circuits and communication lines (A.7.3.2)
+
+==== Mains supply lines
+
+include::../common-content/form-4.adoc[]
+
+Power supply lines: test voltage stem:[1 "unitsml(kV)"], duration of the test:
+1 minute at each polarity
+
+[%unnumbered,cols="4*^2,^,^3",headerrows=3]
+|===
+.3+| Load, stem:[L]
+2+| Disturbance
+3+| Result
+
+.2+| Disturbance
+.2+| Polarity
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks)
+
+.9+|
+2+| without disturbance | | |
+
+.2+| Live +
+↓ +
+ground
+| pos | | |
+| neg | | |
+
+2+| without disturbance | | |
+
+.2+| Neutral +
+↓ +
+ground
+| pos | | |
+| neg | | |
+
+2+| without disturbance | | |
+
+.2+| Protective earth +
+↓ +
+ground
+| pos | | |
+| neg | | |
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+NOTE: If significant faults are detected and acted upon, or if the EUT fails,
+the test point at which this occurs shall be recorded.
+
+Remarks:
+
+<<<
+
+==== I/O circuits and communication (signal) lines
+
+include::../common-content/form-4.adoc[]
+
+I/O signals, data and control lines: test voltage stem:[0.5 "unitsml(kV)"],
+duration of the test: 1 minute at each polarity
+
+[%unnumbered,cols="^2,^2,^2,^2,^1,^3",headerrows=3]
+|===
+.3+| Load, stem:[L]
+2+| Disturbance
+3+| Result
+
+.2+| Bursts on cable / interface (type, nature)
+.2+| Polarity
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks)
+
+.18+|
+2+| without disturbance | | |
+
+.2+|
+| pos | | |
+| neg | | |
+
+2+| without disturbance
+| | |
+
+.2+|
+| pos | | |
+| neg | | |
+
+2+| without disturbance
+| | |
+
+.2+|
+| pos | | |
+| neg | | |
+
+2+| without disturbance
+| | |
+
+.2+|
+| pos | | |
+| neg | | |
+
+2+| without disturbance
+| | |
+
+.2+|
+| pos | | |
+| neg | | |
+
+2+| without disturbance
+| | |
+
+.2+|
+| pos | | |
+| neg | | |
+|===
+
+Explain or make a sketch indicating where the clamp is located on the cable
+(use an additional page).
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+NOTE: If significant faults are detected and acted upon, or if the EUT fails,
+the test point at which this occurs shall be recorded.
+
+Remarks:
+
+<<<
+
+=== Electrical surges on mains supply lines and on I/O circuits and communication lines (A.7.3.3)
+
+==== Mains supply lines
+
+include::../common-content/form-4.adoc[]
+
+Power supply lines: test voltage stem:[1 "unitsml(kV)"], duration of the test:
+1 minute at each amplitude and polarity
+
+[%unnumbered,cols="^.^2,^.^2,^.^1,^.^1,^.^1,^.^1,^.^2,^.^2,^.^1,^.^3",headerrows=4]
+|===
+.4+| Load, stem:[L]
+6+| Disturbance
+3+| Result
+
+6+| 3 positive and 3 negative surges synchronously with AC supply voltage
+.3+| Indication, stem:[I]
+2.2+| Significant fault (> stem:[d]) or detection and reaction
+
+.2+| Amplitude / apply on
+4+| angle
+.2+| Polarity
+
+| stem:[0 "unitsml(deg)"]
+| stem:[90 "unitsml(deg)"]
+| stem:[180 "unitsml(deg)"]
+| stem:[270 "unitsml(deg)"]
+| No
+| Yes (remarks)
+
+.27+|
+.9+| stem:[0.5 "unitsml(kV)"] +
+live +
+↓ +
+neutral
+5+| without disturbance
+| | |
+
+.2+| ×
+.2+|
+.2+|
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+| ×
+.2+|
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+|
+.2+| ×
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+|
+.2+|
+.2+| ×
+| pos | | |
+| neg | | |
+
+.9+| stem:[1.0 "unitsml(kV)"] +
+live +
+↓ +
+protective earth
+5+| without disturbance
+| | |
+
+.2+| ×
+.2+|
+.2+|
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+| ×
+.2+|
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+|
+.2+| ×
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+|
+.2+|
+.2+| ×
+| pos | | |
+| neg | | |
+
+.9+| stem:[1.0 "unitsml(kV)"] +
+neutral +
+↓ +
+protective earth
+5+| without disturbance
+| | |
+
+.2+| ×
+.2+|
+.2+|
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+| ×
+.2+|
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+|
+.2+| ×
+.2+|
+| pos | | |
+| neg | | |
+
+.2+|
+.2+|
+.2+|
+.2+| ×
+| pos | | |
+| neg | | |
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Any other kind of power supply and /or I/O circuits and communication lines footnote:[Test voltage stem:[0.5 "unitsml(kV)"] (line to line) and stem:[1.0 "unitsml(kV)"] (line to earth) for 1 minute at each amplitude and polarity]
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="^2,^3,^2,^2,^1,^3",headerrows=3]
+|===
+.3+| Load, stem:[L]
+2+| Disturbance
+3+| Result
+
+2+| 3 positive and 3 negative surges.
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| Amplitude / apply on
+| Polarity
+| No
+| Yes (remarks)
+
+.9+|
+2+| without disturbance
+| | |
+
+.2+| stem:[0.5 "unitsml(kV)"] +
+live +
+↓ +
+neutral
+| pos | | |
+
+| neg | | |
+
+2+| without disturbance
+| | |
+
+.2+| stem:[1.0 "unitsml(kV)"] +
+live +
+↓ +
+protective earth
+| pos | | |
+| neg | | |
+
+2+| without disturbance
+| | |
+
+.2+| stem:[1.0 "unitsml(kV)"] +
+neutral +
+↓ +
+protective earth
+| pos | | |
+| neg | | |
+|===
+
+Use another page for additional test setup information.
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+NOTE: If significant faults are detected and acted upon, or if the EUT fails,
+the test point at which this occurs shall be recorded.
+
+Remarks:
+
+<<<
+
+=== Electrostatic discharge (A.7.3.4)
+
+==== Direct application
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="3,2,1,1"]
+|===
+| ☐ Contact discharges
+| ☐ Paint penetration
+| |
+
+| ☐ Air discharges
+| Polarity
+footnote:[IEC 61000-4-2 specifies that the test shall be conducted
+with the most sensitive polarity.]:
+| ☐ pos
+| ☐ neg
+|===
+
+[%unnumbered,cols="^2,^2,^2,^2,^2,^1,^3",headerrows=3]
+|===
+.3+| Load
+3+| Discharges
+3+| Result
+
+.2+| Test voltage +
+(stem:["unitsml(kV)"])
+.2+| Number of discharges +
+stem:[>= 10]
+.2+| Repetition interval +
+(s)
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks, test points)
+
+.5+|
+3+| without disturbance
+| | |
+
+| 2 | | | | |
+| 4 | | | | |
+| 6 | | | | |
+| 8 (air discharges) | | | | |
+|===
+
+NOTE: If the EUT fails, the test point at which this occurs shall be recorded.
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Indirect application (contact discharges only)
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="2,1,1"]
+|===
+| Polarity
+footnote:[IEC 61000-4-2 specifies that the test shall be conducted
+with the most sensitive polarity.]:
+| ☐ pos | ☐ neg
+|===
+
+Horizontal coupling plane
+
+[%unnumbered,cols="^2,^2,^2,^2,^2,^1,^3",headerrows=3]
+|===
+.3+| Load, stem:[L]
+3+| Discharges
+3+| Result
+
+.2+| Test voltage +
+(stem:["unitsml(kV)"])
+.2+| Number of discharges +
+stem:[>= 10]
+.2+| Repetition interval +
+(s)
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No | Yes (remarks)
+
+.4+|
+3+| without disturbance
+| | |
+
+| 2 | | | | |
+| 4 | | | | |
+| 6 | | | | |
+|===
+
+Vertical coupling plane
+
+[%unnumbered,cols="^2,^2,^2,^2,^2,^1,^3",headerrows=3]
+|===
+.3+| Load, stem:[L]
+3+| Discharges
+3+| Result
+
+.2+| Test voltage +
+(stem:["unitsml(kV)"])
+.2+| Number of discharges +
+stem:[>= 10]
+.2+| Repetition interval +
+(s)
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks)
+
+.4+|
+3+| without disturbance
+| | |
+| 2 | | | | |
+| 4 | | | | |
+| 6 | | | | |
+|===
+
+NOTE: If the EUT fails, the test point at which this occurs shall be recorded.
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+*4.4 Electrostatic discharge (continued)*
+
+Specification of test points of EUT (direct application), e.g. by photos or sketches
+
+. Direct application
++
+Contact discharges:
++
+Air discharges:
+. Indirect application
+
+<<<
+
+=== Immunity to electromagnetic fields (A.7.3.5)
+
+==== Immunity to radiated electromagnetic fields (A.7.3.5.1)
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="2,2,2,3"]
+|===
+| Rate of sweep: | |           |
+| Load:          | | Test load:|
+|===
+
+[%unnumbered,cols="^.^2,^.^2,^.^2,^.^2,^.^2,^.^1,^.^3",headerrows=3]
+|===
+4+| Disturbances
+3+| Result
+
+.2+| Antenna
+.2+| Frequency range (stem:["unitsml(MHz)"])
+.2+| Polarization
+.2+| EUT facing
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks)
+
+4+| without disturbance | | |
+
+.8+|
+.8+|
+.4+| Vertical
+| Front | | |
+| Right | | |
+| Left | | |
+| Rear | | |
+
+.4+| Horizontal
+| Front | | |
+| Right | | |
+| Left | | |
+| Rear | | |
+
+.8+|
+.8+|
+.4+| Vertical
+| Front | | |
+| Right | | |
+| Left | | |
+| Rear | | |
+
+.4+| Horizontal
+| Front | | |
+| Right | | |
+| Left | | |
+| Rear | | |
+|===
+
+Test severity
+
+Frequency range:: stem:[80 "unitsml(MHz)"]footnote:[Lower limit is stem:[26 "unitsml(MHz)"]
+if the test according to A.7.3.5.2 cannot be applied due to lack of mains or
+I/O ports.] to stem:[2000 "unitsml(MHz)"]
+
+RF amplitude (50 ohms):: stem:[10 "unitsml(V*m^-1)"]
+
+Modulation:: stem:[80 %] AM, stem:[1 "unitsml(kHz)"], sine wave
+
+NOTE: If the EUT fails, the frequency and field strength at which this occurs
+shall be recorded.
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Immunity to conducted electromagnetic fields (A.7.3.5.2)
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="2,2,2,3"]
+|===
+| Rate of sweep:
+| | |
+| Load: | | Test load: |
+|===
+
+[%unnumbered,cols="^2,^3,^2,^2,^1,^3",headerrows=3]
+|===
+3+| Disturbance
+3+| Result
+
+.2+| Frequency range (stem:["unitsml(MHz)"])
+.2+| Cable/interface
+.2+| Level (Volts RMS)
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks)
+
+3+| without disturbance | | |
+| | | | | |
+3+| without disturbance | | |
+| | | | | |
+3+| without disturbance | | |
+| | | | | |
+3+| without disturbance | | |
+| | | | | |
+3+| without disturbance | | |
+| | | | | |
+3+| without disturbance | | |
+| | | | | |
+|===
+
+Test severity;
+
+Frequency range:: stem:[0.15 "unitsml(MHz)"] to stem:[80 "unitsml(MHz)"]
+
+RF amplitude (50 ohms):: stem:[10 "unitsml(V)"] (e.m.f.)
+
+Modulation:: stem:[80 %] AM, stem:[1 "unitsml(kHz)"], sine wave
+
+NOTE: If the EUT fails, the frequency and field strength at which this occurs
+shall be recorded.
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+*4.5 Immunity to electromagnetic fields (continued)*
+
+Include a description of the setup of the EUT, e.g. by photos or sketches.
+
+NOTE: If the EUT fails, the frequency and field strength at which this occurs
+must be recorded.
+
+Radiated:
+
+Conducted:
+
+<<<
+
+=== Electrical transient conduction for instruments powered from a road vehicle battery (A.7.3.6)
+
+==== Electrical transient conduction along supply lines of stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] batteries (A.7.3.6.1)
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="5,2,1"]
+|===
+| Load: | |
+| Marked nominal voltage, stem:[U_"nom"], or voltage range: | | stem:["unitsml(V)"]
+|===
+
+[%unnumbered,cols="1,1,1"]
+|===
+| ☐ stem:[12 "unitsml(V)"] battery voltage
+| ☐ stem:[24 "unitsml(V)"] battery voltage
+| ☐ Other voltage supply
+|===
+
+[%unnumbered,cols="^2,^2,^2,^2,^2,^1,^3",headerrows=3]
+|===
+4+| Disturbance
+3+| Result
+
+.2+| Voltage conditions, stem:[U_"nom"]
+.2+| Test pulse
+.2+| Pulse voltage, stem:[U_"s"]
+.2+| Number of pulses applied / duration
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes
+(remarks)footnote:[Functional status of the instrument during and after exposure to test pulses.]
+
+4+| without disturbance | | |
+
+.5+| stem:[12 "unitsml(V)"]
+| 2a
+| stem:[+50 "unitsml(V)"]
+| | | |
+
+| 2b
+footnote:[Test pulse 2b is only applicable if the instrument is connected
+to the battery via the main (ignition) switch of the car, i.e. if the manufacturer
+has not specified that the instrument is to be connected directly (or by its
+own main switch) to the battery.]
+| stem:[+10 "unitsml(V)"]
+| | | |
+
+| 3a | stem:[-150 "unitsml(V)"] | | | |
+| 3b | stem:[+100 "unitsml(V)"] | | | |
+| 4 | stem:[-7 "unitsml(V)"] | | | |
+
+.5+| stem:[24 "unitsml(V)"]
+| 2a | stem:[-50 "unitsml(V)"] | | | |
+
+| 2b^14^ | stem:[+20 "unitsml(V)"] | | | |
+| 3a | stem:[-200 "unitsml(V)"] | | | |
+| 3b | stem:[+200 "unitsml(V)"] | | | |
+| 4 | stem:[-16 "unitsml(V)"] | | | |
+
+.5+| Other voltage supply
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+
+4+| without disturbance
+| | |
+|===
+
+NOTE: If the EUT fails, the frequency at which this occurs shall be recorded.
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Transient conduction by capacitive and inductive coupling via lines other than supply lines (A.7.3.6.2)
+
+[%unnumbered,cols="5,2,1"]
+|===
+| Load: | |
+| Marked nominal voltage, stem:[U_"nom"], or voltage range: | | stem:["unitsml(V)"]
+|===
+
+[%unnumbered,cols="1,1,1"]
+|===
+| ☐ stem:[12 "unitsml(V)"] battery voltage
+| ☐ stem:[24 "unitsml(V)"] battery voltage
+| ☐ Other voltage supply
+|===
+
+[%unnumbered,cols="^.^2,^.^2,^.^2,^.^2,^.^2,^.^1,^.^3",headerrows=3]
+|===
+4+| Disturbance
+3+| Result
+
+.2+| Voltage conditions, stem:[U_"nom"]
+.2+| Test pulse
+.2+| Pulse voltage, stem:[U_"s"]
+.2+| Number of pulses applied / duration
+.2+| Indication, stem:[I]
+2+| Significant fault (> stem:[d]) or detection and reaction
+
+| No
+| Yes (remarks)
+footnote:[Functional status of the instrument during and after exposure to test pulses.]
+
+4+| without disturbance | | |
+
+.2+| stem:[12 "unitsml(V)"]
+| a | stem:[-60 "unitsml(V)"] | | | |
+| b | stem:[+40 "unitsml(V)"] | | | |
+
+.2+| stem:[24 "unitsml(V)"]
+| a | stem:[-80 "unitsml(V)"] | | | |
+| b | stem:[+80 "unitsml(V)"] | | | |
+
+.2+| Other voltage supply
+| | | | | |
+| | | | | |
+
+4+| without disturbance | | |
+|===
+
+NOTE: If the EUT fails, the frequency at which this occurs shall be recorded.
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<

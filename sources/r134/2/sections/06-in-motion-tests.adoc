@@ -1,0 +1,727 @@
+
+== IN-MOTION TESTS (A.9)
+
+=== Non-automatic tests of the control instrument (integral) (3.4, A.5.2, A.9.2)
+
+==== Accuracy of zero-setting (3.4.1, A.5.2.1.1)
+
+include::../common-content/form-1.adoc[]
+
+[%unnumbered,cols="3*",options="header"]
+|===
+| stem:[Delta L] | stem:[E = 1/2 d - Delta L] | MPE
+|                |                            |
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+*6.1 Non-automatic tests of the control instrument (integral)*
+
+==== Determination of weighing performance (6.3, A.5.2.2.2)
+
+include::../common-content/form-1.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+[%unnumbered,cols="4,2,2"]
+|===
+| Initial zero-setting > stem:[20 %] of Max:
+| ☐ Yes
+| ☐ No
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+| {asterisk} | | | |
+| {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Eccentricity (3.4.2, 6.3.3, A.5.2.3)
+
+===== Eccentricity using weights
+
+include::../common-content/form-1.adoc[]
+
+NOTE: If operating conditions are such that no eccentricity can occur, eccentricity
+tests need not be performed.
+
+[%unnumbered,cols="2,3"]
+|===
+| Load (stem:[1//3] Max): |
+|===
+
+Location of test loads: mark on a sketch (see example below) the successive
+locations of test loads, using letters which shall be repeated in the table below.
+
+[%unnumbered]
+image::figure-1.png[]
+
+Also indicate on the sketch the location of the display or another perceptible
+part of the instrument.
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="7*",options="header"]
+|===
+| Load, stem:[L]
+| Location
+| Indication, stem:[I]
+| Add. load, stem:[Delta L]
+| Error
+| Corrected error, stem:[E_"c"]
+| MPE
+
+| {asterisk} | | |
+| {asterisk} | |
+
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+===== Eccentricity rolling loads
+
+include::../common-content/form-1.adoc[]
+
+[%unnumbered,cols="2,3"]
+|===
+| Load (stem:[1//3] Max): |
+|===
+
+Location of test loads for each section of the load receptor: mark on a sketch
+(see example below) the successive locations of test loads, using letters which
+shall be repeated in the table below.
+
+[%unnumbered]
+image::figure-2.png[]
+
+Also indicate on the sketch the location of the display or another perceptible
+part of the instrument.
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="9*",options="header"]
+|===
+| Section
+| Direction +
+(← / →)
+| Load, stem:[L]
+| Location
+| Indication, stem:[I]
+| Add. load, stem:[Delta L]
+| Error
+| Corrected error, stem:[E_"c"]
+| MPE
+
+.4+|
+.4+|
+| {asterisk} | | | | {asterisk} | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+.4+|
+.4+|
+| {asterisk} | | | | {asterisk} | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+.4+|
+.4+|
+| {asterisk} | | | | {asterisk} | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed | ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Discrimination (3.4.3, A.5.2.4)
+
+include::../common-content/form-1.adoc[]
+
+[%unnumbered,cols="7*",options="header"]
+|===
+| Load, stem:[L]
+| Indication, stem:[I_1]
+| Remove load +
+stem:[Delta L]
+| Add. stem:[1//10 d]
+| Extra load = +
+stem:[1.4 d]
+| Indication, stem:[I_2]
+| stem:[I_2 - I_1]
+
+| | | | | | |
+| | | | | | |
+| | | | | | |
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed | ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+=== Static weighing (A.9.3.1)
+
+==== Static weighing test (A.9.3.1.1)
+
+include::../common-content/form-1.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+| {asterisk} | | | | | {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+*6.2 Static weighing (continued)*
+
+==== Full-draught weighing of reference vehicles (6.5, A.9.3.1.2)
+
+include::../common-content/form-1.adoc[]
+
+[%unnumbered,cols="3,2,3"]
+|===
+| Vehicle is:            | ☐ Unloaded | ☐ Loaded with standard test weights
+| Control instrument is: | ☐ Integral | ☐ Separate
+|===
+
+*Summary of reference vehicles*
+
+[%unnumbered,cols="6*",options="header"]
+|===
+| Reference vehicle identification
+| Vehicle type
+| Number of axles
+| Tractor/trailer axle configuration
+| Tractor/trailer linkage system
+| Suspension system
+
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+|===
+
+*Reference vehicle mass*
+
+[%unnumbered,cols="1,3,3,3,5",options="header"]
+|===
+|
+| Reference vehicle identification
+| Vehicle unloaded or loaded
+| Vehicle mass +
+(stem:["unitsml(kg)"])
+| Remarks
+
+| 1  | | | |
+| 2  | | | |
+| 3  | | | |
+| 4  | | | |
+| 5  | | | |
+| 6  | | | |
+| 7  | | | |
+| 8  | | | |
+| 9  | | | |
+| 10 | | | |
+| 11 | | | |
+| 12 | | | |
+| 13 | | | |
+| 14 | | | |
+| 15 | | | |
+|===
+
+NOTE: When loaded reference vehicle mass is obtained by loading an unloaded
+reference vehicle of known mass with standard test loads, this should be noted
+in the table above.
+
+<<<
+
+==== Determining static reference single-axle loads for the two-axle rigid reference vehicle (A.9.3.1.3)
+
+[%unnumbered,cols="3,3,2,2,2,2"]
+|===
+| | | | At start | At end |
+| Application no.: | | Temp.: | | | stem:["unitsml(degC)"]
+| Type designation: | | Rel. h.: | | | %
+| Observer: | | Date: | | | yyyy-mm-dd
+| Scale interval, stem:[d]: | | Time: | | | hh:mm:ss
+| Resolution during test: +
+(smaller than stem:[d])
+| | | | |
+| Reference vehicle +
+identification:
+| | | | |
+|===
+
+[%unnumbered,cols="3,2,3"]
+|===
+| Vehicle is:
+| ☐ Unloaded
+| ☐ Loaded with standard test weights
+
+| Control instrument is:
+| ☐ Integral
+| ☐ Separate
+|===
+
+*Summary of two-axle reference vehicle mass*
+
+[%unnumbered,cols="^2,2,2,2,2,3",headerrows=2]
+|===
+.2+| Test No.
+.2+| Direction of vehicle facing
+2+| Axle load (stem:["unitsml(kg)"])
+.2+| Vehicle mass, VM +
+(stem:["unitsml(kg)"])
+.2+| Remarks
+
+| Axle no. 1 | Axle no. 2
+
+| 1    | initial  | | | |
+| 2    | initial  | | | |
+| 3    | initial  | | | |
+| 4    | initial  | | | |
+| 5    | initial  | | | |
+| 6    | opposite | | | |
+| 7    | opposite | | | |
+| 8    | opposite | | | |
+| 9    | opposite | | | |
+| 10   | opposite | | | |
+| Mean |          | | | |
+
+| Corrected mean axle ^(1)^ | | | | ^(2)^ |
+4+| Reference vehicle mass (stem:["VM"_"ref"]): See note below
+2+|
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+[NOTE]
+====
+The corrected mean single-axle load is taken as the conventional true value
+of the static reference single-axle loads (T.3.1.10, A.9.3.1.3 paragraph 4)
+for the two-axle rigid reference vehicle:
+
+[stem%unnumbered]
+++++
+bar("CorrAxle")_i = bar("Axle")_i xx "VM"_"ref"/bar("VM")
+++++
+====
+
+NOTE: For traceability the sum of the corrected mean axle loads shall be equal
+to the reference vehicle mass (A.9.3.1.3 paragraph 5).
+
+NOTE: stem:["VM"_"ref"] is the conventional true value of the two-axle reference
+vehicle mass determined by full-draught weighing (A.9.3.1.2).
+
+<<<
+
+=== In-motion tests (A.9.3.2)
+
+==== In-motion test with the two-axle rigid reference vehicle (A.9.3.2.2.1)
+
+include::../common-content/form-1.adoc[]
+
+[%unnumbered,cols="3,2,2,1,2"]
+|===
+| Accuracy class: | Total mass: | | Axle: |
+|===
+
+(All mass values in kg)
+
+[%unnumbered,cols="4,3,3,2"]
+|===
+| Reference vehicle type identification: | | |
+
+| Reference vehicle mass (stem:["VM"_"ref"]): +
+See note below
+| | ☐ Unloaded | ☐ Loaded
+
+| Reference vehicle tested:
+| ☐ Loaded with standard test loads
+| ☐ Control weighing of loaded vehicle
+|
+|===
+
+Summary of site configuration:
+
+[%unnumbered,cols="3,2,2,2,2,1,2"]
+|===
+| Operating speed: | Maximum: | | Minimum: | | Site: |
+|===
+
+[%unnumbered,cols="3,2,2"]
+|===
+| Direction of weighing +
+(if applicable):
+| ☐ Single
+| ☐ Dual
+|===
+
+Use this space to record relevant information regarding the installation, e.g.
+apron construction, length, etc.:
+
+<<<
+
+*6.3.1 In-motion test with the two-axle rigid reference vehicle (continued)*
+
+(All mass values in kg)
+
+[%unnumbered,cols="4,3,3,2",options="noheader"]
+|===
+| Test number: | | |
+
+| Reference vehicle type identification: | | |
+
+| Reference vehicle mass (stem:["VM"_"ref"]): +
+See note below
+| | ☐ Unloaded | ☐ Loaded
+
+| Reference vehicle tested:
+| ☐ Loaded with standard test loads
+| ☐ Control weighing of loaded vehicle
+|
+|===
+
+[%unnumbered,cols="3,2,2,2,2,2,3",headerrows=2]
+|===
+.2+| Run no.
+.2+| Speed +
+(stem:["unitsml(km/h)"])
+.2+| Location +
+(middle / left / right)
+2+| Axle load
+.2+| Vehicle mass (VM)
+.2+| Remarks
+
+| Axle no. 1
+| Axle no. 2
+
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
+| 8 | | | | | |
+| 9 | | | | | |
+| 10 | | | | | |
+| Mean | | | | | |
+
+| Corrected mean
+footnoteblock:[fn-6-3-1-corrected-mean]
+| | | | | |
+
+| Maximum
+deviation
+footnote:[For axle load, maximum deviation between the corrected mean single-axle load and the indicated axle loads from the test runs (A.9.3.2.2.2, par 5). For vehicle mass, maximum deviation between the reference vehicle mass (stem:["VM"_"ref"])
+and the indicated vehicle mass (VM) from the test runs (5.1.3.2.1, A.9.3.2.1).]
+| | | | | |
+
+| MPE
+footnote:[No maximum deviation in (2) above shall exceed the MPE in 2.2.1.2.1
+(A.9.3.2.2.1) for axle-load, and the MPE in 2.2.1.1 (A.9.3.2.1) for vehicle mass.]
+| | | | | |
+|===
+
+[[fn-6-3-1-corrected-mean]]
+[NOTE]
+--
+Conventional true value of the static reference single-axle load (corrected
+mean single-axle load):
+
+[stem%unnumbered]
+++++
+bar("CorrAxle")_i = bar("Axle")_i xx "VM"_"ref"/bar("VM")
+++++
+
+(A.9.3.1.3, paragraph 3)
+--
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+NOTE: stem:["VM"_"ref"] is the conventional true value of the two-axle reference
+vehicle mass determined by full-draught weighing (A.9.3.1.2).
+
+<<<
+
+==== In-motion test with all other reference vehicle types (A.9.3.2.2.2)
+
+include::../common-content/form-1.adoc[]
+
+[%unnumbered,cols="3,2,2,1,2,2,2"]
+|===
+| Accuracy class: | Total: | | Axle: | | Group: |
+|===
+
+Summary of site configuration:
+
+[%unnumbered,cols="3,2,3,2"]
+|===
+| Maximum operating speed: | | Site operating speed: |
+| Minimum operating speed: | | Maximum number of axes (n): |
+| Direction of weighing (if applicable): | ☐ Single | ☐ Dual |
+|===
+
+Use this space to record relevant information regarding the installation, e.g.
+apron construction, length, etc.:
+
+<<<
+
+*6.3.2 In-motion test with all other reference vehicle types (continued)*
+
+NOTE: Reproduce this page, as appropriate, for the required number of tests
+
+(All mass values in kg)
+
+[%unnumbered,cols="4,3,3,2",options="noheader"]
+|===
+| Test number: | | |
+
+| Reference vehicle type identification: | | |
+
+| Reference vehicle mass (stem:["VM"_"ref"]): +
+See note below
+| | ☐ Unloaded | ☐ Loaded
+
+| Reference vehicle tested:
+| ☐ Loaded with standard test loads
+| ☐ Control weighing of loaded vehicle
+|
+|===
+
+[%unnumbered,cols="^2,2,2,1,1,1,1,1,1,1,2,2,2",headerrows=2]
+|===
+.2+| Run No
+.2+| Speed +
+(stem:["unitsml(km/h)"])
+.2+| Location +
+(middle /left /right)
+7+| Axle load
+2+| Axle-group load
+.2+| Vehicle mass, VM
+
+| Axle no. 1 | Axle no. 2 | Axle no. 3 | Axle no. 4 | Axle no. 5 | Axle no. 6 | Axle no. 7 | Axle nos.  | Axle nos.
+
+| 1    | | | | | | | | | | | |
+| 2    | | | | | | | | | | | |
+| 3    | | | | | | | | | | | |
+| 4    | | | | | | | | | | | |
+| 5    | | | | | | | | | | | |
+| 6    | | | | | | | | | | | |
+| 7    | | | | | | | | | | | |
+| 8    | | | | | | | | | | | |
+| 9    | | | | | | | | | | | |
+| 10   | | | | | | | | | | | |
+| Mean | | | | | | | | | | | |
+
+| Corrected mean
+footnoteblock:[fn-6-3-2-corrected-mean]
+| | | | | | | | | | | |
+
+| Maximum deviation
+footnote:[For axle load and axle-group load, the maximum deviation
+between corrected mean and the recorded loads from the test runs
+(A.9.3.2.2.2, paragraph 5). For the vehicle mass, the maximum deviation
+between the reference vehicle mass (stem:["VM"_"ref"])
+and the recorded vehicle mass (VM) from the test runs (A.9.3.2.1).]
+| | | | | | | | | | | |
+
+| MPD/MPE
+footnote:[No deviation in (2) above shall exceed the MPE in 2.2.1.2.2
+(A.9.3.2.2.2 paragraph 6) for axle-load and axle-group, and the MPE in 2.2.1.1
+(A.9.3.2.1) for vehicle mass.]
+| | | | | | | | | | | |
+|===
+
+[[fn-6-3-2-corrected-mean]]
+[NOTE]
+--
+Corrected mean axle load or axle-group load:
+
+[stem%unnumbered]
+++++
+bar("CorrAxle")_i " or " bar("CorrGroup")_i = bar("Axle")_i " or " bar("Group")_i xx "VM"_"ref"/bar("VM")
+++++
+--
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+NOTE: See <<annex-a>> for sample example of completed test form.
+
+<<<
