@@ -1,0 +1,384 @@
+
+[[annex-a]]
+[appendix,obligation=informative]
+== Examples of completed test forms
+
+*6.3.1 In-motion tests with the two-axle rigid reference vehicle (A.9.3.2.2.1)*
+
+[%unnumbered,cols="3,^3,2,^2,^2,2"]
+|===
+|                           |                         >|          | At start   | At end     |
+| Application no.:          | 1226                    >| Temp.:   | 20         | 21         | stem:["unitsml(degC)"]
+| Type designation:         | MOT                     >| Rel. h.: |            |            | %
+| Observer:                 | John Brown              >| Date:    | 2009-09-21 | 2009-09-21 | yyyy-mm-dd
+| Scale interval, stem:[d]: | stem:[10 "unitsml(kg)"] >| Time:    | 14:45:00   | 15:45:00   | hh:mm:ss
+| Resolution during test: +
+(smaller than stem:[d])
+| stem:[5 "unitsml(kg)"] | | | |
+|===
+
+[%unnumbered,cols="3,2,2,1,2"]
+|===
+| Accuracy class:
+| Total mass:
+| 0.5
+| Axle:
+| C
+|===
+
+(All mass values in kg)
+
+[%unnumbered,cols="4,3,3,2"]
+|===
+| Reference vehicle type identification:
+| 2 axle rigid
+| |
+
+| Reference vehicle mass (stem:["VM"_"ref"]): +
+See note below
+| stem:[40005 "unitsml(kg)"]
+| ☐ Unloaded
+| ☑ Loaded
+
+| Reference vehicle tested:
+| ☐ Loaded with standard test loads
+| ☐ Control weighing of loaded vehicle
+|
+|===
+
+Summary of site configuration:
+
+[%unnumbered,cols="3,2,2,2,2,1,2"]
+|===
+| Operating speed:
+| Maximum:
+| 10
+| Minimum:
+| 1
+| Site:
+| 5
+|===
+
+[%unnumbered,cols="3,2,2"]
+|===
+| Direction of weighing +
+(if applicable):
+| ☐ Single
+| ☑ Dual
+|===
+
+Use this space to record relevant information regarding the installation, e.g.
+apron construction, length, etc.:
+
+<<<
+
+*6.3.1 In-motion tests with the two-axle rigid reference vehicle (continued)*
+
+(All mass values in kg)
+
+[%unnumbered,cols="4,3,3,2"]
+|===
+| Test number: | 1 | |
+| Reference vehicle type identification: | 2 axle rigid | |
+
+| Reference vehicle mass (stem:["VM"_"ref"]): +
+See note below
+| stem:[40005 "unitsml(kg)"]
+| ☐ Unloaded
+| ☑ Loaded
+
+| Reference vehicle tested:
+| ☐ Loaded with standard test loads
+| ☑ Control weighing of loaded vehicle
+|
+|===
+
+[%unnumbered,cols="^3,^2,^2,^2,^2,^2,^3",headerrows=2]
+|===
+.2+| Run no.
+.2+| Speed +
+(stem:["unitsml(km/h)"])
+.2+| Location +
+(middle / left / right)
+2+| Axle load
+.2+| Vehicle mass (VM)
+.2+| Remarks
+
+| Axle no. 1 | Axle no. 2
+
+| 1    | 5 | Middle | stem:[19995] | stem:[20005] | stem:[40000] |
+| 2    | 5 | Middle | stem:[19995] | stem:[20000] | stem:[39995] |
+| 3    | 5 | Middle | stem:[19990] | stem:[20005] | stem:[39995] |
+| 4    | 5 | Left   | stem:[20005] | stem:[20050] | stem:[40055] |
+| 5    | 5 | Right  | stem:[20020] | stem:[20050] | stem:[40070] |
+| 6    | 5 | Middle | stem:[19995] | stem:[20010] | stem:[40005] |
+| 7    | 5 | Left   | stem:[19990] | stem:[20050] | stem:[40040] |
+| 8    | 5 | Right  | stem:[20000] | stem:[19995] | stem:[39995] |
+| 9    | 5 |        |              |              |              |
+| 10   | 5 |        |              |              |              |
+| Mean |   |        | stem:[19999] | stem:[20020] | stem:[40019] |
+
+| Corrected mean
+footnoteblock:[fn-annex-a-6-3-1-corrected-mean]
+| | | stem:[19992] | stem:[20013] | |
+
+| Maximum deviation
+footnote:[For axle load, maximum deviation between the corrected
+mean single-axle load and the indicated axle loads from the test
+runs (A.9.3.2.2.2, par 5). For vehicle mass, maximum deviation
+between the reference vehicle mass (stem:["VM"_"ref"])
+and the indicated vehicle mass (VM) from the test runs (5.1.3.2.1, A.9.3.2.1).]
+| | | stem:[-28] | stem:[-37] | stem:[-65] |
+
+| MPE
+footnote:[No maximum deviation in (2) above shall exceed the MPE in 2.2.1.2.1
+(A.9.3.2.2.1) for axle-load, and the MPE in 2.2.1.1 (A.9.3.2.1) for vehicle mass.]
+| | | 150 | 150 | 100 |
+|===
+
+[[fn-annex-a-6-3-1-corrected-mean]]
+[NOTE]
+--
+Conventional true value of the static reference single-axle load (corrected
+mean single-axle load):
+
+[stem%unnumbered]
+++++
+bar("CorrAxle")_i = bar("Axle")_i xx "VM"_"ref"/bar("VM")
+++++
+
+(A.9.3.1.3, paragraph 3)
+--
+
+[%unnumbered,cols="1,1"]
+|===
+| ☒ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+NOTE: stem:["VM"_"ref"] is the conventional true value of the two-axle reference
+vehicle mass determined by full-draught weighing (A.9.3.1.2).
+
+<<<
+
+*6.3.2 In-motion test with all other reference vehicle types (A.9.3.2.2.2)*
+
+[%unnumbered,cols="3,^3,2,^2,^2,2"]
+|===
+|                           |                         >|          | At start   | At end     |
+| Application no.:          | 124                     >| Temp.:   | 20         | 21         | stem:["unitsml(degC)"]
+| Type designation:         | XYZ                     >| Rel. h.: |            |            | %
+| Observer:                 | John Brown              >| Date:    | 2009-09-24 | 2009-09-24 | yyyy-mm-dd
+| Scale interval, stem:[d]: | stem:[10 "unitsml(kg)"] >| Time:    | 10:00:00   | 11:00:00   | hh:mm:ss
+| Resolution during test: +
+(smaller than stem:[d])
+| stem:[5 "unitsml(kg)"] | | | |
+|===
+
+[%unnumbered,cols="3,2,2,1,2,2,2"]
+|===
+| Accuracy class:
+| Total:
+| 1
+| Axle:
+| B
+| Group:
+| C
+|===
+
+Summary of site configuration:
+
+[%unnumbered,cols="3,2,3,2"]
+|===
+| Maximum operating speed:
+| stem:[9 "unitsml(km/h)"]
+| Site operating speed:
+| stem:[5 "unitsml(km/h)"]
+
+| Minimum operating speed:
+| stem:[1 "unitsml(km/h)"]
+| Maximum number of axles (n):
+| 6
+
+| Direction of weighing (if applicable):
+| ☑ Single
+| ☐ Dual
+|
+|===
+
+Use this space to record relevant information regarding the installation, e.g.
+apron construction, length, etc.:
+
+<<<
+
+*6.3.2 In-motion test with all other reference vehicle types (continued)*
+
+(All mass values in kg)
+
+[%unnumbered,cols="4,3,3,2"]
+|===
+| Test number: | 1 | |
+| Reference vehicle type identification: | 6 axles / 2 axle groups | |
+| Reference vehicle mass (stem:["VM"_"ref"]): +
+See note below
+| stem:[41950 "unitsml(kg)"]
+| ☐ Unloaded
+| ☑ Loaded
+
+| Reference vehicle tested:
+| ☐ Loaded with standard test loads
+| ☑ Control weighing of loaded vehicle
+|
+|===
+
+[%unnumbered,cols="^2,^2,^2,^1,^1,^1,^1,^1,^1,^1,^2,^2,^2",headerrows=2]
+|===
+.2+| Run No
+.2+| Speed +
+(stem:["unitsml(km/h)"])
+.2+| Location +
+(middle /left /right)
+7+| Axle load
+2+| Axle-group load
+.2+| Vehicle mass, VM
+
+| Axle no. 1 | Axle no. 2 | Axle no. 3 | Axle no. 4 | Axle no. 5 | Axle no. 6 | Axle no. 7 | Axle nos.  | Axle nos.
+| 1 | 5 | Middle | stem:[7040] | stem:[7015] | stem:[7010] | stem:[7000] | stem:[6995] | stem:[7035] | | stem:[14025] | stem:[21030] | stem:[42095]
+| 2 | 5 | Middle | stem:[6995] | stem:[7050] | stem:[6990] | stem:[6980] | stem:[7000] | stem:[7005] | | stem:[14040] | stem:[20985] | stem:[42020]
+| 3 | 5 | Middle | stem:[7015] | stem:[6995] | stem:[6995] | stem:[7010] | stem:[6900] | stem:[7050] | | stem:[13950] | stem:[20960] | stem:[41925]
+| 4 | 5 | Left | stem:[7025] | stem:[7010] | stem:[7010] | stem:[7005] | stem:[7010] | stem:[7010] | | stem:[14020] | stem:[21025] | stem:[42070]
+| 5 | 5 | Right | stem:[7000] | stem:[7020] | stem:[6970] | stem:[7020] | stem:[7020] | stem:[7020] | | stem:[13990] | stem:[21060] | stem:[42050]
+| 6 | 5 | Middle | stem:[6995] | stem:[7050] | stem:[6960] | stem:[7040] | stem:[7000] | stem:[6990] | | stem:[14010] | stem:[21030] | stem:[42035]
+| 7 | 5 | Left | stem:[7025] | stem:[7010] | stem:[6970] | stem:[7005] | stem:[6970] | stem:[7010] | | stem:[13980] | stem:[20985] | stem:[41990]
+| 8 | 5 | Right | stem:[7015] | stem:[6955] | stem:[6995] | stem:[7010] | stem:[6900] | stem:[7000] | | stem:[13950] | stem:[20910] | stem:[41875]
+| 9 | 5 | | | | | | | | | | |
+| 10 | 5 | | | | | | | | | | |
+
+| Mean | | | stem:[7014] | stem:[7008] | stem:[6988] | stem:[7009] | stem:[6974] | stem:[7015] | | stem:[13996] | stem:[20998] | stem:[42008]
+
+| Corrected mean
+footnoteblock:[fn-annex-a-6-3-2-corrected-mean-p72]
+| | | stem:[7004] | stem:[6999] | stem:[6978] | stem:[6999] | stem:[6965] | stem:[7005] | | stem:[13976] | stem:[20969] |
+
+| Maximum
+deviation
+footnote:[For axle load and axle-group load, the maximum deviation between the corrected mean and the recorded loads from the test runs (A.9.3.2.2.2, paragraph 5). For the vehicle mass, the maximum deviation between the reference vehicle mass (stem:["VM"_"ref"])
+and the recorded vehicle mass (VM) from the test runs (A.9.3.2.1).]
+| | | 36 | 51 | 32 | 41 | 65 | 45 | | 64 | 91 | stem:[-145]
+
+| MPD/MPE
+footnote:[No deviation in (2) above shall exceed the MPE in 2.2.1.2.2
+(A.9.3.2.2.2 paragraph 6) for axle-load and axle-group, and the MPE in 2.2.1.1
+(A.9.3.2.1) for vehicle mass.]
+| | | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | | 210 | 315 | 210
+|===
+
+[[fn-annex-a-6-3-2-corrected-mean-p72]]
+[NOTE]
+--
+Corrected mean axle load or axle-group load:
+
+[stem%unnumbered]
+++++
+bar("CorrAxle")_i " or " bar("CorrGroup")_i = bar("Axle")_i " or " bar("Group")_i xx "VM"_"ref"/bar("VM")
+++++
+--
+
+[%unnumbered,cols="1,1"]
+|===
+| ☒ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+NOTE: See <<annex-a>> for a sample example of a completed test form.
+
+<<<
+
+*6.3.2 In-motion test with all other reference vehicle types (continued)*
+
+(All mass values in kg)
+
+[%unnumbered,cols="4,3,3,2"]
+|===
+| Test number: | 1 | |
+
+| Reference vehicle type identification: | 6 axles / 2 axle groups | |
+
+| Reference vehicle mass (stem:["VM"_"ref"]): +
+See note below
+| stem:[41950 "unitsml(kg)"]
+| ☐ Unloaded
+| ☑ Loaded
+
+| Reference vehicle tested:
+| ☐ Loaded with standard test loads
+| ☑ Control weighing of loaded vehicle
+|
+|===
+
+[%unnumbered,cols="2,2,2,1,1,1,1,1,1,1,2,2,2",headerrows=2]
+|===
+.2+| Run No
+.2+| Speed +
+(stem:["unitsml(km/h)"])
+.2+| Location +
+(middle /left /right)
+7+| Axle load
+2+| Axle-group load
+.2+| Vehicle mass, VM
+
+| Axle no. 1 | Axle no. 2 | Axle no. 3 | Axle no. 4 | Axle no. 5 | Axle no. 6 | Axle no. 7 | Axle nos.  | Axle nos.
+
+| 1 | 5 | Middle | stem:[7040] | stem:[7015] | stem:[7010] | stem:[7000] | stem:[6995] | stem:[7035] | | stem:[14025] | stem:[21030] | stem:[42095]
+| 2 | 5 | Middle | stem:[6995] | stem:[7050] | stem:[6990] | stem:[6980] | stem:[7000] | stem:[7005] | | stem:[14040] | stem:[20985] | stem:[42020]
+| 3 | 5 | Middle | stem:[7015] | stem:[6995] | stem:[6995] | stem:[7010] | stem:[6900] | stem:[7050] | | stem:[13950] | stem:[20960] | stem:[41925]
+| 4 | 5 | Left | stem:[7025] | stem:[7010] | stem:[7010] | stem:[7005] | stem:[7010] | stem:[7010] | | stem:[14020] | stem:[21025] | stem:[42070]
+| 5 | 5 | Right | stem:[7000] | stem:[7020] | stem:[6970] | stem:[7020] | stem:[7020] | stem:[7020] | | stem:[13990] | stem:[21060] | stem:[42050]
+| 6 | 5 | Middle | stem:[6995] | stem:[7050] | stem:[6960] | stem:[7040] | stem:[7000] | stem:[6990] | | stem:[14010] | stem:[21030] | stem:[42035]
+| 7 | 5 | Left | stem:[7025] | stem:[7010] | stem:[6970] | stem:[7005] | stem:[6970] | stem:[7010] | | stem:[13980] | stem:[20985] | stem:[41990]
+| 8 | 5 | Right | stem:[7015] | stem:[6955] | stem:[6995] | stem:[7010] | stem:[6900] | stem:[7000] | | stem:[13950] | stem:[20910] | stem:[41875]
+| 9 | 5 | | | | | | | | | | |
+| 10 | 5 | | | | | | | | | | |
+| Mean | | | stem:[7014] | stem:[7008] | stem:[6988] | stem:[7009] | stem:[6974] | stem:[7015] | | stem:[13996] | stem:[20998] | stem:[42008]
+
+| Corrected mean
+footnoteblock:[fn-annex-a-6-3-2-corrected-mean-p73]
+| | | stem:[7004] | stem:[6999] | stem:[6978] | stem:[6999] | stem:[6965] | stem:[7005] | | stem:[13976] | stem:[20969] |
+
+| Maximum
+deviation
+footnote:[For axle load and axle-group load, the maximum deviation between the corrected mean and the recorded loads from the test runs (A.9.3.2.2.2, paragraph 5). For the vehicle mass, the maximum deviation between the reference vehicle mass (stem:["VM"_"ref"])
+and the recorded vehicle mass (VM) from the test runs (A.9.3.2.1).]
+| | | 36 | 51 | 32 | 41 | 65 | 45 | | 64 | 91 | stem:[-145]
+
+| MPD/MPE
+footnote:[No deviation in (2) above shall exceed the MPE in 2.2.1.2.2
+(A.9.3.2.2.2 paragraph 6) for axle-load and axle-group, and the MPE in 2.2.1.1
+(A.9.3.2.1) for vehicle mass.]
+| | | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | stem:[pm 70] | | 210 | 315 | 210
+|===
+
+[[fn-annex-a-6-3-2-corrected-mean-p73]]
+[NOTE]
+--
+Corrected mean axle load or axle-group load:
+
+[stem%unnumbered]
+++++
+bar("CorrAxle")_i " or " bar("CorrGroup")_i = bar("Axle")_i " or " bar("Group")_i xx "VM"_"ref"/bar("VM")
+++++
+--
+
+[%unnumbered,cols="1,1"]
+|===
+| ☒ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+NOTE: See <<annex-a>> for a sample example of a completed test form.

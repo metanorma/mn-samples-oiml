@@ -1,0 +1,901 @@
+
+== CHECKLIST
+
+This checklist is intended to serve as a summary of the results of examinations
+to be performed and not as a procedure. The items on this checklist are provided
+to recall the requirements specified in R 134-1 and shall not be considered
+as substitution for these requirements.
+
+For non-mandatory devices, the checklist provides space to indicate whether
+or not the device exists and, if appropriate, its type. A cross in the box for
+"present" indicates that the device exists and that it complies with the definition
+given in the terminology; when indicating that a device is non-existent, also
+check the boxes to indicate that the tests are not applicable.
+
+If appropriate, the results stated in this checklist may be supplemented by
+remarks given on additional pages.
+
+<<<
+
+*8 CHECKLIST (continued)*
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Application no.: | | Type designation: |
+|===
+
+[%unnumbered,cols="^12,^12,46,10,10,10",options="header"]
+|===
+| Requirement from R 134-1
+| Test procedure
+| Automatic instruments for weighing road vehicles in motion and axle load measuring
+| Passed
+| Failed
+| Remarks
+
+| *2* | 4+| *METROLOGICAL REQUIREMENTS*
+
+.2+| 2.7.1
+.2+|
+4+| *Temperature*
+
+| Minimum temperature range of stem:[30 "unitsml(degC)"] for the climatic environment
+| | |
+
+.5+| 2.7.2
+.5+|
+4+| *Power supply*
+
+| AC mains power | | |
+| DC mains power | | |
+| Battery power supply (DC) | | |
+
+| stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] road vehicle battery (DC) power
+| | |
+
+.2+| *2.8*
+.2+| *A.1.2*
+4+| *Units of measurement*
+
+| Kilogram (stem:["unitsml(kg)"]); tonne (stem:["unitsml(t)"])
+| | |
+
+.3+| *2.9*
+.3+|
+4+| *Scale interval for stationary load*
+
+| Instrument automatically disabled for weigh in motion if the scale interval
+for stationary load is not equal to stem:[d]
+| | |
+
+| Not readily accessible and only useable for static testing if the instrument
+is not verified for use as a non-automatic measuring instrument
+| | |
+
+.3+| *2.10*
+.3+|
+4+| *Operating speed*
+
+| Operating speed interlock marked on the WIM instrument
+| | |
+
+| Operating speed shall be indicated and/or printed only after the entire vehicle
+has been weighed in motion
+| | |
+
+| *3*
+| *A.1.3*
+4+| *TECHNICAL REQUIREMENTS*
+
+| *3.2* |
+4+| *Security of operation*
+
+.2+| 3.2.1
+.2+|
+4+| *Fraudulent use:*
+
+| The instrument has no characteristics likely to facilitate its fraudulent use
+| | |
+
+.2+| 3.2.2
+.2+|
+4+| *Accidental maladjustment*
+
+| Effect of accidental breakdown or maladjustment is evident
+| | |
+
+.8+| 3.2.3
+.8+|
+4+| *Interlocks*
+
+| Prevent or indicate the operation of the instrument outside the specified
+working conditions
+| | |
+
+4+| Interlocks provided for the following:
+
+a| * minimum operating voltage (2.7.2) | | |
+a| * vehicle recognition (3.5.7) | | |
+a| * wheel position on the load receptor (3.5.8) | | |
+a| * direction of travel (3.5.8) | | |
+a| * range of operating speeds (3.5.9) | | |
+
+.3+| 3.2.4
+.3+|
+4+| *Use as a non-automatic weighing instrument*
+
+| Comply with the requirements of OIML R 76-1 for class III or IIII non-automatic
+weighing instruments
+| | |
+
+| Equipped with enabling device for non-automatic operation that prevents automatic
+operation and in-motion measurement
+| | |
+
+.4+| 3.2.5
+.4+|
+4+| *Automatic operation*
+
+| Instrument designed to ensure operational compliance with the requirements
+of R 134-1 for at least one year of normal use
+| | |
+
+| Any malfunction shall be automatically and clearly indicated | | |
+
+| Documentation submitted by the manufacturer (A.1.1) includes a description
+of how this requirement is met
+| | |
+
+.7+| *3.3*
+.7+| *A.5.1*
+4+| *Zero setting devices*
+
+| *Zero-setting and zero-tracking*
+| Existent
+2+| Non-existent
+
+>| Initial zero-setting
+| ☐
+2+| ☐
+
+>| Automatic zero-setting
+| ☐
+2+| ☐
+
+>| Semi-automatic zero-setting
+| ☐
+2+| ☐
+
+>| Non-automatic zero-setting
+| ☐
+2+| ☐
+
+>| Zero-tracking
+| ☐
+2+| ☐
+
+.7+| 3.3.1
+.7+| A.5.1.2
+4+| *Accuracy of zero-setting*
+
+| Sets zero to stem:[pm 0.25 d]
+| | |
+
+4+| *Overall effect of*
+
+| Zero-setting = % | | |
+
+| Initial zero-setting = % | | |
+
+| Non-automatic or semi-automatic zero-setting inoperable during automatic operation
+| | |
+
+| Semi-automatic or automatic zero-setting functions only in stable equilibrium
+| | |
+
+.5+| 3.3.2
+.5+|
+4+| *Zero-tracking operation*
+
+| When indication is at zero | | |
+
+| Stability criteria are fulfilled | | |
+
+| Corrections are not more than stem:[0.5 d]/second | | |
+
+| Within a range of stem:[4 %] of Max around zero | | |
+
+| *3.4*
+| *A.5.2*
+4+| *Use as an integral control instrument*
+
+| 3.4.1 |
+| Capable of setting zero to stem:[pm 0.25 d] for a stationary load | | |
+
+.2+| 3.4.2
+.2+|
+4+| *Eccentric loading*
+
+| Different loading positions of the same load comply with the MPEs for the
+given load
+| | |
+
+.2+| 3.4.3
+.2+|
+4+| *Discrimination*
+
+| Change in indication for additional load of 1.4 scale interval for stationary
+load when placed or withdrawn gently from the load receptor
+| | |
+
+.2+| 3.4.4
+.2+|
+4+| *Repeatability*
+
+| Difference between several weighings of the same load is not greater than
+the absolute value of the MPE of the instrument for that load
+| | |
+
+| 3.5
+| A.1.3
+4+| *Indicating, printing and storage devices*
+
+.4+| 3.5.1
+.4+|
+4+| *Quality of indication*
+
+| Primary indications are reliable, easy and unambiguous under normal operating
+conditions
+| | |
+
+| Overall inaccuracy of analog indication stem:[<= 0.2 d]
+| | |
+
+| Figures, units and designations forming the primary indications are of a size,
+shape and clarity for easy reading
+| | |
+
+.8+| 3.5.2
+.8+|
+4+| *Indication and printing for normal operation*
+
+| Minimum indication or printout from each normal weighing operation is dependent
+upon the application of the instrument
+| | |
+
+| Scale interval of indications or printouts for the vehicle mass, the single-axle
+load or the axle-group load is scale interval, stem:[d]
+| | |
+
+| Results contain names or symbols of the units of mass
+| | |
+
+4+| Minimum printouts for applications are as follows:
+
+a| * For vehicle mass, minimum printout is the vehicle mass, the date and the
+time, and the operating speed with an associated clear warning message, if applicable.
+Axle or axle-group loads shall not be printed without an associated clear warning
+| | |
+
+a| * For single-axle loads, minimum printout is the single-axle loads, the vehicle
+mass, the date and the time, and the operating speed with an associated clear
+warning message, if applicable. The criteria for defining axle-groups need not
+be specified for the instrument. The axle-group loads shall not be printed without
+an associated clear warning
+| | |
+
+a| * For axle-group loads, minimum printout is the single-axle loads (when appropriate),
+the axle-group loads, the vehicle mass, the date and the time, and the operating
+speed with an associated clear warning message, if applicable. The criteria
+for defining axle-groups shall be specified for the instrument
+| | |
+
+.2+| 3.5.3
+.2+|
+4+| *Limits of indication*
+
+| No indication or printout of single-axle loads, axle-group loads or the vehicle
+mass when single-axle load (partial weighment) is less than Min or greater than
+stem:["Max" + 9 d]
+| | |
+
+.4+| 3.5.4
+.4+|
+| *Printing device*
+| Present ☐
+2+| Not present ☐
+
+| Printing clear and permanent for the intended use
+| | |
+
+| Printed figures at least stem:[2 "unitsml(mm)"] high
+| | |
+
+| Name or symbol of the measurement unit is printed either to the right of the
+value or above a column of values, or placed according to national regulations
+| | |
+
+.9+| 3.5.5
+.9+|
+| *Data storage*
+| Present ☐
+2+| Not present ☐
+
+| Data transfer and storage adequately protected against intentional and unintentional
+changes, and
+| | |
+
+| Stored data contains all relevant information necessary to reconstruct an
+earlier measurement
+| | |
+
+4+| For securing data storage, the following apply:
+
+| a) Software transmission and downloading process is secured in accordance
+with requirements in 3.8.2
+| | |
+
+| b) Storage devices identification and security attributes shall be verified
+to ensure integrity and authenticity
+| | |
+
+| c) Exchangeable storage media is sealed against removing in accordance with 3.8.1
+| | |
+
+| d) Device-specific parameters are not stored on the standard storages of the
+universal computer but in separate hardware that can be sealed in accordance
+with 3.8.1
+| | |
+
+a| e) When storage capacity is exhausted, new data shall replace oldest data
+when both of the following conditions are met:
+
+* data shall be deleted in the same order as the recording order and the rules
+established for the particular application are respected
+* authority to delete the data has been provided by the user or owner of data
+to be deleted
+| | |
+
+| |
+| f) National regulations may specify other requirements for securing stored
+data which provide sufficient integrity
+| | |
+
+.3+| 3.5.6
+.3+| A.1.3
+| *Totalizing device:*
+| Present ☐
+2+| Not present ☐
+
+| Operation is automatic in conjunction with a vehicle recognition device, or
+| | |
+
+| Semi-automatic following a manual command
+| | |
+
+.2+| 3.5.7
+.2+|
+| *Vehicle recognition device:*
+| Present ☐
+2+| Not present ☐
+
+| Detects the presence and the weighment of the vehicle in the weigh zone
+| | |
+
+.4+| 3.5.8
+.4+|
+| *Vehicle guide device:*
+| Present ☐
+2+| Not present ☐
+
+| No indication or printout if any of the wheels of a vehicle did not pass fully
+over the load receptor
+| | |
+
+| If only one direction of travel is permitted: an error message is given if
+a vehicle travels in the wrong direction, or
+| | |
+
+| barriers or other traffic control prevent vehicles travelling in the wrong
+direction
+| | |
+
+.2+| 3.5.9
+.2+|
+4+| *Operating speed:*
+
+| No indication or printout if a vehicle travels over the load receptor at a
+speed outside the specified range of operating speeds without an associated
+clear warning
+| | |
+
+.10+| *3.6*
+.10+|
+| *Software:*
+| Present ☐
+2+| Not present ☐
+
+| Legally relevant software must be present in such a form in the instrument
+that alteration of the software is not possible without breaking a seal, or
+any change in the software can be signalled automatically by means of an identification
+code
+| | |
+
+4+| The software documentation provided with the instrument includes:
+
+| a) Description of the legally relevant software
+| | |
+
+| b) Description of the accuracy of the measuring algorithms (e.g. programming modes)
+| | |
+
+| c) Description of the user interface, menus and dialogues
+| | |
+
+| d) The unambiguous software identification
+| | |
+
+| e) Overview of the system hardware, e.g. topology block diagram, type of computer(s),
+source code for software functions, etc., if not described in the operating manual
+| | |
+
+| f) Means of securing the software
+| | |
+
+| g) Operating manual
+| | |
+
+.7+| 3.6.1
+.7+|
+4+| *The following means of securing legally relevant software apply:*
+
+| a) Access is allowed to authorized people, e.g. by means of a code (key-word)
+or of a special device (hard key, etc.); the code must be changeable
+| | |
+
+| b) It is possible to memorize, access and display the information in the last
+intervention
+| | |
+
+| c) The stored record shall include at least the ten most recent accesses or
+changes, the date, and a means of identifying the authorized person making the
+intervention (see (a) above)
+| | |
+
+| d) Traceability of the last intervention shall be assured for at least two
+years, if it is not overwritten on the occasion of a further intervention
+| | |
+
+| e) If it is possible to memorize more than one intervention, and if deletion
+of a previous intervention must occur to permit a new record, the oldest record
+shall be deleted
+| | |
+
+| f) Downloading of legally relevant software shall be through appropriate protective
+interface (T.2.9) connected to the instrument
+| | |
+
+.2+|
+.2+|
+| g) The software shall be assigned with appropriate software identification
+(T.2.6.4). This software identification shall be adapted in the case of every
+software change that may affect the functions and accuracy of the instrument
+| | |
+
+| h) Functions that are performed or initiated via a software interface shall
+meet the relevant requirements and conditions of 4.3.5
+| | |
+
+.3+| *3.7*
+.3+|
+4+| *Installation:*
+
+| The WIM instrument is installed so as to minimize any adverse effects of the
+installation environment
+| | |
+
+| Where particular details of installation have an effect on the weighing operation
+(e.g. site levels, length of aprons), these details shall be recorded in the
+test report
+| | |
+
+.2+| 3.7.2
+.2+|
+4+| *Drainage:*
+
+| Provision for drainage to ensure that no portion of the instrument becomes
+submerged or partially submerged in water or other liquid
+| | |
+
+.2+| 3.7.3
+.2+| A.1.3
+4+| *Heating:*
+
+| Provision for heating to ensure that the modules operate within the operating
+conditions specified by the manufacturer
+| | |
+
+| *3.8*
+| *A.2.3*
+4+| *Securing of components, interfaces and preset controls*
+
+.9+| 3.8.1
+.9+|
+4+| General
+
+4+| Components, interfaces, software devices and preset controls that are not
+intended to be adjusted or removed by the user are:
+
+a| * Fitted with a securing means, or
+| | |
+
+a| * Enclosed
+| | |
+
+| If enclosed, the enclosure is sealed
+| | |
+
+| National prescribed types of securing are provided
+| | |
+
+| Seals are easily accessible
+| | |
+
+| Securing provided on all parts of the instrument which cannot be materially
+protected in any other way against operations liable to affect the measurement
+accuracy
+| | |
+
+| Any device for changing the parameters of the measurement results, particularly
+for correction and calibration, is sealed
+| | |
+
+.6+| 3.8.2
+.6+|
+4+| *Means of securing:*
+
+| a) Access shall be restricted to authorized people, e.g. by means of a code
+(key-word) or of a special device (hard key, etc.); the code must be changeable
+| | |
+
+| b) Software functions are secured against intentional, unintentional and accidental
+changes in accordance with the appropriate requirements of 3.6
+| | |
+
+| c) Transmission of legally relevant data via interfaces is secured against
+intentional, unintentional and accidental changes in accordance with the appropriate
+requirements of 4.3.5.2
+| | |
+
+| d) The securing possibilities available in an instrument shall be such that
+separate securing of the settings is possible
+| | |
+
+| e) Stored data shall be secured against intentional, unintentional and accidental
+changes in accordance with the appropriate requirements of 3.5.5
+| | |
+
+| *3.9*
+| *A.2.2*
+4+| *Descriptive markings, variable according to national regulations*
+
+.3+| 3.9.1
+.3+|
+4+| *Markings shown in full:*
+
+a| * Identification mark of the manufacturer | | |
+a| * Identification mark of the importer (if applicable) | | |
+
+.10+|
+.10+|
+a| * Type designation of the instrument | | |
+
+a| * Serial number of the instrument (on each load receptor, if applicable)
+| | |
+
+a| * Not to be used to determine the mass of vehicles carrying liquid products
+(if applicable)
+| | |
+
+a| * Maximum transit speed: stem:["unitsml(km/h)"]
+| | |
+
+a| * Direction of weighing (if applicable)
+| | |
+
+a| * Scale interval for stationary load (if applicable): stem:["unitsml(kg)"]
+or stem:["unitsml(t)"]
+| | |
+
+a| * Electrical power supply voltage: stem:["unitsml(V)"]
+| | |
+
+a| * Electrical power supply frequency: stem:["unitsml(Hz)"]
+| | |
+
+a| * Temperature range (when not stem:[-10 "unitsml(degC)"] to
+stem:[+40 "unitsml(degC)"]): stem:["unitsml(degC)"]
+| | |
+
+a| * Software identification (if applicable)
+| | |
+
+.11+| 3.9.2
+.11+| A.2.2
+4+| *Markings shown in code:*
+
+a| * Accuracy class vehicle mass: 0.2, 0.5, 1, 2, 5 or 10
+| | |
+
+a| * Accuracy class single-axle (where applicable): +
+A, B, C, D, E or F
+| | |
+
+a| * Accuracy class axle-group (where applicable): +
+A, B, C, D, E or F
+| | |
+
+a| * Maximum capacity: Max = stem:["unitsml(kg)"] or stem:["unitsml(t)"]
+| | |
+
+a| * Minimum capacity: Min = stem:["unitsml(kg)"] or stem:["unitsml(t)"]
+| | |
+
+a| * Scale interval: stem:[d] = stem:["unitsml(kg)"] or stem:["unitsml(t)"]
+| | |
+
+a| * Maximum operating speed: stem:[v_"max"] = stem:["unitsml(km/h)"]
+| | |
+
+a| * Minimum operating speed: stem:[v_"min"] = stem:["unitsml(km/h)"]
+| | |
+
+a| * Maximum number of axles per vehicle +
+(where applicable): stem:[n_"max"] =
+| | |
+
+a| * Type approval sign in accordance with national regulations
+| | |
+
+.2+| 3.9.3
+.2+|
+4+| *Supplementary markings:*
+
+| Are required
+2+| enter in remarks
+|
+
+.12+| 3.9.4
+.12+|
+4+| *Presentation of descriptive markings:*
+
+| Indelible
+| | |
+
+| Size, shape and clarity that allows easy reading
+| | |
+
+| Grouped together in a clearly visible place
+| | |
+
+| Shown in an official language in accordance with national regulations
+| | |
+
+| Plate or sticker bearing markings fixed permanently near the indicating or
+non-removable part of the instrument
+| | |
+
+| It is possible to seal the plate bearing the markings, unless it cannot be
+removed without being destroyed
+| | |
+
+4+| Alternatively, descriptive markings simultaneously displayed by a software
+solution either permanently or on manual command
+
+a| * At least Max, Min and stem:[d] shall be displayed as long as the instrument
+is switched on
+| | |
+
+a| * Other markings may be shown on manual command
+| | |
+
+a| * It is described in the type approval Certificate
+| | |
+
+| In the case of software solution, means shall be provided for any access to
+reprogramming of the markings to be automatically and non-erasably recorded
+and made evident by an audit trail
+| | |
+
+| |
+a| Software controlled display markings need not be repeated on the data plate,
+if they are shown on or indicated near the display of the measurement result,
+with the exception of the following markings which shall be shown on the data plate:
+
+* type and class designation of the instrument
+* name or identification mark of the manufacturer
+* type approval number
+* voltage supply
+* voltage supply frequency
+* pneumatic / hydraulic pressure, (if applicable)
+| | |
+
+| 3.10
+| A.2.3
+4+| *Verification marks:*
+
+.4+| 3.10.1
+.4+|
+4+| *Position:*
+
+| The part where the verification marks are located cannot be removed from the
+instrument without damaging the marks
+| | |
+
+| Allows easy application of the marks without changing the metrological qualities
+of the instrument
+| | |
+
+| Visible when the instrument is in service
+| | |
+
+.3+| 3.10.2
+.3+|
+4+| *Mounting:*
+
+| Verification mark support to ensure conservation of the marks
+| | |
+
+| Support is of the correct construction
+| | |
+
+| *4* | 4+| *REQUIREMENTS FOR ELECTRONIC INSTRUMENTS*
+
+| 4.3
+| A.1.4
+4+| *Functional requirements:*
+
+.4+| 4.3.1
+.4+|
+4+| *Acting upon a significant fault:*
+
+4+| By verifying the compliance with documents or by simulating faults check that:
+
+| Either the instrument is made inoperative automatically, or
+| | |
+
+| Visual or audible indication is provided automatically and continues until
+the user takes action or the fault disappears
+| | |
+
+.2+| 4.3.2
+.2+| A.5.4
+4+| *Switch-on procedure:*
+
+| Relevant signs of indicator are active and non-active for sufficient time
+to be checked by operator
+| | |
+
+.3+| 4.3.4
+.3+| A.6.1
+4+| *Warm-up time:*
+
+| No indication or transmission of weighing results
+| | |
+
+| Automatic operation is inhibited
+| | |
+
+.4+| 4.3.5
+.4+| A.7.1.2.3
+4+| *Interfaces:*
+
+4+| When an interface is used:
+
+a| * instrument continues to function correctly, and
+| | |
+
+a| * metrological functions and data are not influenced by peripheral devices
+or other connected instrument or disturbance
+| | |
+
+.5+| 4.3.5.1
+.5+|
+4+| Interface documentation submitted with instrument includes:
+
+| a) A list of all commands (e.g. menu items) | | |
+
+| b) Description of the software interface | | |
+
+| c) A list of all the commands together | | |
+
+| d) Brief description of their meaning and their effect on the functions and
+data of the instrument
+| | |
+
+.2+| 4.3.5.2
+.2+|
+4+| Securing of interfaces
+
+| Interface through which the metrological functions cannot be performed or
+initiated, need not be secured
+| | |
+
+.8+|
+.8+|
+4+| Other interfaces shall be secured as follows:
+
+| a) Data is protected (e.g. with a protective interface as in T.2.9) against
+accidental or deliberate interference during the transfer
+| | |
+
+| b) All functions in the software interface shall comply with the requirements
+for securing software in 3.8.2
+| | |
+
+| c) All functions in the hardware interface shall comply with the requirements
+for securing hardware in 3.8
+| | |
+
+| d) Metrologically relevant parts of the target instrument shall be included
+in the initial verification
+| | |
+
+| e) Easily possible to verify the authenticity and integrity of data transmitted
+to and from the instrument
+| | |
+
+| f) Functions performed or initiated by other connected instruments through
+the interfaces shall meet the appropriate requirements of R 134-1
+| | |
+
+| Other instruments required by national regulation to be connected to the interfaces
+of an instrument shall be secured to automatically inhibit the operation of
+the instrument for reasons of the non-presence or improper functioning of the
+required device
+| | |
+
+.5+| 4.3.6
+.5+|
+4+| *Functionality below the minimum operating voltage:*
+
+4+| Instrument operating from the following voltage supply shall, whenever the
+voltage drops below the minimum operating voltage (2.7.2), either continue to
+function correctly or show an error message or is automatically put out of service:
+
+a| * DC mains voltage supply | | |
+
+a| * Battery voltage supply (DC) | | |
+
+a| * stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] road vehicle battery voltage
+supply
+| | |
+
+| *5* | 4+| *METROLOGICAL CONTROLS*
+
+.6+| 5.1.1
+.6+| A.1.1
+4+| *Type approval documentation includes:*
+
+a| * Metrological characteristics of the instrument | | |
+a| * A standard set of specifications for the instrument | | |
+a| * A functional description of the components and devices | | |
+
+a| * Drawings, diagrams and general software information (if applicable), explaining
+the construction and operation, and
+| | |
+
+a| * Any document or other evidence that the design and construction of the
+instrument complies with the requirements of the Recommendation
+| | |
+
+.4+| 5.1.3
+.4+|
+4+| *Type examination of:*
+
+| Documents | | |
+| Functional checks | | |
+| Test reports from other authorities | | |
+|===
+
+Use this space to detail remarks from the Checklist:

@@ -1,0 +1,88 @@
+
+== WARM-UP TIME (4.3.4, A.6.1)
+
+include::../common-content/form-1.adoc[]
+
+[%unnumbered,cols="4,2,1"]
+|===
+| Duration of disconnection before test: | | hours
+|===
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_0] = error calculated prior to each measurement at zero or near zero
+(unloaded) +
+stem:[E_"L"] = error calculated at load (loaded)
+
+[%unnumbered,cols="2,2,2,2,2,2,2",options="header"]
+|===
+|
+| Time
+footnote:[Counted from the moment an indication has first appeared.]
+| Load, stem:[L]
+| Indication, stem:[I]
+| Add. load, stem:[Delta L]
+| Error
+| stem:[E_"L" - E_0]
+
+| Unloaded
+.2+^.^| 0 min
+| | | | stem:[E_(0"I")] = |
+| Loaded | | | | stem:[E_"L"] = |
+
+| Unloaded
+.2+^.^| 5 min
+| | | | stem:[E_0] = |
+| Loaded | | | | stem:[E_"L"] = |
+
+| Unloaded
+.2+^.^| 15 min
+| | | | stem:[E_0] = |
+| Loaded | | | | stem:[E_"L"] = |
+
+| Unloaded
+.2+^.^| 30 min
+| | | | stem:[E_0] = |
+| Loaded | | | | stem:[E_"L"] = |
+|===
+
+[%unnumbered,cols="2,1,6,3,3"]
+|===
+| | | Error | MPE | R 134-1 clause
+
+.4+^.^| Check if:
+| a)
+| Initial zero-setting error, stem:[E_(0"I")]
+| stem:[<= 0.25 d]
+.4+^.^| 3.2.7, A.5.1
+
+| b)
+| Maximum value of error unloaded, stem:[E_0]
+| stem:[<= 0.25 d]
+
+| c)
+| Maximum value of zero variation, stem:[E_0 - E_(0"I")]
+| stem:[<= 0.25 d xx p_i]
+
+| d)
+| Maximum value of error loaded, stem:[E_"L" - E_0]
+| stem:[<= 0.25 d xx p_i]
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed | ☐ Failed
+|===
+
+Remarks:
+
+<<<

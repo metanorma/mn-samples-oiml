@@ -1,0 +1,697 @@
+
+== INFLUENCE FACTORS
+
+=== Static temperatures (2.7.1.1, A.7.2.1)
+
+==== Reference temperature of stem:[20 "unitsml(degC)"]
+
+include::../common-content/form-1.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+| {asterisk} | | | |
+| {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Static temperatures (specified high = .................... °C)
+
+include::../common-content/form-1.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+| {asterisk} | | | |
+| {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Static temperatures (specified low = .................... °C)
+
+include::../common-content/form-1.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+
+| {asterisk} | | | |
+| {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Static temperatures (stem:[5 "unitsml(degC)"] if within the specified low temperature is stem:[<= 0 "unitsml(degC)"])
+
+include::../common-content/form-1.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+
+| {asterisk} | | | | | {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Static temperatures (Reference temperature of stem:[20 "unitsml(degC)"])
+
+[%unnumbered,cols="3,3,2,2,2,2"]
+|===
+| | | | At start | At end |
+| Application no.: | | Temp.: | | | stem:["unitsml(degC)"]
+| Type designation: | | Rel. h.: | | | %
+| Observer: | | Date: | | | yyyy-mm-dd
+| Scale interval, stem:[d]: | | Time: | | | hh:mm:ss
+| Resolution during test: +
+(smaller than stem:[d])
+| | | | |
+|===
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+| {asterisk} | | | | | {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+=== Temperature effect on no-load indication (2.7.1.2, A.7.2.2)
+
+[%unnumbered,cols="3,3"]
+|===
+| Application no.: |
+| Type designation: |
+| Observer: |
+| Scale interval, stem:[d]: |
+| Resolution during test: +
+(smaller than stem:[d])
+|
+|===
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[P = I + 1/2 d - Delta L]
+
+[%unnumbered,cols="10*",options="header"]
+|===
+| Report page
+footnote:[Give the report page of the relevant weighing test where
+measurement tests and temperature effect on no-load indication test
+are conducted together.]
+| Date
+| Time
+| Temp. +
+(stem:["unitsml(degC)"])
+| Zero indication, stem:[I]
+| Add. load, stem:[Delta L]
+| stem:[P]
+| stem:[Delta P]
+| stem:[Delta "Temp"]
+| Zero-change per stem:[5 "unitsml(degC)"]
+
+| | | | | | | .2+| .2+| .2+|
+| | | | | | |
+| | | | | | | .2+| .2+| .2+|
+| | | | | | |
+| | | | | | | .2+| .2+| .2+|
+| | | | | | |
+| | | | | | | .2+| .2+| .2+|
+| | | | | | |
+|===
+
+stem:[Delta P] = difference of stem:[P] for two consecutive tests at different
+temperatures +
+stem:[Delta "Temp"] = difference of temperature for two consecutive tests at
+different temperatures
+
+Check if the zero-change per stem:[5 "unitsml(degC)"] is smaller than stem:[d]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+=== Damp heat, steady state (4.3.3, A.7.2.3)
+
+==== Initial test (Reference temperature of stem:[20 "unitsml(degC)"] and stem:[50 %] humidity)
+
+include::../common-content/form-2.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+
+| {asterisk} | | | | | {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Upper limit temperature (.................... °C) and stem:[85 %] humidity
+
+include::../common-content/form-2.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+| {asterisk} | | | | | {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+==== Final test (Reference temperature of stem:[20 "unitsml(degC)"] and stem:[50 %] humidity)
+
+include::../common-content/form-2.adoc[]
+
+Automatic zero-setting device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] +
+stem:[E_"c" = E - E_0] with stem:[E_0] = error calculated at or near zero{asterisk}
+
+[%unnumbered,cols="10*",headerrows=2]
+|===
+.2+| Load, stem:[L]
+2+| Indication, stem:[I]
+2+| Add. load, stem:[Delta L]
+2+| Error, stem:[E]
+2+| Corrected error, stem:[E_"c"]
+.2+| MPE
+
+| ↓ | ↑ | ↓ | ↑ | ↓ | ↑ | ↓ | ↑
+| {asterisk} | | | | | {asterisk} | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<
+
+=== Voltage supply variations (2.7.2, A.7.2.4-7.2.7)
+
+include::../common-content/form-4.adoc[]
+
+[%unnumbered,cols="1",options="noheader"]
+|===
+| ☐ AC mains voltage supply, A.7.2.4
+
+| ☐ DC mains voltage supply, A.7.2.5
+
+| ☐ Battery voltage supply (DC), A.7.2.6
+
+| ☐ stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] road vehicle battery voltage
+supply, A.7.2.7
+|===
+
+[%unnumbered,cols="3,2,2,1,2,2,1,2,2,1"]
+|===
+| Voltage supply
+footnote:[Calculate lower and upper limits of applied voltages according
+to 2.7.2. If a voltage-range (stem:[U_"min" // U_"max"])
+is marked, use the average value as the reference value.]:
+| stem:[U_"nom"] =
+|
+| stem:["unitsml(V)"]
+| stem:[U_"min"] =
+|
+| stem:["unitsml(V)"]
+| stem:[U_"max"] =
+|
+| stem:["unitsml(V)"]
+|===
+
+Automatic zero-setting and zero-tracking device is:
+
+[%unnumbered,cols="1,1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+| ☐ In operation
+|===
+
+[%unnumbered,cols="3,1"]
+|===
+| *Category of power supply (if an instrument has more than one voltage supply):* |
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] {nbsp}{nbsp}{nbsp} stem:[E_"c" = E - E_0]
+with stem:[E_0] = error calculated at or near zero
+
+[%unnumbered,cols="8*",options="header"]
+|===
+| Voltage
+| stem:[U] (stem:["unitsml(V)"])
+| Load, stem:[L]
+| Indication, stem:[I]
+| Add. load, stem:[Delta L]
+| Error, stem:[E]
+| Corrected error, stem:[E_"c"]
+| MPE
+
+.2+| Reference .2+| | | | | | |
+| | | | | |
+
+.2+| Lower limit .2+| | | | | | |
+| | | | | |
+
+.2+| Upper limit .2+| | | | | | |
+| | | | | |
+
+.2+| Reference .2+| | | | | | |
+| | | | | |
+|===
+
+[%unnumbered,cols="3,1"]
+|===
+| *Category of power supply (if an instrument has more than one voltage supply):* |
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] {nbsp}{nbsp}{nbsp} stem:[E_"c" = E - E_0]
+with stem:[E_0] = error calculated at or near zero
+
+[%unnumbered,cols="8*",options="header"]
+|===
+| Voltage
+| stem:[U] (stem:["unitsml(V)"])
+| Load, stem:[L]
+| Indication, stem:[I]
+| Add. load, stem:[Delta L]
+| Error, stem:[E]
+| Corrected error, stem:[E_"c"]
+| MPE
+
+.2+| Reference .2+| | | | | | |
+| | | | | |
+
+.2+| Lower limit .2+| | | | | | |
+| | | | | |
+
+.2+| Upper limit .2+| | | | | | |
+| | | | | |
+
+.2+| Reference .2+| | | | | | |
+| | | | | |
+|===
+
+<<<
+
+*3.4 Voltage supply variations (continued)*
+
+[%unnumbered,cols="3,1"]
+|===
+| *Category of power supply (if an instrument has more than one voltage supply):* |
+|===
+
+stem:[E = I + 1/2 d - Delta L - L] {nbsp}{nbsp}{nbsp} stem:[E_"c" = E - E_0]
+with stem:[E_0] = error calculated at or near zero
+
+[%unnumbered,cols="8*",options="header"]
+|===
+| Voltage
+| stem:[U] (stem:["unitsml(V)"])
+| Load, stem:[L]
+| Indication, stem:[I]
+| Add. load, stem:[Delta L]
+| Error, stem:[E]
+| Corrected error, stem:[E_"c"]
+| MPE
+
+.2+| Reference .2+| | | | | | |
+
+| | | | | |
+
+.2+| Lower limit .2+| | | | | | |
+
+| | | | | |
+
+.2+| Upper limit .2+| | | | | | |
+
+| | | | | |
+
+.2+| Reference .2+| | | | | | |
+
+| | | | | |
+|===
+
+Check if stem:[E_"c" <= "MPE"]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<

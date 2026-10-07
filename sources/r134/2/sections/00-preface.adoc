@@ -1,0 +1,874 @@
+
+== Foreword
+
+The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental
+organization whose primary aim is to harmonize the regulations and metrological
+controls applied by the national metrological services, or related organizations,
+of its Member States. The main categories of OIML publications are:
+
+* *International Recommendations (OIML R),* which are model regulations that
+establish the metrological characteristics required of certain measuring instruments
+and which specify methods and equipment for checking their conformity. OIML
+Member States shall implement these Recommendations to the greatest possible extent;
+
+* *International Documents (OIML D),* which are informative in nature and which
+are intended to harmonize and improve work in the field of legal metrology;
+
+* *International Guides (OIML G),* which are also informative in nature and
+which are intended to give guidelines for the application of certain requirements
+to legal metrology; and
+
+* *International Basic Publications (OIML B),* which define the operating rules
+of the various OIML structures and systems.
+
+OIML Draft Recommendations, Documents and Guides are developed by Technical
+Committees or Subcommittees which comprise representatives from the Member States.
+Certain international and regional institutions also participate on a consultation
+basis. Cooperative agreements have been established between the OIML and certain
+institutions, such as ISO and the IEC, with the objective of avoiding contradictory
+requirements. Consequently, manufacturers and users of measuring instruments,
+test laboratories, etc. may simultaneously apply OIML publications and those
+of other institutions.
+
+International Recommendations, Documents, Guides and Basic Publications are
+published in English (E) and translated into French (F) and are subject to periodic
+revision.
+
+Additionally, the OIML publishes or participates in the publication of *Vocabularies
+(OIML V)* and periodically commissions legal metrology experts to write *Expert
+Reports (OIML E)*. Expert Reports are intended to provide information and advice,
+and are written solely from the viewpoint of their author, without the involvement
+of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do
+not necessarily represent the views of the OIML.
+
+This publication - reference OIML R 134-2, edition 2009 (E) - was developed
+by the OIML Technical Subcommittee TC 9/SC 2 _Automatic weighing instruments_.
+It was approved for final publication by the International Committee of Legal
+Metrology in 2009.
+
+OIML Publications may be downloaded from the OIML web site in the form of PDF
+files. Additional information on OIML Publications may be obtained from the
+Organization's headquarters:
+
+Bureau International de Métrologie Légale +
+11, rue Turgot - 75009 Paris - France +
+Telephone: 33 (0)1 48 78 12 82 +
+Fax: 33 (0)1 42 82 17 27 +
+E-mail: biml@oiml.org +
+Internet: www.oiml.org
+
+<<<
+
+== Introduction
+
+This "Test report format" aims at presenting, in a standardized format, the
+results of the various tests and examinations to which a type of an automatic
+instrument for measuring axle load and the mass of road vehicles in motion shall
+be submitted with a view to its approval.
+
+The Test report format consists of two parts, a "Checklist" and the "Test report"
+itself.
+
+The Checklist is a summary of the examinations carried out on the instrument.
+It includes the conclusions of the results of the test performed, and experimental
+or visual checks based on the requirements of Part 1. The words or condensed
+sentences aim at reminding the examiner of the requirements in R 134-1 without
+reproducing them.
+
+The Test report is a record of the results of the tests carried out on the instrument.
+The "Test report" forms have been produced based on the tests detailed in R 134-1.
+
+All metrology services or laboratories evaluating types of automatic instruments
+for measuring axle load and the mass of road vehicles in motion according to
+R 134-1 or to national or regional regulations based on this OIML Recommendation
+are strongly advised to use this Test report format, either directly or after
+translation into a language other than English or French. Its direct use in
+English or in French, or in both languages, is even more strongly recommended
+whenever test results may be transmitted by the country performing these tests
+to the approving authorities of another country, under bi- or multilateral cooperation
+agreements. In the framework of the OIML Basic Certificate System for measuring
+instruments, use of this Test report format is mandatory.
+
+The "information concerning the test equipment used for type evaluation" shall
+cover all the test equipment which has been used in measuring the test results
+given in a report. The information may be a short list containing only essential
+data (name, type, reference number for purpose of traceability). For example:
+
+* Verification standards (accuracy, or accuracy class, and no.)
+
+* Simulator for testing of modules (name, type, traceability and no.)
+
+* Climatic test and static temperature chamber (name, type and no.)
+
+* Electrical tests, bursts (name of the instrument, type and no.)
+
+* Description of the procedure of field calibration for the test of immunity
+to radiated electromagnetic fields
+
+*Note concerning the numbering of the following pages*
+
+In addition to the sequential numbering at the bottom of the pages of this Publication,
+a special place is left at the top of each page (starting with the following
+page) for numbering the pages of reports established following this model; in
+particular, some tests (e.g. metrological performance tests) shall be repeated
+several times, each test being reported individually on a separate page following
+the relevant format; in the same way, a multiple range instrument shall be tested
+separately for each range and a separate form (including the general information
+form) shall be filled out for each range. For a given report, it is advisable
+to complete the sequential numbering of each page by the indication of the total
+number of pages of the report.
+
+<<<
+
+*TYPE EVALUATION REPORT*
+
+[.preface]
+== Explanatory Notes
+
+[%unnumbered,cols="1,6",options="header"]
+|===
+| Symbol
+| Meaning
+
+| stem:[I]
+| Indication
+
+| stem:[I_n]
+| stem:[n]th indication
+
+| stem:[L]
+| Load
+
+| stem:[Delta L]
+| Additional load to next changeover point
+
+| stem:[P]
+| stem:[I + 1//2 d - Delta L] = Indication prior to rounding (digital indication)
+
+| stem:[E]
+| stem:[I - L] or stem:[P - L] = Error
+
+| stem:[E %]
+| stem:[(P - L) // L %]
+
+| stem:[E_0]
+| Error at zero load
+
+| stem:[d]
+| Actual scale interval
+
+| stem:[d_"s"]
+| Stationary scale interval
+
+| stem:[p_i]
+| Fraction of the MPE applicable to a module of the instrument which is examined
+separately
+
+| MPE
+| Maximum permissible error
+
+| EUT
+| Equipment under test
+
+| sf
+| Significant fault
+
+| Max
+| Maximum capacity of the weighing instrument
+
+| Min
+| Minimum capacity of the weighing instrument
+
+| stem:[U_"nom"]
+| Nominal voltage value marked on the instrument
+
+| stem:[U_"max"]
+| Highest value of a voltage range marked on the instrument
+
+| stem:[U_"min"]
+| Lowest value of a voltage range marked on the instrument
+
+| stem:[v_"min"]
+| Minimum operating speed
+
+| stem:[v_"max"]
+| Maximum operating speed
+
+| e.m.f
+| Electromotive force
+
+| I/O
+| Input / output ports
+
+| RF
+| Radio frequency
+
+| stem:["unitsml(V*m^-1)"]
+| Volts per metre
+
+| stem:["unitsml(kV)"]
+| kilovolt
+
+| DC
+| Direct current
+
+| AC
+| Alternating current
+
+| stem:["unitsml(MHz)"]
+| Megahertz
+|===
+
+The name(s) or symbol(s) of the unit(s) used to express test results shall be
+specified in each form.
+
+[%unnumbered,cols="6,^,^,3"]
+|===
+| For each test, the "SUMMARY OF TYPE EVALUATION" and the "CHECKLIST" shall
+be completed according to this example:
+| P | F
+| P = Passed +
+F = Failed
+
+>| when the instrument has passed the test: | × |   |
+>| when the instrument has failed the test: |   | × |
+>| when the test is not applicable:         | – | – |
+|===
+
+The white spaces in boxes in the headings of the Report should always be filled
+according to the following example:
+
+[%unnumbered,cols="1,^,^,1"]
+|===
+| | At start | At end |
+
+>| Temp.:      | 20.5       | 21.1       | stem:["unitsml(degC)"]
+>| Rel. h.:    | 50         | 55         | %
+>| Date:       | 2009-01-29 | 2009-01-30 | yyyy-mm-dd
+>| Time:       | 16:00:05   | 16:30:25   | hh:mm:ss
+>| Bar. pres.: | 1013       | 1015       | stem:["unitsml(hPa)"]
+|===
+
+Where "Date" in the test reports refers to the date on which the test was performed.
+
+In the disturbance tests, faults greater than stem:[d] are acceptable provided
+that they are detected and acted upon, or that they result from circumstances
+such that these faults shall not be considered as significant; an appropriate
+explanation shall be given in the column "Yes (remarks)".
+
+Section numbers in brackets refer to the corresponding subclauses of R 134-1.
+
+<<<
+
+[.preface]
+== General information concerning the type
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Application no.:
+|
+| Manufacturer:
+|
+
+| Type designation:
+|
+| Applicant:
+|
+
+| Instrument category:
+|
+|
+|
+|===
+
+[%unnumbered,cols="2,3,3"]
+|===
+.3+| Testing on:
+| ☐ Full draught weighbridge | ☐ Multi-draught weighbridge
+
+| ☐ Complete instrument | ☐ Module
+footnote:[The test equipment (simulator or part of a complete instrument)
+connected to the module shall be defined in the test form(s) used.]
+
+| ☐ Static weighing mode |
+|===
+
+[%unnumbered,cols="3,1,1,1,1,1,1"]
+|===
+7+| Accuracy class:
+
+| Single-axle load and axle-group load:
+| ☐ A
+| ☐ B
+| ☐ C
+| ☐ D
+| ☐ E
+| ☐ F
+
+| Vehicle mass:
+| ☐ 0.2
+| ☐ 0.5
+| ☐ 1
+| ☐ 2
+| ☐ 5
+| ☐ 10
+|===
+
+[%unnumbered,cols="3,2,3,2,2,2,2,2"]
+|===
+| Maximum capacity =
+|
+| Max wagon weight =
+|
+| stem:[n_"max"] =
+|
+| stem:[v_"max"] =
+|
+
+| Minimum capacity =
+|
+| Min wagon weight =
+|
+| stem:[n_"min"] =
+|
+| stem:[v_"min"] =
+|
+
+| T = +
+|
+| T = –
+|
+| stem:[d] =
+|
+|
+|
+|===
+
+[%unnumbered,cols="2,2,1,2,2,1"]
+|===
+| stem:[U_"nom"] =
+|
+| stem:["unitsml(V)"]
+| stem:[U_"min"] =
+|
+| stem:["unitsml(V)"]
+
+| stem:[U_"max"] =
+|
+| stem:["unitsml(V)"]
+| stem:[f] =
+|
+| stem:["unitsml(Hz)"]
+
+| Battery, stem:[U] =
+|
+| stem:["unitsml(V)"]
+|
+|
+|
+|===
+
+[%unnumbered,cols="1,1,1"]
+|===
+| Zero-setting device:
+| Tare device:
+|
+
+| ☐ Non-automatic
+| ☐ Tare balancing
+| ☐ Combined zero/tare device
+
+| ☐ Semi-automatic
+| ☐ Tare weighing
+|
+
+| ☐ Automatic zero-setting
+| ☐ Preset tare device
+|
+
+| ☐ Initial zero-setting
+| ☐ Subtractive tare
+|
+
+| ☐ Zero-tracking
+| ☐ Additive tare
+|
+|===
+
+[%unnumbered,cols="3,2,2,3,2,1"]
+|===
+| Initial zero-setting range
+|
+| % of Max
+| Temperature range
+|
+| stem:["unitsml(degC)"]
+|===
+
+[%unnumbered,cols="1,1,1,2,2"]
+|===
+| Printer:
+| ☐ Built-in
+| ☐ Connected
+| ☐ Not present but connectable
+| ☐ No connection
+|===
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Instrument submitted:
+|
+| Load sensor:
+|
+
+| Identification no.:
+|
+| Manufacturer:
+|
+
+| Software version:
+|
+| Type:
+|
+
+.2+| Connected equipment:
+|
+| Capacity:
+|
+
+|
+| Number:
+|
+
+.2+| Interfaces (number, nature):
+|
+| Classification symbol:
+|
+
+|
+.4+| Remarks:
+|
+
+| Evaluation period:
+|
+|
+
+| Date of report:
+|
+|
+
+| Observer:
+|
+|
+|===
+
+<<<
+
+*GENERAL INFORMATION CONCERNING THE TYPE (continued)*
+
+Use this space to indicate additional remarks and/or information: other connected
+equipment, interfaces and load cells, choice of the manufacturer regarding protection
+against disturbances, etc.
+
+<<<
+
+[.preface]
+== Identification of the instrument
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Application no.:
+|
+| Type designation:
+|
+
+| Identification no.:
+|
+| Manufacturer:
+|
+
+| Software version:
+|
+|
+|
+
+| Report date:
+|
+|
+|
+|===
+
+(Record as necessary to identify the equipment under test)
+
+[%unnumbered,cols="3,4,2,3",options="header"]
+|===
+| System or module name
+| Drawing number or software reference
+| Issue level
+| Serial no.
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+|===
+
+*Simulator documentation*
+
+[%unnumbered,cols="3,4,2,3",options="header"]
+|===
+| System or module name
+| Drawing number or software reference
+| Issue level
+| Serial no.
+
+| | | |
+
+| | | |
+
+| | | |
+
+| | | |
+|===
+
+*Simulator function (summary)*
+
+Simulator description and drawings, block diagram, etc should be attached to
+the report if available.
+
+<<<
+
+*IDENTIFICATION OF THE INSTRUMENT (continued)*
+
+Description or other information pertaining to identification of the instrument:
+
+_(attach photograph here if available)_
+
+<<<
+
+[.preface]
+== Information concerning the test equipment used for type evaluation
+
+*TEST EQUIPMENT*
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Application no.:
+|
+| Type designation:
+|
+
+| Report date:
+|
+| Manufacturer:
+|
+|===
+
+List all test equipment used in this report (including descriptions of the reference
+vehicles used for testing)
+
+[%unnumbered,cols="5*",options="header"]
+|===
+| Equipment name
+| Manufacturer
+| Type no.
+| Serial no.
+| Used for +
+(test references)
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+
+| | | | |
+|===
+
+<<<
+
+[.preface]
+== Configuration for test
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Application no.:
+|
+| Type designation:
+|
+
+| Report date:
+|
+| Manufacturer:
+|
+|===
+
+Use this space for additional information relating to equipment configuration,
+interfaces, data rates, load cells EMC protection options, etc, for the instrument
+and/or simulator.
+
+<<<
+
+[.preface]
+== Summary of type evaluation
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Application no.:
+|
+| Type designation:
+|
+
+| Report date:
+|
+| Manufacturer:
+|
+|===
+
+[%unnumbered,cols="1,6,2,2,2,4",options="header"]
+|===
+|
+| TESTS
+| Report page
+| Passed
+| Failed
+| Remarks
+
+| 1
+| Zero-setting
+|
+|
+|
+|
+
+| 2
+| Warm-up time
+|
+|
+|
+|
+
+| 3
+5+| Influence factors
+
+| 3.1
+| Static temperatures
+|
+|
+|
+|
+
+| 3.2
+| Temperature effect on no-load indication
+|
+|
+|
+|
+
+| 3.3
+| Damp heat, steady-state
+|
+|
+|
+|
+
+| 3.4
+| AC mains voltage variation
+|
+|
+|
+|
+
+| 3.5
+| DC mains voltage variation
+|
+|
+|
+|
+
+| 3.6
+| Battery voltage (DC) variation
+|
+|
+|
+|
+
+| 3.7
+| Voltage variations in stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"] road
+vehicle batteries
+|
+|
+|
+|
+
+| 4
+5+| Disturbances
+
+| 4.1
+| AC mains voltage short time power reduction
+|
+|
+|
+|
+
+| 4.2
+| Electrical fast transients/burst immunity on mains supply lines and on I/O
+circuits and communication lines
+|
+|
+|
+|
+
+| 4.3
+| Electrical surges on mains supply lines and on I/O circuits and communication lines
+|
+|
+|
+|
+
+| 4.4
+| Electrostatic discharges
+|
+|
+|
+|
+
+| 4.5
+| Immunity to electromagnetic fields
+|
+|
+|
+|
+
+| 4.6
+| Electrical transient conduction for instruments powered by stem:[12 "unitsml(V)"]
+or stem:[24 "unitsml(V)"] road vehicle batteries
+|
+|
+|
+|
+
+| 5
+| Span stability
+|
+|
+|
+|
+
+| 6
+5+| In-motion tests
+
+| 6.1
+5+| Non-automatic tests of the control instrument:
+
+| 6.1.1
+| Accuracy of zero-setting
+|
+|
+|
+|
+
+| 6.1.2
+| Determination of weighing performance
+|
+|
+|
+|
+
+| 6.1.3
+| Eccentricity
+|
+|
+|
+|
+
+| 6.1.4
+| Discrimination
+|
+|
+|
+|
+
+| 6.2
+| Static weighing test
+|
+|
+|
+|
+
+| 6.3
+| In-motion tests
+|
+|
+|
+|
+
+| 7
+| Examination of the construction
+|
+|
+|
+|
+
+| 8
+| Checklist
+|
+|
+|
+|
+|===
+
+<<<
+
+*SUMMARY OF TYPE EVALUATION (continued)*
+
+Use this page to detail remarks from the summary of the type evaluation.
+
+<<<
