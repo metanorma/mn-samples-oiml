@@ -1,0 +1,15 @@
+== EXAMINATION OF THE CONSTRUCTION OF THE INSTRUMENT
+
+Use this page to indicate any description or information pertaining to the instrument,
+additional to that already contained in this report and in the accompanying
+national type approval or OIML Certificate. This may include a picture of the
+complete instrument, a description of its main components, and any remarks which
+could be useful for authorities responsible for the initial or subsequent verifications
+of individual instruments built according to the type. It may also include references
+to the manufacturer's description.
+
+Description:
+
+Remarks:
+
+<<<

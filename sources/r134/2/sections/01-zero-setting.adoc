@@ -1,0 +1,54 @@
+
+== ZERO-SETTING (3.3.1, A.5.1)
+
+include::../common-content/form-1.adoc[]
+
+stem:[E = I + 1/2 d - Delta L] +
+stem:[E = I - L] or stem:[P - L] = Error
+
+=== Range of zero-setting (3.3.1, A.5.1.1)
+
+[%unnumbered,cols="5*",options="header"]
+|===
+| Zero-setting mode
+| Positive zero limit load, stem:[L_1]
+| Negative zero limit load, stem:[L_2]
+| Range stem:[L_1 + L_2]
+| % of maximum load
+
+| | | | |
+
+| | | | |
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+=== Accuracy of zero-setting (3.3.1, A.5.1.2)
+
+[%unnumbered,cols="4*",options="header"]
+|===
+| Zero-setting mode
+| stem:[Delta L]
+| stem:[E = 1/2 d - Delta L]
+| MPE
+
+| | | |
+
+| | | |
+|===
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+Remarks:
+
+<<<

@@ -1,0 +1,390 @@
+
+== SPAN STABILITY (6.14.3, A.8)
+
+[%unnumbered,cols="3,3"]
+|===
+| Application no.: |
+| Type designation: |
+| Scale interval, stem:[d]: |
+| Resolution during test: +
+(smaller than stem:[d])
+|
+|===
+
+Automatic zero-setting and zero-tracking device is:
+
+[%unnumbered,cols="1,1,1"]
+|===
+| ☐ Non-existent
+| ☐ Not in operation
+| ☐ Out of working range
+|===
+
+[%unnumbered,cols="2,2,2,2"]
+|===
+| Zero load: |
+| Test load: |
+|===
+
+Automatic span adjustment device:
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Non-existent
+| ☐ In operation
+|===
+
+*Measurement no. 1: Initial measurement*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="^,3,2,2,3,2,2,2,2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from variations
+of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="5,2"]
+|===
+>| Average error = average (stem:[E_"L" - E_0]) =     |
+>| stem:[(E_"L" - E_0)_"max" - (E_"L" - E_0)_"min"] = |
+>| stem:[0.1 d] =                                     |
+|===
+
+If stem:[|(E_"L" - E_0)_"max" - (E_"L" - E_0)_"min"| <= 0.1 d], the loading
+and reading will be sufficient for each of the subsequent measurements.
+
+Remarks:
+
+<<<
+
+*5 Span stability (continued)*
+
+Subsequent measurements
+
+For each of the subsequent measurements (at least 7), indicate on the "conditions
+of the measurement", as appropriate, if the measurement has been performed after:
+
+[%unnumbered,cols="1",options="noheader"]
+|===
+| ☐ the temperature test, the EUT having been stabilized for at least 16 h
+| ☐ the damp heat test, the EUT having been stabilized for at least 16 h
+| ☐ the EUT has been disconnected from the mains for at least 8 h and then stabilized
+for at least 5 h
+| ☐ any change in the test location
+| ☐ any other specific condition:
+|===
+
+*Measurement no. 2:*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="1,3,2,2,3,2,2,2,2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from
+variations of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="4,4,2"]
+|===
+| If five loadings and readings have been performed:
+| Average error = average (stem:[E_"L" - E_0]) =
+|
+|===
+
+Remarks:
+
+<<<
+
+*5 Span stability (continued)*
+
+*Measurement no. 3:*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="^.^1,^.^3,^.^2,^.^2,^.^3,^.^2,^.^2,^.^2,^.^2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from variations of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="4,4,2"]
+|===
+| If five loadings and readings have been performed:
+| Average error = average (stem:[E_"L" - E_0]) =
+|
+|===
+
+Remarks:
+
+*Measurement no. 4:*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="1,3,2,2,3,2,2,2,2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from
+variations of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="4,4,2"]
+|===
+| If five loadings and readings have been performed:
+| Average error = average (stem:[E_"L" - E_0]) =
+|
+|===
+
+Remarks:
+
+<<<
+
+*5 Span stability (continued)*
+
+*Measurement no. 5:*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="1,3,2,2,3,2,2,2,2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from
+variations of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="4,4,2"]
+|===
+| If five loadings and readings have been performed:
+| Average error = average (stem:[E_"L" - E_0]) =
+|
+|===
+
+Remarks:
+
+*Measurement no. 6:*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="1,3,2,2,3,2,2,2,2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from
+variations of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="4,4,2"]
+|===
+| If five loadings and readings have been performed:
+| Average error = average (stem:[E_"L" - E_0]) =
+|
+|===
+
+Remarks:
+
+<<<
+
+*5 Span stability (continued)*
+
+*Measurement no. 7:*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="^.^1,^.^3,^.^2,^.^2,^.^3,^.^2,^.^2,^.^2,^.^2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from
+variations of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="4,4,2"]
+|===
+| If five loadings and readings have been performed:
+| Average error = average (stem:[E_"L" - E_0]) =
+|
+|===
+
+Remarks:
+
+*Measurement no. 8:*
+
+include::../common-content/form-3.adoc[]
+
+stem:[E_0 = I_0 + 1/2 d - Delta L_0 - L_0] {nbsp}{nbsp}{nbsp}
+stem:[E_"L" = I_"L" + 1/2 d - Delta L - L]
+
+[%unnumbered,cols="1,3,2,2,3,2,2,2,2",options="header"]
+|===
+|
+| Indication of zero, stem:[I_0]
+| Add. load, stem:[Delta L_0]
+| stem:[E_0]
+| Indication of load, stem:[I_"L"]
+| Add. load, stem:[Delta L]
+| stem:[E_"L"]
+| stem:[E_"L" - E_0]
+| Corrected value
+footnote:[When applicable, necessary corrections resulting from
+variations of temperature, pressure, etc. See remarks.]
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| 4 | | | | | | | |
+| 5 | | | | | | | |
+|===
+
+[%unnumbered,cols="4,4,2"]
+|===
+| If five loadings and readings have been performed:
+| Average error = average (stem:[E_"L" - E_0]) =
+|
+|===
+
+Remarks:
+
+[%landscape]
+<<<
+
+*5 SPAN STABILITY (A.8)*
+
+[%unnumbered,cols="2,3,2,3"]
+|===
+| Application no.: | | |
+| Type designation: | | |
+|===
+
+Plot on the diagram the indication of temperature test, *T*, damp heat test, *D*,
+and disconnections from the mains power supply, *P*
+
+[%unnumbered]
+image::figure-3.png[]
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ Passed
+| ☐ Failed
+|===
+
+[%portrait]
+<<<
