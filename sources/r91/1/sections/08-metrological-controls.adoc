@@ -1,0 +1,219 @@
+
+== Metrological controls
+
+The metrological controls of speed meters may, in agreement with national regulations,
+consist of
+
+. type approval;
+. initial verification;
+. subsequent verification; and
+. in-service inspection.
+
+Measures to ensure durability (see <<scls-6-19>>), which shall include assessments
+under items a. to d. above shall be taken subject to national regulations.
+
+=== Type approval
+
+==== Documentation
+
+The documentation submitted with the application for type approval shall include,
+as far as applicable and in accordance with national regulations:
+
+* metrological characteristics of the speed meter, including a statement about
+durability;
+
+* technical and electronic specifications;
+
+* functional description of the speed meter including its subassemblies and
+components;
+
+* description of checking facilities (see <<scls-6-9>> and <<scls-7-5>>);
+
+* drawings, diagrams and photos of the speed meter explaining its construction
+and operation;
+
+* a list of interfaces specifying types, intended use, immunity to external
+influences;
+
+* installation requirements and instructions;
+
+* description and application of self-checking mechanisms;
+
+* security sealing plan including drawings or photos;
+
+* security measures for protection of software, settings and measurement data;
+
+* panel layout (user interface);
+
+* general information on the software (covering in particular the requirements
+in <<scls-7-10>>);
+
+* operating instructions and operating manual that will be provided to the user;
+
+* documents or other evidence that support the assumption that the design and
+characteristics of the measuring instrument comply with the requirements of
+this Recommendation;
+
+* the documentation requested in <<OIML_D_31_2023,clause=7.1>>;
+
+* a sample of a recorded event (evidence file); and
+
+* description of measuring principles or algorithms and how speed values for
+indication are obtained (including the mathematical operation used to obtain
+integer speed values from high-resolution values).
+
+The testing laboratory can request any additional or more detailed documentation
+to be able to continue with the testing of the speed meter.
+
+==== Units submitted to type test
+
+Type evaluation shall be performed on at least one equipment under test (EUT),
+which represents the definitive type.
+
+The evaluation shall include the examination and tests specified in OIML R 91-2.
+Additional tests can be applied, if it is necessary due to the technology of
+the speed meter.
+
+The applicant shall supply at least one production EUT for type testing.
+
+The testing laboratory may carry out different tests simultaneously on two or
+three EUTs. In this case, the testing laboratory shall ensure that all submitted
+instruments are in conformance to type.
+
+All accuracy and influence tests shall be performed on the same EUT, but disturbance
+tests may be performed on one more additional EUT. These additional EUTs shall
+also be submitted beforehand to the accuracy tests.
+
+If an EUT does not pass a specific test and as a result has to be modified or
+repaired, the applicant shall carry out this modification to all EUTs supplied
+for testing.
+
+If the testing laboratory cannot exclude that the modification has a negative
+influence on tests that already had a positive result, these tests shall be repeated.
+
+The EUT may be adjusted, if necessary, before type approval testing begins.
+Thereafter, no adjustment shall be performed until all type approval testing
+is complete.
+
+==== Visual inspection
+
+The instrument and the documentation shall be given a visual inspection to obtain
+a general appraisal of its design and construction, and the documentation shall
+be studied.
+
+In particular, the following aspects shall be examined:
+
+. measuring interval (<<scls-6-1>>);
+. indicated speed value (<<scls-6-2>>) and other values and information (<<scls-6-7>>
+and <<scls-7-3>>);
+. protection against fraud (<<scls-7-10-2>>);
+. checking facility (<<scls-7-5>>);
+. durability protection (<<scls-6-19>>);
+. software (<<scls-7-10>>);
+. storing of measurement results (<<scls-7-4>>);
+. data transmission (<<scls-7-1-5>>);
+. inscriptions (<<scls-7-11>>);
+. operating manual (<<scls-7-12>>);
+. sealing (<<scls-7-13>>); and
+. suitability for testing (<<scls-7-9>>).
+
+==== Type evaluation tests
+
+Type evaluation tests for speed meters include the following tests:
+
+. Metrological field test (OIML R 91-2, 4);
+. Metrological laboratory test by traffic simulation (OIML R 91-2, 5) (optional);
+. Influence factor and disturbance tests (OIML R 91-2, 6);
+. Tests specific to certain categories of speed meters (OIML R 91-2, 7);
+. Durability tests or other methods of estimating durability error; and
+. Software tests (OIML R 91-2, 8).
+
+[[scls-8-2]]
+=== Initial verification
+
+Initial verification shall be carried out by the metrological authority to establish
+conformity of the speed meter to the approved type and/or the requirements of
+this Recommendation.
+
+The speed meter shall comply with the requirements from <<cls-6>> and <<cls-7>>.
+
+Initial verification control may be performed according to national regulations.
+
+==== Visual inspection
+
+Before testing, the speed meter shall be visually inspected for:
+
+. metrological characteristics;
+. prescribed inscriptions and positions for verification and control marks;
+. visual conformity with the approved type as described in the approval certificate;
+and
+. the speed meter shall be in good working order.
+
+==== Tests
+
+During the initial verification, the following test should be carried out:
+
+. laboratory accuracy test, or
+. field accuracy test.
+
+It is allowed to combine or switch between those two tests.
+
+The speed meter shall be fully assembled and operational.
+
+==== Assessment of conformity
+
+Assessment of conformity to the approved type and this Recommendation shall cover:
+
+. compliance of the instrument with the metrological requirements in <<cls-6>>,
+in particular with the MPE given in <<scls-6-4>> and <<scls-6-15-1>>;
+. compliance of the instrument with the technical requirements in <<cls-7>>;
+. correct functioning of the complete speed meter; and
+. configuration of the speed meter as far as it has metrological relevance to
+speed measurement.
+
+==== Marking and securing
+
+According to national regulations, signing or marking of initial verification
+may follow <<scls-7-14>>.
+
+National regulations may also require securing of speed meter installation parameters
+or other devices that might influence the metrological characteristics of the
+speed meter.
+
+[[scls-8-3]]
+=== Subsequent verification
+
+Subsequent verification shall be carried out by the metrological authority to
+trace the conformity of the speed meter to the approved type and/or the requirements
+of this Recommendation over operation time.
+
+Subsequent verification control may be performed according to national regulations.
+
+Subsequent verification shall be carried out in accordance with the same requirements
+as in <<scls-8-2>> for initial verification with the same MPE as for initial
+verification.
+
+Marking and securing may take place according to <<scls-7-14>> and according
+to any additional requirements of national regulations.
+
+==== Tests
+
+During the subsequent verification, the following test should be carried out:
+
+. laboratory accuracy test, or
+. field accuracy test.
+
+It is allowed to combine or switch between those two tests.
+
+The speed meter shall be fully assembled and operational.
+
+=== In-service inspection
+
+In-service inspection shall be carried out in accordance with the same requirements
+as in <<scls-8-2>> for initial verification, with the exception that the in-service
+MPE according to national regulations shall be applied. Marking and securing
+may remain unchanged or renewed according to <<scls-8-3>>.
+
+==== Test
+
+In-service inspection can be done according to the field accuracy tests.

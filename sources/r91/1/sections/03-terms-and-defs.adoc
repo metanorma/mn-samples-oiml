@@ -1,0 +1,509 @@
+
+== Terms and definitions
+
+=== General
+
+==== speed meter
+
+instrument that measures and displays the speed of a distant vehicle within
+specified error limits used for traffic enforcement cases
+
+==== evidence file
+
+electronic file containing all relevant data related to a speed measurement
+
+==== standby mode
+
+mode of operation in which no speed measurements will be performed
+
+==== enforcement mode
+
+mode of operation in which speed measurements for traffic enforcement cases
+are carried out
+
+NOTE: The enforcement mode is the preferred mode for metrological control.
+
+==== test mode
+
+mode of operation in which speed measurements for test and examination purposes
+are carried out
+
+==== user interface
+
+interface that enables information to be interchanged between the user/operator
+and the measuring instrument or its (hardware) components or (software) modules
+
+NOTE: Typical examples of user interfaces are switches, keyboard, mouse, display,
+monitor, printer, touchscreen, etc.
+
+==== test interface
+
+software or hardware interface from which measurement signals or data can be
+read or to which measurement signals can be inserted
+
+NOTE: To record and analyse signals from field experiments or to insert recorded
+or artificial data, e.g. to support metrological control.
+
+==== checking facility
+
+facility that is incorporated in a measuring instrument and which enables significant
+faults to be detected and acted upon
+
+[.source]
+<<OIML_V_1_2022,clause=5.07>>
+
+==== manual measurement
+
+speed measurement triggered by user interaction
+
+==== automatic measurement
+
+speed measurement triggered by the traffic situation without user interaction
+
+==== trigger line
+
+physical or virtual line segment on one or several lanes of the road at which
+automatic speed measurements are carried out
+
+NOTE: The trigger line is typically perpendicular to the direction of the road.
+
+NOTE: The trigger line is not necessarily in the same position for every measurement.
+
+==== trigger distance
+
+horizontal distance along the road from the speed meter to the trigger line
+
+==== measurement section
+
+a straight or curved section of the road, where the measured vehicle was driving
+during the measurement
+
+NOTE: Its starting and end points are defined such that the measured speed value
+refers to the average speed on the measurement section.
+
+NOTE: In a manual measurement, the measured vehicle drives on the measurement
+section after the measurement is triggered. In an automatic measurement, the
+measured vehicle exits the measurement section at the trigger line.
+
+=== Mode of use
+
+==== ego speed
+
+speed (relative to the road surface) of the speed meter during a measurement
+
+==== ego speed meter
+
+instrument measuring the speed of the vehicle in which the moving speed meter
+is installed
+
+==== stationary measurement
+
+speed measurement at zero ego speed, i.e. the speed meter is not moving during
+the measurement
+
+NOTE: In other documents, stationary measurements are sometimes called static
+measurements or measurements from a static point.
+
+==== stationary speed meter
+
+speed meter which is designed for stationary measurements and does not correct
+for non-zero ego speed
+
+NOTE: A stationary speed meter is either fixed or mobile.
+
+==== moving speed meter
+
+speed meter installed in a vehicle which is intended to be in motion during
+measurements
+
+NOTE: An ego speed meter is part of a moving speed meter.
+
+==== moving measurement
+
+speed measurement using a moving speed meter with non-zero ego speed
+
+==== mobile speed meter
+
+stationary speed meter which can be moved to different locations between measurements
+
+NOTE: Stationary speed meters installed in a parked vehicle or on a parked trailer
+are also considered as mobile speed meters.
+
+NOTE: Portable speed meters which are used hand-held or which are (temporarily)
+installed on a tripod or similar temporary stand to guide the hand of the operator
+for a limited series of measurements are also considered as mobile speed meters.
+
+==== fixed speed meter
+
+stationary speed meter, permanently installed in a cabinet, on a fixed pole
+or a similar fixed stand
+
+=== Working principle
+
+==== Doppler-radar based speed meter
+
+speed meter emitting microwave radiation and detecting the Doppler shift of
+the radiation reflected by moving objects
+
+==== range-finding based speed meter
+
+speed meter emitting pulsed or modulated radiation and detecting the range (distance)
+from the radiation reflected by objects
+
+NOTE: 2D and 3D laser scanners and hand-held LIDAR speed meters are examples
+belonging to this category. LIDAR (Light Detection and Ranging) is a remote
+sensing method that determines target range and speed based on the time-of-flight
+of laser light pulses reflected off a target.
+
+==== fixed-distance speed meter
+
+speed meter incorporating two or more detection points at fixed distances and
+detecting the transit time of the vehicles between the detection points
+
+NOTE: Laser or light barriers, inductive loop detectors, and pressure-sensitive
+barriers are examples belonging to this category.
+
+==== average speed meter
+
+fixed-distance speed meter with closest detection fields separated by more than
+stem:[50 "unitsml(m)"]
+
+NOTE: Average speed meters are also referred to as _section speed meters_.
+
+==== image-based speed meter
+
+speed meter incorporating one or more video or photo cameras and determining
+the speed of the vehicles by image processing
+
+==== beam width
+
+angular span of a radiation beam in the horizontal plane
+
+NOTE: The angular span of a radiation beam in the vertical plane is referred
+to as _vertical beam width_
+
+NOTE: The beam width of a Doppler-radar based speed meter is commonly measured
+between half-maximum-power points (or stem:[-3 "unitsml(dbel_B)"] points) on
+each side of the main lobe.
+
+NOTE: Beam widths can be expressed in angles or metres (at a specified distance).
+Angles are typically given in degrees (e.g. for Doppler-radar based speed meters)
+or in milliradians (stem:["unitsml(mrad)"]; e.g. for hand-held LIDAR speed meters).
+<<figure-1>> shows an example.
+
+[[figure-1]]
+.Illustration of a beam width of stem:[1.5 "unitsml(mrad)"] or stem:[1.5 "unitsml(m)"] at a distance of stem:[1000 "unitsml(m)"]
+image::figure-1.png[]
+
+==== fixed beam
+
+radiation beam emitted in a fixed angle from the speed meter
+
+==== scanning beam
+
+radiation beam emitted in a periodically changing angle from the speed meter
+
+==== detection point
+
+point on the road at which passing vehicles are detected
+
+==== detection field
+
+section on the road containing all possible locations of a detection point (considering
+the possible variation of the location of the detection point)
+
+==== section distance
+
+closest driving distance between entry and exit detection fields of fixed-distance
+speed meters
+
+==== hash algorithm
+
+function that converts a data string into a numeric string output of fixed length
+
+NOTE: Hash algorithms are designed to be collision-resistant, meaning that there
+is a very low probability that the same string would be created for different data.
+
+NOTE: Hash algorithms are used for software identification, authentication of
+measurements, protection of settings etc.
+
+NOTE: Typical hash algorithms are SHA-2 (256-bit hash) or stronger.
+
+=== Alignment
+
+==== centre line
+
+line starting from the speed meter lying in the centre of the region monitored
+by the speed meter (see <<figure-2>>)
+
+NOTE: For a speed meter with a fixed beam, the centre line is in the centre
+of the beam.
+
+NOTE: For a speed meter with a scanning beam, the centre line is in the centre
+of the scanning region.
+
+==== reference point
+
+point on the housing of the speed meter which serves as a reference for all
+distance measurements to the speed meter (see <<figure-2>>)
+
+==== azimuth angle of speed meter
+
+horizontal angle between the course of the road and the centre line of the speed
+meter (see <<figure-2>>)
+
+NOTE: In other documents, the azimuth angle of speed meter is sometimes called
+the horizontal alignment angle.
+
+==== elevation angle of speed meter
+
+vertical angle between the road surface and the centre line of the speed meter
+(see <<figure-2>>)
+
+NOTE: In other documents, the elevation angle of speed meter is sometimes called
+the vertical alignment angle.
+
+==== side distance of speed meter
+
+horizontal distance from the reference point of the speed meter to the closest
+edge of the closest lane (see <<figure-2>>; inner edge of the lane marking)
+
+==== height of speed meter
+
+vertical distance from the reference point of the speed meter to the road surface
+
+NOTE: <<figure-2>> shows an illustration of several alignment parameters of
+speed meters.
+
+NOTE: The reference point on the example speed meter is marked as a circle.
+The centre line does not necessarily start from the reference point.
+
+NOTE: The position of the reference point is determined by the manufacturer.
+The reference point of this illustration is an example.
+
+[[figure-2]]
+.Illustration of several alignment parameters of speed meters (azimuth, elevation, side distance and height)
+image::figure-2.png[]
+
+==== measurement angle
+
+angle between the velocity vector and the line connecting the speed meter and
+the vehicle at the instance of the measurement
+
+NOTE: The measurement angle has a horizontal and a vertical component. <<figure-3>>
+shows an illustration of the horizontal component of the measurement angle stem:[alpha].
+
+[[figure-3]]
+.Illustration of the horizontal component of the measurement angle stem:[alpha]
+image::figure-3.png[]
+
+==== angle measurement
+
+measurement of the horizontal component of the measurement angle
+
+NOTE: The measurement of the vertical component of the measurement angle is
+referred to as _vertical angle measurement._
+
+==== cosine error
+
+measurement error due to a measurement angle which differs from the configured
+value, the nominal value or the value measured by the instrument
+
+NOTE: The name of this term comes from the fact that the component of the velocity
+vector parallel to the line connecting the speed meter and the vehicle is given
+by stem:[v_"m" = v * cos(alpha)], where the measurement angle stem:[alpha] has
+in general a horizontal and a vertical component.
+
+[[scls-3-4-10]]
+==== along-the-road speed meter
+
+speed meter without compensation for cosine error
+
+NOTE: A variation of measurement angle will always lead to negative cosine errors
+(i.e. in favour of the accused driver) for this class of speed meters.
+
+NOTE: Typical examples are hand-held LIDAR speed meters and fixed-distance speed
+meters.
+
+[[scls-3-4-11]]
+==== across-the-road speed meter
+
+speed meter with compensation for cosine error using either a measured value
+of the measurement angle, a configured value of the expected measurement angle
+or a combination of the two
+
+NOTE: A variation of measurement angle can lead to negative or positive residual
+cosine errors for this class of speed meters.
+
+NOTE: A speed meter that is installed above the road and compensates for cosine
+error is also referred to as across-the-road speed meter, for simplicity.
+
+NOTE: Typical examples are most Doppler-radar based speed meters, 2D and 3D
+laser scanners and image-based speed meters.
+
+==== aiming device
+
+device to orient the speed meter such that the azimuth and/or elevation are correct
+
+==== vehicle shape-related error
+
+measurement error due to changing target area on the measured vehicle during
+the measurement
+
+NOTE: The change can be manifold, _e.g._ a single step, multiple steps, or a
+gradual sliding.
+
+.Exemplary arrangement where a vehicle shape-related error could occur
+image::figure-4.png[]
+
+==== target switching
+
+switching of the target from one vehicle to a different vehicle during the measurement
+
+==== magnifying viewfinder
+
+visual aid to magnify a target by a specified factor and to aim the measurement
+beam at the target
+
+NOTE: It is to be used with handheld speed meters.
+
+=== Errors and faults
+
+==== error of indication
+alt:[measurement error]
+
+indication minus a reference quantity value
+
+[.source]
+<<OIML_V_1_2022,clause=0.04>>
+
+==== maximum permissible error
+alt:[MPE]
+
+extreme value of error of indication, with respect to a known reference quantity
+value, permitted by specifications or regulations for a given measurement, measuring
+instrument, or measuring system
+
+NOTE: The unit of the error of indication and of the MPE can be either absolute
+(e.g. stem:["unitsml(km/h)"]) or relative (e.g. %). Error values in relative
+units given in this recommendation are always relative to the absolute value
+of the reference (not to the value of the device under test or to any other value).
+
+[.source]
+<<OIML_V_1_2022,clause=0.05>>
+
+==== intrinsic error
+
+error of indication, determined under reference conditions
+
+[.source]
+<<OIML_V_1_2022,clause=0.06>>
+
+==== initial intrinsic error
+
+intrinsic error of a measuring instrument as determined prior to performance
+tests and durability evaluations
+
+[.source]
+<<OIML_V_1_2022,clause=5.11>>
+
+==== durability error
+
+difference between the intrinsic error after a period of use and the initial
+intrinsic error of a measuring instrument
+
+[.source]
+<<OIML_V_1_2022,clause=5.16>>
+
+==== fault
+
+difference between the error of indication and the intrinsic error of a measuring
+instrument
+
+[.source]
+<<OIML_V_1_2022,clause=5.12>>
+
+==== influence quantity
+
+quantity that, in a direct measurement, does not affect the quantity that is
+actually measured, but affects the relation between the indication and the measurement
+result
+
+NOTE: For speed meters the following quantities are examples of influence quantities:
+ambient temperature, measurement angle, acceleration of measured vehicle, distance
+and speed of other vehicles on the same or neighbouring lanes.
+
+[.source]
+<<OIML_V_1_2022,clause=0.07>>
+
+==== influence factor
+
+influence quantity having a value which ranges within the rated operating conditions
+of a measuring instrument
+
+[.source]
+<<OIML_V_1_2022,clause=5.18>>
+
+==== disturbance
+
+influence quantity having a value within the limits specified in Part 2 of this
+Recommendation, but outside the specified rated operating conditions of the
+measuring instrument
+
+NOTE: An influence quantity is a disturbance if the rated operating conditions
+for that influence quantity are not specified.
+
+[.source]
+<<OIML_V_1_2022,clause=5.19>>
+
+==== significant fault
+
+fault exceeding the applicable fault limit value defined in <<scls-6-18-1>>
+
+NOTE: See supplements in <<scls-6-18-2>>.
+
+[.source]
+<<OIML_V_1_2022,clause=5.14>>
+
+==== linearity error
+
+observed error in a measurement where all influence quantities have been minimized.
+
+NOTE: Typically, the linearity error is determined using a simulator in the
+laboratory.
+
+=== Abbreviations
+
+AC:: Alternating current
+
+DC:: Direct current
+
+EM:: Electromagnetic
+
+EUT:: Equipment under test
+
+FOI:: Field of illumination
+
+GNSS:: Global Navigation Satellite System
+
+IEC:: International Electrotechnical Commission
+
+ISO:: International Organization for Standardization
+
+LF:: Low frequency (band stem:[30 "unitsml(kHz)"] – stem:[300 "unitsml(kHz)"])
+
+LIDAR:: Light detection and ranging
+
+MPE:: Maximum permissible error
+
+n/a:: Not applicable
+
+NSFa:: No significant fault shall occur after the disturbance
+
+NSFd:: No significant fault shall occur during the disturbance
+
+RF:: Radio frequency
+
+RH:: Relative humidity
+
+VLF:: Very low frequency (band stem:[3 "unitsml(kHz)"] – stem:[30 "unitsml(kHz)"])

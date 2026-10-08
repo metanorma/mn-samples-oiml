@@ -1,0 +1,36 @@
+= Traffic speed meters -- Part 1: Metrological and technical requirements
+:docnumber: 91
+:partnumber: 1
+:copyright-year: 2025
+:language: en
+:title-intro-en: Traffic speed meters
+:title-main-en: Metrological and technical requirements
+:technical-committee-number: 7
+:technical-committee: Measuring instruments for length and associated quantities
+:subcommittee-number: 4
+:subcommittee: Measuring instruments for road traffic
+:doctype: international-standard
+:mn-document-class: iso
+:mn-output-extensions: xml,html
+:local-cache-only:
+:imagesdir: images
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-scope.adoc[]
+
+include::sections/03-terms-and-defs.adoc[]
+
+include::sections/04-unit-of-measurement.adoc[]
+
+include::sections/05-categorisation.adoc[]
+
+include::sections/06-metrological-reqs.adoc[]
+
+include::sections/07-technical-reqs.adoc[]
+
+include::sections/08-metrological-controls.adoc[]
+
+include::sections/b0-bibliography.adoc[]

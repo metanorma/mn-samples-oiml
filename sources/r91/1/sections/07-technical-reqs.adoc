@@ -1,0 +1,377 @@
+
+[[cls-7]]
+== Technical requirements
+
+=== General principles
+
+==== High level metrological protection
+
+A speed meter shall provide the highest level of metrological protection in
+order that any party affected can have confidence in the result of the speed
+measurement.
+
+It shall be designed and manufactured to the highest level of quality with respect
+to the measurement technology and security of the measurement data.
+
+==== Intended use
+
+The technical and metrological solutions used in the speed meter shall take
+into account the intended use of the speed meter and any possible foreseeable
+misuse of it.
+
+==== Possibility to carry out examinations and tests
+
+The speed meter shall be so designed as to enable the carrying out of each examination
+and test prescribed in this Recommendation.
+
+==== Protection against fraud and misuse
+
+The metrological characteristics of a speed meter shall not be influenced in
+any inadmissible way by the connection to it of another device, by any feature
+of the connected device itself or by any remote device that communicates with
+the speed meter.
+
+Hardware components that are critical for metrological characteristics shall
+be designed so that they can be secured.
+
+Security measures foreseen shall provide evidence of any intervention.
+
+The speed meter shall not possess any characteristics that simplify or induce
+fraudulent use or misrepresentation of the actual speed.
+
+[[scls-7-1-5]]
+==== Protection of the measurement, software and parameters
+
+The speed measurement, software critical for speed measurement and metrological
+important parameters stored or transmitted shall be adequately protected against
+accidental or intentional corruption or alteration.
+
+Legally relevant software shall be identified.
+
+=== Indication of measurement results
+
+Reading of the results (on the display, printed or recorded one) shall be reliable,
+easy and unambiguous under normal conditions of use.
+
+The result of the measurement shall be displayed digitally by means of aligned
+digits.
+
+The symbol of the measurement unit shall appear in close proximity to all indicated
+values of measured quantities. The characters used shall be at least
+stem:[3 "unitsml(mm)"] high.
+
+==== Availability of the result of a manual measurement
+
+Speed meters performing manual measurements shall indicate the measured speed
+accompanied by at least the local time of measurement with a resolution of at
+least one second. If no evidence files are stored, the indication shall remain
+visible and any further measurements shall be inhibited until the indication
+is cleared explicitly by an action of the operator.
+
+==== Availability of the result of automatic measurement
+
+Speed meters performing automatic measurements shall record and store evidence
+files for later processing and use.
+
+[[scls-7-3]]
+=== Evidence file
+
+At least the following items should be recorded in the evidence file:
+
+. Date and time of measurement;
+. Location of measurement;
+. Unique identification of measurement (e.g. current sequence number);
+. Speed of the measured vehicle with a resolution of stem:[1 "unitsml(km/h)"],
+including an indication of the driving direction of the measured vehicle;
+. Speed limit (only for stationary speed meters);
+. Type designation;
+. Serial number of the speed meter;
+. One or several photos or video files of measured vehicle (if applicable);
+. Additional information relevant for vehicle identification (e.g. lane indicator,
+crosshair, marker, etc.), if the speed meter can cover several vehicles during
+the measurement (<<scls-6-6>>);
+. Configuration of the speed meter;
+. Measured ego speed with a resolution of at least stem:[0.1 "unitsml(km/h)"]
+(only for moving measurements); and
+. Indication whether the measurement was moving or stationary (only for moving
+speed meters which allow stationary measurements in enforcement mode).
+
+The evidence file shall be secured by appropriate means to ensure its integrity,
+security and authenticity.
+
+NOTE: National regulations can prescribe a different list of items.
+
+[[scls-7-4]]
+=== Storing evidence files
+
+Speed meters that store evidence files shall provide secure and medium-term
+storage (e.g. for three months) of data for further use in legal proceedings.
+
+Evidence files shall be stored automatically after the measurement is done.
+
+The measurement value stored shall be accompanied by all the relevant information
+that is necessary for future legally relevant use.
+
+The data shall be protected by software means to guarantee the authenticity,
+integrity and correctness of the information related to the speed measurement.
+
+Software displaying data from stored evidence files shall check automatically
+the authenticity and integrity of the data. If an irregularity is detected,
+the data shall be discarded or marked unusable.
+
+Confidential private keys employed for protecting data shall be kept secret
+and secured in the system of the speed meter.
+
+There shall not be any possibility to read the private key, except by the cryptographic
+routines of the speed meter itself during the signing process of a new evidence file.
+
+[[scls-7-5]]
+=== Checking facilities
+
+Self-checking shall be carried out each time the speed meter is switched on.
+When performing automatic measurements, self-checking shall be carried out at
+least once per day.
+
+Speed meters performing manual measurements shall use at least type N – non-automatic
+checking facility according to <<OIML_D_11_2013,clause=3.19.2>>, and when performing
+automatic measurements they shall use type I – intermittent automatic checking
+facility according to <<OIML_D_11_2013,clause=3.19.1.2>>.
+
+Self-checking shall cover all steps along the measurement chain, starting as
+early as practically possible in the detection and signal-forming chain and
+extending all the way to display/storage, for example by simulating a speed
+or a time interval (depending on the technology).
+
+The frequency source used by the checking facility shall be independent from
+the frequency source used for the measurement process. When any error outside
+the permissible limit, significant fault, defect, or an error signal is detected,
+the speed meter shall give an error message and shall not allow any further
+measurements. The maximum permissible error for self-checking shall be stem:[pm 1 %]
+for all simulated speed values (i.e. also below stem:[100 "unitsml(km/h)"]).
+
+Self-checking shall also cover the authenticity of all legally relevant parts
+of the software and of the parameters whose values do not depend on the site
+of measurement. Site-dependent parameters such alignment parameters, trigger
+line definition, lane definition, etc. do not have to be part of the self-checking.
+The speed meter shall constantly monitor the ambient temperature. When the operating
+temperature interval is exceeded, the speed meter shall give an error message
+and shall not allow any further measurements.
+
+If the speed meter is located within an air-conditioned container, the speed
+meter shall constantly check the temperature inside the container. The manufacturer
+shall specify the operating temperature interval inside the container. When
+the operating temperature interval inside the container is exceeded, the speed
+meter shall give an error message and shall not allow any further measurements.
+
+The speed meter shall constantly monitor its power supply lines. When the rated
+operating voltage interval is exceeded the speed meter shall give an error message
+and shall not allow any further measurements.
+
+=== Alignment parameters of mobile speed meters
+
+If a mobile speed meter has metrologically relevant alignment parameters, the
+user shall be requested to confirm their values after each start-up and before
+speed enforcement is possible.
+
+It shall be possible to check the correct alignment of the speed meter during
+and after the measurement.
+
+[NOTE]
+====
+Possible solutions could be:
+
+* the vanishing point is located in a defined area on all recorded images, or
+
+* virtual reference lines in the camera image match with the roadside.
+====
+
+=== Aiming device
+
+Any aiming device shall be of robust construction such that its orientation
+is maintained under disturbances.
+
+The manufacturer shall describe a procedure in the manual to verify the orientation
+of any aiming device.
+
+=== Modes
+
+==== Enforcement mode
+
+It shall be clearly indicated when the instrument is in enforcement mode.
+
+==== Test mode
+
+The existence of a test mode is optional except if required for metrological
+control. The test mode shall not be accessible to the user and shall be protected
+(e.g. by a password). The test mode may be required for metrological control,
+e.g. if state-of-the art simulation in enforcement mode is not possible. The
+results of the speed measurements in enforcement mode and in test mode shall
+be identical. The manufacturer is obliged to specify all differences between
+enforcement mode and test mode.
+
+[[scls-7-9]]
+=== Test interface
+
+The speed meter shall be equipped with a test interface, which outputs data
+or signals relevant for the purpose of metrological control.
+
+The output data shall be activated in enforcement mode and shall include at least:
+
+. time stamp of the measurement;
+. measured speed value with a resolution of stem:[1 "unitsml(km/h)"] (legally
+relevant);
+. measured speed with a resolution of at least stem:[0.1 "unitsml(km/h)"] (see
+<<scls-6-2>>);
+. measured distance with resolution of at least stem:[0.1 "unitsml(m)"] (if
+applicable);
+. measured angle with resolution of at least stem:[0.1 "unitsml(deg)"] (if applicable);
+. target position coordinates with resolution of at least stem:[0.1 "unitsml(m)"]
+(if applicable);
+. lane information (if applicable)
+. measured ego speed with resolution at least stem:[0.01 "unitsml(km/h)"] (if
+applicable);
+. vehicle direction (if applicable);
+. version number and hash value of software (at start-up);
+. the result of a checking facility with a resolution of at least
+stem:[0.1 "unitsml(km/h)"] (if applicable); and
+. identification based on the serial number.
+
+If it is not possible to simulate the sensor input signal of a variety of traffic
+situations using state-of-the-art simulation, a testing input interface is required.
+
+[[scls-7-10]]
+=== Software
+
+All software influencing the metrological characteristics of a speed meter shall
+be identified as such and shall be secured.
+
+The whole software of the speed meter should be considered as legally relevant
+only if software separation is not implemented as described in
+<<OIML_D_31_2023,clause=6.3.2.2>>.
+
+==== Software identification (<<OIML_D_31_2023,clause=6.2.1>>)
+
+The software of the speed meter shall be clearly identified with a version number
+assigned by the manufacturer, and a state-of-the-art hash value. The identification
+shall be inextricably linked to the software itself and shall be calculated,
+then presented or printed on command or displayed during operation or at start up.
+
+The hash algorithm shall be a standardised algorithm.
+
+The software version and hash value shall be easily accessible and easy to readout.
+It shall be possible that these values are transferred to the testing interface
+during start-up or on request.
+
+[[scls-7-10-2]]
+==== Evidence and prevention of intervention and prevention of misuse (<<OIML_D_31_2023,clause=6.2.3;and!clause=6.2.4>>)
+
+The software shall be secured against unauthorized modification, loading, or
+changes by swapping the external memory device.
+
+In addition to mechanical sealing, technical means may be necessary to secure
+measuring instruments having an operating system or an option to load software.
+
+Software protection comprises appropriate sealing by mechanical, electronic
+and/or cryptographic means, making an unauthorized intervention impossible or
+evident.
+
+Only clearly documented functions are allowed to be activated through the user
+interface, which shall be realized in such a way that it does not facilitate
+fraudulent use.
+
+For the type approval procedure, the manufacturer of the measuring instrument
+shall declare and document all program functions that can be activated through
+the user interface. Non-documented functions shall not exist. The manufacturer
+shall explicitly state the completeness of the documentation of these functions.
+
+Parameters that fix the legally relevant characteristics of the speed meter
+shall be secured against unauthorized modification. For the purposes of verification
+it shall be possible to display or print the current parameter settings.
+
+[[scls-7-11]]
+=== Inscriptions (descriptive markings)
+
+The speed meter shall be marked with a tamper-evident label on a visible part
+of the instrument with the following information:
+
+. manufacturer's trade mark/corporate name;
+. year of manufacture;
+. type designation/model number;
+. type approval mark according to national regulations;
+. serial number of the instrument;
+. speed measuring interval;
+. maximum and minimum measuring distance, if applicable;
+. ambient temperature range; and
+. details of the electrical power:
+* in the case of mains power: the nominal mains voltage, frequency and power
+required;
+* in the case of power by a road vehicle battery: the nominal battery voltage
+and power required; and
+* in the case of an internal removable battery: the type and nominal voltage
+of the battery.
+
+If the speed meter consists of several units, each unit shall bear at least
+markings a., b., c. and e. The main unit, visible to the user, shall bear all
+inscriptions.
+
+The marking shall be visible after mounting to casings and vehicles, without
+using a tool.
+
+[[scls-7-12]]
+=== Manual
+
+The manual shall be reviewed during the type evaluation.
+
+The manual shall be in the official language(s) of the country (or another accepted
+language according to national legislation) and easily understandable.
+
+The information in the manual shall be chosen and structured such that following
+all instructions in the manual is sufficient to guarantee that the speed meter
+fulfils all requirements, in particular meets the error limits and ensures correct
+identification of the measured vehicle.
+
+The manual shall include at least:
+
+. principle of operation (measurement);
+. installation instructions;
+. operating instructions;
+. description of self-checking procedures;
+. maximum and minimum storage temperatures;
+. rated operating conditions;
+. all other relevant mechanical and electromagnetic environmental conditions;
+. mechanical and electromechanical environment classes;
+. safety and security conditions;
+. checks before or during measurement;
+. significance (meaning) of checking result;
+. description of (error) messages; and
+. information for correct interpretation of result.
+
+Installation instructions shall cover, if necessary, the acceptable:
+
+. minimum horizontal and vertical road curve radius;
+. intervals of installation height and side distance; and
+. intervals of azimuth and elevation angles.
+
+[[scls-7-13]]
+=== Sealing
+
+Effective sealing means shall be provided by the manufacturer on all parts of
+the speed meter that are not materially or electronically protected in another
+way against unauthorized intervention that may affect its accuracy or integrity.
+
+Sealing can be realised mechanically, electronically or by any other technical
+means, which provides clear evidence of any tampering with the protection of
+the speed meter.
+
+This applies in particular to
+
+. adjustment means;
+. replacement of specific parts, if this replacement is expected to change the
+metrological characteristics, alignment or aiming of the speed meter; and
+. software integrity.
+
+[[scls-7-14]]
+=== Verification marks
+
+On the speed meter there shall be enough space to put verification marks at
+visible spots.

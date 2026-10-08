@@ -1,0 +1,14 @@
+
+== Unit of measurement
+
+All quantities shall be expressed in SI units, unless a country's legal units
+are different.
+
+The unit of measurement applicable for speed measurement is kilometre per hour
+(stem:["unitsml(km/h)"]).
+
+NOTE: The units of measurement in which the given instrument's measurement results
+will be presented, as well as their symbols, shall conform with the decisions
+of the General Conference of Weights and Measures (CGPM), <<OIML_D_2_2007>>,
+and, if necessary, the detailed specifications of the appropriate part of ISO/IEC
+80000 (<<ISO_IEC_80000_1_2022>>).
