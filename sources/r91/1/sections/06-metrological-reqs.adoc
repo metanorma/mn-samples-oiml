@@ -1,0 +1,568 @@
+
+[[cls-6]]
+== Metrological requirements
+
+[[scls-6-1]]
+=== Measuring intervals
+
+The specified speed measuring interval shall cover at least the interval from
+stem:[20 "unitsml(km/h)"] to stem:[180 "unitsml(km/h)"]. A greater upper limit
+and/or a smaller lower limit may be specified.
+
+If further measurands are directly involved in the speed measuring process (e.g.
+distance or angle), the manufacturer shall specify the measuring intervals for
+each of these measurands.
+
+The speed meter shall fulfil the requirements of this Recommendation for all
+combinations of values inside the specified measuring intervals. If the measured
+value of one of the measurands (speed and further measurands, if applicable)
+is outside its specified measuring interval, the speed meter shall not indicate
+the measured speed value.
+
+NOTE: National regulations can allow the indication of a symbol or text, if
+the value of the measured speed is outside the speed measuring interval, but
+the values of all other measurands are inside their corresponding measuring
+intervals.
+
+[[scls-6-2]]
+=== Indicated speed value
+
+The speed values shall be indicated as integer numbers in units of kilometre
+per hour (stem:["unitsml(km/h)"]).
+
+All indications (displays, printout, evidence image etc.) of the speed meter
+shall show the same result.
+
+Speed values with higher resolution, i.e. with further decimal digits, shall
+be restricted to the test interface, test mode or other means not used for legal
+proceedings.
+
+The speed meter shall use a defined mathematical operation to obtain the indicated
+integer speed values from the higher resolution values. The absolute value of
+the difference between integer speed value and high-resolution speed value shall
+always be less than stem:[1 "unitsml(km/h)"].
+
+The instrument shall clearly indicate the driving direction of the measured
+vehicle (for example, departing or approaching vehicle).
+
+If the sign of the speed value is used as indication of the driving direction,
+the minus sign shall represent a departing vehicle and the plus sign shall represent
+an approaching vehicle.
+
+If data other than the speed value are indicated, these data shall be displayed
+in such a way that they cannot be confused with the speed value.
+
+=== Metrologically relevant speed values
+
+The following speed values are metrologically relevant and shall be used to
+calculate errors and faults depending on the test and the applicable acceptance
+limit:
+
+* The integer speed value used for legal proceedings is metrologically relevant
+during metrological field tests using real traffic and dynamic performance tests
+using traffic simulation. The applicable acceptance limits during these tests
+are the MPE for stationary measurements (<<scls-6-4>>) and the MPE for moving
+measurements (<<scls-6-15-1>>).
+
+* The high-resolution speed value read out via the test interface or in test
+mode is metrologically relevant during speed linearity tests at reference conditions
+and during influence factor and disturbance tests in the laboratory. These measurements
+are always stationary and the applicable acceptance limits during these tests
+are the linearity error limit (<<scls-6-5>>) and the fault limit (<<scls-6-18-1>>).
+
+* The high-resolution ego speed value read out via the test interface or in
+test mode is metrologically relevant during all tests of the ego speed meter
+and the applicable acceptance limits during these tests are the MPE for ego
+speed measurements (<<scls-6-15-3>>) and the fault limit value for ego speed
+meters (<<scls-6-18-1>>).
+
+NOTE: The reference speed value used in all metrological controls shall not
+be rounded to integer values and shall be used with a sufficient number of significant
+digits.
+
+[[scls-6-4]]
+=== MPE for stationary measurements
+
+The following maximum permissible error (MPE) shall apply for stationary measurements
+within the rated operating conditions in all metrological controls:
+
+. stem:[pm 3 "unitsml(km/h)"] at speeds up to and including stem:[100 "unitsml(km/h)"],
+and
+. stem:[pm 3 %] at speeds above stem:[100 "unitsml(km/h)"].
+
+The integer speed value from the EUT shall be used to calculate the measurement
+error.
+
+[[scls-6-5]]
+=== Linearity error limit for stationary measurements
+
+The following error limit shall apply for stationary measurements when all influence
+quantities are minimized or when one isolated influence factor is being examined:
+
+. stem:[pm 1 "unitsml(km/h)"] at speeds up to and including stem:[100 "unitsml(km/h)"],
+and
+. stem:[pm 1 %] at speeds above stem:[100 "unitsml(km/h)"].
+
+The high-resolution speed value from the EUT shall be used to calculate the
+measurement error.
+
+[[scls-6-6]]
+=== Certainty of vehicle identification
+
+The construction of the speed meter and its speed measurement shall ensure,
+when the speed meter is used according to the operation manual, that measured
+speed cannot be attributed to the wrong vehicle, including when other vehicles
+are driving in the same or opposite direction or passing the measured vehicle.
+
+If the speed meter records image evidence (photo or video) for the identification
+of vehicles, it shall record the image evidence of the measured vehicle and
+its surroundings at a specified moment and add it to the evidence file.
+
+The speed meter shall cancel the measurement and shall not produce an evidence
+file if the measured vehicle was detected outside the detection field in which
+correct vehicle identification is certain.
+
+NOTE: Possible solutions for certain vehicle identification are, for example,
+a sufficient restriction of the monitored area and a detection of vehicle positions.
+The detected positions shall be indicated in an appropriate manner, for example,
+as numerical values of distances or angles, as assignments to a predefined trigger
+line including an assignment of the lane, or as markings on the image evidence.
+
+[[scls-6-7]]
+=== Indicated distance and angle values
+
+If the speed meter indicates the distance and/or angle values to the measured
+vehicle according to <<scls-6-6>>,
+
+* the distance values shall be indicated in units of meters with a resolution
+of at least stem:[0.1 "unitsml(m)"],
+
+* the angle values shall be indicated in units of degrees with a resolution
+of at least stem:[0.1 "unitsml(deg)"],
+
+* it shall be specified in the operating manual to which moment in the speed
+measurement process the indicated distance and/or angle values refer to.
+
+[[scls-6-8]]
+=== Requirements specific to across-the-road speed meters
+
+The reference point and the location and direction of the centre line shall
+either be evident or clearly indicated on the housing of the speed meter.
+
+It shall be indicated in the manual whether the compensation of the cosine error
+is based on configured parameters and/or on measured values of the horizontal
+and/or vertical measurement angles.
+
+The interval of allowed values of the alignment parameters azimuth, elevation,
+side distance and height shall be specified by the manufacturer.
+
+When the speed meter is aligned in accordance with the manual, the errors of
+measurement attributable to misalignment shall not be greater than stem:[pm 0.5 %]
+for the specified interval of alignment parameters.
+
+If the compensation of cosine error is based on configured parameters the manufacturer
+shall describe a procedure in the manual to retrospectively verify the parameters
+used in each measurement.
+
+[[scls-6-9]]
+=== Measurement error under influence quantities
+
+Stationary measurements (<<scls-6-4>>) and moving measurements (<<scls-6-15>>)
+shall comply with the respective MPEs regardless of vehicle shape, traffic density,
+other conditions on the road, influences from the environment or any other possible
+influence quantities.
+
+Specific influence factor and disturbance tests shall ensure compliance with
+the linearity error limit for stationary measurements (<<scls-6-5>>) or the
+fault limit value (<<scls-6-18-1>>) (see OIML R 91-2).
+
+The speed meter shall incorporate checking facilities which prevent measurements
+if necessary.
+
+=== Requirements specific to Doppler-radar based speed meters
+
+The following quantities shall be stated by the manufacturer:
+
+* characteristics of the frequency spectrum of the emitted microwave radiation;
+
+* power of the emitted microwave radiation; and
+
+* horizontal and vertical beam widths.
+
+The frequency spectrum of the radiated microwave radiation shall be within the
+specified frequency band.
+
+The frequency spectrum of the radiated microwave radiation shall be stable and
+the frequency of the peaks shall not drift for more than stem:[pm 0.2 %] within
+2 years.
+
+The beam width shall be within stem:[pm 10 %] from rated values.
+
+The power of a possible secondary microwave beam (side lobe) emitted by the
+antenna shall not exceed stem:[-20 "unitsml(dbel_B)"] relative to the main radar
+beam and it shall not be used for measurement.
+
+=== Requirements specific to range-finding based speed meters
+
+The manufacturer shall define the operating wavelength of the device.
+
+The manufacturer shall specify either a fixed pulse repetition rate, pulse time
+intervals, modulation and sweep frequencies or another characteristic of the
+time intervals between the pulses which shall be used to test the stability
+of the device.
+
+The beam width, where only a single beam is used for the measurement, is measured
+and defined in the horizontal and vertical directions of the measurement beam
+during the type approval procedure. It shall be within stem:[pm 10 %] of this
+value during use.
+
+Maximum specified distance shall be smaller than or equal to the distance where
+the beam width exceeds stem:[1.5 "unitsml(m)"], to prevent simultaneous measurement
+of more than one vehicle. A magnifying viewfinder with an optical magnification
+of at least 2x is mandatory for all distances over stem:[600 "unitsml(m)"].
+
+For any kind of scanning beams, split beams, optical phase array, multiple sources
+or flood illumination, or any combination of those, the FOI in vertical and
+horizontal angle shall be defined by the manufacturer. The radiance profile
+of illuminated areas, such as spots, lines or full FOI, shall be defined as
+a function of vertical and horizontal angle. The radiance uniformity for patterned
+illumination of the FOI shall be defined by the manufacturer in percentage values.
+
+The FOI shall be within stem:[pm 5 "unitsml(deg)"] of the specified values of
+the manufacturer. The radiance profile shall be within an envelope of stem:[pm 10 %]
+from the nominal profile specified by the manufacturer. The radiance uniformity
+shall always be equal or higher than the value specified by the manufacturer.
+
+[[scls-6-12]]
+=== Requirements specific to fixed-distance speed meters
+
+Fixed-distance speed meters shall incorporate redundant speed measurements by
+either using three or more detection points or, if only two detection points
+are used, by other appropriate means.
+
+The distance between detection points shall have a maximum permissible error
+of stem:[pm 0.5 %], also when a possible drift of the detection points is considered.
+
+The signals of the sensors used to detect the vehicles at the detection points
+shall be continuously monitored.
+
+If the distance between detection points is variable, the manufacturer shall
+state the minimum and maximum distance between detection points.
+
+=== Requirements specific to average speed meters
+
+The size of detection field shall not exceed stem:[0.5 %] of the minimum section
+distance.
+
+Image evidence and time stamp shall be recorded at all detection fields.
+
+Time synchronisation between detection fields shall be achieved and maintained
+in a durable way (to ensure longevity and resilience). Checking of time synchronisation
+shall be carried out continuously. Speed measurements shall be inhibited immediately
+when check fails. The maximum permissible error for time measurement is stem:[0.3 %].
+
+All the requirements specific to fixed-distance speed meters (<<scls-6-12>>)
+shall be fulfilled by average speed meters.
+
+=== Requirements specific to image-based speed meters
+
+The positions of the measured vehicle shall be marked or described in the video
+or image evidences.
+
+The image-based speed meter shall not produce any measurements if the image
+quality is not sufficient to guarantee adherence to the listed MPE.
+
+The different positions of the vehicle (and the distance between these positions)
+used to determine the speed of the vehicle shall be specified by the manufacturer.
+
+All the requirements specific to across-the-road speed meters (<<scls-6-8>>)
+and to fixed-distance speed meters (<<scls-6-12>>), if applicable, shall be
+fulfilled by image-based speed meters.
+
+[[scls-6-15]]
+=== Requirements specific to moving speed meters
+
+[[scls-6-15-1]]
+==== MPE for moving measurements
+
+The following maximum permissible error (MPE) shall apply for moving measurements
+within the rated operating conditions in all metrological controls:
+
+Class A
+
+. stem:[pm 3 "unitsml(km/h)"] at speeds up to and including stem:[100 "unitsml(km/h)"],
+and
+. stem:[pm 3 %] at speeds above stem:[100 "unitsml(km/h)"].
+
+Class B
+
+. stem:[pm 7 "unitsml(km/h)"] at speeds up to and including stem:[100 "unitsml(km/h)"],
+and
+. stem:[pm 7 %] at speeds above stem:[100 "unitsml(km/h)"].
+
+The OIML certificate shall indicate the class of the instrument.
+
+The integer speed value from the EUT shall be used to calculate the measurement
+error.
+
+==== Stationary mode
+
+It shall be possible to use moving speed meters in stationary mode for metrological
+control. The error and fault limits for moving speed meters in stationary mode
+shall be the same as for stationary speed meters (<<scls-6-4>>).
+
+The stationary mode shall be a test mode if the moving speed meter does not
+allow stationary measurements in enforcement mode.
+
+If both stationary and moving measurements are possible in enforcement mode,
+the moving speed meter shall either:
+
+. switch automatically between moving and stationary modes (without user interaction), or
+. prevent measurements if the user tries to record stationary measurements when
+the patrol car is moving.
+
+[[scls-6-15-3]]
+==== Ego speed meter
+
+The ego speed shall be measured simultaneously with the relative speed of the
+target vehicle. The ego speed shall be displayed and stored in the evidence
+file with a resolution of at least stem:[0.1 "unitsml(km/h)"]. The ego speed
+with a resolution of at least stem:[0.01 "unitsml(km/h)"] shall be part of the
+output data of the test interface of moving speed meters and these values shall
+be used in metrological controls of the ego speed meter without any rounding
+or truncation.
+
+Moving measurements shall not be possible if the ego speed meter is outside
+its rated speed measuring interval.
+
+For the ego speed meter, the following MPE shall apply within the rated operating
+conditions (identical for classes A and B of moving speed meters):
+
+. stem:[pm 1 "unitsml(km/h)"] at ego speeds up to and including
+stem:[100 "unitsml(km/h)"], and
+. stem:[pm 1 %] at ego speeds above stem:[100 "unitsml(km/h)"].
+
+The high-resolution ego speed value from the EUT shall be used to calculate
+the measurement error.
+
+A technical description of the ego speed meter shall be included in the user
+manual. Changes to the vehicle (e.g. change of tyres) have to be clearly either
+allowed or declared as not possible. If changes are allowed, the user manual
+has to specify the necessary steps to guarantee adherence to the listed MPE.
+
+NOTE: If the ego speed measurement is based on a revolution counter of a wheel
+of the patrol vehicle, the validity of the adjustment factor (linked to the
+effective rolling radius of the wheel) has to be checked at regular intervals,
+either automatically or by user interaction. No moving measurements shall be
+possible if the check of the adjustment factor was either not performed or failed.
+
+NOTE: Depending on national legislation, after changing a tyre the verification
+might no longer be valid. In this case, a new verification shall be performed.
+
+[[scls-6-16]]
+=== Minimum requirements for rated operating conditions
+
+Speed meters shall be designed and manufactured such that their errors do not
+exceed the MPE's under the operating conditions listed in <<table-1>>. During
+influence factor testing, the linearity error limit given in <<scls-6-5>> shall
+not be exceeded.
+
+[[table-1]]
+.Minimum rated operating conditions
+[cols="^.^13,<.^31,<.^56",options="header"]
+|===
+| Point
+^| Condition
+^| Rated interval or value
+
+| A
+| Ambient temperature
+| From stem:[-10 "unitsml(degC)"] up to stem:[+50 "unitsml(degC)"]
+
+| B
+| Relative humidity
+| Up to stem:[95 %] condensing
+
+| C
+| Random vibration
+| stem:[10 "unitsml(Hz)"] – stem:[150 "unitsml(Hz)"], stem:[7 "unitsml(m/s^2)"],
+stem:[1 "unitsml(m^2/s^3)"], stem:[-3 "dB/octave"]
+
+| D
+| DC mains voltage
+| As specified by the manufacturer
+
+| E
+| AC mains voltage
+| As specified by the manufacturer
+
+| F
+| AC mains frequency
+| As specified by the manufacturer
+
+| G
+| Voltage of internal battery
+| All voltages between a new or freshly charged battery, down to the lowest
+voltage at which the instrument functions properly within the MPEs, according
+to the specifications given by the manufacturer, at the rated ambient temperature
+interval
+
+| H
+| Voltage of a road vehicle battery
+a| stem:[12 "unitsml(V)"] battery: stem:[9 "unitsml(V)"] to stem:[16 "unitsml(V)"],
+at the rated ambient temperature interval
+
+stem:[24 "unitsml(V)"] battery: stem:[16 "unitsml(V)"] to stem:[32 "unitsml(V)"],
+at the rated ambient temperature interval
+|===
+
+When out of service, the speed meters shall be capable of withstanding storage
+temperatures from stem:[-25 "unitsml(degC)"] to stem:[+70 "unitsml(degC)"].
+
+[[scls-6-17]]
+=== Rated operating conditions
+
+The manufacturer shall state the following rated operating conditions in accordance
+with the minimal requirements from <<scls-6-16>> based on the point of use and
+the principle of installation:
+
+. for speed measurement:
+* measuring interval from minimum to maximum speed, including direction of traffic.
+. for vehicle identification, if necessary:
+* minimum and maximum distance to vehicle, where speed can be measured and vehicle
+identification is certain;
+* minimum and maximum angle or lateral distance to vehicle, where speed can
+be measured and vehicle identification is certain; and
+* maximum number of vehicles in simultaneous measurement.
+. for climatic influence factors:
+* minimum and maximum operating temperature;
+* minimum and maximum storage temperature; and
+* climatic environment classification according to <<OIML_D_11_2013>>.
+. for mechanical influence factors:
+* mechanical environment classification according to <<OIML_D_11_2013>>.
+. for power supply and electromagnetic influence factors:
+* reference values for the power supply; and
+* electromagnetic environment classification according to <<OIML_D_11_2013>>.
+
+==== Climatic environment classification
+
+Speed meters and their parts shall be placed in the following classes according
+to <<OIML_D_11_2013,clause=8.2.2>> to determine climatic tests levels:
+
+. H1 – when they are used in enclosed environmentally protected environments,
+where local climate is controlled;
+. H2 – when they are used in enclosed environmentally protected environments,
+where local climate is not controlled; and
+. H3 - when they are used in open air in moderate temperature zones.
+
+Speed meters intended for exclusive use inside their own proprietary cabinet
+can be tested inside this cabinet. The cabinet should be identified as a part
+of the speed meter.
+
+==== Mechanical environment classification
+
+Speed meters and their parts shall be placed in the following classes according
+to <<OIML_D_11_2013,clause=8.3>> to determine mechanical test levels:
+
+. M2 – for static speed meters, including mobile speed meters (portable and
+handheld); and
+. M3 – for moving speed meters.
+
+==== Electromagnetic environment classification
+
+Speed meters and their parts shall be generally placed in the following classes
+according to <<OIML_D_11_2013,clause=8.4>> to determine electromagnetic tests levels:
+
+. E2 – when the power is provided by an AC mains supply or a DC standalone supply;
+and
+. E3 - when the power is provided by the battery of a vehicle ("vehicle DC").
+
+For additional guidance, refer to
+<<OIML_D_11_2013,clause=5.5;and!clause=8.4.2;and!clause=8.5>>.
+
+=== Disturbances
+
+[[scls-6-18-1]]
+==== Fault limit value
+
+A fault limit value of stem:[pm 1 "unitsml(km/h)"] shall apply for stationary
+speed meters and moving speed meters in stationary mode. For ego speed meters,
+a fault limit value of stem:[pm 0.5 "unitsml(km/h)"] shall apply.
+
+In both cases the high-resolution speed value from the EUT shall be used to
+calculate the fault.
+
+[[scls-6-18-2]]
+==== Acceptable significant faults
+
+The occurrence of the following significant faults is acceptable:
+
+* significant faults arising due to the simultaneous presence of more than one
+cause, all of which are mutually independent,
+
+* significant faults implying that no evidence file is produced and stored.
+
+NOTE: The occurrence of such significant faults shall be documented in the test
+report.
+
+==== Other causes of significant faults
+
+The occurrence of the following events shall be treated as if a significant
+fault had occurred:
+
+* if any malfunction occurs which might cause a measured speed to be assigned
+to the wrong vehicle,
+
+* if a disturbance leads to the corruption of a stored evidence file.
+
+==== Reaction to disturbances
+
+Speed meters shall be designed and manufactured in such a way that when they
+are exposed to disturbances under the limits specified in Part 2 of this Recommendation,
+either
+
+. significant faults do not occur, or
+. significant faults are detected and no measurement result is displayed and
+no evidence file is produced.
+
+[[scls-6-19]]
+=== Durability
+
+A speed meter shall be designed to maintain an adequate stability of its metrological
+characteristics over a period of time substantiated by the manufacturer, provided
+that it is properly installed, maintained and used according to the manufacturer's
+instruction when in the environmental conditions for which it is intended.
+
+NOTE: A possible solution is, if the requirements from <<scls-6-1>> to <<scls-6-17>>
+are met permanently during the time interval of 24 months, or of the maximum
+time between subsequent verifications, whichever time interval is longer. The
+verification period is defined under the responsibility of the national metrological
+authorities (subsequent verifications).
+
+[[scls-6-20]]
+=== Redundancy of the measuring process
+
+The measuring process shall have sufficient redundancy to detect failures with
+influence on speed measurement.
+
+[NOTE]
+====
+Examples with insufficient redundancy:
+
+* average speed meter synchronised with GNSS receivers only: if one of the receivers
+has an error or is jammed, time synchronization between the entry and exit portal
+is no longer present and large speed measurement errors are possible; and
+
+* fixed-distance speed meters with two pressure-sensitive barriers only: the
+front wheel of a light motorcycle jumps over the first barrier and is not detected,
+then the rear wheel is detected by the first barrier, then the front wheel is
+detected by the second barrier. In this situation, the measured time interval
+is significantly shorter than the correct time interval and therefore a large
+speed error is present.
+====
+
+=== Presumption of compliance
+
+Speed meters according to this Recommendation are presumed to not comply with
+the requirements from <<scls-6-1>> to <<scls-6-20>>, if they fail any one of
+the tests specified in the Part 2 of this Recommendation.

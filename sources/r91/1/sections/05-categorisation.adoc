@@ -1,0 +1,33 @@
+
+[[cls-5]]
+== Categorisation of speed meters
+
+Speed meters are categorised according to:
+
+[arabic]
+. Mode of use:
+.. Stationary speed meter (speed meter is not moving during the measurements);
+.. Moving speed meter (speed meter is installed on a vehicle, which is moving
+during the measurements).
+. Principle of installation:
+.. Mobile speed meter (can be moved between several positions);
+.. Fixed speed meter (fixed at one position);
+.. Portable speed meter (can be used from hand or tripod).
+. Working principle of speed measurement:
+.. Virtually instantaneous speed measurement:
+*** Doppler-radar;
+*** Range-finding (e.g. LIDAR);
+*** Fixed-distance (e.g. inductive loops, laser barriers, light barriers, etc.);
+*** Image based.
+.. Average speed measurement between two remote positions:
+*** Average speed meter (or section speed meter).
+. Triggering and camera
+.. Manual measurements (recommended with camera, possible to use system without
+camera);
+.. Automatic measurements (always with camera).
+. Compensation for cosine error
+.. Along-the-road speed meter (see <<scls-3-4-10>>);
+.. Across-the-road speed meter (see <<scls-3-4-11>>).
+
+NOTE: The same speed meter might be assigned to several categories (e.g. stationary
+and moving mode of use implemented, mobile and fixed installations possible, etc.).
