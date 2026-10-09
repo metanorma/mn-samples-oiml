@@ -1,0 +1,154 @@
+
+== Metrological field test
+
+=== General conditions
+
+This test is for stationary speed meters and for moving speed meters in stationary
+mode. The metrological field test for moving speed meters in moving mode is
+described in <<scls-7-7-1>>.
+
+All conditions shall be within rated operating conditions of the EUT and of
+the reference speed meter.
+
+Installation of the EUT shall be done according to the user manual.
+
+Tests shall contain conditions to test minimum, typical and maximum distances
+from the EUT to the measured vehicles. If intervals of alignment parameters
+(azimuth, elevation, side distance and height) are specified by the manufacturer
+at least three different installation conditions shall be tested.
+
+If the EUT can be used to measure approaching and departing vehicles, both driving
+directions shall be tested.
+
+The EUT and the reference speed meters shall be installed, configured and triggered
+such that their corresponding measurement sections are overlapping as much as
+possible and are aligned centrally. If a perfect matching of the measurement
+sections is not possible the test laboratory shall ensure by other means that
+the speed comparison is valid even in worst-case scenarios (drivers braking
+and/or accelerating). Such means might include an estimation of the influence
+of a worst-case scenario or the detection and exclusion of worst-case scenarios
+by the use of secondary reference speed meters which cover other measurement
+sections than the reference speed meter.
+
+=== Selection of test sites
+
+It is recommended that the metrological field tests should be completed in real
+traffic conditions. It might be necessary to perform measurements at several
+test sites to include all of the following aspects:
+
+. The speed of the vehicles shall cover the interval from the minimum specified
+speed to the maximum legal speed limit on motorways. Field tests at very low
+speeds (stem:[< 40 "unitsml(km/h)"]) are not necessary if these are covered
+by metrological laboratory tests using a validated complete traffic simulator.
+For speeds above the legal limit see <<scls-4-9>>.
+. The occurrence of different types of motor vehicles in typical traffic situations.
+. A motorway with at least two lanes in the same driving direction, where overtaking
+occurs regularly during measurements.
+. A road with at least two lanes with traffic in opposite directions (departing
+and approaching traffic).
+
+On all test sites the traffic on the road shall generally go smoothly, and shall
+not be prone to congestion or very small distances between vehicles. The vehicles
+shall generally not brake abruptly or accelerate close to the site of measurement.
+
+The roads at all test sites shall be straight or have a curve radius larger
+than the specified minimum curve radius of the EUT. Additional field or simulation
+tests are required for speed meters that have a specified minimum curve radius
+lower than the road used for the metrological field test.
+
+=== Traffic condition during measurement
+
+The traffic should not be congested during the measurement, which shall be the
+case when the average speed of the vehicles is above stem:[80 %] of the normal
+(uncongested) average speed and when the average temporal distance between vehicles
+driving on the same lane is above stem:[1.8 "unitsml(s)"].
+
+=== Number of measurements
+
+In case of automatic measurements, a total number of at least 500 valid measurements
+shall be performed. In case of manual measurements, a total number of at least
+100 valid measurements shall be performed. Lower numbers of measurements are
+possible if measurements take a long time (as might be the case when testing
+average speed meters) and if this is justified by a statistical analysis of errors.
+
+Larger numbers of measurements might be necessary when several installation
+conditions or specific scenarios are tested.
+
+The scenario of testing and number of valid measurements has to be indicated
+in the report.
+
+=== Reference speed meter
+
+The reference speed meter shall preferably perform automatic measurements. Justified
+exceptions are possible, for example, when the reference speed meter is moving
+(as might be the case when testing average speed meters).
+
+The expanded measurement uncertainty (stem:[k = 2]) of the reference speed meter
+for single measurements shall not exceed stem:[0.6 "unitsml(km/h)"] at speeds
+up to and including stem:[100 "unitsml(km/h)"] and stem:[0.6 %] of the speed
+value at speeds above stem:[100 "unitsml(km/h)"].
+
+If these uncertainties cannot be met, larger measurement uncertainties can be
+used, if the added uncertainty is compensated for in the maximum permissible
+error (see guarded acceptance in <<OIML_G_1_106_2012,clause=8.3.2>>) and in
+the possible statistical analysis of errors (see <<scls-4-7>>).
+
+=== Maximum permissible error
+
+The MPE defined in OIML R 91-1, 6.4 shall be met in all measurements. In the
+following two cases the EUT shall be considered in accordance with the relevant
+MPE, even if some measurements have a negative error below the lower MPE value:
+
+. The EUT is an along-the-road speed meter and the error would be within the
+relevant MPE if the cosine error were corrected.
+. The EUT uses the mathematical operation "rounding toward zero (truncating)"
+to obtain integer speed values and the error would be within the relevant MPE
+if "rounding to the nearest integer" had been implemented.
+
+The simple acceptance decision rule (also known as shared risk decision rule)
+shall be used to decide on conformity. Measurements on vehicles for which either
+the EUT or the reference speed meter gives no valid speed value shall be ignored.
+
+[[scls-4-7]]
+=== Statistical analysis of errors (optional)
+
+A statistical analysis of errors for a sequence of measurements is recommended.
+For this purpose, the errors are subdivided into bins according to the reference
+speed values. The recommended series of intervals, which serve as bins are:
+stem:[[0 "unitsml(km/h)", 50 "unitsml(km/h)"\]],
+stem:[[50 "unitsml(km/h)", 100 "unitsml(km/h)"\]],
+stem:[[100 "unitsml(km/h)", 150 "unitsml(km/h)"\]],
+stem:[[150 "unitsml(km/h)", 200 "unitsml(km/h)"\]], etc. Intervals of smaller
+or larger sizes may be used, depending on the circumstances. The mean value
+stem:[m] and the standard deviation stem:[sigma] are then calculated within
+each bin. A factor stem:[z] is chosen which is a measure of confidence (the
+recommended value is stem:[z = 5]). The EUT shall be considered in accordance
+with the relevant MPE if the interval stem:[[m - z sigma, m + z sigma\]] is
+fully within the MPE defined in OIML R 91-1, 6.4.
+
+=== Assignment to image evidence
+
+If the speed meter records image evidence (photo or video) for vehicle identification,
+the timing and markings of the image evidence must be correct for all measurements
+used as evidence. Any image that is not to be used as evidence must be clearly
+and easily identifiable as such by the user. There must be no doubt about the
+correct assignment of the measured values to the vehicle visible on the image
+evidence, in particular in the case of overtaking procedures or when the distance
+from the EUT to the measured vehicles is near the minimum or maximum specified value.
+
+If the measurements at speed values below the legal speed limit give rise to
+any suspicion that the correct assignment might not be guaranteed at speeds
+above the legal speed limit, additional field measurements in a protected environment
+are necessary.
+
+[[scls-4-9]]
+=== Testing at speeds above the legal limit up to the maximum specified speed
+
+When metrological field tests are performed on public roads with a legal speed
+limit, the range of speeds from the legal speed limit up to the maximum specified
+speed must be checked by the following additional tests:
+
+. Preferably, by performing additional field measurements in a protected environment
+(e.g. on a race circuit), or
+. by performing metrological laboratory tests using a validated complete traffic
+simulator.

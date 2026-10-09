@@ -1,0 +1,7 @@
+
+== Introduction
+
+This OIML Recommendation R 91-2 covers the preparation of the test program,
+selection of test procedures and setting of test levels for speed meters.
+
+This Recommendation is used for the type evaluation of speed meters.

@@ -1,0 +1,497 @@
+
+== Influence factors and disturbance tests
+
+Test procedures for influence factors and disturbances are defined in
+<<OIML_D_11_2013,clause=9;to!clause=14>>, including the referenced IEC and ISO
+publications. Details about the tests which go beyond those defined in
+<<OIML_D_11_2013,clause=9;to!clause=14>> shall be done according to the test
+levels specified by the manufacturer in the documentation for type approval
+but checked and finally approved by the testing laboratory by reviewing the
+documentation and testing the speed meter.
+
+Nevertheless, before the final test plan is prepared, the test laboratory should
+take into consideration and re-evaluate the manufacturer's specification based on:
+
+* simulation technique to be used;
+
+* point of use and principle of installation of the EUT (see OIML R 91-1, clause
+5); and
+
+* installation instructions and further detailed specifications by the manufacturer.
+
+=== Evaluation method
+
+<<table-1>> and <<table-2>> include severity levels and evaluation criteria
+for influence factor and disturbance tests. The following abbreviations are
+used in the tables (based on definitions given in <<OIML_D_11_2013>>):
+
+I:: Influence factor
+
+D:: Disturbance
+
+MPE:: The linearity error limit defined in OIML R 91-1, 6.5 shall be met during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if the EUT includes a camera).
+
+NSFa:: No significant fault occurred [.underline]#after# the disturbance. The
+EUT shall continue to operate as intended after the test (manual intervention
+allowed).
+
+NSFd:: No significant fault occurred [.underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+n/a:: Not applicable (test not useful for traffic speed meters)
+
+RF amp.:: Radio frequency amplitude
+
+[[table-1]]
+.Climatic and mechanical influence factors and disturbances
+[cols="<.^5,<.^37,^.^20,^.^20,^.^5,^.^13",options="header"]
+|===
+^| #
+^| Influence quantity exposure
+| Table(s) from <<OIML_D_11_2013>>
+| Severity level
+2+| Evaluation
+
+| 1
+| Dry heat (operating)
+| 6
+| 3
+| I
+| MPE
+
+| 2
+| Dry heat (storage)
+| 6
+| 4
+| D
+| NSFa
+
+| 3
+| Cold (operating)
+| 7
+| 2
+| I
+| MPE
+
+| 4
+| Cold (storage)
+| 7
+| 3
+| D
+| NSFa
+
+| 5
+| Damp heat, cyclic (condensing)
+| 9
+| H1 – n/a +
+H2 – 1 +
+H3 – 2
+| I
+| MPE
+
+| 6
+| Water (optional)
+| 10
+| 2
+| D
+| NSFd
+
+| 7
+| Atmospheric pressure
+| 11, 12
+3+| n/a
+
+| 8
+| Sand and dust (optional)
+| 13
+| 1
+| D
+| NSFd
+
+| 9
+| Salt mist (optional)
+| 14
+| 2
+| D
+| NSFd
+
+| 10
+| Vibration (random)
+| 15
+| M2 – 1 +
+M3 – 2
+| I
+| MPE
+
+| 11
+| Mechanical shock
+| 17
+| M2 – 1 +
+M3 – 2
+| D
+| NSFa
+|===
+
+[[table-2]]
+.Electromagnetic influence factors and disturbances
+[headerrows=3,cols="<.^4,<.^39,^.^10,^.^9,^.^9,^.^12,^.^4,^.^13"]
+|===
+.3+^| *#*
+.3+^| *Influence quantity exposure*
+.3+| *Table(s) from <<OIML_D_11_2013>>*
+3+| *Severity level*
+2.3+| *Evaluation*
+
+2+^| *E2*
+^| *E3*
+
+^| *AC*
+^| *DC*
+^| *Vehicle DC*
+
+| 12
+| DC mains voltage variation
+| 18
+| n/a
+| 1
+footnote:[This test must be done at the operative DC voltage limits declared
+by the manufacturer]
+| n/a
+| I
+| MPE
+
+| 13
+| Ripple on DC mains power
+| 19
+| n/a
+| 2
+| n/a
+| D
+| NSFd
+
+| 14
+| AC mains voltage variation
+| 20
+| 1
+| n/a
+| n/a
+| I
+| MPE
+
+| 15
+| AC mains frequency variation
+| 21
+| 1
+| n/a
+| n/a
+| I
+| MPE
+
+| 16
+| DC mains voltage dips, short interruptions and (short term) voltage variations
+| 22
+| n/a
+| 1
+footnote:[For speed meters connected to a dedicated DC power source, which
+is not used for other equipment in the installation this test is not applicable.]
+| n/a
+| D
+| NSFd
+
+| 17
+| AC mains voltage dips, short interruptions and reductions
+| 23
+| 2
+| n/a
+| n/a
+| D
+| NSFd
+
+| 18
+| AC mains frequency harmonics
+| 24
+| 3
+| n/a
+| n/a
+| D
+| NSFd
+
+| 19
+| VLF and LF disturbances on AC mains
+| 25
+| 2
+| n/a
+| n/a
+| D
+| NSFd
+
+| 20
+| Bursts (transients) on AC and DC mains
+| 26
+| 3
+| 3
+footnote:[When the manufacturer provides a dedicated AC/DC power source,
+the instrument must be tested as AC powered instrument. However, if the distance
+between such power source and the instrument is greater than stem:[3 "unitsml(m)"]
+(for burst) or stem:[10 "unitsml(m)"] (for surge) then the disturbance has to
+be applied in the DC input of the instrument.]footnote:[Applicable only when the
+typical distance between the DC power source and the instrument is greater than
+stem:[3 "unitsml(m)"] (for burst) or stem:[10 "unitsml(m)"] (for surge).]
+| n/a
+| D
+| NSFd
+
+| 21
+| Surges on AC and DC mains power lines
+| 27
+| 3
+| 3
+footnote:[When the manufacturer provides a dedicated AC/DC power source,
+the instrument must be tested as AC powered instrument. However, if the distance
+between such power source and the instrument is greater than stem:[3 "unitsml(m)"]
+(for burst) or stem:[10 "unitsml(m)"] (for surge) then the disturbance has to
+be applied in the DC input of the instrument.]footnote:[Applicable only when the
+typical distance between the DC power source and the instrument is greater than
+stem:[3 "unitsml(m)"] (for burst) or stem:[10 "unitsml(m)"] (for surge).]
+| n/a
+| D
+| NSFd
+
+| 22
+| Bursts (transients) on signal, data and control lines
+| 28
+| 3
+footnote:[For fixed speed meters installed outdoors, where the cables between
+the components of the speed meters (cameras, indicating display, illuminator,
+etc.) are running outdoors these tests have to be applied in such cables only
+when the distance between the components is greater than stem:[3 "unitsml(m)"]
+(for bursts) or stem:[10 "unitsml(m)"] (for surges)]
+| 3
+footnote:[For fixed speed meters installed outdoors, where the cables between
+the components of the speed meters (cameras, indicating display, illuminator,
+etc.) are running outdoors these tests have to be applied in such cables only
+when the distance between the components is greater than stem:[3 "unitsml(m)"]
+(for bursts) or stem:[10 "unitsml(m)"] (for surges)]
+| n/a
+| D
+| NSFd
+
+| 23
+| Surges on signal, data and control lines
+| 29
+| 3
+footnote:[For fixed speed meters installed outdoors, where the cables between
+the components of the speed meters (cameras, indicating display, illuminator,
+etc.) are running outdoors these tests have to be applied in such cables only
+when the distance between the components is greater than stem:[3 "unitsml(m)"]
+(for bursts) or stem:[10 "unitsml(m)"] (for surges)]
+| 3
+footnote:[For fixed speed meters installed outdoors, where the cables between
+the components of the speed meters (cameras, indicating display, illuminator,
+etc.) are running outdoors these tests have to be applied in such cables only
+when the distance between the components is greater than stem:[3 "unitsml(m)"]
+(for bursts) or stem:[10 "unitsml(m)"] (for surges)]
+| n/a
+| D
+| NSFd
+
+| 24
+| AC mains power frequency magnetic field
+| 30
+| 5
+| n/a
+| n/a
+| D
+| NSFd
+
+| 25
+| Conducted (common mode) currents generated by RF electromagnetic fields
+| 31
+| RF amp. +
+stem:[20 "unitsml(V)"]
+| n/a
+| n/a
+| D
+| NSFd
+
+| 26
+| RF electromagnetic fields
+| 32, 33, 34
+| RF amp. +
+stem:[20 "unitsml(V/m)"]
+| RF amp. +
+stem:[20 "unitsml(V/m)"]
+| RF amp. +
+stem:[20 "unitsml(V/m)"]
+| D
+| NSFd
+
+| 27
+| Electrostatic discharges
+| 35
+| 3
+| 3
+| 3
+| D
+| NSFd
+
+| 28
+| Low voltage of internal battery
+| 36
+| n/a
+| 1
+| n/a
+| I
+| MPE
+
+| 29
+| Voltage variations of a road vehicle battery
+| 37
+| n/a
+| n/a
+| C or F
+footnote:[Code C for stem:[12 "unitsml(V)"] vehicle batteries and code
+F for stem:[24 "unitsml(V)"] vehicle batteries.]
+| I
+| MPE
+
+| 30
+| Electrical transient conduction along supply lines of external stem:[12 "unitsml(V)"]
+and stem:[24 "unitsml(V)"] batteries
+| 38
+| n/a
+| n/a
+| IV
+| D
+| NSFd
+
+| 31
+| Electrical transient conduction via lines other than supply lines for external
+stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] batteries
+| 39
+| n/a
+| n/a
+| IV
+| D
+| NSFd
+
+| 32
+| Battery voltage variations during cranking
+| 40
+| n/a
+| n/a
+| III
+| D
+| NSFd
+
+| 33
+| Load dump test
+| 41
+| n/a
+| n/a
+| B
+footnote:[Vehicles produced since 2004 have centralized load dump suppression,
+therefore test pulse shape B is applicable.]
+| D
+| NSFd
+|===
+
+=== Reference conditions
+
+Reference conditions are the following:
+
+. Ambient temperature: stem:[23 "unitsml(degC)" pm 5 "unitsml(degC)"]; and
+. Relative humidity: stem:[50 % "RH" pm 30 % "RH"].
+
+During each test at reference conditions, the temperature and the relative humidity
+shall not vary by more than stem:[5 "unitsml(degC)"] and stem:[30 % "RH"], respectively,
+within the reference intervals.
+
+=== Traffic simulation during influence factor and disturbance tests
+
+For the influence factor and disturbance tests, a traffic simulator must be
+available, which allows the determination of errors and faults. A complete traffic
+simulator is recommended. If necessary, the simulator shall be provided by the
+manufacturer and/or the EUT shall feature suitable configuration options or
+tools to enable simulations. The traffic simulator shall be designed to simulate
+at least 10 velocity values inside the EUT's measurement range.
+
+The simulated speed during the influence factor and disturbance tests can be
+constantly the same or changing.
+
+The EUT shall be configured such that evidence files are produced at all simulated
+speed values. For the evaluation of errors and faults, the high-resolution speed
+values shall be used (see also <<scls-5-4>>).
+
+The time interval between two simulated vehicles shall be adapted to the change
+of the tested influence quantity (e.g. stem:[30 "unitsml(s)"] during changing
+temperature and stem:[5 "unitsml(s)"] during scanning RF frequency).
+
+As few parts of the traffic simulator as possible shall be exposed to the influence
+factor/disturbance, the other parts being held at reference conditions. If there
+is the possibility that parts of the traffic simulator are damaged or influenced
+by the influence factor/disturbance, the use of a partial traffic simulator
+is possible. Those parts of the measurement chain that are not tested by the
+partial traffic simulator shall be tested by other appropriate additional tests
+or means.
+
+=== Additional guidance on carrying out the tests
+
+During the influence factor and disturbance tests, the EUT shall be powered
+with nominal voltage and according to the installation conditions specified
+by the manufacturer. For speed meters intended to be powered by AC mains via
+a dedicated AC/DC converter (considered as a part of the EUT), the tests shall
+be performed on the AC mains and the frequency shall be at nominal value. If
+no dedicated AC/DC converter is part of the EUT, the EUT is considered DC powered
+and corresponding tests shall be carried out.
+
+For battery powered speed meters, the tests on battery voltage variation (#28
+and #29 in <<table-2>>) shall also be performed during tests #1 Dry heat (operating)
+and #3 Cold (operating).
+
+If the EUT incorporates checking facilities, it might occur that the EUT does
+not show a measurement result or not produce an evidence file at certain test
+levels. This behaviour is acceptable as long as it is ensured that the acceptance
+criterion is met at lower amplitudes where the checking facility does not intervene.
+Additional tests at lower amplitudes might be necessary.
+
+The test procedures for dry heat (operating), cold (operating) and DC/AC voltage
+variations shall also include the testing of the corresponding checking facilities.
+The test report shall state if and how the checking facilities were tested.
+
+=== Acceleration test
+
+Accelerations in the interval between stem:[-1.5 "unitsml(m/s^2)"] and
+stem:[1.5 "unitsml(m/s^2)"] are typically present during metrological field
+tests and are additionally tested during the dynamic performance test using
+simulation. Accelerations in the intervals
+stem:[[-5 "unitsml(m/s^2)", -1.5 "unitsml(m/s^2)"\]] and
+stem:[[1.5 "unitsml(m/s^2)", 5 "unitsml(m/s^2)"\]] need to be specifically tested
+with all other influence quantities minimized. The use of a partial traffic
+simulator is sufficient for this test. The integer speed values from the EUT
+shall be used to calculate the errors. The errors shall fulfil the MPE for stationary
+measurements (OIML R 91-1, 6.4). For this test it is particularly important
+to evaluate the simulated reference speed on a measurement section, which overlaps
+as much as possible with the measurement section of the EUT.
+
+=== Further influence quantity tests
+
+Further possible influence quantities are speed-meter-specific and include rain
+(or snow), small curve radii of the road, existence of pulsed light sources,
+dense traffic, or exotic target vehicles (with respect to length, height, shape,
+surface reflectivity, etc.).
+
+Corresponding specific field or simulation tests with all other influence quantities
+minimized shall be performed if there is any suspicion that the EUT might be
+so sensitive to such influence quantities that the MPE's given in OIML R 91-1,
+6.4 for stationary measurements and OIML R 91-1, 6.15.1 for moving measurements
+might not be fulfilled under all possible circumstances.
+
+=== Installation and alignment of sensor and camera
+
+The installation and alignment of sensor and camera shall be observed, in all
+allowed installation positions, to prove that method of identification of the
+measured vehicle works in all allowed positions.

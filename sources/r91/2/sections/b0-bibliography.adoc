@@ -1,0 +1,7 @@
+
+[bibliography]
+== Bibliography
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]] _General requirements for measuring instruments - Environmental conditions_
+* [[[OIML_D_31_2023,OIML D 31:2023]]] _General requirements for software-controlled measuring instruments_
+* [[[OIML_G_1_106_2012,OIML G 1-106:2012]]] _Evaluation of measurement data - The role of measurement uncertainty in conformity assessment_

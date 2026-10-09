@@ -1,0 +1,108 @@
+
+== Tests specific to certain categories of speed meters
+
+=== Doppler-radar based speed meters
+
+Specific test procedures shall be performed to determine:
+
+. the carrier frequency or interval of modulated frequencies;
+. the antenna pattern test to determine beam width and secondary beams and angles
+of the measurement beam;
+. equivalent isotropic radiated power (EIRP) (optional);
+. minimum and maximum of distance measurement, if applicable;
+. accuracy of angle measurement, if applicable; and
+. accuracy of the aiming device, if applicable.
+
+=== Range-finding based speed meters
+
+Specific test procedures shall be performed to determine:
+
+. that vehicle shape does not significantly affect the speed measurement;
+. pulse repetition rate or another characteristic of the time intervals between
+the pulses;
+. the beam width, secondary beams, if applicable;
+. relevant characteristics of the field of view (divergence, etc.); and
+. the exit angle of the measurement beam, if applicable.
+
+=== Average speed meters
+
+Specific test procedures shall be performed to determine:
+
+. the robustness of the time synchronisation mechanism;
+. that the MPE for time measurement is fulfilled when vehicle detection and
+image recording are included;
+. maximum size of detection field, even at varying speeds; and
+. minimum distance between entry and exit points.
+
+=== Fixed-distance speed meters
+
+Specific test procedures shall be performed to determine:
+
+. accuracy of trigger point; and
+. minimum and maximum distance between trigger points.
+
+=== Image based speed meters
+
+Specific test procedures shall be performed to determine:
+
+. accuracy of trigger point;
+. minimum and maximum distance between trigger points; and
+. minimum illumination and maximum fog density.
+
+=== Across-the-road speed meters
+
+Specific test procedures shall be performed to determine:
+
+. accuracy of the aiming device, if applicable; and
+. influence of the curve radius of target trajectory.
+
+[[scls-7-7]]
+=== Moving speed meters
+
+[[scls-7-7-1]]
+==== Moving metrological field test
+
+Moving speed meters shall be tested on the road under real traffic conditions.
+Installation of the EUT shall be done on a test vehicle according to the user
+manual. As a reference an ego speed meter installed on a second vehicle shall
+be used (called reference vehicle hereafter). The expanded measurement uncertainty
+(stem:[k = 2]) of the reference speed meter shall not exceed stem:[1 "unitsml(km/h)"]
+at speeds up to and including stem:[100 "unitsml(km/h)"] and stem:[1 %] of the
+speed value at speeds above stem:[100 "unitsml(km/h)"].
+
+The EUT shall perform at least 200 valid measurements of the reference vehicle
+under various traffic conditions. A lower number of measurements is justified
+if the EUT only allows measurements in a few well-defined traffic conditions
+and scenarios. There shall also be measurements in curved streets as the EUT
+shall give no valid speed value when the measurement is done outside specified
+limits. The reference vehicle shall generally not brake abruptly or accelerate
+strongly during the measurements. Appropriate means shall be taken to ensure
+that the measurements of the EUT are compared to the synchronous reference speed
+value.
+
+The MPE defined in OIML R 91-1, 6.15.1 shall be met for each driving direction
+(if applicable).
+
+==== Metrological field test of the ego speed meter
+
+The metrological performance of the ego speed meter of the EUT shall be tested
+on the road. Installation of the EUT shall be done on a test vehicle according
+to the user manual. A suitable reference for the speed of the test vehicle shall
+be used. The expanded measurement uncertainty (stem:[k = 2]) of the reference
+shall not exceed stem:[0.2 "unitsml(km/h)"] at speeds up to and including
+stem:[100 "unitsml(km/h)"] and stem:[0.2 %] of the speed value at speeds above
+stem:[100 "unitsml(km/h)"].
+
+If the mentioned uncertainty cannot be met, a larger measurement uncertainty
+can be used, if the added uncertainty is compensated for in the maximum permissible
+error (see guarded acceptance in <<OIML_G_1_106_2012,clause=8.3.2>>).
+
+The MPE defined in clause OIML R 91-1, 6.15.3 shall be met for all tested speed
+values.
+
+==== Traffic simulation for moving speed meters
+
+Traffic simulators shall be used to test the metrological performance of the
+moving speed meter in stationary mode and of the ego speed meter. Influence
+factor and disturbance tests should be performed separately on the moving speed
+meter in stationary mode and on the ego speed meter using these simulators.

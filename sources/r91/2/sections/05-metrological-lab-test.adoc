@@ -1,0 +1,137 @@
+
+== Metrological laboratory tests by traffic simulation
+
+=== General conditions
+
+Metrological laboratory tests are used to test, in a reproducible and safe environment,
+the behaviour of the EUT in various specific and well-defined situations. For
+type evaluation tests, the metrological laboratory tests cannot fully replace
+metrological field tests. For verifications, however, the metrological laboratory
+tests can replace metrological field tests.
+
+These simulation tests are for stationary speed meters and for moving speed
+meters in stationary mode. The ego speed meter of moving speed meters shall
+be tested using a separate simulation test (see also <<scls-7-7>>).
+
+All conditions shall be within rated operating conditions. The ambient temperature
+shall be within the interval stem:[23 "unitsml(degC)" pm 5 "unitsml(degC)"]
+and the relative humidity shall be within the interval stem:[50 % "RH" pm 30 % "RH"].
+
+=== Characteristics of the traffic simulator
+
+The traffic simulator used for the metrological laboratory test shall be a device
+that is independent of the EUT's measurement functions. If necessary, the simulator
+shall be provided by the manufacturer and/or the EUT shall feature suitable
+configuration options or tools to enable simulations.
+
+The traffic simulator shall generate a signal such as an electrical pulse sequence,
+light pulses or an electromagnetic radiation pattern, that corresponds to a
+vehicle driving at a known and configurable speed.
+
+If possible, the use of a complete traffic simulator is recommended (see <<figure-1>>).
+A partial traffic simulator as illustrated in <<figure-2>> may be used, if the
+parts of the measurement chain of the EUT, that are not covered by the partial
+traffic simulator, are tested by an appropriate additional test. The partial
+traffic simulator shall introduce an analogue or digital signal as early as
+possible into the measurement chain.
+
+The expanded measurement uncertainty (stem:[k = 2]) of the simulated reference
+speed shall not exceed stem:[0.2 "unitsml(km/h)"] at speeds up to and including
+stem:[100 "unitsml(km/h)"] and stem:[0.2 %] of the speed value at speeds above
+stem:[100 "unitsml(km/h)"]. If the mentioned uncertainty cannot be met, a larger
+measurement uncertainty can be used, if the added uncertainty is compensated
+for in the maximum permissible error (see guarded acceptance in
+<<OIML_G_1_106_2012,clause=8.3.2>>). The traffic simulator shall be validated
+by comparing the results of a measurement series on the road with the results
+of a simulation of a measurement series using the same EUT and simulating the
+same conditions as were present on the road.
+
+[[figure-1]]
+.Complete traffic simulator for the example of a Doppler-radar based speed meter.
+image::figure-1.svg[]
+
+NOTE: The simulator introduces the same type of signal in the speed meter as
+a vehicle (microwave radiation in this case).
+
+[[figure-2]]
+.Example of a partial traffic simulator for a Doppler-radar based speed meter
+image::figure-2.svg[]
+
+NOTE: A partial traffic simulator for a Doppler-radar based speed meter introduces
+a digital signal. Those parts of the measurement chain that are not tested by
+the partial traffic simulator shall be tested by other appropriate additional
+tests or means.
+
+=== Dynamic performance test
+
+The purpose of the dynamic performance test is to simulate the conditions of
+the metrological field test as closely as possible, including a possible distribution
+and variation of the measurement angle and possible vehicle-shape related effects.
+The simulator used for the dynamic performance test shall be validated by comparing
+the results of the simulation to the results of the metrological field test
+using the same device in the same measuring interval.
+
+The simulator shall be configured such that one of the installation conditions
+tested in the metrological field tests is simulated. If the EUT can be used
+to measure approaching and departing vehicles, both driving directions shall
+be tested.
+
+The simulated speed values shall be randomly chosen from a uniform distribution
+covering the full specified measuring interval and the acceleration values shall
+be randomly chosen from a uniform distribution covering the interval between
+stem:[-1.5 "unitsml(m/s^2)"] and stem:[1.5 "unitsml(m/s^2)"]. The relevant simulated
+reference speed is the speed on the identical measurement section as used by the EUT.
+
+A total number of at least 500 valid simulation measurements shall be performed.
+To decide on conformity, the same MPE and statistical methods as in the metrological
+field test shall be used.
+
+[[scls-5-4]]
+=== Speed linearity test
+
+The purpose of the speed linearity test is to determine errors of indication
+under reference simulation (i.e. with minimized influence quantities) and to
+determine errors and faults caused by influence factors and disturbances. The
+reference simulation conditions shall include:
+
+. a constant nominal measurement angle (if applicable);
+. as a type of vehicle, an isolated, cuboid car with length stem:[5 "unitsml(m)"];
+. no acceleration (constantly stem:[0 "unitsml(m/s^2)"]); and
+. a straight trajectory of the vehicles.
+
+Before the actual test, the mathematical operation used by the EUT to obtain
+the indicated integer speed values from the higher resolution values shall be
+checked. The high-resolution speed values can be read out via the test interface
+or in test mode and shall be used for the evaluation of errors of indication
+during the speed linearity test.
+
+The speed linearity test shall be carried out before and after the influence
+factor and disturbance tests at least at 10 speed values within the specified
+measuring interval. The EUT shall give valid speed values for each simulated
+vehicle. The EUT shall meet the linearity error limit specified in OIML R 91-1,
+6.5. During the influence factor and disturbance tests, the repeated simulation
+of one single speed value shall be sufficient (see OIML R 91-2, 6.3) and the
+acceptance criteria are given in <<table-1>> (see OIML R 91-2, 6.1).
+
+=== Distance linearity test
+
+The purpose of the distance linearity test is to reveal the accuracy of the
+distance measurements of the EUT under static conditions. The simulated vehicle
+shall be in standstill (speed stem:[0 "unitsml(km/h)"]) and the measurement
+angle shall be stem:[0 "unitsml(deg)"].
+
+The distance linearity test shall be carried out at least at 10 distances of
+the specified distance interval. The EUT shall give valid distance values for
+each simulated vehicle. The EUT shall meet the error limits specified by the
+manufacturer.
+
+=== Angle linearity test
+
+The purpose of the optional angle linearity test is to reveal the accuracy of
+the angle measurements of the EUT under static conditions. The simulated vehicle
+shall be in standstill (speed stem:[0 "unitsml(km/h)"]) and the distance shall
+be a typical value within the specified distance interval.
+
+The angle linearity test shall be carried out at least at 10 angles of the specified
+angle interval. The EUT shall give valid angle values for each simulated vehicle.
+The EUT shall meet the error limits specified by the manufacturer.
