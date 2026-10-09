@@ -1,0 +1,36 @@
+= Traffic speed meters -- Part 2: Test procedures
+:docnumber: 91
+:partnumber: 2
+:copyright-year: 2025
+:language: en
+:title-intro-en: Traffic speed meters
+:title-main-en: Test procedures
+:technical-committee-number: 7
+:technical-committee: Measuring instruments for length and associated quantities
+:subcommittee-number: 4
+:subcommittee: Measuring instruments for road traffic
+:doctype: international-standard
+:mn-document-class: oiml
+:mn-output-extensions: xml,html
+:local-cache-only:
+:imagesdir: images
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-test-program.adoc[]
+
+include::sections/03-requirements.adoc[]
+
+include::sections/04-metrological-field-test.adoc[]
+
+include::sections/05-metrological-lab-test.adoc[]
+
+include::sections/06-influence-factor.adoc[]
+
+include::sections/07-test-specific.adoc[]
+
+include::sections/08-software-examinations.adoc[]
+
+include::sections/b0-bibliography.adoc[]
