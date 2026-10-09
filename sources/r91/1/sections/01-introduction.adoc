@@ -1,0 +1,12 @@
+
+== Introduction
+
+This OIML Recommendation consists of four separate parts:
+
+* Part 1: Metrological and technical requirements,
+
+* Part 2: Test procedures,
+
+* Part 3: Test report format, and
+
+* Part 4: Type evaluation report format.

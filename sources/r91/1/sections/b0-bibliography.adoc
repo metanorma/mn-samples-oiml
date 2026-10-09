@@ -1,0 +1,13 @@
+
+[bibliography]
+== Bibliography
+
+* [[[OIML_V_1_2022,OIML V 1:2022]]] _International vocabulary of terms in legal metrology (VIML)_
+
+* [[[OIML_D_2_2007,OIML D 2:2007]]] _Legal units of measurement_
+
+* [[[ISO_IEC_80000_1_2022,ISO/IEC 80000-1:2022]]] _Quantities and units – Part 1: General_
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]] _General requirements for measuring instruments - Environmental conditions_
+
+* [[[OIML_D_31_2023,OIML D 31:2023]]] _General requirements for software-controlled measuring instruments_
