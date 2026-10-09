@@ -1,0 +1,83 @@
+
+== Moving speed meters (OIML R 91-2, 7.7)
+
+=== Moving metrological field test (OIML R 91-2, 7.7.1)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+(on road conditions)
+
+[%unnumbered,cols=">.^15,^.^14,^.^14,^.^14,^.^14,^.^14,^.^14",options="header"]
+|===
+^| Measurement No.
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| … | | | | | |
+| N | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Metrological field test of the ego speed meter (OIML R 91-2, 7.7.2)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+include::../common-content/form-12.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Traffic simulation for moving speed meters (OIML R 91-2, 7.7.3)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+Stationary mode
+
+[%unnumbered,cols=">.^15,>.^11,^.^12,^.^13,^.^13,^.^13,^.^12,^.^12",options="header"]
+|===
+^| Measurement No.
+| stem:[v_"EGO" ["unitsml(km/h)"\]]
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | 0 | | | | | |
+| 2 | 0 | | | | | |
+| 3 | 0 | | | | | |
+| … | | | | | | |
+| N | 0 | | | | | |
+|===
+
+Ego speed meter
+
+include::../common-content/form-12.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]

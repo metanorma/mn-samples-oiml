@@ -1,0 +1,135 @@
+
+== Metrological laboratory tests by traffic simulation (OIML R 91-2, 5)
+
+=== Dynamic performance test (OIML R 91-2, 5.3)
+
+include::../common-content/form-2.adoc[]
+
+*Checklist for conditions:*
+
+[%unnumbered,cols="<.^15,<.^47,^.^9,^.^9,^.^20",options="header"]
+|===
+^| OIML R 91-2 requirements |                                          | Yes | No | Remarks
+ | 5.1                      | General conditions                       |     |    |
+ | 5.2                      | Characteristics of the traffic simulator |     |    |
+|===
+
+*Acceptance criterion:*
+
+The integer speed values from the EUT shall fulfil the MPE for stationary measurements
+(OIML R 91-1, 6.4).
+
+*Results:*
+
+[%unnumbered,cols=">.^15,^.^12,^.^12,^.^11,^.^13,^.^13,^.^12,^.^12",options="header"]
+|===
+^| Measurement No.
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_(ref) ["unitsml(km/h)"\]]
+| stem:[a_"ref" ["unitsml(m/s^2)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| … | | | | | | |
+| N | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Speed linearity test (OIML R 91-2, 5.4)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+The high-resolution speed values from the EUT shall fulfil the linearity error
+limit (OIML R 91-1, 6.5).
+
+*Results:*
+
+include::../common-content/form-3.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Distance linearity test (OIML R 91-2, 5.5)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+The distance values from the EUT shall fulfil the error limit specified by the
+manufacturer.
+
+*Results:*
+
+[%unnumbered,cols=">.^16,^.^14,^.^14,^.^15,^.^14,^.^13,^.^14",options="header"]
+|===
+^| Measurement No.
+| stem:[d ["unitsml(m)"\]]
+| stem:[d_(ref) ["unitsml(m)"\]]
+| stem:[Delta d ["unitsml(m)"\]]
+| MPE stem:[["unitsml(m)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| … | | | | | |
+| N | | | | | |
+|===
+
+The reference speed for this kind of test should be stem:[0 "unitsml(km/h)"].
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Angle linearity test (OIML R 91-2, 5.6)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+The angle values from the EUT shall fulfil the error limit specified by the
+manufacturer.
+
+*Results:*
+
+[%unnumbered,cols=">.^17,^.^14,<.^14,^.^15,^.^12,^.^14,^.^14",options="header"]
+|===
+^| Measurement No.
+| stem:[alpha ["unitsml(deg)"\]]
+| stem:[alpha_"ref" ["unitsml(deg)"\]]
+| stem:[Delta alpha ["unitsml(deg)"\]]
+| MPE stem:[["unitsml(deg)"\]]
+| Pass
+| Fail
+
+| 1 | | 0 | | | |
+| 2 | | 0 | | | |
+| 3 | | 0 | | | |
+| … | | … | | | |
+| stem:[N] | | 0 | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]

@@ -1,0 +1,214 @@
+
+== Tests specific to certain categories of speed meters (OIML R 91-2, clause 7)
+
+=== Doppler-radar based speed meters (OIML R 91-2, 7.1)
+
+include::../common-content/form-2.adoc[]
+
+*[underline]#Specific tests:#*
+
+. Carrier frequency or interval of modulated frequencies
+
+*Results:*
+
+*Remarks:*
+
+[start=2]
+. Antenna pattern test to determine beam width and secondary beams and angles
+of the measurement beam
+
+*Results:*
+
+*Remarks:*
+
+[start=3]
+. Equivalent isotropic radiated power (EIRP) (optional)
+
+*Results:*
+
+*Remarks:*
+
+[start=4]
+. Minimum and maximum of distance measurement (if applicable)
+
+*Results:*
+
+*Remarks:*
+
+[start=5]
+. Accuracy of angle measurement, if applicable, and
+
+*Results:*
+
+*Remarks:*
+
+[start=6]
+. Accuracy of the aiming device, if applicable.
+
+*Results:*
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Range-finding based speed meters (OIML R 91-2, 7.2)
+
+include::../common-content/form-2.adoc[]
+
+*[underline]#Specific tests:#*
+
+. Vehicle shape does not significantly affect the speed measurement
+
+*Results:*
+
+*Remarks:*
+
+[start=2]
+. Pulse repetition rate or another characteristic of the time intervals between
+the pulses
+
+*Results:*
+
+*Remarks:*
+
+[start=3]
+. Beam width, secondary beams and relevant characteristics of the field of view
+(divergence etc.)
+
+*Results:*
+
+*Remarks:*
+
+[start=4]
+. The exit angle of measurement beam, if applicable,
+
+*Results:*
+
+*Remarks:*
+
+[start=5]
+. Influence of curve radius
+
+*Results:*
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Average speed meters (OIML R 91-2, 7.3)
+
+include::../common-content/form-2.adoc[]
+
+*[underline]#Specific tests:#*
+
+. the robustness of time synchronisation mechanism,
+
+*Results:*
+
+*Remarks:*
+
+[start=2]
+. that MPE for time measurement is fulfilled when vehicle detection and image
+recording are included,
+
+*Results:*
+
+*Remarks:*
+
+[start=3]
+. maximum size of detection field, even at varying speeds, and
+
+*Results:*
+
+*Remarks:*
+
+[start=4]
+. minimum distance between entry and exit point.
+
+*Results:*
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Fixed-distance speed meters (OIML R 91-2, 7.4)
+
+include::../common-content/form-2.adoc[]
+
+*[underline]#Specific tests:#*
+
+. accuracy of trigger point, and
+
+*Results:*
+
+*Remarks:*
+
+[start=2]
+. minimum and maximum distance between trigger points.
+
+*Results:*
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Image based speed meters (OIML R 91-2, 7.5)
+
+include::../common-content/form-2.adoc[]
+
+*[underline]#Specific tests:#*
+
+. accuracy of trigger point, and
+
+*Results:*
+
+*Remarks:*
+
+[start=2]
+. minimum and maximum distance between trigger points.
+
+*Results:*
+
+*Remarks:*
+
+[start=3]
+. minimum illumination and fog
+
+*Results:*
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Across-the-road speed meters (OIML R 91-2, 7.6)
+
+include::../common-content/form-2.adoc[]
+
+*[underline]#Specific test:#*
+
+. accuracy of aiming device, if applicable
+
+*Results:*
+
+*Remarks:*
+
+[start=2]
+. influence of curve radius
+
+*Results:*
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
