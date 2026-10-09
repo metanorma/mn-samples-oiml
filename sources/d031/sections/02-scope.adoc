@@ -1,0 +1,33 @@
+// OIML D 31:2023, página 5 del PDF: cláusula 2, Scope and field of application.
+// Las subcláusulas 2.1 a 2.3 no tienen título: se escriben con {blank}.
+
+== Scope and field of application
+
+[[scls-2-1]]
+=== {blank}
+
+This International Document specifies the general requirements applicable to
+legally relevant software-related functionality and security in measuring instruments
+and gives guidance for verifying the compliance of an instrument with these
+requirements.
+
+[[scls-2-2]]
+=== {blank}
+
+This Document shall be taken into consideration by OIML Technical Committees
+and Subcommittees as a basis for establishing specific software requirements
+and procedures in OIML Recommendations applicable to particular categories of
+measuring instruments (hereafter termed "relevant Recommendations").
+
+[[scls-2-3]]
+=== {blank}
+
+The instructions given in this Document apply only to software-controlled measuring
+instruments or their components.
+
+NOTE: This Document does not cover all the technical requirements specific to
+software-controlled measuring instruments; these requirements are to be given
+in the relevant Recommendation, e.g. for weighing instruments, water meters, etc.
+
+NOTE: This Document addresses some aspects concerning data, parameter and software
+security. In addition, national regulations for this area need to be considered.

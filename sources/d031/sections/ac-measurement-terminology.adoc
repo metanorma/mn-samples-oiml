@@ -1,0 +1,100 @@
+// OIML D 31:2023, páginas 86 a 88 del PDF: Annex C, Remarks on measurement
+// terminology (Informative). El original numera las figuras de este anexo como
+// "Figure A.1" y "Figure A.2": las referencias se marcan con los ids del anexo
+// (figure-c-1, figure-c-2) y Metanorma generará la numeración.
+
+[[annex-c]]
+[appendix,obligation=informative]
+== Remarks on measurement terminology
+
+NOTE: This informative Annex is intended to illustrate the terms and definitions
+related to the measurement process and their usage in this OIML Document.
+
+In this Document, the definition of _Measurement Result (<<scls-3-2-41>>)_ is
+a "set of quantity values being attributed to a measurand together with any
+other relevant data", (i.e., Measurement Result Relevant Data). This is illustrated
+in <<figure-c-1>> as the Measured Quantity Value (MQV) and Measurement Result
+Relevant Data (MRRD), both being part of the Measurement Result.
+
+Together with the Measurement Process Data (MPD) these form the Measurement Data.
+
+[[figure-c-1]]
+.Visual representation of the Measurement Information
+image::figure-c-1.png[]
+
+In general, this OIML Document distinguishes between measurement data and measurement
+metadata. If both are used together, measurement data are put into context;
+hence, measurement data plus measurement metadata equals measurement information.
+
+This OIML Document also distinguishes between Measurement Result Relevant Information
+and Measurement Process Information.
+
+<<figure-c-2>> contains a flowchart to illustrate the distinction between the
+data relevant to the Measurement Result or data relevant to the Measurement Process.
+
+[[figure-c-2]]
+.Flowchart of a measurement process, giving examples for the different data relevant to the Measurement Result or relevant do the Measurement Process.
+image::figure-c-2.png[]
+
+<<figure-c-2>>. also indicates the data composing the Measurement Result: Measured
+Quantity Value (MQV) and the Measurement Result Relevant Data (MRRD), while
+the corresponding Measurement Result Metadata needed for the correct interpretation
+of the result are shown in a framed, dashed rectangle.
+
+<<figure-c-2>> shows a simple example of a measurement process. For each logical
+step (from data acquisition by the sensor to indication of the result) the following
+parts are noted:
+
+* the Measured Quantity Value (MQV) and Measured Quantity Value Metadata (MQVM);
+* the Measurement Result Relevant Data (MRRD) and the Measurement Result Relevant
+Metadata (MRRM);
+* the Measurement Process Data (MPD) and the Measurement Process Metadata (MPM).
+
+One strand of measurement information is related to the measurement result relevant
+information.
+
+Data acquisition by the sensor delivers a raw counter value of 12 (MQV) with
+'counter' as the Measured Quantity Value Metadata (MQVM) needed to interpret
+the data.
+
+The Measurement Result Relevant Information (MRRI) are the ADC's quantiser 16
+bits resolution,
+
+* where 16 is the Measurement Result Relevant Data (MRRD),
+* while 'quantiser resolution' is the Measurement Result Relevant Metadata (MRRM),
+needed to interpret the data.
+
+During processing, the Measured Quantity Value (MQV) with "integer value" as
+the Measured Quantity Value Metadata (MQVM) is assigned 'kWh' as Measurement
+Result Relevant Data (MRRD) with 'unit' as Measurement Result Relevant Metadata
+(MRRM), as well as a timestamp '17-07-2017' (MRRD) with format 'day-month-year'
+(MRRM) and Mister X (MRRD) as customer ID (MRRM).
+
+In both cases, during acquisition by the sensor and processing, the Measured
+Quantity Value (MQV) and Measurement Result Relevant Data (MRRD) form part of
+the Measurement Result, while the metadata are needed for the correct interpretation
+of the Measurement Result.
+
+Another strand of measurement information is related to the measurement process:
+for acquisition of the Measured Quantity Value (MQV) from the sensor, COM-Port
+number 4 is used, where
+
+* '4' is the Measurement Process Data (MPD), and
+* the 'COM-Port' is the Measurement Process Metadata (MPM) needed to understand
+the data element.
+
+Indication of the result can be by means of a display or by printing.
+
+The Measurement Process Data (MPD) 'printing' with the correspondent Measurement
+Process Metadata (MPM) 'display method' are both necessary for the measurement
+process, but they will not become part of the measurement result, nor the measurement
+result metadata.
+
+It is up to the technical working groups to decide what Measurement Result Relevant
+Data are because under certain circumstances, Measurement Process Data (MPD)
+might become Measurement Result Relevant Data (MRRD).
+
+In the given example, shown in <<figure-c-2>>, the COM-Port number 4 links the
+Measured Quantity Value (MQV) to a customer Mr. X, thus turning the Measurement
+Process Data (MPD) into Measurement Result Relevant Data (MRRD) during the processing
+step.

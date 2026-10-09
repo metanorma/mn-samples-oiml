@@ -1,0 +1,765 @@
+// OIML D 31:2023, páginas 49 a 60 del PDF: cláusula 7, Type evaluation.
+// Los rótulos "Application:", "Preconditions:", etc. de 7.3.2 se escriben como
+// lista de definición. Las tablas 1 y 2 conservan su estructura; en la tabla 2
+// los números de cláusula de la primera columna se marcan como referencias.
+
+== Type evaluation
+
+=== Software documentation to be supplied for type evaluation
+
+[[scls-7-1-1]]
+==== General
+
+For type evaluation the manufacturer of the measuring instrument shall declare
+and document all functions, relevant data structures and software interfaces
+of the legally relevant software that are implemented in the instrument. All
+commands and their effects shall be described completely in the software documentation
+to be submitted for type evaluation.
+
+Furthermore, the application for type evaluation shall be accompanied by a document
+or other evidence that supports the assumption that the design and characteristics
+of the software of the measuring instrument comply with the requirements of
+the relevant Recommendation, in which the general requirements of this Document
+have been incorporated.
+
+NOTE: In cases of dynamic modules of legally relevant software (e.g. evolving
+ML-models), the manufacturer shall describe clear ways of verification and evaluation
+of said dynamic modules. With respect to metrological performance testing more
+generally, PGs may need to consider the impact of dynamic modules of legally
+relevant software on traditional methods and assumptions regarding the interpolation
+or extrapolation of measurement performance across the operational range of
+the measuring instrument under evaluation and test.
+
+[[scls-7-1-2]]
+==== Contents of the documentation
+
+The documentation (for each measuring instrument or component) shall at least
+include:
+
+* description of the legally relevant software and how the requirements are met:
+** list of legally relevant software modules;
+** description of the software interfaces of the legally relevant software and
+of the commands and data flows via this interface;
+** depending on the evaluation method chosen in the relevant Recommendation
+(see <<scls-7-3>> and <<scls-7-4>>) the source code shall be made available
+to the type evaluation authority if raised risk level is required by the relevant
+Recommendation;
+** list of parameters to be protected and description of protection means;
+* description of suitable system configuration and minimal required resources
+(see <<scls-6-3-6>>);
+* description of the security means of the operating system (password, etc.
+if applicable);
+* description of the protective means;
+* overview of the system hardware, e.g. topology block diagram, type of computer(s),
+type of network, etc. Where a hardware component is deemed legally relevant
+or where it performs legally relevant functions, this should also be identified;
+* description of the accuracy of the algorithms (e.g. filtering of A/D conversion
+results, price calculation, rounding algorithms, etc.);
+* description of the user interface, menus and dialogues;
+* software identification and instructions for obtaining it from an instrument
+in use;
+* list of commands of each hardware interface of the measuring instrument or
+component;
+* if an internal clock is synchronized with legal time, the synchronization
+method and traceability to legal time;
+* list of durability errors that are detected by the software and, if necessary
+for understanding, a description of the detecting algorithms;
+* the required metadata for legally relevant measurement data;
+* description of datasets stored or transmitted;
+* if detection of significant defects is realised in the software, a list of
+significant defects that are detected and a description of the detecting algorithm;
+* if fault detection is realised in the software, a list of faults that are
+detected and a description of the detecting algorithm;
+* if an audit trail is realised in the software, a description of how to access
+the audit trail;
+* if remote verification is supported:
+** a description of the remote verification procedure for accessing/reading
+of remote verification data and for executing remote verification procedures
+with an explanation how a certain test item can be used to evaluate if a certain
+requirement is fulfilled;
+** description of the access rights to the instrument for remote verification
+and a description how test items can be obtained (and made available to relevant
+authorities depending on national legislation);
+* if dynamic modules of legally relevant software are present:
+** a description of the prioritization of using all legally relevant parts,
+including dynamic modules of legally relevant software;
+** a description of the means to validate the conformity of devices in use even
+in the presence of dynamic parameter changes;
+** detailed description of the dynamic module's algorithm design as well as
+a description of the training process and the used training datasets;
+* the operating manual.
+
+=== Requirements for the evaluation procedure
+
+[[scls-7-2-1]]
+==== General
+
+In the framework of type evaluation, test procedures are based on well-defined
+test setups and test conditions and can rely on metrologically traceable comparative
+measurements. The accuracy or correctness of software in general cannot be measured
+in a metrological sense, though there are standards that prescribe how to "measure"
+software quality [e.g. <<ISO_IEC_25040_2011series>>]. The procedures described
+here take into consideration both the legal metrology needs and also well-known
+evaluation and verification methods in software engineering, but which do not
+have the same goals (e.g. a software developer who searches for errors but who
+also optimises performance). As shown in <<scls-7-4>>, each software requirement
+needs individual adaptation of suitable evaluation procedures. The effort for
+the procedure should reflect the risk level.
+
+The aim is to verify the fact that the instrument to be approved complies with
+the requirements of the relevant Recommendation. For software- controlled instruments
+the evaluation procedure comprises examinations, analysis, and tests and the
+relevant Recommendation shall include an appropriate selection of methods described
+below.
+
+The methods described below focus on the type evaluation. Verifications of every
+single instrument in use in the field are not covered by those evaluation methods.
+Refer to <<cls-8>> _Verification of a measuring instrument_ for more information.
+
+The methods specified for software evaluation are described in <<scls-7-3>>.
+Combinations of these methods forming a complete software evaluation procedure
+adapted to all requirements defined in <<cls-6>> are specified in <<scls-7-4>>.
+
+The manufacturer shall attest that no hidden or undocumented properties exist.
+(e.g. parameters, commands, functions, backdoors.)
+
+This Document does not ask manufacturers for extra declarations that documentation
+is correct and complete. However, any country may require this declaration,
+as a part of the specified software examination process.
+
+[[scls-7-2-2]]
+==== Information to be included in the certificate
+
+The following information shall be included in the certificate:
+
+* software identification of all approved software versions;
+* method to display the current software identification on the approved instrument
+in use;
+* securing means as well as means to provide evidence of an intervention and
+the method to check them (e.g. hardware seals, event counters, audit trails.);
+* software modules under legal control, including whether or not the instrument
+is equipped with a remote verification procedure or a traced update procedure;
+* if applicable:
+** means of integrity protection checking;
+** software operating environment,
+** test items with their unique identification used for the remote verification
+procedure.
+
+[[scls-7-3]]
+=== Verification and evaluation methods
+
+[[scls-7-3-1]]
+==== Overview of methods and their application
+
+The selection and sequence of the following methods are not prescribed and may
+vary in a software evaluation procedure from case to case.
+
+This is a rough overview. For more details, see <<scls-7-3-2>>.
+
+[[table-1]]
+.Overview of the proposed selected verification and evaluation methods
+[cols="^.<16,<.<21,<.<28,<.<18,<.<17",options="header"]
+|===
+| Abbreviation
+^| Description
+^| Application
+^| Preconditions, tools for application
+^| Special skills for performing
+
+| AD
+| Analysis of the documentation and evaluation of the design (<<scls-7-3-2-1>>)
+| Always
+| Documentation
+| -
+
+| VFTM
+| Verification by functional testing of metrological functions (<<scls-7-3-2-2>>)
+| Correctness of the algorithms, uncertainty, compensating and correcting algorithms,
+rules for price calculation
+| Documentation, specimen
+| -
+
+| VFTSw
+| Verification by functional testing of software functions (<<scls-7-3-2-3>>)
+| Correct functioning of communication, indication, evidence of intervention,
+protection against operating errors, protection of parameters, detection of
+significant defects
+| Documentation, specimen
+| -
+
+| DFA
+| Metrological data flow analysis (<<scls-7-3-2-4>>)
+| Software separation, evaluation of the impact of commands on the instrument's
+functions
+| Source code, tools for analysing source code
+| Knowledge of programming languages
+
+| CIWT
+| Code inspection and walkthrough (<<scls-7-3-2-5>>)
+| All purposes
+| Source code, tools for analysing source code
+| Knowledge of programming languages
+
+| SMT
+| Software module testing (<<scls-7-3-2-6>>)
+| All purposes when input and output can clearly be defined
+| Source code, testing environment
+| Knowledge of programming languages
+|===
+
+[[table-2]]
+.Recommendations for combinations of evaluation and verification methods for the various software requirements (acronyms defined in <<table-1>>)
+[cols="<.^11,<.^26,<.^19,<.^22,<.^22",options="header"]
+|===
+2+^| Requirement
+^| Examination level A (normal examination level)
+^| Examination level B (extended examination level)
+^| Comment
+
+5+| *6. 2 General requirements*
+
+| <<scls-6-2-1>>
+| Software identification
+| AD + VFTSw
+| AD + VFTSw + CIWT
+| Select "B" if high conformity is required
+
+| <<scls-6-2-2>>
+| Correctness of algorithms and functions
+| AD + VFTM
+| AD + VFTM +CIWT/SMT
+|
+
+| <<scls-6-2-3>>
+| Evidence and prevention of intervention
+| AD + VFTSw
+| AD + VFTSw
+|
+
+| <<scls-6-2-4>>
+| Prevention of misuse
+| AD + VFTSw
+| AD + VFTSw + DFA/CIWT/SMT
+| Select "B" in case of high risk of fraud
+
+| <<scls-6-2-5>>
+| Demands on the user
+| AD + VFTSw
+| AD + VFTSw
+|
+
+5+| *6.2.6 Support of hardware features*
+
+| <<scls-6-2-6-1>>
+| Detection of significant defects
+| AD + VFTSw
+| AD + VFTSw + CIWT + SMT
+| Select "B" if high reliability is required
+
+| 0
+| Durability protection
+| AD + VFTSw
+| AD + VFTSw + CIWT + SMT
+| Select "B" if high reliability is required
+
+| <<scls-6-2-6-3>>
+| Information for remote verification
+| AD + VFTSw
+| AD + VFTSw + CIWT + SMT
+| Select "B" if high reliability is required
+
+| <<scls-6-2-7>>
+| Timestamps
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-2-8>>
+| Information regarding dynamic modules of legally relevant software
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+|
+
+5+| *6.3 Requirements for specific configurations*
+
+5+| *6.3.2 Specification and separation of legally relevant components and modules
+and requirements for interfaces*
+
+| <<scls-6-3-2-1>>
+| Separation of components
+| AD
+| AD + DFA/CIWT
+|
+
+| <<scls-6-3-2-2>>
+| Separation of modules
+| AD
+| AD + DFA/CIWT
+|
+
+| <<scls-6-3-3>>
+| Shared indications
+| AD + VFTM/ VFTSw
+| AD + VFTM/ VFTSw + DFA/CIWT
+|
+
+| <<scls-6-3-4>>
+| Storage of data
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+| Select "B" if storage of measurement data in unsecure storages is foreseen
+
+| <<scls-6-3-4-2>>
+| Completeness of stored data
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+| Select "B" in case of high risk of fraud
+
+| <<scls-6-3-4-3>>
+| Protection of stored data
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-4-4>>
+| Automatic storing
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-5>>
+| Data transmission
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+| Select "B" if transmission of measurement data in open system is foreseen
+
+| <<scls-6-3-5-2>>
+| Completeness of transmitted data
+| AD + VFTSw
+| AD + VFTSw +CIWT/SMT
+| Select "B" in case of high risk of fraud
+
+| <<scls-6-3-5-3>>
+| Protection of transmitted data
+| AD + VFTSw
+| AD + VFTSw + SMT/
+|
+
+| <<scls-6-3-5-4>>
+| Transmission delay or interruption
+| AD + VFTSw
+| AD + VFTSw + SMT
+| Select "B" in case of high risk of fraud, e.g. transmission in open systems
+
+5+| *6.3.6 Compatibility of operating systems and hardware*
+
+| <<scls-6-3-6-2>>
+| Hardware interfaces
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-6-3>>
+| Boot process
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-6-4>>
+| System resources
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-6-5>>
+| Protection during use
+| AD + VFTSw
+| AD + VFTM/ VFTSw + DFA
+|
+
+| <<scls-6-3-6-6>>
+| Communication with the legally relevant software
+| AD + VFTSw
+| AD + VFTM/ VFTSw +DFA
+|
+
+| <<scls-6-3-6-7>>
+| Identification and traceability
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-6-8>>
+| Suitable environment
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-6-9>>
+| Constraints for operation
+| AD + VFTSw
+| AD + VFTSw + SMT
+|
+
+| <<scls-6-3-7>>
+| Conformity of manufactured devices to the approved type
+| AD
+| AD
+|
+
+5+| *6.3.8 Maintenance and re-configuration*
+
+| <<scls-6-3-8-3>>
+| Verified update
+| AD
+| AD
+|
+
+| <<scls-6-3-8-4>>
+| Traced update
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+| Select "B" in case of high risk of fraud
+
+5+| *6.3.9 Remote verification capability*
+
+| <<scls-6-3-9-1>>
+| General
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+|
+
+| <<scls-6-3-9-3>>
+| Direct extraction of test items
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+|
+
+| <<scls-6-3-9-4>>
+| Connection requirements
+| AD + VFTSw
+| AD + VFTSw + CIWT/SMT
+|
+|===
+
+[[scls-7-3-2]]
+==== Description of selected verification and evaluation methods
+
+[[scls-7-3-2-1]]
+===== Analysis of Documentation and Specification and Evaluation of the Design (AD)
+
+Application:: Basic procedure for software evaluation.
+
+Preconditions::
++
+--
+The procedure is based on the manufacturer's documentation of the measuring
+instrument. This documentation shall have a scope which is adequate for the
+application:
+
+. Specification of the externally accessible functions of the instrument in
+a general form (suitable for simple instruments with no interfaces except a
+display, all features verifiable by functional testing, low risk of fraud).
+. Specification of the software functions and interfaces (necessary for instruments
+with interfaces and for instrument functions that cannot be functionally tested
+and in case of increased risk of fraud). The description shall make evident
+and explain all software functions that may have an impact on the legally relevant
+features.
++
+NOTE: In cases of dynamic modules of legally relevant software, documentation
+of the software functions shall include a detailed description of the dynamic
+module's algorithm design (e.g. the topology of the neural network and a description
+of its learning facility) as well as a description of the training process (e.g.
+training, validating, and testing) and the used training datasets, enabling
+assessment of the algorithm's compliance with the relevant Recommendation.
+. Concerning interfaces, the documentation shall include a complete list of
+commands or signals that the software is able to interpret. The effect of each
+command shall be documented in detail. The way shall be described in which the
+instrument reacts on commands that are not described in the documentation.
+. Additional documentation of the software for complex measuring algorithms,
+cryptographic functions, or crucial timing constraints shall be provided, if
+necessary for understanding and evaluating the software functions.
+
+A general precondition for examination is the completeness of the documentation
+and the clear identification of the EUT, i.e. of the software packages that
+contribute to the legally relevant functions (see <<scls-7-1-2>>).
+--
+
+Description:: The examiner evaluates the functions and features of the measuring
+instrument using the documentation and decides whether they comply with the
+requirements of the relevant Recommendation. Metrological requirements as well
+as software-functional requirements defined in <<cls-6>> (e.g. evidence of intervention,
+protection of adjustment parameters, disallowed functions, communication with
+other devices, update of software, detection of significant defects, etc.) shall
+be considered and evaluated. This task may be supported by the Software Evaluation
+Report Format (see <<annex-b>>).
+
+Result:: The procedure gives a result for all characteristics of the measuring
+instrument, provided that the appropriate documentation has been submitted by
+the manufacturer. The result should be documented in a clause related to software
+in a Software Evaluation Report (see <<annex-b>>) included in the Evaluation
+Report Format of the relevant Recommendation.
+
+Complementary procedures:: Additional procedures should be applied, if examining
+the documentation cannot provide substantiated evaluation results. In most cases
+"Verifying the metrological functions by functional testing" (see <<scls-7-3-2-2>>)
+is a complementary procedure.
+
+Reference:: <<IEC_61508_5_2010>>.
+
+[[scls-7-3-2-2]]
+===== Verification by Functional Testing of the Metrological Functions (VFTM)
+
+Application:: For verifying correctness of algorithms for calculating the measurement
+result from measurement data, for linearisation of a characteristic, compensation
+of environmental influences, rounding in price calculation, etc.
+
+Preconditions::
++
+--
+Operating manual, functioning specimen, metrological references, test equipment,
+test cases, instructions for test equipment.
+
+When it is not clear how to verify a function of a software module, the onus
+to develop a test method should be placed on the manufacturer. In addition,
+the services of the programmer should be made available to the examiner for
+the purposes of answering questions.
+--
+
+Description::
++
+--
+Most of the evaluation and verification methods described in Recommendations
+are based on reference measurements under various conditions. Their application
+is not restricted to a certain technology of the instrument. Although it does
+not aim primarily at verifying the software, the test result can be interpreted
+as a verification of some software modules, in general even the metrologically
+most important. If the tests described in the relevant Recommendation cover
+all the metrologically relevant features of the instrument, the corresponding
+software can be regarded as being verified. In general, no additional software
+analysis or test needs to be applied to verify the metrological features of
+the measuring instrument.
+
+NOTE: In cases of dynamic modules of legally relevant software, functional tests
+can only be performed on a snapshot of the dynamic legally relevant software
+modules. Even for such snapshots the examiner should check the outcome of the
+dynamic module's algorithm under different circumstances to ensure the outcome
+of parameter corrections.
+--
+
+Result:: Algorithms are correct or not correct. Measurement results under all
+conditions are within the maximum permissible error (MPE) or not.
+
+Complementary procedures:: The method is normally an enhancement of <<scls-7-3-2-1>>.
+In certain cases, it may be easier or more effective to combine the method with
+examinations based on the source code (<<scls-7-3-2-5>>) or by simulating input
+signals (<<scls-7-3-2-6>>) e.g. for dynamic measurements.
+
+References:: Various specific Recommendations.
+
+[[scls-7-3-2-3]]
+===== Verification by Functional Testing of the Software Functions (VFTSw)
+
+Application:: For evaluation of e.g. protection of parameters, indication of
+a software identification, software supported detection of significant defects,
+configuration of the system (especially of the software environment), etc.
+
+Preconditions::
++
+--
+Operating manual, software documentation, functioning specimen, test equipment,
+test cases, instructions for test equipment.
+
+When it is not clear how to verify a function of a software module, the onus
+to develop a test method should be placed on the manufacturer. In addition,
+the services of the programmer should be made available to the examiner for
+the purposes of answering questions.
+--
+
+Description::
++
+--
+Required features described in the operating manual, instrument documentation
+or software documentation are checked practically. If they are software-controlled,
+they are to be regarded as verified if they function correctly without any further
+software analysis. Features addressed here are e.g.:
+
+* normal operation of the instrument, if its operation is software-controlled.
+All switches or keys and described combinations should be employed and the reaction
+of the instrument evaluated. In graphical user interfaces, all menus and other
+graphical elements should be activated and checked;
+* effectiveness of parameter protection may be checked by activating the protection
+means and trying to change a parameter;
+* effectiveness of the protection of stored data may be checked by changing
+some data in the file and then checking whether this is detected by the software;
+* indication of the software identification may be verified by practical checking;
+* if detection of significant defects is software supported, the relevant software
+modules may be verified by provoking, implementing or simulating a fault and
+checking the correct reaction of the instrument;
+* protection means that there is evidence of an intervention if changes are
+made to software, parameters, audit trails, etc. This can be tested by making
+changes and checking if this leads to evidence of an intervention.
+--
+
+Result:: Software-controlled feature under consideration is acceptable or not
+acceptable.
+
+Complementary procedures:: Some features or functions of a software-controlled
+instrument cannot be practically verified as described. If the instrument has
+interfaces, it is in general not possible to detect undocumented commands only
+by trying commands at random. Besides that, a sender is needed to generate these
+commands. For the normal examination level method in <<scls-7-3-2-1>> may cover
+this requirement. For the extended examination level, a software analysis such
+as <<scls-7-3-2-4>> or <<scls-7-3-2-5>> is necessary.
+
+References:: <<WELMEC_Guide_7_2_Issue_2022,clause=4.2;and!clause=5.2>>.
+
+[[scls-7-3-2-4]]
+===== Metrological Dataflow Analysis (DFA)
+
+Application:: For analysis of the software design concerning the control of
+the data flow of measurement information through the data domains that are subject
+to legal control, including the examination of the software separation.
+
+Preconditions:: Software documentation, source code, editor, text search program
+or special tools. Knowledge of programming languages.
+
+Description::
++
+--
+It is the aim of this method to find all software modules that are involved
+in the calculation of the measurement result or that may have an impact on it.
+Starting from the hardware port where raw data from the sensor are available,
+the subroutine that reads them is searched. This subroutine will store them
+in a variable after possibly having done some processing. From this variable
+the intermediate value is read by another subroutine and so forth until the
+completed measurement result is output to the display. All variables that are
+used as storage for intermediate measurement data and all subroutines processing
+and transporting these data can be found in the source code simply by using
+a text editor and a text search program to find all other occurrences of the
+variable or the subroutine name.
+
+Other data flows can be found by this method, e.g. from software interfaces
+to the interpreter of received commands. Furthermore, circumvention of a software
+interface (see <<scls-6-3-2-2>>) can be detected.
+--
+
+Result::
++
+--
+It can be verified whether software separation according to <<scls-6-3-2-2>>
+is acceptable or not acceptable.
+
+It can be verified whether the documented list of commands for each interface
+is complete or not.
+--
+
+Complementary procedures:: This method is recommended if software separation
+is realised and if high conformity or strong protection against manipulation
+is required. It is an enhancement to <<scls-7-3-2-1>>-<<scls-7-3-2-3>> and to
+<<scls-7-3-2-5>>.
+
+Reference:: IEC 61131-3:2013.
+
+[[scls-7-3-2-5]]
+===== Code Inspection and Walk Through (CIWT)
+
+Application:: Any feature of the software may be verified with this method if
+extended examination intensity is necessary.
+
+Preconditions:: Source code, text editor, tools. Knowledge of programming languages.
+
+Description::
++
+--
+The examiner walks through the source code assignment by assignment, evaluating
+the respective part of the code to determine whether the requirements are fulfilled
+and whether the functions and features are in compliance with the documentation.
+
+The examiner may also concentrate on algorithms or functions that he has identified
+as complex, error-prone, insufficiently documented, etc. and inspect the respective
+part of the source code by analysing and checking.
+
+Prior to these examination steps the examiner will have identified the legally
+relevant software modules, e.g. by applying the metrological data flow analysis
+(see <<scls-7-3-2-4>>). In general code inspection or walk through is limited
+to this part.
+
+NOTE: Any static analysis can only examine a snapshot of the dynamic modules
+of legally relevant software.
+--
+
+Result:: Implementation compatible with the software documentation and in compliance
+with the requirements or not.
+
+Complementary procedures:: This is an enhanced method, additional to <<scls-7-3-2-1>>
+and <<scls-7-3-2-4>>. Normally it is only applied in spot checks.
+
+Reference:: <<IEC_61508_5_2010>>.
+
+[[scls-7-3-2-6]]
+===== Software Module Testing (SMT)
+
+Application:: This method is only used in exceptional cases. It is applied when
+functions of a software module cannot be examined exclusively on the basis of
+written information. It is appropriate and effective in the verification of
+dynamic measurement algorithms.
+
+Preconditions:: Source code, development tools, functioning environment of the
+software module under test, input dataset and corresponding nominal output dataset
+or tools for automation. Skills in information technology, knowledge of programming
+languages. Cooperation with the programmer of the module under test is advisable.
+
+Description:: The software module under test is integrated in a test environment,
+i.e. a specific test program that calls the module under test and provides it
+with all necessary input data. The test program receives actual output data
+from the module under test and compares them with the nominal values.
+
+Result:: Module under test is correct or not.
+
+Complementary procedures:: This is an enhanced method, additional to <<scls-7-3-2-2>>
+or <<scls-7-3-2-5>>.
+
+Reference:: <<IEC_61508_5_2010>>.
+
+[[scls-7-4]]
+=== Software evaluation procedure
+
+The software evaluation procedure consists of a combination of evaluation and
+verification methods. The relevant Recommendation may specify details concerning
+the software evaluation procedure, including
+
+. which of the evaluation and verification methods described in <<scls-7-3>>
+shall be carried out for the requirement under consideration,
+. how the evaluation of test results shall be performed,
+. which results should be included in the software test report, which results
+should be included in the evaluation report and which results should be integrated
+in the certificate (see <<annex-b>>).
+
+In <<table-2>> two alternative examination levels Normal (A) and Extended (B)
+for the software evaluation procedures are defined. DFA, CIWT and SMT methods
+are only suggested for level B. Level B implies an extended examination compared
+to A. The selection of level B shall be justified by the PGs together with evidence
+of mitigated risk. A selection between A and B examination levels may be made
+in the relevant Recommendation – different or equal for each requirement – in
+accordance with the expected
+
+* risk of fraud,
+* area of application,
+* required conformity to approved type, and
+* risk of wrong measurement result due to operating errors.
+
+See <<cls-4>> for preliminary guidance on risk assessment.
+
+[[scls-7-5]]
+=== Equipment Under Test (EUT)
+
+Normally, tests are carried out on the complete measuring instrument (functional
+testing). If the size or configuration of the measuring instrument does not
+lend itself to testing as a whole unit or if only a separate component or software
+module of the measuring instrument is concerned, the relevant Recommendation
+may indicate that the tests, or certain tests, shall be carried out on the components
+or software modules separately, provided that, in the case of tests with the
+components or software modules in operation, these are included in a simulated
+setup, sufficiently representative of its normal operation. The applicant is
+responsible for the provision of all the required equipment and specimens.

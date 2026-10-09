@@ -1,0 +1,1202 @@
+// OIML D 31:2023, páginas 70 a 85 del PDF: Annex B, Example of a software test
+// report (Informative). Los rótulos en negrita del informe de ejemplo ("Test
+// object", "Result"...) se escriben como párrafos en negrita, no como
+// encabezados, para que no se numeren. Las tablas no tienen número en el
+// original: [%unnumbered]. En la lista de comprobación (páginas 74 a 85) la
+// cabecera repetida en cada página se escribe una sola vez y los números de la
+// columna "Clause" se marcan como referencias propias.
+
+[[annex-b]]
+[appendix,obligation=informative]
+== Example of a software test report
+
+NOTE: The Technical Committees and Subcommittees developing OIML Recommendations
+should decide which information shall be included in Software Test Report, Evaluation
+Report and OIML Certificate of Conformity. E.g. the name, version and checksum
+of the executable code from the following example should be included in the
+Certificate.
+
+[align=center]
+*Software Test report no* XYZ122344
+
+[align=center]
+*Evaluation of Software of the flow meter* Tournesol Metering *model* TT100
+
+The software of the measuring instrument was verified to show conformance with
+the requirements of OIML Recommendation R xyz.
+
+The evaluation was based on OIML International Document D 31:2019, where the
+essential requirements for software are interpreted and explained. This report
+describes the evaluation of software needed to state conformance with the R-xyz.
+
+[%unnumbered,cols="1,1",frame=none,grid=none]
+|===
+| Manufacturer                     | Applicant
+| Tournesol Metering               | New Company
+| P.O. Box 1120333                 | Nova Street 123
+| 100 Klow                         | 1000 Las Dopicos
+| Syldavie                         | San Theodorod
+| Reference: Mr. Tryphon Tournesol | Reference: Archibald Haddock
+|===
+
+*Test object*
+
+The Tournesol Metering meter TT100 is a measuring instrument intended to measure
+flow in liquids. The intended range is from stem:[1 "unitsml(L/s)"] up to
+stem:[2000 "unitsml(L/s)"]. The basic functions of the instrument are
+
+* measuring of flow in liquids,
+* indication of measured volume,
+* interface to transducer.
+
+The flow meter is described as a built-for-purpose device (an embedded system)
+with a storage device containing legally relevant data.
+
+The flow meter TT100 is an independent instrument with a transducer connected.
+The transducer incorporates a temperature compensation. Adjustment of flow rates
+is possible by calibration parameters stored in a non-volatile memory of the
+transducer. It is fixed to the instrument and cannot be disconnected. The measured
+volume is indicated on a display. No communication with other devices is possible.
+
+The embedded software of the measuring instrument was developed by
+
+[align=center]
+*Tournesol Metering, P.O. Box 1120333, 100 Klow, Syldavie.*
+
+The file name of the executable code is "**tt100_12.exe**".
+
+The verified version of this software is *V1.2c*. The software version is presented
+on the display upon instrument start-up and by pressing the "level" button for
+4 seconds.
+
+The source code comprises the following legally relevant files:
+
+[%unnumbered,cols="13,31,19,37",options="header"]
+|===
+| Name        | Size       | Date         | SHA256
+| main.c      | 12301 byte | 23 Nov 2022  | 84dbf59a16a17e3fd4897908842b8e1afc50fd520392b0d8770592cc82d303c3
+| int.c       | 6509 byte  | 23 Nov 2022  | bc82f923eb2baa2608a6d646283d4b75af56d7ad710f86f2d55356f61a7a4f84
+| filter.c    | 10897 byte | 20 Oct 2022  | 56c049551644ebd45dff5fd7e20daf544593b2b092ce418d095cac69c7845a88
+| input.c     | 2004 byte  | 20 Oct 2022  | cf0f182a939977a99d00f3481e998adf23ba948764b53935f87f84714fe692b0
+| display.c   | 32000 byte | 23 Nov 2022  | 93761b3938afe29867819fe407bb39561ae0e59c2d63e0c2825e59e7dfe22310
+| ethernet.c  | 23455 byte | 15 June 2021 | d99f8254aa67f8dfa8913e31321f5302984ca162a395f73f8dbe7e0e4e721096
+| driver.c    | 11670 byte | 15 June 2021 | 553c1c91fe147c8fee127028c3e6c983d64673a49568779e0cf5083a4401f77c
+| calculate.c | 6788 byte  | 23 Nov 2022  | c4087433ec1dadcdc8e8ec6ebb05b244594355998d7e21a7198e6c1372f3289b
+|===
+
+The executable code "**tt100_12.exe**" is protected against modification by
+a checksum. The value of the checksum by algorithm *XYZ* is *1A2B3C*.
+
+The evaluation was supported by the following documents from the manufacturer:
+
+[%unnumbered,cols="31,31,38",options="header"]
+|===
+| Name
+| Identification
+| SHA256
+
+| TT 100 User Manual
+| Release 1.6
+| 799f875d6dc6b8d90f537ea9adb27ed5c558bc845d6aaaa38feefd3d931e498a
+
+| TT 100 Maintenance Manual
+| Manual Release 1.1
+| d72f4eaf20174144a9ac9b4ac422dc89d4ddd7b3970c2e13c15b8000e57094b0
+
+| Software description TT100
+| internal design document, dated 22 Nov 2022
+| 3636421783be4ca2b304ccefa3806291c37ac23dc6756376c6f966f1acfe363c
+
+| Electronic circuit diagram TT100
+| drawing no 222-31, dated 15 Oct 2022
+| d1a04592b42d309bbfc7f76f9ee5e271cad765f08cffce07ca5ed5dce8abee31
+|===
+
+The final version of the test object was delivered to the National Testing &
+Measurement Laboratory on 25 November 2022.
+
+*Results of evaluation*
+
+The evaluation was performed according to the OIML D 31:YYYY. The evaluation
+was performed between 1 November and 23 December 2022. A design review was held
+on 3 December by Dr. K. Fehler at Tournesol Metering head office in Klow. Other
+evaluation work was carried out at the National Testing & Measurement Laboratory
+by Dr. K. Fehler and Mr. S. Problème.
+
+*The following requirements were verified:*
+
+* software identification;
+* correctness of algorithms and functions;
+* software protection;
+* prevention against accidental misuse;
+* evidence of intervention;
+* support of hardware features;
+* storage of data, transmission via communication systems.
+
+*The following evaluation and verification methods were applied:*
+
+* analysis of the documentation and evaluation of the design;
+* verification by functional testing of metrological features;
+* walkthrough, code inspection;
+* software module testing of module calculate.c with SDK XXX.
+
+*Result*
+
+The following requirements of the OIML D 31:YYYY were verified without any
+non-conformities being found:
+
+// Números de cláusula de "OIML D 31:YYYY" del informe de ejemplo: se dejan
+// literales (no se marcan como referencias propias).
+[align=center]
+6.2.1, 6.2.2, 6.2.3, 6.2.3.6, 6.3.4 and 6.3.5.
+
+The result applies to the tested item with Serial No. 1188093-B-2004 only.
+
+*Conclusion*
+
+The software of the *Tournesol Metering TT100 V1.2c* fulfils the requirements
+of OIML R xyz.
+
+National Testing & Measurement Lab.
+
+Software Department
+
+Signature(s):
+
+[%unnumbered,cols="1,1",frame=none,grid=none]
+|===
+| Dr. K.E.I.N. Fehler | Mr. S.A.N.S. Problème
+| Technical manager   | Technical Officer
+|===
+
+[%unnumbered,cols="<.<12,<.<62,^.<7,^.<7,<.<12",options="header"]
+|===
+^| Clause
+^| Requirement
+^| Passed
+^| Failed
+^| Remarks
+
+5+| *Software Identification*
+
+.6+| *<<scls-6-2-1>>*
+| Software modules of a measuring instrument or component are unambiguously
+and uniquely identified.
+|
+|
+|
+
+| The identification is displayed or printed by the measuring instrument: on
+command; or during operation; or at start-up for a measuring instrument that
+can be turned off and on again.
+|
+|
+|
+
+| If a measuring instrument or component has neither display nor printer or
+if the instrument facilitates remote verification, the identification is sent
+via a communication interface, in order to be displayed/printed on another legally
+relevant component.
+|
+|
+|
+
+| If the instrument facilitates remote verification, the software identification
+is also sent to the verification software.
+|
+|
+|
+
+| The software identification is correctly marked on the instrument or component
+concerned.
+|
+|
+|
+
+| Regardless of the form of the software identification it is accessible, to
+allow for it to be checked, when the instrument is in service.
+|
+|
+|
+
+5+| *Correctness of algorithms and functions*
+
+.3+| *<<scls-6-2-2>>*
+| The measuring algorithms and functions of a measuring instrument are appropriate
+and functionally correct for the given application and device type.
+|
+|
+|
+
+| The measurement result is displayed or printed correctly.
+|
+|
+|
+
+| No hidden or undocumented functions or parameters exist.
+|
+|
+|
+
+5+| *Evidence and prevention of intervention*
+
+.4+| *<<scls-6-2-3-1>>*
+| Software is protected against any changes, for example due to physical effects
+and intentional misuse, i.e. modification, loading or changes by swapping the
+memory device, unauthorised updates.
+|
+|
+|
+
+| During processing, measurement data are protected and secured.
+|
+|
+|
+
+| Software is protected in such a way that evidence of any intervention (e.g.
+software updates, parameters changes) is available.
+|
+|
+|
+
+| If necessary for the purpose of verification, data containing evidence of
+an intervention are displayed or printed on command and, if applicable, transmitted
+to the verification software.
+|
+|
+|
+
+.2+| *<<scls-6-2-3-2>>*
+| All inputs from the user interface are handled by a protective interface.
+|
+|
+|
+
+| Any function that can be activated by the user interface are clearly documented
+and not able to inadmissibly influence the legally relevant characteristics
+of the instrument.
+|
+|
+|
+
+.2+| *<<scls-6-2-3-3>>*
+| All inputs from communication interfaces are handled by a protective interface.
+|
+|
+|
+
+| Any function that can be activated through a communication interface is clearly
+documented and not able to inadmissibly influence the legally relevant characteristics
+of the instrument remotely such as through a remote verification procedure or
+a software download.
+|
+|
+|
+
+.3+| *<<scls-6-2-3-4>>*
+| Legally relevant parameters are secured and protected in such a way that evidence
+of an intervention is available.
+|
+|
+|
+
+| If necessary for the purpose of verification of a measuring instrument, displaying
+or printing and, if applicable, transmitting the current relevant parameter
+settings to the verification software is possible.
+|
+|
+|
+
+| The relevant Recommendation may require the setting of certain device-specific
+parameters to be available to the user. If that is so, the measuring instrument
+is fitted with a facility to automatically and non-erasably record any adjustment
+of the legally relevant device-specific parameter.
+|
+|
+|
+
+| *<<scls-6-2-3-5>>*
+| Software protection means comprise appropriate sealing by mechanical, software
+and/or cryptographic means, making an intervention impossible or evident.
+|
+|
+|
+
+.6+| *<<scls-6-2-3-6>>*
+| Audit trails and event counters are part of the legally relevant software
+and are secured and protected as such.
+|
+|
+|
+
+| It is not possible to delete or inadmissibly change the data of the event
+counter or audit trails and it is not possible to exchange the audit trails
+or the value of the event counter when the software is updated.
+|
+|
+|
+
+a| The audit trail contains at minimum the following information:
+
+* timestamp of the event
+* in the case of a traced update:
+** success / failure of the update procedure,
+** software identification of the installed version,
+** software identification of the previous installed version,
+** time stamp of the event,
+** identification of the downloading party if available
+* in the case of a parameter change:
+** identification of the changed parameter,
+** the old and new value of the changed parameter.
+|
+|
+|
+
+| If applicable, the source of the modification is recorded in the audit trail.
+|
+|
+|
+
+| The audit trail or value of the event counter is displayed or printed on command
+and, if applicable, transmitted to the verification software.
+|
+|
+|
+
+| If the audit trail has no more capacity, it gives an appropriate response
+i.e., either the oldest entry is deleted, or no other change of a parameter
+is possible without breaking the seal.
+|
+|
+|
+
+5+| *Prevention of misuse*
+
+.3+| *<<scls-6-2-4>>*
+| The measuring instrument is constructed in such a way that possibilities for
+unintentional, accidental, or intentional misuse are minimal.
+|
+|
+|
+
+| Legally relevant software is secured against accidental or unintentional changes.
+|
+|
+|
+
+| The presentation of the measurement results is unambiguous for all parties
+affected.
+|
+|
+|
+
+5+| *Demands on the user*
+
+| *<<scls-6-2-5>>*
+| The software of the measuring instrument is designed in such a way that no
+unreasonable demands are required from the user to obtain a correct measurement
+result.
+|
+|
+|
+
+5+| *Detection of significant defects*
+
+.2+| *<<scls-6-2-6-1>>*
+| If software is involved in the detection of significant defects, it appropriately
+acts upon any detected defect.
+|
+|
+|
+
+| The documentation to be submitted for type evaluation shall contain a list
+of the significant defects that will be detected by the software, how it will
+act upon these defects and in case needed for understanding its operation, a
+description of the detecting algorithm.
+|
+|
+|
+
+5+| *Durability protection*
+
+.2+| *0*
+| If software is involved in durability protection, it appropriately acts upon
+any detected durability error.
+|
+|
+|
+
+| The documentation to be submitted for type evaluation shall contain a list
+of the durability errors that will be detected by the software, how it will
+act upon these errors and, in case needed for understanding its operation, a
+description of the detecting algorithm.
+|
+|
+|
+
+5+| *Timestamps*
+
+.4+| *<<scls-6-2-7>>*
+| The timestamp is in a consistent format, allowing for easy comparison of two
+records and tracking progress over time.
+|
+|
+|
+
+| If a measuring instrument uses timestamps, the instrument contains an internal
+clock which is used to create the timestamp.
+|
+|
+|
+
+| If setting the clock is legally relevant, an appropriate protection means
+is taken according to the risk level to be applied.
+|
+|
+|
+
+| Automatic setting of the time is only possible if legal time is used as a
+time base in an authenticated manner. If an internal clock is synchronized with
+legal time, the synchronization method and traceability to legal time are described.
+|
+|
+|
+
+5+| *Information regarding dynamic modules of legally relevant software*
+
+.2+| *<<scls-6-2-8>>*
+| Where measuring instruments or systems incorporate or are dependent upon dynamic
+modules of legally relevant software, these information are indicated and made
+available to any parties interested in the measurement result(s) produced by
+that measuring instrument or system.
+|
+|
+|
+
+| Where a measurement result is the product of a measurement process that incorporates
+or is dependent upon dynamic modules of legally relevant software, the indication
+of the measurement result includes information regarding the use of those modules
+in the measurement process.
+|
+|
+|
+
+5+| *Specification and separation of legally relevant components and modules
+and requirements for interfaces*
+
+| *<<scls-6-3-2>>*
+| Legally relevant software modules or hardware components of the measuring
+instrument cannot be inadmissibly influenced by another device or by other modules
+or components of the measuring instrument
+|
+|
+|
+
+5+| *Separation of components*
+
+| *<<scls-6-3-2-1-1>>*
+| Components of the measuring instrument that perform legally relevant functions
+are identified, clearly defined and documented.
+|
+|
+|
+
+.3+| *<<scls-6-3-2-1-2>>*
+| All legally relevant software-controlled components communicate with other
+components or devices through a protective interface.
+|
+|
+|
+
+| It is not possible to inadmissibly influence the legally relevant software,
+parameters or measurement data through these interfaces.
+|
+|
+|
+
+| There is an unambiguous assignment of each command to all initiated functions
+or data changes in the components.
+|
+|
+|
+
+| *<<scls-6-3-2-1-3>>*
+| If software seals are used to prevent components from being exchanged and
+pairing parameters are part of the seal, then these pairing parameters are secured
+and protected in such a way that evidence of an intervention is available.
+|
+|
+|
+
+| *<<scls-6-3-2-1-4>>*
+| PGs may decide that legally relevant components shall check the authenticity,
+integrity and/or availability of another software-controlled component. In case
+the authenticity and/or integrity check fails, or the other component is not
+available, the checking component appropriately acts upon this.
+|
+|
+|
+
+| *<<scls-6-3-2-1-5>>*
+| If a component is shared by multiple components, then all the components that
+share another component are unambiguously identified.
+|
+|
+|
+
+| *<<scls-6-3-2-1-6>>*
+| In case the completeness of the measuring instrument cannot be visually checked,
+non-legally relevant software modules are prevented from calculation/presenting/spoofing
+the measurement result.
+|
+|
+|
+
+.3+| *<<scls-6-3-2-1-7>>*
+| In case legally relevant components with limited functionality and limited
+securing/protection capabilities are applied (e.g. if a legally relevant operating
+system on a component cannot be configured according to 6.3.6), they have limited
+access to the measurement data, i.e. they use the measurement data without modification
+or further processing.
+|
+|
+|
+
+| The measurement data are prepared for transmission or storage for further
+processing by a component that can be fully secured and protected.
+|
+|
+|
+
+| The measurement data are received or retrieved for further processing by a
+component that can be fully secured and protected.
+|
+|
+|
+
+5+| *Separation of modules*
+
+| *<<scls-6-3-2-2-1>>*
+| If the separation of the software is not possible or needed, the software
+is legally relevant as a whole.
+|
+|
+|
+
+.5+| *<<scls-6-3-2-2-2>>*
+| All legally relevant software modules communicate with other modules through
+a protective interface.
+|
+|
+|
+
+| It has been demonstrated that the functions and data of modules that are legally
+relevant cannot be inadmissibly influenced by commands received via the protective
+interface.
+|
+|
+|
+
+| The legally relevant software modules and the protective interface are clearly
+documented.
+|
+|
+|
+
+| All legally relevant functions and data domains of the software are described
+to enable a type evaluation authority to decide on correct software separation.
+|
+|
+|
+
+| Measurement data are not made available to legally non-relevant modules prior
+to primary indication.
+|
+|
+|
+
+.3+| *<<scls-6-3-2-2-3>>*
+| There is an unambiguous assignment of each command to all initiated functions
+or data changes in the legally relevant software.
+|
+|
+|
+
+| Functions that are triggered through the protective interface are declared
+and documented.
+|
+|
+|
+
+| Only documented functions can be activated through the protective interface.
+|
+|
+|
+
+.3+| *<<scls-6-3-2-2-4>>*
+| Where the legally relevant software has been separated from the non-relevant
+software, the legally relevant software has priority using the resources over
+non-relevant software.
+|
+|
+|
+
+| The legally relevant process cannot be inadmissibly interrupted by legally
+non-relevant software.
+|
+|
+|
+
+| The measurement process (realised by the legally relevant software) cannot
+be delayed or blocked by other processes.
+|
+|
+|
+
+| *<<scls-6-3-2-2-5>>*
+| When dynamic modules of legally relevant software have facilities for continuous
+learning that allow dynamic parameter changes during use, the manufacturer has
+clarified the facilities and its priorities to the whole legally relevant software,
+especially in reference to the measuring functions.
+|
+|
+|
+
+5+| *Shared indications*
+
+| *<<scls-6-3-3>>*
+| If a display or printout is used both for legally relevant and legally non-relevant
+outputs, the legally relevant information are always readable, and clearly distinguishable
+from other information.
+|
+|
+|
+
+5+| *Storage of data*
+
+.3+| *<<scls-6-3-4-2>>*
+| The stored measurement data include all relevant data necessary for future
+legally relevant use.
+|
+|
+|
+
+| Where measurement data are produced as a result of algorithms of dynamic modules
+of legally relevant software, the measurement data are marked or indicated as such.
+|
+|
+|
+
+| Such markings or indications and associated data form part of the legally
+relevant measurement data.
+|
+|
+|
+
+.4+| *<<scls-6-3-4-3>>*
+| The stored measurement data are protected by appropriate means to guarantee
+authenticity and integrity.
+|
+|
+|
+
+| The software that displays or further processes the measurement data checks
+the authenticity and integrity of the data after having read them from the storage.
+|
+|
+|
+
+| If an irregularity is detected the instrument gives an appropriate response.
+|
+|
+|
+
+| The storage component has sufficient permanency to ensure that the stored
+measurement data are not corrupted under normal storage conditions.
+|
+|
+|
+
+.4+| *<<scls-6-3-4-4-1>>*
+| If automatic storage is required, a checking facility regularly checks the
+availability of the storage and in the case the storage device is not available
+no measurement is possible.
+|
+|
+|
+
+| There is sufficient memory storage for the intended application.
+|
+|
+|
+
+| If data storage is required, manual or automatic, no measurement is possible
+if the storage device is not available.
+|
+|
+|
+
+| When the data necessary for the calculation of the measurement result are
+relevant for legal purposes, all measurement result relevant data included in
+the calculation are automatically stored with the final value.
+|
+|
+|
+
+| *<<scls-6-3-4-4-2>>*
+| Measurement data stored in a component to construct the measurement result
+can be deleted if the next module or component has checked and stated a proper
+completion of all expected actions engaged.
+|
+|
+|
+
+5+| *Data transmission*
+
+.2+| *<<scls-6-3-5-2>>*
+| The transmitted measurement data include all data necessary for future legally
+relevant use.
+|
+|
+|
+
+| Where measurement data are produced as a result of algorithms of dynamic modules
+of legally relevant software, the measurement data are marked or indicated as
+such. Such markings or indications and associated data form part of the legally
+relevant measurement data.
+|
+|
+|
+
+.2+| *<<scls-6-3-5-3>>*
+| The transmitted data are protected by software means to guarantee authenticity
+and integrity.
+|
+|
+|
+
+| The software that displays or further processes the measurement data checks
+authenticity and integrity of the data received from a transmission channel.
+If an irregularity is detected an appropriate reaction is given.
+|
+|
+|
+
+.2+| *<<scls-6-3-5-4>>*
+| The measurement cannot be inadmissibly influenced by a transmission delay
+or interruption.
+|
+|
+|
+
+| If network services become unavailable or very slow, no measurement data are lost.
+|
+|
+|
+
+5+| *Compatibility of operating systems and hardware*
+
+| *<<scls-6-3-6-2>>*
+| Hardware interfaces not equipped with a protective interface are not able
+to inadmissibly influence the legally relevant software, parameters or measurement
+data.
+|
+|
+|
+
+5+| *Boot process*
+
+| *<<scls-6-3-6-3-2>>*
+| The boot process ensures integrity and authenticity of the legally relevant
+software.
+|
+|
+|
+
+| *<<scls-6-3-6-3-3>>*
+| If the processing of the chain of trust is interrupted, its integrity is preserved.
+|
+|
+|
+
+| *<<scls-6-3-6-3-4>>*
+| The boot configuration is secured and protected.
+|
+|
+|
+
+| *<<scls-6-3-6-3-5>>*
+| Booting via open interfaces is prohibited.
+|
+|
+|
+
+5+| *System resources*
+
+| *<<scls-6-3-6-4>>*
+| The combination of the legally relevant software and the operating system
+ensures that there are enough resources for the operation of the legally relevant
+application.
+|
+|
+|
+
+5+| *Protection during use*
+
+| *<<scls-6-3-6-5-1>>*
+| The operation of software that is not legally relevant cannot inadmissibly
+influence the legally relevant application.
+|
+|
+|
+
+| *<<scls-6-3-6-5-2>>*
+| The combination of the legally relevant software and the operating system
+ensures that the legally relevant indication is distinguishable from other information.
+|
+|
+|
+
+| *<<scls-6-3-6-5-3>>*
+| The access control feature of the operating system is configured in such way
+that the intended use cannot be inadmissibly influenced.
+|
+|
+|
+
+| *<<scls-6-3-6-5-4>>*
+| The administration tasks of the legally relevant software are protected.
+|
+|
+|
+
+5+| *Communication with the legally relevant software*
+
+.2+| *<<scls-6-3-6-6>>*
+| Communication with the legally relevant software is made via protective interfaces.
+|
+|
+|
+
+| It has been demonstrated that the legally relevant software, parameters, and
+data of components that are legally relevant cannot be inadmissibly influenced
+by commands received via the protective interface.
+|
+|
+|
+
+5+| *Identification and traceability*
+
+.2+| *<<scls-6-3-6-7-1>>*
+| The configuration of the operating system is identifiable.
+|
+|
+|
+
+| The identifier is displayed on command or during operation and, if applicable,
+transmitted to the verification software by the measuring instrument.
+|
+|
+|
+
+| *<<scls-6-3-6-7-2>>*
+| Legally relevant configuration settings of the operating system are protected,
+i.e. changes to the legally relevant configuration are traceable.
+|
+|
+|
+
+5+| *Suitable Environment*
+
+.2+| *<<scls-6-3-6-8>>*
+| The manufacturer has identified the hardware and software environment that
+is suitable.
+|
+|
+|
+
+| Minimum resources and a suitable software configuration management (e.g. processor,
+memory, specific communication, version of operating system, configuration management
+of dynamic modules of legally relevant software, etc.) necessary to guarantee
+correct functioning of the legally relevant software have been declared by the
+manufacturer.
+|
+|
+|
+
+5+| *Constraints for operation*
+
+| *<<scls-6-3-6-9>>*
+| Technical means have been provided in the legally relevant software to prevent
+operation, if the minimum resources or a suitable configuration are not met.
+|
+|
+|
+
+5+| *Verified update*
+
+| *<<scls-6-3-8-3>>*
+| A protection measure (i.e. physical or electronic seal that must be broken
+for the update to take effect) provides evidence of an intervention.
+|
+|
+|
+
+5+| *Traced update*
+
+.2+| *<<scls-6-3-8-4-1>>*
+| The traced update does not affect existing parameters.
+|
+|
+|
+
+| The software update is recorded in an audit trail.
+|
+|
+|
+
+.4+| *<<scls-6-3-8-4-2>>*
+| Depending on the needs and on national legislation it may be necessary for
+the user or owner of the measuring instrument to give their consent to a traced
+update. If so, the measuring instrument has a feature for the user or owner
+to express their consent prior to an update.
+|
+|
+|
+
+| It shall be possible to enable and disable the feature, e.g. by a switch that
+can be sealed or by a secured and protected parameter.
+|
+|
+|
+
+| If the user or owner denies consent, the update procedure does not start at all.
+|
+|
+|
+
+| If the feature is disabled, no activity by the user or owner is necessary
+to perform a traced update.
+|
+|
+|
+
+.2+| *<<scls-6-3-8-4-3>>*
+| After initiation of the update procedure, a traced update of software runs
+automatically.
+|
+|
+|
+
+| If some of the securing or protection measures of the instrument are turned
+off to enable updating, they are turned on again immediately after update, independent
+of the result of the update process.
+|
+|
+|
+
+| *<<scls-6-3-8-4-4>>*
+| During a Traced update, any existing protection measures, e.g. audit trail
+information and event counter values, are retained.
+|
+|
+|
+
+| *<<scls-6-3-8-4-5>>*
+| Technical means are employed to guarantee the authenticity of the loaded software,
+i.e. that it originates from the owner of the certificate.
+|
+|
+|
+
+| *<<scls-6-3-8-4-6>>*
+| Technical means are employed to ensure the integrity of the loaded software,
+i.e. that it has not been inadmissibly changed before loading.
+|
+|
+|
+
+.2+| *<<scls-6-3-8-4-7>>*
+| If the loaded software fails the integrity test or the authenticity test,
+the instrument discards the new version and uses the previous version of the
+software or switches to an inoperable mode.
+|
+|
+|
+
+| In this mode, the measuring functions are inhibited. It is only possible to
+resume the download procedure, or to show an error.
+|
+|
+|
+
+.3+| *<<scls-6-3-8-4-8>>*
+| An audit trail is employed to ensure that traced updates of the legally relevant
+software are adequately traceable within the instrument for subsequent verification
+and surveillance or inspection.
+|
+|
+|
+
+| An entry is generated for each update attempt regardless of the success.
+|
+|
+|
+
+| The storage device that supports the traced update has a sufficient capacity
+to ensure the traceability of traced updates of the legally relevant software
+between at least two successive verifications of a measuring instrument in the
+field/inspections.
+|
+|
+|
+
+| *<<scls-6-3-8-4-9>>*
+| If the audit trail has no more capacity, the instrument gives an appropriate
+response, i.e. either the oldest entry is deleted or the update procedure does
+not start at all.
+|
+|
+|
+
+| *<<scls-6-3-8-4-10>>*
+| When the software is updated, the audit trail cannot be erased or overwritten.
+|
+|
+|
+
+5+| *Remote verification capability*
+
+| *<<scls-6-3-9-1-2>>*
+| It is always possible to establish and ensure the integrity of the instrument
+to be verified.
+|
+|
+|
+
+| *<<scls-6-3-9-1-3>>*
+| It is possible to establish the authenticity of the instrument, i.e. the instrument
+is uniquely identified and other means have been provided to ensure authenticity.
+|
+|
+|
+
+| *<<scls-6-3-9-1-4>>*
+| The instrument stores logging data, audit trails, and makes these available
+for remote verification purposes.
+|
+|
+|
+
+| *<<scls-6-3-9-1-5>>*
+a| For the purpose of remote verification, the instrument uses
+
+* timestamps,
+* provides evidence of an intervention,
+* uses audit trails and
+* has a facility for detection of significant defects.
+|
+|
+|
+
+| *<<scls-6-3-9-1-6>>*
+| An ongoing measurement cannot be influenced by remote verification.
+|
+|
+|
+
+| *<<scls-6-3-9-1-7>>*
+| The use of the verification procedure does not influence the compliance with
+other requirements.
+|
+|
+|
+
+| *<<scls-6-3-9-1-8>>*
+| The software integrity of the instrument cannot be influenced by the remote
+verification procedure.
+|
+|
+|
+
+| *<<scls-6-3-9-1-9>>*
+| There is a legally relevant interface for data extraction for remote verification
+purposes.
+|
+|
+|
+
+| *<<scls-6-3-9-1-10>>*
+| Interfaces for remote verification are protected.
+|
+|
+|
+
+| *<<scls-6-3-9-1-11>>*
+| Access rights to the instrument for remote verification are described in the
+documentation and made available to the relevant authorities depending on national
+legislation.
+|
+|
+|
+
+.4+| *<<scls-6-3-9-1-12>>*
+| Provisions have been made to securely store the result of the remote verification
+in the measuring instrument.
+|
+|
+|
+
+| These data are protected and secured.
+|
+|
+|
+
+| The result of the remote verification contains, at least, a unique ID (at
+least identifying the verification authority) and the date of the verification.
+|
+|
+|
+
+| Stored results of the verification in the instrument comply with <<scls-6-3-4>>.
+|
+|
+|
+
+5+| *Direct extraction of test items*
+
+| *<<scls-6-3-9-3-1>>*
+| When checking software integrity, the integrity measure (checksum, hash) is
+calculated immediately before transmitting the integrity measure to the remote
+verification software.
+|
+|
+|
+
+.2+| *<<scls-6-3-9-3-2>>*
+| Test items are uniquely identified.
+|
+|
+|
+
+| The obtained test items are unambiguously linked to the measuring instrument
+to be verified.
+|
+|
+|
+
+| *<<scls-6-3-9-3-3>>*
+| Relevant test items identified by the PG are available depending on the specific
+requirement to be tested and the instrument type.
+|
+|
+|
+
+5+| *Connection requirements*
+
+| *<<scls-6-3-9-4-1>>*
+| The connection to the remote verification software complies with <<scls-6-3-5>>.
+|
+|
+|
+|===

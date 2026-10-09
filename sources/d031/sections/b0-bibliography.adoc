@@ -1,0 +1,123 @@
+// OIML D 31:2023, páginas 67 a 69 del PDF: Annex A, Bibliography (Informative).
+// Se escribe como bibliografía de Metanorma (A28: b0-bibliography.adoc), no como
+// anexo: Metanorma la pone al final y renombra los anexos B, C y D como A, B y C.
+// La columna "Description" de la tabla original va en cada entrada, tras un
+// salto de línea. ISO 8601:2019 no tiene título en el original.
+
+[bibliography]
+== Bibliography
+
+At the time of publication, the editions indicated were valid. All referred
+documents are subject to revision, and the users of this Document are encouraged
+to investigate the possibility of applying the most recent editions of the referred
+documents indicated below. Members of IEC and ISO maintain registers of currently
+valid International Standards.
+
+The actual status of the Standards referred to can also be found on the internet:
+
+IEC Publications: http://www.iec.ch/searchpub/cur_fut.htm +
+ISO Publications: http://www.iso.org +
+OIML Publications: https://www.oiml.org/en/publications/ +
+(with free download of PDF files).
+
+In order to avoid any misunderstanding, it is highly recommended that all references
+to Standards in International Recommendations and International Documents be
+followed by the version referred to (generally the year or date).
+
+* [[[OIML_V_2_200_2012,OIML V 2-200:2012]]] _International Vocabulary of Metrology – Basic and General Concepts and Associated Terms (VIM), 3rd Edition_ +
+Vocabulary, developed by the Joint Committee for Guides in Metrology (JCGM).
+
+* [[[OIML_D_11_2013,OIML D 11:2013]]] _General requirements for measuring instruments – Environmental conditions_ +
+Guidance for establishing appropriate metrological performance testing requirements
+for influence quantities that may affect the measuring instruments covered by
+OIML Recommendations (EMC, climatic, mechanical influences).
+
+* [[[ISO_IEC_9594_8_2020,ISO/IEC 9594-8:2020]]] _Information technology -- Open Systems Interconnection -- Part 8: The Directory Public-key and attribute certificate frameworks_ +
+ISO/IEC 9594-8:2017 specifies frameworks and a number of data objects that can
+be used to authenticate and secure the communication between two entities, e.g.
+between two directory service entities or between a web browser and a web server.
+The data objects can also be used to prove the source and integrity of data
+structures such as digitally signed documents.
+
+* [[[ISO_IEC_2382_9_2015,ISO/IEC 2382-9:2015]]] _Information technology -- Vocabulary -- Part 9: Data communication_ +
+Intended to facilitate international communication in data communication. Presents
+terms and definitions of selected concepts relevant to the field of data communication
+and identifies relationships among the entries.
+
+* [[[ISO_IEC_25040_2011series,ISO/IEC 25040:2011series]]] _Information technology -- Software product evaluation_ +
+The ISO/IEC 25040:2011 series of Standards gives methods for measurement, assessment
+and evaluation of software product quality. They describe neither methods for
+evaluating software production processes nor methods for cost prediction (software
+product quality measurements may, of course, be used for both these purposes).
+
+* [[[OIML_V_1_2022,OIML V 1:2022]]] _International vocabulary of terms in legal metrology (VIML)_ +
+The VIML includes only the concepts used in the field of legal metrology. These
+concepts concern the activities of the legal metrology service, the relevant
+documents, as well as other problems linked with this activity. Also included
+in this Vocabulary are certain concepts of a general character which have been
+drawn from the VIM.
+
+* [[[IEC_61508_5_2010,IEC 61508-5:2010]]] _Functional safety of electrical/ electronic/ programmable electronic safety-related systems – Part 5: Examples of methods for the determination of safety integrity levels_ +
+Provides information on the underlying concepts of risk and the relationship
+of risk to safety integrity (see Annex A); a number of methods that will enable
+the safety integrity levels for the E/E/PE safety-related systems, other technology
+safety-related systems and external risk reduction facilities to be determined
+(see Annexes, B, C, D and E). Intended for use by Technical Committees in the
+preparation of Standards in accordance with the principles contained in IEC
+Guide 104 and ISO/IEC Guide 51.
+
+* [[[WELMEC_Guide_7_2_Issue_2022,WELMEC Guide 7.2, Issue 2022]]] _Software Guide (Measuring Instruments Directive 2014/32/EU)_ +
+This document provides guidance to all those concerned with the application
+of the Measuring Instruments Directive (European Directive 2014/32/EU; MID),
+especially for software-equipped measuring instruments. It addresses both manufacturers
+of measuring instruments and notified bodies which are responsible for conformity
+assessment of MID instruments. By following the Guide, compliance with the software-
+related requirements contained in the MID can be assumed.
+
+* [[[ISO_IEC_27005_2022,ISO/IEC 27005:2022]]] _Information security, cybersecurity and privacy protection – Guidance on managing information security risks_ +
+This document provides guidance on implementation of the information security
+risk requirements specified in ISO/IEC 27001; essential references within the
+standards developed by ISO/IEC JTC 1/SC 27 to support information security risk
+management activities; actions that address risks related to information security
+(see ISO/IEC 27001:2022, 6.1 and Clause 8); implementation of risk management
+guidance in ISO 31000 in the context of information security. +
+This document contains detailed guidance on risk management and supplements
+the guidance in ISO/IEC 27003. +
+This document is intended to be used by: organizations that intend to establish
+and implement an information security management system (ISMS) in accordance
+with ISO/IEC 27001; persons that perform or are involved in information security
+risk management (e.g. ISMS professionals, risk owners and other interested parties);
+organizations that intend to improve their information security risk management
+process.
+
+* [[[IEEE_802_3_2018,IEEE 802.3-2018]]] _IEEE Standard for Ethernet_ +
+Ethernet local area network operation is specified for selected speeds of operation
+from 1 Mb/s to 400 Gb/s using a common media access control (MAC) specification
+and management information base (MIB). The Carrier Sense Multiple Access with
+Collision Detection (CSMA/CD) MAC protocol specifies shared medium (half duplex)
+operation, as well as full duplex operation. Speed specific Media Independent
+Interfaces (MIIs) allow use of selected Physical Layer devices (PHY) for operation
+over coaxial, twisted pair or fibre optic cables, or electrical backplanes.
+System considerations for multi-segment shared access networks describe the
+use of Repeaters that are defined for operational speeds up to 1000 Mb/s. Local
+Area Network (LAN) operation is supported at all speeds. Other specified capabilities
+include: various PHY types for access networks, PHYs suitable for metropolitan
+area network applications, and the provision of power over selected twisted
+pair PHY types.
+
+* [[[OIML_D_34_2019,OIML D 34:2019]]] _Conformity to Type (CTT) – Pre-market conformity assessment of measuring instruments_ +
+This Document provides considerations for countries and economies, or Regional
+Legal Metrology Organisations (RLMOs), that are planning to develop conformity
+to type (CTT) programs in the field of legal metrology. This Document also provides
+illustrative examples of CTT programs currently in operation.
+
+* [[[ISO_8601_2019,ISO 8601:2019]]] +
+The purpose of this document is to provide a standard set of date and time format
+representations for information interchange, in order to minimize the risk of
+misinterpretation, confusion and their consequences. +
+This document specifies a set of date and time format representations utilizing
+numbers, alphabets and symbols defined in ISO/IEC 646. These representations
+are meant to be both human recognizable and machine readable. +
+This document retains the most commonly used expressions for date and time of
+day and their representations from earlier International Standards in the field,
+including earlier editions of ISO 8601 and its predecessors.

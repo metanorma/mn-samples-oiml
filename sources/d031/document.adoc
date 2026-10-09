@@ -1,0 +1,44 @@
+= General requirements for software controlled measuring instruments
+:docnumber: 31
+:copyright-year: 2023
+:language: en
+:title-main-en: General requirements for software controlled measuring instruments
+:title-main-fr: Exigences générales pour les instruments de mesure contrôlés par logiciel
+:technical-committee-number: 5
+:technical-committee: General requirements for measuring instruments
+:subcommittee-number: 2
+:subcommittee: Software
+:doctype: international-standard
+:mn-document-class: oiml
+:mn-output-extensions: xml,html
+:local-cache-only:
+:imagesdir: images
+
+// OIML D 31:2023 (E), documento principal. Las secciones están en sections/
+// (nombres según A28). Se omiten la portada, la contraportada y el índice.
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-scope.adoc[]
+
+include::sections/03-terms-and-defs.adoc[]
+
+include::sections/04-instructions.adoc[]
+
+include::sections/05-risk-assessment.adoc[]
+
+include::sections/06-software-reqs.adoc[]
+
+include::sections/07-type-evaluation.adoc[]
+
+include::sections/08-verification.adoc[]
+
+include::sections/ab-software-test-report.adoc[]
+
+include::sections/ac-measurement-terminology.adoc[]
+
+include::sections/ad-index.adoc[]
+
+include::sections/b0-bibliography.adoc[]

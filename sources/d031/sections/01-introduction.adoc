@@ -1,0 +1,14 @@
+// OIML D 31:2023, página 5 del PDF: cláusula 1, Introduction.
+// Se omite el título del documento repetido al inicio de la página.
+
+[[cls-1]]
+== Introduction
+
+The primary aim of this International Document is to provide OIML Technical
+Committees and Subcommittees with guidance for establishing appropriate requirements
+for software-related functionalities in measuring instruments covered by OIML
+Recommendations.
+
+Furthermore, this International Document can provide guidance to OIML Member
+States and Corresponding Members in the implementation of OIML Recommendations
+in their national laws.

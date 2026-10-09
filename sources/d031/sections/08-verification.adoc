@@ -1,0 +1,339 @@
+// OIML D 31:2023, páginas 61 a 66 del PDF: cláusula 8, Verification of a
+// measuring instrument. Los números entre corchetes de 8.3.1 ([1] a [8]) son
+// rótulos de la figura 2, no citas bibliográficas: se dejan literales.
+
+[[cls-8]]
+== Verification of a measuring instrument
+
+[[scls-8-1]]
+=== General
+
+If metrological control of measuring instruments is prescribed in a country,
+there shall be means to check in use during operation the identity of the software,
+the validity of parameter adjustments and the conformity to the approved type.
+
+The relevant Recommendation may require carrying out the verification of the
+software in one or more stages according to the nature of the considered measuring
+instrument.
+
+The verification of the software shall include
+
+* an examination of the conformity of the software to verify that it is the
+approved software version (e.g. check of the software identification, check
+of securing means and protection means),
+* an examination of the configuration to verify that it is compatible with the
+declared minimal configuration, if given in the certificate,
+* an examination of the inputs/outputs of the measuring instrument to verify
+that they are free of inadmissible influence, and
+* an examination of the device-specific parameters (especially the adjustment
+parameters) to verify that they are correctly set and a check of the securing
+and protection means to check the integrity of the parameters.
+
+PGs shall consider the following subclause when writing instrument-specific
+verification procedures. The methods given in <<scls-8-2>> are proposed as the
+standard procedure.
+
+NOTE: National authorities may seek to develop a set of distinct (proprietary)
+data set types for use in testing and validation once devices are deployed in
+the field. This could be particularly applicable to dynamic modules of legally
+relevant software. This does not affect the requirement that instrument software
+shall be verifiable.
+
+[[scls-8-2]]
+=== Verification methods, test items
+
+The following methods comprise the verification steps which are needed to check
+the requirements of <<scls-6-1>> and <<scls-6-3>>. The aspects in <<scls-8-2-1>>
+to <<scls-8-2-4>> shall be examined by the instructions listed in the corresponding
+subclause below.
+
+[[scls-8-2-1]]
+==== Documents
+
+The initial step of any software verification shall consist of checking the
+EUT for compliance with the certificate and its annexes:
+
+* check whether the certificate is valid;
+* check whether the EUT complies with the pattern as described in the certificate
+and its annexes;
+* check whether the operating manual is available (if required).
+
+[[scls-8-2-2]]
+==== Integrity of the software
+
+Software integrity may be checked in one of two ways:
+
+* indirectly: Check whether all seals required in the certificate are set at
+the right place and are intact;
+* directly: Check the software identifiers as required in the certificate.
+
+NOTE: The second item overlaps with the first item of <<scls-8-2-4>>.
+
+[example]
+====
+Calculation of a checksum of the program code that is compared with the nominal
+value.
+====
+
+==== Parameters
+
+[[scls-8-2-3-1]]
+===== Correctness
+
+The correctness of parameters may be checked as follows:
+
+* indirect metrological verification of parameters: Perform a measurement and
+compare the results with a reference;
+* check whether all settable parameters are within the allowed range.
+
+[[scls-8-2-3-2]]
+===== Integrity
+
+The integrity of parameters may be checked as follows:
+
+* check whether the seals protecting the parameters are intact;
+* check the audit trail for entries concerning parameters.
+
+[[scls-8-2-4]]
+==== Identity of the software
+
+The identity of the software may be checked as follows:
+
+* check that the software identifier provided by the EUT is specified as valid
+for use in the certificate;
+* check the entries of the audit trail for traced updates (see <<scls-6-3-8-4-7>>).
+
+NOTE: The first item overlaps with the second item of <<scls-8-2-2>>.
+
+[[scls-8-3]]
+=== Remote Verification
+
+[[scls-8-3-1]]
+==== Introduction and limitations
+
+Remote verification encompasses a set of procedures to support verification
+of an instrument in the field, potentially without a person on site. During
+remote verification (see <<figure-2>> ), a remote unit [5] issues commands through
+a secure connection [2] to the device to be verified [1] by means of its verification
+interface [3]. The device will trigger one or more verification algorithms [4]
+internally and send their output back to the remote unit where they are checked,
+displayed [7] and logged [6].
+
+[[figure-2]]
+.Remote verification procedure
+image::figure-2.png[]
+
+Remote verification procedures may be performed in one of two ways (depending
+on national legislation):
+
+. Completely: Check compliance of the measuring instrument with all the requirements
+remotely;
+. Partially: Check compliance of the measuring instrument covering only those
+requirements that can be evaluated remotely, in addition to checking compliance
+for the other requirements in situ.
+
+NOTE: National legislation may allow or disallow remote verification depending
+on the instrument.
+
+[example]
+====
+If it is possible to check compliance of the measuring instrument with all the
+requirements remotely (i.e. the measuring instrument is correctly installed;
+operating within MPEs; the integrity of that measuring instrument is intact,
+including the integrity of hardware seals; the readability requirements of the
+display are met: the display is not damaged); then no verification (or inspection)
+of the instrument needs to be carried out in situ (depending on national legislation).
+====
+
+[example]
+====
+If it is impossible to evaluate compliance with all the requirements remotely
+(i.e. only the evaluation of requirements such as the integrity of that measuring
+instrument can be performed remotely); then a partial verification (or inspection)
+of the instrument shall still be carried out in situ (depending on national
+legislation).
+====
+
+[[scls-8-3-2]]
+==== General
+
+Remote verification should cover the communication between legally relevant
+software modules, see <<scls-6-3-5>>. The communication connection between legally
+relevant software of the measuring instrument and software for verification
+purposes on the remote unit (see <<figure-2>>) shall be available.
+
+NOTE: <<scls-6-3-9-4-1>> requires that this connection shall comply with <<scls-6-3-5>>,
+transmission via communication lines.
+
+The integrity and authenticity of the measuring instrument shall always be checked,
+see <<scls-6-3-9-1-2>> and <<scls-6-3-9-1-3>>.
+
+PGs shall define a list of relevant data for verification purposes depending
+on the instrument type (e.g. approved type number, serial number, legally relevant
+settings and parameters, verification information and status, software version
+identification, software integrity, audit logs/trails, change logs, event logs etc.).
+
+NOTE: The certificate shall state that remote verification is foreseen for this
+instrument and list test items with their unique identification used for the
+remote verification procedure, see <<scls-7-2-2>>.
+
+NOTE: The device to be remotely verified needs to be available and ready.
+
+NOTE: The device needs to be able to execute the verification procedures.
+
+NOTE: D 31 only imposes requirements on the measuring instrument's software.
+Verification software running on the remote unit is covered by national legislation.
+
+The following clause, <<scls-8-3-3>>, describes examples of specific remote
+verification procedures and lists the test items necessary for those remote
+verification procedures.
+
+PGs shall select the appropriate remote verification procedures depending on
+the type of instrument. Instrument-specific verification procedures (see <<scls-8-3-3-3>>)
+shall be detailed in the relevant Recommendation.
+
+[[scls-8-3-3]]
+==== Examples of specific remote verification procedures
+
+[[scls-8-3-3-1]]
+===== Extraction of data from audit trails or other logging mechanisms
+
+The purpose of this remote verification procedure is to check a measuring instrument's
+operational history by retrieving the logging mechanisms.
+
+Applicable test items for this remote verification procedure are audit trails,
+event counters, event loggers, etc.
+
+The value of these test items is compared with a reference value.
+
+A reference for all legally relevant software (measuring instrument software)
+shall be made available to the relevant authorities, including approved type,
+serial number, legally relevant settings and parameters, verification information
+and status, software version identification, software integrity, audit logs/trails,
+change logs, event logs, etc. depending on national legislation.
+
+NOTE: Requirements on the external storage for legally relevant remote verification
+data for inspection authorities will depend on national legislation.
+
+[[scls-8-3-3-2]]
+===== Direct extraction of test items
+
+[[scls-8-3-3-2-1]]
+====== General
+
+During remote verification, specific data objects are remotely retrieved from
+the measuring instrument. These data objects (such as a specific parameter or
+a software version number) are then compared with a known reference. Relevant
+test items identified by the PGs shall be available, see <<scls-6-3-9-3-3>>.
+
+Applicable test items for this remote verification procedure are software integrity,
+correctness of parameters, identity of software
+
+NOTE: A reference for all test item values (allowed range, specific value) needs
+to be available. This could either be a certificate or a protocol from a previous/initial
+verification.
+
+NOTE: The manufacturer shall provide information about external SW for performing
+tests, see also <<scls-8-3-3>>.
+
+[[scls-8-3-3-2-2]]
+====== {blank}
+
+Whenever this use case is applied, the audit trail of the legally relevant software
+shall be checked first to ensure that the correct software communicates with
+the external world, see <<scls-8-3-3>>.
+
+[[scls-8-3-3-2-3]]
+====== Software integrity
+
+The purpose of this remote verification procedure is to check the software integrity
+of the measuring instrument.
+
+The applicable test item for this remote verification procedure is the integrity
+measure (checksum, hash).
+
+The value of the test item is compared with a reference value.
+
+[[scls-8-3-3-2-4]]
+====== Check of parameters
+
+The purpose of this remote verification procedure is to check whether the parameters
+have not been changed (there is no evidence of an intervention) and if applicable,
+have the correct value.
+
+The applicable test item for this remote verification procedure is the value
+of the parameter and the integrity measure of the parameters, i.e. audit trail,
+event logger or event counter.
+
+The value of the test item is compared with a reference value.
+
+[[scls-8-3-3-2-5]]
+====== Software identification
+
+The purpose of this remote verification procedure is to check the software identification.
+
+The applicable test item for this remote verification procedure is the value
+of the software identification.
+
+The value of the test item is compared with a reference value.
+
+[[scls-8-3-3-3]]
+===== Instrument-specific remote verification procedures
+
+[[scls-8-3-3-3-1]]
+====== General
+
+The following subclauses, <<scls-8-3-3-3-2>> to <<scls-8-3-3-3-5>>, each give
+an example of a specific realization of this remote verification procedure for
+specific types of measuring instruments. These procedures shall be secured.
+
+NOTE: The manufacturer shall describe the test procedure, the result of which
+shall be made available to the relevant authorities depending on national legislation,
+see <<scls-6-3-9>> and <<scls-7-1-2>>.
+
+NOTE: The manufacturer shall describe the simulation procedure, the result of
+which shall be made available to the relevant authorities depending on national
+legislation, see <<scls-6-3-9>> and <<scls-7-1-2>>.
+
+[[scls-8-3-3-3-2]]
+====== Weighing instrument
+
+Initiate an internal weighing procedure using a built-in weight in weighing
+instruments to determine the accuracy of the weighing algorithms in the weighing
+instrument.
+
+The applicable test item for this remote verification procedure is the accuracy
+of weighing algorithms.
+
+[[scls-8-3-3-3-3]]
+====== Flow meter
+
+Initiate procedure using a built-in diagnostics facility to establish whether
+the current performance of a flow meter has degraded since the last calibration
+and whether a recalibration is needed.
+
+Applicable test items for this remote verification procedure are the state of
+the instrument regarding durability, changes in fouling or aging.
+
+[[scls-8-3-3-3-4]]
+====== Digital data processing unit
+
+Simulating a digital sensor and sending intermediate measuring results to the
+Digital Data Processing Unit and retrieving the measurement result to evaluate
+the accuracy of the measurement algorithms in the Digital Data Processing Unit.
+
+The applicable test item for this remote verification procedure is the accuracy
+of the measurement algorithm in the Digital Data Processing Unit.
+
+[[scls-8-3-3-3-5]]
+====== Point-to-point speed meter
+
+Simulating a starting signal to sensor at the beginning of a corridor of known
+length and sending starting time to the point-to-point speed meter processing
+unit. At the end of the corridor a stop signal is sent to the sensor also sending
+a stop time to the processing unit. The measurement result is retrieved from
+the processing unit to evaluate the accuracy of the measurement algorithms of
+the point-to-point speed meter.
+
+The applicable test item for this remote verification procedure is the accuracy
+of the measurement algorithm in the speed meter.

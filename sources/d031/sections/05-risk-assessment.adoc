@@ -1,0 +1,54 @@
+// OIML D 31:2023, página 19 del PDF: cláusula 5, Risk assessment. Subcláusulas
+// 5.1 y 5.2 sin título ({blank}).
+
+[[cls-5]]
+== Risk assessment
+
+[[scls-5-1]]
+=== {blank}
+
+This clause is intended as a guide to determine a set of risk levels to be generally
+applied for tests carried out on software-controlled measuring instruments.
+It is not intended as a classification with strict limits leading to special
+requirements, as in the case of an accuracy classification.
+
+Moreover, this Document does not restrict Project Groups from providing risk
+assessments that differ from those resulting from the guidelines set forth in
+this Document. Different risk levels may be used in accordance with special
+limits prescribed in the relevant Recommendations.
+
+[[scls-5-2]]
+=== {blank}
+
+When selecting risk levels for a particular category of instruments and area
+of application (trade, direct selling to the public, health, law enforcement,
+etc.), the following aspects can be taken into account:
+
+. risk of fraud:
+* the consequence and the social and societal impact of malfunction;
+* the value of the goods to be measured;
+* platform used (built-for-purpose or universal devices);
+* exposure to sources of potential fraud (unattended self-service device).
+. required conformity:
+* the practical possibilities for the industry to comply with the prescribed level.
+. required reliability:
+* environmental conditions;
+* the consequence and the social and societal impact of errors.
+. motivation of the defrauder.
+. possibility to repeat a measurement or to interrupt it.
+. possibility to check the measurement at a later point.
+
+PGs should consider risk assessment standards when deciding risk levels, e.g.
+<<ISO_IEC_27005_2022>>.
+
+Throughout the requirements clauses (see <<cls-6>>), various examples of acceptable
+technical solutions are given illustrating the basic level of protection against
+fraud, conformity, reliability, and type of measurement (marked with (I)). Where
+suitable, examples with enhanced counter measures are also presented that consider
+a raised risk level of the aspects described above (marked with (II)).
+
+The examination level and risk level are linked. A deep analysis of the software
+shall be performed when a raised risk level is required in order to detect software
+deficiencies or security vulnerabilities. On the other hand, mechanical sealing
+(e.g. sealing of the communication port or the housing) should be considered
+when choosing the examination level.

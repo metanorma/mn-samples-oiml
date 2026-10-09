@@ -1,0 +1,835 @@
+// OIML D 31:2023, páginas 6 a 18 del PDF: cláusula 3, Terms and definitions.
+// 3.1 "General" no es un término: lleva [.nonterm]. Las fuentes de los términos
+// van al final de la entrada con [.source]; las fuentes que no están en la
+// bibliografía se dejan como párrafo literal.
+
+== Terms and definitions
+
+[[scls-3-1]]
+[.nonterm]
+=== General
+
+Some of the definitions used in this Document are in conformity with the _International
+Vocabulary of Metrology - Basic and General Concepts and Associated Terms 3rd
+Edition_ (<<OIML_V_2_200_2012>>), with the _International Vocabulary of Terms
+in Legal Metrology_ (<<OIML_V_1_2022>>), with the OIML International Document
+_General requirements for measuring instruments – Environmental conditions_
+(<<OIML_D_11_2013>>) and several ISO/IEC International Standards. For the purpose
+of this Document, the following definitions and abbreviations apply.
+
+NOTE: Unless stated otherwise, the term certificate refers to the OIML certificate.
+
+=== General terminology
+
+[[scls-3-2-1]]
+==== audit trail
+
+continuous data containing a time stamped information record of events, e.g.
+changes in the values of the parameters of a measuring instrument or software
+updates, or other activities that are legally relevant and which are critical
+for the metrological characteristics
+
+NOTE: Regarding examples for events logged in an audit trail, see <<scls-3-2-20>>.
+
+[.source]
+<<OIML_V_1_2022,clause=6.05>>,
+
+[[scls-3-2-2]]
+==== authentication
+
+checking of the declared or alleged identity of a user, process, or measuring
+instrument
+
+NOTE: This may be necessary when checking that downloaded software originates
+from the owner of the certificate.
+
+[[scls-3-2-3]]
+==== authenticity
+
+result of the process of authentication (passed or failed)
+
+[[scls-3-2-4]]
+==== built-for-purpose device
+
+device constructed for the specific purpose of a metrological task
+
+NOTE: Built-for-purpose devices include devices that may not incorporate an
+operating system.
+
+NOTE: If an operating system is present, it is not directly accessible.
+
+[[scls-3-2-5]]
+==== checking facility
+
+facility that is incorporated in a measuring instrument and which enables a
+significant defect to be detected and acted upon
+
+NOTE: "Acted upon" refers to any adequate response by the measuring instrument
+(luminous signal, acoustic signal, prevention of the measurement process, etc.).
+
+[.source]
+<<OIML_V_1_2022,clause=5.07>>,
+
+==== cloud
+
+servers that are accessed over the internet or another network, and the software
+and databases that run on those servers
+
+NOTE: Cloud servers may not be physically accessible to all parties and may
+be located in a different country. Their physical location may not be known
+and not fixed.
+
+[[scls-3-2-7]]
+==== communication interface
+
+part of an instrument that enables information to be passed between measuring
+instruments, components of measuring instruments or other external systems
+
+NOTE: Communication interfaces can utilize wired, optical, radio, etc. communication
+and they are usually designed to use a specific protocol.
+
+NOTE: This definition does not include communication between software modules.
+
+[[scls-3-2-8]]
+==== component
+
+identifiable hardware part of an instrument that performs a specific function
+or functions, and that can be separately evaluated according to specific metrological
+and technical performance requirements as specified in the relevant Recommendation
+
+[[scls-3-2-9]]
+==== cryptographic certificate
+
+dataset containing the public key belonging to a measuring instrument or a person
+plus a unique identification of the subject, e.g. serial number of the measuring
+instrument or name or Personal Identification Number (PIN) of the person, plus
+a date of expiry, plus a trusted party signature
+
+NOTE: The trusted party signature binds the public key to the unique identification
+of the subject.
+
+[[scls-3-2-10]]
+==== cryptographic means
+
+means such as encryption and decryption with the purpose of providing confidentiality,
+or hashes and signatures (see <<scls-3-2-14>>) to ensure integrity and authenticity
+
+[[scls-3-2-11]]
+==== data domain
+
+location in memory that each program needs for processing data
+
+NOTE: Data domains may belong to one _software module_ only, or to several.
+
+[[scls-3-2-12]]
+==== device-specific parameter
+
+legally relevant parameter with a value that depends on the individual instrument,
+component and/or module(s) subject to legal control
+
+NOTE: Device-specific parameters comprise adjustment parameters (e.g. span adjustment
+or other adjustments or corrections) and configuration parameters (e.g. maximum
+value, minimum value, units of measurement, etc.).
+
+NOTE: See also <<scls-6-2-3-4>>.
+
+[.source]
+<<OIML_V_1_2022,clause=4.12>>,
+
+[[scls-3-2-13]]
+==== digital data processing unit
+
+part of a measuring instrument which only receives digital input data and generates
+digital output data
+
+[[scls-3-2-14]]
+==== digital signature
+
+software means which is added to software or data with the purpose to verify
+the origin of software or data, i.e., to prove their authenticity, or to check
+that the software or data are unchanged, i.e., to prove their integrity
+
+NOTE: For digital signing, a public key system is used in general, i.e., a pair
+of keys where only one needs to be kept private/secret; the other may be public.
+
+NOTE: The private key is used when software or data are secured. The public
+key is used when software or data are verified before use.
+
+NOTE: The verifying instance may require a cryptographic certificate of the
+securing instance (see <<scls-3-2-9>>) to be sure of the authenticity of the
+public key.
+
+NOTE: A digital signature provides nonrepudiation: the signee cannot deny signing
+the software or data.
+
+[[scls-3-2-15]]
+==== durability
+
+ability of the measuring instrument to maintain its performance characteristics
+over a period of use
+
+[.source]
+<<OIML_V_1_2022,clause=5.15>>
+
+[[scls-3-2-16]]
+==== dynamic module of legally relevant software
+
+software module whose functional behaviour depends on predefined device-specific
+parameters that may change over time during use
+
+NOTE: Such dynamic modules may incorporate or utilise machine learning or artificial
+intelligence characteristics and processes.
+
+[[scls-3-2-17]]
+==== electronic measuring instrument
+
+measuring instrument intended to measure an electrical or non-electrical quantity
+using electronic means and/or equipped with electronic parts
+
+NOTE: For the purpose of this Document, auxiliary equipment, provided that it
+is subject to metrological control, is considered to be part of the measuring
+instrument.
+
+[.source]
+<<OIML_D_11_2013,clause=3.1>>
+
+[[scls-3-2-18]]
+==== error of indication
+
+indication minus a reference quantity value
+
+NOTE: This reference value is sometimes referred to as a (conventional) true
+quantity value. See, however, also OIML V 2-200:2012, 2.12, Note 1).
+
+[.source]
+<<OIML_V_1_2022,clause=0.04>>
+
+[[scls-3-2-19]]
+==== error log
+
+continuous data file containing an information record of failures or significant
+defects that have an influence on the legally relevant characteristics of the
+measuring instrument
+
+[[scls-3-2-20]]
+==== event
+
+action in which a modification of a measuring instrument parameter, adjustment
+factor or update of software module is made
+
+NOTE: For the purpose of this Document, events are considered changes in the
+value of the legally relevant parameters, or a modification or update of the
+legally relevant software, or other activities that are legally relevant and
+which may influence the metrological data and/or characteristics.
+
+[.source]
+<<OIML_V_1_2022,clause=6.06>>
+
+[[scls-3-2-21]]
+==== event counter
+
+non-resettable counter that increments each time an event occurs
+
+[[scls-3-2-22]]
+==== executable code
+
+digital information installed in the measuring instrument or component (EPROM,
+hard disk, etc.)
+
+NOTE: This code is interpreted by the central processing unit (CPU) of the measuring
+instrument and converted into certain logical, arithmetical, decoding or data
+transporting operations.
+
+[[scls-3-2-23]]
+==== fault
+
+difference between the error of indication and the intrinsic error of a measuring
+instrument
+
+NOTE: Principally, a fault is the result of an undesired change of data contained
+in or flowing through an electronic measuring instrument.
+
+NOTE: From the definition it follows that a "fault" is a numerical value which
+is expressed either in a unit of measurement or as a relative value, for instance
+as a percentage.
+
+[.source]
+<<OIML_V_1_2022,clause=5.12>>
+
+[[scls-3-2-24]]
+==== hash function
+
+(mathematical) function which maps data of arbitrary size into data of a fixed
+size called a digest
+
+NOTE: A "good" hash function is such that the results of applying the function
+to a (large) set of values in the domain will be evenly distributed (and apparently
+at random) over the range.
+
+NOTE: A cryptographic hash function has three additional properties: collision-resistance,
+preimage resistance, and second preimage resistance, where preimage resistance
+refers to the inability (computational infeasibility) to reconstruct a preimage
+or message from a message digest.
+
+[.source]
+<<ISO_IEC_9594_8_2020>>,
+
+[[scls-3-2-25]]
+==== integrity (of software, measurement data or parameters)
+
+assurance that the software, measurement data or parameters have not been subjected
+to any unintentional, accidental or inadmissible changes while in use, transfer,
+storage, repair or maintenance
+
+NOTE: Software may include parameters and data, see <<scls-3-2-70>>.
+
+[[scls-3-2-26]]
+==== interface
+
+shared boundary between two functional units, defined by various characteristics
+pertaining to the functions, physical interconnections, signal exchanges, and
+other characteristics of the units, as appropriate
+
+[.source]
+<<ISO_IEC_2382_9_2015>>
+
+[[scls-3-2-27]]
+==== interruptible cumulative measurement
+
+process of cumulative measurement of the quantity value of a measurand that
+can be easily and rapidly stopped during normal operation
+
+NOTE: Examples include: a) discontinuous totalising automatic weighing instrument,
+b) fuel dispenser.
+
+NOTE: See also non-interruptible cumulative measurement (<<scls-3-2-48>>).
+
+==== intrinsic error
+
+error of indication, determined under reference conditions
+
+[.source]
+<<OIML_V_1_2022,clause=0.06>>
+
+[[scls-3-2-29]]
+==== legally relevant
+
+subject to legal control
+
+NOTE: If a measuring instrument is under legal control, then the measurement
+data, software and parameters that are critical for the metrological characteristics,
+including the metrological functions, securing and protection features, and/or
+for the completion of the transaction, are also under legal control.
+
+NOTE: The relevant Recommendations define what is legally relevant and formulate
+requirements to those items (e.g., data, functions, securing and protection
+features and information for the completion of the transaction).
+
+[[scls-3-2-30]]
+==== legally relevant parameter
+
+parameter of a measuring instrument, component and/or module(s) subject to legal
+control
+
+NOTE: The following types of legally relevant parameters can be distinguished:
+type-specific parameters and device-specific parameters.
+
+[[scls-3-2-31]]
+==== legally relevant software
+
+all software modules of a measuring instrument or component that are subject
+to legal control
+
+[[scls-3-2-32]]
+==== maximum permissible error (of a measuring instrument)
+
+extreme value of a measurement error, with respect to a known reference quantity
+value, permitted by specifications or regulations for a given measurement, measuring
+instrument, or measuring system
+
+[.source]
+<<OIML_V_1_2022,clause=0.05>>,
+
+[[scls-3-2-33]]
+==== measuring instrument
+
+device used for making measurements, alone or in conjunction with one or more
+supplementary devices
+
+[.source]
+<<OIML_V_1_2022,clause=0.10>>,
+
+==== measurement
+
+process of experimentally obtaining one or more quantity values that can reasonably
+be attributed to a quantity
+
+NOTE: Measurement does not apply to nominal properties.
+
+NOTE: Measurement implies comparison of quantities or counting of entities.
+
+NOTE: Measurement presupposes a description of the quantity commensurate with
+the intended use of a measurement result, a measurement procedure, and a calibrated
+measuring system operating according to the specified measurement procedure,
+including the measurement conditions.
+
+NOTE: <<annex-c>> illustrates the terms and definitions related to the measurement
+process and their usage in this OIML Document.
+
+[.source]
+<<OIML_V_2_200_2012,clause=2.1>>,
+
+==== measurement data
+
+data used during the measurement process
+
+NOTE: Measurement data include the measured quantity value, measurement result
+relevant data and measurement process data, see <<annex-c>>.
+
+==== measurement error
+
+measured quantity value minus a reference quantity value
+
+[NOTE]
+====
+The concept of 'measurement error' can be used both
+
+. when there is a single reference quantity value to refer to, which occurs
+if a calibration is made by means of a measurement standard with a measured
+quantity value having a negligible measurement uncertainty or if a conventional
+quantity value is given, in which case the measurement error is known, and
+. if a measurand is supposed to be represented by a unique true quantity value
+or a set of true quantity values of negligible range, in which case the measurement
+error is not known.
+====
+
+NOTE: Measurement implies comparison of quantities or counting of entities.
+
+NOTE: See <<annex-c>> for clarification regarding measurement-related terms.
+
+[.source]
+<<OIML_V_2_200_2012,clause=2.16>>,
+
+==== measurement metadata
+
+metadata related to the measurement process
+
+NOTE: Measurement metadata include the measured quantity value metadata, measurement
+result relevant metadata and measurement process metadata, see <<annex-c>>.
+
+==== measurement process data
+
+data used during the measurement process to construct the measurement result
+
+NOTE: Examples of measurement process data include values of measurement parameters,
+values of connection settings or values of session parameters.
+
+NOTE: See <<annex-c>> for clarification regarding measurement-related terms.
+
+==== measurement process information
+
+set of values of qualitative or quantitative variables representing the measurement
+process
+
+NOTE: Measurement process information include measurement process data and measurement
+process metadata, see <<annex-c>>.
+
+==== measurement process metadata
+
+metadata related to the measurement process
+
+NOTE: Examples of measurement process metadata include format of the measurement
+parameters, format of the connection settings or format of the session parameters,
+see <<annex-c>>.
+
+[[scls-3-2-41]]
+==== measurement result
+
+set of quantity values being attributed to a measurand together with any other
+available relevant data
+
+NOTE: The measurement result relevant data may consist of e.g. measurement uncertainty,
+date and time of measurement, number of measurement, identification of sensor
+and in the case where price calculation is part of the legally relevant software,
+unit price and price to pay.
+
+NOTE: The measurement result (including the measured quantity value according
+to V 2:200:2012) is used for the legally relevant purpose, e.g. conclusion of
+a transaction.
+
+NOTE: See <<annex-c>> for clarification regarding measurement-related terms.
+
+[.source]
+<<OIML_V_2_200_2012,clause=2.9>>,
+
+==== measured quantity value metadata
+
+metadata related to the measured quantity value
+
+NOTE: See <<annex-c>> for clarification regarding measurement-related terms.
+
+[[scls-3-2-43]]
+==== measurement result relevant data
+
+data used during the process of constructing the measurement result
+
+NOTE: Examples of measurement result relevant data include digital number or
+analogue value originating from a sensor or measuring instrument ID, in cases
+where it is part of the measurement result, see <<annex-c>>.
+
+[[scls-3-2-44]]
+==== measurement result relevant metadata
+
+metadata related to the construction of the measurement result
+
+NOTE: Examples of measurement result relevant metadata include format of the
+digital number or analogue value originating from a sensor, format of the measured
+quantity value according to V 2:200:2012 or format of the measuring instrument
+ID, in cases where it is part of the measurement result, see <<annex-c>>.
+
+==== measurement result relevant information
+
+set of values of qualitative or quantitative variables relevant to the measurement
+result
+
+NOTE: Measurement result relevant information include measurement result relevant
+data and measurement result relevant metadata, see <<annex-c>>.
+
+==== metadata
+
+data about data or data elements, possibly including their data descriptions,
+and data about data ownership, access paths, access rights and data volatility
+
+// FUENTE SIN ENTRADA EN LA BIBLIOGRAFÍA: se deja literal.
+{empty}[ISO/IEC 2382:2015 Information technology – Vocabulary]
+
+[[scls-3-2-47]]
+==== mobile app
+
+computer program or software application designed to run on a mobile device
+such as a phone, tablet, or watch
+
+// FUENTE SIN ENTRADA EN LA BIBLIOGRAFÍA: se deja literal.
+{empty}[Cambridge Dictionary, fourth edition, 2021]
+
+[[scls-3-2-48]]
+==== non-interruptible cumulative measurement
+
+cumulative measuring process with no definite end that cannot be stopped and
+continued again by a user/operator without falsifying the result of the measurement
+
+NOTE: Examples include: a) continuous totalising automatic weighing instrument,
+b) heat meter.
+
+NOTE: See also interruptible cumulative measurement (<<scls-3-2-27>>).
+
+[[scls-3-2-49]]
+==== OIML certificate
+
+type examination certificate, issued by an OIML Issuing Authority, attesting
+the conformity of a type of a measuring instrument or module with the relevant
+requirements of an OIML Recommendation at the time of testing and evaluation
+
+// FUENTE SIN ENTRADA EN LA BIBLIOGRAFÍA: se deja literal.
+{empty}[OIML B 18:2022, 3.26]
+
+[[scls-3-2-50]]
+==== operating system
+
+software to control program operation and to provide the services for resource
+allocation, task scheduling, I/O control, and data management as well such tasks
+as access control and security
+
+// FUENTE SIN ENTRADA EN LA BIBLIOGRAFÍA: se deja literal.
+adapted from [ISO 16484-2:2004, 3.140]
+
+[[scls-3-2-51]]
+==== protective interface
+
+legally relevant software module that handles all data flow to the legally relevant
+software modules(s) in order to prevent inadmissible influences
+
+[[scls-3-2-52]]
+==== remote verification
+
+set of procedures to support verification of an instrument during use, potentially
+without a person on site
+
+[[scls-3-2-53]]
+==== sealing
+
+means intended to protect the measuring instrument against any modification,
+readjustment, removal of parts or software, etc.
+
+NOTE: This may be achieved by hardware, software or a combination of both.
+
+[.source]
+<<OIML_V_1_2022,clause=2.20>>,
+
+[[scls-3-2-54]]
+==== securing
+
+means preventing unauthorised access to hardware or software
+
+NOTE: This may be achieved by means of passwords.
+
+[.source]
+<<OIML_V_1_2022,clause=2.21>>,
+
+[[scls-3-2-55]]
+==== significant defect
+
+incident that has an undesirable impact on the compliance of the measuring instrument
+or a fault
+
+NOTE: Examples of significant defect include: a) deletion of the audit trail;
+b) inadmissible parameter changes; c) unauthorised updates; d) accidental software
+changes due to physical effects; e) a significant fault due to the effect of
+an influence quantity.
+
+[[scls-3-2-56]]
+==== snapshot
+
+static representation of a dynamic module of legally relevant software at a
+specific point in time that can include 1) algorithm design (e.g. topology and
+weights of a neural network); 2) trail of evolution of dynamic parameters of
+a module; 3) evolved parameters of the dynamic parts of the module
+
+[[scls-3-2-57]]
+==== software configuration management
+
+process to establish and maintain the integrity of the legally relevant software
+of a measuring instrument
+
+NOTE: Configuration management as a discipline covers all aspects of legally
+relevant parts of the measuring instrument, whether software or hardware. However,
+this document only covers the software related requirements. Configuration management
+regarding hardware parts are to be given in the relevant Recommendation.
+
+// FUENTE SIN ENTRADA EN LA BIBLIOGRAFÍA: se deja literal.
+adapted from [ISO/IEC/IEEE 12207:2017, 6.3.5]
+
+[[scls-3-2-58]]
+==== software examination
+
+technical operation that consists of determining one or more characteristics
+of the software according to the specific procedure (e.g. analysis of technical
+documentation or running the program under controlled conditions)
+
+[[scls-3-2-59]]
+==== software identification
+
+sequence of readable characters (e.g., name, version number, checksum) that
+represents the software or software module under consideration
+
+NOTE: Software identification can be checked on an instrument whilst in use,
+see <<scls-6-2-1>>.
+
+[[scls-3-2-60]]
+==== software interface
+
+program code and dedicated data domain; receiving, filtering, or transmitting
+data between _software modules_
+
+NOTE: A software interface is not necessarily legally relevant.
+
+NOTE: A software interface is an interface between two or more software modules,
+used to exchange data and transmit commands.
+
+[.source]
+<<OIML_V_1_2022,clause=6.03>>
+
+[[scls-3-2-61]]
+==== software module
+
+software entity such as a program, subroutine, library, parameter or data set,
+and other objects including their _data domains_ that may be in relationship
+with other entities
+
+NOTE: The software of measuring instruments consists of one or more software modules.
+
+[[scls-3-2-62]]
+==== software protection
+
+protection of measuring instrument or component software or data domain by a
+hardware or software implemented seal with the intention of making an intervention
+impossible or evident
+
+[example]
+====
+A hardware seal on a measuring instrument's housing needs to be removed, damaged
+or broken to obtain access to change software.
+====
+
+[example]
+====
+A software seal in a measuring instrument records events, i.e. either a non-resettable
+counter is incremented each time an event occurs, see <<scls-3-2-21>>, or a
+data file, containing timestamped information, records the event, see <<scls-3-2-1>>.
+====
+
+[example]
+====
+The interface of a measuring instrument is physically sealed, so that accessing
+that interface can only be achieved by breaking, removing or damaging the seal.
+====
+
+NOTE: See <<scls-6-2-3-5>>.
+
+[.source]
+<<OIML_V_1_2022,clause=6.04>>,
+
+[[scls-3-2-63]]
+==== software separation
+
+separation of the software in measuring instruments, which can be divided into
+legally relevant module(s) and legally non-relevant module(s)
+
+NOTE: These module(s) communicate via a software interface.
+
+[.source]
+<<OIML_V_1_2022,clause=6.02>>,
+
+[[scls-3-2-64]]
+==== source code
+
+computer program written in a form (programming language) that is legible and
+editable
+
+NOTE: Source code is compiled or interpreted into executable code.
+
+[[scls-3-2-65]]
+==== storage device
+
+device used for storing measurement data that are necessary to construct the
+measurement result
+
+NOTE: See <<annex-c>> for clarification regarding measurement-related terms.
+
+[.source]
+<<OIML_V_1_2022,clause=6.07>>,
+
+[[scls-3-2-66]]
+==== test item
+
+property or function of a software module that may be subject to a test
+
+NOTE: Test items are typically examined and tested as part of remote verification
+procedures.
+
+NOTE: Examples of potential test items include correctness of algorithms, software
+identity and software integrity.
+
+[[scls-3-2-67]]
+==== timestamp
+
+unique value, e.g. in seconds or a date and time string denoting the date and/or
+time at which a certain incident (e.g. measurement or event) occurred
+
+[[scls-3-2-68]]
+==== transmission of measurement data
+
+electronic transportation of measurement data via communication lines or other
+means to a receiver
+
+[[scls-3-2-69]]
+==== type (pattern) evaluation
+
+conformity assessment procedure on one or more specimens of an identified type
+(pattern) of measuring instruments which results in an evaluation report or
+a certificate
+
+[.source]
+<<OIML_V_1_2022,clause=2.04>>
+
+[[scls-3-2-70]]
+==== type-specific parameter
+
+legally relevant parameter with a value that depends on the type of instrument,
+component and/or module subject to legal control
+
+[example]
+====
+Considering a measuring instrument intended for the dynamic measurement of liquids
+other than water, the range of kinematic viscosities of a turbine is a type-specific
+parameter, determined by the type evaluation of the turbine. All the manufactured
+turbines of the same type use the same range of viscosity.
+====
+
+NOTE: Type-specific parameters are part of the legally relevant software.
+
+[.source]
+<<OIML_V_1_2022,clause=4.11>>,
+
+[[scls-3-2-71]]
+==== universal device
+
+device that is not constructed for a specific purpose, but that can be adapted
+to a legally relevant task by software
+
+[[scls-3-2-72]]
+==== user interface
+
+interface that enables information to be interchanged between the user/operator
+and the measuring instrument or its (hardware) components or (software) modules
+
+NOTE: Typical examples of user interfaces are switches, keyboard, mouse, display,
+monitor, printer, touchscreen, software window on a screen including the software
+to generate it.
+
+[[scls-3-2-73]]
+==== verification
+
+provision of objective evidence that a given item fulfils specified requirements
+
+[.source]
+<<OIML_V_2_200_2012,clause=2.44>>,
+
+[[scls-3-2-74]]
+==== verification of a measuring instrument
+
+conformity assessment procedure (other than type evaluation) which results in
+the affixing of a verification mark and/or issuing of a verification certificate
+
+NOTE: See also OIML V 2-200:2012, 2.44.
+
+[.source]
+<<OIML_V_1_2022,clause=2.09>>
+
+==== verification software
+
+software on a remote unit used for the purpose of verification of a measuring
+instrument
+
+[[scls-3-3]]
+=== Abbreviations
+
+CRC:: Cyclic Redundancy Check
+
+EUT:: Equipment Under Test
+
+IEC:: International Electrotechnical Commission
+
+ISO:: International Organization for Standardization
+
+IT:: Information Technology
+
+MPE:: Maximum Permissible Error
+
+MQV:: Measured Quantity Value
+
+MQVM:: Measured Quantity Value Metadata
+
+MPD:: Measurement Process Data
+
+MPM:: Measurement Process Metadata
+
+MRRI:: Measurement Result Relevant Information
+
+MRRD:: Measurement Result Relevant Data
+
+MRRM:: Measurement Result Relevant Metadata
+
+OIML:: International Organisation of Legal Metrology
+
+PG:: Project Group

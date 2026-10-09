@@ -1,0 +1,55 @@
+// OIML D 31:2023, páginas 18 y 19 del PDF: cláusula 4, Instructions for use of
+// this Document in drafting OIML Recommendations. Subcláusulas 4.1 a 4.7 sin
+// título ({blank}).
+
+[[cls-4]]
+== Instructions for use of this Document in drafting OIML Recommendations
+
+=== {blank}
+
+The provisions of this Document apply only to new OIML Recommendations and to
+OIML Recommendations under revision. OIML Project Groups (Technical Committees,
+Subcommittees) should use this guidance document to establish software-related
+requirements in addition to the other technical and metrological requirements
+of the applicable OIML Recommendation.
+
+=== {blank}
+
+All referred documents are subject to revision, and the users of this Document
+are encouraged to investigate the possibility of applying the most recent editions
+of the referred documents.
+
+[[scls-4-3]]
+=== {blank}
+
+It is the objective of this Document to provide the Project Groups (PGs) responsible
+for drawing up OIML Recommendations with a set of requirements – partly with
+different (risk) levels – that are suitable to cover the demands of all kinds
+of measuring instruments and all areas of application. The PGs shall determine
+which risk level is suitable, and how to incorporate the relevant portions of
+this Document into the OIML Recommendation being drafted. In <<cls-5>>, some
+aid is given for performing this task.
+
+[[scls-4-4]]
+=== {blank}
+
+PGs should define which influences are considered inadmissible for specific
+types of instruments.
+
+[[scls-4-5]]
+=== {blank}
+
+PGs shall decide which measurement data are legally relevant and shall comply
+with the requirements, see <<annex-c>>. PGs shall also decide which metadata
+shall be documented by the manufacturer.
+
+=== {blank}
+
+PGs should decide which parameters are relevant for a specific application.
+
+[[scls-4-7]]
+=== {blank}
+
+PGs shall decide which metrological characteristics (at least legally relevant
+software, parameters and measurement data) shall comply with the requirements
+laid out in the following clauses.
