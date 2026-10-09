@@ -1,0 +1,15 @@
+
+== Test program
+
+The test program shall be prepared to prove that the speed meter or its parts
+fulfil general, performance and durability requirements from OIML R 91-1 for
+type evaluation.
+
+The test program shall first determine which test procedures are necessary and
+which test levels shall apply.
+
+It shall cover:
+
+. Requirements from OIML R 91-1.
+. Influence factors and disturbance tests according to <<OIML_D_11_2013>>, and
+. Software tests according to <<OIML_D_31_2023>>.

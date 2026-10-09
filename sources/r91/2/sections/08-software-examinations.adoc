@@ -1,0 +1,198 @@
+
+== Software examinations
+
+Software examinations are performed according to documentation review and functional
+observation of the EUT.
+
+NOTE: National regulations may require higher levels for the validation and
+examination steps.
+
+=== Software evaluation methods
+
+Evaluation methods for software requirements are defined in <<OIML_D_31_2023,clause=7>>.
+
+=== Software examination level
+
+The speed meter software requirements shall be examined according to the Examination
+level A (<<OIML_D_31_2023>> – normal examination level).
+
+=== Evaluation requirements and method
+
+The requirements specified in the tables in <<scls-8-3-1>> – <<scls-8-3-3>>
+are mandatory.
+
+[[scls-8-3-1]]
+==== General requirements [mandatory]
+
+[%unnumbered,cols="^.^4,<.^54,^.^17,^.^25",options="header"]
+|===
+| # ^| Requirement                             | <<OIML_D_31_2023>> | Evaluation methods
+| 1  | Software identification                 | 6.2.1              | AD + VFTSw
+| 2  | Correctness of algorithms and functions | 6.2.2              | AD + VFTM
+|===
+
+==== Software protection [mandatory]
+
+[%unnumbered,cols="^.^4,<.^54,^.^17,^.^25",options="header"]
+|===
+| # ^| Requirement                             | <<OIML_D_31_2023>> | Evaluation methods
+| 3  | Evidence and prevention of intervention | 6.2.3              | AD + VFTSw
+| 4  | Prevention of misuse                    | 6.2.4              | AD + VFTSw
+| 5  | Demands on the user                     | 6.2.5              | AD + VFTSw
+|===
+
+[[scls-8-3-3]]
+==== Support of hardware features [mandatory]
+
+[%unnumbered,cols="^.^4,<.^54,^.^17,^.^25",options="header"]
+|===
+| # ^| Requirement                      | <<OIML_D_31_2023>> | Evaluation methods
+| 6  | Detection of significant defects | 6.2.6.1            | AD + VFTSw
+| 7  | Durability protection            | 6.2.6.2            | AD + VFTSw
+| 8  | Time stamps                      | 6.2.7              | AD + VFTSw
+|===
+
+==== Specification and separation of legally relevant parts and specification of interfaces [optional]
+
+[%unnumbered,cols="^.^4,<.^54,^.^17,^.^25",options="header"]
+|===
+| #
+^| Requirement
+| <<OIML_D_31_2023>>
+| Evaluation methods
+
+| 9
+| Separation of components
+| 6.3.2.1
+| AD
+
+| 10
+| Separation of modules
+| 6.3.2.2
+| AD
+
+| 11
+| Shared indication
+| 6.3.3
+| AD + VFTM/ VFTSw
+
+| 12
+| Storage of data
+| 6.3.4
+| AD + VFTSw
+
+| 13
+| The measurement data stored shall be accompanied by all relevant information
+necessary for future legally relevant use
+| 6.3.4.2
+| AD + VFTSw
+
+| 14
+| The stored measurement data shall be protected by software means to guarantee
+the authenticity, integrity and correctness of the information concerning the
+speed measurement
+| 6.3.4.3
+| AD + VFTSw
+
+| 15
+| Automatic storing
+| 6.3.4.4
+| AD + VFTSw
+
+| 16
+| Data transmission
+| 6.3.5
+| AD + VFTSw
+
+| 17
+| The measurement data transmitted shall be accompanied by all relevant information
+necessary for future legally relevant use.
+| 6.3.5.2
+| AD + VFTSw
+
+| 18
+| The transmitted data shall be protected by software means to guarantee the
+authenticity, integrity and, if necessary correctness of the information concerning
+the speed of measurement.
+| 6.3.5.3
+| AD + VFTSw
+
+| 19
+| Transmission delay or interruption
+| 6.3.5.4
+| AD + VFTSw
+
+| 20
+| Compatibility of operating systems and hardware
+| 6.3.6.2
+| AD + VFTSw
+
+| 21
+| Hardware interfaces not equipped with a protective software interface shall
+not be able to inadmissibly influence the legally relevant software part.
+| 6.3.6.2
+| AD + VFTSw
+
+| 22
+| If a secure boot process is needed to ensure protection of the legally relevant
+software part, the following requirements apply.
+| 6.3.6.3.1
+| AD + VFTSw
+
+| 23
+| The combination of the legally relevant software part and the operating system
+shall ensure that there are enough resources for the operation of the legally
+relevant application.
+| 6.3.6.4
+| AD + VFTSw
+
+| 24
+| Protection during use
+| 6.3.6.5
+| AD + VFTSw
+
+| 25
+| Communication with the legally relevant software part shall be made via protective
+interfaces.
+| 6.3.6.6
+| AD + VFTSw
+
+| 26
+| Identification and traceability
+| 6.3.6.7
+| AD + VFTSw
+
+| 27
+| The manufacturer shall identify the hardware and software environment that
+is suitable. Minimum resources and a suitable configuration necessary for correct
+functioning shall be declared by the manufacturer.
+| 6.3.6.8
+| AD + VFTSw
+
+| 28
+| Technical means shall be provided in the legally relevant software to prevent
+operation if the minimum resources or a suitable configuration are not met.
+| 6.3.6.9
+| AD + VFTSw
+|===
+
+==== Maintenance and re-configuration [optional]
+
+[%unnumbered,cols="^.^4,<.^54,^.^17,^.^25",options="header"]
+|===
+| # ^| Requirement     | <<OIML_D_31_2023>> | Evaluation methods
+| 29 | Verified update | 6.3.8.3            | AD
+| 30 | Traced update   | 6.3.8.4            | AD + VFTSw
+|===
+
+[NOTE,keep-separate=true]
+====
+AD stands for Analysis of the documentation and evaluation of the design according
+to <<OIML_D_31_2023,clause=7.3.2.1>>.
+====
+
+NOTE: VFTM stands for Verification by functional testing of metrological functions
+according to <<OIML_D_31_2023,clause=7.3.2.2>>.
+
+NOTE: VFTSw stands for Verification by functional testing of software functions
+according to <<OIML_D_31_2023,clause=7.3.2.3>>.
