@@ -1,0 +1,903 @@
+
+== Influence factor and disturbance tests (OIML R 91-2, clause 6)
+
+=== Dry heat (operating)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 6
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Dry heat (storage)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFa:: No significant fault occurred [underline]#after# the disturbance. The
+EUT shall continue to operate as intended after the test (manual intervention
+allowed).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 6
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Cold (operating)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 7
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Cold (storage)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFa:: No significant fault occurred [underline]#after# the disturbance. The
+EUT shall continue to operate as intended after the test (manual intervention
+allowed).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 7
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Damp heat, cyclic (condensing)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 9
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Water (optional)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 10
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Sand and dust (optional)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 13
+
+[%unnumbered,cols=">.^15,^.^14,^.^14,^.^14,^.^14,^.^14,^.^14",options="header"]
+|===
+^| Measurement No.
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| … | | | | | |
+| stem:[N] | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Salt mist (optional)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 14
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Vibration (random)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 15
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Mechanical shock
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFa:: No significant fault occurred [underline]#after# the disturbance. The
+EUT shall continue to operate as intended after the test (manual intervention
+allowed).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 17
+
+include::../common-content/form-5.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== DC mains voltage variation
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 18
+
+[%unnumbered,cols="^.^6,<.^30,^.^10,^.^15,^.^11,^.^14,^.^7,^.^6",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| ,.. | | | | | | |
+| stem:[N] | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Ripple on DC mains power
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 19
+
+[%unnumbered,cols="^.^7,<.^23,^.^25,^.^9,^.^11,^.^9,^.^8,^.^7",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| … | | | | | | |
+| stem:[N] | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== AC mains voltage variation
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 20
+
+[%unnumbered,cols="^.^7,<.^16,^.^13,^.^13,^.^14,^.^13,^.^12,^.^12",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| … | | | | | | |
+| stem:[N] | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== AC mains frequency variation
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 21
+
+[%unnumbered,cols="^.^6,<.^42,^.^9,^.^9,^.^11,^.^9,^.^7,^.^7",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| … | | | | | | |
+| stem:[N] | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== DC mains voltage dips, short interruptions and (short term) voltage variations
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 22
+
+[%unnumbered,cols="^.^6,<.^19,^.^15,^.^12,^.^13,^.^12,^.^11,^.^11",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| … | | | | | | |
+| stem:[N] | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== AC mains voltage dips, short interruptions and reductions
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 23
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== AC mains frequency harmonics
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 24
+
+include::../common-content/form-7.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== VLF and LF disturbances on AC and DC mains
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 25
+
+[%unnumbered,cols="^.^6,<.^19,^.^12,^.^12,^.^13,^.^12,^.^12,^.^13",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| … | | | | | | |
+| stem:[N] | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Bursts (transients) on AC and DC mains
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 26
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Surges on AC and DC mains power lines
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 27
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Bursts (transients) on signal, data and control lines
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 28
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Surges on signal, data and control lines
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 29
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== AC mains power frequency magnetic field
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 30
+
+include::../common-content/form-8.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Conducted (common mode) currents generated by RF electromagnetic fields
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 31
+
+include::../common-content/form-7.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== RF electromagnetic fields
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 32
+
+include::../common-content/form-9.adoc[]
+
+Reference to OIML D 11:2013, clause 33
+
+include::../common-content/form-10.adoc[]
+
+Reference to OIML D 11:2013, clause 34
+
+include::../common-content/form-10.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Electrostatic discharges
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 35
+
+include::../common-content/form-8.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Low voltage of internal battery
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 36
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Voltage variations of a road vehicle battery
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+MPE:: Linearity error limit defined in OIML R 91-1, 6.5 is respected during
+the presence of the influence factor. The evidence files produced for every
+measurement must not be corrupt and the photographic documentation must be of
+the same quality as without the influence factor (if camera is part of EUT).
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 37
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Electrical transient conduction along supply lines of external stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] batteries
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 38
+
+include::../common-content/form-6.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Electrical transient conduction via lines other than supply lines for external stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] batteries
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 39
+
+include::../common-content/form-11.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Battery voltage variations during cranking
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 40
+
+include::../common-content/form-9.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Load dump test
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+NSFd:: No significant fault occurred [underline]#during# the disturbance. The
+EUT shall continue to operate as intended after the test without manual intervention.
+
+*Results:*
+
+Reference to OIML D 11:2013, clause 41
+
+include::../common-content/form-11.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Acceleration test (OIML R 91-2, 6.5)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion*
+
+The integer speed values from the EUT shall fulfil the MPE for stationary measurements
+(OIML R 91-1, 6.4).
+
+*Results:*
+
+Reference acceleration should be between
+stem:[[-5 "unitsml(m/s^2)", -1.5 "unitsml(m/s^2)"\]] and
+stem:[[1.5 "unitsml(m/s^2)", 5 "unitsml(m/s^2)"\]].
+
+[%unnumbered,cols="^.^5,<.^20,^.^11,^.^11,^.^10,^.^12,^.^11,^.^11,^.^10",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[a_"ref" ["unitsml(m/s^2)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | | |
+| 2 | | | | | | | |
+| 3 | | | | | | | |
+| … | | | | | | | |
+| N | | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Further influence quantity tests (OIML R 91-2, 6.6)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+The high-resolution speed values from the EUT shall fulfil the linearity error
+limit (OIML R 91-1, 6.5).
+
+*Results:*
+
+[%unnumbered,cols="^.^5,<.^20,^.^12,^.^12,^.^13,^.^13,^.^12,^.^12",options="header"]
+|===
+^| No.
+^| Conditions
+| stem:[v ["unitsml(km/h)"\]]
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| stem:[Delta v ["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| 1 | | | | | | |
+| 2 | | | | | | |
+| 3 | | | | | | |
+| … | | | | | | |
+| N | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Installation and alignment of sensor and camera (OIML R 91-2, 6.7)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+Mark observations as bullet points:
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]

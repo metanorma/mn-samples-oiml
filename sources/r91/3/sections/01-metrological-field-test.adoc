@@ -1,0 +1,128 @@
+
+== Metrological field test (OIML R 91-2, 4)
+
+=== Traffic condition during measurement (OIML R 91-2, 4.3)
+
+include::../common-content/form-2.adoc[]
+
+*Location:* +
+Describe, using point form, the location (location, map, photos, …):
+
+*Test site:* +
+Describe, using point form, the test site (road category, speed limits, …):
+
+*Traffic conditions:* +
+Describe, using point form, the traffic conditions (traffic density, distance
+between vehicles, …):
+
+*Number of measurements:* +
+Describe, using point form, the decision for number of executed measurements:
+
+*Reference speed meter:* +
+Describe, using point form, the used reference speed meter (manufacturer, type,
+serial, technology, traceability, …):
+
+*Checklist for traffic conditions:*
+
+[%unnumbered,cols="^.^15,<.^47,^.^9,^.^9,^.^20",options="header"]
+|===
+^| OIML R 91-2 requirements
+|
+| Yes
+| No
+| Remarks
+
+| 4.1
+| General conditions
+| | |
+
+| 4.2
+| Choice of test sites
+| | |
+
+| 4.3
+| Traffic condition during measurement
+| | |
+
+| 4.4
+| Number of measurements
+| | |
+
+| 4.5
+| Reference speed meter
+| | |
+
+| 4.9
+| Testing at speeds above the legal limit up to the maximum specified speed
+| | |
+|===
+
+*Acceptance criterion:*
+
+The integer speed values from the EUT shall fulfil the MPE for stationary measurements
+(OIML R 91-1, 6.4).
+
+*Results:*
+
+include::../common-content/form-3.adoc[]
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Statistical analysis of errors (optional) (OIML R 91-2, 4.7)
+
+include::../common-content/form-2.adoc[]
+
+*Acceptance criterion:*
+
+For the subdivision the measurements from the metrological field test given
+above shall be used. The interval stem:[[m - z sigma, m + z sigma\]] shall be
+fully within the MPE for stationary measurements (OIML R 91-1, 6.4).
+
+[%unnumbered,cols="<.^60,<.^40"]
+|===
+| The following factor stem:[z] is chosen as a measure of confidence: |
+|===
+
+*Results:*
+
+[%unnumbered,cols=">.^23,^.^15,^.^12,^.^10,^.^12,^.^12,^.^7,^.^9",options="header"]
+|===
+^| Interval
+| Mean deviation m stem:[["unitsml(km/h)"\]]
+| Standard deviation σ stem:[["unitsml(km/h)"\]]
+| stem:[m - z sigma] stem:[["unitsml(km/h)"\]]
+| stem:[m + z sigma] stem:[["unitsml(km/h)"\]]
+| MPE stem:[["unitsml(km/h)"\]]
+| Pass
+| Fail
+
+| stem:[0 "unitsml(km/h)"] .. stem:[50 "unitsml(km/h)"] | | | | | | |
+| stem:[50 "unitsml(km/h)"] .. stem:[100 "unitsml(km/h)"] | | | | | | |
+| stem:[100 "unitsml(km/h)"] .. stem:[150 "unitsml(km/h)"] | | | | | | |
+| stem:[150 "unitsml(km/h)"] .. stem:[200 "unitsml(km/h)"] | | | | | | |
+| stem:[200 "unitsml(km/h)"] .. stem:[250 "unitsml(km/h)"] | | | | | | |
+| stem:[250 "unitsml(km/h)"] .. stem:[300 "unitsml(km/h)"] | | | | | | |
+| stem:[300 "unitsml(km/h)"] .. stem:[350 "unitsml(km/h)"] | | | | | | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Assignment to image evidence (OIML R 91-2, 4.8)
+
+include::../common-content/form-2.adoc[]
+
+*Examples of evidence photos:*
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]

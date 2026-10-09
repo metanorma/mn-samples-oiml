@@ -1,0 +1,4 @@
+[%unnumbered,cols="1,1"]
+|===
+| ☐ *Pass* | ☐ *Fail*
+|===

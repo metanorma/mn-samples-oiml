@@ -1,0 +1,8 @@
+[%unnumbered,cols="<.^21,<.^29,>.^10,^.^13,^.^13,<.^14"]
+|===
+| Application no.:  |  |          | At start | At end |
+| Type designation: |  | Temp.:   |          |        | stem:["unitsml(degC)"]
+| Observer:         |  | Rel. h.: |          |        | %
+|                   |  | Date:    |          |        | yyyy-mm-dd
+|                   |  | Time:    |          |        | hh:mm:ss
+|===

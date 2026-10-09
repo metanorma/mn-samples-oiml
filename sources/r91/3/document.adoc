@@ -1,0 +1,30 @@
+= Traffic speed meters -- Part 3: Test report format
+:docnumber: 91
+:partnumber: 3
+:copyright-year: 2025
+:language: en
+:title-intro-en: Traffic speed meters
+:title-main-en: Test report format
+:technical-committee-number: 7
+:technical-committee: Measuring instruments for length and associated quantities
+:subcommittee-number: 4
+:subcommittee: Measuring instruments for road traffic
+:doctype: international-standard
+:mn-document-class: iso
+:mn-output-extensions: xml,html
+:local-cache-only:
+:imagesdir: images
+
+include::sections/00-preface.adoc[]
+
+include::sections/01-metrological-field-test.adoc[]
+  
+include::sections/02-metrological-lab-tests.adoc[]
+
+include::sections/03-influence-factor.adoc[]
+
+include::sections/04-test-specific.adoc[]
+
+include::sections/05-moving-speed-meters.adoc[]
+
+include::sections/06-software-examination.adoc[]

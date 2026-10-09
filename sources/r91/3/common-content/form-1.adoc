@@ -1,0 +1,12 @@
+[%unnumbered,cols="^27,^39,^15,^19",options="header"]
+|===
+| System or module name | Drawing number or software reference | Version | Serial no.
+|                       |                                      |         |
+|                       |                                      |         |
+|                       |                                      |         |
+|                       |                                      |         |
+|                       |                                      |         |
+|                       |                                      |         |
+|                       |                                      |         |
+|                       |                                      |         |
+|===
