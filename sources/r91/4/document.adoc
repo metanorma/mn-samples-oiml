@@ -1,0 +1,20 @@
+= Traffic speed meters -- Part 4: Type evaluation report format
+:docnumber: 91
+:partnumber: 4
+:copyright-year: 2025
+:language: en
+:title-main-en: Traffic speed meters
+:title-part-en: Type evaluation report format
+:technical-committee-number: 7
+:technical-committee: Measuring instruments for length and associated quantities
+:subcommittee-number: 4
+:subcommittee: Measuring instruments for road traffic
+:doctype: international-standard
+:mn-document-class: oiml
+:mn-output-extensions: xml,html
+:local-cache-only:
+:imagesdir: images
+
+include::sections/00-preface.adoc[]
+
+include::sections/01-type-evaluation-report.adoc[]
