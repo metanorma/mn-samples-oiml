@@ -1,0 +1,222 @@
+
+== Software examination (OIML R 91-2, clause 8)
+
+=== General requirements [mandatory] (OIML R 91-2, 8.3.1)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+[%unnumbered,cols="^.^3,<.^35,^.^11,^.^17,^.^17,^.^17",options="header"]
+|===
+| # ^| Requirement                             | OIML D 31:2023 | Pass | Fail | Remark
+| 1  | Software identification                 | 6.2.1          |      |      |
+| 2  | Correctness of algorithms and functions | 6.2.2          |      |      |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Software protection [mandatory] (OIML R 91-2, 8.3.2)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+[%unnumbered,cols="^.^3,<.^35,^.^11,^.^17,^.^17,^.^17",options="header"]
+|===
+| # ^| Requirement                             | OIML D 31:2023 | Pass | Fail | Remark
+| 3  | Evidence and prevention of intervention | 6.2.3          |      |      |
+| 4  | Prevention of misuse                    | 6.2.4          |      |      |
+| 5  | Demands on the user                     | 6.2.5          |      |      |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Support of hardware features [mandatory] (OIML R 91-2, 8.3.3)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+[%unnumbered,cols="^.^3,<.^35,^.^11,^.^17,^.^17,^.^17",options="header"]
+|===
+| # ^| Requirement                      | OIML D 31:2023 | Pass | Fail | Remark
+| 6  | Detection of significant defects | 6.2.6.1        |      |      |
+| 7  | Durability protection            | 6.2.6.2        |      |      |
+| 8  | Time stamps                      | 6.2.7          |      |      |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Specification and separation of legally relevant parts and specification of interfaces [optional] (OIML R 91-2, 8.3.1)
+
+include::../common-content/form-2.adoc[]
+
+[%unnumbered,cols="^.^4,<.^34,^.^15,^.^15,^.^15,^.^15",options="header"]
+|===
+| #
+^| Requirement
+| OIML D 31:2023
+| Pass
+| Fail
+| Remark
+
+| 9
+| Separation of components
+| 6.3.2.1
+| | |
+
+| 10
+| Specification and separation of software parts
+| 6.3.2.2
+| | |
+
+| 11
+| Shared indication
+| 6.3.3
+| | |
+
+| 12
+| Storage of data
+| 6.3.4
+| | |
+
+| 13
+| The measurement data stored shall be accompanied by all relevant information
+necessary for future legally relevant use
+| 6.3.4.2
+| | |
+
+| 14
+| The stored measurement data shall be protected by software means to guarantee
+the authenticity, integrity and correctness of the information concerning the
+speed measurement
+| 6.3.4.3
+| | |
+
+| 15
+| Automatic storing
+| 6.3.4.4
+| | |
+
+| 16
+| Data transmission
+| 6.3.5
+| | |
+
+| 17
+| The measurement data transmitted shall be accompanied by all relevant information
+necessary for future legally relevant use.
+| 6.3.5.2
+| | |
+
+| 18
+| The transmitted data shall be protected by software means to guarantee the
+authenticity, integrity and, if necessary correctness of the information concerning
+the speed of measurement.
+| 6.3.5.3
+| | |
+
+| 19
+| Transmission delay or interruption
+| 6.3.5.4
+| | |
+
+| 20
+| Compatibility of operating systems and hardware
+| 6.3.6.2
+| | |
+
+| 21
+| Hardware interfaces not equipped with a protective software interface shall
+not be able to inadmissibly influence the legally relevant software part.
+| 6.3.6.2
+| | |
+
+| 22
+| If a secure boot process is needed to ensure protection of the legally relevant
+software part, the following requirements apply.
+| 6.3.6.3.1
+| | |
+
+| 23
+| The combination of the legally relevant software part and the operating system
+shall ensure that there are enough resources for the operation of the legally
+relevant application.
+| 6.3.6.4
+| | |
+
+| 24
+| Protection during use
+| 6.3.6.5
+| | |
+
+| 25
+| Communication with the legally relevant software part shall be made via protective
+interfaces.
+| 6.3.6.6
+| | |
+
+| 26
+| Identification and traceability
+| 6.3.6.7
+| | |
+
+| 27
+| The manufacturer shall identify the hardware and software environment that
+is suitable. Minimum resources and a suitable configuration necessary for correct
+functioning shall be declared by the manufacturer.
+| 6.3.6.8
+| | |
+
+| 28
+| Technical means shall be provided in the legally relevant software to prevent
+operation, if the minimum resources or a suitable configuration are not met.
+| 6.3.6.9
+| | |
+|===
+
+*Remarks:*
+
+*Result:*
+
+include::../common-content/form-4.adoc[]
+
+=== Maintenance and re-configuration [optional] (OIML R 91-2, 8.3.1)
+
+include::../common-content/form-2.adoc[]
+
+*Results:*
+
+[%unnumbered,cols="^.^6,<.^35,^.^11,^.^16,^.^16,^.^16",options="header"]
+|===
+| # ^| Requirement     | OIML D 31:2023 | Pass | Fail | Remark
+| 29 | Verified update | 6.3.8.3        |      |      |
+| 30 | Traced update   | 6.3.8.4        |      |      |
+|===
+
+*Remarks:*
+
+*Result:*
+
+[%unnumbered,cols="1,1"]
+|===
+| ☐ *Passed* | ☐ *Failed*
+|===
+
+[%unnumbered]
+== General remarks
+
+Additional remarks:

@@ -1,0 +1,609 @@
+
+== Foreword
+
+The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental
+organization whose primary aim is to harmonize the regulations and metrological
+controls applied by the national metrological services, or related organizations,
+of its Member States. The main categories of OIML publications are:
+
+* *International Recommendations (OIML R),* which are model regulations that
+establish the metrological characteristics required of certain measuring instruments
+and which specify methods and equipment for checking their conformity. OIML
+Member States shall implement these Recommendations to the greatest possible extent;
+
+* *International Documents (OIML D),* which are informative in nature and which
+are intended to harmonize and improve work in the field of legal metrology;
+
+* *International Guides (OIML G),* which are also informative in nature and
+which are intended to give guidelines for the application of certain requirements
+to legal metrology; and
+
+* *International Basic Publications (OIML B),* which define the operating rules
+of the various OIML structures and systems.
+
+OIML Draft Recommendations, Documents and Guides are developed by Project Groups
+linked to Technical Committees or Subcommittees which comprise representatives
+from the Member States. Certain international and regional institutions also
+participate on a consultation basis. Cooperative agreements have been established
+between the OIML and certain institutions, such as ISO and the IEC, with the
+objective of avoiding contradictory requirements. Consequently, manufacturers
+and users of measuring instruments, test laboratories, etc. may simultaneously
+apply OIML publications and those of other institutions.
+
+International Recommendations, Documents, Guides and Basic Publications are
+published in English (E) and translated into French (F) and are subject to periodic
+revision.
+
+Additionally, the OIML publishes or participates in the publication of *Vocabularies
+(OIML V)* and periodically commissions legal metrology experts to write *Expert
+Reports (OIML E)*. Expert Reports are intended to provide information and advice,
+and are written solely from the viewpoint of their author, without the involvement
+of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do
+not necessarily represent the views of the OIML.
+
+This publication – reference OIML R 91-3, Edition 2025 – was developed by Project
+Group 3 of OIML Technical Subcommittee TC 7/SC 4 _Measuring instruments for
+road traffic_. It was approved for final publication by the International Committee
+of Legal Metrology at its 60th meeting in October 2025. It supersedes the previous
+edition of OIML R 91 dated 1990.
+
+There was also a change of title of the publication from "Radar equipment for
+the measurement of the speed of vehicles" to "Traffic speed meters" to make
+the publication as general as is possible regarding the different technologies
+implemented in the measuring principle.
+
+OIML Publications may be downloaded from the OIML web site in the form of PDF
+files. Additional information on OIML Publications may be obtained from the
+Organization's headquarters:
+
+Bureau International de Métrologie Légale +
+11, rue Turgot - 75009 Paris - France +
+Telephone: 33 (0)1 48 78 12 82 +
+Fax: 33 (0)1 42 82 17 27 +
+E-mail: biml@oiml.org +
+Internet: www.oiml.org
+
+== Introduction
+
+The "Test report", the subject of OIML R 91-3, aims at presenting, in a standardized
+format, the results of the various tests and examinations to which a type of
+speed meters shall be submitted with a view to its approval.
+
+The "Test report" is a record of the results of the tests carried out on the
+instrument. The "Test report" forms have been produced based on the tests detailed
+in the performance test procedures (OIML R 91-2).
+
+The "information concerning the test equipment used for type evaluation" shall
+cover all test equipment which has been used in determining the test results
+given in a report. The information may be a short list containing essential
+data (name, type, reference number for purpose of traceability). For example:
+
+* Verification standards (accuracy or accuracy class, and no.);
+
+* Simulator for testing of modules (name, type, traceability and no.);
+
+* Climatic test and static temperature chamber (name, type and no.);
+
+* Electrical tests, bursts (name of the instrument, type and no.);
+
+* Description of the procedure of field calibration for the electromagnetic
+susceptibility test.
+
+All metrology services or laboratories evaluating types of speed meters according
+to OIML R 91-1 and -2 or to national or regional regulations based on OIML R
+91-1 and -2 are strongly advised to use this "Test report format", directly
+or after translation into a language other than English or French. Its direct
+use in English or in French, or in both languages, is even more strongly recommended
+whenever test results may be transmitted by the country performing these tests
+to the approving authorities of another country, under bi- or multi-lateral
+cooperation agreements. In the framework of the OIML Certification System (OIML-CS),
+use of the "Test report format" is mandatory.
+
+[.preface]
+== Test report
+
+=== Explanatory notes
+
+[%unnumbered,cols="<.^19,<.^81",options="header"]
+|===
+| Symbols
+| Meaning
+
+| stem:[v ["unitsml(km/h)"\]]
+| Indicated speed of measured vehicle
+
+| stem:[v_"EGO" ["unitsml(km/h)"\]]
+| EGO speed of speed meter, when the speed meter is installed in a vehicle
+
+| stem:[v_"ref" ["unitsml(km/h)"\]]
+| Reference measured speed by reference speed meter or simulator
+
+| stem:[Delta v ["unitsml(km/h)"\]]
+| Absolute difference between stem:[v] in stem:[v_"ref"]
+
+| stem:[MPE ["unitsml(km/h)"\]]
+| Maximum permissible error
+
+| stem:[N]
+| Constant number of performed measurements, typical value 500, 50 or 5
+
+| stem:[a_"ref" ["unitsml(m/s^2)"\]]
+| Acceleration for dynamic performance test
+
+| stem:[d ["unitsml(m)"\]]
+| Distance to vehicle for linearity test
+
+| stem:[alpha ["unitsml(deg)"\]]
+| Angle to vehicle for linearity test
+|===
+
+The name(s) or symbol(s) of the unit(s) used to express test results shall be
+specified on each form.
+
+The boxes under the headings of the report should always be filled in according
+to the following example:
+
+[%unnumbered,cols=">.^18,^.^31,^.^28,<.^23"]
+|===
+|          | At start   | At end     |
+| Temp.:   | 20.5       | 21.1       | stem:["unitsml(degC)"]
+| Rel. h.: |            |            | %
+| Date:    | 2025-10-15 | 2025-10-15 | yyyy-mm-dd
+| Time:    | 16:00:05   | 16:30:05   | hh:mm:ss
+|===
+
+where: Temp. = temperature +
+Rel. h. = relative humidity
+
+"Date" in the test report refers to the date on which the test was performed.
+
+[.preface]
+== Identification of the instrument
+
+[%unnumbered,cols="<.^18,<.^32,<.^18,<.^32"]
+|===
+| Application no.:    |  | Applicant:           |
+| Identification no.: |  | Manufacturer:        |
+| Type designation:   |  | Instrument category: |
+| Software version:   |  | Report date:         |
+|===
+
+Documentation from the manufacturer:
+
+(Record as necessary to identify the equipment under test)
+
+include::../common-content/form-1.adoc[]
+
+Manufacturer provided simulator documentation (if applicable)
+
+include::../common-content/form-1.adoc[]
+
+Description or other information pertaining to identification of the instrument
+(components, interfaces, configuration). +
+Attach diagrams or drawings if available:
+
+Describe, using point form, the measurement technology used:
+
+Description or other information pertaining to identification of the instrument: +
+(include photograph(s) here if available)
+
+[.preface]
+== General information concerning the type
+
+[%unnumbered,cols="<.^20,<.^35,<.^45"]
+|===
+| Testing on:
+| ☐ Complete instrument
+| ☐ Modulefootnote:[The test equipment (simulator or part of a complete instrument)
+connected to the module shall be defined in the test form(s) used]
+|===
+
+[%unnumbered,cols="<.^50,<.^50"]
+|===
+2+^| *Categorisation of speed meter*
+   | Mode of use                   |
+   | Principle of installation     |
+   | Working principle             |
+   | Triggering and camera         |
+   | Compensation for cosine error |
+|===
+
+[%unnumbered,cols="<.^50a,^.^25,^.^25"]
+|===
+3+^| *Rated operating conditions*
+   |                                                                  | *Minimum* | *Maximum*
+ 3+| Speed measurement
+   | * Speed measurement stem:[["unitsml(km/h)"\]]                    |           |
+   | * EGO speed measurement stem:[["unitsml(km/h)"\]], if applicable |           |
+ 3+| Vehicle identification
+   | * Distance to vehicle stem:[["unitsml(m)"\]], if applicable      |           |
+   | * Angle to vehicle stem:[["unitsml(deg)"\]], if applicable       |           |
+   | * Number of vehicles, if applicable                              |           |
+ 3+| Temperature
+   | * Operating temperature stem:[["unitsml(degC)"\]]                |           |
+   | * Storage temperature stem:[["unitsml(degC)"\]]                  |           |
+ 3+| Power supply
+   | * Voltage stem:[["unitsml(V)"\]]                                 |           |
+|===
+
+[%unnumbered,cols="<.^20,<.^80"]
+|===
+| Evaluation period: |
+| Observer:          |
+|===
+
+Use this space to indicate additional remarks and/or information: connecting
+equipment, interfaces and sensors, choice of the manufacturer regarding protection
+and specific speed meter requirements etc.
+
+*Indications and controls*
+
+Describe, using point form, all indications and controls of the instrument (such
+as wired or wireless communication with the instrument, installation, ready
+indication, error codes).:
+
+*Evidence file*
+
+Describe, using point form, evidence file for measurement (type of file, encryption,
+content, storage, retrieval, authentication):
+
+*Checking facility*
+
+Describe, using point form, checking facility (automatic and/or manual triggering,
+outcomes):
+
+*Alignment and aiming device*
+
+Describe, using point form, alignment procedure and use of aiming device, if
+applicable:
+
+*Test interface*
+
+Describe, using point form, test interface (access, parameters):
+
+*Software*
+
+Describe, using point form, the means used to protect legally relevant software
+in the instrument and indicate the version of the software present at the time
+of testing and how to verify this version number:
+
+*Sealing*
+
+Describe, using point form, the physical and electronic seals (e.g. audit trails)
+used to protect the metrological characteristics of the instrument, and how
+to access them. Also describe any remote access abilities available and how
+these are sealed:
+
+[.preface]
+== Information concerning the test equipment used for type evaluation
+
+List all test equipment used in this report (including descriptions of the equipment
+used for testing)
+
+[%unnumbered,cols="^20,^20,^20,^20,^20",options="header"]
+|===
+| Equipment name | Manufacturer | Type | Serial no. | Used for (test references)
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|                |              |      |            |
+|===
+
+[.preface]
+== Configuration for test
+
+Use this space for additional information relating to equipment configuration,
+interfaces, data rates, protection options, additional devices and additional
+software for the instrument and/or simulator to support type evaluation.
+
+[.preface]
+== Adjustments or modifications
+
+Use this space for additional information relating to the identification of
+any authorized and agreed upon adjustments or modifications made to the sample
+or samples during the evaluation.
+
+[.preface]
+== Summary of type evaluation tests
+
+[%unnumbered,cols="<.<16,<.<45,^.<9,^.<8,^.<8,^.<15",options="header"]
+|===
+^.^| Requirement (OIML R 91-2)
+|
+^.^| Report page
+^.^| Passed
+^.^| Failed
+^.^| Remarks
+
+| 4
+| Metrological field test
+4+|
+
+| 4.6
+| Maximum permissible error
+| | | |
+
+| 4.7
+| Statistical analysis of errors (optional)
+| | | |
+
+| 4.8
+| Assignment to image evidence
+| | | |
+
+| 5
+| Metrological laboratory tests by traffic simulation
+4+|
+
+| 5.3
+| Dynamic performance test
+| | | |
+
+| 5.4
+| Speed linearity test
+| | | |
+
+| 5.5
+| Distance linearity test
+| | | |
+
+| 5.6
+| Angle linearity test
+| | | |
+
+| 6
+| Influence factor and disturbance tests
+4+|
+
+| 6.1
+| Evaluation method (detailed checklist)
+| | | |
+
+| 6.5
+| Acceleration test
+| | | |
+
+| 6.6
+| Further influence quantity tests
+| | | |
+
+| 6.7
+| Installation and alignment of sensor and camera
+| | | |
+
+| 7
+| Tests specific to certain categories of speed meters
+4+|
+
+| 7.1
+| Doppler-radar based speed meters
+| | | |
+
+| 7.2
+| Range-finding based speed meters
+| | | |
+
+| 7.3
+| Average speed meters
+| | | |
+
+| 7.4
+| Fixed-distance speed meters
+| | | |
+
+| 7.5
+| Image based speed meters
+| | | |
+
+| 7.6
+| Across-the-road speed meters
+| | | |
+
+| 7.7
+| Moving speed meters
+4+|
+
+| 7.7.1
+| Moving metrological field test
+| | | |
+
+| 7.7.2
+| Metrological field test of ego speed meter
+| | | |
+
+| 7.7.3
+| Traffic simulation for moving speed meters
+| | | |
+
+| 8
+| Software examination
+4+|
+
+| 8.3.1
+| General requirements (mandatory)
+| | | |
+
+| 8.3.2
+| Software protection (mandatory)
+| | | |
+
+| 8.3.3
+| Support of hardware features (mandatory)
+| | | |
+
+| 8.3.4
+| Specification and separation of legally relevant parts and specification of
+interfaces (optional)
+| | | |
+
+| 8.3.5
+| Maintenance and re-configuration (optional)
+| | | |
+|===
+
+[.preface]
+== Summary of environmental conditions (OIML R 91-2, 6.1 detailed)
+
+[%unnumbered,cols="<.<16,<.<45,^.<9,^.<8,^.<8,^.<15",options="header"]
+|===
+^.^| Requirement (OIML R 91-2, 6.1)
+|
+^.^| Report page
+^.^| Passed
+^.^| Failed
+^.^| Remarks
+
+| 1
+| Dry heat (operating)
+| | | |
+
+| 2
+| Dry heat (storage)
+| | | |
+
+| 3
+| Cold (operating)
+| | | |
+
+| 4
+| Cold (storage)
+| | | |
+
+| 5
+| Damp heat, cyclic (condensing)
+| | | |
+
+| 6
+| Water (optional)
+| | | |
+
+| 7
+| Atmospheric pressure
+| | | |
+
+| 8
+| Sand and dust (optional)
+| | | |
+
+| 9
+| Salt mist (optional)
+| | | |
+
+| 10
+| Vibration (random)
+| | | |
+
+| 11
+| Mechanical shock
+| | | |
+
+| 12
+| DC mains voltage variation
+| | | |
+
+| 13
+| Ripple on DC mains power
+| | | |
+
+| 14
+| AC mains voltage variation
+| | | |
+
+| 15
+| AC mains frequency variation
+| | | |
+
+| 16
+| DC mains voltage dips, short interruptions and (short term) voltage variations
+| | | |
+
+| 17
+| AC mains voltage dips, short interruptions and reductions
+| | | |
+
+| 18
+| AC mains frequency harmonics
+| | | |
+
+| 19
+| VLF and LF disturbances on AC and DC mains
+| | | |
+
+| 20
+| Bursts (transients) on AC and DC mains
+| | | |
+
+| 21
+| Surges on AC and DC mains power lines
+| | | |
+
+| 22
+| Bursts (transients) on signal, data and control lines
+| | | |
+
+| 23
+| Surges on signal, data and control lines
+| | | |
+
+| 24
+| AC mains power frequency magnetic field
+| | | |
+
+| 25
+| Conducted (common mode) currents generated by RF electromagnetic fields
+| | | |
+
+| 26
+| RF electromagnetic fields
+| | | |
+
+| 27
+| Electrostatic discharges
+| | | |
+
+| 28
+| Low voltage of internal battery
+| | | |
+
+| 29
+| Voltage variations of a road vehicle battery
+| | | |
+
+| 30
+| Electrical transient conduction along supply lines of external stem:[12 "unitsml(V)"]
+and stem:[24 "unitsml(V)"] batteries
+| | | |
+
+| 31
+| Electrical transient conduction via lines other than supply lines for external
+stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] batteries
+| | | |
+
+| 32
+| Battery voltage variations during cranking
+| | | |
+
+| 33
+| Load dump test
+| | | |
+|===
