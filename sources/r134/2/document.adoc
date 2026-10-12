@@ -9,7 +9,7 @@
 :title-intro-fr: Instruments à fonctionnement automatique pour le pesage des véhicules routiers en mouvement et le mesurage des charges à l'essieu
 :title-main-fr: Format du rapport d'essai
 :doctype: international-standard
-:mn-document-class: iso
+:mn-document-class: oiml
 :mn-output-extensions: xml,html
 :imagesdir: images
 :local-cache-only:
