@@ -10,7 +10,7 @@
 :subcommittee-number: 4
 :subcommittee: Measuring instruments for road traffic
 :doctype: international-standard
-:mn-document-class: iso
+:mn-document-class: oiml
 :mn-output-extensions: xml,html
 :local-cache-only:
 :imagesdir: images

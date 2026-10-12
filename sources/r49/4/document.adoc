@@ -14,7 +14,7 @@
 :doctype: international-recommendation
 :docstage: 60
 :docsubstage: 60
-:mn-document-class: iso
+:mn-document-class: oiml
 :technical-committee-number: 8
 :technical-committee: Measurement of quantities of fluids
 :subcommittee-number: 5
