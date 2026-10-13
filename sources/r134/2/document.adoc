@@ -1,4 +1,5 @@
 = Automatic instruments for weighing road vehicles in motion and measuring axle loads -- Part 2: Test report format
+:docidentifier: OIML R 134-2
 :docnumber: 134
 :partnumber: 2
 :edition: 2009

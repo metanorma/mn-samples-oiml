@@ -1,5 +1,6 @@
 
 = Automatic instruments for weighing road vehicles in motion and measuring axle loads -- Part 1: Metrological and technical requirements - Tests
+:docidentifier: OIML R 134-1
 :docnumber: 134
 :partnumber: 1
 :edition: 2006
