@@ -1,0 +1,1164 @@
+// OIML D 11:2026, páginas 50 a 61 del PDF: cláusula 12 (tablas 19 a 30).
+// Las filas "Notes" pasan a footnote:[...] en las celdas con su marcador (A13); las notas
+// de varios párrafos o con lista, a footnoteblock (A22). La tabla 25 cruza de página
+// (pp. 56-57): una sola tabla.
+== External wiring and mains power supply related performance tests
+
+Methods for determining the degradation of performance of mains connected EUTs
+during electrical mains power and external wiring conducted variations and disturbances.
+
+=== DC mains variations (within network specification)
+
+[[table-19]]
+.DC mains voltage variation
+[cols="<.<25a,<.<75a"]
+|===
+| Applicable standard
+| <<IEC_60654_2_1979>>.
+
+| Test method
+| Applying low- and high-level DC mains power voltage.
+
+| Applicability
+| Applicable for measuring instruments which are temporarily or permanently
+connected to a DC mains power network while in operation and generally only
+applicable in an industrial environment.
+
+| Object of the test
+| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of DC mains power voltage changes between upper and lower limit.
+
+| Test procedure in brief
+| The test comprises exposure to the specified power supply condition for a
+period sufficient for achieving temperature stability and subsequently performing
+the required measurements.
+
+| Test level index
+| 1
+
+| Test level
+| The upper voltage limit is the DC level at which the EUT has been designed
+to automatically detect high-level conditions.
+
+The lower limit will be the DC level at which the EUT has been designed to automatically
+detect low-level conditions.
+
+The EUT shall comply with the specified maximum permissible errors at voltage
+levels between the two levels.
+
+Testing may be restricted to the exposure of the EUT to the upper and lower
+voltage level, subsequently.
+|===
+
+[[table-20]]
+.Ripple on DC mains power
+[cols="<.<25a,^.^12a,^.^12a,^.^12a,^.^12a,^.^14a,^.^13a"]
+|===
+| Applicable standard
+6+<.<| <<IEC_61000_4_17_2009>> and
+<<IEC_TR_61000_4_1_2016>>.
+
+| Test method
+6+<.<| Introducing a ripple voltage on the DC input power port.
+
+| Applicability
+6+<.<| Applicable for measuring instruments which are temporarily or permanently
+connected to a DC mains power network (distribution system) supplied by external
+rectifier systems while in operation and generally only applicable in an industrial
+environment (see <<scls-8-4-2-1>>).
+
+| Object of the test
+6+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of the introduction of a ripple on the DC mains voltage.
+
+| Test procedure in brief
+6+<.<| A test generator as defined in the referred standard shall be used. Before
+starting the tests, the performance of the generator shall be verified.
+
+The test comprises subjecting the EUT to ripple voltages such as those generated
+by traditional rectifier systems and/or auxiliary service battery chargers overlaying
+on DC power supply sources. The frequency of the ripple voltage is the applicable
+power frequency or a multiple (2, 3 or 6) dependent on the rectifier system
+used for the mains. The waveform of the ripple, at the output of the test generator,
+has a sinusoid-linear character.
+
+The test shall be applied for at least stem:[10 "unitsml(min)"] or for the time
+period necessary to allow a complete verification of the EUT's operating performance.
+
+7+<.<| The following test levels may be specified:
+
+| Test level
+index
+footnote:[The test level considered most appropriate and preferable for OIML
+Recommendations is presented in *bold face.*]
+| *1*
+| 2
+| 3
+| 4
+| x
+footnote:["x" indicates that an alternative test level may be specified in the
+applicable OIML Recommendation.]
+| unit
+
+| Percentage of the nominal DC
+voltage
+footnote:[The values presented are the peak-to-peak voltages expressed as a
+percentage of the nominal DC voltage.]
+| *2*
+| 5
+| 10
+| 15
+| special
+| %
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+6+<.<| . test level,
+. waveform of the ripple voltage,
+. frequency of the ripple,
+. duration of the test,
+. climatic conditions,
+. etc.
+|===
+
+=== AC mains variations (within network specification)
+
+[[table-21]]
+.AC mains voltage variation
+[cols="<.<24a,<.<29a,^.^47a"]
+|===
+| Applicable standards
+2+<.<| <<IEC_TR_61000_2_1_1990>>, <<IEC_TR_61000_4_1_2016>>.
+
+| Test method
+2+<.<| Applying low- and high-level AC mains power voltage (single phase).
+
+| Applicability
+2+<.<| Applicable for measuring instruments which are temporarily or permanently
+connected to an AC mains power network while in operation.
+
+| Object of the test
+2+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of AC mains network voltage changes between upper and lower limit.
+
+| Test procedure in brief
+2+<.<| The test comprises exposure of the EUT to the specified power supply
+condition for a time period sufficient for achieving temperature stability and
+subsequently performing the required measurements.
+
+3+<.<| The following test level may be specified:
+
+2+| Test level index
+^.^| *1*
+
+.2+| Mains
+voltage
+footnote:[For three phase mains power supplies, the voltage variation is applicable
+for each of the phases successively.]
+footnoteblock:[fn-ac-mains-voltage-unom]
+| Upper limit
+| *stem:[U_"nom1" + 10 %]*
+
+| Lower limit
+^.^| *stem:[U_"nom2" - 15 %]*
+|===
+
+[[fn-ac-mains-voltage-unom]]
+[NOTE]
+--
+The values of stem:[U_"nom"] are those as marked on the measuring instrument.
+
+If a range is specified, stem:[U_"nom1"] concerns the highest and stem:[U_"nom2"]
+concerns the lowest value in the range. If only one nominal mains voltage value
+(stem:[U_"nom"]) is specified then +
+stem:[U_"nom1" = U_"nom2" = U_"nom"].
+--
+
+[[table-22]]
+.AC mains frequency variation
+[cols="<.<24a,<.<29a,^.^47a"]
+|===
+| Applicable standards
+2+<.<| <<IEC_61000_4_28_2009>>,
+<<IEC_TR_61000_2_1_1990>>,
+<<IEC_61000_2_2_2018>>,
+<<IEC_TR_61000_4_1_2016>>.
+
+| Test method
+2+<.<| Variation in AC mains power frequency.
+
+| Applicability
+2+<.<| Applicable for measuring instruments which are temporarily or permanently
+connected to an AC mains power network while in operation.
+
+| Object of the test
+2+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of AC mains network power frequency changes between upper and
+lower limit.
+
+| Test procedure in brief
+2+<.<| The test comprises exposure of the EUT to the specified power condition
+for a time period sufficient for achieving temperature stability and for performing
+the required measurements.
+
+3+<.<| The following test level may be specified:
+
+2+| Test level index
+^.^| *1*
+
+.2+| Mains
+frequency
+footnoteblock:[fn-ac-mains-frequency-fnom]
+footnoteblock:[fn-ac-mains-frequency-special]
+| Upper limit
+| *stem:[f_"nom1" + 2 %]*
+
+| Lower limit
+^.^| *stem:[f_"nom2" - 2 %]*
+|===
+
+[[fn-ac-mains-frequency-fnom]]
+[NOTE]
+--
+The values of stem:[f_"nom"] are those as marked on the measuring instrument.
+
+If a range is specified, stem:[f_"nom1"] concerns the highest and stem:[f_"nom2"]
+concerns the lowest value in the range. If only one nominal mains frequency
+value (stem:[f_"nom"]) is specified, then +
+stem:[f_"nom1" = f_"nom2" = f_"nom"].
+--
+
+[[fn-ac-mains-frequency-special]]
+[NOTE]
+--
+As the power frequency in interconnected networks varies only in a narrow frequency
+band around the rated frequency (stem:[50 "unitsml(Hz)"] or stem:[60 "unitsml(Hz)"]),
+this test applies only to special cases, for example:
+
+* instruments to be operated at large power frequency variations,
+* instruments to be installed in small networks that are isolated from a large
+interconnected system.
+--
+
+=== Mains power disturbances
+
+[[table-23]]
+.DC mains voltage dips, short interruptions and (short term) variations
+[cols="<.<11a,<.<13a,^.^16a,^.^6a,^.^6a,^.^13a,^.^35a"]
+|===
+2+| Applicable standard
+5+<.<| <<IEC_61000_4_29_2000>>; <<IEC_TR_61000_4_1_2016>>.
+
+2+| Test method
+5+<.<| Introducing voltage dips, short interruptions and voltage variations
+on DC mains power lines using the test setup defined in the applicable standard.
+
+2+| Applicability
+5+<.<| Applicable for measuring instruments which are temporarily or permanently
+connected to a DC mains power network while in operation. DC mains power networks
+are almost exclusively used in industrial environments.
+
+2+| Object of the test
+5+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of voltage dips, voltage variations and short interruptions
+on DC mains.
+
+2+| Test procedure in brief
+5+<.<| A test generator as defined in the referred standard shall be used. Before
+starting the tests, the performance of the generator shall be verified.
+
+The EUT shall be exposed to voltage dips, short interruptions, for each of the
+selected combinations of amplitude and duration, using a sequence of three
+dips/interruptions and intervals of at least stem:[10 "unitsml(s)"] between
+each test event.
+
+The most representative operating modes of the EUT shall be tested three times
+at stem:[10 "unitsml(s)"] intervals for each of the specified voltage variations.
+
+If the EUT is an integrating instrument, the test pulses shall be continuously
+applied during the measurement time.
+
+7+<.<| The following test levels may be
+specified:
+footnote:[The test level considered most appropriate and preferable for OIML
+Recommendations are Test level indexes 1 and 2 corresponding respectively to
+<<IEC_61000_4_11_2020>> Classes 2 and 3. These are presented in *bold face.*]
+
+.3+| Voltage dips
+| Test level index
+2+| *1*
+2+| stem:[i]
+footnote:["stem:[i], stem:[x] and stem:[t]" are variables and indicate that
+alternative test level with alternative characteristics may be specified in
+the applicable OIML Recommendation if accompanied by a rationale for such choice.]
+| unit
+
+| Amplitude
+2+^.^| *40 and 70*
+2+| stem:[x_i]
+| % of the rated voltage
+
+| Duration
+footnote:[One or more values of the presented amplitude and duration may be
+specified in the applicable OIML Recommendations. The shortest duration in the
+table should at least be included.]
+4+^.^| *0.01; 0.03; 0.1; 0.3; 1*; stem:[t]
+| stem:["unitsml(s)"]
+
+.3+| Short interruptions
+| Test condition
+4+| High impedance and/or low impedance
+|
+
+| Amplitude
+4+^.^| *0*
+| % of the rated voltage
+
+| Duration
+footnote:[One or more values of the presented amplitude and duration may be
+specified in the applicable OIML Recommendations. The shortest duration in the
+table should at least be included.]
+4+^.^| *0.001; 0.003; 0.01; 0.03; 0.1; 0.3; 1*; t
+| stem:["unitsml(s)"]
+
+.3+| Voltage variations
+| Test level index
+| *1*
+2+| 2
+| stem:[i]
+|
+
+| Amplitude
+^.^| *85 and 120*
+2+| 80 and 120
+| stem:[x_i]
+| % of the rated voltage
+
+| Duration
+footnote:[One or more values of the presented amplitude and duration may be
+specified in the applicable OIML Recommendations. The shortest duration in the
+table should at least be included.]
+4+^.^| *0.1; 0.3; 1; 3; 10*; stem:[t]
+| stem:["unitsml(s)"]
+
+2+| Information to be presented in the applicable OIML Recommendation, where relevant
+5+<.<| . amplitude and duration of the simulated disturbances,
+. climatic conditions,
+. performance level,
+. if the EUT is an integrating instrument: an exact description of the sequence
+of the test pulses,
+. etc.
+|===
+
+[[table-24]]
+.AC mains voltage dips, short interruptions and reductions
+[cols="<.<16a,<.^9a,<.<16a,^.^14a,^.^14a,^.^13a,^.^18a"]
+|===
+2+| Applicable standards
+5+<.<| <<IEC_61000_4_11_2020>>, <<IEC_61000_6_1_2016>>,
+<<IEC_61000_6_2_2016>>.
+
+2+| Test method
+5+<.<| Introducing short-time reductions of mains voltage using the test setup
+defined in the applicable standard.
+
+2+| Applicability
+5+<.<| Applicable for measuring instruments with rated input current of less
+than stem:[16 "unitsml(A)"] per phase which are temporarily or permanently connected
+to an AC mains power network while in operation.
+
+2+| Object of the test
+5+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of short time mains voltage reductions.
+
+2+| Test procedure in brief
+5+<.<| A test generator is to be used which is suitable to reduce the amplitude
+of the AC mains voltage for the required period of time.
+
+The performance of the test generator shall be verified before connecting the EUT.
+
+The mains voltage reduction tests shall be repeated 10 times with intervals
+of at least stem:[10 "unitsml(s)"] between the tests.
+
+If the EUT is an integrating instrument, the tests shall be applied continuously
+during the measurement time.
+
+7+<.<| One of the following test levels may be specified:
+
+2+| Test level
+index
+footnote:[The test level considered most appropriate and preferable for OIML
+Recommendations are Test level indexes 1 and 2 corresponding respectively to
+<<IEC_61000_4_11_2020>> Classes 2 and 3. These are presented in *bold face.*]
+.<|
+^.^| *1*
+| *2*
+| stem:[i]
+footnote:["stem:[i]", "stem:[x]" and "stem:[n]" are variables and indicate that
+alternative test levels with alternative characteristics may be specified in
+the applicable OIML Recommendation if accompanied by a rationale for such choice.
+For equipment connected directly or indirectly to the public network, the levels
+shall not be less severe than level 2.]
+| unit
+
+.10+<.^| Voltage
+dips
+footnote:[For the voltage dips, all tests within the test level may be applicable
+(see <<scls-8-4-2-4>>).]
+.2+| Test a
+| Reduction to
+| *0*
+| *0*
+| stem:[x_"a"]
+| %
+
+| Duration
+^| *0.5*
+^.^| *0.5*
+| stem:[n_"a"]
+| cycles
+
+.2+.^| Test b
+.<| Reduction to
+^.^| *0*
+| *0*
+| stem:[x_"b"]
+| %
+
+| Duration
+^| *1*
+^.^| *1*
+| stem:[n_"b"]
+| cycles
+
+.2+.^| Test c
+.<| Reduction to
+^.^| *70*
+| *40*
+| stem:[x_"c"]
+| %
+
+| Duration
+^| *25/30*
+footnote:[Values applicable for stem:[50 "unitsml(Hz)"] / stem:[60 "unitsml(Hz)"]
+respectively. Measuring instruments capable of operating at both frequencies
+shall be assessed at each frequency at their respective test level indices.]
+^.^| *10/12*
+footnote:[Values applicable for stem:[50 "unitsml(Hz)"] / stem:[60 "unitsml(Hz)"]
+respectively. Measuring instruments capable of operating at both frequencies
+shall be assessed at each frequency at their respective test level indices.]
+| stem:[n_"c"]
+| cycles
+
+.2+.^| Test d
+.<| Reduction to
+^.^| n/a
+| *70*
+| stem:[x_"d"]
+| %
+
+| Duration
+^| n/a
+^.^| *25/30*
+footnote:[Values applicable for stem:[50 "unitsml(Hz)"] / stem:[60 "unitsml(Hz)"]
+respectively. Measuring instruments capable of operating at both frequencies
+shall be assessed at each frequency at their respective test level indices.]
+| stem:[n_"d"]
+| cycles
+
+.2+.^| Test e
+.<| Reduction to
+^.^| n/a
+| *80*
+| stem:[x_"e"]
+| %
+
+| Duration
+^| n/a
+^.^| *250/300*
+footnote:[Values applicable for stem:[50 "unitsml(Hz)"] / stem:[60 "unitsml(Hz)"]
+respectively. Measuring instruments capable of operating at both frequencies
+shall be assessed at each frequency at their respective test level indices.]
+| stem:[n_"e"]
+| cycles
+
+2.2+<.^| Short interruptions
+.<| Reduction to
+2+^.^| *0*
+| stem:[x]
+| %
+
+| Duration
+2+^| *250/300*
+footnote:[Values applicable for stem:[50 "unitsml(Hz)"] / stem:[60 "unitsml(Hz)"]
+respectively. Measuring instruments capable of operating at both frequencies
+shall be assessed at each frequency at their respective test level indices.]
+^.^| stem:[n]
+| cycles
+
+2+| Information to be presented in the applicable OIML Recommendation, where relevant
+5+<.<| . amplitude and duration of the simulated disturbances,
+. performance of the instrument at each of the tests,
+. climatic conditions,
+. if the EUT is an integrating instrument: an exact description of the sequence
+of the test pulses,
+. etc.
+|===
+
+[[table-25]]
+.AC mains harmonics
+[cols="<.<25a,^.^13a,^.^13a,^.^13a,^.^13a,^.^12a,^.^11a"]
+|===
+| Applicable standards
+6+<.<| <<IEC_61000_2_2_2018>>,
+<<IEC_TR_61000_2_5_2017>>,
+<<IEC_61000_4_13_2015>>.
+
+| Test method
+6+<.<| Introducing harmonics on the AC mains power lines.
+
+| Applicability
+6+<.<| Applicable for measuring instruments which are temporarily or permanently
+connected to an AC mains power network while in operation.
+
+| Object of the test
+6+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+during conditions where the mains voltage is disturbed by harmonics of its fundamental
+frequency.
+
+| Test procedure in brief
+6+<.<| A test generator as defined in the referred standard shall be used.
+
+The characteristics of the generator shall be verified before connecting the EUT.
+
+The test comprises exposure of the EUT to mains harmonic distortions as defined
+in the referred standard.
+
+Harmonic voltages at test levels from stem:[3 %] and higher, up to the ninth
+harmonic, shall be applied using a phase shift of both stem:[0 "unitsml(deg)"]
+and stem:[180 "unitsml(deg)"] with respect to the positive zero-crossing of
+the fundamental. The test shall be performed up to the 40th harmonic.
+
+If the EUT is an integrating instrument, the harmonics shall be continuously
+applied during the measurement time.
+
+|
+<.<| Harmonic order stem:[n]
+5+<.<| The following test
+levels
+footnote:[For the calculation of the test levels from compatibility levels as
+specified in <<IEC_TR_61000_2_5_2017>> and <<IEC_61000_2_2_2018>> the
+<<IEC_61000_4_13_2015>> suggested multiplication factor stem:[k = 1.5] has been
+applied.] may be specified:
+
+| Test level
+index
+footnote:[The test levels considered most appropriate and preferable for OIML
+Recommendations are presented in *bold face.*]
+|
+| 1
+| *2*
+| *3*
+| stem:[i]
+footnote:["stem:[i]" and "stem:[x_n]" are variables and indicate that an alternative
+test level may be specified in the applicable OIML Recommendation if accompanied
+by a rationale for such choice.]
+| unit
+
+.8+| Odd harmonics +
+Non-multiples of 3
+| 5
+| 4.5
+| *9*
+| *12*
+| stem:[x_n]
+.17+| % +
+of rated voltage
+
+^.^| 7
+| 4.5
+| *7.5*
+| *10*
+| stem:[x_n]
+
+^.^| 11
+| 4.5
+| *5*
+| *7*
+| stem:[x_n]
+
+^.^| 13
+| 4
+| *4.5*
+| *7*
+| stem:[x_n]
+
+^.^| 17
+| 3
+| *3*
+| *6*
+| stem:[x_n]
+
+^.^| 19;23;25
+| 2
+| *2*
+| *6*
+| stem:[x_n]
+
+^.^| 29
+| 1.5
+| *1.5*
+| *5*
+| stem:[x_n]
+
+^.^| 31;35;37
+| 1.5
+| *1.5*
+| *3*
+| stem:[x_n]
+
+.5+| Odd harmonics multiples of 3
+| 3
+| 4.5
+| *8*
+| *9*
+| stem:[x_n]
+
+^.^| 9
+| 2
+| *2.5*
+| *4*
+| stem:[x_n]
+
+^.^| 15
+| -
+| *-*
+| *3*
+| stem:[x_n]
+
+^.^| 21
+| -
+| *-*
+| *2*
+| stem:[x_n]
+
+^.^| 27;33;39
+| -
+| *-*
+| *2*
+| stem:[x_n]
+
+.4+| Even harmonics
+| 2
+| 3
+| *3*
+| *5*
+| stem:[x_n]
+
+^.^| 4
+| 1.5
+| *1.5*
+| *2*
+| stem:[x_n]
+
+^.^| 6
+| -
+| *-*
+| *1.5*
+| stem:[x_n]
+
+^.^| 8 – 40
+| -
+| *-*
+| *1.5*
+| stem:[x_n]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+6+<.<| . test level to be applied,
+. climatic conditions,
+. if the EUT is an integrating instrument: an exact description of the sequence
+of testing,
+. etc.
+|===
+
+[[table-26]]
+.VLF and LF disturbances on AC and DC mains
+[cols="<.^24a,^.^11a,^.^11a,^.^11a,^.^11a,^.^11a,^.^11a,^.^10a"]
+|===
+<.<| Applicable standards
+7+<.<| <<IEC_61000_4_19_2014>>.
+
+<.<| Test method
+7+<.<| Introducing VLF and LF differential mode disturbances on the AC or DC
+mains power lines.
+
+<.<| Applicability
+7+<.<| Applicable for measuring instruments which are temporarily or permanently
+connected to an AC mains power network while in operation.
+
+<.<| Object of the test
+7+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of VLF and LF differential mode disturbances on the AC or DC
+mains network.
+
+<.<| Test procedure in brief
+7+<.<| The test comprises exposure of the EUT to the specified disturbances
+for a time period sufficient for performing the required
+measurements
+footnote:[For details on pulses to be introduced refer to <<IEC_61000_4_19_2014>>.].
+
+8+<.<| The following test levels may be specified:
+
+2+<.<| Test level
+index
+footnote:[The test levels considered most appropriate and preferable for OIML
+Recommendations are presented in *bold face.*]
+| 1
+| *2*
+| 3
+| 4
+| stem:[i]
+footnote:["stem:[i]" and "stem:[x_n]" are variables and indicate that an alternative
+test level may be specified in the applicable OIML Recommendation if accompanied
+by a rationale for such choice.]
+.2+| unit +
+(RMS value)
+
+<.<| Disturbance
+| Freq. +
+{empty}[stem:["unitsml(kHz)"]]
+|
+|
+|
+|
+|
+
+.2+| Differential current
+| 2 – 30
+| 1
+| *2*
+| 3
+| 4
+| stem:[x_n]
+| stem:["unitsml(A)"]
+
+^| 30 – 150
+| 0.5
+| *1*
+| 1.5
+| 2
+| stem:[x_n]
+| stem:["unitsml(A)"]
+
+.3+| Differential voltage
+| 2 – 9
+| 0.5
+| *3*
+| 12
+| 20
+| stem:[x_n]
+| stem:["unitsml(V)"]
+
+^| 9 – 95
+| 0.5 – 0.1
+| *3 – 0.6*
+| 12 – 2.4
+| 20 – 10
+| stem:[x_n]
+| stem:["unitsml(V)"]
+
+^| 95 – 150
+| 0.1
+| *0.6*
+| 2.4
+| 10
+| stem:[x_n]
+| stem:["unitsml(V)"]
+|===
+
+[[table-27]]
+.Bursts (transients) on AC and DC mains
+[cols="<.<24a,^.^12a,^.^12a,^.^12a,^.^12a,^.^12a,^.^16a"]
+|===
+| Applicable standards
+6+<.<| <<IEC_61000_4_4_2012>>.
+
+| Test method
+6+<.<| Introducing transients on the mains power lines.
+
+| Applicability
+6+<.<| Applicable for electronic measuring instruments which are temporarily
+or permanently connected to a mains power network while in operation.
+
+| Object of the test
+6+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+during conditions where electrical bursts are superimposed on the mains voltage.
+
+| Test procedure in brief
+6+<.<| A burst generator as defined in the referred standard shall be used. +
+The characteristics of the generator shall be verified before connecting the EUT.
+
+The test comprises exposure to bursts of voltage spikes for which the output
+voltage on stem:[50 "unitsml(Ohm)"] and stem:[1000 "unitsml(Ohm)"] load are
+defined in the referred standard.
+
+Both positive and negative polarity of the bursts shall be applied.
+
+The duration of the test shall not be less than stem:[1 "unitsml(min)"] for
+each amplitude and polarity. The injection network on the mains shall contain
+blocking filters to prevent the burst energy being dissipated in the mains.
+
+If the EUT is an integrating instrument, the test pulses shall be continuously
+applied during the measurement time.
+
+7+<.<| The following test levels may be specified:
+
+| Test level
+index
+footnote:[The test levels considered most appropriate and preferable for OIML
+Recommendations are presented in *bold face.*]
+| 1
+| *2*
+| *3*
+| 4
+| stem:[i]
+footnote:["stem:[i]" and "stem:[U]" are variables and indicate that an alternative
+amplitude may be specified in the applicable OIML Recommendation if accompanied
+by a rationale for such choice.]
+| unit
+
+| Amplitude (peak value)
+| 0.5
+| *1*
+| *2*
+| 4
+| stem:[U]
+| stem:["unitsml(kV)"]
+
+|
+5+|
+|
+
+| Repetition rate
+5+| *100*
+footnote:[stem:[100 "unitsml(kHz)"] is recommended however an OIML Recommendation
+may choose to perform an additional test at stem:[5 "unitsml(kHz)"]]
+| stem:["unitsml(kHz)"]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+6+<.<| . test level to be applied,
+. climatic conditions,
+. if the EUT is an integrating instrument: an exact description of the sequence
+of testing,
+. etc.
+|===
+
+[[table-28]]
+.Surges on AC and DC mains power lines
+[cols="<.<23a,^.^11a,^.^11a,^.^11a,^.^11a,^.^11a,^.^11a,^.^11a"]
+|===
+| Applicable standard
+7+<.<| <<IEC_61000_4_5_2017>>.
+
+| Test method
+7+<.<| Introducing electrical surges on the mains power lines.
+
+| Applicability
+7+<.<| Applicable for electronic measuring instruments which are temporarily
+or permanently connected to a mains power network while in operation.
+
+| Object of the test
+7+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+during conditions where electrical surges are superimposed on the mains voltage.
+
+| Test procedure in brief
+7+<.<| A surge generator as defined in the referred standard shall be used.
+The characteristics of the generator shall be verified before connecting the EUT.
+
+The test comprises exposure to electrical surges for which the rise time, pulse
+width, peak values of the output voltage/current on high/low impedance load
+and the minimum time interval between two successive pulses are defined in the
+referred standard.
+
+At least 3 positive and 3 negative surges shall be applied.
+
+On AC mains supply lines the surges shall be synchronised with the AC supply
+frequency and shall be repeated such that the injection of surges on all the
+four phase shifts: stem:[0 "unitsml(deg)"], stem:[90 "unitsml(deg)"],
+stem:[180 "unitsml(deg)"] and stem:[270 "unitsml(deg)"] with the mains frequency
+is covered.
+
+All surge tests shall be repeated for each severity level lower than the specified
+test level index applicable for the EUT. This shall ensure that the non-linear
+characteristics of the EUT are assessed.
+
+The injection network circuit depends on the applicable conductor and is defined
+in the referred standard.
+
+If the EUT is an integrating instrument, the test pulses shall be continuously
+applied during the measurement time.
+
+8+<.<| The following test levels may be specified:
+
+<.^| Test level
+index
+footnote:[The test level considered most appropriate and preferable for OIML
+Recommendations is presented in *bold face.*] +
+(installation class)
+| 1
+| 2
+| *3*
+| 4
+| 5
+| stem:[i]
+footnote:["stem:[i]" and "stem:[U_n]" indicate that alternative voltage levels
+may be specified in the applicable OIML Recommendation if accompanied by a rationale
+for such choice.]
+| unit
+
+| AC line to line
+| n/a
+| 0.5
+| *1.0*
+| 2.0
+|
+footnote:[Depends on the class of the local power supply system.]
+| stem:[U_1]
+| stem:["unitsml(kV)"]
+
+| AC line to ground
+| 0.5
+| 1.0
+| *2.0*
+| 4.0
+|
+footnote:[Depends on the class of the local power supply system.]
+| stem:[U_2]
+| stem:["unitsml(kV)"]
+
+| DC line to line
+| n/a
+| n/a
+| *1.0*
+footnote:[The most recent version of <<IEC_61000_4_5_2017>> specifies "n/a"
+for the level 3 DC tests.]
+| 2.0
+| 2.0
+| stem:[U_3]
+| stem:["unitsml(kV)"]
+
+| DC line to ground
+| n/a
+| n/a
+| *2.0*
+footnote:[The most recent version of <<IEC_61000_4_5_2017>> specifies "n/a"
+for the level 3 DC tests.]
+| 4.0
+| 4.0
+| stem:[U_4]
+| stem:["unitsml(kV)"]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+7+<.<| . test level (installation class according to
+<<IEC_61000_4_5_2017>>),
+. climatic conditions,
+. coupling method,
+. setup of the EUT for this test,
+. permissible changes in the performance of the EUT as a result of this test,
+. if the EUT is an integrating instrument: an exact description of the sequence
+of the test pulses,
+. etc.
+|===
+
+=== Other disturbances introduced through conduction by connected external wiring
+
+[[table-29]]
+.Bursts (transients) on signal, data and control lines
+[cols="<.<24a,^.^12a,^.^12a,^.^12a,^.^12a,^.^12a,^.^16a"]
+|===
+| Applicable standards
+6+<.<| <<IEC_61000_4_4_2012>>.
+
+| Test method
+6+<.<| Introducing transients on signal, data and control lines.
+
+| Applicability
+6+<.<| Applicable for electronic measuring instruments containing active electronic
+circuits which during operation are permanently or temporarily connected to
+external electrical signal, data and/or control lines.
+
+| Object of the test
+6+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+during conditions where electrical bursts are superimposed on I/O and communication
+ports.
+
+| Test procedure in brief
+6+<.<| A burst generator as defined in the referred standard shall be used.
+The characteristics of the generator shall be verified before connecting the EUT.
+
+The test comprises exposure to bursts of voltage spikes for which the output
+voltage on stem:[50 "unitsml(Ohm)"] and stem:[1000 "unitsml(Ohm)"] load is defined
+in the referred standard.
+
+Both positive and negative polarity of the bursts shall be applied.
+
+The duration of the test shall not be less than stem:[1 "unitsml(min)"] for
+each amplitude and polarity.
+
+A capacitive coupling clamp as defined in the standard shall be used for the
+coupling of the bursts into the I/O and communication lines.
+
+If the EUT is an integrating instrument, the test pulses shall be continuously
+applied during the measurement time.
+
+7+<.<| The following test levels may be specified:
+
+| Test level
+index
+footnote:[The test levels considered most appropriate and preferable for OIML
+Recommendations are presented in *bold face.*]
+| 1
+| *2*
+| *3*
+| 4
+| stem:[i]
+footnote:["stem:[i]" and "stem:[U]" are variables and indicate that an alternative
+amplitude may be specified in the applicable OIML Recommendation if accompanied
+by a rationale for such choice.]
+| unit
+
+| Amplitude (peak value)
+| 0.25
+| *0.5*
+| *1*
+| 2
+| stem:[U]
+| stem:["unitsml(kV)"]
+
+|
+5+|
+|
+
+| Repetition rate
+5+| *100*
+footnote:[stem:[100 "unitsml(kHz)"] is recommended however an OIML Recommendation
+may choose to an additional test at stem:[5 "unitsml(kHz)"]]
+| stem:["unitsml(kHz)"]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+6+<.<| . test level to be applied,
+. climatic conditions,
+. signal cables to be exposed to bursts,
+. if the EUT is an integrating instrument: an exact description of the sequence
+of the test pulses,
+. etc.
+|===
+
+[[table-30]]
+.Surges on signal, data and control lines
+[cols="<.<17a,<.<9a,^.^9a,^.^9a,^.^9a,^.^9a,^.^9a,^.^9a,^.^10a,^.^10a"]
+|===
+2+| Applicable standard
+8+<.<| <<IEC_61000_4_5_2017>>.
+
+2+| Test method
+8+<.<| Introducing electrical surges on signal, data and control lines.
+
+2+| Applicability
+8+<.<| Applicable for electronic measuring instruments containing active electronic
+circuits which during operation are temporarily or permanently connected to
+electrical signal, data and/or control lines that may exceed a length of
+stem:[10 "unitsml(m)"].
+
+2+| Object of the test
+8+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+during conditions where electrical surges are superimposed on I/O and communication
+ports.
+
+2+| Test procedure in brief
+8+<.<| A surge generator as defined in the referred standard shall be used.
+The characteristics of the generator shall be verified before connecting the EUT.
+
+The test comprises exposure to electrical surges for which the rise time, pulse
+width, peak values of the output voltage/current on high/low impedance load
+and the minimum time interval between two successive pulses are defined in the
+referred standard.
+
+At least 3 positive and 3 negative surges shall be applied. The applicable injection
+network depends on the kind of wiring the surge is coupled into and is defined
+in the referred standard.
+
+If the EUT is an integrating instrument, the test pulses shall be continuously
+applied during the measurement time.
+
+10+<.<| The following test levels may be specified:
+
+2+| Test level index +
+(Installation
+class)
+footnote:[The test levels considered most appropriate and preferable for OIML
+Recommendations are presented in *bold face*.]
+^.^| 0
+| 1
+| 2
+| *3*
+| 4
+| 5
+| stem:[i]
+footnote:["stem:[i]" and stem:[U_n] indicate that an alternative voltage level
+may be specified in the applicable OIML Recommendation if accompanied by a rationale
+for such choice.]
+| unit
+
+.2+| Unsymmetrical lines
+| Line to line
+| n/a
+| n/a
+| 0.5
+| *1.0*
+| 2.0
+| 2.0
+| stem:[U_1]
+| stem:["unitsml(kV)"]
+
+| Line(s) to ground
+^.^| n/a
+| 0.5
+| 1.0
+| *2.0*
+| 4.0
+| 4.0
+| stem:[U_2]
+| stem:["unitsml(kV)"]
+
+| Symmetrical lines
+| Line(s) to ground
+| n/a
+| 0.5
+| 1.0
+| *2.0*
+| 4.0
+| 4.0
+| stem:[U_3]
+| stem:["unitsml(kV)"]
+
+| Shielded I/O and communication lines
+| Shield to ground
+| n/a
+| n/a
+| 0.5
+| *2.0*
+| 4.0
+| 4.0
+| stem:[U_4]
+| stem:["unitsml(kV)"]
+
+2+| Information to be presented in the applicable OIML Recommendation, where relevant
+8+<.<| . test level to be applied (installation class according to
+<<IEC_61000_4_5_2017>>),
+. climatic conditions,
+. coupling method,
+. setup of the EUT for this test,
+. permissible changes in the performance of the EUT as a result of this test,
+. if the EUT is an integrating instrument: an exact description of the sequence
+of the test pulses.
+|===

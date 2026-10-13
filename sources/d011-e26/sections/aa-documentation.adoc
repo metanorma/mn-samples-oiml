@@ -1,0 +1,73 @@
+// OIML D 11:2026, páginas 78 y 79 del PDF: Annex A (Informative).
+[[annex-a]]
+[appendix,obligation=informative]
+== Documentation for type evaluation
+
+The applicable OIML Recommendation specifies the documentation to be submitted
+with the application for type approval which at least includes information concerning
+the
+
+* principle of operation,
+* actual design,
+* integrity securing measures,
+* software and data management,
+* installation requirements,
+* operating instructions,
+* provisions for testing, servicing and maintenance,
+* specific instrument or device depending measures needed, and
+* evidence on compliance to the requirements of the OIML Recommendation.
+
+[.underline]#Examples#:
+
+_concerning the principle of operation:_
+
+* specific description/flowchart giving the technical characteristics and the
+principle of operation.
+
+_concerning the actual design:_
+
+* design drawings; photographs; panel layout,
+* flow diagram of the logic, showing the functions of the constituent devices,
+* description of the devices with drawings, diagrams,
+* lists of the essential constituent devices, modules and components with their
+essential characteristics.
+
+_concerning the integrity securing measures:_
+
+* installation and security sealing plan,
+* drawing(s) presenting the security sealing plan and the provisions and location
+for verification marks,
+* drawing of regulatory markings.
+
+_concerning software and data management:_
+
+* specific information on the software required,
+* assessment of metrological relevant software. +
+_Note_: Refer to <<OIML_D_31_2023>> for further details.
+
+_concerning the installation requirements:_
+
+* an assembly drawing with identification of different constituent parts,
+* installation practices or operational constraints.
+
+_concerning operating instructions:_
+
+* user and installer manual,
+* for correction devices, a description of the determination and execution of
+the correction.
+
+_concerning provisions for testing, servicing and maintenance:_
+
+* availability and location of mounting and connection provisions for testing,
+* availability and location of provision for switching to a test service or
+maintenance mode.
+
+_concerning specific instruments and assemblies;_
+
+* list of the parts that may influence the metrological behaviour with a description
+of their constituent materials.
+
+_concerning evidence on compliance to the requirements of the OIML Recommendation:_
+
+* certificates and test reports,
+* declaration of conformity by the manufacturer.

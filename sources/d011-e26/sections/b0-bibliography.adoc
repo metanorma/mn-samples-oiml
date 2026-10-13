@@ -1,0 +1,805 @@
+// OIML D 11:2026, páginas 88 a 98 del PDF: Annex E "Bibliography and notes" (Informative).
+// La tabla de tres columnas del PDF (Ref., Standards and reference documents, Description)
+// pasa a una lista [bibliography]: Metanorma genera la columna Ref.; la designación va como
+// "documento:año" (A37); los títulos se quitan y la descripción va como nota al pie (A38).
+[bibliography]
+== Bibliography and notes
+
+At the time of publication, the editions indicated were valid. All normative
+documents are subject to revision, and the users of this Document are encouraged
+to investigate the possibility of applying the most recent editions of the normative
+documents indicated below. Members of IEC and ISO maintain registers of currently
+valid International Standards.
+
+The actual status of the standards referred to can also be found on the Internet:
+
+IEC publications: https://webstore.iec.ch +
+ISO publications: http://www.iso.org/iso/en/CatalogueListPage.CatalogueList +
+OIML publications: http://www.oiml.org/en/publications/ (free download of PDF files)
+
+In order to avoid any misunderstanding, it is highly recommended that all references
+to standards in OIML Recommendations and International Documents be followed
+by the edition referred to (generally the year or the date).
+
+* [[[OIML_D_31_2023,OIML D 31:2023]]]
+footnote:[Specifies the general requirements applicable to legally relevant
+software-related functionality and security in measuring instruments and gives
+guidance for verifying the compliance of an instrument with these requirements.]
+
+* [[[OIML_V_1_2022,OIML V 1:2022]]]
+footnote:[Provides set of terms and definitions related to various aspects of
+legal metrology which are dealt with in OIML publications.]
+
+* [[[OIML_V_2_200_2012,OIML V 2-200:2012]]]
+footnote:[Vocabulary, drawn up by Working group 2 of the Joint Committee for
+Guides in Metrology (JCGM), consisting of experts appointed by BIPM, IEC, IFCC,
+ISO, IUPAC, IUPAP, and OIML.]
+
+* [[[OIML_B6_2_2023,OIML B6-2:2023]]]
+footnote:[Provides instructions for the drafting and presentation of OIML publications
+to ensure that all OIML publications are presented in as uniform a manner as
+possible.]
+
+* [[[IEC_60068_1_2013,IEC 60068-1:2013]]]
+footnoteblock:foot_IEC_60068_1_2013[]
+
+[[foot_IEC_60068_1_2013]]
+[NOTE]
+====
+Stability date: 2027
+
+Enumerates a series of environmental tests and appropriate severities, and prescribes
+various atmospheric conditions for measurements for the ability of specimens
+to perform under normal conditions of transportation, storage and operational use.
+====
+
+* [[[IEC_60721_3_3_2019,IEC 60721-3-3:2019]]]
+footnoteblock:foot_IEC_60721_3_3_2019[]
+
+[[foot_IEC_60721_3_3_2019]]
+[NOTE]
+====
+Stability date: 2027
+
+Classifies groups of environmental parameters and their severities to which
+products are subjected when mounted for stationary use at weather-protected
+locations.
+====
+
+* [[[IEC_60721_3_4_2019,IEC 60721-3-4:2019]]]
+footnoteblock:foot_IEC_60721_3_4_2019[]
+
+[[foot_IEC_60721_3_4_2019]]
+[NOTE]
+====
+Stability date: 2027
+
+Classifies groups of environmental parameters and the severities to which a
+product may be exposed under use conditions, including periods of erection work,
+downtime, maintenance and repair, when mounted for stationary use at locations
+which are non-weather protected.
+====
+
+* [[[IEC_60068_3_4_2023,IEC 60068-3-4:2023]]]
+footnoteblock:foot_IEC_60068_3_4_2023[]
+
+[[foot_IEC_60068_3_4_2023]]
+[NOTE]
+====
+Stability date :2027
+
+Provides the necessary information to assist in preparing relevant specifications,
+such as standards for components or equipment, in order to select appropriate
+tests and test severities for specific products and, in some cases, specific
+types of application. The object of damp heat tests is to determine the ability
+of products to withstand the stresses occurring in a high relative humidity
+environment, with or without condensation, and with special regard to variations
+in electrical and mechanical characteristics. Damp heat tests may also be utilised
+to check the resistance of a specimen to some forms of corrosion attack.
+====
+
+* [[[IEC_60068_3_8_2003,IEC 60068-3-8:2003]]]
+footnoteblock:foot_IEC_60068_3_8_2003[]
+
+[[foot_IEC_60068_3_8_2003]]
+[NOTE]
+====
+Stability date: 2025
+
+Provides guidance for selecting amongst the IEC 60068-2 stationary vibration
+test methods Fc sinusoidal, Fh random and F(x) Mixed mode vibration. The different
+steady-state test methods and their aims are briefly described in Clause 4.
+Transient test methods are not included. For vibration testing, the environmental
+conditions, especially the dynamic conditions for the specimen, should be known.
+This standard helps to collect information about the environmental conditions
+(Clause 5), to estimate or measure the dynamic conditions (Clause 6) and gives
+examples to enable decisions to be made on the most applicable environmental
+vibration test method. Starting from the condition, the method of selecting
+the appropriate test is given. Since real life vibration conditions are dominated
+by vibration of a random nature, random testing should be the commonly used
+method, see Table 1, Clause 7. The methods included hereafter may be used to
+examine the vibration response of a specimen under test before, during and after
+vibration testing. The selection for the appropriate excitation method is described
+in Clause 8 and tabulated in Table 2. In this standard specification, writers
+will find information concerning vibration test methods and guidance for their
+selection.
+====
+
+* [[[IEC_TR_61000_2_5_2017,IEC TR 61000-2-5:2017]]]
+footnoteblock:foot_IEC_TR_61000_2_5_2017[]
+
+[[foot_IEC_TR_61000_2_5_2017]]
+[NOTE]
+====
+Stability date: 2025
+
+This publication is a technical report intended for guidance for those who are
+in charge of writing immunity standards for an equipment or system. Its purpose
+is to classify electromagnetic environments and help improve the specification
+of the immunity requirements of an item containing electrical or electronic
+parts, and consequently obtain electromagnetic compatibility. It also gives
+basic guidance for the selection of immunity levels. The data are applicable
+to any equipment, subsystem or system making use of electromagnetic energy and
+operating in a specific location as defined by this report.
+====
+
+* [[[IEC_61000_4_5_2017,IEC 61000-4-5:2017]]]
+footnoteblock:foot_IEC_61000_4_5_2017[]
+
+[[foot_IEC_61000_4_5_2017]]
+[NOTE]
+====
+Stability date: 2027
+
+Provides the immunity requirements, test methods, and range of recommended test
+levels for electrical and electronic equipment to unidirectional surges caused
+by overvoltage from switching and lightning transients. Several test levels
+are defined which relate to different environment and installation conditions.
+It establishes a common reference for evaluating the performance of equipment
+when subjected to high-energy disturbances on the power and inter-connection lines.
+====
+
+* [[[IEC_61000_4_17_2009,IEC 61000-4-17:2009]]]
+footnoteblock:foot_IEC_61000_4_17_2009[]
+
+[[foot_IEC_61000_4_17_2009]]
+[NOTE]
+====
+Stability date: 2027
+
+Provides test methods for immunity to ripple at the DC input power port of electrical
+or electronic equipment. This standard is applicable to low-voltage DC power
+ports of equipment supplied by external rectifier systems, or batteries which
+are being charged. This standard defines:
+
+* test voltage waveform,
+* range of test levels,
+* test generator,
+* test setup,
+* test procedure.
+
+This test does not apply to equipment connected to battery charger systems incorporating
+switch mode converters.
+====
+
+* [[[IEC_61000_4_29_2000,IEC 61000-4-29:2000]]]
+footnoteblock:foot_IEC_61000_4_29_2000[]
+
+[[foot_IEC_61000_4_29_2000]]
+[NOTE]
+====
+Stability date: 2025
+
+Provides test methods for immunity to voltage dips, short interruptions and
+voltage variations at the DC input power ports of electrical or electronic equipment.
+This standard is applicable to low voltage DC power ports of equipment supplied
+by external DC networks. This standard defines:
+
+* the range of test levels,
+* the test generator,
+* the test setup,
+* the test procedure.
+====
+
+* [[[IEC_61000_4_13_2015,IEC 61000-4-13:2015]]]
+footnoteblock:foot_IEC_61000_4_13_2015[]
+
+[[foot_IEC_61000_4_13_2015]]
+[NOTE]
+====
+Stability date: 2026
+
+Provides the immunity test methods and range of preferred basic test levels
+for electrical and electronic equipment with rated current up to stem:[16 "unitsml(A)"]
+per phase at disturbance frequencies up to and including stem:[2 "unitsml(kHz)"]
+(for stem:[50 "unitsml(Hz)"] mains) and stem:[2.4 "unitsml(kHz)"] (for
+stem:[60 "unitsml(Hz)"] mains) for harmonics and inter-harmonics on low voltage
+power networks.
+====
+
+* [[[IEC_61000_4_3_2020,IEC 61000-4-3:2020]]]
+footnoteblock:foot_IEC_61000_4_3_2020[]
+
+[[foot_IEC_61000_4_3_2020]]
+[NOTE]
+====
+Stability date: 2025
+
+Provides the immunity requirements of electrical and electronic equipment to
+radiated electromagnetic energy. It establishes test levels and the required
+test procedures. Establishes a common reference for evaluating the performance
+of electrical and electronic equipment when subjected to radio-frequency electromagnetic
+fields form any source.
+====
+
+* [[[IEC_60601_1_2_2020,IEC 60601-1-2:2020]]]
+footnote:[Applies to the basic safety and essential performance of Medical Equipment
+(ME) equipment and ME systems in the presence of electromagnetic disturbances
+and to electromagnetic disturbances emitted by me equipment and me systems.
+This collateral standard to IEC 60601-1 specifies general requirements and tests
+for basic safety and essential performance with regard to electromagnetic disturbances
+and for electromagnetic emissions of ME equipment and ME systems.]
+
+* [[[IEC_61000_4_39_2017,IEC 61000-4-39:2017]]]
+footnoteblock:foot_IEC_61000_4_39_2017[]
+
+[[foot_IEC_61000_4_39_2017]]
+[NOTE]
+====
+Stability date: 2025
+
+Specifies immunity requirements for electrical and electronic equipment when
+it is exposed to radiated electromagnetic energy from RF transmitters used in
+close proximity. It establishes test levels and the required test procedures.
+The applicable frequency range is stem:[9 "unitsml(kHz)"] to stem:[6 "unitsml(GHz)"].
+It has the status of a basic EMC publication in accordance with IEC Guide 107.
+====
+
+* [[[ISO_7637_1_2023,ISO 7637-1:2023]]]
+footnote:[Defines basic terms related to electrical disturbances from conduction
+and coupling used in the other parts of this standard and gives general information
+common to all parts.]
+
+* [[[ISO_7637_2_2011,ISO 7637-2:2011]]]
+footnote:[Provides test methods and procedures to ensure the compatibility to
+conducted electrical transients of equipment installed on passenger cars and
+commercial vehicles fitted with stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"]
+electrical systems. It describes bench tests for both the injection and measurement
+of transients. It is applicable to all types of road vehicles independent of
+the propulsion system (e.g. spark ignition or diesel engine, electric motor).
+Function performance status classification for immunity to transients is also
+provided.]
+
+* [[[ISO_7637_3_2016,ISO 7637-3:2016]]]
+footnote:[Provides a common basis for the evaluation of the EMC of electronic
+instruments, devices and equipment in vehicles against transient transmission
+by coupling via lines other than supply lines. The intention of the test is
+to demonstrate the immunity of the instrument, device or equipment when subjected
+to fast transient disturbances coupled from ambient wiring, such as those caused
+by switching (switching of inductive loads, relay contact bounce, etc.).]
+
+* [[[ISO_16750_2_2023,ISO 16750-2:2023]]]
+footnote:[Specifies electrical loads and provides corresponding tests and requirements
+for the mounting of electric and electronic systems and components on road vehicles.
+It is applicable to environmental conditions and tests affecting electrical
+and electronic equipment mounted directly on or in the vehicle. It does not
+cover electromagnetic compatibility (EMC).]
+
+* [[[IEC_61000_4_4_2012,IEC 61000-4-4:2012]]]
+footnoteblock:foot_IEC_61000_4_4_2012[]
+
+[[foot_IEC_61000_4_4_2012]]
+[NOTE]
+====
+Stability date: 2025
+
+Establishes a common and reproducible reference for evaluating the immunity
+of electrical and electronic equipment when subjected to electrical fast transient/bursts
+on supply, signal, control and earth ports. The test method documented in this
+part of IEC 61000-4 describes a consistent method to assess the immunity of
+an equipment or system against a defined phenomenon. The standard defines:
+
+* test voltage waveform,
+* range of test levels,
+* test equipment,
+* verification procedures of test equipment,
+* test setup,
+* test procedure.
+
+The standard gives specifications for laboratory and post-installation tests.
+This third edition constitutes a technical revision of the second version and
+improves and clarifies simulator specifications, test criteria and test setups.
+====
+
+* [[[OIML_G_19_2017,OIML G 19:2017]]]
+footnote:[Provide guidance to OIML Secretariats and Conveners and to members
+of OIML Technical Committees, Subcommittees and Project Groups, on incorporating
+the concept of "measurement uncertainty" into OIML Recommendations and other
+OIML publications used for legal metrology purposes.]
+
+* [[[IEC_60068_2_2_2007,IEC 60068-2-2:2007]]]
+footnoteblock:foot_IEC_60068_2_2_2007[]
+
+[[foot_IEC_60068_2_2_2007]]
+[NOTE]
+====
+Stability date: 2024
+
+Concerns exposure to high temperatures and low humidity (dry heat) tests on
+both non-heat-dissipating and heat-dissipating specimens and contains the following
+tests with gradual change of temperature: Bb: for non-heat-dissipating specimens;
+Bd: for heat-dissipating specimens and Be: for heat-dissipating specimens powered
+throughout the test.
+====
+
+* [[[IEC_60068_3_1_2023,IEC 60068-3-1:2023]]]
+footnoteblock:foot_IEC_60068_3_1_2023[]
+
+[[foot_IEC_60068_3_1_2023]]
+[NOTE]
+====
+Stability date: 2027
+
+Provides guidance regarding the performance of cold and dry heat tests. This
+second edition cancels and replaces the first edition, published in 1974, and
+constitutes a technical revision. The main changes with regard to the previous
+edition are as follows:
+
+* removal of guidance regarding thermal characteristics of chamber walls;
+* revision of sections that address environmental chambers that do not use movement
+of air for temperature control.
+====
+
+* [[[IEC_60068_2_1_2007,IEC 60068-2-1:2007]]]
+footnoteblock:foot_IEC_60068_2_1_2007[]
+
+[[foot_IEC_60068_2_1_2007]]
+[NOTE]
+====
+Stability date: 2024
+
+Concerns exposure to low temperatures (cold) tests on both non-heat-dissipating
+and heat-dissipating specimens.
+====
+
+* [[[IEC_60068_2_78_2012,IEC 60068-2-78:2012]]]
+footnoteblock:foot_IEC_60068_2_78_2012[]
+
+[[foot_IEC_60068_2_78_2012]]
+[NOTE]
+====
+Stability date: 2024
+
+Provides a test method for determining the suitability of electro technical
+products, components or equipment for transportation, storage and use under
+conditions of high humidity. The test is primarily intended to permit the observation
+of the effect of high humidity at constant temperature without condensation
+on the specimen over a prescribed period. This test provides a number of preferred
+severities of high temperature, high humidity and test duration. The test can
+be applied to both heat-dissipating and non-heat-dissipating specimens. The
+test is applicable to small equipment or components as well as large equipment.
+This second edition includes editorial and format changes with respect to the
+first edition. The test chamber from IEC 60068-3-6 has been introduced.
+====
+
+* [[[IEC_60068_2_30_2005,IEC 60068-2-30:2005]]]
+footnoteblock:foot_IEC_60068_2_30_2005[]
+
+[[foot_IEC_60068_2_30_2005]]
+[NOTE]
+====
+Stability date: 2024
+
+Determines the suitability of components, equipment or other articles for use,
+transportation and storage under conditions of high humidity - combined with
+cyclic temperature changes and, in general, producing condensation on the surface
+of the specimen.
+====
+
+* [[[IEC_60068_2_18_2017,IEC 60068-2-18:2017]]]
+footnoteblock:foot_IEC_60068_2_18_2017[]
+
+[[foot_IEC_60068_2_18_2017]]
+[NOTE]
+====
+Stability date: 2026
+
+Provides methods of test applicable to products which, during transportation,
+storage or in service, may be subjected to falling drops, impacting water or
+immersion. The primary purpose of water tests is to verify the ability of enclosure
+covers and seals to maintain components and equipment in good working order
+after and, when necessary, under a standardised drop field or immersion in water.
+These tests are not corrosion tests and should not be considered or used as
+such. The effects of a large temperature difference between the water and the
+specimen, such as increased water ingress resulting from pressure changes, as
+well as thermal shock, are not simulated. Established water tests in other standards
+are not intended to simulate natural rainfall and their quoted intensities are
+too high to be adopted for that purpose. Therefore, in addition to the high-intensity
+severities, Test R includes an artificial rain test based on natural conditions
+but not taking into account high wind speeds generally associated with natural
+rain. Guidance is given on the applicability of the tests and the severities
+to be selected.
+====
+
+* [[[IEC_60512_14_7_1997,IEC 60512-14-7:1997]]]
+footnoteblock:foot_IEC_60512_14_7_1997[]
+
+[[foot_IEC_60512_14_7_1997]]
+[NOTE]
+====
+Stability date: 2026
+
+Defines a standard test method to assess the effects of impacting water or specified
+fluid on electrical connecting devices.
+====
+
+* [[[IEC_60529_2013,IEC 60529:2013]]]
+footnoteblock:foot_IEC_60529_2013[]
+
+[[foot_IEC_60529_2013]]
+[NOTE]
+====
+Corr.1 (2003-01) Ed. 2.1 +
+Corr.2 (2007-10) Ed. 2.1
+
+Stability date: 2025
+
+Applies to the classification of degrees of protection provided by enclosures
+for electrical equipment with a rated voltage not exceeding stem:[72.5 "unitsml(kV)"].
+====
+
+* [[[IEC_60512_11_8_1995,IEC 60512-11-8:1995]]]
+footnoteblock:foot_IEC_60512_11_8_1995[]
+
+[[foot_IEC_60512_11_8_1995]]
+[NOTE]
+====
+Stability date: 2026
+
+Defines a standard test method to assess the ability of a connector to withstand
+driving fine sand and dust.
+====
+
+* [[[IEC_60721_2_5_1991,IEC 60721-2-5:1991]]]
+footnoteblock:foot_IEC_60721_2_5_1991[]
+
+[[foot_IEC_60721_2_5_1991]]
+[NOTE]
+====
+Stability date: 2024
+
+Presents characteristics of dust, sand and salt mist appearing in nature, and
+describes the influences from these environmental factors to which products
+are liable to be exposed during storage, transportation and use.
+====
+
+* [[[IEC_60068_2_11_2021,IEC 60068-2-11:2021]]]
+footnoteblock:foot_IEC_60068_2_11_2021[]
+
+[[foot_IEC_60068_2_11_2021]]
+[NOTE]
+====
+Stability date: 2027
+
+Compares resistance to deterioration from salt mist between specimens of similar
+construction. May be used to evaluate the quality and the uniformity of protective
+coatings.
+====
+
+* [[[IEC_60068_2_47_2005,IEC 60068-2-47:2005]]]
+footnoteblock:foot_IEC_60068_2_47_2005[]
+
+[[foot_IEC_60068_2_47_2005]]
+[NOTE]
+====
+Stability date: 2029
+
+Provides methods of mounting components, and mounting requirements for equipment
+and other articles, for the families of dynamic tests in IEC 60068-2, that is
+impact (Test E), vibration (Test F) and acceleration, steady-state (Test G).
+====
+
+* [[[IEC_60068_2_64_2019,IEC 60068-2-64:2019]]]
+footnoteblock:foot_IEC_60068_2_64_2019[]
+
+[[foot_IEC_60068_2_64_2019]]
+[NOTE]
+====
+Stability date: 2025
+
+Determines the adequacy of specimens to resist dynamic loads without unacceptable
+degradation of its functional and/or structural integrity when subjected to
+the specified random vibration test requirements. Broadband random vibration
+may be used to identify accumulated stress effects and the resulting mechanical
+weakness and degradation in the specified performance. This standard is applicable
+to specimens which may be subjected to vibration of a stochastic nature resulting
+from transportation or operational environments, for example in aircraft, space
+vehicles and land vehicles. It is primarily intended for unpackaged specimens
+and for items in their transportation container when the latter may be considered
+as part of the specimen itself.
+====
+
+* [[[IEC_60068_2_6_2007,IEC 60068-2-6:2007]]]
+footnoteblock:foot_IEC_60068_2_6_2007[]
+
+[[foot_IEC_60068_2_6_2007]]
+[NOTE]
+====
+Stability date: 2027
+
+Concerns a method of test which provides a standard procedure to determine the
+ability of components, equipment and other articles to withstand specified severities
+of sinusoidal vibration.
+====
+
+* [[[IEC_60068_2_31_2008,IEC 60068-2-31:2008]]]
+footnoteblock:foot_IEC_60068_2_31_2008[]
+
+[[foot_IEC_60068_2_31_2008]]
+[NOTE]
+====
+Stability date: 2026
+
+Provides a test procedure for simulating the effects of rough handling shocks,
+primarily in equipment-type specimens, the effects of knocks, jolts and falls
+which may be received during repair work or rough handling in operational use.
+This procedure does not simulate the effects of impacts received during transportation
+as loosely constrained cargo.
+====
+
+* [[[IEC_60654_2_1979,IEC 60654-2:1979]]]
+footnoteblock:foot_IEC_60654_2_1979[]
+
+[[foot_IEC_60654_2_1979]]
+[NOTE]
+====
+Stability date: 2024
+
+Gives the limiting values for power received by land-based and offshore industrial-process
+measurement and control systems or parts of systems during operation. Maintenance
+and repair conditions are not considered.
+====
+
+* [[[IEC_TR_61000_4_1_2016,IEC TR 61000-4-1:2016]]]
+footnoteblock:foot_IEC_TR_61000_4_1_2016[]
+
+[[foot_IEC_TR_61000_4_1_2016]]
+[NOTE]
+====
+Stability date: 2025
+
+Provides applicability assistance to the users and manufacturers of electrical
+and electronic equipment on EMC standards within the IEC 61000-4 series on testing
+and measurement techniques. Provides general recommendations concerning the
+choice of relevant tests.
+====
+
+* [[[IEC_TR_61000_2_1_1990,IEC TR 61000-2-1:1990]]]
+footnoteblock:foot_IEC_TR_61000_2_1_1990[]
+
+[[foot_IEC_TR_61000_2_1_1990]]
+[NOTE]
+====
+Stability date: 2027
+
+Has the status of a technical report, and gives information on the various types
+of disturbances that can be expected on public power supply systems. The following
+disturbance phenomena are considered: harmonics, inter-harmonics, voltage fluctuations,
+voltage dips and short supply interruptions, voltage unbalance, mains signalling,
+power frequency variation, and DC components.
+====
+
+* [[[IEC_61000_4_28_2009,IEC 61000-4-28:2009]]]
+footnoteblock:foot_IEC_61000_4_28_2009[]
+
+[[foot_IEC_61000_4_28_2009]]
+[NOTE]
+====
+Stability date: 2027
+
+Establishes a reference for evaluating the immunity of electric and electronic
+equipment when subjected to variations of the power frequency. Only conducted
+phenomena are considered, including immunity tests for equipment connected to
+public and industrial networks.
+====
+
+* [[[IEC_61000_2_2_2018,IEC 61000-2-2:2018]]]
+footnoteblock:foot_IEC_61000_2_2_2018[]
+
+[[foot_IEC_61000_2_2_2018]]
+[NOTE]
+====
+Stability date: 2027
+
+This standard is concerned with conducted disturbances in the frequency range
+from stem:[0 "unitsml(kHz)"] to stem:[9 "unitsml(kHz)"], with an extension up
+to stem:[148.5 "unitsml(kHz)"] specifically for mains signalling systems. It
+gives compatibility levels for public low voltage AC distribution systems having
+a nominal voltage up to stem:[420 "unitsml(V)"], single-phase or stem:[690 "unitsml(V)"]
+, three-phase and a nominal frequency of stem:[50 "unitsml(Hz)"] or
+stem:[60 "unitsml(Hz)"]. Compatibility levels are specified for electromagnetic
+disturbances of the types which can be expected in public low voltage power
+supply systems, for guidance in:
+
+* the limits to be set for disturbance emission into public power supply systems;
+* the immunity limits to be set by product committees and others for the equipment
+exposed to the conducted disturbances present in public power supply systems.
+====
+
+* [[[IEC_61000_4_11_2020,IEC 61000-4-11:2020]]]
+footnoteblock:foot_IEC_61000_4_11_2020[]
+
+[[foot_IEC_61000_4_11_2020]]
+[NOTE]
+====
+Stability date: 2028
+
+Provides the immunity test methods and range of preferred test levels for electrical
+and electronic equipment connected to low-voltage power supply networks for
+voltage dips, short interruptions, and voltage variations. It applies to equipment
+having a rated input current not exceeding stem:[16 "unitsml(A)"] per phase,
+for connection to stem:[50 "unitsml(Hz)"] or stem:[60 "unitsml(Hz)"] AC networks.
+It does not apply equipment for connection to stem:[400 "unitsml(Hz)"] AC networks.
+The object of this standard is to establish a common reference for evaluating
+the immunity of electrical and electronic equipment when subjected to voltage
+dips, short interruptions and voltage variations.
+====
+
+* [[[IEC_61000_6_1_2016,IEC 61000-6-1:2016]]]
+footnoteblock:foot_IEC_61000_6_1_2016[]
+
+[[foot_IEC_61000_6_1_2016]]
+[NOTE]
+====
+Stability date: 2025
+
+Defines the immunity performance requirements for electrical and electronic
+apparatus intended for use in residential, commercial and light-industrial environments,
+both indoor and outdoor and for which no dedicated product or product-family
+standard exists. Immunity requirements in the frequency range stem:[0 "unitsml(kHz)"]
+to stem:[400 "unitsml(GHz)"] are covered in relation to continuous and transient
+conducted and radiated disturbances, including electrostatic discharges and
+are specified for each port considered. This standard applies to apparatus intended
+to be directly connected to a low-voltage public mains network or connected
+to a dedicated DC source which is intended to interface between the apparatus
+and the low-voltage public mains network. This standard also applies to apparatus
+which are battery operated or powered by a non-public, but non-industrial, low
+voltage power distribution system if they are intended to be used in the environments
+described above.
+====
+
+* [[[IEC_61000_6_2_2016,IEC 61000-6-2:2016]]]
+footnoteblock:foot_IEC_61000_6_2_2016[]
+
+[[foot_IEC_61000_6_2_2016]]
+[NOTE]
+====
+Stability date: 2025
+
+Defines the immunity performance requirements for electrical and electronic
+apparatus intended for use in industrial environments, both indoor and outdoor
+and for which no dedicated product or product-family immunity standard exists.
+Immunity requirements in the frequency range stem:[0 "unitsml(Hz)"] to
+stem:[400 "unitsml(GHz)"] are covered, in relation to continuous and transient,
+conducted and radiated disturbances, including electrostatic discharges, and
+are specified for each port considered. This standard applies to apparatus intended
+to be connected to a power network supplied from a high or medium voltage transformer
+dedicated to the supply of an installation feeding manufacturing or similar
+plant, and intended to operate in or in proximity to industrial locations, as
+described below. This standard also applies to apparatus which are battery operated
+and intended to be used in industrial locations. Industrial locations are in
+addition characterised by the existence of one or more of the following:
+
+* industrial, scientific and medical (ISM) apparatus (as defined in CISPR 11);
+* heavy inductive or capacitive loads are frequently switched;
+* currents and associated magnetic fields are high.
+====
+
+* [[[IEC_61000_4_19_2014,IEC 61000-4-19:2014]]]
+footnoteblock:foot_IEC_61000_4_19_2014[]
+
+[[foot_IEC_61000_4_19_2014]]
+[NOTE]
+====
+Stability date: 2026
+
+Provides the immunity requirements and test methods for electrical and electronic
+equipment to conducted, differential mode disturbances and signalling in the
+range stem:[2 "unitsml(kHz)"] up to stem:[150 "unitsml(kHz)"] at a.c. power
+ports. These tests are intended to demonstrate the immunity of electrical and
+electronic equipment operating at a mains supply voltage up to stem:[280 "unitsml(V)"]
+(from phase to neutral or phase to earth, if no neutral is used) and a frequency
+of stem:[50 "unitsml(Hz)"] or stem:[60 "unitsml(Hz)"] when subjected to conducted,
+differential mode disturbances such as those originating from power electronics
+and power line communication systems (PLC). The immunity to harmonics and interharmonics,
+including mains signalling, on a.c. power ports up to stem:[2 "unitsml(kHz)"]
+in differential mode is covered by <<IEC_61000_4_13_2015>>.
+====
+
+* [[[IEC_61000_4_8_2009,IEC 61000-4-8:2009]]]
+footnoteblock:foot_IEC_61000_4_8_2009[]
+
+[[foot_IEC_61000_4_8_2009]]
+[NOTE]
+====
+Stability date: 2027
+
+Provides the immunity requirements of equipment, only under operational conditions,
+to magnetic disturbances at power frequency related to:
+
+* residential and commercial locations
+* industrial installations and power plants
+* medium voltage and high voltage sub-stations.
+====
+
+* [[[IEC_61000_4_6_2023,IEC 61000-4-6:2023]]]
+footnoteblock:foot_IEC_61000_4_6_2023[]
+
+[[foot_IEC_61000_4_6_2023]]
+[NOTE]
+====
+Stability date: 2027
+
+Provides the immunity requirements of electrical and electronic equipment to
+conducted electromagnetic disturbances originating from intended radio-frequency
+(RF) transmitters in the frequency range stem:[9 "unitsml(kHz)"] up to
+stem:[80 "unitsml(MHz)"]. Equipment not having at least one conducting cable
+(such as mains supply, signal line or earth connection), which can couple the
+equipment to the disturbing RF fields is excluded.
+====
+
+* [[[IEC_62053_41_2021,IEC 62053-41:2021]]]
+footnoteblock:foot_IEC_62053_41_2021[]
+
+[[foot_IEC_62053_41_2021]]
+[NOTE]
+====
+Stability date: 2027
+
+Applies to static watt-hour meters of accuracy classes 0,5 and 1 for the measurement
+of DC electrical energy in DC systems, and it applies to their type tests only.
+====
+
+* [[[IEC_62052_11_2020,IEC 62052-11:2020]]]
+footnoteblock:foot_IEC_62052_11_2020[]
+
+[[foot_IEC_62052_11_2020]]
+[NOTE]
+====
+Stability date: 2027
+
+Specifies requirements and associated tests, with their appropriate conditions
+for type testing of AC and DC electricity meters. This document details functional,
+mechanical, electrical and marking requirements, test methods, and test conditions,
+including immunity to external influences covering electromagnetic and climatic
+environments.
+====
+
+* [[[IEC_61000_4_20_2022,IEC 61000-4-20:2022]]]
+footnoteblock:foot_IEC_61000_4_20_2022[]
+
+[[foot_IEC_61000_4_20_2022]]
+[NOTE]
+====
+Stability date: 2025
+
+Provides radiated immunity test methods for electrical and electronic equipment
+using various types of transverse electromagnetic (TEM) waveguides. These types
+include open structures (for example, striplines and electromagnetic pulse simulators)
+and closed structures (for example, TEM cells).
+====
+
+* [[[IEC_61000_4_2_2008,IEC 61000-4-2:2008]]]
+footnoteblock:foot_IEC_61000_4_2_2008[]
+
+[[foot_IEC_61000_4_2_2008]]
+[NOTE]
+====
+Stability date: 2024
+
+Provides the immunity requirements and test methods for electrical and electronic
+equipment subjected to static electricity discharges, from operators directly,
+and from any person to adjacent objects. It additionally defines ranges of test
+levels which relate to different environmental and installation conditions and
+establishes test procedures.
+====
