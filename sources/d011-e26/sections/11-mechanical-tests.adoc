@@ -1,0 +1,297 @@
+// OIML D 11:2026, páginas 45 a 49 del PDF: cláusula 11 (tablas 15 a 18).
+== Mechanical performance tests
+
+=== Vibration
+
+In <<table-15>> and <<table-16>> two vibration tests (random and sinusoidal)
+are described. In general, it should be avoided to require both tests in OIML
+Recommendations.
+
+Implementation of the random vibration test is preferred in OIML Recommendations.
+
+The sinusoidal vibration test shall be applied only in those cases where the
+measuring instrument is expected to be typically subjected to sinusoidal vibrations.
+
+For both tests, selection guidance can be found in <<IEC_60068_3_8_2003>>.
+
+[[table-15]]
+.Vibration (random)
+[cols="<.<24a,^.^19a,^.^19a,^.^19a,^.^19a"]
+|===
+| Applicable standard
+4+<.<| <<IEC_60068_2_47_2005>>, <<IEC_60068_2_64_2019>>,
+<<IEC_60068_3_8_2003>>.
+
+| Test method
+4+<.<| Exposure to random vibration.
+
+| Applicability
+4+<.<| General.
+
+| Object of the test
+4+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of random vibration.
+
+| Test procedure in brief
+4+<.<| The test comprises exposure to vibration for a time sufficient for testing
+the various functions of the EUT during the exposure.
+
+The EUT shall, in turn, be tested in three, mutually perpendicular axes mounted
+on a rigid fixture by its normal mounting means.
+
+The EUT shall normally be mounted in such a way that the gravity vector points
+in the same direction as it would in normal use. If the measurement principle
+is such that the effect of the direction of the gravity vector can be considered
+negligible, the EUT may be mounted in any position.
+
+5+<.<| The following test levels may be specified:
+
+| Test level
+index
+footnote:[The test levels considered most appropriate and preferable for OIML
+Recommendations are presented in *bold face*.]
+| *1*
+| *2*
+| 3
+| unit
+
+| Total frequency range
+| *10 – 150*
+| *10 – 150*
+| 10 – 150
+| stem:["unitsml(Hz)"]
+
+| Total RMS level
+| *1.6*
+| *7*
+| 16
+| stem:["unitsml(m*s^-2)"]
+
+| ASD level stem:[10]–stem:[20 "unitsml(Hz)"]
+| *0.05*
+| *1*
+| 5
+| stem:["unitsml(m^2*s^-3)"]
+
+| ASD level stem:[20]–stem:[150 "unitsml(Hz)"]
+| *–3*
+| *–3*
+| –3
+| stem:["dB/octave"]
+
+| Duration per axis
+4+<.<| For each of the orthogonal directions the vibration exposure time shall
+be 2 minutes in each functional mode as defined in the applicable OIML Recommendation
+or for a longer period if necessary for performing the measurement.
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+4+<.<| Test level:
+
+* total frequency range,
+* total RMS level,
+* ASD (acceleration spectral density) level,
+* number of axes,
+* duration per axis.
+|===
+
+[[table-16]]
+.Vibration (sinusoidal)
+[cols="<.<24a,^.^19a,^.^19a,^.^19a,^.^19a"]
+|===
+| Applicable standards
+4+<.<| <<IEC_60068_2_6_2007>>, <<IEC_60068_2_47_2005>>,
+<<IEC_60068_3_8_2003>>.
+
+| Test method
+4+<.<| Exposure to sinusoidal vibration.
+
+| Applicability
+4+<.<| Applicable for measuring instruments used in locations where predominantly
+sinusoidal vibrations may be expected (see <<scls-8-3>>).
+
+| Object of the test
+4+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of sinusoidal vibration.
+
+| Test procedure in brief
+4+<.<| The test comprises exposure to vibration for a time sufficient for testing
+the various functions of the EUT during the exposure.
+
+The EUT shall be tested by exposing it to the specified acceleration level and
+sweeping the vibration frequency in the specified frequency range, at
+stem:[1 "octave/min"], for the specified number of sweep cycles per axis.
+
+The EUT shall be tested in three, mutually perpendicular main axes while mounted
+on a rigid fixture by its normal mounting means.
+
+The EUT shall normally be mounted in such a way that the gravity vector points
+in the same direction as it would in normal use. If the measurement principle
+is such that the effect of the direction of the gravity vector can be considered
+negligible, the EUT may be mounted in any position.
+
+5+<.<| The following test levels may be specified:
+
+| Test level
+index
+footnote:[The test levels considered most appropriate and preferable for OIML
+Recommendations are presented in *bold face.*]
+| *1*
+| *2*
+| 3
+| unit
+
+| Frequency range
+| *10 – 150*
+| *10 – 150*
+| 10 – 150
+| stem:["unitsml(Hz)"]
+
+| Max. acceleration level
+| *2*
+| *10*
+| 20
+| stem:["unitsml(m*s^-2)"]
+
+| Number of sweep cycles per axis
+| *20*
+| *20*
+| 20
+| -
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+4+<.<| . test level: frequency range, maximum acceleration, number of cycles,
+. mounting of the EUT,
+. pre-conditioning.
+|===
+
+=== Mechanical shock
+
+[[table-17]]
+.Mechanical shock – stationary device
+[cols="<.<24a,^.^26a,^.^26a,^.^24a"]
+|===
+| Applicable standard
+3+<.<| <<IEC_60068_2_31_2008>>.
+
+| Test method
+3+<.<| Dropping the EUT onto a rigid surface after tilting.
+
+| Applicability
+3+<.<| Devices normally intended to remain fixed or stationary.
+
+| Object of the test
+3+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of mechanical shocks.
+
+| Test procedure in brief
+3+<.<| The EUT, standing in its normal position of use on a rigid surface, is
+tilted along one bottom edge and is subsequently allowed to fall freely back
+on to the test surface.
+
+The height of fall is the distance between the opposite bottom edge and the
+test surface. However, the angle between the bottom and the test surface shall
+not exceed stem:[30 "unitsml(deg)"].
+
+4+<.<| The following test levels may be specified:
+
+| Test level index
+| *1*
+| *2*
+| unit
+
+| Height of fall
+| *25*
+| *50*
+| stem:["unitsml(mm)"]
+
+| Number of falls (on each bottom edge)
+| *1*
+| *1*
+| -
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+3+<.<| . conditioning procedure,
+. fitting of cables, covers, etc.,
+. way of execution of the test in case the bottom is not a rectangle,
+. test level: height of drop on to a face.
+|===
+
+[[table-18]]
+.Mechanical shock – hand held device
+[cols="<.<25a,^.^12a,^.^15a,^.^15a,^.^15a,<.^18a"]
+|===
+| Applicable standard
+5+<.<| <<IEC_60068_2_31_2008>> free fall
+
+| Test method
+5+<.<| Dropping EUT onto a rigid surface
+
+| Applicability
+5+<.<| Handheld EUTs.
+
+| Object of the test
+5+<.<| Verification of compliance with the provisions for disturbances in XYZ
+under conditions of mechanical shocks
+
+| Condition of the EUT
+5+<.<| Power is to be "on" for the duration of the test
+
+| Test procedure in brief
+5+<.<| For handheld EUTs:
+
+The test surface shall be smooth, hard, rigid, horizontal, and made of concrete
+or steel;
+
+The specimen shall be allowed to fall freely in its normal attitudes of use,
+taking into account all 3 spatial axes;
+
+The height shall be measured from the part of the specimen nearest to the test
+surface, when the specimen is suspended prior to letting it fall.
+
+The EUT is in operation at nominal measurement conditions. Note: nominal measurement
+condition refers to that which occurs often in practical use of the EUT.
+
+Test sequence:
+
+[arabic]
+. Measurements before disturbance (at reference conditions)
+. The disturbance shall be applied
+. Measurements after disturbance (at reference conditions)
+
+| Test level index
+| 1
+| 2
+| 3
+| 4
+|
+
+.3+<.^| Height of fall versus mass
+| *stem:[25 "unitsml(mm)"]*
+|
+|
+|
+| stem:["Mass" < 50 "unitsml(kg)"]
+
+^.^| stem:[50 "unitsml(mm)"]
+| *stem:[100 "unitsml(mm)"]*
+| stem:[250 "unitsml(mm)"]
+| *stem:[500 "unitsml(mm)"]*
+<| stem:["Mass" < 10 "unitsml(kg)"]
+
+^.^| stem:[750 "unitsml(mm)"]
+| *stem:[1000 "unitsml(mm)"]*
+| stem:[1500 "unitsml(mm)"]
+|
+<| stem:["Mass" < 1 "unitsml(kg)"]
+
+<.^| Number of falls (on each bottom edge)
+5+| 6
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+5+<.<| . conditioning procedure,
+. test level: height of drop on to a face.
+. Mass of EUT
+|===
+
+NOTE: The test levels considered most appropriate and preferable for OIML Recommendations
+are presented in *bold face*.

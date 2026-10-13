@@ -1,0 +1,48 @@
+// OIML D 11:2026, página 7 del PDF: cláusula 1.
+// Los párrafos numerados sin título (1.1 a 1.4) van como subcláusulas sin título
+// ("=== {blank}").
+== Introduction
+
+=== {blank}
+
+The primary aim of this International Document is to provide the OIML Technical
+Committees, Subcommittees and Project Groups with guidance for establishing
+appropriate metrological performance testing requirements for influence quantities
+which may affect the measuring instruments covered by OIML Recommendations.
+
+Furthermore, this Document aims to provide guidance to OIML Member States in
+the implementation of OIML Recommendations in their national laws, in particular
+in their choice on the applicability and severity of performance requirements,
+as far as these are not prescribed in the OIML Recommendations, but are left
+to national legislation.
+
+=== {blank}
+
+Based on information obtained from IEC and ISO standards and on the experience
+of experts who participated in its elaboration, this Document advises the OIML
+Technical Committees, Subcommittees and Project Groups on the prescription of
+requirements and the selection of the appropriate tests for measuring instruments,
+while taking into account the operational and environmental factors governing
+the use of these instruments.
+
+=== {blank}
+
+The range and test level for an influence quantity test should, when possible,
+be selected from the levels proposed in this Document, taking into account the
+conditions of use of the instruments concerned and the most recent IEC and ISO
+standards in the given field. Hence the approach in this Document is to present
+an overview of validated and internationally accepted test methods. In principle
+the text of this Document should not be in conflict with these referred standards.
+
+=== {blank}
+
+The OIML Technical Committees, Subcommittees and Project Groups responsible
+for OIML Recommendations covering specific categories of measuring instruments may
+
+* establish test procedures and special test levels (higher or lower) in such
+OIML Recommendations, different from those specified in this Document, if that
+would be more appropriate for specific measuring instruments or environments, and
+
+* utilise the expertise and knowledge of other OIML Technical Committees, Subcommittees
+and Project Groups or of other organisations to develop special test procedures
+and conditions not specified in this Document.

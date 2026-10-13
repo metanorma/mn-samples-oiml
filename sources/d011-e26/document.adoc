@@ -1,0 +1,54 @@
+= General requirements for measuring instruments – Environmental conditions
+:docnumber: 11
+:copyright-year: 2026
+:language: en
+:title-main-en: General requirements for measuring instruments – Environmental conditions
+:technical-committee-number: 5
+:technical-committee: General requirements for measuring instruments
+:subcommittee-number: 1
+:subcommittee: Environmental conditions
+:doctype: international-standard
+:mn-document-class: oiml
+:mn-output-extensions: xml,html
+:local-cache-only:
+:imagesdir: images
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-scope.adoc[]
+
+include::sections/03-terminology.adoc[]
+
+include::sections/04-instructions.adoc[]
+
+include::sections/05-requirements.adoc[]
+
+include::sections/06-type-evaluation.adoc[]
+
+include::sections/07-initial-verification.adoc[]
+
+include::sections/08-test-levels.adoc[]
+
+include::sections/09-performance-tests-general.adoc[]
+
+include::sections/10-climate-tests.adoc[]
+
+include::sections/11-mechanical-tests.adoc[]
+
+include::sections/12-mains-power-tests.adoc[]
+
+include::sections/13-em-disturbances.adoc[]
+
+include::sections/14-battery-tests.adoc[]
+
+include::sections/aa-documentation.adoc[]
+
+include::sections/ab-durability.adoc[]
+
+include::sections/ac-barometric-pressure.adoc[]
+
+include::sections/ad-comparison-table.adoc[]
+
+include::sections/b0-bibliography.adoc[]

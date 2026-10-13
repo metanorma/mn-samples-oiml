@@ -1,0 +1,537 @@
+// OIML D 11:2026, páginas 72 a 77 del PDF: cláusula 14 (tablas 40 a 45).
+// La tabla 40 cruza de página (pp. 72-73): una sola tabla.
+== Battery and non-mains power supply related performance tests
+
+Tests to determine the performance degradation of an EUT powered by batteries
+as a consequence of specific electrical influence quantities.
+
+=== Low voltage of internal battery
+
+[[table-40]]
+.Low voltage of internal battery (not connected to the mains power)
+[cols="<.<25a,<.<75a"]
+|===
+| Applicable standards
+| No standard is available.
+
+| Test method
+| Applying low supply voltage levels to the EUT.
+
+| Applicability
+| Applicable to all measuring instruments equipped with stand-alone batteries
+or rechargeable batteries.
+
+| Object of the test
+| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+during low battery voltage levels.
+
+| Test procedure
+| The test comprises exposure of the EUT to the specific low battery level condition
+during a period sufficient for achieving temperature stability and for performing
+the required measurements. The minimum voltage (stem:[V_"min"]) at which the
+instrument still complies the metrological requirements and the minimum battery
+supply voltage level (stem:[U_"bmin"]) shall be specified by the manufacturer
+of the instrument.
+
+The power supply shall be capable of delivering sufficient current at the applicable
+voltage levels.
+
+The test sequence is as follows:
+
+[arabic]
+. Nominal voltage condition
+.. Let the power supply stabilise at nominal voltage (stem:[V_"nom"]) and apply
+the measurement and/or loading condition.
+.. Record the actual measurement conditions including date, time and environmental
+conditions and the power supply voltage.
+. Minimum voltage condition
+.. Apply the stem:[V_"min"]
+.. Perform at least two measurements and record the errors and other relevant
+performance parameters.
+.. Verify compliance with <<scls-5-1-1>> or <<scls-5-1-2>>.
+. Voltages below stem:[V_"min"]
+
+Tests related to operation below stem:[V_"min"] shall be established by relevant
+OIML Recommendation. Instruments of the same type having different nominal voltages
+shall have the above tests conducted at each nominal voltage.
+
+Instruments with a nominal voltage range which are intended to operate with
+different types of batteries shall demonstrate compliance of the low battery
+condition at the lowest battery voltage level from the set of battery types
+specified by the manufacturer.
+
+2+<.<| The following test level may be specified:
+
+| Test level index
+^| 1
+
+| Voltage levels
+| stem:[V_"nom"] +
+stem:[V_"min"] +
+stem:[U_"bmin"]
+
+| Number of test cycles
+| At least one test cycle for each functional mode.
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+| . preconditioning of the EUT,
+. measurements and/or loading during conditioning and test,
+. number of test cycles,
+. maximum allowable variations,
+. response of the EUT to low supply voltage; for instance, indication or switch off.
+|===
+
+[[scls-14-2]]
+=== Power from external stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] road vehicle batteries
+
+NOTE: The nominal voltage stem:[U_"nom"] of the electrical system in road vehicles
+is usually stem:[12 "unitsml(V)"] or stem:[24 "unitsml(V)"]. However, the practical
+voltage at the battery terminals can vary considerably. <<ISO_7637_2_2011>>
+specifies reference levels of stem:[13.5 "unitsml(V)"] and stem:[27 "unitsml(V)"],
+respectively.
+
+NOTE: stem:[42 "unitsml(V)"] systems are not within the scope of the ISO 7637
+series of standards, nor of <<ISO_16750_2_2023>>.
+
+[[table-41]]
+.Voltage variations from external stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] road vehicle batteries
+[cols="<.<26a,^.^8a,^.^8a,^.^8a,^.^8a,^.^8a,^.^8a,^.^8a,^.^8a,^.^10a"]
+|===
+| Applicable standard
+9+<.<| <<ISO_16750_2_2023>>.
+
+| Test method
+9+<.<| Variation in supply voltage.
+
+| Applicability
+9+<.<| Applicable to all measuring instruments supplied by the internal battery
+of a vehicle and charged by use of a combustion engine driven generator.
+
+| Object of the test
+9+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of high (while charging) and low battery voltage.
+
+| Test procedure in brief
+9+<.<| The test comprises exposure to the specified maximum and minimum power
+supply voltage conditions for a period sufficient for achieving temperature
+stability and performing the required measurements at these conditions.
+
+10+<.<| The following test levels may be specified:
+
+| Nominal battery voltage
+4+| stem:[U_"nom" = 12 "unitsml(V)"]
+4+| stem:[U_"nom" = 24 "unitsml(V)"]
+| Unit
+
+| Test level
+index
+footnote:[In <<ISO_16750_2_2023>> called "Code".]
+footnoteblock:[fn-road-vehicle-voltage-code]
+| A
+| B
+| *C*
+| D
+| E
+| *F*
+| G
+| H
+|
+
+| Lower limit
+| 6
+| 8
+| *9*
+| 10.5
+| 10
+| *16*
+| 22
+| 18
+| stem:["unitsml(V)"]
+
+| Upper limit
+| 16
+| 16
+| *16*
+| 16
+| 32
+| *32*
+| 32
+| 32
+| stem:["unitsml(V)"]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+9+<.<| . preconditioning of the instrument,
+. measurements and/or loading during conditioning and test,
+. number of test cycles,
+. maximum allowable variations,
+. response of the EUT to low supply voltage; for instance, indication or switch off.
+|===
+
+[[fn-road-vehicle-voltage-code]]
+[NOTE]
+--
+Preferred test level for OIML Recommendations:
+
+Code C for stem:[12 "unitsml(V)"] batteries and code F for stem:[24 "unitsml(V)"]
+batteries.
+--
+
+[[table-42]]
+.Electrical transient conduction along supply lines of external stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] road vehicle batteries
+[cols="<.<23a,^.^15a,^.^16a,^.^18a,^.^18a,^.^10a"]
+|===
+| Applicable standard
+2+<.^| <<ISO_7637_2_2011>>
+3+<.<| § 5.6.2: Test pulse 2a + 2b +
+§ 5.6.3: Test pulse 3a + 3b
+
+| Test method
+5+<.<| Electrical transient conduction along supply lines.
+
+| Applicability
+5+<.<| Applicable to all measuring instruments supplied by the internal battery
+of a vehicle which may at the same time be charged by use of a combustion engine
+driven generator.
+
+| Object of the test
+5+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under the following
+conditions
+footnote:[Test pulse 1 mentioned in the standard is considered not applicable.
+Former test pulses 4 and 5 are no longer covered by the recent ISO 7637-2. Instead
+the recent <<ISO_16750_2_2023>> covers the phenomenon of energising starter
+motor circuits of combustion engines. Refer to <<table-43>> (pulse 4 of former
+ISO 7637-2) and <<table-44>> (pulse 5 of former ISO 7637-2).]:
+
+* transients due to a sudden interruption of current in a device connected in
+parallel with the device under test due to the inductance of the wiring harness
+(pulse 2a);
+* transients from DC motors acting as generators after the ignition is switched
+off (pulse
+2b)
+footnote:[Test pulse 2b is only applicable if the electrical power circuitry
+of the measuring instrument can be interrupted by the master switch of the car
+and as a consequence is not permanently connected to the battery of the car.
+This test will therefore be applicable in all situations where the manufacturer
+of the measuring instrument has *not* specified that the instrument is to be
+connected directly to the battery.];
+* transients on the supply lines which occur as a result of the switching processes
+(pulses 3a and 3b).
+
+| Test procedure in brief
+5+<.<| The test comprises exposure to disturbances on the power voltage by direct
+coupling into the supply lines.
+
+6+<.<| The following test levels may be specified:
+
+| Test level
+index
+footnote:[In <<ISO_7637_2_2011>>, so called "test levels".]
+footnote:[In <<ISO_7637_2_2011>>, the former levels I and II were deleted because
+transients in road vehicles do not ensure a sufficient level of immunity.]
+footnote:[The referred standard is primarily intended as a basis for contracts
+between manufacturers of motor vehicles and electronic sub-assemblies. As instruments
+shall comply with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>> in any
+type of car, test level IV is advised to incorporate in OIML Recommendations.]
+2+| III
+2+| *IV*
+.3+| unit
+
+.2+^.^| Test pulse
+2+| Pulse voltage stem:[U_"s"]
+2+| *Pulse voltage stem:[U_"s"]*
+
+^.^| stem:[U_"nom" = 12 "unitsml(V)"]
+| stem:[U_"nom" = 24 "unitsml(V)"]
+| *stem:[U_"nom" = 12 "unitsml(V)"]*
+| *stem:[U_"nom" = 24 "unitsml(V)"]*
+
+^.^| 2a
+| +55
+| +55
+| *+112*
+| *+112*
+| stem:["unitsml(V)"]
+
+^.^| 2b
+footnote:[Test pulse 2b is only applicable if the electrical power circuitry
+of the measuring instrument can be interrupted by the master switch of the car
+and as a consequence is not permanently connected to the battery of the car.
+This test will therefore be applicable in all situations where the manufacturer
+of the measuring instrument has *not* specified that the instrument is to be
+connected directly to the battery.]
+| +10
+| +20
+| *+10*
+| *+20*
+| stem:["unitsml(V)"]
+
+^.^| 3a
+| –165
+| –220
+| *–220*
+| *–300*
+| stem:["unitsml(V)"]
+
+^.^| 3b
+| +112
+| +220
+| *+150*
+| *+300*
+| stem:["unitsml(V)"]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+5+<.<| . test pulses to be applied,
+. test level to be applied,
+. minimum number of pulses or test time,
+. performance of the EUT during and after the test pulses.
+|===
+
+[[table-43]]
+.Electrical transient conduction via lines other than supply lines from external stem:[12 "unitsml(V)"] and stem:[24 "unitsml(V)"] road vehicle batteries
+[cols="<.^22a,<.^12a,^.^6a,^.^13a,^.^13a,^.^13a,^.^13a,^.^8a"]
+|===
+<.<| Applicable standard
+7+<.<| <<ISO_7637_3_2016>>, § 3.5.1: fast transient test pulses a and b.
+
+<.<| Test method
+7+<.<| Electrical transient conduction along lines other than supply lines.
+
+<.<| Applicability
+7+<.<| Only applicable to analogue I/O cabling of measuring instruments installed
+in vehicles
+footnote:[Only the capacitive coupling clamp method shall be applied.].
+
+<.<| Object of the test
+7+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of transients which occur on other lines as a result of the
+switching processes (pulses a and b).
+
+<.<| Test procedure in brief
+7+<.<| The test consists of exposure to bursts of voltage spikes by capacitive
+and inductive coupling via lines other than supply lines.
+
+|
+7+<.<| The following test levels may be specified:
+
+3+| Test level index
+^| I
+^| II
+| III
+| *IV*
+footnote:[The text of the standard indicates that this standard is primarily
+intended as a basis for contracts between manufacturers of motor vehicles and
+electronic sub-assemblies. As instruments must comply with the provisions in
+<<scls-5-1-1>> or <<scls-5-1-2>> in any type of car, test level IV is advised
+for application in OIML Recommendations.]
+| unit
+
+.2+| stem:[U_"nom" = 12 "unitsml(V)"]
+| pulse a
+| stem:[U_"s"]
+| −10
+| −20
+| −40
+| *−60*
+| stem:["unitsml(V)"]
+
+| pulse b
+^| stem:[U_"s"]
+^| +10
+| +20
+| +30
+| *+40*
+| stem:["unitsml(V)"]
+
+.2+| stem:[U_"nom" = 24 "unitsml(V)"]
+| pulse a
+| stem:[U_"s"]
+| −14
+| −28
+| −56
+| *−80*
+| stem:["unitsml(V)"]
+
+| pulse b
+^| stem:[U_"s"]
+^| +14
+| +28
+| +56
+| *+80*
+| stem:["unitsml(V)"]
+
+<.<| Information to be presented in the applicable OIML Recommendation, where
+relevant
+7+<.<| . test level to be applied,
+. performance of the EUT during and after the test pulses.
+|===
+
+[[table-44]]
+.Battery voltage variations when starting up a vehicle engine
+[cols="<.<22a,^.^10a,^.^10a,^.^10a,^.^10a,^.^10a,^.^9a,^.^10a,^.^9a"]
+|===
+| Applicable standard
+8+<.<| <<ISO_16750_2_2023>>.
+
+| Test method
+8+<.<| Supply voltage variation due to energising the starter motor of a vehicle.
+
+| Applicability
+8+<.<| Measuring instruments powered by on board DC battery and which may be
+in operation while the vehicle engine is started.
+
+| Object of the test
+8+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of starting the vehicle engine (during and after cranking).
+
+| Test procedure in brief
+8+<.<| The test comprises exposure to a typical supply voltage characteristic
+simulating the voltage variation while cranking the engine using a DC electrical
+starter motor.
+
+9+<.<| The following test profiles may be specified:
+
+| Nominal battery voltage
+4+| stem:[U_"nom" = 12 "unitsml(V)"]
+3+| stem:[U_"nom" = 24 "unitsml(V)"]
+.2+| Unit
+
+| Test profile
+footnote:[As specified in <<ISO_16750_2_2023>>.]
+| *I*
+footnote:[Preferred test profiles for OIML Recommendations.]
+| II
+| *III*
+footnote:[Preferred test profiles for OIML Recommendations.]
+| IV
+| *I*
+footnote:[Preferred test profiles for OIML Recommendations.]
+| II
+| *III*
+footnote:[Preferred test profiles for OIML Recommendations.]
+
+| stem:[U_"S"]
+| *8*
+| 4.5
+| *3*
+| 6
+| *10*
+| 8
+| *6*
+| stem:["unitsml(V)"]
+
+| stem:[U_"A"]
+| *9.5*
+| 6.5
+| *5*
+| 6.5
+| *20*
+| 15
+| *10*
+| stem:["unitsml(V)"]
+
+| stem:[t_8]
+| *1*
+| 10
+| *1*
+| 10
+| *1*
+| 10
+| *1*
+| stem:["unitsml(s)"]
+
+| stem:[t_f]
+| *40*
+| 100
+| *100*
+| 100
+| *40*
+| 100
+| *40*
+| stem:["unitsml(ms)"]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+8+<.<| . preconditioning of the instrument,
+. measurements and/or loading during conditioning and test,
+. number of test cycles,
+. maximum allowable variations,
+. response of the EUT to low supply voltage; for instance, indication or switch off.
+|===
+
+[[table-45]]
+."Load dump" test
+[cols="<.<23a,^.^15a,^.^16a,^.^16a,^.^16a,^.^14a"]
+|===
+| Applicable standard
+5+<.<| <<ISO_16750_2_2023>>.
+
+| Test method
+5+<.<| Supply voltage variation due to disconnecting a discharged battery.
+
+| Applicability
+5+<.<| Measuring instruments powered by on board DC battery and which may be
+in operation while the vehicle engine is running.
+
+| Object of the test
+5+<.<| Verification of compliance with the provisions in <<scls-5-1-1>> or <<scls-5-1-2>>
+under conditions of disconnecting a discharged vehicle battery while the charging
+alternator is running.
+
+| Test procedure in brief
+5+<.<| The test comprises exposure to a typical pulse on the supply voltage,
+simulating the voltage peak due to the impedance of connected loads when disconnecting
+the battery.
+
+6+<.<| The following pulse shapes may be specified:
+
+| Nominal battery voltage
+2+| stem:[U_"nom" = 12 "unitsml(V)"]
+2+| stem:[U_"nom" = 24 "unitsml(V)"]
+.2+| Unit
+
+| Test pulse shape
+footnote:[As specified in <<ISO_16750_2_2023>>.]
+| *A*
+footnote:[Preferred test pulse shapes for OIML Recommendations.]
+| *B*
+footnote:[Preferred test pulse shapes for OIML Recommendations.]
+| *A*
+footnote:[Preferred test pulse shapes for OIML Recommendations.]
+| *B*
+footnote:[Preferred test pulse shapes for OIML Recommendations.]
+
+| stem:[U_"S"]
+| *80*
+| *100*
+| *150*
+| *200*
+| stem:["unitsml(V)"]
+
+| stem:[R_"i"]
+| *0.5*
+| *4*
+| *1*
+| *8*
+| stem:["unitsml(V)"]
+
+| stem:[t_"r"]
+| *10*
+| *10*
+| *10*
+| *10*
+| stem:["unitsml(ms)"]
+
+| stem:[t_"d"]
+| *40-400*
+| *40-400*
+| *100-350*
+| *100-350*
+| stem:["unitsml(ms)"]
+
+| Information to be presented in the applicable OIML Recommendation, where relevant
+5+<.<| . preconditioning of the instrument,
+. test pulses to be applied,
+. test level to be applied,
+. minimum number of pulses or test time,
+. performance of the EUT during and after the test pulse.
+|===
