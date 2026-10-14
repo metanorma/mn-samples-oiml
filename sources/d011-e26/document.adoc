@@ -1,6 +1,8 @@
 = General requirements for measuring instruments – Environmental conditions
 :docnumber: 11
+:edition: 2026
 :copyright-year: 2026
+:revdate: 2026-01-01
 :language: en
 :title-main-en: General requirements for measuring instruments – Environmental conditions
 :technical-committee-number: 5
