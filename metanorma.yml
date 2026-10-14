@@ -21,6 +21,7 @@ metanorma:
       - sources/b018-e25/document.adoc
       - sources/d009-e04/document.adoc
       - sources/d011-e13/document.adoc
+      - sources/d011-e26/document.adoc
       - sources/d032/document.adoc
       - sources/r129/collection.yml
       - sources/r129/1/document.adoc
