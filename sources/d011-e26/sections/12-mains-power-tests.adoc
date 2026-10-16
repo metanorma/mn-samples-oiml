@@ -1,7 +1,4 @@
-// OIML D 11:2026, páginas 50 a 61 del PDF: cláusula 12 (tablas 19 a 30).
-// Las filas "Notes" pasan a footnote:[...] en las celdas con su marcador (A13); las notas
-// de varios párrafos o con lista, a footnoteblock (A22). La tabla 25 cruza de página
-// (pp. 56-57): una sola tabla.
+
 == External wiring and mains power supply related performance tests
 
 Methods for determining the degradation of performance of mains connected EUTs

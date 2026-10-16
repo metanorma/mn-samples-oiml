@@ -1,5 +1,4 @@
-// OIML D 11:2026, página 6 del PDF: Foreword.
-// Omitidos: portada (p. 1), página en blanco (p. 2), índice y listas de tablas (pp. 3 a 5).
+
 == Foreword
 
 The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental

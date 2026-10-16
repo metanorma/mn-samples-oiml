@@ -1,4 +1,4 @@
-// OIML D 11:2026, páginas 78 y 79 del PDF: Annex A (Informative).
+
 [[annex-a]]
 [appendix,obligation=informative]
 == Documentation for type evaluation
@@ -42,8 +42,9 @@ for verification marks,
 _concerning software and data management:_
 
 * specific information on the software required,
-* assessment of metrological relevant software. +
-_Note_: Refer to <<OIML_D_31_2023>> for further details.
+* assessment of metrological relevant software.
++
+NOTE: Refer to <<OIML_D_31_2023>> for further details.
 
 _concerning the installation requirements:_
 

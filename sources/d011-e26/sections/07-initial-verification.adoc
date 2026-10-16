@@ -1,4 +1,4 @@
-// OIML D 11:2026, página 21 del PDF: cláusula 7.
+
 == Initial verification
 
 Detailing requirements for initial verification or conformity to type evaluation

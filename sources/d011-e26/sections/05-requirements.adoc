@@ -1,4 +1,4 @@
-// OIML D 11:2026, páginas 17 a 19 del PDF: cláusula 5.
+
 == Requirements for measuring instruments with respect to their environment
 
 Measuring instruments shall comply with the following requirements, notwithstanding

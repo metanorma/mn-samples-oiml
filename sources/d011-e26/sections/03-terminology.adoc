@@ -1,6 +1,4 @@
-// OIML D 11:2026, páginas 8 a 15 del PDF: cláusula 3.
-// Las fuentes [VIML n] y [VIM n] van como [.source] al final de cada entrada:
-// VIML = OIML V 1:2022 y VIM = OIML V 2-200:2012, entradas 2 y 3 de la bibliografía.
+
 [heading=terms and definitions]
 == Terminology
 

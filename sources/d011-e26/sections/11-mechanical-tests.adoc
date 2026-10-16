@@ -1,4 +1,4 @@
-// OIML D 11:2026, páginas 45 a 49 del PDF: cláusula 11 (tablas 15 a 18).
+
 == Mechanical performance tests
 
 === Vibration

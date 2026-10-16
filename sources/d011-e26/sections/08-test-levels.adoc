@@ -1,4 +1,4 @@
-// OIML D 11:2026, páginas 21 a 32 del PDF: cláusula 8 (tablas 1 a 4).
+
 [[cls-8]]
 == Determination of test levels
 

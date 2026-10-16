@@ -1,5 +1,4 @@
-// OIML D 11:2026, páginas 72 a 77 del PDF: cláusula 14 (tablas 40 a 45).
-// La tabla 40 cruza de página (pp. 72-73): una sola tabla.
+
 == Battery and non-mains power supply related performance tests
 
 Tests to determine the performance degradation of an EUT powered by batteries

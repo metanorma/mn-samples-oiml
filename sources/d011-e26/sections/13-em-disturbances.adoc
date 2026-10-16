@@ -1,6 +1,4 @@
-// OIML D 11:2026, páginas 62 a 71 del PDF: cláusula 13 (tablas 31 a 39).
-// La tabla 38 cruza de página (pp. 68-69) y la 39 también (pp. 70-71): una sola tabla
-// cada una.
+
 == Electromagnetic environment related disturbances
 
 Methods for determining the degradation of performance of the EUT when exposed

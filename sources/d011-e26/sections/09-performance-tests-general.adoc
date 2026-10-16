@@ -1,8 +1,4 @@
-// OIML D 11:2026, páginas 32 a 38 del PDF: cláusula 9 (tabla 5 y figura 1).
-// La tabla 5 continúa en la página 36 con un recuadro de abreviaturas y "Rationale":
-// se escribe como dos filas finales de la misma tabla, a todo el ancho.
-// La figura 1 es vectorial (dos diagramas, p. 36) y de mapa de bits (uno, p. 37):
-// tres recortes en un bloque de subfiguras.
+
 == Instrument performance tests (general)
 
 === Preliminary remarks
@@ -371,7 +367,7 @@ Rationale:
 and changes in stored values (registers), while NSFd is designed to check for
 momentary changes in performance.
 +
-Note: damages can be physical damages or changes in measurement parameters,
+NOTE: damages can be physical damages or changes in measurement parameters,
 such as calibration parameters.
 . NSFa requires that the instrument is NOT measuring during the disturbance.
 It can be powered on, but the measuring function is not in operation. If the

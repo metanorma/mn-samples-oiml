@@ -1,7 +1,4 @@
-// OIML D 11:2026, páginas 82 y 83 del PDF: Annex C (Informative).
-// Figura C-1: imagen incrustada (los números del dibujo forman parte de la imagen);
-// la leyenda "(1) Vessel ... (10) Water-manometer" es texto del PDF y va como [%key].
-// Figura C-2: fotografía incrustada (284 x 284 px en el PDF).
+
 [[annex-c]]
 [appendix,obligation=informative]
 == Facility for tests on barometric pressure

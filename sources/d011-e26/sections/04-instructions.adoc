@@ -1,4 +1,4 @@
-// OIML D 11:2026, página 16 del PDF: cláusula 4.
+
 == Instructions for use of this Document in drafting OIML Recommendations
 
 The general structure of OIML Recommendations is defined in OIML Basic publication

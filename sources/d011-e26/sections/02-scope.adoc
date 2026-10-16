@@ -1,4 +1,4 @@
-// OIML D 11:2026, página 7 del PDF: cláusula 2.
+
 == Scope and field of application
 
 === {blank}

@@ -1,4 +1,4 @@
-// OIML D 11:2026, páginas 19 y 20 del PDF: cláusula 6.
+
 == Type evaluation
 
 === Application for type evaluation

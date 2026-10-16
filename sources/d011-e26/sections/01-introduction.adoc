@@ -1,6 +1,4 @@
-// OIML D 11:2026, página 7 del PDF: cláusula 1.
-// Los párrafos numerados sin título (1.1 a 1.4) van como subcláusulas sin título
-// ("=== {blank}").
+
 == Introduction
 
 === {blank}

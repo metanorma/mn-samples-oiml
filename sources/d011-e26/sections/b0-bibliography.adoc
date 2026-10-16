@@ -1,7 +1,4 @@
-// OIML D 11:2026, páginas 88 a 98 del PDF: Annex E "Bibliography and notes" (Informative).
-// La tabla de tres columnas del PDF (Ref., Standards and reference documents, Description)
-// pasa a una lista [bibliography]: Metanorma genera la columna Ref.; la designación va como
-// "documento:año" (A37); los títulos se quitan y la descripción va como nota al pie (A38).
+
 [bibliography]
 == Bibliography and notes
 
@@ -41,7 +38,7 @@ to ensure that all OIML publications are presented in as uniform a manner as
 possible.]
 
 * [[[IEC_60068_1_2013,IEC 60068-1:2013]]]
-footnoteblock:foot_IEC_60068_1_2013[]
+footnoteblock:[foot_IEC_60068_1_2013]
 
 [[foot_IEC_60068_1_2013]]
 [NOTE]
@@ -54,7 +51,7 @@ to perform under normal conditions of transportation, storage and operational us
 ====
 
 * [[[IEC_60721_3_3_2019,IEC 60721-3-3:2019]]]
-footnoteblock:foot_IEC_60721_3_3_2019[]
+footnoteblock:[foot_IEC_60721_3_3_2019]
 
 [[foot_IEC_60721_3_3_2019]]
 [NOTE]
@@ -67,7 +64,7 @@ locations.
 ====
 
 * [[[IEC_60721_3_4_2019,IEC 60721-3-4:2019]]]
-footnoteblock:foot_IEC_60721_3_4_2019[]
+footnoteblock:[foot_IEC_60721_3_4_2019]
 
 [[foot_IEC_60721_3_4_2019]]
 [NOTE]
@@ -81,7 +78,7 @@ which are non-weather protected.
 ====
 
 * [[[IEC_60068_3_4_2023,IEC 60068-3-4:2023]]]
-footnoteblock:foot_IEC_60068_3_4_2023[]
+footnoteblock:[foot_IEC_60068_3_4_2023]
 
 [[foot_IEC_60068_3_4_2023]]
 [NOTE]
@@ -99,7 +96,7 @@ to check the resistance of a specimen to some forms of corrosion attack.
 ====
 
 * [[[IEC_60068_3_8_2003,IEC 60068-3-8:2003]]]
-footnoteblock:foot_IEC_60068_3_8_2003[]
+footnoteblock:[foot_IEC_60068_3_8_2003]
 
 [[foot_IEC_60068_3_8_2003]]
 [NOTE]
@@ -126,7 +123,7 @@ selection.
 ====
 
 * [[[IEC_TR_61000_2_5_2017,IEC TR 61000-2-5:2017]]]
-footnoteblock:foot_IEC_TR_61000_2_5_2017[]
+footnoteblock:[foot_IEC_TR_61000_2_5_2017]
 
 [[foot_IEC_TR_61000_2_5_2017]]
 [NOTE]
@@ -144,7 +141,7 @@ operating in a specific location as defined by this report.
 ====
 
 * [[[IEC_61000_4_5_2017,IEC 61000-4-5:2017]]]
-footnoteblock:foot_IEC_61000_4_5_2017[]
+footnoteblock:[foot_IEC_61000_4_5_2017]
 
 [[foot_IEC_61000_4_5_2017]]
 [NOTE]
@@ -160,7 +157,7 @@ when subjected to high-energy disturbances on the power and inter-connection lin
 ====
 
 * [[[IEC_61000_4_17_2009,IEC 61000-4-17:2009]]]
-footnoteblock:foot_IEC_61000_4_17_2009[]
+footnoteblock:[foot_IEC_61000_4_17_2009]
 
 [[foot_IEC_61000_4_17_2009]]
 [NOTE]
@@ -183,7 +180,7 @@ switch mode converters.
 ====
 
 * [[[IEC_61000_4_29_2000,IEC 61000-4-29:2000]]]
-footnoteblock:foot_IEC_61000_4_29_2000[]
+footnoteblock:[foot_IEC_61000_4_29_2000]
 
 [[foot_IEC_61000_4_29_2000]]
 [NOTE]
@@ -202,7 +199,7 @@ by external DC networks. This standard defines:
 ====
 
 * [[[IEC_61000_4_13_2015,IEC 61000-4-13:2015]]]
-footnoteblock:foot_IEC_61000_4_13_2015[]
+footnoteblock:[foot_IEC_61000_4_13_2015]
 
 [[foot_IEC_61000_4_13_2015]]
 [NOTE]
@@ -218,7 +215,7 @@ power networks.
 ====
 
 * [[[IEC_61000_4_3_2020,IEC 61000-4-3:2020]]]
-footnoteblock:foot_IEC_61000_4_3_2020[]
+footnoteblock:[foot_IEC_61000_4_3_2020]
 
 [[foot_IEC_61000_4_3_2020]]
 [NOTE]
@@ -241,7 +238,7 @@ for basic safety and essential performance with regard to electromagnetic distur
 and for electromagnetic emissions of ME equipment and ME systems.]
 
 * [[[IEC_61000_4_39_2017,IEC 61000-4-39:2017]]]
-footnoteblock:foot_IEC_61000_4_39_2017[]
+footnoteblock:[foot_IEC_61000_4_39_2017]
 
 [[foot_IEC_61000_4_39_2017]]
 [NOTE]
@@ -286,7 +283,7 @@ and electronic equipment mounted directly on or in the vehicle. It does not
 cover electromagnetic compatibility (EMC).]
 
 * [[[IEC_61000_4_4_2012,IEC 61000-4-4:2012]]]
-footnoteblock:foot_IEC_61000_4_4_2012[]
+footnoteblock:[foot_IEC_61000_4_4_2012]
 
 [[foot_IEC_61000_4_4_2012]]
 [NOTE]
@@ -318,7 +315,7 @@ the concept of "measurement uncertainty" into OIML Recommendations and other
 OIML publications used for legal metrology purposes.]
 
 * [[[IEC_60068_2_2_2007,IEC 60068-2-2:2007]]]
-footnoteblock:foot_IEC_60068_2_2_2007[]
+footnoteblock:[foot_IEC_60068_2_2_2007]
 
 [[foot_IEC_60068_2_2_2007]]
 [NOTE]
@@ -333,7 +330,7 @@ throughout the test.
 ====
 
 * [[[IEC_60068_3_1_2023,IEC 60068-3-1:2023]]]
-footnoteblock:foot_IEC_60068_3_1_2023[]
+footnoteblock:[foot_IEC_60068_3_1_2023]
 
 [[foot_IEC_60068_3_1_2023]]
 [NOTE]
@@ -351,7 +348,7 @@ of air for temperature control.
 ====
 
 * [[[IEC_60068_2_1_2007,IEC 60068-2-1:2007]]]
-footnoteblock:foot_IEC_60068_2_1_2007[]
+footnoteblock:[foot_IEC_60068_2_1_2007]
 
 [[foot_IEC_60068_2_1_2007]]
 [NOTE]
@@ -363,7 +360,7 @@ and heat-dissipating specimens.
 ====
 
 * [[[IEC_60068_2_78_2012,IEC 60068-2-78:2012]]]
-footnoteblock:foot_IEC_60068_2_78_2012[]
+footnoteblock:[foot_IEC_60068_2_78_2012]
 
 [[foot_IEC_60068_2_78_2012]]
 [NOTE]
@@ -383,7 +380,7 @@ first edition. The test chamber from IEC 60068-3-6 has been introduced.
 ====
 
 * [[[IEC_60068_2_30_2005,IEC 60068-2-30:2005]]]
-footnoteblock:foot_IEC_60068_2_30_2005[]
+footnoteblock:[foot_IEC_60068_2_30_2005]
 
 [[foot_IEC_60068_2_30_2005]]
 [NOTE]
@@ -397,7 +394,7 @@ of the specimen.
 ====
 
 * [[[IEC_60068_2_18_2017,IEC 60068-2-18:2017]]]
-footnoteblock:foot_IEC_60068_2_18_2017[]
+footnoteblock:[foot_IEC_60068_2_18_2017]
 
 [[foot_IEC_60068_2_18_2017]]
 [NOTE]
@@ -422,7 +419,7 @@ to be selected.
 ====
 
 * [[[IEC_60512_14_7_1997,IEC 60512-14-7:1997]]]
-footnoteblock:foot_IEC_60512_14_7_1997[]
+footnoteblock:[foot_IEC_60512_14_7_1997]
 
 [[foot_IEC_60512_14_7_1997]]
 [NOTE]
@@ -434,7 +431,7 @@ fluid on electrical connecting devices.
 ====
 
 * [[[IEC_60529_2013,IEC 60529:2013]]]
-footnoteblock:foot_IEC_60529_2013[]
+footnoteblock:[foot_IEC_60529_2013]
 
 [[foot_IEC_60529_2013]]
 [NOTE]
@@ -449,7 +446,7 @@ for electrical equipment with a rated voltage not exceeding stem:[72.5 "unitsml(
 ====
 
 * [[[IEC_60512_11_8_1995,IEC 60512-11-8:1995]]]
-footnoteblock:foot_IEC_60512_11_8_1995[]
+footnoteblock:[foot_IEC_60512_11_8_1995]
 
 [[foot_IEC_60512_11_8_1995]]
 [NOTE]
@@ -461,7 +458,7 @@ driving fine sand and dust.
 ====
 
 * [[[IEC_60721_2_5_1991,IEC 60721-2-5:1991]]]
-footnoteblock:foot_IEC_60721_2_5_1991[]
+footnoteblock:[foot_IEC_60721_2_5_1991]
 
 [[foot_IEC_60721_2_5_1991]]
 [NOTE]
@@ -474,7 +471,7 @@ are liable to be exposed during storage, transportation and use.
 ====
 
 * [[[IEC_60068_2_11_2021,IEC 60068-2-11:2021]]]
-footnoteblock:foot_IEC_60068_2_11_2021[]
+footnoteblock:[foot_IEC_60068_2_11_2021]
 
 [[foot_IEC_60068_2_11_2021]]
 [NOTE]
@@ -487,7 +484,7 @@ coatings.
 ====
 
 * [[[IEC_60068_2_47_2005,IEC 60068-2-47:2005]]]
-footnoteblock:foot_IEC_60068_2_47_2005[]
+footnoteblock:[foot_IEC_60068_2_47_2005]
 
 [[foot_IEC_60068_2_47_2005]]
 [NOTE]
@@ -500,7 +497,7 @@ impact (Test E), vibration (Test F) and acceleration, steady-state (Test G).
 ====
 
 * [[[IEC_60068_2_64_2019,IEC 60068-2-64:2019]]]
-footnoteblock:foot_IEC_60068_2_64_2019[]
+footnoteblock:[foot_IEC_60068_2_64_2019]
 
 [[foot_IEC_60068_2_64_2019]]
 [NOTE]
@@ -520,7 +517,7 @@ as part of the specimen itself.
 ====
 
 * [[[IEC_60068_2_6_2007,IEC 60068-2-6:2007]]]
-footnoteblock:foot_IEC_60068_2_6_2007[]
+footnoteblock:[foot_IEC_60068_2_6_2007]
 
 [[foot_IEC_60068_2_6_2007]]
 [NOTE]
@@ -533,7 +530,7 @@ of sinusoidal vibration.
 ====
 
 * [[[IEC_60068_2_31_2008,IEC 60068-2-31:2008]]]
-footnoteblock:foot_IEC_60068_2_31_2008[]
+footnoteblock:[foot_IEC_60068_2_31_2008]
 
 [[foot_IEC_60068_2_31_2008]]
 [NOTE]
@@ -548,7 +545,7 @@ as loosely constrained cargo.
 ====
 
 * [[[IEC_60654_2_1979,IEC 60654-2:1979]]]
-footnoteblock:foot_IEC_60654_2_1979[]
+footnoteblock:[foot_IEC_60654_2_1979]
 
 [[foot_IEC_60654_2_1979]]
 [NOTE]
@@ -561,7 +558,7 @@ and repair conditions are not considered.
 ====
 
 * [[[IEC_TR_61000_4_1_2016,IEC TR 61000-4-1:2016]]]
-footnoteblock:foot_IEC_TR_61000_4_1_2016[]
+footnoteblock:[foot_IEC_TR_61000_4_1_2016]
 
 [[foot_IEC_TR_61000_4_1_2016]]
 [NOTE]
@@ -575,7 +572,7 @@ choice of relevant tests.
 ====
 
 * [[[IEC_TR_61000_2_1_1990,IEC TR 61000-2-1:1990]]]
-footnoteblock:foot_IEC_TR_61000_2_1_1990[]
+footnoteblock:[foot_IEC_TR_61000_2_1_1990]
 
 [[foot_IEC_TR_61000_2_1_1990]]
 [NOTE]
@@ -590,7 +587,7 @@ power frequency variation, and DC components.
 ====
 
 * [[[IEC_61000_4_28_2009,IEC 61000-4-28:2009]]]
-footnoteblock:foot_IEC_61000_4_28_2009[]
+footnoteblock:[foot_IEC_61000_4_28_2009]
 
 [[foot_IEC_61000_4_28_2009]]
 [NOTE]
@@ -604,7 +601,7 @@ public and industrial networks.
 ====
 
 * [[[IEC_61000_2_2_2018,IEC 61000-2-2:2018]]]
-footnoteblock:foot_IEC_61000_2_2_2018[]
+footnoteblock:[foot_IEC_61000_2_2_2018]
 
 [[foot_IEC_61000_2_2_2018]]
 [NOTE]
@@ -627,7 +624,7 @@ exposed to the conducted disturbances present in public power supply systems.
 ====
 
 * [[[IEC_61000_4_11_2020,IEC 61000-4-11:2020]]]
-footnoteblock:foot_IEC_61000_4_11_2020[]
+footnoteblock:[foot_IEC_61000_4_11_2020]
 
 [[foot_IEC_61000_4_11_2020]]
 [NOTE]
@@ -646,7 +643,7 @@ dips, short interruptions and voltage variations.
 ====
 
 * [[[IEC_61000_6_1_2016,IEC 61000-6-1:2016]]]
-footnoteblock:foot_IEC_61000_6_1_2016[]
+footnoteblock:[foot_IEC_61000_6_1_2016]
 
 [[foot_IEC_61000_6_1_2016]]
 [NOTE]
@@ -669,7 +666,7 @@ described above.
 ====
 
 * [[[IEC_61000_6_2_2016,IEC 61000-6-2:2016]]]
-footnoteblock:foot_IEC_61000_6_2_2016[]
+footnoteblock:[foot_IEC_61000_6_2_2016]
 
 [[foot_IEC_61000_6_2_2016]]
 [NOTE]
@@ -696,7 +693,7 @@ addition characterised by the existence of one or more of the following:
 ====
 
 * [[[IEC_61000_4_19_2014,IEC 61000-4-19:2014]]]
-footnoteblock:foot_IEC_61000_4_19_2014[]
+footnoteblock:[foot_IEC_61000_4_19_2014]
 
 [[foot_IEC_61000_4_19_2014]]
 [NOTE]
@@ -717,7 +714,7 @@ in differential mode is covered by <<IEC_61000_4_13_2015>>.
 ====
 
 * [[[IEC_61000_4_8_2009,IEC 61000-4-8:2009]]]
-footnoteblock:foot_IEC_61000_4_8_2009[]
+footnoteblock:[foot_IEC_61000_4_8_2009]
 
 [[foot_IEC_61000_4_8_2009]]
 [NOTE]
@@ -733,7 +730,7 @@ to magnetic disturbances at power frequency related to:
 ====
 
 * [[[IEC_61000_4_6_2023,IEC 61000-4-6:2023]]]
-footnoteblock:foot_IEC_61000_4_6_2023[]
+footnoteblock:[foot_IEC_61000_4_6_2023]
 
 [[foot_IEC_61000_4_6_2023]]
 [NOTE]
@@ -749,7 +746,7 @@ equipment to the disturbing RF fields is excluded.
 ====
 
 * [[[IEC_62053_41_2021,IEC 62053-41:2021]]]
-footnoteblock:foot_IEC_62053_41_2021[]
+footnoteblock:[foot_IEC_62053_41_2021]
 
 [[foot_IEC_62053_41_2021]]
 [NOTE]
@@ -761,7 +758,7 @@ of DC electrical energy in DC systems, and it applies to their type tests only.
 ====
 
 * [[[IEC_62052_11_2020,IEC 62052-11:2020]]]
-footnoteblock:foot_IEC_62052_11_2020[]
+footnoteblock:[foot_IEC_62052_11_2020]
 
 [[foot_IEC_62052_11_2020]]
 [NOTE]
@@ -776,7 +773,7 @@ environments.
 ====
 
 * [[[IEC_61000_4_20_2022,IEC 61000-4-20:2022]]]
-footnoteblock:foot_IEC_61000_4_20_2022[]
+footnoteblock:[foot_IEC_61000_4_20_2022]
 
 [[foot_IEC_61000_4_20_2022]]
 [NOTE]
@@ -790,7 +787,7 @@ and closed structures (for example, TEM cells).
 ====
 
 * [[[IEC_61000_4_2_2008,IEC 61000-4-2:2008]]]
-footnoteblock:foot_IEC_61000_4_2_2008[]
+footnoteblock:[foot_IEC_61000_4_2_2008]
 
 [[foot_IEC_61000_4_2_2008]]
 [NOTE]

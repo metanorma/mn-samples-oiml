@@ -1,7 +1,4 @@
-// OIML D 11:2026, páginas 38 a 45 del PDF: cláusula 10 (tablas 6 a 14).
-// En cada tabla, la fila "Note" con la nota del índice del nivel de ensayo pasa a ser
-// footnote:[...] en la celda "Test level index" (A13). Los niveles preferentes van en
-// negrita, como en el PDF.
+
 == Climate related performance tests
 
 === Static temperatures

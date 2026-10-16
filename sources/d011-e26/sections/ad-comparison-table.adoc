@@ -1,7 +1,4 @@
-// OIML D 11:2026, páginas 84 a 87 del PDF (apaisadas): Annex D (Informative).
-// La tabla cruza cuatro páginas y repite la cabecera en cada una: una sola tabla con
-// dos filas de cabecera (headerrows=2). Solo se marcan como referencias las de la
-// columna "Ref." de OIML D 11:2026; las de la edición de 2013 quedan como texto.
+
 [appendix,obligation=informative]
 == Comparison table
 
