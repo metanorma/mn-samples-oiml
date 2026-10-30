@@ -2,6 +2,10 @@ source "https://rubygems.org"
 
 gem "metanorma-cli" #, github: "metanorma/metanorma-cli"
 gem "mn2pdf", ">=2.52"
+# the documents declare :mn-document-class: oiml; the cli in-document
+# flavor detection loads the oiml flavor gem (unreleased — 0.1.0 is
+# the first cut, W11 of the release graph)
+gem "metanorma-oiml", github: "metanorma/metanorma-oiml", branch: "main"
 gem "metanorma-taste", github: "metanorma/metanorma-taste", branch: "main"
 
 # WARNING: only for testing
