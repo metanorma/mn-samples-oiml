@@ -17,11 +17,9 @@ gem "metanorma-taste", github: "metanorma/metanorma-taste", branch: "main"
 # gem "metanorma-iso", github: "metanorma/metanorma-iso", branch: "main"
 # gem "metanorma-taste", github: "metanorma/metanorma-taste", branch: "main"
 # gem "metanorma-utils", github: "metanorma/metanorma-utils", branch: "main"
-# gem "relaton-render", "= 3.0.0"
 # #gem "fontist", github: "fontist/fontist", branch: "main"
 # gem "mn2pdf"
 # gem "debug"
 # gem "sassc-embedded"
-gem "relaton", "~> 3.0" # 3.0.1 carries the COW prune fix (relaton#392)
-gem "relaton-bib", "2.2.0.pre.alpha.1"
+gem "relaton", "~> 3.1.1"
 gem "pubid", "~> 2.0" # 2.0.0 released; the git source now carries the 2.1 pre line
